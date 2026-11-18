@@ -55,6 +55,14 @@ agent_created: true
 2. 产生可复用资产时（跑赢的骨架、挖到的用户措辞），**主动写回**对应 KB 文件。这是整套系统"越用越值钱"的关键。
 3. 知识库是骨架 + 事实记录，**禁止编造**产品成本、参数、销量等数字；未知项标「待核实」。
 4. 测算类输出（销售计划）只给框架和指标结构，不代填假设数字——除非用户明确提供。
+5. **【强制】任何 Skill 文件 / 知识库更新后，立即同步 GitHub**（用户 2026-11-18 明确要求"以后每次更新直接同步 GitHub"）。同步命令：
+   ```bash
+   python3 ~/.workbuddy/skills/tiktok-shop-growth/scripts/sync_github.py -m "简要说明本次改动"
+   ```
+   - 该脚本自动把 5 个 Skill 从 `~/.workbuddy/skills/` 复制到工作区分发包，再一次 commit 推送整棵目录到 `https://github.com/troycc83-bit/tiktok-shop-growth-skills`。
+   - 凭证在 `~/.workbuddy/.github_token`（权限 600），脚本自行读取，无需用户再给 PAT。
+   - 只要本次会话改动了 `~/.workbuddy/skills/` 下任何文件（SKILL.md / references / scripts / shared-kb / assets），任务结束前必须跑一次同步，并确认输出 `✅ 已同步到 main`。不要在结论里说"本地比仓库新、需手动同步"这类话——直接同步掉。
+   - 若同步失败（凭证失效/网络），如实告知用户并给出原因，不要假装成功。
 
 ## 首次使用
 
