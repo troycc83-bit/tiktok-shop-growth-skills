@@ -1,1 +1,25 @@
-ewogImNvbGxlY3Rpb25MaXN0IjogWwogIHsKICAgImNvbGxlY3Rpb25JZCI6ICI3Mzk0NjI3NzU2NjM1NTczMDIyIiwKICAgImNvdmVyIjogewogICAgInVybExpc3QiOiBbCiAgICAgImh0dHBzOi8vcDE2LWNvbW1vbi1zaWduLnRpa3Rva2Nkbi11cy5jb20vdG9zLXVzZWFzdDJhLXAtMDAzNy1ldXR0cC9kNzFjNWE0NTk4MmE0ZmRlOWVmMDQ2ZGY0MTJkMzA4Yl8xNzA3NDExODc5fnRwbHYtdGlrdG9reC1vcmlnaW4uaW1hZ2U/ZHI9OTYzNiZ4LWV4cGlyZXM9MTc5MTM3ODAwMCZ4LXNpZ25hdHVyZT1iNThMMHFiRWFWT05uQ0JObnl3RWRjTWxzbGMlM0QmdD00ZDViMDQ3NCZwcz0xMzc0MDYxMCZzaHA9ODFmODhiNzAmc2hjcD00M2Y0YTJmOSZpZGM9dXNlYXN0OCIsCiAgICAgImh0dHBzOi8vcDE5LWNvbW1vbi1zaWduLnRpa3Rva2Nkbi11cy5jb20vdG9zLXVzZWFzdDJhLXAtMDAzNy1ldXR0cC9kNzFjNWE0NTk4MmE0ZmRlOWVmMDQ2ZGY0MTJkMzA4Yl8xNzA3NDExODc5fnRwbHYtdGlrdG9reC1vcmlnaW4uaW1hZ2U/ZHI9OTYzNiZ4LWV4cGlyZXM9MTc5MTM3ODAwMCZ4LXNpZ25hdHVyZT1ub0tFVTNKNjhCYTE4TUVVSFVqN09mTHdqZjAlM0QmdD00ZDViMDQ3NCZwcz0xMzc0MDYxMCZzaHA9ODFmODhiNzAmc2hjcD00M2Y0YTJmOSZpZGM9dXNlYXN0OCIsCiAgICAgImh0dHBzOi8vcDE2LWNvbW1vbi1zaWduLnRpa3Rva2Nkbi11cy5jb20vdG9zLXVzZWFzdDJhLXAtMDAzNy1ldXR0cC9kNzFjNWE0NTk4MmE0ZmRlOWVmMDQ2ZGY0MTJkMzA4Yl8xNzA3NDExODc5fnRwbHYtdGlrdG9reC1vcmlnaW4uanBlZz9kcj05NjM2JngtZXhwaXJlcz0xNzkxMzc4MDAwJngtc2lnbmF0dXJlPW03UmhjNjlPY29VZ3BNRjJJcTg1ZFVZSEZZdyUzRCZ0PTRkNWIwNDc0JnBzPTEzNzQwNjEwJnNocD04MWY4OGI3MCZzaGNwPTQzZjRhMmY5JmlkYz11c2Vhc3Q4IgogICAgXQogICB9LAogICAibmFtZSI6ICJTdW1tZXIgb2YgU3BvcnRzIiwKICAgInN0YXR1cyI6IDMsCiAgICJ0b3RhbCI6ICIxMzkiLAogICAidXNlcklkIjogIjEwNzk1NSIsCiAgICJ1c2VyTmFtZSI6ICJ0aWt0b2siCiAgfQogXSwKICJjdXJzb3IiOiAiMSIsCiAiaGFzTW9yZSI6IGZhbHNlLAogInN0YXR1c0NvZGUiOiAwLAogInN0YXR1c19jb2RlIjogMCwKICJzdGF0dXNfbXNnIjogIiIsCiAidG90YWwiOiAxCn0=
+{
+ "collectionList": [
+  {
+   "collectionId": "7394627756635573022",
+   "cover": {
+    "urlList": [
+     "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-p-0037-euttp/d71c5a45982a4fde9ef046df412d308b_1707411879~tplv-tiktokx-origin.image?dr=9636&x-expires=1791378000&x-signature=b58L0qbEaVONnCBNnywEdcMlslc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+     "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-p-0037-euttp/d71c5a45982a4fde9ef046df412d308b_1707411879~tplv-tiktokx-origin.image?dr=9636&x-expires=1791378000&x-signature=noKEU3J68Ba18MEUHUj7OfLwjf0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+     "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-p-0037-euttp/d71c5a45982a4fde9ef046df412d308b_1707411879~tplv-tiktokx-origin.jpeg?dr=9636&x-expires=1791378000&x-signature=m7Rhc69OcoUgpMF2Iq85dUYHFYw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8"
+    ]
+   },
+   "name": "Summer of Sports",
+   "status": 3,
+   "total": "139",
+   "userId": "107955",
+   "userName": "tiktok"
+  }
+ ],
+ "cursor": "1",
+ "hasMore": false,
+ "statusCode": 0,
+ "status_code": 0,
+ "status_msg": "",
+ "total": 1
+}

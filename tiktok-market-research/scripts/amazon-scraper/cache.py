@@ -1,1 +1,10 @@
-IiIiVGhlIGhvc3RlZCBzZXJ2aWNlIGNhY2hlcyByZXNwb25zZXM7IHRoaXMgcmVwbyBkb2VzIG5vdC4gVGhlIG9uZSB0aGluZyB0aGUKYW1hem9uIG1vZHVsZSBuZWVkcyBmcm9tIHRoYXQgbGF5ZXIgaXMgdGhlIG1hcmtlciBpdCB3cmFwcyBhIHJlc3VsdCBpbiB0byBzYXkKInJldHVybiB0aGlzLCBkbyBub3Qgc3RvcmUgaXQiLiIiIgoKCmNsYXNzIERvbnRDYWNoZToKICAgICIiIldyYXAgYSByZXN1bHQgdG8gcmV0dXJuIGl0IHdpdGhvdXQgc3RvcmluZyBpdC4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgZGF0YSk6CiAgICAgICAgc2VsZi5kYXRhID0gZGF0YQo=
+"""The hosted service caches responses; this repo does not. The one thing the
+amazon module needs from that layer is the marker it wraps a result in to say
+"return this, do not store it"."""
+
+
+class DontCache:
+    """Wrap a result to return it without storing it."""
+
+    def __init__(self, data):
+        self.data = data

@@ -1,1 +1,127 @@
-IiIiUnVubmluZyBzZXZlcmFsIHplcm8tYXJndW1lbnQgY2FsbGFibGVzIGF0IG9uY2UuCgpUd28gcmVzdWx0IHNoYXBlcyBleGlzdCBvbiBwdXJwb3NlLiBwZXJfY2FsbCgpIHJldHVybnMgdGhlIHJlc3VsdHMgYW5kIGxldHMKdGhlIGZpcnN0IGZhaWx1cmUgcHJvcGFnYXRlOyBndWFyZGVkX3Blcl9jYWxsKCkgbmV2ZXIgcmFpc2VzIGFuZCByZXR1cm5zCigib2siLCB2YWx1ZSkgLyAoImVycm9yIiwgZXhjZXB0aW9uKSBwYWlycywgZm9yIGJhdGNoIGVuZHBvaW50cyB0aGF0IHJlcG9ydAplYWNoIGl0ZW0ncyBvdXRjb21lLiIiIgppbXBvcnQgdGhyZWFkaW5nCmZyb20gY29uY3VycmVudC5mdXR1cmVzIGltcG9ydCBGSVJTVF9DT01QTEVURUQsIFRocmVhZFBvb2xFeGVjdXRvcgpmcm9tIGNvbmN1cnJlbnQuZnV0dXJlcyBpbXBvcnQgd2FpdCBhcyB3YWl0X2Z1dHVyZXMKCgpkZWYgcGVyX2NhbGwoZm5zLCB3b3JrZXJzKToKICAgICIiIlJ1biB6ZXJvLWFyZyBjYWxsYWJsZXMgaW4gcGFyYWxsZWw7IHJlc3VsdHMgYWxpZ24gd2l0aCBgZm5zYC4KICAgIEV4Y2VwdGlvbnMgcHJvcGFnYXRlIGZyb20gdGhlIGZpcnN0IGZhaWxpbmcgY2FsbC4iIiIKICAgIGlmIG5vdCBmbnM6CiAgICAgICAgcmV0dXJuIFtdCiAgICBpZiBsZW4oZm5zKSA9PSAxOgogICAgICAgIHJldHVybiBbZm5zWzBdKCldCiAgICB3aXRoIFRocmVhZFBvb2xFeGVjdXRvcihtYXhfd29ya2Vycz1taW4od29ya2VycywgbGVuKGZucykpKSBhcyBleDoKICAgICAgICBmdXR1cmVzID0gW2V4LnN1Ym1pdChmbikgZm9yIGZuIGluIGZuc10KICAgICAgICByZXR1cm4gW2YucmVzdWx0KCkgZm9yIGYgaW4gZnV0dXJlc10KCgpkZWYgZ3VhcmRlZF9wZXJfY2FsbChmbnMsIHdvcmtlcnMpOgogICAgIiIiUnVuIHplcm8tYXJnIGNhbGxhYmxlcyBpbiBwYXJhbGxlbDsgZWFjaCByZXN1bHQgaXMgKCJvayIsIHZhbHVlKSBvcgogICAgKCJlcnJvciIsIGV4Y2VwdGlvbiksIGFsaWduZWQgd2l0aCBgZm5zYC4iIiIKICAgIGRlZiBndWFyZChmbik6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXR1cm4gKCJvayIsIGZuKCkpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICByZXR1cm4gKCJlcnJvciIsIGUpCiAgICBpZiBub3QgZm5zOgogICAgICAgIHJldHVybiBbXQogICAgd2l0aCBUaHJlYWRQb29sRXhlY3V0b3IobWF4X3dvcmtlcnM9bWF4KDEsIG1pbih3b3JrZXJzLCBsZW4oZm5zKSkpKSBhcyBleDoKICAgICAgICByZXR1cm4gbGlzdChleC5tYXAoZ3VhcmQsIGZucykpCgoKZGVmIHdpbmRvd2VkKHBvb2xzLCBwcmVmaXgsIGZucywgd29ya2Vycyk6CiAgICAiIiJSdW4gYGZuc2Agb24gdGhlIHBvb2wgZm9yIHRoaXMgbmVzdGluZyBsZXZlbCwgYXQgbW9zdCBgd29ya2Vyc2AgYXQgYQogICAgdGltZTsgcmVzdWx0cyBhbGlnbiB3aXRoIGBmbnNgLiBgcG9vbHNgIGlzIHRoZSBzaXRlJ3MgKG91dGVyLCBpbm5lcikgcGFpcgogICAgb2YgZXhlY3V0b3JzIHdob3NlIHRocmVhZHMgYXJlIG5hbWVkIGA8cHJlZml4Pi0wYCAvIGA8cHJlZml4Pi0xYDogYSBjYWxsCiAgICBmcm9tIGFuIG91dGVyIHRocmVhZCB1c2VzIHRoZSBpbm5lciBwb29sLCBhIGNhbGwgZnJvbSBhbiBpbm5lciB0aHJlYWQgcnVucwogICAgaW5saW5lLiBUaGUgZmlyc3QgZmFpbHVyZSAoaW4gYGZuc2Agb3JkZXIpIHByb3BhZ2F0ZXMgb25jZSB0aGUgY2FsbGFibGVzCiAgICBhbHJlYWR5IHN0YXJ0ZWQgaGF2ZSBmaW5pc2hlZC4iIiIKICAgIG5hbWUgPSB0aHJlYWRpbmcuY3VycmVudF90aHJlYWQoKS5uYW1lCiAgICBpZiBuYW1lLnN0YXJ0c3dpdGgocHJlZml4ICsgIi0xIik6CiAgICAgICAgcmV0dXJuIFtmbigpIGZvciBmbiBpbiBmbnNdCiAgICBwb29sID0gcG9vbHNbMV0gaWYgbmFtZS5zdGFydHN3aXRoKHByZWZpeCArICItMCIpIGVsc2UgcG9vbHNbMF0KICAgIHJlc3VsdHMgPSBbTm9uZV0gKiBsZW4oZm5zKQogICAgcGVuZGluZywgZXJyb3JzLCBueHQgPSB7fSwge30sIDAKICAgIHdoaWxlIG54dCA8IGxlbihmbnMpIG9yIHBlbmRpbmc6CiAgICAgICAgd2hpbGUgbnh0IDwgbGVuKGZucykgYW5kIGxlbihwZW5kaW5nKSA8IHdvcmtlcnMgYW5kIG5vdCBlcnJvcnM6CiAgICAgICAgICAgIHBlbmRpbmdbcG9vbC5zdWJtaXQoZm5zW254dF0pXSA9IG54dAogICAgICAgICAgICBueHQgKz0gMQogICAgICAgIGlmIG5vdCBwZW5kaW5nOgogICAgICAgICAgICBicmVhawogICAgICAgIGRvbmUsIF8gPSB3YWl0X2Z1dHVyZXMocGVuZGluZywgcmV0dXJuX3doZW49RklSU1RfQ09NUExFVEVEKQogICAgICAgIGZvciBmdXR1cmUgaW4gZG9uZToKICAgICAgICAgICAgaW5kZXggPSBwZW5kaW5nLnBvcChmdXR1cmUpCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJlc3VsdHNbaW5kZXhdID0gZnV0dXJlLnJlc3VsdCgpCiAgICAgICAgICAgIGV4Y2VwdCBCYXNlRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICBlcnJvcnNbaW5kZXhdID0gZQogICAgaWYgZXJyb3JzOgogICAgICAgIHJhaXNlIGVycm9yc1ttaW4oZXJyb3JzKV0KICAgIHJldHVybiByZXN1bHRzCgoKZGVmIHNvZnQoZm4sIGRlZmF1bHQsIGVycm9ycyk6CiAgICAiIiJXcmFwIGFuIG9wdGlvbmFsIGxvb2t1cDogYSBmYWlsdXJlIGluIGBlcnJvcnNgIHlpZWxkcyBgZGVmYXVsdGAKICAgIGluc3RlYWQgb2YgZmFpbGluZyB0aGUgZW5kcG9pbnQuIiIiCiAgICBkZWYgcnVuKCk6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXR1cm4gZm4oKQogICAgICAgIGV4Y2VwdCBlcnJvcnM6CiAgICAgICAgICAgIHJldHVybiBkZWZhdWx0CiAgICByZXR1cm4gcnVuCgoKZGVmIGdhdGhlcihydW5fcGFyYWxsZWwsIG1hcHBpbmcsIGVycm9ycyk6CiAgICAiIiJ7a2V5OiBjYWxsYWJsZX0gaW4gcGFyYWxsZWwgLT4ge2tleTogcmVzdWx0fTsgYSBmYWlsdXJlIGluIGBlcnJvcnNgCiAgICBmb3Igb25lIGtleSB5aWVsZHMgTm9uZSBpbnN0ZWFkIG9mIGZhaWxpbmcgdGhlIHNldC4iIiIKICAgIGtleXMgPSBsaXN0KG1hcHBpbmcpCiAgICByZXN1bHRzID0gcnVuX3BhcmFsbGVsKFtzb2Z0KG1hcHBpbmdba10sIE5vbmUsIGVycm9ycykgZm9yIGsgaW4ga2V5c10pCiAgICByZXR1cm4gZGljdCh6aXAoa2V5cywgcmVzdWx0cykpCgoKZGVmIGdhdGhlcl9vcHRpb25hbChydW5fcGFyYWxsZWwsIG1hcHBpbmcsIG9wdGlvbmFsLCBlcnJvcnMpOgogICAgIiIie2tleTogY2FsbGFibGV9IGluIHBhcmFsbGVsIC0+IHtrZXk6IHJlc3VsdH0uIE9ubHkgdGhlIGtleXMgbmFtZWQgaW4KICAgIGBvcHRpb25hbGAgeWllbGQgTm9uZSBvbiBhIGZhaWx1cmUgaW4gYGVycm9yc2A7IGFueSBvdGhlciBrZXkgZmFpbHMgdGhlIHNldC4iIiIKICAgIGtleXMgPSBsaXN0KG1hcHBpbmcpCiAgICByZXN1bHRzID0gcnVuX3BhcmFsbGVsKFtzb2Z0KG1hcHBpbmdba10sIE5vbmUsIGVycm9ycykgaWYgayBpbiBvcHRpb25hbCBlbHNlIG1hcHBpbmdba10gZm9yIGsgaW4ga2V5c10pCiAgICByZXR1cm4gZGljdCh6aXAoa2V5cywgcmVzdWx0cykpCgoKZGVmIHBlcl9jYWxsX21hcChmbnMsIHdvcmtlcnMpOgogICAgIiIicGVyX2NhbGwoKSwgdGhyb3VnaCBFeGVjdXRvci5tYXA6IGFmdGVyIGEgZmFpbHVyZSB0aGUgY2FsbGFibGVzIG5vdCB5ZXQKICAgIHN0YXJ0ZWQgYXJlIGNhbmNlbGxlZCBpbnN0ZWFkIG9mIHJ1bi4iIiIKICAgIGlmIG5vdCBmbnM6CiAgICAgICAgcmV0dXJuIFtdCiAgICBpZiBsZW4oZm5zKSA9PSAxOgogICAgICAgIHJldHVybiBbZm5zWzBdKCldCiAgICB3aXRoIFRocmVhZFBvb2xFeGVjdXRvcihtYXhfd29ya2Vycz1taW4od29ya2VycywgbGVuKGZucykpKSBhcyBwb29sOgogICAgICAgIHJldHVybiBsaXN0KHBvb2wubWFwKGxhbWJkYSBmOiBmKCksIGZucykpCgoKZGVmIG9uX3Bvb2wocG9vbCwgZm5zKToKICAgICIiIlJ1biB6ZXJvLWFyZyBjYWxsYWJsZXMgb24gdGhlIHNpdGUncyBvd24gbG9uZy1saXZlZCBwb29sOyByZXN1bHRzIGFsaWduCiAgICB3aXRoIGBmbnNgLiBBIHNpbmdsZSBjYWxsYWJsZSBydW5zIG9uIHRoZSBjYWxsZXIncyB0aHJlYWQuIiIiCiAgICBpZiBub3QgZm5zOgogICAgICAgIHJldHVybiBbXQogICAgaWYgbGVuKGZucykgPT0gMToKICAgICAgICByZXR1cm4gW2Zuc1swXSgpXQogICAgZnV0dXJlcyA9IFtwb29sLnN1Ym1pdChmbikgZm9yIGZuIGluIGZuc10KICAgIHJldHVybiBbZi5yZXN1bHQoKSBmb3IgZiBpbiBmdXR1cmVzXQoKCmRlZiBvbl9wb29sX2NhbGxlcl9maXJzdChwb29sLCBmbnMpOgogICAgIiIib25fcG9vbCgpLCB3aXRoIHRoZSBmaXJzdCBjYWxsYWJsZSBydW4gb24gdGhlIGNhbGxlcidzIHRocmVhZCB3aGlsZSB0aGUKICAgIHJlc3QgYXJlIG9uIHRoZSBwb29sIChvbmUgd29ya2VyIGZld2VyIHBlciBjYWxsKS4iIiIKICAgIGlmIG5vdCBmbnM6CiAgICAgICAgcmV0dXJuIFtdCiAgICBpZiBsZW4oZm5zKSA9PSAxOgogICAgICAgIHJldHVybiBbZm5zWzBdKCldCiAgICBmdXR1cmVzID0gW3Bvb2wuc3VibWl0KGZuKSBmb3IgZm4gaW4gZm5zWzE6XV0KICAgIGZpcnN0ID0gZm5zWzBdKCkKICAgIHJldHVybiBbZmlyc3RdICsgW2YucmVzdWx0KCkgZm9yIGYgaW4gZnV0dXJlc10K
+"""Running several zero-argument callables at once.
+
+Two result shapes exist on purpose. per_call() returns the results and lets
+the first failure propagate; guarded_per_call() never raises and returns
+("ok", value) / ("error", exception) pairs, for batch endpoints that report
+each item's outcome."""
+import threading
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor
+from concurrent.futures import wait as wait_futures
+
+
+def per_call(fns, workers):
+    """Run zero-arg callables in parallel; results align with `fns`.
+    Exceptions propagate from the first failing call."""
+    if not fns:
+        return []
+    if len(fns) == 1:
+        return [fns[0]()]
+    with ThreadPoolExecutor(max_workers=min(workers, len(fns))) as ex:
+        futures = [ex.submit(fn) for fn in fns]
+        return [f.result() for f in futures]
+
+
+def guarded_per_call(fns, workers):
+    """Run zero-arg callables in parallel; each result is ("ok", value) or
+    ("error", exception), aligned with `fns`."""
+    def guard(fn):
+        try:
+            return ("ok", fn())
+        except Exception as e:
+            return ("error", e)
+    if not fns:
+        return []
+    with ThreadPoolExecutor(max_workers=max(1, min(workers, len(fns)))) as ex:
+        return list(ex.map(guard, fns))
+
+
+def windowed(pools, prefix, fns, workers):
+    """Run `fns` on the pool for this nesting level, at most `workers` at a
+    time; results align with `fns`. `pools` is the site's (outer, inner) pair
+    of executors whose threads are named `<prefix>-0` / `<prefix>-1`: a call
+    from an outer thread uses the inner pool, a call from an inner thread runs
+    inline. The first failure (in `fns` order) propagates once the callables
+    already started have finished."""
+    name = threading.current_thread().name
+    if name.startswith(prefix + "-1"):
+        return [fn() for fn in fns]
+    pool = pools[1] if name.startswith(prefix + "-0") else pools[0]
+    results = [None] * len(fns)
+    pending, errors, nxt = {}, {}, 0
+    while nxt < len(fns) or pending:
+        while nxt < len(fns) and len(pending) < workers and not errors:
+            pending[pool.submit(fns[nxt])] = nxt
+            nxt += 1
+        if not pending:
+            break
+        done, _ = wait_futures(pending, return_when=FIRST_COMPLETED)
+        for future in done:
+            index = pending.pop(future)
+            try:
+                results[index] = future.result()
+            except BaseException as e:
+                errors[index] = e
+    if errors:
+        raise errors[min(errors)]
+    return results
+
+
+def soft(fn, default, errors):
+    """Wrap an optional lookup: a failure in `errors` yields `default`
+    instead of failing the endpoint."""
+    def run():
+        try:
+            return fn()
+        except errors:
+            return default
+    return run
+
+
+def gather(run_parallel, mapping, errors):
+    """{key: callable} in parallel -> {key: result}; a failure in `errors`
+    for one key yields None instead of failing the set."""
+    keys = list(mapping)
+    results = run_parallel([soft(mapping[k], None, errors) for k in keys])
+    return dict(zip(keys, results))
+
+
+def gather_optional(run_parallel, mapping, optional, errors):
+    """{key: callable} in parallel -> {key: result}. Only the keys named in
+    `optional` yield None on a failure in `errors`; any other key fails the set."""
+    keys = list(mapping)
+    results = run_parallel([soft(mapping[k], None, errors) if k in optional else mapping[k] for k in keys])
+    return dict(zip(keys, results))
+
+
+def per_call_map(fns, workers):
+    """per_call(), through Executor.map: after a failure the callables not yet
+    started are cancelled instead of run."""
+    if not fns:
+        return []
+    if len(fns) == 1:
+        return [fns[0]()]
+    with ThreadPoolExecutor(max_workers=min(workers, len(fns))) as pool:
+        return list(pool.map(lambda f: f(), fns))
+
+
+def on_pool(pool, fns):
+    """Run zero-arg callables on the site's own long-lived pool; results align
+    with `fns`. A single callable runs on the caller's thread."""
+    if not fns:
+        return []
+    if len(fns) == 1:
+        return [fns[0]()]
+    futures = [pool.submit(fn) for fn in fns]
+    return [f.result() for f in futures]
+
+
+def on_pool_caller_first(pool, fns):
+    """on_pool(), with the first callable run on the caller's thread while the
+    rest are on the pool (one worker fewer per call)."""
+    if not fns:
+        return []
+    if len(fns) == 1:
+        return [fns[0]()]
+    futures = [pool.submit(fn) for fn in fns[1:]]
+    first = fns[0]()
+    return [first] + [f.result() for f in futures]

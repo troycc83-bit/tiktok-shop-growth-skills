@@ -1,1 +1,14 @@
-IiIiVGhlIGZhbGxiYWNrIGV4aXQgbGFkZGVyIHNvbWUgc2l0ZXMgd2FsayBhZnRlciBhIGJsb2NrOiBvd24gSVAsIHRoZW4gdGhlCmdhdGV3YXksIHRoZW4gYSByZXNpZGVudGlhbCBleGl0LiBUaGUgc3RlcCBhbmQgaXRzIGRlYWRsaW5lIHN0YXkgaW4gdGhlIHNpdGUKbW9kdWxlOyB0aGlzIGlzIG9ubHkgdGhlIGFyaXRobWV0aWMuIiIiCmltcG9ydCB0aW1lCgoKZGVmIGN1cnJlbnRfc3RlcChmYWxsYmFja19zdGVwLCBmYWxsYmFja191bnRpbCwgbG9jYWwsIGdhdGV3YXlfc3RlcCk6CiAgICAiIiJUaGUgbGFkZGVyIHN0ZXAgYSBuZXcgc2Vzc2lvbiBzaG91bGQgcmlkZTogdGhlIHNpdGUncyBmYWxsYmFjayBzdGVwCiAgICB3aGlsZSBpdHMgY29vbGRvd24gcnVucywgZWxzZSAwOyBvbmUgZnVydGhlciB3aGVuIHRoaXMgY2FsbCdzIGxhc3QgcmV0cnkKICAgIG1heSBwYXNzIHRoZSBnYXRld2F5IChgbG9jYWwucGFzdF9nYXRld2F5YCkgYW5kIHRoZSBzdGVwIGlzIGEgZ2F0ZXdheSBvbmUuIiIiCiAgICBzdGVwID0gZmFsbGJhY2tfc3RlcCBpZiB0aW1lLnRpbWUoKSA8IGZhbGxiYWNrX3VudGlsIGVsc2UgMAogICAgaWYgZ2V0YXR0cihsb2NhbCwgInBhc3RfZ2F0ZXdheSIsIEZhbHNlKSBhbmQgZ2F0ZXdheV9zdGVwKHN0ZXApOgogICAgICAgIHN0ZXAgKz0gMQogICAgcmV0dXJuIHN0ZXAK
+"""The fallback exit ladder some sites walk after a block: own IP, then the
+gateway, then a residential exit. The step and its deadline stay in the site
+module; this is only the arithmetic."""
+import time
+
+
+def current_step(fallback_step, fallback_until, local, gateway_step):
+    """The ladder step a new session should ride: the site's fallback step
+    while its cooldown runs, else 0; one further when this call's last retry
+    may pass the gateway (`local.past_gateway`) and the step is a gateway one."""
+    step = fallback_step if time.time() < fallback_until else 0
+    if getattr(local, "past_gateway", False) and gateway_step(step):
+        step += 1
+    return step

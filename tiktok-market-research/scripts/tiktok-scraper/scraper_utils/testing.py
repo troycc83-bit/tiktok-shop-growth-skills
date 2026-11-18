@@ -1,1 +1,20 @@
-IiIiVGVzdCBoZWxwZXJzIHNoYXJlZCBieSB0aGUgc2l0ZSB0ZXN0cy4KClRoZSBvbmUgbW9kdWxlIGhlcmUgdGhhdCBsb29rcyBhdCBgY29uZmlnYDogaXQgaGFzIHRvIHRlbGwgdGhlIGhvc3RlZCBzZXJ2aWNlLAp3aG9zZSBjb25maWcga25vd3MgYWJvdXQgcHJveGllcyBhbmQgZXhpdCBwb2xpY2llcywgZnJvbSBhbiBvcGVuLXNvdXJjZSByZXBvLAp3aG9zZSBjb25maWcgb25seSBuYW1lcyBhbiBvcHRpb25hbCBwcm94eS4iIiIKaW1wb3J0IHB5dGVzdAoKCmRlZiBfaG9zdGVkKCk6CiAgICB0cnk6CiAgICAgICAgaW1wb3J0IGNvbmZpZwogICAgZXhjZXB0IEltcG9ydEVycm9yOgogICAgICAgIHJldHVybiBGYWxzZQogICAgcmV0dXJuIGhhc2F0dHIoY29uZmlnLCAicmVzaWRlbnRpYWxfcHJveHkiKQoKCiMgRm9yIGEgdGVzdCBvZiB0aGUgaG9zdGVkIGV4aXQgcG9saWN5ICh3aGljaCBwcm94eSBhIHNlc3Npb24gcmlkZXMsIHdoYXQgYQojIGJsb2NrIG1vdmVzIGl0IHRvKS4gSXQgcnVucyBpbiB0aGUgc2VydmljZSdzIG93biB0cmVlIGFuZCBpcyBza2lwcGVkIGluIGFuCiMgb3Blbi1zb3VyY2UgcmVwbywgd2hlcmUgcmVxdWVzdHMgc2ltcGx5IGdvIG91dCBkaXJlY3QuCmhvc3RlZF9vbmx5ID0gcHl0ZXN0Lm1hcmsuc2tpcGlmKG5vdCBfaG9zdGVkKCksIHJlYXNvbj0idGVzdHMgdGhlIGhvc3RlZCBzZXJ2aWNlJ3MgZXhpdCBwb2xpY3k7IHRoaXMgcmVwbyBydW5zIGRpcmVjdCIpCg==
+"""Test helpers shared by the site tests.
+
+The one module here that looks at `config`: it has to tell the hosted service,
+whose config knows about proxies and exit policies, from an open-source repo,
+whose config only names an optional proxy."""
+import pytest
+
+
+def _hosted():
+    try:
+        import config
+    except ImportError:
+        return False
+    return hasattr(config, "residential_proxy")
+
+
+# For a test of the hosted exit policy (which proxy a session rides, what a
+# block moves it to). It runs in the service's own tree and is skipped in an
+# open-source repo, where requests simply go out direct.
+hosted_only = pytest.mark.skipif(not _hosted(), reason="tests the hosted service's exit policy; this repo runs direct")

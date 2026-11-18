@@ -1,1 +1,62 @@
-IiIiQ29uZmlndXJhdGlvbiBmb3IgdGhlIEFtYXpvbiBTY3JhcGVyLiBFdmVyeXRoaW5nIGNhbiBiZSBzZXQgd2l0aCBhbgplbnZpcm9ubWVudCB2YXJpYWJsZTsgdGhlIGRlZmF1bHRzIHdvcmsgb3V0IG9mIHRoZSBib3guCgogICAgUE9SVCAgICAgICAgICBwb3J0IHRoZSBBUEkgbGlzdGVucyBvbiAoZGVmYXVsdCA4MDAwKQogICAgQU1BWk9OX1BST1hZICBwcm94eSBVUkwgZm9yIGV2ZXJ5IHJlcXVlc3QsIGUuZy4gaHR0cDovL3VzZXI6cGFzc0Bob3N0OnBvcnQKICAgICAgICAgICAgICAgICAgKGRlZmF1bHQ6IG5vbmUg4oCUIGRpcmVjdCkuIFRoZSBVUywgVUssIEdlcm1hbiwgRnJlbmNoLAogICAgICAgICAgICAgICAgICBJbmRpYW4sIENhbmFkaWFuIOKApiBzdG9yZWZyb250cyBhbnN3ZXIgZGlyZWN0IHJlcXVlc3RzLCBzbyB5b3UKICAgICAgICAgICAgICAgICAgdmVyeSBsaWtlbHkgZG9uJ3QgbmVlZCB0aGlzLiBUd28gZXhjZXB0aW9uczogYW1hem9uLmNvLmpwIGFuZAogICAgICAgICAgICAgICAgICBhbWF6b24uY29tLmF1IG9ubHkgc2VydmUgdmlzaXRvcnMgZnJvbSB0aGVpciBvd24gY291bnRyeSDigJQKICAgICAgICAgICAgICAgICAgZm9yIGNvdW50cnk9SlAgLyBjb3VudHJ5PUFVIHNldCBhIHByb3h5IHRoYXQgZXhpdHMgaW4gSmFwYW4gLwogICAgICAgICAgICAgICAgICBBdXN0cmFsaWEuIEEgcmVzaWRlbnRpYWwgcHJveHkgYWxzbyBoZWxwcyBpZiB5b3UgcnVuIHZlcnkKICAgICAgICAgICAgICAgICAgaGlnaCB2b2x1bWVzIGZyb20gb25lIElQLgoKRXZlcnl0aGluZyBlbHNlIGJlbG93IGlzIGEgcGxhaW4gY29uc3RhbnQgd2l0aCBhIHdvcmtpbmcgZGVmYXVsdCDigJQgZWRpdCBpdApoZXJlIGlmIHlvdSBuZWVkIHRvLgoiIiIKaW1wb3J0IG9zCgpQT1JUID0gaW50KG9zLmVudmlyb24uZ2V0KCJQT1JUIiwgIjgwMDAiKSkKCiMgUmV0cnkgcG9saWN5IGZvciB0cmFuc3BvcnQgZXJyb3JzIGFuZCBibG9ja3MgKGV2ZXJ5IHJlcXVlc3QpLgpNQVhfUkVUUklFUyA9IDMKUkVUUllfQkFDS09GRiA9IDIgICAgICAgICAgIyBzZWNvbmRzLCBtdWx0aXBsaWVkIGJ5IHRoZSBhdHRlbXB0IG51bWJlcgoKQU1BWk9OX1BST1hZID0gb3MuZW52aXJvbi5nZXQoIkFNQVpPTl9QUk9YWSIpIG9yIE5vbmUKCiMgV2l0aCBhIHByb3h5IHNldCwgZXZlcnkgc2Vzc2lvbiBnb2VzIHRocm91Z2ggaXQgKHRoZSBwYWNrYWdlIGFza3MgZm9yIGEKIyBwZXItY291bnRyeSBleGl0OyBvbmUgcHJveHkgc2VydmVzIHRoZW0gYWxsKS4gV2l0aG91dCBpdDogZGlyZWN0LgpBTUFaT05fUFJPWFlfQ09VTlRSWSA9ICJhbnkiIGlmIEFNQVpPTl9QUk9YWSBlbHNlIE5vbmUKIyBXaGVyZSBhIG5ldyBzZXNzaW9uJ3MgdHJhZmZpYyBsZWF2ZXMgZnJvbSB3aGVuIG5vIEFNQVpPTl9QUk9YWSBpcyBzZXQ6CiMgImRpcmVjdCIgPSB0aGlzIG1hY2hpbmUncyBvd24gSVAuICgiZGF0YWNlbnRlciIgLyAicmVzaWRlbnRpYWwiIG5hbWUgdGhlCiMgdHdvIGV4aXQgcG9vbHMgdGhlIGhvc3RlZCBzZXJ2aWNlIHJ1bnMgb247IHdpdGggQU1BWk9OX1BST1hZIHRoZXkgYWxsCiMgcmVzb2x2ZSB0byB0aGF0IG9uZSBwcm94eS4pCkFNQVpPTl9FR1JFU1MgPSAiZGlyZWN0IgpBTUFaT05fREFUQUNFTlRFUl9GQUlMVVJFUyA9IDIgICAjIGZhaWx1cmVzIGJlZm9yZSBhIG1hcmtldHBsYWNlIG1vdmVzIHRvIHRoZSBmYWxsYmFjayBwcm94eSBmb3IgZ29vZAoKCmRlZiBhbWF6b25fY291bnRyeV9wcm94eShjb3VudHJ5KToKICAgICIiIlRoZSBwcm94eSBmb3IgYSBzZXNzaW9uIChOb25lID0gZGlyZWN0KS4iIiIKICAgIHJldHVybiBBTUFaT05fUFJPWFkKCgpkZWYgYW1hem9uX2RhdGFjZW50ZXJfcHJveHkoKToKICAgICIiIlRoZSBkYXRhY2VudGVyIGV4aXQgKHRoZSBob3N0ZWQgc2VydmljZSdzIGRlZmF1bHQpOyBoZXJlIEFNQVpPTl9QUk9YWS4iIiIKICAgIHJldHVybiBBTUFaT05fUFJPWFkKCgpkZWYgYW1hem9uX2ZhbGxiYWNrX3Byb3h5KGNvdW50cnkpOgogICAgIiIiVGhlIHByb3h5IGEgbWFya2V0cGxhY2UgbW92ZXMgdG8gYWZ0ZXIgcmVwZWF0ZWQgYmxvY2tzIChOb25lID0gbm9uZSkuIiIiCiAgICByZXR1cm4gQU1BWk9OX1BST1hZCgoKIyAtLS0tIGFkZGVkIGJ5IHRoZSBzeW5jOiBkZWZhdWx0cyBmb3IgYSBkaXJlY3QgcnVuIC0tLS0KQU1BWk9OX0dBVEVXQVlfRVhJVFMgPSBOb25lCkFNQVpPTl9HQVRFV0FZX0ZBSUxVUkVTID0gMgpBTUFaT05fR0FURVdBWV9QQVVTRSA9IDYwMApBTUFaT05fR0FURVdBWV9XSU5ET1cgPSA2MApBTUFaT05fU0VTU0lPTl9NQVhfQUdFID0gMTgwMApBTUFaT05fU0VTU0lPTl9VU0VTID0gNDAKZGVmIGdhdGV3YXlfZXhpdChleGl0PU5vbmUpOgogICAgcmV0dXJuIE5vbmUKCg==
+"""Configuration for the Amazon Scraper. Everything can be set with an
+environment variable; the defaults work out of the box.
+
+    PORT          port the API listens on (default 8000)
+    AMAZON_PROXY  proxy URL for every request, e.g. http://user:pass@host:port
+                  (default: none — direct). The US, UK, German, French,
+                  Indian, Canadian … storefronts answer direct requests, so you
+                  very likely don't need this. Two exceptions: amazon.co.jp and
+                  amazon.com.au only serve visitors from their own country —
+                  for country=JP / country=AU set a proxy that exits in Japan /
+                  Australia. A residential proxy also helps if you run very
+                  high volumes from one IP.
+
+Everything else below is a plain constant with a working default — edit it
+here if you need to.
+"""
+import os
+
+PORT = int(os.environ.get("PORT", "8000"))
+
+# Retry policy for transport errors and blocks (every request).
+MAX_RETRIES = 3
+RETRY_BACKOFF = 2          # seconds, multiplied by the attempt number
+
+AMAZON_PROXY = os.environ.get("AMAZON_PROXY") or None
+
+# With a proxy set, every session goes through it (the package asks for a
+# per-country exit; one proxy serves them all). Without it: direct.
+AMAZON_PROXY_COUNTRY = "any" if AMAZON_PROXY else None
+# Where a new session's traffic leaves from when no AMAZON_PROXY is set:
+# "direct" = this machine's own IP. ("datacenter" / "residential" name the
+# two exit pools the hosted service runs on; with AMAZON_PROXY they all
+# resolve to that one proxy.)
+AMAZON_EGRESS = "direct"
+AMAZON_DATACENTER_FAILURES = 2   # failures before a marketplace moves to the fallback proxy for good
+
+
+def amazon_country_proxy(country):
+    """The proxy for a session (None = direct)."""
+    return AMAZON_PROXY
+
+
+def amazon_datacenter_proxy():
+    """The datacenter exit (the hosted service's default); here AMAZON_PROXY."""
+    return AMAZON_PROXY
+
+
+def amazon_fallback_proxy(country):
+    """The proxy a marketplace moves to after repeated blocks (None = none)."""
+    return AMAZON_PROXY
+
+
+# ---- added by the sync: defaults for a direct run ----
+AMAZON_GATEWAY_EXITS = None
+AMAZON_GATEWAY_FAILURES = 2
+AMAZON_GATEWAY_PAUSE = 600
+AMAZON_GATEWAY_WINDOW = 60
+AMAZON_SESSION_MAX_AGE = 1800
+AMAZON_SESSION_USES = 40
+def gateway_exit(exit=None):
+    return None
+

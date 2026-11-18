@@ -1,1 +1,188 @@
-IiIiQW1hem9uIHJlZmVyZW5jZSBwYXJzaW5nOiBPTkUgcGFyYW0gcGVyIGlucHV0IHRoYXQgYXV0by1kZXRlY3RzIGl0cwpmb3JtcyAodHJpcGFkdmlzb3IgUXVlcnlPckxpbmtGaWVsZCBjb252ZW50aW9uIOKAlCBuZXZlciBhIHNpYmxpbmcgYHVybGAvYGlkYApwYWlyKS4gRXZlcnkgcmVzb2x2ZXIgcmV0dXJucyBhIHBsYWluIHZhbHVlIHNvIHRoZSB2YWxpZGF0ZWQgcGFyYW1zIHN0YXkKdXNhYmxlIGFzIGEgcmVzcG9uc2UtY2FjaGUga2V5OgoKICBwcm9kdWN0ICAgICBCMDA5MzlJN0VLIHwgMDEzMjM1MDg4MiAoSVNCTi0xMCkgfCBhbnkgYW1hem9uLjx0bGQ+IGxpbmsgd2l0aAogICAgICAgICAgICAgIC9kcC88YXNpbj4sIC9ncC9wcm9kdWN0Lzxhc2luPiwgL2dwL2F3L2QvPGFzaW4+LAogICAgICAgICAgICAgIC9wcm9kdWN0LXJldmlld3MvPGFzaW4+LCAvPHNsdWc+L2RwLzxhc2luPiAgLT4gdGhlIEFTSU4KICBzZWxsZXIgICAgICBBMUQwOVM3UTBPRDZUSCB8IGFtYXpvbi5jb20vc3A/c2VsbGVyPTxpZD4gfCBhbWF6b24uY29tL3M/bWU9PGlkPgogICAgICAgICAgICAgIHwgYW55IGxpbmsgY2Fycnlpbmcgc2VsbGVyPS9tZT0vbWFya2V0cGxhY2VJRCAgLT4gdGhlIHNlbGxlciBpZAogIGluZmx1ZW5jZXIgIHRhc3RlbWFkZSB8IGFtYXpvbi5jb20vc2hvcC90YXN0ZW1hZGVbL+KApl0gIC0+IHRoZSBoYW5kbGUKICBwb3N0ICAgICAgICAxTjg0UFEzQ0k0TlcwIHwgYW1hem9uLmNvbS9zaG9wL3Rhc3RlbWFkZS9saXN0LzFOODRQUTNDSTROVzAKICAgICAgICAgICAgICAtPiB7ImhhbmRsZSI6IOKApnxOb25lLCAiaWQiOiDigKZ9CiAgbm9kZSAgICAgICAgMTcyMjgyIHwgYW1hem9uLmNvbS9zP3JoPW46MTcyMjgyIHwgYW1hem9uLmNvbS9iP25vZGU9MTcyMjgyCiAgICAgICAgICAgICAgfCDigKYvcz9rPXgmaT1lbGVjdHJvbmljcyZyaD1uOjE3MjI4MixuOjU0MTk2NiAobGFzdCBub2RlIHdpbnMpCiAgICAgICAgICAgICAgLT4gdGhlIG51bWVyaWMgYnJvd3NlIG5vZGUgaWQKICBiZXN0c2VsbGVyICBlbGVjdHJvbmljcyB8IGVsZWN0cm9uaWNzLzE3MjU0MSB8IGFtYXpvbi5jb20vZ3AvYmVzdHNlbGxlcnMvCiAgY2F0ZWdvcnkgICAgZWxlY3Ryb25pY3MvMTcyNTQxIHwgYW1hem9uLmNvbS9CZXN0LVNlbGxlcnMt4oCmL3pnYnMvZWxlY3Ryb25pY3MvMTcyNTQxCiAgICAgICAgICAgICAgfCBncC9uZXctcmVsZWFzZXMv4oCmIHwgZ3AvbW92ZXJzLWFuZC1zaGFrZXJzL+KApiAtPiAiZWxlY3Ryb25pY3MvMTcyNTQxIgogIHF1ZXJ5ICAgICAgIGxhcHRvcCB8IGFtYXpvbi5jb20vcz9rPWxhcHRvcCAtPiB0aGUga2V5d29yZCB0ZXh0CiAgbGluayAgICAgICAgYW55IGFtYXpvbi48dGxkPiBsaW5rIChzY3JhcGUtYnktdXJsKSAtPiB0aGUgbGluayBpdHNlbGYKCmBjb3VudHJ5X29mKHZhbHVlKWAgdGVsbHMgdGhlIHNjaGVtYSB3aGljaCBtYXJrZXRwbGFjZSBhIHBhc3RlZCBsaW5rCmJlbG9uZ3MgdG8gKGFtYXpvbi5kZSAtPiBERSkgc28gdGhlIGNhbGxlciBuZWVkIG5vdCByZXBlYXQgYGNvdW50cnlgLgoiIiIKaW1wb3J0IHJlCmZyb20gdXJsbGliLnBhcnNlIGltcG9ydCBwYXJzZV9xcywgdW5xdW90ZSwgdXJscGFyc2UKCmZyb20gYW1hem9uIGltcG9ydCBzaXRlcwoKX0FTSU5fUkUgPSByZS5jb21waWxlKHIiXltBLVowLTldezEwfSQiKQpfQVNJTl9QQVRIX1JFID0gcmUuY29tcGlsZShyIi8oPzpkcHxncC9wcm9kdWN0fGdwL2F3L2R8cHJvZHVjdC1yZXZpZXdzfGdwL29mZmVyLWxpc3Rpbmd8ZHAvcHJvZHVjdCkvKFtBLVowLTldezEwfSkoPz1bLz8jXXwkKSIsIHJlLkkpCl9BU0lOX1NMVUdfUkUgPSByZS5jb21waWxlKHIiL2RwLyhbQS1aMC05XXsxMH0pIiwgcmUuSSkKX1NFTExFUl9SRSA9IHJlLmNvbXBpbGUociJeQVtBLVowLTldezksMjR9JCIpCl9IQU5ETEVfUkUgPSByZS5jb21waWxlKHIiXltBLVphLXowLTkuX1wtXXsxLDgwfSQiKQpfUE9TVF9JRF9SRSA9IHJlLmNvbXBpbGUociJeW0EtWjAtOV17OCwyMH0kIikKX0JTX1BBVEhfUkUgPSByZS5jb21waWxlKHIiLyg/OnpnYnN8Z3AvKD86YmVzdHNlbGxlcnN8bmV3LXJlbGVhc2VzfG1vdmVycy1hbmQtc2hha2Vyc3xtb3N0LXdpc2hlZC1mb3J8bW9zdC1naWZ0ZWQpKS8oW14/I10qKSIsIHJlLkkpCgoKZGVmIF9pc19saW5rKHZhbHVlKToKICAgIGxvdyA9IHZhbHVlLmxvd2VyKCkKICAgIHJldHVybiBsb3cuc3RhcnRzd2l0aCgoImh0dHA6Ly8iLCAiaHR0cHM6Ly8iLCAiLy8iKSkgb3IgImFtYXpvbi4iIGluIGxvdwoKCmRlZiBfcGFyc2VkKHZhbHVlKToKICAgIHVybCA9IHZhbHVlIGlmICI6Ly8iIGluIHZhbHVlIGVsc2UgImh0dHBzOi8vIiArIHZhbHVlLmxzdHJpcCgiLyIpCiAgICByZXR1cm4gdXJscGFyc2UodXJsKQoKCmRlZiBjb3VudHJ5X29mKHZhbHVlKToKICAgICIiIklTTyBjb3VudHJ5IG9mIGFuIEFtYXpvbiBsaW5rLCBOb25lIGZvciBiYXJlIGlkcyAvIG90aGVyIGhvc3RzLiIiIgogICAgdmFsdWUgPSAodmFsdWUgb3IgIiIpLnN0cmlwKCkKICAgIGlmIG5vdCB2YWx1ZSBvciBub3QgX2lzX2xpbmsodmFsdWUpOgogICAgICAgIHJldHVybiBOb25lCiAgICByZXR1cm4gc2l0ZXMuY291bnRyeV9mb3JfaG9zdChfcGFyc2VkKHZhbHVlKS5ob3N0bmFtZSBvciAiIikKCgpkZWYgcmVzb2x2ZV9wcm9kdWN0KHZhbHVlKToKICAgIHZhbHVlID0gKHZhbHVlIG9yICIiKS5zdHJpcCgpCiAgICBpZiBfQVNJTl9SRS5tYXRjaCh2YWx1ZS51cHBlcigpKSBhbmQgbm90IHZhbHVlLmlzYWxwaGEoKToKICAgICAgICByZXR1cm4gdmFsdWUudXBwZXIoKQogICAgaWYgX2lzX2xpbmsodmFsdWUpOgogICAgICAgIHBhcnNlZCA9IF9wYXJzZWQodmFsdWUpCiAgICAgICAgbWF0Y2ggPSBfQVNJTl9QQVRIX1JFLnNlYXJjaChwYXJzZWQucGF0aCkgb3IgX0FTSU5fU0xVR19SRS5zZWFyY2gocGFyc2VkLnBhdGgpCiAgICAgICAgaWYgbWF0Y2g6CiAgICAgICAgICAgIHJldHVybiBtYXRjaC5ncm91cCgxKS51cHBlcigpCiAgICAgICAgYXNpbiA9IHBhcnNlX3FzKHBhcnNlZC5xdWVyeSkuZ2V0KCJhc2luIiwgW05vbmVdKVswXQogICAgICAgIGlmIGFzaW4gYW5kIF9BU0lOX1JFLm1hdGNoKGFzaW4udXBwZXIoKSk6CiAgICAgICAgICAgIHJldHVybiBhc2luLnVwcGVyKCkKICAgIHJhaXNlIFZhbHVlRXJyb3IoInByb2R1Y3QgbXVzdCBiZSBhbiBBU0lOIChlLmcuIEIwMDkzOUk3RUspIG9yIGFuIEFtYXpvbiBwcm9kdWN0IGxpbmsgKOKApi9kcC88YXNpbj4pIikKCgpkZWYgcmVzb2x2ZV9zZWxsZXIodmFsdWUpOgogICAgdmFsdWUgPSAodmFsdWUgb3IgIiIpLnN0cmlwKCkKICAgIGlmIF9TRUxMRVJfUkUubWF0Y2godmFsdWUudXBwZXIoKSkgYW5kIG5vdCBfaXNfbGluayh2YWx1ZSk6CiAgICAgICAgcmV0dXJuIHZhbHVlLnVwcGVyKCkKICAgIGlmIF9pc19saW5rKHZhbHVlKToKICAgICAgICBxdWVyeSA9IHBhcnNlX3FzKF9wYXJzZWQodmFsdWUpLnF1ZXJ5KQogICAgICAgIGZvciBrZXkgaW4gKCJzZWxsZXIiLCAibWUiLCAic2VsbGVySUQiLCAibWVyY2hhbnQiKToKICAgICAgICAgICAgc2lkID0gcXVlcnkuZ2V0KGtleSwgW05vbmVdKVswXQogICAgICAgICAgICBpZiBzaWQgYW5kIF9TRUxMRVJfUkUubWF0Y2goc2lkLnVwcGVyKCkpOgogICAgICAgICAgICAgICAgcmV0dXJuIHNpZC51cHBlcigpCiAgICByYWlzZSBWYWx1ZUVycm9yKCJzZWxsZXIgbXVzdCBiZSBhbiBBbWF6b24gc2VsbGVyIGlkIChlLmcuIEExRDA5UzdRME9ENlRIKSBvciBhIHNlbGxlciBsaW5rIChhbWF6b24uY29tL3NwP3NlbGxlcj08aWQ+KSIpCgoKZGVmIHJlc29sdmVfaW5mbHVlbmNlcih2YWx1ZSk6CiAgICB2YWx1ZSA9ICh2YWx1ZSBvciAiIikuc3RyaXAoKQogICAgaWYgX2lzX2xpbmsodmFsdWUpOgogICAgICAgIHBhcnRzID0gW3AgZm9yIHAgaW4gX3BhcnNlZCh2YWx1ZSkucGF0aC5zcGxpdCgiLyIpIGlmIHBdCiAgICAgICAgaWYgbGVuKHBhcnRzKSA+PSAyIGFuZCBwYXJ0c1swXS5sb3dlcigpID09ICJzaG9wIjoKICAgICAgICAgICAgcmV0dXJuIHBhcnRzWzFdCiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiaW5mbHVlbmNlciBsaW5rIG11c3QgbG9vayBsaWtlIGFtYXpvbi5jb20vc2hvcC88bmFtZT4iKQogICAgdmFsdWUgPSB2YWx1ZS5sc3RyaXAoIkAiKQogICAgaWYgX0hBTkRMRV9SRS5tYXRjaCh2YWx1ZSk6CiAgICAgICAgcmV0dXJuIHZhbHVlCiAgICByYWlzZSBWYWx1ZUVycm9yKCJpbmZsdWVuY2VyIG11c3QgYmUgYW4gQW1hem9uIHN0b3JlZnJvbnQgbmFtZSAoZS5nLiB0YXN0ZW1hZGUpIG9yIGFuIGFtYXpvbi5jb20vc2hvcC88bmFtZT4gbGluayIpCgoKZGVmIHJlc29sdmVfcG9zdCh2YWx1ZSk6CiAgICAiIiItPiB7ImhhbmRsZSI6IOKApiwgImlkIjog4oCmfSAoaGFuZGxlIE5vbmUgd2hlbiBvbmx5IHRoZSBpZCB3YXMgZ2l2ZW4pLiIiIgogICAgdmFsdWUgPSAodmFsdWUgb3IgIiIpLnN0cmlwKCkKICAgIGlmIF9pc19saW5rKHZhbHVlKToKICAgICAgICBwYXJ0cyA9IFtwIGZvciBwIGluIF9wYXJzZWQodmFsdWUpLnBhdGguc3BsaXQoIi8iKSBpZiBwXQogICAgICAgIGlmIGxlbihwYXJ0cykgPj0gNCBhbmQgcGFydHNbMF0ubG93ZXIoKSA9PSAic2hvcCIgYW5kIHBhcnRzWzJdLmxvd2VyKCkgaW4gKCJsaXN0IiwgInBvc3QiLCAicGhvdG8iLCAidmlkZW8iLCAiaWRlYSIpOgogICAgICAgICAgICByZXR1cm4geyJoYW5kbGUiOiBwYXJ0c1sxXSwgImlkIjogcGFydHNbM119CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigicG9zdCBsaW5rIG11c3QgbG9vayBsaWtlIGFtYXpvbi5jb20vc2hvcC88bmFtZT4vbGlzdC88aWQ+IikKICAgIGlmIF9QT1NUX0lEX1JFLm1hdGNoKHZhbHVlLnVwcGVyKCkpOgogICAgICAgIHJldHVybiB7ImhhbmRsZSI6IE5vbmUsICJpZCI6IHZhbHVlfQogICAgcmFpc2UgVmFsdWVFcnJvcigicG9zdCBtdXN0IGJlIGFuIGluZmx1ZW5jZXIgbGlzdCAvIHBvc3QgaWQgKGUuZy4gMU44NFBRM0NJNE5XMCkgb3IgaXRzIGFtYXpvbi5jb20vc2hvcC88bmFtZT4vbGlzdC88aWQ+IGxpbmsiKQoKCmRlZiByZXNvbHZlX25vZGUodmFsdWUpOgogICAgdmFsdWUgPSAodmFsdWUgb3IgIiIpLnN0cmlwKCkKICAgIGlmIHZhbHVlLmlzZGlnaXQoKToKICAgICAgICByZXR1cm4gdmFsdWUKICAgIGlmIF9pc19saW5rKHZhbHVlKToKICAgICAgICBwYXJzZWQgPSBfcGFyc2VkKHZhbHVlKQogICAgICAgIHF1ZXJ5ID0gcGFyc2VfcXModW5xdW90ZShwYXJzZWQucXVlcnkpKQogICAgICAgIG5vZGVzID0gcmUuZmluZGFsbChyIig/Ol58LCluOihcZCspIiwgcXVlcnkuZ2V0KCJyaCIsIFsiIl0pWzBdKQogICAgICAgIGlmIG5vZGVzOgogICAgICAgICAgICByZXR1cm4gbm9kZXNbLTFdCiAgICAgICAgbm9kZSA9IHF1ZXJ5LmdldCgibm9kZSIsIFtOb25lXSlbMF0KICAgICAgICBpZiBub2RlIGFuZCBub2RlLmlzZGlnaXQoKToKICAgICAgICAgICAgcmV0dXJuIG5vZGUKICAgICAgICBtYXRjaCA9IHJlLnNlYXJjaChyIi9iLyg/OlteL10rLyk/KFxkKykiLCBwYXJzZWQucGF0aCkgb3IgcmUuc2VhcmNoKHIibm9kZT0oXGQrKSIsIHZhbHVlKQogICAgICAgIGlmIG1hdGNoOgogICAgICAgICAgICByZXR1cm4gbWF0Y2guZ3JvdXAoMSkKICAgIHJhaXNlIFZhbHVlRXJyb3IoImNhdGVnb3J5IG11c3QgYmUgYSBudW1lcmljIEFtYXpvbiBicm93c2Ugbm9kZSBpZCAoZS5nLiAxNzIyODIpIG9yIGEgY2F0ZWdvcnkgbGluayAoYW1hem9uLmNvbS9zP3JoPW46MTcyMjgyLCBhbWF6b24uY29tL2I/bm9kZT0xNzIyODIpIikKCgpkZWYgcmVzb2x2ZV9iZXN0c2VsbGVyX2NhdGVnb3J5KHZhbHVlKToKICAgICIiIidlbGVjdHJvbmljcycgfCAnZWxlY3Ryb25pY3MvMTcyNTQxJyB8IGEgYmVzdC1zZWxsZXJzIHN0eWxlIGxpbmsgLT4KICAgICdlbGVjdHJvbmljcycgfCAnZWxlY3Ryb25pY3MvMTcyNTQxJyAoJycgPSB0aGUgbWFya2V0cGxhY2Ugcm9vdCkuIiIiCiAgICB2YWx1ZSA9ICh2YWx1ZSBvciAiIikuc3RyaXAoKQogICAgaWYgX2lzX2xpbmsodmFsdWUpOgogICAgICAgIG1hdGNoID0gX0JTX1BBVEhfUkUuc2VhcmNoKF9wYXJzZWQodmFsdWUpLnBhdGgpCiAgICAgICAgaWYgbm90IG1hdGNoOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJjYXRlZ29yeSBsaW5rIG11c3QgYmUgYW4gQW1hem9uIGJlc3Qgc2VsbGVycyAvIG5ldyByZWxlYXNlcyAvIG1vdmVycyAmIHNoYWtlcnMgcGFnZSIpCiAgICAgICAgcGF0aCA9IHJlLnN1YihyIi9yZWY9LiokIiwgIiIsIG1hdGNoLmdyb3VwKDEpKS5zdHJpcCgiLyIpCiAgICAgICAgcmV0dXJuIHBhdGgKICAgIHBhdGggPSB2YWx1ZS5zdHJpcCgiLyIpCiAgICBpZiBwYXRoIGluICgiIiwgImFsbCIsICJhbnkiKToKICAgICAgICByZXR1cm4gIiIKICAgIGlmIHJlLm1hdGNoKHIiXlthLXowLTlcLV0rKC9cZCspPyQiLCBwYXRoLCByZS5JKToKICAgICAgICByZXR1cm4gcGF0aAogICAgcmFpc2UgVmFsdWVFcnJvcigiY2F0ZWdvcnkgbXVzdCBiZSBhIGJlc3Qgc2VsbGVycyBjYXRlZ29yeSBhbGlhcyAoZS5nLiBlbGVjdHJvbmljcyBvciBlbGVjdHJvbmljcy8xNzI1NDEpIG9yIGl0cyBsaW5rIikKCgpkZWYgcmVzb2x2ZV9xdWVyeSh2YWx1ZSk6CiAgICAiIiJLZXl3b3JkIHRleHQsIG9yIGFuIEFtYXpvbiBzZWFyY2ggbGluayAtPiBpdHMgaz0ga2V5d29yZC4iIiIKICAgIHZhbHVlID0gKHZhbHVlIG9yICIiKS5zdHJpcCgpCiAgICBpZiBfaXNfbGluayh2YWx1ZSkgYW5kICJhbWF6b24uIiBpbiB2YWx1ZS5sb3dlcigpOgogICAgICAgIHF1ZXJ5ID0gcGFyc2VfcXMoX3BhcnNlZCh2YWx1ZSkucXVlcnkpCiAgICAgICAga2V5d29yZCA9IChxdWVyeS5nZXQoImsiKSBvciBxdWVyeS5nZXQoImtleXdvcmRzIikgb3IgcXVlcnkuZ2V0KCJmaWVsZC1rZXl3b3JkcyIpIG9yIFtOb25lXSlbMF0KICAgICAgICBpZiBrZXl3b3JkOgogICAgICAgICAgICByZXR1cm4ga2V5d29yZC5zdHJpcCgpCiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigic2VhcmNoIGxpbmsgbXVzdCBjYXJyeSBhIGs9IGtleXdvcmQgKGFtYXpvbi5jb20vcz9rPWxhcHRvcCkiKQogICAgaWYgbm90IHZhbHVlOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoInF1ZXJ5IG11c3Qgbm90IGJlIGVtcHR5IikKICAgIHJldHVybiB2YWx1ZQoKCmRlZiByZXNvbHZlX2xpbmsodmFsdWUpOgogICAgdmFsdWUgPSAodmFsdWUgb3IgIiIpLnN0cmlwKCkKICAgIGlmIG5vdCBfaXNfbGluayh2YWx1ZSkgb3Igbm90IGNvdW50cnlfb2YodmFsdWUpOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoInVybCBtdXN0IGJlIGEgbGluayBvbiBhbiBBbWF6b24gbWFya2V0cGxhY2UgKGFtYXpvbi5jb20sIGFtYXpvbi5jby51aywgYW1hem9uLmRlLCDigKYpIikKICAgIHJldHVybiB2YWx1ZSBpZiAiOi8vIiBpbiB2YWx1ZSBlbHNlICJodHRwczovLyIgKyB2YWx1ZS5sc3RyaXAoIi8iKQoKCmRlZiBwYWdlX3R5cGUobGluayk6CiAgICAiIiJXaGF0IGFuIEFtYXpvbiBsaW5rIHBvaW50cyBhdCAoc2NyYXBlLWJ5LXVybCBkaXNwYXRjaCkuIiIiCiAgICBwYXJzZWQgPSBfcGFyc2VkKGxpbmspCiAgICBwYXRoID0gcGFyc2VkLnBhdGgubG93ZXIoKQogICAgcXVlcnkgPSBwYXJzZV9xcyhwYXJzZWQucXVlcnkpCiAgICBpZiBfQVNJTl9QQVRIX1JFLnNlYXJjaChwYXJzZWQucGF0aCkgb3IgX0FTSU5fU0xVR19SRS5zZWFyY2gocGFyc2VkLnBhdGgpOgogICAgICAgIHJldHVybiAicHJvZHVjdCIKICAgIGlmIHBhdGguc3RhcnRzd2l0aCgiL3NwIikgYW5kIHF1ZXJ5LmdldCgic2VsbGVyIik6CiAgICAgICAgcmV0dXJuICJzZWxsZXIiCiAgICBpZiBwYXRoLnN0YXJ0c3dpdGgoIi9zaG9wLyIpOgogICAgICAgIHBhcnRzID0gW3AgZm9yIHAgaW4gcGF0aC5zcGxpdCgiLyIpIGlmIHBdCiAgICAgICAgcmV0dXJuICJpbmZsdWVuY2VyX3Bvc3QiIGlmIGxlbihwYXJ0cykgPj0gNCBlbHNlICJpbmZsdWVuY2VyIgogICAgaWYgX0JTX1BBVEhfUkUuc2VhcmNoKHBhcnNlZC5wYXRoKToKICAgICAgICByZXR1cm4gImJlc3RzZWxsZXJzIgogICAgaWYgcGF0aC5zdGFydHN3aXRoKCIvZGVhbHMiKSBvciBwYXRoLnN0YXJ0c3dpdGgoIi9ncC9nb2xkYm94Iik6CiAgICAgICAgcmV0dXJuICJkZWFscyIKICAgIGlmIHBhdGguc3RhcnRzd2l0aCgiL3MiKSBvciBwYXRoLnN0YXJ0c3dpdGgoIi9zLyIpIG9yIHF1ZXJ5LmdldCgiayIpIG9yIHF1ZXJ5LmdldCgibWUiKSBvciBxdWVyeS5nZXQoInJoIikgb3IgcGF0aC5zdGFydHN3aXRoKCIvYiIpOgogICAgICAgIHJldHVybiAic2VhcmNoIgogICAgcmV0dXJuIE5vbmUK
+"""Amazon reference parsing: ONE param per input that auto-detects its
+forms (tripadvisor QueryOrLinkField convention — never a sibling `url`/`id`
+pair). Every resolver returns a plain value so the validated params stay
+usable as a response-cache key:
+
+  product     B00939I7EK | 0132350882 (ISBN-10) | any amazon.<tld> link with
+              /dp/<asin>, /gp/product/<asin>, /gp/aw/d/<asin>,
+              /product-reviews/<asin>, /<slug>/dp/<asin>  -> the ASIN
+  seller      A1D09S7Q0OD6TH | amazon.com/sp?seller=<id> | amazon.com/s?me=<id>
+              | any link carrying seller=/me=/marketplaceID  -> the seller id
+  influencer  tastemade | amazon.com/shop/tastemade[/…]  -> the handle
+  post        1N84PQ3CI4NW0 | amazon.com/shop/tastemade/list/1N84PQ3CI4NW0
+              -> {"handle": …|None, "id": …}
+  node        172282 | amazon.com/s?rh=n:172282 | amazon.com/b?node=172282
+              | …/s?k=x&i=electronics&rh=n:172282,n:541966 (last node wins)
+              -> the numeric browse node id
+  bestseller  electronics | electronics/172541 | amazon.com/gp/bestsellers/
+  category    electronics/172541 | amazon.com/Best-Sellers-…/zgbs/electronics/172541
+              | gp/new-releases/… | gp/movers-and-shakers/… -> "electronics/172541"
+  query       laptop | amazon.com/s?k=laptop -> the keyword text
+  link        any amazon.<tld> link (scrape-by-url) -> the link itself
+
+`country_of(value)` tells the schema which marketplace a pasted link
+belongs to (amazon.de -> DE) so the caller need not repeat `country`.
+"""
+import re
+from urllib.parse import parse_qs, unquote, urlparse
+
+from amazon import sites
+
+_ASIN_RE = re.compile(r"^[A-Z0-9]{10}$")
+_ASIN_PATH_RE = re.compile(r"/(?:dp|gp/product|gp/aw/d|product-reviews|gp/offer-listing|dp/product)/([A-Z0-9]{10})(?=[/?#]|$)", re.I)
+_ASIN_SLUG_RE = re.compile(r"/dp/([A-Z0-9]{10})", re.I)
+_SELLER_RE = re.compile(r"^A[A-Z0-9]{9,24}$")
+_HANDLE_RE = re.compile(r"^[A-Za-z0-9._\-]{1,80}$")
+_POST_ID_RE = re.compile(r"^[A-Z0-9]{8,20}$")
+_BS_PATH_RE = re.compile(r"/(?:zgbs|gp/(?:bestsellers|new-releases|movers-and-shakers|most-wished-for|most-gifted))/([^?#]*)", re.I)
+
+
+def _is_link(value):
+    low = value.lower()
+    return low.startswith(("http://", "https://", "//")) or "amazon." in low
+
+
+def _parsed(value):
+    url = value if "://" in value else "https://" + value.lstrip("/")
+    return urlparse(url)
+
+
+def country_of(value):
+    """ISO country of an Amazon link, None for bare ids / other hosts."""
+    value = (value or "").strip()
+    if not value or not _is_link(value):
+        return None
+    return sites.country_for_host(_parsed(value).hostname or "")
+
+
+def resolve_product(value):
+    value = (value or "").strip()
+    if _ASIN_RE.match(value.upper()) and not value.isalpha():
+        return value.upper()
+    if _is_link(value):
+        parsed = _parsed(value)
+        match = _ASIN_PATH_RE.search(parsed.path) or _ASIN_SLUG_RE.search(parsed.path)
+        if match:
+            return match.group(1).upper()
+        asin = parse_qs(parsed.query).get("asin", [None])[0]
+        if asin and _ASIN_RE.match(asin.upper()):
+            return asin.upper()
+    raise ValueError("product must be an ASIN (e.g. B00939I7EK) or an Amazon product link (…/dp/<asin>)")
+
+
+def resolve_seller(value):
+    value = (value or "").strip()
+    if _SELLER_RE.match(value.upper()) and not _is_link(value):
+        return value.upper()
+    if _is_link(value):
+        query = parse_qs(_parsed(value).query)
+        for key in ("seller", "me", "sellerID", "merchant"):
+            sid = query.get(key, [None])[0]
+            if sid and _SELLER_RE.match(sid.upper()):
+                return sid.upper()
+    raise ValueError("seller must be an Amazon seller id (e.g. A1D09S7Q0OD6TH) or a seller link (amazon.com/sp?seller=<id>)")
+
+
+def resolve_influencer(value):
+    value = (value or "").strip()
+    if _is_link(value):
+        parts = [p for p in _parsed(value).path.split("/") if p]
+        if len(parts) >= 2 and parts[0].lower() == "shop":
+            return parts[1]
+        raise ValueError("influencer link must look like amazon.com/shop/<name>")
+    value = value.lstrip("@")
+    if _HANDLE_RE.match(value):
+        return value
+    raise ValueError("influencer must be an Amazon storefront name (e.g. tastemade) or an amazon.com/shop/<name> link")
+
+
+def resolve_post(value):
+    """-> {"handle": …, "id": …} (handle None when only the id was given)."""
+    value = (value or "").strip()
+    if _is_link(value):
+        parts = [p for p in _parsed(value).path.split("/") if p]
+        if len(parts) >= 4 and parts[0].lower() == "shop" and parts[2].lower() in ("list", "post", "photo", "video", "idea"):
+            return {"handle": parts[1], "id": parts[3]}
+        raise ValueError("post link must look like amazon.com/shop/<name>/list/<id>")
+    if _POST_ID_RE.match(value.upper()):
+        return {"handle": None, "id": value}
+    raise ValueError("post must be an influencer list / post id (e.g. 1N84PQ3CI4NW0) or its amazon.com/shop/<name>/list/<id> link")
+
+
+def resolve_node(value):
+    value = (value or "").strip()
+    if value.isdigit():
+        return value
+    if _is_link(value):
+        parsed = _parsed(value)
+        query = parse_qs(unquote(parsed.query))
+        nodes = re.findall(r"(?:^|,)n:(\d+)", query.get("rh", [""])[0])
+        if nodes:
+            return nodes[-1]
+        node = query.get("node", [None])[0]
+        if node and node.isdigit():
+            return node
+        match = re.search(r"/b/(?:[^/]+/)?(\d+)", parsed.path) or re.search(r"node=(\d+)", value)
+        if match:
+            return match.group(1)
+    raise ValueError("category must be a numeric Amazon browse node id (e.g. 172282) or a category link (amazon.com/s?rh=n:172282, amazon.com/b?node=172282)")
+
+
+def resolve_bestseller_category(value):
+    """'electronics' | 'electronics/172541' | a best-sellers style link ->
+    'electronics' | 'electronics/172541' ('' = the marketplace root)."""
+    value = (value or "").strip()
+    if _is_link(value):
+        match = _BS_PATH_RE.search(_parsed(value).path)
+        if not match:
+            raise ValueError("category link must be an Amazon best sellers / new releases / movers & shakers page")
+        path = re.sub(r"/ref=.*$", "", match.group(1)).strip("/")
+        return path
+    path = value.strip("/")
+    if path in ("", "all", "any"):
+        return ""
+    if re.match(r"^[a-z0-9\-]+(/\d+)?$", path, re.I):
+        return path
+    raise ValueError("category must be a best sellers category alias (e.g. electronics or electronics/172541) or its link")
+
+
+def resolve_query(value):
+    """Keyword text, or an Amazon search link -> its k= keyword."""
+    value = (value or "").strip()
+    if _is_link(value) and "amazon." in value.lower():
+        query = parse_qs(_parsed(value).query)
+        keyword = (query.get("k") or query.get("keywords") or query.get("field-keywords") or [None])[0]
+        if keyword:
+            return keyword.strip()
+        raise ValueError("search link must carry a k= keyword (amazon.com/s?k=laptop)")
+    if not value:
+        raise ValueError("query must not be empty")
+    return value
+
+
+def resolve_link(value):
+    value = (value or "").strip()
+    if not _is_link(value) or not country_of(value):
+        raise ValueError("url must be a link on an Amazon marketplace (amazon.com, amazon.co.uk, amazon.de, …)")
+    return value if "://" in value else "https://" + value.lstrip("/")
+
+
+def page_type(link):
+    """What an Amazon link points at (scrape-by-url dispatch)."""
+    parsed = _parsed(link)
+    path = parsed.path.lower()
+    query = parse_qs(parsed.query)
+    if _ASIN_PATH_RE.search(parsed.path) or _ASIN_SLUG_RE.search(parsed.path):
+        return "product"
+    if path.startswith("/sp") and query.get("seller"):
+        return "seller"
+    if path.startswith("/shop/"):
+        parts = [p for p in path.split("/") if p]
+        return "influencer_post" if len(parts) >= 4 else "influencer"
+    if _BS_PATH_RE.search(parsed.path):
+        return "bestsellers"
+    if path.startswith("/deals") or path.startswith("/gp/goldbox"):
+        return "deals"
+    if path.startswith("/s") or path.startswith("/s/") or query.get("k") or query.get("me") or query.get("rh") or path.startswith("/b"):
+        return "search"
+    return None

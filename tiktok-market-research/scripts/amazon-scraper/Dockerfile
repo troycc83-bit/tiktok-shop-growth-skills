@@ -1,1 +1,16 @@
-RlJPTSBweXRob246My4xMi1zbGltCgpFTlYgUFlUSE9OVU5CVUZGRVJFRD0xCgpDT1BZIHJlcXVpcmVtZW50cy50eHQgLgoKUlVOIHB5dGhvbiAtbSBwaXAgaW5zdGFsbCAtLW5vLWNhY2hlLWRpciAtciByZXF1aXJlbWVudHMudHh0CgpSVU4gbWtkaXIgYXBwCldPUktESVIgL2FwcApDT1BZIC4gL2FwcAoKRVhQT1NFIDgwMDAKCiMgTm8gYnJvd3NlciBuZWVkZWQg4oCUIHRoZSBzY3JhcGVyIHRhbGtzIHRvIEFtYXpvbiBvdmVyIHBsYWluIEhUVFAuCkNNRCBbInB5dGhvbiIsICJydW4ucHkiXQo=
+FROM python:3.12-slim
+
+ENV PYTHONUNBUFFERED=1
+
+COPY requirements.txt .
+
+RUN python -m pip install --no-cache-dir -r requirements.txt
+
+RUN mkdir app
+WORKDIR /app
+COPY . /app
+
+EXPOSE 8000
+
+# No browser needed — the scraper talks to Amazon over plain HTTP.
+CMD ["python", "run.py"]

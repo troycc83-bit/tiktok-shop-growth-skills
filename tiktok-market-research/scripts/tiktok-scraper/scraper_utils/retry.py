@@ -1,1 +1,49 @@
-IiIiVGhlIHJldHJ5IGxvb3AgdGhlIGZldGNoIG1vZHVsZXMgc2hhcmUuCgpBIHNpdGUga2VlcHMgaXRzIG93biBgX3JldHJ5aW5nYCBhbmQgcGFzc2VzIGluIHdoYXQgaXMgaXRzIG93bjogd2hpY2ggZXJyb3IgaXMKcmV0cnlhYmxlIGFuZCB3aGF0IHRvIGRvIHdpdGggYSBmYWlsdXJlICh1c3VhbGx5OiBkcm9wIHRoZSBzZXNzaW9uOyBvbl9lcnJvcgpnZXRzIHRoZSBleGNlcHRpb24sIG9yIGlzIE5vbmUgd2hlbiB0aGVyZSBpcyBub3RoaW5nIHRvIGRvKS4gVGhlCmF0dGVtcHQgY291bnQgYW5kIGJhY2tvZmYgYXJlIHJlYWQgZnJvbSB0aGUgc2l0ZSdzIGNvbmZpZyBvbiBldmVyeSBwYXNzLCBzbyBhCnRlc3QgdGhhdCBjaGFuZ2VzIGNvbmZpZy5NQVhfUkVUUklFUyBvciBwYXRjaGVzIHRpbWUuc2xlZXAgc3RpbGwgdGFrZXMgZWZmZWN0LiIiIgppbXBvcnQgdGltZQoKCmRlZiBydW4oZm4sIGNmZywgcmV0cnlfb24sIG9uX2Vycm9yKToKICAgICIiImZuKCkgd2l0aCB1cCB0byBjZmcuTUFYX1JFVFJJRVMgYXR0ZW1wdHMuIEFmdGVyIGEgYHJldHJ5X29uYCBmYWlsdXJlOgogICAgb25fZXJyb3IoZSksIHRoZW4gc2xlZXAgY2ZnLlJFVFJZX0JBQ0tPRkYgKiBhdHRlbXB0IHVubGVzcyBpdCB3YXMgdGhlIGxhc3QKICAgIGF0dGVtcHQuIEFueSBvdGhlciBleGNlcHRpb24gc3VyZmFjZXMgYXQgb25jZTsgdGhlIGxhc3QgcmV0cnlhYmxlIG9uZSBpcwogICAgcmFpc2VkIHdoZW4gdGhlIGF0dGVtcHRzIHJ1biBvdXQuIiIiCiAgICBsYXN0ID0gTm9uZQogICAgZm9yIGF0dGVtcHQgaW4gcmFuZ2UoMSwgY2ZnLk1BWF9SRVRSSUVTICsgMSk6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXR1cm4gZm4oKQogICAgICAgIGV4Y2VwdCByZXRyeV9vbiBhcyBlOgogICAgICAgICAgICBsYXN0ID0gZQogICAgICAgICAgICBpZiBvbl9lcnJvciBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgIG9uX2Vycm9yKGUpCiAgICAgICAgICAgIGlmIGF0dGVtcHQgPCBjZmcuTUFYX1JFVFJJRVM6CiAgICAgICAgICAgICAgICB0aW1lLnNsZWVwKGNmZy5SRVRSWV9CQUNLT0ZGICogYXR0ZW1wdCkKICAgIHJhaXNlIGxhc3QKCgpkZWYgcnVuX2ZsYWdnZWQoZm4sIGNmZywgcmV0cnlfb24sIG9uX2Vycm9yLCBsb2NhbCwgZmxhZz0icGFzdF9nYXRld2F5Iik6CiAgICAiIiJydW4oKSwgZm9yIHNpdGVzIHdpdGggYSBmYWxsYmFjayBleGl0IGxhZGRlcjogYGxvY2FsLjxmbGFnPmAgaXMgRmFsc2UKICAgIGZvciBldmVyeSBhdHRlbXB0IGJ1dCB0aGUgbGFzdCwgd2hlcmUgaXQgaXMgVHJ1ZSwgc28gdGhlIHNlc3Npb24gYnVpbHQgZm9yCiAgICB0aGUgbGFzdCBhdHRlbXB0IG1heSByaWRlIHRoZSBleGl0IGJlaGluZCB0aGUgZ2F0ZXdheS4gVGhlIGZsYWcgaXMgcmVzZXQKICAgIHdoZW4gdGhlIGNhbGwgZW5kcywgd2hhdGV2ZXIgdGhlIG91dGNvbWUuIiIiCiAgICBsYXN0ID0gTm9uZQogICAgc2V0YXR0cihsb2NhbCwgZmxhZywgRmFsc2UpCiAgICB0cnk6CiAgICAgICAgZm9yIGF0dGVtcHQgaW4gcmFuZ2UoMSwgY2ZnLk1BWF9SRVRSSUVTICsgMSk6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJldHVybiBmbigpCiAgICAgICAgICAgIGV4Y2VwdCByZXRyeV9vbiBhcyBlOgogICAgICAgICAgICAgICAgbGFzdCA9IGUKICAgICAgICAgICAgICAgIGlmIG9uX2Vycm9yIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgICAgIG9uX2Vycm9yKGUpCiAgICAgICAgICAgIGlmIGF0dGVtcHQgPCBjZmcuTUFYX1JFVFJJRVM6CiAgICAgICAgICAgICAgICBzZXRhdHRyKGxvY2FsLCBmbGFnLCBhdHRlbXB0ICsgMSA9PSBjZmcuTUFYX1JFVFJJRVMpCiAgICAgICAgICAgICAgICB0aW1lLnNsZWVwKGNmZy5SRVRSWV9CQUNLT0ZGICogYXR0ZW1wdCkKICAgICAgICByYWlzZSBsYXN0CiAgICBmaW5hbGx5OgogICAgICAgIHNldGF0dHIobG9jYWwsIGZsYWcsIEZhbHNlKQo=
+"""The retry loop the fetch modules share.
+
+A site keeps its own `_retrying` and passes in what is its own: which error is
+retryable and what to do with a failure (usually: drop the session; on_error
+gets the exception, or is None when there is nothing to do). The
+attempt count and backoff are read from the site's config on every pass, so a
+test that changes config.MAX_RETRIES or patches time.sleep still takes effect."""
+import time
+
+
+def run(fn, cfg, retry_on, on_error):
+    """fn() with up to cfg.MAX_RETRIES attempts. After a `retry_on` failure:
+    on_error(e), then sleep cfg.RETRY_BACKOFF * attempt unless it was the last
+    attempt. Any other exception surfaces at once; the last retryable one is
+    raised when the attempts run out."""
+    last = None
+    for attempt in range(1, cfg.MAX_RETRIES + 1):
+        try:
+            return fn()
+        except retry_on as e:
+            last = e
+            if on_error is not None:
+                on_error(e)
+            if attempt < cfg.MAX_RETRIES:
+                time.sleep(cfg.RETRY_BACKOFF * attempt)
+    raise last
+
+
+def run_flagged(fn, cfg, retry_on, on_error, local, flag="past_gateway"):
+    """run(), for sites with a fallback exit ladder: `local.<flag>` is False
+    for every attempt but the last, where it is True, so the session built for
+    the last attempt may ride the exit behind the gateway. The flag is reset
+    when the call ends, whatever the outcome."""
+    last = None
+    setattr(local, flag, False)
+    try:
+        for attempt in range(1, cfg.MAX_RETRIES + 1):
+            try:
+                return fn()
+            except retry_on as e:
+                last = e
+                if on_error is not None:
+                    on_error(e)
+            if attempt < cfg.MAX_RETRIES:
+                setattr(local, flag, attempt + 1 == cfg.MAX_RETRIES)
+                time.sleep(cfg.RETRY_BACKOFF * attempt)
+        raise last
+    finally:
+        setattr(local, flag, False)

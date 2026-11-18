@@ -1,1 +1,5 @@
-IiIiVGlrVG9rIHNjcmFwZXIgcGFja2FnZSAoL3Rpa3Rvay8qKTogcHJvZmlsZXMsIGEgdXNlcidzIHZpZGVvcyAvIHJlcG9zdHMgLwpmb2xsb3dlcnMgLyBwbGF5bGlzdHMsIHZpZGVvIGRldGFpbHMgd2l0aCBldmVyeSBtZWRpYSByZW5kaXRpb24sIGNvbW1lbnRzCmFuZCByZXBsaWVzLCB0cmFuc2NyaXB0cywgdmlkZW8gLyB1c2VyIC8gbGl2ZSBzZWFyY2gsIGhhc2h0YWdzLCBzb3VuZHMsCmZlZWRzLCBsaXZlIHJvb21zLCB0aGUgQ29tbWVyY2lhbCBDb250ZW50IChhZHMpIExpYnJhcnkgYW5kIENyZWF0aXZlIENlbnRlcgp0b3AgYWRzIOKAlCBzZWUgZmV0Y2gucHkgZm9yIHRoZSB0cmFuc3BvcnQgYW5kIHJvdXRlcy5weSBmb3IgdGhlIHB1YmxpYyByb3V0ZXMuIiIiCg==
+"""TikTok scraper package (/tiktok/*): profiles, a user's videos / reposts /
+followers / playlists, video details with every media rendition, comments
+and replies, transcripts, video / user / live search, hashtags, sounds,
+feeds, live rooms, the Commercial Content (ads) Library and Creative Center
+top ads — see fetch.py for the transport and routes.py for the public routes."""

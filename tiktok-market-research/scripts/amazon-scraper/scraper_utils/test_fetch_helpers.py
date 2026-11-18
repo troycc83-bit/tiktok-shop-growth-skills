@@ -1,1 +1,403 @@
-IiIiVGhlIGZldGNoLWxheWVyIGhlbHBlcnMgYWdhaW5zdCB2ZXJiYXRpbSBjb3BpZXMgb2YgdGhlIGNvZGUgdGhleSByZXBsYWNlZC4KCkVhY2ggcmVmZXJlbmNlIGJlbG93IGlzIHRoZSBmdW5jdGlvbiBhcyBpdCBzdG9vZCBpbiB0aGUgc2l0ZSBtb2R1bGVzLiBUaGUKdGVzdHMgZHJpdmUgdGhlIHJlZmVyZW5jZSBhbmQgdGhlIHNoYXJlZCBoZWxwZXIgdGhyb3VnaCB0aGUgc2FtZSBzY3JpcHRzIGFuZApyZXF1aXJlIHRoZSBzYW1lIHJlc3VsdCBhbmQgdGhlIHNhbWUgc2lkZSBlZmZlY3RzLCBpbiB0aGUgc2FtZSBvcmRlci4iIiIKaW1wb3J0IHRocmVhZGluZwppbXBvcnQgdGltZQpmcm9tIGNvbGxlY3Rpb25zIGltcG9ydCBPcmRlcmVkRGljdApmcm9tIGNvbmN1cnJlbnQuZnV0dXJlcyBpbXBvcnQgVGhyZWFkUG9vbEV4ZWN1dG9yCmZyb20gdHlwZXMgaW1wb3J0IFNpbXBsZU5hbWVzcGFjZQoKaW1wb3J0IHB5dGVzdAoKZnJvbSBzY3JhcGVyX3V0aWxzIGltcG9ydCBkZWJ1ZywgZmFub3V0LCBtZW1vLCByZXRyeSwgc2Vzc2lvbnMKCgpjbGFzcyBCb29tKEV4Y2VwdGlvbik6CiAgICBwYXNzCgoKY2xhc3MgT3RoZXIoRXhjZXB0aW9uKToKICAgIHBhc3MKCgojIC0tLS0gcmV0cnkgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgX3BsYWluKGZuLCBjb25maWcsIGxvY2FsLCBkcm9wKToKICAgIGxhc3QgPSBOb25lCiAgICBmb3IgYXR0ZW1wdCBpbiByYW5nZSgxLCBjb25maWcuTUFYX1JFVFJJRVMgKyAxKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJldHVybiBmbigpCiAgICAgICAgZXhjZXB0IEJvb20gYXMgZToKICAgICAgICAgICAgbGFzdCA9IGUKICAgICAgICAgICAgZHJvcCgpCiAgICAgICAgICAgIGlmIGF0dGVtcHQgPCBjb25maWcuTUFYX1JFVFJJRVM6CiAgICAgICAgICAgICAgICB0aW1lLnNsZWVwKGNvbmZpZy5SRVRSWV9CQUNLT0ZGICogYXR0ZW1wdCkKICAgIHJhaXNlIGxhc3QKCgpkZWYgX3NsZWVwX2FmdGVyX2hhbmRsZXIoZm4sIGNvbmZpZywgbG9jYWwsIGRyb3ApOgogICAgbGFzdCA9IE5vbmUKICAgIGZvciBhdHRlbXB0IGluIHJhbmdlKDEsIGNvbmZpZy5NQVhfUkVUUklFUyArIDEpOgogICAgICAgIHRyeToKICAgICAgICAgICAgcmV0dXJuIGZuKCkKICAgICAgICBleGNlcHQgQm9vbSBhcyBlOgogICAgICAgICAgICBsYXN0ID0gZQogICAgICAgICAgICBkcm9wKCkKICAgICAgICBpZiBhdHRlbXB0IDwgY29uZmlnLk1BWF9SRVRSSUVTOgogICAgICAgICAgICB0aW1lLnNsZWVwKGNvbmZpZy5SRVRSWV9CQUNLT0ZGICogYXR0ZW1wdCkKICAgIHJhaXNlIGxhc3QKCgpkZWYgX2xhZGRlcihmbiwgY29uZmlnLCBsb2NhbCwgZHJvcCk6CiAgICBsYXN0ID0gTm9uZQogICAgbG9jYWwucGFzdF9nYXRld2F5ID0gRmFsc2UKICAgIHRyeToKICAgICAgICBmb3IgYXR0ZW1wdCBpbiByYW5nZSgxLCBjb25maWcuTUFYX1JFVFJJRVMgKyAxKToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcmV0dXJuIGZuKCkKICAgICAgICAgICAgZXhjZXB0IEJvb20gYXMgZToKICAgICAgICAgICAgICAgIGxhc3QgPSBlCiAgICAgICAgICAgICAgICBkcm9wKCkKICAgICAgICAgICAgaWYgYXR0ZW1wdCA8IGNvbmZpZy5NQVhfUkVUUklFUzoKICAgICAgICAgICAgICAgIGxvY2FsLnBhc3RfZ2F0ZXdheSA9IGF0dGVtcHQgKyAxID09IGNvbmZpZy5NQVhfUkVUUklFUwogICAgICAgICAgICAgICAgdGltZS5zbGVlcChjb25maWcuUkVUUllfQkFDS09GRiAqIGF0dGVtcHQpCiAgICAgICAgcmFpc2UgbGFzdAogICAgZmluYWxseToKICAgICAgICBsb2NhbC5wYXN0X2dhdGV3YXkgPSBGYWxzZQoKClNDUklQVFMgPSBbWyJvayJdLCBbQm9vbSwgIm9rIl0sIFtCb29tLCBCb29tLCAib2siXSwgW0Jvb21dICogNiwgW090aGVyXSwgW0Jvb20sIE90aGVyXSwgW0Jvb20sIEJvb20sIE90aGVyXSwKICAgICAgICAgICBbS2V5Ym9hcmRJbnRlcnJ1cHRdLCBbQm9vbSwgQm9vbSwgQm9vbSwgIm9rIl1dCgoKZGVmIF90cmFjZShsb29wLCBzY3JpcHQsIHJldHJpZXMsIG1vbmtleXBhdGNoKToKICAgICIiIkV2ZXJ5dGhpbmcgb2JzZXJ2YWJsZSBhYm91dCBvbmUgY2FsbDogb3V0Y29tZSwgZHJvcHMsIHNsZWVwcywgYW5kIHRoZQogICAgZmxhZyBlYWNoIGF0dGVtcHQgc2F3LiIiIgogICAgZXZlbnRzID0gW10KICAgIGNvbmZpZyA9IFNpbXBsZU5hbWVzcGFjZShNQVhfUkVUUklFUz1yZXRyaWVzLCBSRVRSWV9CQUNLT0ZGPTAuNSkKICAgIGxvY2FsID0gdGhyZWFkaW5nLmxvY2FsKCkKICAgIHN0ZXBzID0gaXRlcihzY3JpcHQpCiAgICBtb25rZXlwYXRjaC5zZXRhdHRyKHRpbWUsICJzbGVlcCIsIGxhbWJkYSBzZWNvbmRzOiBldmVudHMuYXBwZW5kKCgic2xlZXAiLCBzZWNvbmRzKSkpCgogICAgZGVmIGZuKCk6CiAgICAgICAgZXZlbnRzLmFwcGVuZCgoImF0dGVtcHQiLCBnZXRhdHRyKGxvY2FsLCAicGFzdF9nYXRld2F5IiwgInVuc2V0IikpKQogICAgICAgIHN0ZXAgPSBuZXh0KHN0ZXBzKQogICAgICAgIGlmIHN0ZXAgPT0gIm9rIjoKICAgICAgICAgICAgcmV0dXJuICJkb25lIgogICAgICAgIHJhaXNlIHN0ZXAoIngiKQoKICAgIHRyeToKICAgICAgICBvdXRjb21lID0gKCJyZXR1cm5lZCIsIGxvb3AoZm4sIGNvbmZpZywgbG9jYWwsIGxhbWJkYTogZXZlbnRzLmFwcGVuZCgoImRyb3AiLCkpKSkKICAgIGV4Y2VwdCBCYXNlRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgb3V0Y29tZSA9ICgicmFpc2VkIiwgdHlwZShlKS5fX25hbWVfXywgc3RyKGUpKQogICAgcmV0dXJuIG91dGNvbWUsIGV2ZW50cywgZ2V0YXR0cihsb2NhbCwgInBhc3RfZ2F0ZXdheSIsICJ1bnNldCIpCgoKQHB5dGVzdC5tYXJrLnBhcmFtZXRyaXplKCJyZXRyaWVzIiwgWzAsIDEsIDIsIDMsIDRdKQpAcHl0ZXN0Lm1hcmsucGFyYW1ldHJpemUoInNjcmlwdCIsIFNDUklQVFMpCmRlZiB0ZXN0X3J1bl9pc190aGVfcGxhaW5fbG9vcChzY3JpcHQsIHJldHJpZXMsIG1vbmtleXBhdGNoKToKICAgIGRlZiBzaGFyZWQoZm4sIGNvbmZpZywgbG9jYWwsIGRyb3ApOgogICAgICAgIHJldHVybiByZXRyeS5ydW4oZm4sIGNvbmZpZywgQm9vbSwgbGFtYmRhIGU6IGRyb3AoKSkKICAgIGV4cGVjdGVkID0gX3RyYWNlKF9wbGFpbiwgc2NyaXB0LCByZXRyaWVzLCBtb25rZXlwYXRjaCkKICAgIGFzc2VydCBfdHJhY2Uoc2hhcmVkLCBzY3JpcHQsIHJldHJpZXMsIG1vbmtleXBhdGNoKSA9PSBleHBlY3RlZAogICAgYXNzZXJ0IF90cmFjZShfc2xlZXBfYWZ0ZXJfaGFuZGxlciwgc2NyaXB0LCByZXRyaWVzLCBtb25rZXlwYXRjaCkgPT0gZXhwZWN0ZWQKCgpAcHl0ZXN0Lm1hcmsucGFyYW1ldHJpemUoInJldHJpZXMiLCBbMCwgMSwgMiwgMywgNF0pCkBweXRlc3QubWFyay5wYXJhbWV0cml6ZSgic2NyaXB0IiwgU0NSSVBUUykKZGVmIHRlc3RfcnVuX2ZsYWdnZWRfaXNfdGhlX2xhZGRlcl9sb29wKHNjcmlwdCwgcmV0cmllcywgbW9ua2V5cGF0Y2gpOgogICAgZGVmIHNoYXJlZChmbiwgY29uZmlnLCBsb2NhbCwgZHJvcCk6CiAgICAgICAgcmV0dXJuIHJldHJ5LnJ1bl9mbGFnZ2VkKGZuLCBjb25maWcsIEJvb20sIGxhbWJkYSBlOiBkcm9wKCksIGxvY2FsKQogICAgYXNzZXJ0IF90cmFjZShzaGFyZWQsIHNjcmlwdCwgcmV0cmllcywgbW9ua2V5cGF0Y2gpID09IF90cmFjZShfbGFkZGVyLCBzY3JpcHQsIHJldHJpZXMsIG1vbmtleXBhdGNoKQoKCmRlZiB0ZXN0X3J1bl9yZWFkc190aGVfY29uZmlnX29uX2V2ZXJ5X3Bhc3MobW9ua2V5cGF0Y2gpOgogICAgY29uZmlnID0gU2ltcGxlTmFtZXNwYWNlKE1BWF9SRVRSSUVTPTUsIFJFVFJZX0JBQ0tPRkY9MSkKICAgIHNsZXB0ID0gW10KICAgIG1vbmtleXBhdGNoLnNldGF0dHIodGltZSwgInNsZWVwIiwgc2xlcHQuYXBwZW5kKQoKICAgIGRlZiBmbigpOgogICAgICAgIGNvbmZpZy5NQVhfUkVUUklFUyA9IDIgICAgICAgICAgICAjIGxvd2VyZWQgbWlkLWNhbGw6IG5vIHNsZWVwIGFmdGVyIHRoZSBzZWNvbmQgZmFpbHVyZQogICAgICAgIHJhaXNlIEJvb20oIngiKQoKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhCb29tKToKICAgICAgICByZXRyeS5ydW4oZm4sIGNvbmZpZywgQm9vbSwgTm9uZSkKICAgIGFzc2VydCBzbGVwdCA9PSBbMV0KCgojIC0tLS0gc2Vzc2lvbnMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpjbGFzcyBGYWtlU2Vzc2lvbjoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBmYWlsPUZhbHNlKToKICAgICAgICBzZWxmLmNsb3NlZCwgc2VsZi5mYWlsID0gMCwgZmFpbAoKICAgIGRlZiBjbG9zZShzZWxmKToKICAgICAgICBzZWxmLmNsb3NlZCArPSAxCiAgICAgICAgaWYgc2VsZi5mYWlsOgogICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoImNsb3NlIGZhaWxlZCIpCgoKZGVmIHRlc3RfZHJvcF9jbG9zZXNfYW5kX2NsZWFyc190aGVfdGhyZWFkX3Nlc3Npb24oKToKICAgIGxvY2FsID0gdGhyZWFkaW5nLmxvY2FsKCkKICAgIHNlc3Npb25zLmRyb3AobG9jYWwpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgbm90aGluZyB0byBkcm9wCiAgICBhc3NlcnQgbG9jYWwuc2Vzc2lvbiBpcyBOb25lCiAgICBmb3IgZmFpbCBpbiAoRmFsc2UsIFRydWUpOgogICAgICAgIHNlc3MgPSBsb2NhbC5zZXNzaW9uID0gRmFrZVNlc3Npb24oZmFpbCkKICAgICAgICBzZXNzaW9ucy5kcm9wKGxvY2FsKQogICAgICAgIGFzc2VydCBsb2NhbC5zZXNzaW9uIGlzIE5vbmUgYW5kIHNlc3MuY2xvc2VkID09IDEKCgpkZWYgdGVzdF90aHJlYWRfc3RvcmVfYW5kX2tleWVkX3Nlc3Npb25zKCk6CiAgICBsb2NhbCA9IHRocmVhZGluZy5sb2NhbCgpCiAgICBzdG9yZSA9IHNlc3Npb25zLnRocmVhZF9zdG9yZShsb2NhbCkKICAgIGFzc2VydCBpc2luc3RhbmNlKHN0b3JlLCBPcmRlcmVkRGljdCkgYW5kIHNlc3Npb25zLnRocmVhZF9zdG9yZShsb2NhbCkgaXMgc3RvcmUgYW5kIGxvY2FsLnNlc3Npb25zIGlzIHN0b3JlCiAgICBidWlsdCA9IFtdCgogICAgZGVmIGJ1aWxkKCk6CiAgICAgICAgYnVpbHQuYXBwZW5kKEZha2VTZXNzaW9uKCkpCiAgICAgICAgcmV0dXJuIGJ1aWx0Wy0xXQoKICAgIGZpcnN0ID0gc2Vzc2lvbnMua2V5ZWQoc3RvcmUsICJhIiwgYnVpbGQsIDIpCiAgICBhc3NlcnQgc2Vzc2lvbnMua2V5ZWQoc3RvcmUsICJhIiwgYnVpbGQsIDIpIGlzIGZpcnN0IGFuZCBsZW4oYnVpbHQpID09IDEKICAgIHNlc3Npb25zLmtleWVkKHN0b3JlLCAiYiIsIGJ1aWxkLCAyKQogICAgc2Vzc2lvbnMua2V5ZWQoc3RvcmUsICJhIiwgYnVpbGQsIDIpICAgICAgICAgICAgICAgICAgIyAiYSIgaXMgbm93IHRoZSBtb3N0IHJlY2VudAogICAgc2Vzc2lvbnMua2V5ZWQoc3RvcmUsICJjIiwgYnVpbGQsIDIpICAgICAgICAgICAgICAgICAgIyBldmljdHMgImIiLCB0aGUgbGVhc3QgcmVjZW50CiAgICBhc3NlcnQgbGlzdChzdG9yZSkgPT0gWyJhIiwgImMiXSBhbmQgYnVpbHRbMV0uY2xvc2VkID09IDEgYW5kIGZpcnN0LmNsb3NlZCA9PSAwCiAgICBzZXNzaW9ucy5kcm9wX2tleWVkKHN0b3JlLCAiYSIpCiAgICBzZXNzaW9ucy5kcm9wX2tleWVkKHN0b3JlLCAibWlzc2luZyIpCiAgICBhc3NlcnQgbGlzdChzdG9yZSkgPT0gWyJjIl0gYW5kIGZpcnN0LmNsb3NlZCA9PSAxCiAgICBzZXNzaW9ucy5jbG9zZV9xdWlldGx5KE5vbmUpCiAgICBzZXNzaW9ucy5jbG9zZV9xdWlldGx5KEZha2VTZXNzaW9uKGZhaWw9VHJ1ZSkpCgoKIyAtLS0tIG1lbW8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKZGVmIF9vbGRfbWVtb2l6ZWQoc3RvcmUsIGxvY2ssIGNhcCwga2V5LCBmbiwgdHRsKToKICAgIG5vdyA9IHRpbWUubW9ub3RvbmljKCkKICAgIHdpdGggbG9jazoKICAgICAgICBoaXQgPSBzdG9yZS5nZXQoa2V5KQogICAgICAgIGlmIGhpdCBhbmQgbm93IC0gaGl0WzBdIDwgdHRsOgogICAgICAgICAgICBzdG9yZS5tb3ZlX3RvX2VuZChrZXkpCiAgICAgICAgICAgIHJldHVybiBoaXRbMV0KICAgIHZhbHVlID0gZm4oKQogICAgd2l0aCBsb2NrOgogICAgICAgIHN0b3JlW2tleV0gPSAobm93LCB2YWx1ZSkKICAgICAgICBzdG9yZS5tb3ZlX3RvX2VuZChrZXkpCiAgICAgICAgd2hpbGUgbGVuKHN0b3JlKSA+IGNhcDoKICAgICAgICAgICAgc3RvcmUucG9waXRlbShsYXN0PUZhbHNlKQogICAgcmV0dXJuIHZhbHVlCgoKZGVmIF9vbGRfbWVtbyhzdG9yZSwgbG9jaywga2V5LCB0dGwsIGJ1aWxkKToKICAgIG5vdyA9IHRpbWUudGltZSgpCiAgICB3aXRoIGxvY2s6CiAgICAgICAgaGl0ID0gc3RvcmUuZ2V0KGtleSkKICAgICAgICBpZiBoaXQgYW5kIGhpdFswXSA+IG5vdzoKICAgICAgICAgICAgcmV0dXJuIGhpdFsxXQogICAgdmFsdWUgPSBidWlsZCgpCiAgICB3aXRoIGxvY2s6CiAgICAgICAgc3RvcmVba2V5XSA9IChub3cgKyB0dGwsIHZhbHVlKQogICAgcmV0dXJuIHZhbHVlCgoKZGVmIF9tZW1vX3NjcmlwdChjYWNoZWQsIG1vbmtleXBhdGNoLCBjbG9ja19uYW1lKToKICAgIGNsb2NrID0gWzEwMC4wXQogICAgbW9ua2V5cGF0Y2guc2V0YXR0cih0aW1lLCBjbG9ja19uYW1lLCBsYW1iZGE6IGNsb2NrWzBdKQogICAgY2FsbHMsIG91dCA9IFtdLCBbXQoKICAgIGRlZiBidWlsZChrZXkpOgogICAgICAgIGRlZiBmbigpOgogICAgICAgICAgICBjYWxscy5hcHBlbmQoa2V5KQogICAgICAgICAgICByZXR1cm4gZiJ7a2V5fUB7Y2xvY2tbMF19IgogICAgICAgIHJldHVybiBmbgoKICAgICMgdGhlIGxhc3QgcGFpciBsYW5kcyBleGFjdGx5IG9uIHRoZSB0dGwKICAgIGZvciBrZXksIGFkdmFuY2UgaW4gWygiYSIsIDApLCAoImEiLCA1KSwgKCJiIiwgMCksICgiYSIsIDQuOSksICgiYyIsIDApLCAoImEiLCAwLjIpLCAoImIiLCAwKSwgKCJhIiwgMzApLCAoImQiLCAwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICgiZSIsIDApLCAoImUiLCAxMCldOgogICAgICAgIGNsb2NrWzBdICs9IGFkdmFuY2UKICAgICAgICBvdXQuYXBwZW5kKGNhY2hlZChrZXksIGJ1aWxkKGtleSkpKQogICAgcmV0dXJuIG91dCwgY2FsbHMKCgpkZWYgdGVzdF9tZW1vaXplZF9pc190aGVfb2xkX2xydShtb25rZXlwYXRjaCk6CiAgICBkZWYgcnVuKGltcGwpOgogICAgICAgIHN0b3JlLCBsb2NrID0gT3JkZXJlZERpY3QoKSwgdGhyZWFkaW5nLkxvY2soKQogICAgICAgIHJlc3VsdCA9IF9tZW1vX3NjcmlwdChsYW1iZGEga2V5LCBmbjogaW1wbChzdG9yZSwgbG9jaywgMiwga2V5LCBmbiwgMTApLCBtb25rZXlwYXRjaCwgIm1vbm90b25pYyIpCiAgICAgICAgcmV0dXJuIHJlc3VsdCwgbGlzdChzdG9yZS5pdGVtcygpKQogICAgYXNzZXJ0IHJ1bihtZW1vLm1lbW9pemVkKSA9PSBydW4oX29sZF9tZW1vaXplZCkKCgpkZWYgdGVzdF9leHBpcmluZ19hbmRfcmVtZW1iZXIobW9ua2V5cGF0Y2gpOgogICAgZGVmIHJ1bihpbXBsKToKICAgICAgICBzdG9yZSwgbG9jayA9IHt9LCB0aHJlYWRpbmcuTG9jaygpCiAgICAgICAgcmVzdWx0ID0gX21lbW9fc2NyaXB0KGxhbWJkYSBrZXksIGZuOiBpbXBsKHN0b3JlLCBsb2NrLCBrZXksIDEwLCBmbiksIG1vbmtleXBhdGNoLCAidGltZSIpCiAgICAgICAgcmV0dXJuIHJlc3VsdCwgc29ydGVkKHN0b3JlLml0ZW1zKCkpCiAgICBhc3NlcnQgcnVuKG1lbW8uZXhwaXJpbmcpID09IHJ1bihfb2xkX21lbW8pCiAgICBzdG9yZSwgbG9jayA9IHt9LCB0aHJlYWRpbmcuTG9jaygpCiAgICBtb25rZXlwYXRjaC5zZXRhdHRyKHRpbWUsICJ0aW1lIiwgbGFtYmRhOiA1MC4wKQogICAgbWVtby5yZW1lbWJlcihzdG9yZSwgbG9jaywgImsiLCAxMCwgInYiKQogICAgYXNzZXJ0IHN0b3JlID09IHsiayI6ICg2MC4wLCAidiIpfSBhbmQgbWVtby5leHBpcmluZyhzdG9yZSwgbG9jaywgImsiLCAxMCwgbGFtYmRhOiAicmVidWlsdCIpID09ICJ2IgoKCiMgLS0tLSBmYW4tb3V0IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmRlZiBfZmFpbCgpOgogICAgcmFpc2UgQm9vbSgieCIpCgoKZGVmIHRlc3RfcGVyX2NhbGxfYW5kX2d1YXJkZWRfcGVyX2NhbGwoKToKICAgIGFzc2VydCBmYW5vdXQucGVyX2NhbGwoW10sIDQpID09IFtdIGFuZCBmYW5vdXQucGVyX2NhbGwoW2xhbWJkYTogMV0sIDQpID09IFsxXQogICAgYXNzZXJ0IGZhbm91dC5wZXJfY2FsbChbbGFtYmRhOiAxLCBsYW1iZGE6IDIsIGxhbWJkYTogM10sIDIpID09IFsxLCAyLCAzXQogICAgd2l0aCBweXRlc3QucmFpc2VzKEJvb20pOgogICAgICAgIGZhbm91dC5wZXJfY2FsbChbbGFtYmRhOiAxLCBfZmFpbCwgbGFtYmRhOiAzXSwgMikKICAgIGFzc2VydCBmYW5vdXQuZ3VhcmRlZF9wZXJfY2FsbChbXSwgNCkgPT0gW10KICAgIG91dCA9IGZhbm91dC5ndWFyZGVkX3Blcl9jYWxsKFtsYW1iZGE6IDEsIF9mYWlsLCBsYW1iZGE6IDNdLCAwKSAgICAgICAgICAjIHdvcmtlcnMgYmVsb3cgMSBzdGlsbCBydW4KICAgIGFzc2VydCBvdXRbMF0gPT0gKCJvayIsIDEpIGFuZCBvdXRbMl0gPT0gKCJvayIsIDMpIGFuZCBvdXRbMV1bMF0gPT0gImVycm9yIiBhbmQgaXNpbnN0YW5jZShvdXRbMV1bMV0sIEJvb20pCgoKZGVmIHRlc3Rfd2luZG93ZWRfdXNlc190aGVfcG9vbF9mb3JfaXRzX25lc3RpbmdfbGV2ZWwoKToKICAgIHBvb2xzID0gKFRocmVhZFBvb2xFeGVjdXRvcigyLCB0aHJlYWRfbmFtZV9wcmVmaXg9IngtZmFub3V0LTAiKSwgVGhyZWFkUG9vbEV4ZWN1dG9yKDIsIHRocmVhZF9uYW1lX3ByZWZpeD0ieC1mYW5vdXQtMSIpKQoKICAgIGRlZiB3aGVyZSgpOgogICAgICAgIHJldHVybiB0aHJlYWRpbmcuY3VycmVudF90aHJlYWQoKS5uYW1lWzoxMF0KCiAgICBkZWYgbmVzdGVkKCk6CiAgICAgICAgaW5uZXIgPSBmYW5vdXQud2luZG93ZWQocG9vbHMsICJ4LWZhbm91dCIsIFt3aGVyZSwgd2hlcmVdLCAyKSAgICAgICAjIGZyb20gYW4gb3V0ZXIgdGhyZWFkOiB0aGUgaW5uZXIgcG9vbAogICAgICAgIGlubmVybW9zdCA9IGZhbm91dC53aW5kb3dlZChwb29scywgIngtZmFub3V0IiwgW2xhbWJkYTogcG9vbHNbMV0uc3VibWl0KAogICAgICAgICAgICBsYW1iZGE6IGZhbm91dC53aW5kb3dlZChwb29scywgIngtZmFub3V0IiwgW3doZXJlXSwgMikpLnJlc3VsdCgpXSwgMikKICAgICAgICByZXR1cm4gd2hlcmUoKSwgaW5uZXIsIGlubmVybW9zdAoKICAgIHRyeToKICAgICAgICBhc3NlcnQgZmFub3V0LndpbmRvd2VkKHBvb2xzLCAieC1mYW5vdXQiLCBbXSwgMikgPT0gW10KICAgICAgICBhc3NlcnQgZmFub3V0LndpbmRvd2VkKHBvb2xzLCAieC1mYW5vdXQiLCBbbGFtYmRhOiAxLCBsYW1iZGE6IDIsIGxhbWJkYTogM10sIDIpID09IFsxLCAyLCAzXQogICAgICAgIG91dGVyLCBpbm5lciwgaW5uZXJtb3N0ID0gZmFub3V0LndpbmRvd2VkKHBvb2xzLCAieC1mYW5vdXQiLCBbbmVzdGVkXSwgMilbMF0KICAgICAgICBhc3NlcnQgb3V0ZXIgPT0gIngtZmFub3V0LTAiIGFuZCBpbm5lciA9PSBbIngtZmFub3V0LTEiLCAieC1mYW5vdXQtMSJdIGFuZCBpbm5lcm1vc3QgPT0gW1sieC1mYW5vdXQtMSJdXQogICAgICAgIHJhbiA9IFtdCiAgICAgICAgd2l0aCBweXRlc3QucmFpc2VzKEJvb20pOiAgICAgICAgICAgICAgICAgICAgICAgICAjIHRoZSBmaXJzdCBmYWlsdXJlIGluIG9yZGVyOyBub3RoaW5nIG5ldyBzdGFydHMgYWZ0ZXIgaXQKICAgICAgICAgICAgZmFub3V0LndpbmRvd2VkKHBvb2xzLCAieC1mYW5vdXQiLCBbX2ZhaWxdICsgW2xhbWJkYSBpPWk6IHJhbi5hcHBlbmQoaSkgZm9yIGkgaW4gcmFuZ2UoNildLCAxKQogICAgICAgIGFzc2VydCByYW4gPT0gW10KICAgIGZpbmFsbHk6CiAgICAgICAgZm9yIHBvb2wgaW4gcG9vbHM6CiAgICAgICAgICAgIHBvb2wuc2h1dGRvd24oKQoKCmRlZiB0ZXN0X3NvZnRfYW5kX2dhdGhlcigpOgogICAgYXNzZXJ0IGZhbm91dC5zb2Z0KF9mYWlsLCAiZCIsIChCb29tLCkpKCkgPT0gImQiIGFuZCBmYW5vdXQuc29mdChsYW1iZGE6IDEsICJkIiwgKEJvb20sKSkoKSA9PSAxCiAgICB3aXRoIHB5dGVzdC5yYWlzZXMoQm9vbSk6CiAgICAgICAgZmFub3V0LnNvZnQoX2ZhaWwsICJkIiwgKE90aGVyLCkpKCkKCiAgICBkZWYgc2VyaWFsKGZucyk6CiAgICAgICAgcmV0dXJuIFtmbigpIGZvciBmbiBpbiBmbnNdCgogICAgYXNzZXJ0IGZhbm91dC5nYXRoZXIoc2VyaWFsLCB7ImEiOiBsYW1iZGE6IDEsICJiIjogX2ZhaWx9LCAoQm9vbSwpKSA9PSB7ImEiOiAxLCAiYiI6IE5vbmV9CiAgICBhc3NlcnQgZmFub3V0LmdhdGhlcl9vcHRpb25hbChzZXJpYWwsIHsiYSI6IGxhbWJkYTogMSwgImIiOiBfZmFpbH0sICgiYiIsKSwgKEJvb20sKSkgPT0geyJhIjogMSwgImIiOiBOb25lfQogICAgd2l0aCBweXRlc3QucmFpc2VzKEJvb20pOgogICAgICAgIGZhbm91dC5nYXRoZXJfb3B0aW9uYWwoc2VyaWFsLCB7ImEiOiBsYW1iZGE6IDEsICJiIjogX2ZhaWx9LCAoImEiLCksIChCb29tLCkpCgoKIyAtLS0tIGRlYnVnIGR1bXAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKZGVmIHRlc3RfZHVtcCh0bXBfcGF0aCwgbW9ua2V5cGF0Y2gpOgogICAgbW9ua2V5cGF0Y2guZGVsZW52KCJYX0RFQlVHX0RJUiIsIHJhaXNpbmc9RmFsc2UpCiAgICBkZWJ1Zy5kdW1wKCJYX0RFQlVHX0RJUiIsICJhIiwgImJvZHkiKSAgICAgICAgICAgICAgICAjIHVuc2V0OiBub3RoaW5nIGhhcHBlbnMKICAgIHRhcmdldCA9IHRtcF9wYXRoIC8gImR1bXBzIgogICAgbW9ua2V5cGF0Y2guc2V0ZW52KCJYX0RFQlVHX0RJUiIsIHN0cih0YXJnZXQpKQogICAgZGVidWcuZHVtcCgiWF9ERUJVR19ESVIiLCAiYSIsICIiKSAgICAgICAgICAgICAgICAgICAgIyBlbXB0eSB0ZXh0OiBub3RoaW5nIHdyaXR0ZW4KICAgIGFzc2VydCBub3QgdGFyZ2V0LmV4aXN0cygpCiAgICBkZWJ1Zy5kdW1wKCJYX0RFQlVHX0RJUiIsICJhIiwgImJvZHkiKQogICAgZGVidWcuZHVtcCgiWF9ERUJVR19ESVIiLCAiYiIsICJjYWbDqSIsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICBhc3NlcnQgKHRhcmdldCAvICJhLnR4dCIpLnJlYWRfdGV4dCgpID09ICJib2R5IiBhbmQgKHRhcmdldCAvICJiLnR4dCIpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSA9PSAiY2Fmw6kiCiAgICBtb25rZXlwYXRjaC5zZXRlbnYoIlhfREVCVUdfRElSIiwgc3RyKHRtcF9wYXRoIC8gImEtZmlsZSIpKQogICAgKHRtcF9wYXRoIC8gImEtZmlsZSIpLndyaXRlX3RleHQoImluIHRoZSB3YXkiKQogICAgZGVidWcuZHVtcCgiWF9ERUJVR19ESVIiLCAiYyIsICJib2R5IikgICAgICAgICAgICAgICAgIyBjYW5ub3QgY3JlYXRlIHRoZSBmb2xkZXI6IHN3YWxsb3dlZAoKCiMgLS0tLSBzZXNzaW9uIGJ1aWxkZXJzLCByZXNwb25zZSBjbGFzc2lmaWNhdGlvbiwgdGhlIGV4aXQgbGFkZGVyLCB0aGUgc2hhcmVkIHBheWxvYWQgY2FjaGUgLS0tLS0tLQoKY2xhc3MgX0N1cmw6CiAgICBkZWYgX19pbml0X18oc2VsZiwgaW1wZXJzb25hdGU9Tm9uZSk6CiAgICAgICAgc2VsZi5pbXBlcnNvbmF0ZSwgc2VsZi5oZWFkZXJzLCBzZWxmLnByb3hpZXMgPSBpbXBlcnNvbmF0ZSwge30sIE5vbmUKCgpkZWYgdGVzdF9jdXJsX3Nlc3Npb25fYW5kX3RocmVhZF9zZXNzaW9uKG1vbmtleXBhdGNoKToKICAgIGltcG9ydCBjdXJsX2NmZmkucmVxdWVzdHMKICAgIG1vbmtleXBhdGNoLnNldGF0dHIoY3VybF9jZmZpLnJlcXVlc3RzLCAiU2Vzc2lvbiIsIF9DdXJsKQogICAgb3JkZXIgPSBbXQogICAgc2VzcyA9IHNlc3Npb25zLmN1cmxfc2Vzc2lvbigiY2hyb21lIiwgcHJveHlfZm49bGFtYmRhOiBvcmRlci5hcHBlbmQoInByb3h5IGFza2VkIikgb3IgImh0dHA6Ly9wIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWNjZXB0X2xhbmd1YWdlPWxhbWJkYSBwcm94eTogZiJsYW5nKHtwcm94eX0pIikKICAgIGFzc2VydCAoc2Vzcy5pbXBlcnNvbmF0ZSwgc2Vzcy5wcm94aWVzLCBzZXNzLmhlYWRlcnMpID09ICgiY2hyb21lIiwgeyJodHRwIjogImh0dHA6Ly9wIiwgImh0dHBzIjogImh0dHA6Ly9wIn0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7ImFjY2VwdC1sYW5ndWFnZSI6ICJsYW5nKGh0dHA6Ly9wKSJ9KQogICAgZGlyZWN0ID0gc2Vzc2lvbnMuY3VybF9zZXNzaW9uKCJjaHJvbWUiLCBOb25lKQogICAgYXNzZXJ0IGRpcmVjdC5wcm94aWVzIGlzIE5vbmUgYW5kIGRpcmVjdC5oZWFkZXJzID09IHt9CiAgICBhc3NlcnQgc2Vzc2lvbnMuc3BlYWtpbmcoZGlyZWN0LCAiZW4tQVUiKS5oZWFkZXJzID09IHsiYWNjZXB0LWxhbmd1YWdlIjogImVuLUFVIn0KICAgIGxvY2FsID0gdGhyZWFkaW5nLmxvY2FsKCkKICAgIGJ1aWx0ID0gW10KICAgIGZpcnN0ID0gc2Vzc2lvbnMudGhyZWFkX3Nlc3Npb24obG9jYWwsIGxhbWJkYTogYnVpbHQuYXBwZW5kKDEpIG9yIF9DdXJsKCkpCiAgICBhc3NlcnQgc2Vzc2lvbnMudGhyZWFkX3Nlc3Npb24obG9jYWwsIGxhbWJkYTogYnVpbHQuYXBwZW5kKDEpIG9yIF9DdXJsKCkpIGlzIGZpcnN0IGFuZCBidWlsdCA9PSBbMV0gYW5kIGxvY2FsLnNlc3Npb24gaXMgZmlyc3QKCgpkZWYgdGVzdF9jbGFzc2lmeSgpOgogICAgZnJvbSBzY3JhcGVyX3V0aWxzIGltcG9ydCByZXNwb25zZXMKCiAgICBjbGFzcyBOb3RGb3VuZChFeGNlcHRpb24pOiBwYXNzCiAgICBjbGFzcyBCYWRSZXF1ZXN0KEV4Y2VwdGlvbik6IHBhc3MKICAgIGNsYXNzIEJsb2NrZWQoRXhjZXB0aW9uKTogcGFzcwogICAgY2xhc3MgVXBzdHJlYW0oRXhjZXB0aW9uKTogcGFzcwoKICAgIGRlZiByZWFkKHN0YXR1cyk6CiAgICAgICAgcmVzcCA9IFNpbXBsZU5hbWVzcGFjZShzdGF0dXNfY29kZT1zdGF0dXMsIHRleHQ9IngiICogNTAwKQogICAgICAgIHJldHVybiByZXNwb25zZXMuY2xhc3NpZnkocmVzcCwgInRoZSBwYWdlIiwgTm90Rm91bmQsIEJhZFJlcXVlc3QsIEJsb2NrZWQsIFVwc3RyZWFtKQoKICAgIGFzc2VydCByZWFkKDIwMCkgPT0gIngiICogNTAwCiAgICBmb3Igc3RhdHVzLCBlcnJvciwgbWVzc2FnZSBpbiBbKDQwNCwgTm90Rm91bmQsICJ0aGUgcGFnZSBub3QgZm91bmQiKSwgKDQwMCwgQmFkUmVxdWVzdCwgIngiICogMjAwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoNDAxLCBCbG9ja2VkLCAiSFRUUCA0MDEgZm9yIHRoZSBwYWdlIiksICg0MDMsIEJsb2NrZWQsICJIVFRQIDQwMyBmb3IgdGhlIHBhZ2UiKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoNDI5LCBCbG9ja2VkLCAiSFRUUCA0MjkgZm9yIHRoZSBwYWdlIiksICg1MDAsIFVwc3RyZWFtLCAiSFRUUCA1MDAgZm9yIHRoZSBwYWdlIiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKDIwNCwgVXBzdHJlYW0sICJIVFRQIDIwNCBmb3IgdGhlIHBhZ2UiKV06CiAgICAgICAgd2l0aCBweXRlc3QucmFpc2VzKGVycm9yKSBhcyBjYXVnaHQ6CiAgICAgICAgICAgIHJlYWQoc3RhdHVzKQogICAgICAgIGFzc2VydCBzdHIoY2F1Z2h0LnZhbHVlKSA9PSBtZXNzYWdlCgoKZGVmIHRlc3RfY3VycmVudF9zdGVwKG1vbmtleXBhdGNoKToKICAgIGZyb20gc2NyYXBlcl91dGlscyBpbXBvcnQgbGFkZGVyCiAgICBtb25rZXlwYXRjaC5zZXRhdHRyKHRpbWUsICJ0aW1lIiwgbGFtYmRhOiAxMDAwLjApCiAgICBsb2NhbCA9IHRocmVhZGluZy5sb2NhbCgpCiAgICBhc3NlcnQgbGFkZGVyLmN1cnJlbnRfc3RlcCgyLCAyMDAwLjAsIGxvY2FsLCBsYW1iZGEgc3RlcDogVHJ1ZSkgPT0gMiAgICAgICAgICAjIGNvb2xpbmcgZG93biwgZmxhZyB1bnNldAogICAgYXNzZXJ0IGxhZGRlci5jdXJyZW50X3N0ZXAoMiwgNTAwLjAsIGxvY2FsLCBsYW1iZGEgc3RlcDogVHJ1ZSkgPT0gMCAgICAgICAgICAgIyBjb29sZG93biBvdmVyCiAgICBsb2NhbC5wYXN0X2dhdGV3YXkgPSBUcnVlCiAgICBhc3NlcnQgbGFkZGVyLmN1cnJlbnRfc3RlcCgxLCAyMDAwLjAsIGxvY2FsLCBsYW1iZGEgc3RlcDogc3RlcCA9PSAxKSA9PSAyICAgICAjIGxhc3QgcmV0cnkgcGFzc2VzIHRoZSBnYXRld2F5CiAgICBhc3NlcnQgbGFkZGVyLmN1cnJlbnRfc3RlcCgyLCAyMDAwLjAsIGxvY2FsLCBsYW1iZGEgc3RlcDogc3RlcCA9PSAxKSA9PSAyICAgICAjIG5vdCBhIGdhdGV3YXkgc3RlcDogc3RheXMKCgpkZWYgdGVzdF9tb3JlX2Zhbl9vdXRfc2hhcGVzKCk6CiAgICB3aXRoIFRocmVhZFBvb2xFeGVjdXRvcigyKSBhcyBwb29sOgogICAgICAgIGZvciBydW4gaW4gKGxhbWJkYSBmbnM6IGZhbm91dC5vbl9wb29sKHBvb2wsIGZucyksIGxhbWJkYSBmbnM6IGZhbm91dC5vbl9wb29sX2NhbGxlcl9maXJzdChwb29sLCBmbnMpLAogICAgICAgICAgICAgICAgICAgIGxhbWJkYSBmbnM6IGZhbm91dC5wZXJfY2FsbF9tYXAoZm5zLCAyKSk6CiAgICAgICAgICAgIGFzc2VydCBydW4oW10pID09IFtdIGFuZCBydW4oW2xhbWJkYTogMV0pID09IFsxXSBhbmQgcnVuKFtsYW1iZGE6IDEsIGxhbWJkYTogMiwgbGFtYmRhOiAzXSkgPT0gWzEsIDIsIDNdCiAgICAgICAgICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhCb29tKToKICAgICAgICAgICAgICAgIHJ1bihbbGFtYmRhOiAxLCBfZmFpbCwgbGFtYmRhOiAzXSkKICAgICAgICBtYWluID0gdGhyZWFkaW5nLmN1cnJlbnRfdGhyZWFkKCkubmFtZQogICAgICAgIG5hbWVzID0gZmFub3V0Lm9uX3Bvb2xfY2FsbGVyX2ZpcnN0KHBvb2wsIFtsYW1iZGE6IHRocmVhZGluZy5jdXJyZW50X3RocmVhZCgpLm5hbWVdICogMikKICAgICAgICBhc3NlcnQgbmFtZXNbMF0gPT0gbWFpbiBhbmQgbmFtZXNbMV0gIT0gbWFpbgoKCmRlZiB0ZXN0X3NoYXJlZF9yYXdfdXNlc190aGVfcmVzcG9uc2VfY2FjaGVfd2hlbl90aGVyZV9pc19vbmUobW9ua2V5cGF0Y2gpOgogICAgaW1wb3J0IHN5cwogICAgaW1wb3J0IHR5cGVzCiAgICBjYWxscyA9IFtdCgogICAgZGVmIG1lbW9pemVkKGtleSwgYnVpbGQsIHR0bD1Ob25lKToKICAgICAgICBjYWxscy5hcHBlbmQoKCJtZW1vIiwga2V5LCB0dGwpKQogICAgICAgIHJldHVybiBidWlsZCgpCgogICAgbW9ua2V5cGF0Y2guc2V0aXRlbShzeXMubW9kdWxlcywgImNhY2hlIiwgTm9uZSkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIG5vIGNhY2hlIG1vZHVsZTogbWVtbyBhbG9uZQogICAgYXNzZXJ0IG1lbW8uc2hhcmVkX3JhdyhtZW1vaXplZCwgInNpdGUucmF3LiIsIDYwMCwgInBhZ2UiLCB7ImIiOiAyLCAiYSI6IDF9LCBsYW1iZGE6ICJidWlsdCIsIDMwKSA9PSAiYnVpbHQiCiAgICBhc3NlcnQgY2FsbHMgPT0gWygibWVtbyIsICgicGFnZSIsICd7ImEiOiAxLCAiYiI6IDJ9JyksIDMwKV0KICAgIGZha2UgPSB0eXBlcy5Nb2R1bGVUeXBlKCJjYWNoZSIpCiAgICBmYWtlLmNhY2hlZF9jYWxsID0gbGFtYmRhIG5zLCBwYXJhbXMsIGltcGwsIHR0bDogY2FsbHMuYXBwZW5kKCgiY2FjaGUiLCBucywgcGFyYW1zLCB0dGwpKSBvciBpbXBsKCkKICAgIG1vbmtleXBhdGNoLnNldGl0ZW0oc3lzLm1vZHVsZXMsICJjYWNoZSIsIGZha2UpCiAgICBkZWwgY2FsbHNbOl0KICAgIGFzc2VydCBtZW1vLnNoYXJlZF9yYXcobWVtb2l6ZWQsICJzaXRlLnJhdy4iLCA2MDAsICJwYWdlIiwgeyJhIjogMX0sIGxhbWJkYTogImJ1aWx0IiwgNTAwMCkgPT0gImJ1aWx0IgogICAgYXNzZXJ0IGNhbGxzID09IFsoIm1lbW8iLCAoInBhZ2UiLCAneyJhIjogMX0nKSwgNjAwKSwgKCJjYWNoZSIsICJzaXRlLnJhdy5wYWdlIiwgeyJhIjogMX0sIDUwMDApXQo=
+"""The fetch-layer helpers against verbatim copies of the code they replaced.
+
+Each reference below is the function as it stood in the site modules. The
+tests drive the reference and the shared helper through the same scripts and
+require the same result and the same side effects, in the same order."""
+import threading
+import time
+from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor
+from types import SimpleNamespace
+
+import pytest
+
+from scraper_utils import debug, fanout, memo, retry, sessions
+
+
+class Boom(Exception):
+    pass
+
+
+class Other(Exception):
+    pass
+
+
+# ---- retry ---------------------------------------------------------------------------------
+
+def _plain(fn, config, local, drop):
+    last = None
+    for attempt in range(1, config.MAX_RETRIES + 1):
+        try:
+            return fn()
+        except Boom as e:
+            last = e
+            drop()
+            if attempt < config.MAX_RETRIES:
+                time.sleep(config.RETRY_BACKOFF * attempt)
+    raise last
+
+
+def _sleep_after_handler(fn, config, local, drop):
+    last = None
+    for attempt in range(1, config.MAX_RETRIES + 1):
+        try:
+            return fn()
+        except Boom as e:
+            last = e
+            drop()
+        if attempt < config.MAX_RETRIES:
+            time.sleep(config.RETRY_BACKOFF * attempt)
+    raise last
+
+
+def _ladder(fn, config, local, drop):
+    last = None
+    local.past_gateway = False
+    try:
+        for attempt in range(1, config.MAX_RETRIES + 1):
+            try:
+                return fn()
+            except Boom as e:
+                last = e
+                drop()
+            if attempt < config.MAX_RETRIES:
+                local.past_gateway = attempt + 1 == config.MAX_RETRIES
+                time.sleep(config.RETRY_BACKOFF * attempt)
+        raise last
+    finally:
+        local.past_gateway = False
+
+
+SCRIPTS = [["ok"], [Boom, "ok"], [Boom, Boom, "ok"], [Boom] * 6, [Other], [Boom, Other], [Boom, Boom, Other],
+           [KeyboardInterrupt], [Boom, Boom, Boom, "ok"]]
+
+
+def _trace(loop, script, retries, monkeypatch):
+    """Everything observable about one call: outcome, drops, sleeps, and the
+    flag each attempt saw."""
+    events = []
+    config = SimpleNamespace(MAX_RETRIES=retries, RETRY_BACKOFF=0.5)
+    local = threading.local()
+    steps = iter(script)
+    monkeypatch.setattr(time, "sleep", lambda seconds: events.append(("sleep", seconds)))
+
+    def fn():
+        events.append(("attempt", getattr(local, "past_gateway", "unset")))
+        step = next(steps)
+        if step == "ok":
+            return "done"
+        raise step("x")
+
+    try:
+        outcome = ("returned", loop(fn, config, local, lambda: events.append(("drop",))))
+    except BaseException as e:
+        outcome = ("raised", type(e).__name__, str(e))
+    return outcome, events, getattr(local, "past_gateway", "unset")
+
+
+@pytest.mark.parametrize("retries", [0, 1, 2, 3, 4])
+@pytest.mark.parametrize("script", SCRIPTS)
+def test_run_is_the_plain_loop(script, retries, monkeypatch):
+    def shared(fn, config, local, drop):
+        return retry.run(fn, config, Boom, lambda e: drop())
+    expected = _trace(_plain, script, retries, monkeypatch)
+    assert _trace(shared, script, retries, monkeypatch) == expected
+    assert _trace(_sleep_after_handler, script, retries, monkeypatch) == expected
+
+
+@pytest.mark.parametrize("retries", [0, 1, 2, 3, 4])
+@pytest.mark.parametrize("script", SCRIPTS)
+def test_run_flagged_is_the_ladder_loop(script, retries, monkeypatch):
+    def shared(fn, config, local, drop):
+        return retry.run_flagged(fn, config, Boom, lambda e: drop(), local)
+    assert _trace(shared, script, retries, monkeypatch) == _trace(_ladder, script, retries, monkeypatch)
+
+
+def test_run_reads_the_config_on_every_pass(monkeypatch):
+    config = SimpleNamespace(MAX_RETRIES=5, RETRY_BACKOFF=1)
+    slept = []
+    monkeypatch.setattr(time, "sleep", slept.append)
+
+    def fn():
+        config.MAX_RETRIES = 2            # lowered mid-call: no sleep after the second failure
+        raise Boom("x")
+
+    with pytest.raises(Boom):
+        retry.run(fn, config, Boom, None)
+    assert slept == [1]
+
+
+# ---- sessions ------------------------------------------------------------------------------
+
+class FakeSession:
+    def __init__(self, fail=False):
+        self.closed, self.fail = 0, fail
+
+    def close(self):
+        self.closed += 1
+        if self.fail:
+            raise RuntimeError("close failed")
+
+
+def test_drop_closes_and_clears_the_thread_session():
+    local = threading.local()
+    sessions.drop(local)                                  # nothing to drop
+    assert local.session is None
+    for fail in (False, True):
+        sess = local.session = FakeSession(fail)
+        sessions.drop(local)
+        assert local.session is None and sess.closed == 1
+
+
+def test_thread_store_and_keyed_sessions():
+    local = threading.local()
+    store = sessions.thread_store(local)
+    assert isinstance(store, OrderedDict) and sessions.thread_store(local) is store and local.sessions is store
+    built = []
+
+    def build():
+        built.append(FakeSession())
+        return built[-1]
+
+    first = sessions.keyed(store, "a", build, 2)
+    assert sessions.keyed(store, "a", build, 2) is first and len(built) == 1
+    sessions.keyed(store, "b", build, 2)
+    sessions.keyed(store, "a", build, 2)                  # "a" is now the most recent
+    sessions.keyed(store, "c", build, 2)                  # evicts "b", the least recent
+    assert list(store) == ["a", "c"] and built[1].closed == 1 and first.closed == 0
+    sessions.drop_keyed(store, "a")
+    sessions.drop_keyed(store, "missing")
+    assert list(store) == ["c"] and first.closed == 1
+    sessions.close_quietly(None)
+    sessions.close_quietly(FakeSession(fail=True))
+
+
+# ---- memo ----------------------------------------------------------------------------------
+
+def _old_memoized(store, lock, cap, key, fn, ttl):
+    now = time.monotonic()
+    with lock:
+        hit = store.get(key)
+        if hit and now - hit[0] < ttl:
+            store.move_to_end(key)
+            return hit[1]
+    value = fn()
+    with lock:
+        store[key] = (now, value)
+        store.move_to_end(key)
+        while len(store) > cap:
+            store.popitem(last=False)
+    return value
+
+
+def _old_memo(store, lock, key, ttl, build):
+    now = time.time()
+    with lock:
+        hit = store.get(key)
+        if hit and hit[0] > now:
+            return hit[1]
+    value = build()
+    with lock:
+        store[key] = (now + ttl, value)
+    return value
+
+
+def _memo_script(cached, monkeypatch, clock_name):
+    clock = [100.0]
+    monkeypatch.setattr(time, clock_name, lambda: clock[0])
+    calls, out = [], []
+
+    def build(key):
+        def fn():
+            calls.append(key)
+            return f"{key}@{clock[0]}"
+        return fn
+
+    # the last pair lands exactly on the ttl
+    for key, advance in [("a", 0), ("a", 5), ("b", 0), ("a", 4.9), ("c", 0), ("a", 0.2), ("b", 0), ("a", 30), ("d", 0),
+                         ("e", 0), ("e", 10)]:
+        clock[0] += advance
+        out.append(cached(key, build(key)))
+    return out, calls
+
+
+def test_memoized_is_the_old_lru(monkeypatch):
+    def run(impl):
+        store, lock = OrderedDict(), threading.Lock()
+        result = _memo_script(lambda key, fn: impl(store, lock, 2, key, fn, 10), monkeypatch, "monotonic")
+        return result, list(store.items())
+    assert run(memo.memoized) == run(_old_memoized)
+
+
+def test_expiring_and_remember(monkeypatch):
+    def run(impl):
+        store, lock = {}, threading.Lock()
+        result = _memo_script(lambda key, fn: impl(store, lock, key, 10, fn), monkeypatch, "time")
+        return result, sorted(store.items())
+    assert run(memo.expiring) == run(_old_memo)
+    store, lock = {}, threading.Lock()
+    monkeypatch.setattr(time, "time", lambda: 50.0)
+    memo.remember(store, lock, "k", 10, "v")
+    assert store == {"k": (60.0, "v")} and memo.expiring(store, lock, "k", 10, lambda: "rebuilt") == "v"
+
+
+# ---- fan-out -------------------------------------------------------------------------------
+
+def _fail():
+    raise Boom("x")
+
+
+def test_per_call_and_guarded_per_call():
+    assert fanout.per_call([], 4) == [] and fanout.per_call([lambda: 1], 4) == [1]
+    assert fanout.per_call([lambda: 1, lambda: 2, lambda: 3], 2) == [1, 2, 3]
+    with pytest.raises(Boom):
+        fanout.per_call([lambda: 1, _fail, lambda: 3], 2)
+    assert fanout.guarded_per_call([], 4) == []
+    out = fanout.guarded_per_call([lambda: 1, _fail, lambda: 3], 0)          # workers below 1 still run
+    assert out[0] == ("ok", 1) and out[2] == ("ok", 3) and out[1][0] == "error" and isinstance(out[1][1], Boom)
+
+
+def test_windowed_uses_the_pool_for_its_nesting_level():
+    pools = (ThreadPoolExecutor(2, thread_name_prefix="x-fanout-0"), ThreadPoolExecutor(2, thread_name_prefix="x-fanout-1"))
+
+    def where():
+        return threading.current_thread().name[:10]
+
+    def nested():
+        inner = fanout.windowed(pools, "x-fanout", [where, where], 2)       # from an outer thread: the inner pool
+        innermost = fanout.windowed(pools, "x-fanout", [lambda: pools[1].submit(
+            lambda: fanout.windowed(pools, "x-fanout", [where], 2)).result()], 2)
+        return where(), inner, innermost
+
+    try:
+        assert fanout.windowed(pools, "x-fanout", [], 2) == []
+        assert fanout.windowed(pools, "x-fanout", [lambda: 1, lambda: 2, lambda: 3], 2) == [1, 2, 3]
+        outer, inner, innermost = fanout.windowed(pools, "x-fanout", [nested], 2)[0]
+        assert outer == "x-fanout-0" and inner == ["x-fanout-1", "x-fanout-1"] and innermost == [["x-fanout-1"]]
+        ran = []
+        with pytest.raises(Boom):                         # the first failure in order; nothing new starts after it
+            fanout.windowed(pools, "x-fanout", [_fail] + [lambda i=i: ran.append(i) for i in range(6)], 1)
+        assert ran == []
+    finally:
+        for pool in pools:
+            pool.shutdown()
+
+
+def test_soft_and_gather():
+    assert fanout.soft(_fail, "d", (Boom,))() == "d" and fanout.soft(lambda: 1, "d", (Boom,))() == 1
+    with pytest.raises(Boom):
+        fanout.soft(_fail, "d", (Other,))()
+
+    def serial(fns):
+        return [fn() for fn in fns]
+
+    assert fanout.gather(serial, {"a": lambda: 1, "b": _fail}, (Boom,)) == {"a": 1, "b": None}
+    assert fanout.gather_optional(serial, {"a": lambda: 1, "b": _fail}, ("b",), (Boom,)) == {"a": 1, "b": None}
+    with pytest.raises(Boom):
+        fanout.gather_optional(serial, {"a": lambda: 1, "b": _fail}, ("a",), (Boom,))
+
+
+# ---- debug dump ----------------------------------------------------------------------------
+
+def test_dump(tmp_path, monkeypatch):
+    monkeypatch.delenv("X_DEBUG_DIR", raising=False)
+    debug.dump("X_DEBUG_DIR", "a", "body")                # unset: nothing happens
+    target = tmp_path / "dumps"
+    monkeypatch.setenv("X_DEBUG_DIR", str(target))
+    debug.dump("X_DEBUG_DIR", "a", "")                    # empty text: nothing written
+    assert not target.exists()
+    debug.dump("X_DEBUG_DIR", "a", "body")
+    debug.dump("X_DEBUG_DIR", "b", "café", encoding="utf-8")
+    assert (target / "a.txt").read_text() == "body" and (target / "b.txt").read_text(encoding="utf-8") == "café"
+    monkeypatch.setenv("X_DEBUG_DIR", str(tmp_path / "a-file"))
+    (tmp_path / "a-file").write_text("in the way")
+    debug.dump("X_DEBUG_DIR", "c", "body")                # cannot create the folder: swallowed
+
+
+# ---- session builders, response classification, the exit ladder, the shared payload cache -------
+
+class _Curl:
+    def __init__(self, impersonate=None):
+        self.impersonate, self.headers, self.proxies = impersonate, {}, None
+
+
+def test_curl_session_and_thread_session(monkeypatch):
+    import curl_cffi.requests
+    monkeypatch.setattr(curl_cffi.requests, "Session", _Curl)
+    order = []
+    sess = sessions.curl_session("chrome", proxy_fn=lambda: order.append("proxy asked") or "http://p",
+                                 accept_language=lambda proxy: f"lang({proxy})")
+    assert (sess.impersonate, sess.proxies, sess.headers) == ("chrome", {"http": "http://p", "https": "http://p"},
+                                                             {"accept-language": "lang(http://p)"})
+    direct = sessions.curl_session("chrome", None)
+    assert direct.proxies is None and direct.headers == {}
+    assert sessions.speaking(direct, "en-AU").headers == {"accept-language": "en-AU"}
+    local = threading.local()
+    built = []
+    first = sessions.thread_session(local, lambda: built.append(1) or _Curl())
+    assert sessions.thread_session(local, lambda: built.append(1) or _Curl()) is first and built == [1] and local.session is first
+
+
+def test_classify():
+    from scraper_utils import responses
+
+    class NotFound(Exception): pass
+    class BadRequest(Exception): pass
+    class Blocked(Exception): pass
+    class Upstream(Exception): pass
+
+    def read(status):
+        resp = SimpleNamespace(status_code=status, text="x" * 500)
+        return responses.classify(resp, "the page", NotFound, BadRequest, Blocked, Upstream)
+
+    assert read(200) == "x" * 500
+    for status, error, message in [(404, NotFound, "the page not found"), (400, BadRequest, "x" * 200),
+                                   (401, Blocked, "HTTP 401 for the page"), (403, Blocked, "HTTP 403 for the page"),
+                                   (429, Blocked, "HTTP 429 for the page"), (500, Upstream, "HTTP 500 for the page"),
+                                   (204, Upstream, "HTTP 204 for the page")]:
+        with pytest.raises(error) as caught:
+            read(status)
+        assert str(caught.value) == message
+
+
+def test_current_step(monkeypatch):
+    from scraper_utils import ladder
+    monkeypatch.setattr(time, "time", lambda: 1000.0)
+    local = threading.local()
+    assert ladder.current_step(2, 2000.0, local, lambda step: True) == 2          # cooling down, flag unset
+    assert ladder.current_step(2, 500.0, local, lambda step: True) == 0           # cooldown over
+    local.past_gateway = True
+    assert ladder.current_step(1, 2000.0, local, lambda step: step == 1) == 2     # last retry passes the gateway
+    assert ladder.current_step(2, 2000.0, local, lambda step: step == 1) == 2     # not a gateway step: stays
+
+
+def test_more_fan_out_shapes():
+    with ThreadPoolExecutor(2) as pool:
+        for run in (lambda fns: fanout.on_pool(pool, fns), lambda fns: fanout.on_pool_caller_first(pool, fns),
+                    lambda fns: fanout.per_call_map(fns, 2)):
+            assert run([]) == [] and run([lambda: 1]) == [1] and run([lambda: 1, lambda: 2, lambda: 3]) == [1, 2, 3]
+            with pytest.raises(Boom):
+                run([lambda: 1, _fail, lambda: 3])
+        main = threading.current_thread().name
+        names = fanout.on_pool_caller_first(pool, [lambda: threading.current_thread().name] * 2)
+        assert names[0] == main and names[1] != main
+
+
+def test_shared_raw_uses_the_response_cache_when_there_is_one(monkeypatch):
+    import sys
+    import types
+    calls = []
+
+    def memoized(key, build, ttl=None):
+        calls.append(("memo", key, ttl))
+        return build()
+
+    monkeypatch.setitem(sys.modules, "cache", None)                              # no cache module: memo alone
+    assert memo.shared_raw(memoized, "site.raw.", 600, "page", {"b": 2, "a": 1}, lambda: "built", 30) == "built"
+    assert calls == [("memo", ("page", '{"a": 1, "b": 2}'), 30)]
+    fake = types.ModuleType("cache")
+    fake.cached_call = lambda ns, params, impl, ttl: calls.append(("cache", ns, params, ttl)) or impl()
+    monkeypatch.setitem(sys.modules, "cache", fake)
+    del calls[:]
+    assert memo.shared_raw(memoized, "site.raw.", 600, "page", {"a": 1}, lambda: "built", 5000) == "built"
+    assert calls == [("memo", ("page", '{"a": 1}'), 600), ("cache", "site.raw.page", {"a": 1}, 5000)]

@@ -1,1 +1,163 @@
-IiIiVGV4dCBoZWxwZXJzIGZvciBwYXJzZXJzOiB0cmltbWluZywgd2hpdGVzcGFjZSwgYW5kIEhUTUwgdG8gcGxhaW4gdGV4dC4KUHVyZSBmdW5jdGlvbnMsIG5vIG5ldHdvcms7IGV2ZXJ5IGhlbHBlciByZXR1cm5zIE5vbmUgZm9yIE5vbmUgYW5kIGZvcgphbnl0aGluZyB0aGF0IGVuZHMgdXAgZW1wdHkuCgpTZXZlcmFsIHdheXMgdG8gY2xlYW4gYSBzaG9ydCBzdHJpbmcsIGJlY2F1c2Ugc2l0ZXMgd2FudCBkaWZmZXJlbnQgdGhpbmdzOgoKICAgIHN0cmlwcGVkKCkgICBzdHJpbmdzIG9ubHksIGVkZ2VzIHRyaW1tZWQKICAgIHRyaW1tZWQoKSAgICB0aGUgc2FtZSwgbnVtYmVycyBhY2NlcHRlZCB0b28KICAgIHNxdWFzaGVkKCkgICBzdHJpbmdzIG9ubHksIGV2ZXJ5IHJ1biBvZiB3aGl0ZXNwYWNlIGJlY29tZXMgb25lIHNwYWNlCiAgICBzcXVhc2hlZF9hbnkoKSAgdGhlIHNhbWUgZm9yIGFueSB2YWx1ZSwgdGhyb3VnaCBzdHIoKQogICAgY2xlYW4oKSAgICAgIHNxdWFzaGVkX2FueSgpIHBsdXMgSFRNTCBlbnRpdGllcyB1bmVzY2FwZWQKICAgIHBsYWluKCkgICAgICBjbGVhbigpIHdpdGggdGFncyByZW1vdmVkIGZpcnN0IiIiCmltcG9ydCBodG1sIGFzIGh0bWxfbGliCmltcG9ydCByZQpmcm9tIGh0bWwucGFyc2VyIGltcG9ydCBIVE1MUGFyc2VyCgpmcm9tIHNjcmFwZXJfdXRpbHMudmFsdWVzIGltcG9ydCBhc19saXN0CgojIC0tLS0gc2hvcnQgc3RyaW5ncyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgc3RyaXBwZWQodmFsdWUpOgogICAgIiIiQSBzdHJpbmcgd2l0aCBpdHMgZWRnZXMgdHJpbW1lZDsgTm9uZSBmb3IgJycgYW5kIGZvciBub24tc3RyaW5ncy4iIiIKICAgIGlmIG5vdCBpc2luc3RhbmNlKHZhbHVlLCBzdHIpOgogICAgICAgIHJldHVybiBOb25lCiAgICB2YWx1ZSA9IHZhbHVlLnN0cmlwKCkKICAgIHJldHVybiB2YWx1ZSBvciBOb25lCgoKZGVmIHRyaW1tZWQodmFsdWUpOgogICAgIiIiV2hpdGVzcGFjZS10cmltbWVkIHN0cmluZywgb3IgTm9uZSBmb3IgZW1wdHkgLyBub24tc3RyaW5ncy4iIiIKICAgIGlmIHZhbHVlIGlzIE5vbmUgb3IgaXNpbnN0YW5jZSh2YWx1ZSwgKGRpY3QsIGxpc3QsIGJvb2wpKToKICAgICAgICByZXR1cm4gTm9uZQogICAgdGV4dCA9IHN0cih2YWx1ZSkuc3RyaXAoKQogICAgcmV0dXJuIHRleHQgb3IgTm9uZQoKCmRlZiBzcXVhc2hlZCh2YWx1ZSk6CiAgICAiIiJBIHN0cmluZyB3aXRoIGV2ZXJ5IHJ1biBvZiB3aGl0ZXNwYWNlIGNvbGxhcHNlZDsgTm9uZSBmb3Igbm9uLXN0cmluZ3MuIiIiCiAgICBpZiBub3QgaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKToKICAgICAgICByZXR1cm4gTm9uZQogICAgdmFsdWUgPSAiICIuam9pbih2YWx1ZS5zcGxpdCgpKQogICAgcmV0dXJuIHZhbHVlIG9yIE5vbmUKCgpkZWYgc3F1YXNoZWRfYW55KHZhbHVlKToKICAgICIiIkFueSB2YWx1ZSBhcyBhIHN0cmluZyB3aXRoIGV2ZXJ5IHJ1biBvZiB3aGl0ZXNwYWNlIGNvbGxhcHNlZC4iIiIKICAgIGlmIHZhbHVlIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHZhbHVlID0gIiAiLmpvaW4oc3RyKHZhbHVlKS5zcGxpdCgpKQogICAgcmV0dXJuIHZhbHVlIG9yIE5vbmUKCgpkZWYgY2xlYW4odmFsdWUpOgogICAgIiIiV2hpdGVzcGFjZS1jb2xsYXBzZWQsIEhUTUwtdW5lc2NhcGVkIHN0cmluZzsgJycgLT4gTm9uZS4gQWNjZXB0cwogICAgeyJ0ZXh0IjogLi4ufSB3cmFwcGVycy4iIiIKICAgIGlmIGlzaW5zdGFuY2UodmFsdWUsIGRpY3QpOgogICAgICAgIHZhbHVlID0gdmFsdWUuZ2V0KCJ0ZXh0IikKICAgIGlmIHZhbHVlIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIG91dCA9ICIgIi5qb2luKGh0bWxfbGliLnVuZXNjYXBlKHN0cih2YWx1ZSkpLnJlcGxhY2UoIlx4YTAiLCAiICIpLnNwbGl0KCkpCiAgICByZXR1cm4gb3V0IG9yIE5vbmUKCgpkZWYgbXVsdGlsaW5lKHZhbHVlKToKICAgICIiIkxpa2UgY2xlYW4oKSBidXQga2VlcHMgbGluZSBicmVha3MgKHJldmlldyBib2RpZXMsIGRlc2NyaXB0aW9ucykuIiIiCiAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCBkaWN0KToKICAgICAgICB2YWx1ZSA9IHZhbHVlLmdldCgidGV4dCIpCiAgICBpZiB2YWx1ZSBpcyBOb25lOgogICAgICAgIHJldHVybiBOb25lCiAgICBsaW5lcyA9IFsiICIuam9pbihsaW5lLnNwbGl0KCkpIGZvciBsaW5lIGluIGh0bWxfbGliLnVuZXNjYXBlKHN0cih2YWx1ZSkpLnJlcGxhY2UoIlx4YTAiLCAiICIpLnNwbGl0bGluZXMoKV0KICAgIG91dCA9ICJcbiIuam9pbihsaW5lcykKICAgIG91dCA9IHJlLnN1YihyIlxuezMsfSIsICJcblxuIiwgb3V0KS5zdHJpcCgpCiAgICByZXR1cm4gb3V0IG9yIE5vbmUKCgpkZWYgbG93ZXJfc25ha2UodmFsdWUpOgogICAgIiIiJ1dvcmsvTGlmZSBiYWxhbmNlJyAvICdCZW5lZml0cyAmIHBlcmtzJyAtPiAnd29ya19saWZlX2JhbGFuY2UnIC8gJ2JlbmVmaXRzX3BlcmtzJy4iIiIKICAgIHZhbHVlID0gY2xlYW4odmFsdWUpCiAgICBpZiBub3QgdmFsdWU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiByZS5zdWIociJbXmEtejAtOV0rIiwgIl8iLCB2YWx1ZS5sb3dlcigpKS5zdHJpcCgiXyIpIG9yIE5vbmUKCgpkZWYgdGV4dF9saXN0KHZhbHVlcyk6CiAgICAiIiJBIGxpc3Qgb2Ygc3RyaW5ncywgdHJpbW1lZCwgZGVkdXBlZCwgZW1wdGllcyBkcm9wcGVkLiIiIgogICAgb3V0ID0gW10KICAgIGZvciB2YWx1ZSBpbiBhc19saXN0KHZhbHVlcyk6CiAgICAgICAgaXRlbSA9IGNsZWFuKHZhbHVlKQogICAgICAgIGlmIGl0ZW0gYW5kIGl0ZW0gbm90IGluIG91dDoKICAgICAgICAgICAgb3V0LmFwcGVuZChpdGVtKQogICAgcmV0dXJuIG91dAoKCiMgLS0tLSBIVE1MIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCl9UQUdfUkUgPSByZS5jb21waWxlKHIiPFtePl0rPiIpCl9XU19SRSA9IHJlLmNvbXBpbGUociJccysiKQoKCmRlZiBwbGFpbih2YWx1ZSk6CiAgICAiIiJTdHJpcCB0YWdzLCB1bmVzY2FwZSBlbnRpdGllcyBhbmQgY29sbGFwc2Ugd2hpdGVzcGFjZTsgJycgLT4gTm9uZS4iIiIKICAgIGlmIHZhbHVlIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHRleHQgPSBfV1NfUkUuc3ViKCIgIiwgaHRtbF9saWIudW5lc2NhcGUoX1RBR19SRS5zdWIoIiIsIHN0cih2YWx1ZSkpKSkuc3RyaXAoKQogICAgcmV0dXJuIHRleHQgb3IgTm9uZQoKCl9CTE9DS19UQUdTID0geyJwIiwgImRpdiIsICJiciIsICJsaSIsICJ1bCIsICJvbCIsICJoMSIsICJoMiIsICJoMyIsICJoNCIsICJoNSIsICJoNiIsICJ0ciIsICJ0YWJsZSIsCiAgICAgICAgICAgICAgICJzZWN0aW9uIiwgImFydGljbGUiLCAiaGVhZGVyIiwgImZvb3RlciIsICJibG9ja3F1b3RlIiwgInByZSIsICJociIsICJkZCIsICJkdCIsICJkbCJ9Cl9TS0lQX1RBR1MgPSB7InNjcmlwdCIsICJzdHlsZSIsICJub3NjcmlwdCIsICJ0ZW1wbGF0ZSIsICJoZWFkIn0KCgpjbGFzcyBfVGV4dEV4dHJhY3RvcihIVE1MUGFyc2VyKToKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKGNvbnZlcnRfY2hhcnJlZnM9VHJ1ZSkKICAgICAgICBzZWxmLnBhcnRzID0gW10KICAgICAgICBzZWxmLl9za2lwID0gMAoKICAgIGRlZiBoYW5kbGVfc3RhcnR0YWcoc2VsZiwgdGFnLCBhdHRycyk6CiAgICAgICAgaWYgdGFnIGluIF9TS0lQX1RBR1M6CiAgICAgICAgICAgIHNlbGYuX3NraXAgKz0gMQogICAgICAgIGVsaWYgdGFnID09ICJsaSI6CiAgICAgICAgICAgIHNlbGYucGFydHMuYXBwZW5kKCJcbi0gIikKICAgICAgICBlbGlmIHRhZyA9PSAiYnIiOgogICAgICAgICAgICBzZWxmLnBhcnRzLmFwcGVuZCgiXG4iKQogICAgICAgIGVsaWYgdGFnIGluIF9CTE9DS19UQUdTOgogICAgICAgICAgICBzZWxmLnBhcnRzLmFwcGVuZCgiXG4iKQoKICAgIGRlZiBoYW5kbGVfZW5kdGFnKHNlbGYsIHRhZyk6CiAgICAgICAgaWYgdGFnIGluIF9TS0lQX1RBR1M6CiAgICAgICAgICAgIHNlbGYuX3NraXAgPSBtYXgoMCwgc2VsZi5fc2tpcCAtIDEpCiAgICAgICAgZWxpZiB0YWcgaW4gKCJsaSIsICJiciIpOgogICAgICAgICAgICByZXR1cm4KICAgICAgICBlbGlmIHRhZyBpbiAoInVsIiwgIm9sIik6CiAgICAgICAgICAgIHNlbGYucGFydHMuYXBwZW5kKCJcblxuIikgICAgICAjIGEgbGlzdCBlbmRzIGl0cyBwYXJhZ3JhcGgKICAgICAgICBlbGlmIHRhZyBpbiBfQkxPQ0tfVEFHUzoKICAgICAgICAgICAgc2VsZi5wYXJ0cy5hcHBlbmQoIlxuIikKCiAgICBkZWYgaGFuZGxlX2RhdGEoc2VsZiwgZGF0YSk6CiAgICAgICAgaWYgbm90IHNlbGYuX3NraXA6CiAgICAgICAgICAgIHNlbGYucGFydHMuYXBwZW5kKGRhdGEpCgoKZGVmIGh0bWxfdG9fdGV4dCh2YWx1ZSk6CiAgICAiIiJBbiBIVE1MIGZyYWdtZW50IC0+IHJlYWRhYmxlIHBsYWluIHRleHQ6IGJsb2NrIGVsZW1lbnRzIGJlY29tZSBsaW5lCiAgICBicmVha3MsIGxpc3QgaXRlbXMgZ2V0IGEgZGFzaCwgcnVucyBvZiBibGFuayBsaW5lcyBjb2xsYXBzZS4iIiIKICAgIHZhbHVlID0gdmFsdWUgaWYgaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKSBlbHNlIE5vbmUKICAgIGlmIG5vdCB2YWx1ZToKICAgICAgICByZXR1cm4gTm9uZQogICAgaWYgIjwiIG5vdCBpbiB2YWx1ZToKICAgICAgICByZXR1cm4gbXVsdGlsaW5lKHZhbHVlKQogICAgcGFyc2VyID0gX1RleHRFeHRyYWN0b3IoKQogICAgdHJ5OgogICAgICAgIHBhcnNlci5mZWVkKHZhbHVlKQogICAgICAgIHBhcnNlci5jbG9zZSgpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiBtdWx0aWxpbmUocmUuc3ViKHIiPFtePl0rPiIsICIgIiwgdmFsdWUpKQogICAgcmF3ID0gIiIuam9pbihwYXJzZXIucGFydHMpLnJlcGxhY2UoIlx4YTAiLCAiICIpCiAgICBsaW5lcyA9IFsiICIuam9pbihsaW5lLnNwbGl0KCkpIGZvciBsaW5lIGluIHJhdy5zcGxpdGxpbmVzKCldCiAgICBvdXQgPSAiXG4iLmpvaW4obGluZXMpCiAgICBvdXQgPSByZS5zdWIociJcbnszLH0iLCAiXG5cbiIsIG91dCkKICAgIG91dCA9IHJlLnN1YihyIlxuXG4oLSApIiwgciJcblwxIiwgb3V0KS5zdHJpcCgpICAgIyBsaXN0IGl0ZW1zIHN0YXkgdGlnaHQKICAgIHJldHVybiBvdXQgb3IgTm9uZQo=
+"""Text helpers for parsers: trimming, whitespace, and HTML to plain text.
+Pure functions, no network; every helper returns None for None and for
+anything that ends up empty.
+
+Several ways to clean a short string, because sites want different things:
+
+    stripped()   strings only, edges trimmed
+    trimmed()    the same, numbers accepted too
+    squashed()   strings only, every run of whitespace becomes one space
+    squashed_any()  the same for any value, through str()
+    clean()      squashed_any() plus HTML entities unescaped
+    plain()      clean() with tags removed first"""
+import html as html_lib
+import re
+from html.parser import HTMLParser
+
+from scraper_utils.values import as_list
+
+# ---- short strings -------------------------------------------------------------------------
+
+def stripped(value):
+    """A string with its edges trimmed; None for '' and for non-strings."""
+    if not isinstance(value, str):
+        return None
+    value = value.strip()
+    return value or None
+
+
+def trimmed(value):
+    """Whitespace-trimmed string, or None for empty / non-strings."""
+    if value is None or isinstance(value, (dict, list, bool)):
+        return None
+    text = str(value).strip()
+    return text or None
+
+
+def squashed(value):
+    """A string with every run of whitespace collapsed; None for non-strings."""
+    if not isinstance(value, str):
+        return None
+    value = " ".join(value.split())
+    return value or None
+
+
+def squashed_any(value):
+    """Any value as a string with every run of whitespace collapsed."""
+    if value is None:
+        return None
+    value = " ".join(str(value).split())
+    return value or None
+
+
+def clean(value):
+    """Whitespace-collapsed, HTML-unescaped string; '' -> None. Accepts
+    {"text": ...} wrappers."""
+    if isinstance(value, dict):
+        value = value.get("text")
+    if value is None:
+        return None
+    out = " ".join(html_lib.unescape(str(value)).replace("\xa0", " ").split())
+    return out or None
+
+
+def multiline(value):
+    """Like clean() but keeps line breaks (review bodies, descriptions)."""
+    if isinstance(value, dict):
+        value = value.get("text")
+    if value is None:
+        return None
+    lines = [" ".join(line.split()) for line in html_lib.unescape(str(value)).replace("\xa0", " ").splitlines()]
+    out = "\n".join(lines)
+    out = re.sub(r"\n{3,}", "\n\n", out).strip()
+    return out or None
+
+
+def lower_snake(value):
+    """'Work/Life balance' / 'Benefits & perks' -> 'work_life_balance' / 'benefits_perks'."""
+    value = clean(value)
+    if not value:
+        return None
+    return re.sub(r"[^a-z0-9]+", "_", value.lower()).strip("_") or None
+
+
+def text_list(values):
+    """A list of strings, trimmed, deduped, empties dropped."""
+    out = []
+    for value in as_list(values):
+        item = clean(value)
+        if item and item not in out:
+            out.append(item)
+    return out
+
+
+# ---- HTML ----------------------------------------------------------------------------------
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def plain(value):
+    """Strip tags, unescape entities and collapse whitespace; '' -> None."""
+    if value is None:
+        return None
+    text = _WS_RE.sub(" ", html_lib.unescape(_TAG_RE.sub("", str(value)))).strip()
+    return text or None
+
+
+_BLOCK_TAGS = {"p", "div", "br", "li", "ul", "ol", "h1", "h2", "h3", "h4", "h5", "h6", "tr", "table",
+               "section", "article", "header", "footer", "blockquote", "pre", "hr", "dd", "dt", "dl"}
+_SKIP_TAGS = {"script", "style", "noscript", "template", "head"}
+
+
+class _TextExtractor(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self._skip = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in _SKIP_TAGS:
+            self._skip += 1
+        elif tag == "li":
+            self.parts.append("\n- ")
+        elif tag == "br":
+            self.parts.append("\n")
+        elif tag in _BLOCK_TAGS:
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag):
+        if tag in _SKIP_TAGS:
+            self._skip = max(0, self._skip - 1)
+        elif tag in ("li", "br"):
+            return
+        elif tag in ("ul", "ol"):
+            self.parts.append("\n\n")      # a list ends its paragraph
+        elif tag in _BLOCK_TAGS:
+            self.parts.append("\n")
+
+    def handle_data(self, data):
+        if not self._skip:
+            self.parts.append(data)
+
+
+def html_to_text(value):
+    """An HTML fragment -> readable plain text: block elements become line
+    breaks, list items get a dash, runs of blank lines collapse."""
+    value = value if isinstance(value, str) else None
+    if not value:
+        return None
+    if "<" not in value:
+        return multiline(value)
+    parser = _TextExtractor()
+    try:
+        parser.feed(value)
+        parser.close()
+    except Exception:
+        return multiline(re.sub(r"<[^>]+>", " ", value))
+    raw = "".join(parser.parts).replace("\xa0", " ")
+    lines = [" ".join(line.split()) for line in raw.splitlines()]
+    out = "\n".join(lines)
+    out = re.sub(r"\n{3,}", "\n\n", out)
+    out = re.sub(r"\n\n(- )", r"\n\1", out).strip()   # list items stay tight
+    return out or None

@@ -1,1 +1,27 @@
-IiIiU3RhcnQgdGhlIFRpa1RvayBTY3JhcGVyIEFQSS4KCiAgICBweXRob24gcnVuLnB5ICAgICAgICAgICAgIyBodHRwOi8vbG9jYWxob3N0OjgwMDAKICAgIFBPUlQ9OTAwMCBweXRob24gcnVuLnB5ICAjIGFub3RoZXIgcG9ydAoKVGhlbjogIGN1cmwgImh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC92aWRlb3MvZGV0YWlscz92aWRlbz03NjkyMTE0MzE3MTUxNDIzNzc1IgoiIiIKaW1wb3J0IGJvdHRsZQpmcm9tIGNoZXJvb3QgaW1wb3J0IHdzZ2kKCmltcG9ydCBjb25maWcKaW1wb3J0IHJvdXRlcyAgIyBub3FhOiBGNDAxICAobW91bnRzIHRoZSByb3V0ZXMgb24gYm90dGxlJ3MgZGVmYXVsdCBhcHApCgoKZGVmIG1haW4oKToKICAgIGFwcCA9IGJvdHRsZS5kZWZhdWx0X2FwcCgpCiAgICBwcmludChmIlRpa1RvayBTY3JhcGVyIGxpc3RlbmluZyBvbiBodHRwOi8vbG9jYWxob3N0Ontjb25maWcuUE9SVH0vIikKICAgIHByaW50KGYiVHJ5OiAgY3VybCBcImh0dHA6Ly9sb2NhbGhvc3Q6e2NvbmZpZy5QT1JUfS92aWRlb3MvZGV0YWlscz92aWRlbz03NjkyMTE0MzE3MTUxNDIzNzc1XCIiKQogICAgc2VydmVyID0gd3NnaS5TZXJ2ZXIoKCIwLjAuMC4wIiwgY29uZmlnLlBPUlQpLCBhcHAsIHNlcnZlcl9uYW1lPSJ0aWt0b2stc2NyYXBlciIsIG51bXRocmVhZHM9MTYpCiAgICB0cnk6CiAgICAgICAgc2VydmVyLnN0YXJ0KCkKICAgIGV4Y2VwdCBLZXlib2FyZEludGVycnVwdDoKICAgICAgICBzZXJ2ZXIuc3RvcCgpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""Start the TikTok Scraper API.
+
+    python run.py            # http://localhost:8000
+    PORT=9000 python run.py  # another port
+
+Then:  curl "http://localhost:8000/videos/details?video=7692114317151423775"
+"""
+import bottle
+from cheroot import wsgi
+
+import config
+import routes  # noqa: F401  (mounts the routes on bottle's default app)
+
+
+def main():
+    app = bottle.default_app()
+    print(f"TikTok Scraper listening on http://localhost:{config.PORT}/")
+    print(f"Try:  curl \"http://localhost:{config.PORT}/videos/details?video=7692114317151423775\"")
+    server = wsgi.Server(("0.0.0.0", config.PORT), app, server_name="tiktok-scraper", numthreads=16)
+    try:
+        server.start()
+    except KeyboardInterrupt:
+        server.stop()
+
+
+if __name__ == "__main__":
+    main()

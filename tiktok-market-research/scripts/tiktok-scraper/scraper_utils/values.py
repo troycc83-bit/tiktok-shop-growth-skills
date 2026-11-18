@@ -1,1 +1,144 @@
-IiIiVmFsdWUgaGVscGVycyBmb3IgcGFyc2Vyczogc2FmZSBuZXN0ZWQgYWNjZXNzLCBudW1iZXJzIGFuZCBib29sZWFucy4gUHVyZQpmdW5jdGlvbnMsIG5vIG5ldHdvcms7IGV2ZXJ5IGhlbHBlciB0b2xlcmF0ZXMgTm9uZSBhbmQganVuay4KCk51bWJlcnMgY29tZSBpbiBhIGZldyB2YXJpYW50cywgYmVjYXVzZSBzaXRlcyBkaWZmZXIgb24gcHVycG9zZTogc29tZSByb3VuZCBhCmZsb2F0IHdoZXJlIG90aGVycyB0cnVuY2F0ZSwgc29tZSByZWFkIHRoZSBudW1iZXIgb3V0IG9mIGEgbG9uZ2VyIHRleHQuIFBpY2sKdGhlIHZhcmlhbnQgYnkgd2hhdCB0aGUgc2l0ZSdzIGRhdGEgbmVlZHM7IGFsbCBvZiB0aGVtIHJldHVybiBOb25lIGZvciBOb25lLApib29sZWFucywganVuaywgTmFOIGFuZCBpbmZpbml0eS4iIiIKaW1wb3J0IG1hdGgKaW1wb3J0IHJlCgojIC0tLS0gc2FmZSBhY2Nlc3MgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgZyhvYmosICpwYXRoLCBkZWZhdWx0PU5vbmUpOgogICAgIiIiU2FmZSBuZXN0ZWQgZ2V0OiBnKGQsICJhIiwgImIiLCAwKSAtPiBkWyJhIl1bImIiXVswXSBvciBkZWZhdWx0LiIiIgogICAgZm9yIHN0ZXAgaW4gcGF0aDoKICAgICAgICBpZiBpc2luc3RhbmNlKHN0ZXAsIGludCk6CiAgICAgICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKG9iaiwgbGlzdCkgb3Igbm90IC1sZW4ob2JqKSA8PSBzdGVwIDwgbGVuKG9iaik6CiAgICAgICAgICAgICAgICByZXR1cm4gZGVmYXVsdAogICAgICAgICAgICBvYmogPSBvYmpbc3RlcF0KICAgICAgICBlbHNlOgogICAgICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShvYmosIGRpY3QpOgogICAgICAgICAgICAgICAgcmV0dXJuIGRlZmF1bHQKICAgICAgICAgICAgb2JqID0gb2JqLmdldChzdGVwKQogICAgICAgIGlmIG9iaiBpcyBOb25lOgogICAgICAgICAgICByZXR1cm4gZGVmYXVsdAogICAgcmV0dXJuIG9iagoKCmRlZiBhc19saXN0KHZhbHVlKToKICAgIHJldHVybiB2YWx1ZSBpZiBpc2luc3RhbmNlKHZhbHVlLCBsaXN0KSBlbHNlIFtdCgoKZGVmIGFzX2RpY3QodmFsdWUpOgogICAgcmV0dXJuIHZhbHVlIGlmIGlzaW5zdGFuY2UodmFsdWUsIGRpY3QpIGVsc2Uge30KCgpkZWYgYm9vbF9vcl9ub25lKHZhbHVlKToKICAgIHJldHVybiB2YWx1ZSBpZiBpc2luc3RhbmNlKHZhbHVlLCBib29sKSBlbHNlIE5vbmUKCgojIC0tLS0gbnVtYmVycyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpfTlVNQkVSID0gcmUuY29tcGlsZShyIi0/XGQrKD86XC5cZCspPyIpCgoKZGVmIF9pc19pbnQodmFsdWUpOgogICAgcmV0dXJuIGlzaW5zdGFuY2UodmFsdWUsIGludCkgYW5kIG5vdCBpc2luc3RhbmNlKHZhbHVlLCBib29sKQoKCmRlZiBudW0odmFsdWUpOgogICAgIiIiaW50IC8gZmxvYXQgLyBudW1lcmljIHN0cmluZyAoJzEsMjM0LjUnKSAtPiBmbG9hdDsgYm9vbCwganVuaywgTmFOIGFuZAogICAgaW5maW5pdHkgLT4gTm9uZS4iIiIKICAgIGlmIHZhbHVlIGlzIE5vbmUgb3IgaXNpbnN0YW5jZSh2YWx1ZSwgYm9vbCk6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIGlmIG5vdCBpc2luc3RhbmNlKHZhbHVlLCAoaW50LCBmbG9hdCkpOgogICAgICAgIHZhbHVlID0gc3RyKHZhbHVlKS5zdHJpcCgpLnJlcGxhY2UoIiwiLCAiIikKICAgIHRyeToKICAgICAgICBvdXQgPSBmbG9hdCh2YWx1ZSkKICAgIGV4Y2VwdCAoVmFsdWVFcnJvciwgT3ZlcmZsb3dFcnJvcik6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiBvdXQgaWYgbWF0aC5pc2Zpbml0ZShvdXQpIGVsc2UgTm9uZQoKCnRvX2Zsb2F0ID0gbnVtCgoKZGVmIG51bWJlcih2YWx1ZSk6CiAgICAiIiJMaWtlIG51bSgpLCBidXQgYSB3aG9sZSBudW1iZXIgY29tZXMgYmFjayBhcyBhbiBpbnQgKDM4NC4wIC0+IDM4NCkuIiIiCiAgICBpZiBfaXNfaW50KHZhbHVlKToKICAgICAgICByZXR1cm4gdmFsdWUKICAgIG91dCA9IG51bSh2YWx1ZSkKICAgIGlmIG91dCBpcyBOb25lOgogICAgICAgIHJldHVybiBOb25lCiAgICByZXR1cm4gaW50KG91dCkgaWYgb3V0LmlzX2ludGVnZXIoKSBlbHNlIG91dAoKCmRlZiB0b19pbnQodmFsdWUpOgogICAgIiIiQSB3aG9sZSBudW1iZXI7IGEgZmxvYXQgb3IgZmxvYXQgdGV4dCBpcyB0cnVuY2F0ZWQgKCczLjcnIC0+IDMpLiIiIgogICAgaWYgX2lzX2ludCh2YWx1ZSk6CiAgICAgICAgcmV0dXJuIHZhbHVlCiAgICBvdXQgPSBudW0odmFsdWUpCiAgICByZXR1cm4gaW50KG91dCkgaWYgb3V0IGlzIG5vdCBOb25lIGVsc2UgTm9uZQoKCmRlZiB0b19pbnRfcm91bmQodmFsdWUpOgogICAgIiIiQSB3aG9sZSBudW1iZXI7IGEgZmxvYXQgb3IgZmxvYXQgdGV4dCBpcyByb3VuZGVkICgnMy43JyAtPiA0KS4iIiIKICAgIGlmIF9pc19pbnQodmFsdWUpOgogICAgICAgIHJldHVybiB2YWx1ZQogICAgb3V0ID0gbnVtKHZhbHVlKQogICAgcmV0dXJuIGludChyb3VuZChvdXQpKSBpZiBvdXQgaXMgbm90IE5vbmUgZWxzZSBOb25lCgoKZGVmIGZpcnN0X2Zsb2F0KHZhbHVlKToKICAgICIiIlRoZSBmaXJzdCBudW1iZXIgaW5zaWRlIGEgdGV4dCAoJyQxLDI5OS45OSBlYWNoJyAtPiAxMjk5Ljk5KTsgYSBudW1iZXIKICAgIHBhc3NlcyB0aHJvdWdoIGFzIGEgZmxvYXQuIiIiCiAgICBpZiB2YWx1ZSBpcyBOb25lIG9yIGlzaW5zdGFuY2UodmFsdWUsIGJvb2wpOgogICAgICAgIHJldHVybiBOb25lCiAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCAoaW50LCBmbG9hdCkpOgogICAgICAgIHJldHVybiBudW0odmFsdWUpCiAgICBtYXRjaCA9IF9OVU1CRVIuc2VhcmNoKHN0cih2YWx1ZSkucmVwbGFjZSgiLCIsICIiKSkKICAgIHJldHVybiBudW0obWF0Y2guZ3JvdXAoMCkpIGlmIG1hdGNoIGVsc2UgTm9uZQoKCmRlZiBmaXJzdF9pbnQodmFsdWUpOgogICAgIiIiVGhlIGZpcnN0IG51bWJlciBpbnNpZGUgYSB0ZXh0LCB0cnVuY2F0ZWQgKCcxMiByZXZpZXdzJyAtPiAxMikuIiIiCiAgICBpZiBfaXNfaW50KHZhbHVlKToKICAgICAgICByZXR1cm4gdmFsdWUKICAgIG91dCA9IGZpcnN0X2Zsb2F0KHZhbHVlKQogICAgcmV0dXJuIGludChvdXQpIGlmIG91dCBpcyBub3QgTm9uZSBlbHNlIE5vbmUKCgojIC0tLS0gbnVtYmVycyB3aXRoIGEgbWVhbmluZyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgcm91bmRlZCh2YWx1ZSwgZGlnaXRzPTIpOgogICAgb3V0ID0gbnVtKHZhbHVlKQogICAgcmV0dXJuIHJvdW5kKG91dCwgZGlnaXRzKSBpZiBvdXQgaXMgbm90IE5vbmUgZWxzZSBOb25lCgoKZGVmIGFtb3VudCh2YWx1ZSk6CiAgICAiIiJBIG1vbmV5IGFtb3VudDogd2hvbGUgbnVtYmVycyBhcyBpbnQsIG90aGVycyByb3VuZGVkIHRvIGNlbnRzLiIiIgogICAgb3V0ID0gbnVtKHZhbHVlKQogICAgaWYgb3V0IGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiBpbnQob3V0KSBpZiBmbG9hdChvdXQpLmlzX2ludGVnZXIoKSBlbHNlIHJvdW5kKG91dCwgMikKCgpkZWYgcmF0aW5nKHZhbHVlKToKICAgICIiIkEgMC01IHN0YXIgcmF0aW5nIHJvdW5kZWQgdG8gMiBwbGFjZXM7IDAgLyBtaXNzaW5nIC0+IE5vbmUuIiIiCiAgICBvdXQgPSBudW0odmFsdWUpCiAgICByZXR1cm4gcm91bmQob3V0LCAyKSBpZiBvdXQgZWxzZSBOb25lCgoKZGVmIGNvdW50KHZhbHVlKToKICAgICIiIkEgbm9uLW5lZ2F0aXZlIGNvdW50OyBuZWdhdGl2ZXMgLT4gMC4iIiIKICAgIG91dCA9IHRvX2ludF9yb3VuZCh2YWx1ZSkKICAgIGlmIG91dCBpcyBOb25lOgogICAgICAgIHJldHVybiBOb25lCiAgICByZXR1cm4gb3V0IGlmIG91dCA+PSAwIGVsc2UgMAoKCmRlZiB5ZWFyKHZhbHVlKToKICAgICIiIkEgZm91bmRpbmcgeWVhcjogNC1kaWdpdCBpbnQsIGVsc2UgTm9uZSAodGhlIHNpdGUgc3RvcmVzIDAgZm9yIHVua25vd24pLiIiIgogICAgb3V0ID0gdG9faW50X3JvdW5kKHZhbHVlKQogICAgcmV0dXJuIG91dCBpZiBvdXQgYW5kIDEwMDAgPD0gb3V0IDw9IDIxMDAgZWxzZSBOb25lCg==
+"""Value helpers for parsers: safe nested access, numbers and booleans. Pure
+functions, no network; every helper tolerates None and junk.
+
+Numbers come in a few variants, because sites differ on purpose: some round a
+float where others truncate, some read the number out of a longer text. Pick
+the variant by what the site's data needs; all of them return None for None,
+booleans, junk, NaN and infinity."""
+import math
+import re
+
+# ---- safe access ---------------------------------------------------------------------------
+
+def g(obj, *path, default=None):
+    """Safe nested get: g(d, "a", "b", 0) -> d["a"]["b"][0] or default."""
+    for step in path:
+        if isinstance(step, int):
+            if not isinstance(obj, list) or not -len(obj) <= step < len(obj):
+                return default
+            obj = obj[step]
+        else:
+            if not isinstance(obj, dict):
+                return default
+            obj = obj.get(step)
+        if obj is None:
+            return default
+    return obj
+
+
+def as_list(value):
+    return value if isinstance(value, list) else []
+
+
+def as_dict(value):
+    return value if isinstance(value, dict) else {}
+
+
+def bool_or_none(value):
+    return value if isinstance(value, bool) else None
+
+
+# ---- numbers -------------------------------------------------------------------------------
+
+_NUMBER = re.compile(r"-?\d+(?:\.\d+)?")
+
+
+def _is_int(value):
+    return isinstance(value, int) and not isinstance(value, bool)
+
+
+def num(value):
+    """int / float / numeric string ('1,234.5') -> float; bool, junk, NaN and
+    infinity -> None."""
+    if value is None or isinstance(value, bool):
+        return None
+    if not isinstance(value, (int, float)):
+        value = str(value).strip().replace(",", "")
+    try:
+        out = float(value)
+    except (ValueError, OverflowError):
+        return None
+    return out if math.isfinite(out) else None
+
+
+to_float = num
+
+
+def number(value):
+    """Like num(), but a whole number comes back as an int (384.0 -> 384)."""
+    if _is_int(value):
+        return value
+    out = num(value)
+    if out is None:
+        return None
+    return int(out) if out.is_integer() else out
+
+
+def to_int(value):
+    """A whole number; a float or float text is truncated ('3.7' -> 3)."""
+    if _is_int(value):
+        return value
+    out = num(value)
+    return int(out) if out is not None else None
+
+
+def to_int_round(value):
+    """A whole number; a float or float text is rounded ('3.7' -> 4)."""
+    if _is_int(value):
+        return value
+    out = num(value)
+    return int(round(out)) if out is not None else None
+
+
+def first_float(value):
+    """The first number inside a text ('$1,299.99 each' -> 1299.99); a number
+    passes through as a float."""
+    if value is None or isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)):
+        return num(value)
+    match = _NUMBER.search(str(value).replace(",", ""))
+    return num(match.group(0)) if match else None
+
+
+def first_int(value):
+    """The first number inside a text, truncated ('12 reviews' -> 12)."""
+    if _is_int(value):
+        return value
+    out = first_float(value)
+    return int(out) if out is not None else None
+
+
+# ---- numbers with a meaning ----------------------------------------------------------------
+
+def rounded(value, digits=2):
+    out = num(value)
+    return round(out, digits) if out is not None else None
+
+
+def amount(value):
+    """A money amount: whole numbers as int, others rounded to cents."""
+    out = num(value)
+    if out is None:
+        return None
+    return int(out) if float(out).is_integer() else round(out, 2)
+
+
+def rating(value):
+    """A 0-5 star rating rounded to 2 places; 0 / missing -> None."""
+    out = num(value)
+    return round(out, 2) if out else None
+
+
+def count(value):
+    """A non-negative count; negatives -> 0."""
+    out = to_int_round(value)
+    if out is None:
+        return None
+    return out if out >= 0 else 0
+
+
+def year(value):
+    """A founding year: 4-digit int, else None (the site stores 0 for unknown)."""
+    out = to_int_round(value)
+    return out if out and 1000 <= out <= 2100 else None

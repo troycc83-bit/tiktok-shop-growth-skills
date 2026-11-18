@@ -1,1 +1,32 @@
-IiIiQ2FjaGUgVFRMIHBlciAvdGlrdG9rLyogZW5kcG9pbnQgKGNhY2hlLnB5LCBrZXllZCBvbiB0aGUgdmFsaWRhdGVkIHBhcmFtcwrigJQgYHVzZXI9bmFzYWAsIGB1c2VyPUBOQVNBYCBhbmQgYSBwYXN0ZWQgcHJvZmlsZSBsaW5rIGFsbCB2YWxpZGF0ZSB0byB0aGUKc2FtZSBrZXkpLgoKVGlrVG9rIGNvdW50ZXJzIG1vdmUgYnkgdGhlIHNlY29uZCBvbiBwb3B1bGFyIHZpZGVvcyBhbmQgdGhlIGZlZWRzIGFyZQpyZWdlbmVyYXRlZCBwZXIgY2FsbCwgc28gdGhlIHRpZXJzIHN0YXkgc2hvcnQ7IGlkcyBhbmQgc3RhdGljIGZhY3RzCihyZXNvbHZlcnMsIGhhc2h0YWcgLyBzb3VuZCAvIHBsYWNlIHBhZ2VzLCB0aGUgYWRzIGxpYnJhcnkpIGNoYW5nZSBzbG93bHkuCkN1cnNvciBwYWdlcyBhcmUgY2FjaGVkIHBlciBjdXJzb3IuIFRoZSBtZWRpYSBsaW5rcyBpbnNpZGUgYSB2aWRlbyBleHBpcmUKKHgtZXhwaXJlcywgYSBmZXcgaG91cnMgb3V0KSwgd2hpY2ggY2FwcyBldmVyeSB2aWRlby1iZWFyaW5nIFRUTCB3ZWxsIGJlbG93CnRoYXQuIFRoZSB0cmVuZGluZyBhbmQgZXhwbG9yZSBmZWVkcyBhcmUgTk9UIGNhY2hlZDogImNhbGwgYWdhaW4gZm9yIGEgbmV3CmJhdGNoIiBpcyB0aGVpciBwYWdpbmcuCiIiIgpmcm9tIGRhdGV0aW1lIGltcG9ydCB0aW1lZGVsdGEKClJFU09MVkVfQ0FDSEUgPSB0aW1lZGVsdGEoaG91cnM9MjQpICAgICAgICAgICMgdXNlcm5hbWUgPC0+IGlkLCBzaGFyZSBsaW5rIC0+IHZpZGVvClBST0ZJTEVfQ0FDSEUgPSB0aW1lZGVsdGEobWludXRlcz0zMCkKVVNFUl9WSURFT1NfQ0FDSEUgPSB0aW1lZGVsdGEobWludXRlcz0xMCkgICAgIyB2aWRlb3MsIHJlcG9zdHMKRk9MTE9XX0NBQ0hFID0gdGltZWRlbHRhKG1pbnV0ZXM9MzApICAgICAgICAgIyBmb2xsb3dlcnMgLyBmb2xsb3dpbmcgcGFnZXMKVVNFUl9MSVNUU19DQUNIRSA9IHRpbWVkZWx0YShob3Vycz0xKSAgICAgICAgIyBwbGF5bGlzdHMsIGNvbGxlY3Rpb25zClZJREVPX0NBQ0hFID0gdGltZWRlbHRhKG1pbnV0ZXM9MTApICAgICAgICAgICMgZGV0YWlscywgbWVkaWEsIHJlbGF0ZWQKQ09NTUVOVFNfQ0FDSEUgPSB0aW1lZGVsdGEobWludXRlcz0xMCkKVFJBTlNDUklQVF9DQUNIRSA9IHRpbWVkZWx0YShob3Vycz0yNCkgICAgICAgIyBjYXB0aW9ucyBuZXZlciBjaGFuZ2UKU0VBUkNIX0NBQ0hFID0gdGltZWRlbHRhKG1pbnV0ZXM9MTApClVTRVJfU0VBUkNIX0NBQ0hFID0gdGltZWRlbHRhKGhvdXJzPTEpClNVR0dFU1RfQ0FDSEUgPSB0aW1lZGVsdGEoaG91cnM9NikKRU5USVRZX0NBQ0hFID0gdGltZWRlbHRhKGhvdXJzPTEpICAgICAgICAgICAgIyBoYXNodGFnIC8gc291bmQgLyBwbGF5bGlzdCAvIHBsYWNlIC8gZWZmZWN0IHBhZ2VzCkVOVElUWV9WSURFT1NfQ0FDSEUgPSB0aW1lZGVsdGEobWludXRlcz0xMCkgICMgdGhlaXIgdmlkZW8gbGlzdHMKTElWRV9DQUNIRSA9IHRpbWVkZWx0YShzZWNvbmRzPTMwKQpBRFNfU0VBUkNIX0NBQ0hFID0gdGltZWRlbHRhKGhvdXJzPTEpCkFEX0NBQ0hFID0gdGltZWRlbHRhKGhvdXJzPTYpCkFEU19SRUZFUkVOQ0VfQ0FDSEUgPSB0aW1lZGVsdGEoaG91cnM9MjQpICAgICMgbGlicmFyeSBjb3VudHJpZXMsIHRvcC1hZCBmaWx0ZXJzClRPUF9BRFNfQ0FDSEUgPSB0aW1lZGVsdGEoaG91cnM9MSkK
+"""Cache TTL per /tiktok/* endpoint (cache.py, keyed on the validated params
+— `user=nasa`, `user=@NASA` and a pasted profile link all validate to the
+same key).
+
+TikTok counters move by the second on popular videos and the feeds are
+regenerated per call, so the tiers stay short; ids and static facts
+(resolvers, hashtag / sound / place pages, the ads library) change slowly.
+Cursor pages are cached per cursor. The media links inside a video expire
+(x-expires, a few hours out), which caps every video-bearing TTL well below
+that. The trending and explore feeds are NOT cached: "call again for a new
+batch" is their paging.
+"""
+from datetime import timedelta
+
+RESOLVE_CACHE = timedelta(hours=24)          # username <-> id, share link -> video
+PROFILE_CACHE = timedelta(minutes=30)
+USER_VIDEOS_CACHE = timedelta(minutes=10)    # videos, reposts
+FOLLOW_CACHE = timedelta(minutes=30)         # followers / following pages
+USER_LISTS_CACHE = timedelta(hours=1)        # playlists, collections
+VIDEO_CACHE = timedelta(minutes=10)          # details, media, related
+COMMENTS_CACHE = timedelta(minutes=10)
+TRANSCRIPT_CACHE = timedelta(hours=24)       # captions never change
+SEARCH_CACHE = timedelta(minutes=10)
+USER_SEARCH_CACHE = timedelta(hours=1)
+SUGGEST_CACHE = timedelta(hours=6)
+ENTITY_CACHE = timedelta(hours=1)            # hashtag / sound / playlist / place / effect pages
+ENTITY_VIDEOS_CACHE = timedelta(minutes=10)  # their video lists
+LIVE_CACHE = timedelta(seconds=30)
+ADS_SEARCH_CACHE = timedelta(hours=1)
+AD_CACHE = timedelta(hours=6)
+ADS_REFERENCE_CACHE = timedelta(hours=24)    # library countries, top-ad filters
+TOP_ADS_CACHE = timedelta(hours=1)

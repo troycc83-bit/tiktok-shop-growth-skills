@@ -1,1 +1,16 @@
-IiIiUmVhZGluZyBhbiBIVFRQIHJlc3BvbnNlIGludG8gdGhlIHNjcmFwZXIgZXJyb3IgdGF4b25vbXkuIiIiCgoKZGVmIGNsYXNzaWZ5KHJlc3AsIGxhYmVsLCBub3RfZm91bmQsIGJhZF9yZXF1ZXN0LCBibG9ja2VkLCB1cHN0cmVhbSk6CiAgICAiIiJUaGUgYm9keSB0ZXh0IG9mIGEgMjAwLiBPdGhlcndpc2UgcmFpc2VzIHRoZSBzaXRlJ3Mgb3duIGVycm9yOiA0MDQgLT4KICAgIG5vdF9mb3VuZCwgNDAwIC0+IGJhZF9yZXF1ZXN0ICh3aXRoIHRoZSBzdGFydCBvZiB0aGUgYm9keSksIDQwMSAvIDQwMyAvCiAgICA0MjkgLT4gYmxvY2tlZCwgYW55dGhpbmcgZWxzZSAtPiB1cHN0cmVhbS4iIiIKICAgIGlmIHJlc3Auc3RhdHVzX2NvZGUgPT0gNDA0OgogICAgICAgIHJhaXNlIG5vdF9mb3VuZChmIntsYWJlbH0gbm90IGZvdW5kIikKICAgIGlmIHJlc3Auc3RhdHVzX2NvZGUgPT0gNDAwOgogICAgICAgIHJhaXNlIGJhZF9yZXF1ZXN0KHJlc3AudGV4dFs6MjAwXSkKICAgIGlmIHJlc3Auc3RhdHVzX2NvZGUgaW4gKDQwMSwgNDAzLCA0MjkpOgogICAgICAgIHJhaXNlIGJsb2NrZWQoZiJIVFRQIHtyZXNwLnN0YXR1c19jb2RlfSBmb3Ige2xhYmVsfSIpCiAgICBpZiByZXNwLnN0YXR1c19jb2RlICE9IDIwMDoKICAgICAgICByYWlzZSB1cHN0cmVhbShmIkhUVFAge3Jlc3Auc3RhdHVzX2NvZGV9IGZvciB7bGFiZWx9IikKICAgIHJldHVybiByZXNwLnRleHQK
+"""Reading an HTTP response into the scraper error taxonomy."""
+
+
+def classify(resp, label, not_found, bad_request, blocked, upstream):
+    """The body text of a 200. Otherwise raises the site's own error: 404 ->
+    not_found, 400 -> bad_request (with the start of the body), 401 / 403 /
+    429 -> blocked, anything else -> upstream."""
+    if resp.status_code == 404:
+        raise not_found(f"{label} not found")
+    if resp.status_code == 400:
+        raise bad_request(resp.text[:200])
+    if resp.status_code in (401, 403, 429):
+        raise blocked(f"HTTP {resp.status_code} for {label}")
+    if resp.status_code != 200:
+        raise upstream(f"HTTP {resp.status_code} for {label}")
+    return resp.text

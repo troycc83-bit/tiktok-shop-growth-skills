@@ -1,1 +1,38 @@
-IiIiVGhlIG5ldHdvcmsgaGVscGVycyB0aGUgYW1hem9uIG1vZHVsZSBuZWVkcy4gUmVxdWVzdHMgZ28gb3V0IGZyb20geW91ciBvd24KY29ubmVjdGlvbiwgb3IgdGhyb3VnaCB0aGUgcHJveHkgY29uZmlnLnB5IG5hbWVzOyB0aGVyZSBpcyBubyBleGl0IHBvbGljeQpoZXJlLCBzbyBldmVyeSBzZXNzaW9uIGlzIGEgcGxhaW4gY3VybF9jZmZpIHNlc3Npb24uIiIiCgpBQ0NFUFRfTEFOR1VBR0UgPSAiZW4tVVMsZW47cT0wLjkiCgoKZGVmIHNpdGVfYWNjZXB0X2xhbmd1YWdlKHNpdGU9Tm9uZSk6CiAgICByZXR1cm4gQUNDRVBUX0xBTkdVQUdFCgoKZGVmIGFjY2VwdF9sYW5ndWFnZShwcm94eT1Ob25lLCBjb3VudHJ5PU5vbmUpOgogICAgcmV0dXJuIEFDQ0VQVF9MQU5HVUFHRQoKCmRlZiBnYXRld2F5X2NvdW50cnkoZXhpdD1Ob25lKToKICAgIHJldHVybiBOb25lCgoKZGVmIGV4aXRfY291bnRyeShwcm94eT1Ob25lKToKICAgIHJldHVybiBOb25lCgoKZGVmIGV4aXRfcHJveHkoZXhpdD1Ob25lKToKICAgIHJldHVybiBleGl0IGlmIGV4aXQgYW5kICI6Ly8iIGluIHN0cihleGl0KSBlbHNlIE5vbmUKCgpkZWYgbmV3X3Nlc3Npb24oZXhpdD1Ob25lLCBpbXBlcnNvbmF0ZT0iY2hyb21lIiwgKiprdyk6CiAgICBmcm9tIGN1cmxfY2ZmaSBpbXBvcnQgcmVxdWVzdHMgYXMgY3VybAogICAgc2VzcyA9IGN1cmwuU2Vzc2lvbihpbXBlcnNvbmF0ZT1pbXBlcnNvbmF0ZSwgKiprdykKICAgIHByb3h5ID0gZXhpdF9wcm94eShleGl0KQogICAgaWYgcHJveHk6CiAgICAgICAgc2Vzcy5wcm94aWVzID0geyJodHRwIjogcHJveHksICJodHRwcyI6IHByb3h5fQogICAgcmV0dXJuIHNlc3MKCgpkZWYgZXhpdF9zZXNzaW9uKGV4aXQ9Tm9uZSwgaW1wZXJzb25hdGU9ImNocm9tZSIsICoqa3cpOgogICAgcmV0dXJuIG5ld19zZXNzaW9uKGV4aXQsIGltcGVyc29uYXRlLCAqKmt3KQo=
+"""The network helpers the amazon module needs. Requests go out from your own
+connection, or through the proxy config.py names; there is no exit policy
+here, so every session is a plain curl_cffi session."""
+
+ACCEPT_LANGUAGE = "en-US,en;q=0.9"
+
+
+def site_accept_language(site=None):
+    return ACCEPT_LANGUAGE
+
+
+def accept_language(proxy=None, country=None):
+    return ACCEPT_LANGUAGE
+
+
+def gateway_country(exit=None):
+    return None
+
+
+def exit_country(proxy=None):
+    return None
+
+
+def exit_proxy(exit=None):
+    return exit if exit and "://" in str(exit) else None
+
+
+def new_session(exit=None, impersonate="chrome", **kw):
+    from curl_cffi import requests as curl
+    sess = curl.Session(impersonate=impersonate, **kw)
+    proxy = exit_proxy(exit)
+    if proxy:
+        sess.proxies = {"http": proxy, "https": proxy}
+    return sess
+
+
+def exit_session(exit=None, impersonate="chrome", **kw):
+    return new_session(exit, impersonate, **kw)

@@ -1,1 +1,70 @@
-IiIiSlNPTiBoZWxwZXJzOiBvcmpzb24gd2hlbiBpbnN0YWxsZWQsIHRoZSBzdGRsaWIgb3RoZXJ3aXNlLCB3aXRoIGlkZW50aWNhbApyZXN1bHRzIGVpdGhlciB3YXkuCgogICAgaW1wb3J0IGZhc3Rqc29uCiAgICBvYmogPSBmYXN0anNvbi5sb2Fkcyh0ZXh0X29yX2J5dGVzKQogICAgdGV4dCA9IGZhc3Rqc29uLmR1bXBzKG9iaikgICAgICAgICAgIyBub24tQVNDSUkga2VwdCBhcy1pcywgY29tcGFjdAoKV2h5OiB0aGUgc2NyYXBlcnMgc3BlbmQgdGhlaXIgSlNPTiB0aW1lIG9uIGJpZyBibG9icyDigJQgQVBJIHJlc3BvbnNlIGJvZGllcwoocm91dGVfZ2x1ZS5qc29uX3Jlc3BvbnNlKSwgY2FjaGUgcGF5bG9hZHMgKGNhY2hlLnB5LCAxNTggS0IgYXQgcDk5KSwgcGFnZQpib2RpZXMgZmV0Y2hlZCB0aHJvdWdoIHRoZSBicm93c2VyIGJveGVzIGFuZCB0aGUgTmV4dC5qcy9OdXh0IGRhdGEgYmxvYnMKZW1iZWRkZWQgaW4gSFRNTC4gb3Jqc29uIGlzIDEuNC0yeCBmYXN0ZXIgdG8gcGFyc2UgYW5kIDMtNHggZmFzdGVyIHRvCnNlcmlhbGlzZSB0aG9zZSAoMjAyNi0xMS0wNSBiZW5jaCkuIFRoZSBmcmVlLXRocmVhZGVkIGNvbnRhY3QgaW1hZ2UgaGFzIG5vCm9yanNvbiAobm8gY3AzMTR0IHdoZWVsKSwgc28gdGhlcmUgaXQgc2lsZW50bHkgcnVucyBvbiB0aGUgc3RkbGliLgoKR3VhcmFudGVlczogYm90aCBjYWxscyBmYWxsIGJhY2sgdG8gdGhlIHN0ZGxpYiBvbiB0aGUgaW5wdXRzIG9yanNvbiByZWplY3RzCnRoYXQgdGhlIHN0ZGxpYiBhY2NlcHRzIChOYU4vSW5maW5pdHkgbGl0ZXJhbHMsIGxvbmUgc3Vycm9nYXRlcywgbmVzdGluZwpwYXN0IG9yanNvbidzIGRlcHRoIGxpbWl0LCBub24tVVRGLTggYnl0ZXMsIGZsb2F0IHN1YmNsYXNzZXMpLCBzbyBjYWxsZXJzCnNlZSB0aGUgc2FtZSB2YWx1ZXMgYW5kIHRoZSBzYW1lIGV4Y2VwdGlvbiB0eXBlcyAob3Jqc29uJ3MgZXJyb3JzIHN1YmNsYXNzCmpzb24uSlNPTkRlY29kZUVycm9yIC8gVHlwZUVycm9yKS4gc3RyIC8gYnl0ZXMgU1VCQ0xBU1NFUyAoYnM0J3MKTmF2aWdhYmxlU3RyaW5nIGZyb20gYHNjcmlwdC5zdHJpbmdgLCBseG1sIHRleHQpIGFyZSBwYXNzZWQgdG8gb3Jqc29uIGFzCnRoZWlyIGJhc2UgdHlwZSDigJQgb3Jqc29uIHJlZnVzZXMgdGhlIHN1YmNsYXNzIG91dHJpZ2h0LCB3aGljaCB3b3VsZCBtYWtlCmV2ZXJ5IHN1Y2ggY2FsbCBwYXJzZSB0d2ljZS4gS25vd24gZGl2ZXJnZW5jZTogYW4gaW50ZWdlciBsaXRlcmFsIG9mIDIqKjY0Cm9yIG1vcmUgcGFyc2VzIGFzIGEgZmxvYXQgdW5kZXIgb3Jqc29uICh0aGUgc3RkbGliIGtlZXBzIHRoZSBleGFjdCBpbnQpOwpubyBzaXRlIHRoaXMgcGFyc2VzIGNhcnJpZXMgbnVtYmVycyB0aGF0IGxhcmdlLgoKTm90IGZvciBjYWNoZSBLRVlTIChjYWNoZS5jYW5vbmljYWwgdXNlcyB0aGUgc3RkbGliOiBpdHMgYnl0ZXMgbXVzdCBuZXZlcgpjaGFuZ2UpIGFuZCBub3QgZm9yIHJlcXVlc3QgYm9kaWVzIGEgc2l0ZSBzaWducyDigJQgdGhvc2UgbXVzdCBrZWVwIHRoZSBleGFjdApzZXJpYWxpc2F0aW9uIHRoZWlyIHNpZ25hdHVyZSB3YXMgYnVpbHQgb3Zlci4KIiIiCmltcG9ydCBqc29uIGFzIF9qc29uCgp0cnk6CiAgICBpbXBvcnQgb3Jqc29uCmV4Y2VwdCBJbXBvcnRFcnJvcjogICMgdGhlIGZyZWUtdGhyZWFkZWQgY29udGFjdCBpbWFnZQogICAgb3Jqc29uID0gTm9uZQoKX0RVTVBfT1BUUyA9IDAgaWYgb3Jqc29uIGlzIE5vbmUgZWxzZSBvcmpzb24uT1BUX05PTl9TVFJfS0VZUwoKCmRlZiBsb2FkcyhzKToKICAgICIiIlBhcnNlIEpTT04gdGV4dCBvciBieXRlcy4iIiIKICAgIGlmIG9yanNvbiBpcyBOb25lOgogICAgICAgIHJldHVybiBfanNvbi5sb2FkcyhzKQogICAga2luZCA9IHR5cGUocykKICAgIGlmIGtpbmQgaXMgbm90IHN0ciBhbmQga2luZCBpcyBub3QgYnl0ZXM6CiAgICAgICAgIyBvcmpzb24gcmVqZWN0cyBzdWJjbGFzc2VzICgiSW5wdXQgbXVzdCBiZSBieXRlcywgYnl0ZWFycmF5LAogICAgICAgICMgbWVtb3J5dmlldywgb3Igc3RyIik6IGJzNCdzIE5hdmlnYWJsZVN0cmluZyBpcyB0aGUgY29tbW9uIG9uZQogICAgICAgIGlmIGlzaW5zdGFuY2Uocywgc3RyKToKICAgICAgICAgICAgcyA9IHN0cihzKQogICAgICAgIGVsaWYgaXNpbnN0YW5jZShzLCAoYnl0ZXMsIGJ5dGVhcnJheSwgbWVtb3J5dmlldykpOgogICAgICAgICAgICBzID0gYnl0ZXMocykKICAgIHRyeToKICAgICAgICByZXR1cm4gb3Jqc29uLmxvYWRzKHMpCiAgICBleGNlcHQgX2pzb24uSlNPTkRlY29kZUVycm9yOgogICAgICAgICMgb3Jqc29uIGlzIHN0cmljdGVyIHRoYW4gdGhlIHN0ZGxpYiAoTmFOLCBkZWVwIG5lc3RpbmcsIGJhZCBVVEYtOCk7CiAgICAgICAgIyB0aGUgc3RkbGliIGRlY2lkZXMsIGFuZCByYWlzZXMgaXRzIG93biBlcnJvciBpZiBpdCBpcyB0cnVseSBpbnZhbGlkCiAgICAgICAgcmV0dXJuIF9qc29uLmxvYWRzKHMpCgoKZGVmIGR1bXBzKG9iaik6CiAgICAiIiJDb21wYWN0IEpTT04gdGV4dCwgbm9uLUFTQ0lJIHVuZXNjYXBlZCAoPSBqc29uLmR1bXBzKGVuc3VyZV9hc2NpaT1GYWxzZSkKICAgIHdpdGhvdXQgdGhlIHNlcGFyYXRvciBzcGFjZXMpLiIiIgogICAgaWYgb3Jqc29uIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIF9qc29uLmR1bXBzKG9iaiwgZW5zdXJlX2FzY2lpPUZhbHNlKQogICAgdHJ5OgogICAgICAgIHJldHVybiBvcmpzb24uZHVtcHMob2JqLCBvcHRpb249X0RVTVBfT1BUUykuZGVjb2RlKCJ1dGYtOCIpCiAgICBleGNlcHQgVHlwZUVycm9yOgogICAgICAgICMgb3Jqc29uIHJlZnVzZXMgd2hhdCB0aGUgc3RkbGliIG1heSBzdGlsbCBoYW5kbGUgKGludHMgYmV5b25kIDY0CiAgICAgICAgIyBiaXRzLCBmbG9hdCBzdWJjbGFzc2VzKTsgc2FtZSBUeXBlRXJyb3IgaWYgbmVpdGhlciBjYW4KICAgICAgICByZXR1cm4gX2pzb24uZHVtcHMob2JqLCBlbnN1cmVfYXNjaWk9RmFsc2UpCg==
+"""JSON helpers: orjson when installed, the stdlib otherwise, with identical
+results either way.
+
+    import fastjson
+    obj = fastjson.loads(text_or_bytes)
+    text = fastjson.dumps(obj)          # non-ASCII kept as-is, compact
+
+Why: the scrapers spend their JSON time on big blobs — API response bodies
+(route_glue.json_response), cache payloads (cache.py, 158 KB at p99), page
+bodies fetched through the browser boxes and the Next.js/Nuxt data blobs
+embedded in HTML. orjson is 1.4-2x faster to parse and 3-4x faster to
+serialise those (2026-11-05 bench). The free-threaded contact image has no
+orjson (no cp314t wheel), so there it silently runs on the stdlib.
+
+Guarantees: both calls fall back to the stdlib on the inputs orjson rejects
+that the stdlib accepts (NaN/Infinity literals, lone surrogates, nesting
+past orjson's depth limit, non-UTF-8 bytes, float subclasses), so callers
+see the same values and the same exception types (orjson's errors subclass
+json.JSONDecodeError / TypeError). str / bytes SUBCLASSES (bs4's
+NavigableString from `script.string`, lxml text) are passed to orjson as
+their base type — orjson refuses the subclass outright, which would make
+every such call parse twice. Known divergence: an integer literal of 2**64
+or more parses as a float under orjson (the stdlib keeps the exact int);
+no site this parses carries numbers that large.
+
+Not for cache KEYS (cache.canonical uses the stdlib: its bytes must never
+change) and not for request bodies a site signs — those must keep the exact
+serialisation their signature was built over.
+"""
+import json as _json
+
+try:
+    import orjson
+except ImportError:  # the free-threaded contact image
+    orjson = None
+
+_DUMP_OPTS = 0 if orjson is None else orjson.OPT_NON_STR_KEYS
+
+
+def loads(s):
+    """Parse JSON text or bytes."""
+    if orjson is None:
+        return _json.loads(s)
+    kind = type(s)
+    if kind is not str and kind is not bytes:
+        # orjson rejects subclasses ("Input must be bytes, bytearray,
+        # memoryview, or str"): bs4's NavigableString is the common one
+        if isinstance(s, str):
+            s = str(s)
+        elif isinstance(s, (bytes, bytearray, memoryview)):
+            s = bytes(s)
+    try:
+        return orjson.loads(s)
+    except _json.JSONDecodeError:
+        # orjson is stricter than the stdlib (NaN, deep nesting, bad UTF-8);
+        # the stdlib decides, and raises its own error if it is truly invalid
+        return _json.loads(s)
+
+
+def dumps(obj):
+    """Compact JSON text, non-ASCII unescaped (= json.dumps(ensure_ascii=False)
+    without the separator spaces)."""
+    if orjson is None:
+        return _json.dumps(obj, ensure_ascii=False)
+    try:
+        return orjson.dumps(obj, option=_DUMP_OPTS).decode("utf-8")
+    except TypeError:
+        # orjson refuses what the stdlib may still handle (ints beyond 64
+        # bits, float subclasses); same TypeError if neither can
+        return _json.dumps(obj, ensure_ascii=False)

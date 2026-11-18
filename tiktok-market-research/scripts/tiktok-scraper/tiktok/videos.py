@@ -1,1 +1,208 @@
-IiIiVmlkZW8gZW5kcG9pbnRzOiBkZXRhaWxzLCBtZWRpYSBmaWxlcywgY29tbWVudHMsIGNvbW1lbnQgcmVwbGllcywgcmVsYXRlZAp2aWRlb3MsIHRyYW5zY3JpcHQgYW5kIHJlc29sdmUuCgpgdmlkZW9gIGlzIHsiaWQiOiAuLi4sICJzaG9ydF9saW5rIjogLi4ufSBmcm9tIHJlZnMucmVzb2x2ZV92aWRlby4gQSBzaGFyZQpsaW5rICh2bS50aWt0b2suY29tL+KApiwgdGlrdG9rLmNvbS90L+KApikgY2FycmllcyBubyBpZDogaXQgaXMgZm9sbG93ZWQgb25jZQoobWVtb2lzZWQpIGFuZCB0aGUgaWQgcmVhZCBvZmYgdGhlIHBhZ2UgaXQgbGFuZHMgb24uCgpVcHN0cmVhbSAoYWxsIHNpZ25lZCwgcHJvYmVkIDIwMjYtMTAtMDUpOgogICogL2FwaS9pdGVtL2RldGFpbCAgICAgIG9uZSBpdGVtU3RydWN0LCB2aWRlb3MgYW5kIHBob3RvIHBvc3RzIGFsaWtlOwogICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1cyAxMDIwNCA9IG5vIHN1Y2ggdmlkZW8KICAqIC9hcGkvY29tbWVudC9saXN0ICAgICB1cCB0byA1MCBhIHBhZ2UsIG9mZnNldCBjdXJzb3IsIGB0b3RhbGA7IGFuCiAgICAgICAgICAgICAgICAgICAgICAgICAgdW5rbm93biB2aWRlbyBhbnN3ZXJzIGBjb21tZW50czogbnVsbGAgd2l0aCBubwogICAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsLCB3aGljaCBpcyB0b2xkIGFwYXJ0IGZyb20gIm5vIGNvbW1lbnRzIHlldCIKICAgICAgICAgICAgICAgICAgICAgICAgICBieSBvbmUgZGV0YWlsIGNhbGwKICAqIC9hcGkvY29tbWVudC9saXN0L3JlcGx5ICAyMCBhIHBhZ2UKICAqIC9hcGkvcmVsYXRlZC9pdGVtX2xpc3QgICBvbmUgcGFnZSBvZiA4LTE2CiAgKiBzdWJ0aXRsZXM6IGl0ZW1TdHJ1Y3QudmlkZW8uc3VidGl0bGVJbmZvc1tdIC0+IFdlYlZUVCBmaWxlcyBvbiB0aGUgQ0ROCiAgICAoYXV0byBjYXB0aW9ucyBhcyAiQVNSIiwgbWFjaGluZSB0cmFuc2xhdGlvbnMgYXMgIk1UIiksIG5vIGNvb2tpZXMgbmVlZGVkCgpgY291bnRyeWAgcGlja3MgdGhlIGV4aXQgdGhlIHZpZGVvIGlzIGZldGNoZWQgdGhyb3VnaCAodGhlIGRlZmF1bHQgZXhpdApzZXJ2ZXMgZXZlcnl0aGluZzsgYSB2aWRlbyB0aGF0IGlzIHVuYXZhaWxhYmxlIGluIG9uZSByZWdpb24gY2FuIHN0aWxsIGJlCnJlYWQgdGhyb3VnaCBhbm90aGVyKS4KIiIiCmltcG9ydCByZQppbXBvcnQgdGhyZWFkaW5nCmltcG9ydCB0aW1lCgpmcm9tIC4gaW1wb3J0IHBhcnNlcnMgYXMgUApmcm9tIC4gaW1wb3J0IHJlZnMKZnJvbSAuIGltcG9ydCBzaGFyZWQKZnJvbSAuZmV0Y2ggaW1wb3J0IFRpa1Rva0JhZFJlcXVlc3QsIFRpa1Rva05vdEZvdW5kLCBhcGksIGNvdW50cnlfb3JkZXIsIGV1X2NvdW50cnksIGdldF90ZXh0LCByZXNvbHZlX3JlZGlyZWN0CgpDT01NRU5UU19QQUdFID0gNTAKUkVQTElFU19QQUdFID0gMjAKU0hPUlRfVFRMID0gMzYwMApfc2hvcnRfbG9jayA9IHRocmVhZGluZy5Mb2NrKCkKX3Nob3J0X2xpbmtzID0ge30gICAgICAgIyBzaGFyZSBsaW5rIC0+IChleHBpcmVzLCB2aWRlbyBpZCkKCl9DVUVfVElNRV9SRSA9IHJlLmNvbXBpbGUociIoPzooXGQrKTopPyhcZHsyfSk6KFxkezJ9KVsuLF0oXGR7M30pXHMqLS0+XHMqKD86KFxkKyk6KT8oXGR7Mn0pOihcZHsyfSlbLixdKFxkezN9KSIpCl9UQUdfUkUgPSByZS5jb21waWxlKHIiPFtePl0rPiIpCgoKZGVmIHZpZGVvX2lkKHZpZGVvLCBjb3VudHJ5PU5vbmUpOgogICAgIiIiVGhlIG51bWVyaWMgaWQgb2YgYSByZXNvbHZlZCByZWYsIGZvbGxvd2luZyBhIHNoYXJlIGxpbmsgaWYgbmVlZGVkLiIiIgogICAgaWYgdmlkZW8uZ2V0KCJpZCIpOgogICAgICAgIHJldHVybiB2aWRlb1siaWQiXQogICAgbGluayA9IHZpZGVvWyJzaG9ydF9saW5rIl0KICAgIHdpdGggX3Nob3J0X2xvY2s6CiAgICAgICAgaGl0ID0gX3Nob3J0X2xpbmtzLmdldChsaW5rKQogICAgICAgIGlmIGhpdCBhbmQgaGl0WzBdID4gdGltZS50aW1lKCk6CiAgICAgICAgICAgIHJldHVybiBoaXRbMV0KICAgIHRhcmdldCA9IHJlc29sdmVfcmVkaXJlY3QobGluaywgY291bnRyeT1jb3VudHJ5KQogICAgZm91bmQgPSByZWZzLnZpZGVvX2lkX2Zyb21fbGluayh0YXJnZXQpCiAgICBpZiBub3QgZm91bmQ6CiAgICAgICAgcmFpc2UgVGlrVG9rTm90Rm91bmQoInRoYXQgc2hhcmUgbGluayBkb2VzIG5vdCBsZWFkIHRvIGEgdmlkZW8iKQogICAgd2l0aCBfc2hvcnRfbG9jazoKICAgICAgICBpZiBsZW4oX3Nob3J0X2xpbmtzKSA+IDUwMDA6CiAgICAgICAgICAgIF9zaG9ydF9saW5rcy5jbGVhcigpCiAgICAgICAgX3Nob3J0X2xpbmtzW2xpbmtdID0gKHRpbWUudGltZSgpICsgU0hPUlRfVFRMLCBmb3VuZCkKICAgIHJldHVybiBmb3VuZAoKCmRlZiBfaXRlbSh2aWRlbywgY291bnRyeSk6CiAgICB2aWQgPSB2aWRlb19pZCh2aWRlbywgY291bnRyeSkKICAgIHBheWxvYWQgPSBhcGkoIi9hcGkvaXRlbS9kZXRhaWwvIiwgeyJpdGVtSWQiOiB2aWR9LCBjb3VudHJpZXM9Y291bnRyeV9vcmRlcihjb3VudHJ5LCBldV9jb3VudHJ5KCkpLAogICAgICAgICAgICAgICAgICBub3RfZm91bmQ9c2hhcmVkLlZJREVPX05PVF9GT1VORCwgbGFiZWw9ZiJ2aWRlbyB7dmlkfSIpCiAgICBpdGVtID0gKHBheWxvYWQuZ2V0KCJpdGVtSW5mbyIpIG9yIHt9KS5nZXQoIml0ZW1TdHJ1Y3QiKQogICAgaWYgbm90IGlzaW5zdGFuY2UoaXRlbSwgZGljdCkgb3Igbm90IGl0ZW0uZ2V0KCJpZCIpOgogICAgICAgIHJhaXNlIFRpa1Rva05vdEZvdW5kKGYidmlkZW8ge3ZpZH0gbm90IGZvdW5kIikKICAgIHJldHVybiBpdGVtCgoKZGVmIGdldF9kZXRhaWxzKHZpZGVvLCBjb3VudHJ5PU5vbmUpOgogICAgIiIiRXZlcnl0aGluZyBhYm91dCBvbmUgdmlkZW8gb3IgcGhvdG8gcG9zdC4iIiIKICAgIHJldHVybiBQLnZpZGVvKF9pdGVtKHZpZGVvLCBjb3VudHJ5KSkKCgpkZWYgZ2V0X21lZGlhKHZpZGVvLCBjb3VudHJ5PU5vbmUpOgogICAgIiIiT25seSB0aGUgZmlsZXM6IGV2ZXJ5IHZpZGVvIHJlbmRpdGlvbiwgcGhvdG8sIGNvdmVyLCBzdWJ0aXRsZSBhbmQgdGhlIHNvdW5kLiIiIgogICAgcmV0dXJuIFAubWVkaWEoX2l0ZW0odmlkZW8sIGNvdW50cnkpKQoKCmRlZiByZXNvbHZlKHZpZGVvLCBjb3VudHJ5PU5vbmUpOgogICAgIiIiQW55IGFjY2VwdGVkIHJlZmVyZW5jZSAtPiB0aGUgdmlkZW8ncyBpZCwgY2Fub25pY2FsIGxpbmssIHR5cGUgYW5kIGF1dGhvci4iIiIKICAgIHBhcnNlZCA9IFAudmlkZW8oX2l0ZW0odmlkZW8sIGNvdW50cnkpKQogICAgcmV0dXJuIHsiaWQiOiBwYXJzZWRbImlkIl0sICJsaW5rIjogcGFyc2VkWyJsaW5rIl0sICJ0eXBlIjogcGFyc2VkWyJ0eXBlIl0sCiAgICAgICAgICAgICJjcmVhdGVkX2F0IjogcGFyc2VkWyJjcmVhdGVkX2F0Il0sICJhdXRob3IiOiBwYXJzZWRbImF1dGhvciJdfQoKCmRlZiBnZXRfY29tbWVudHModmlkZW8sIGN1cnNvcj1Ob25lLCBjb3VudHJ5PU5vbmUpOgogICAgIiIiVG9wLWxldmVsIGNvbW1lbnRzLCByYW5rZWQgYXMgdGhlIHNpdGUgc2hvd3MgdGhlbS4iIiIKICAgIHZpZCA9IHZpZGVvX2lkKHZpZGVvLCBjb3VudHJ5KQogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9jb21tZW50L2xpc3QvIiwgeyJhd2VtZV9pZCI6IHZpZCwgImNvdW50IjogQ09NTUVOVFNfUEFHRSwgImN1cnNvciI6IGN1cnNvciBvciAwfSwKICAgICAgICAgICAgICAgICAgY291bnRyeT1jb3VudHJ5LCBsYWJlbD1mImNvbW1lbnRzIG9mIHZpZGVvIHt2aWR9IikKICAgIGlmIHBheWxvYWQuZ2V0KCJjb21tZW50cyIpIGlzIE5vbmUgYW5kIHBheWxvYWQuZ2V0KCJ0b3RhbCIpIGlzIE5vbmUgYW5kIG5vdCBjdXJzb3I6CiAgICAgICAgX2l0ZW0oeyJpZCI6IHZpZH0sIGNvdW50cnkpICAgICAgICAgICMgcmFpc2VzIFRpa1Rva05vdEZvdW5kIGZvciBhbiB1bmtub3duIHZpZGVvCiAgICBjb21tZW50cyA9IFAuY29tbWVudHMocGF5bG9hZC5nZXQoImNvbW1lbnRzIikpCiAgICBuZXh0X2N1cnNvciA9IHNoYXJlZC5uZXh0X2N1cnNvcihwYXlsb2FkKQogICAgcmV0dXJuIHsKICAgICAgICAidmlkZW9faWQiOiB2aWQsCiAgICAgICAgInRvdGFsX2NvdW50IjogUC50b19pbnQocGF5bG9hZC5nZXQoInRvdGFsIikpLAogICAgICAgICJjb21tZW50X2NvdW50IjogbGVuKGNvbW1lbnRzKSwKICAgICAgICAiY29tbWVudHMiOiBjb21tZW50cywKICAgICAgICAibmV4dF9jdXJzb3IiOiBuZXh0X2N1cnNvciwKICAgICAgICAiaGFzX21vcmUiOiBuZXh0X2N1cnNvciBpcyBub3QgTm9uZSwKICAgIH0KCgpkZWYgZ2V0X2NvbW1lbnRfcmVwbGllcyh2aWRlbywgY29tbWVudF9pZCwgY3Vyc29yPU5vbmUsIGNvdW50cnk9Tm9uZSk6CiAgICAiIiJSZXBsaWVzIHVuZGVyIG9uZSBjb21tZW50LCBvbGRlc3QgZmlyc3QuIiIiCiAgICB2aWQgPSB2aWRlb19pZCh2aWRlbywgY291bnRyeSkKICAgIHBheWxvYWQgPSBhcGkoIi9hcGkvY29tbWVudC9saXN0L3JlcGx5LyIsIHsiaXRlbV9pZCI6IHZpZCwgImNvbW1lbnRfaWQiOiBjb21tZW50X2lkLCAiY291bnQiOiBSRVBMSUVTX1BBR0UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImN1cnNvciI6IGN1cnNvciBvciAwfSwKICAgICAgICAgICAgICAgICAgY291bnRyeT1jb3VudHJ5LCBsYWJlbD1mInJlcGxpZXMgdG8gY29tbWVudCB7Y29tbWVudF9pZH0iKQogICAgcmVwbGllcyA9IFAuY29tbWVudHMocGF5bG9hZC5nZXQoImNvbW1lbnRzIikpCiAgICBuZXh0X2N1cnNvciA9IHNoYXJlZC5uZXh0X2N1cnNvcihwYXlsb2FkKQogICAgcmV0dXJuIHsKICAgICAgICAidmlkZW9faWQiOiB2aWQsCiAgICAgICAgImNvbW1lbnRfaWQiOiBjb21tZW50X2lkLAogICAgICAgICJ0b3RhbF9jb3VudCI6IFAudG9faW50KHBheWxvYWQuZ2V0KCJ0b3RhbCIpKSwKICAgICAgICAicmVwbHlfY291bnQiOiBsZW4ocmVwbGllcyksCiAgICAgICAgInJlcGxpZXMiOiByZXBsaWVzLAogICAgICAgICJuZXh0X2N1cnNvciI6IG5leHRfY3Vyc29yLAogICAgICAgICJoYXNfbW9yZSI6IG5leHRfY3Vyc29yIGlzIG5vdCBOb25lLAogICAgfQoKCmRlZiBnZXRfcmVsYXRlZCh2aWRlbywgY291bnRyeT1Ob25lKToKICAgICIiIlZpZGVvcyBUaWtUb2sgcmVjb21tZW5kcyBuZXh0IHRvIHRoaXMgb25lLiIiIgogICAgdmlkID0gdmlkZW9faWQodmlkZW8sIGNvdW50cnkpCiAgICBwYXlsb2FkID0gYXBpKCIvYXBpL3JlbGF0ZWQvaXRlbV9saXN0LyIsIHsiaXRlbUlEIjogdmlkLCAiY291bnQiOiAxNiwgImN1cnNvciI6IDB9LAogICAgICAgICAgICAgICAgICBjb3VudHJ5PWNvdW50cnksIGxhYmVsPWYidmlkZW9zIHJlbGF0ZWQgdG8ge3ZpZH0iKQogICAgdmlkZW9zID0gUC52aWRlb3MocGF5bG9hZC5nZXQoIml0ZW1MaXN0IikpCiAgICByZXR1cm4geyJ2aWRlb19pZCI6IHZpZCwgInZpZGVvX2NvdW50IjogbGVuKHZpZGVvcyksICJ2aWRlb3MiOiB2aWRlb3N9CgoKIyAtLS0tIHRyYW5zY3JpcHQgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgX3NlY29uZHMoaG91cnMsIG1pbnV0ZXMsIHNlY29uZHMsIG1pbGxpcyk6CiAgICByZXR1cm4gcm91bmQoaW50KGhvdXJzIG9yIDApICogMzYwMCArIGludChtaW51dGVzKSAqIDYwICsgaW50KHNlY29uZHMpICsgaW50KG1pbGxpcykgLyAxMDAwLCAzKQoKCmRlZiBwYXJzZV93ZWJ2dHQodGV4dCk6CiAgICAiIiJXZWJWVFQgLT4gW3tzdGFydF9zZWNvbmRzLCBlbmRfc2Vjb25kcywgdGV4dH1dLiIiIgogICAgc2VnbWVudHMsIGN1cnJlbnQgPSBbXSwgTm9uZQogICAgZm9yIGxpbmUgaW4gKHRleHQgb3IgIiIpLnJlcGxhY2UoIlxyIiwgIiIpLnNwbGl0KCJcbiIpOgogICAgICAgIG1hdGNoID0gX0NVRV9USU1FX1JFLnNlYXJjaChsaW5lKQogICAgICAgIGlmIG1hdGNoOgogICAgICAgICAgICBnID0gbWF0Y2guZ3JvdXBzKCkKICAgICAgICAgICAgY3VycmVudCA9IHsic3RhcnRfc2Vjb25kcyI6IF9zZWNvbmRzKCpnWzo0XSksICJlbmRfc2Vjb25kcyI6IF9zZWNvbmRzKCpnWzQ6XSksICJ0ZXh0IjogIiJ9CiAgICAgICAgICAgIHNlZ21lbnRzLmFwcGVuZChjdXJyZW50KQogICAgICAgIGVsaWYgbm90IGxpbmUuc3RyaXAoKToKICAgICAgICAgICAgY3VycmVudCA9IE5vbmUKICAgICAgICBlbGlmIGN1cnJlbnQgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHBpZWNlID0gX1RBR19SRS5zdWIoIiIsIGxpbmUpLnN0cmlwKCkKICAgICAgICAgICAgaWYgcGllY2U6CiAgICAgICAgICAgICAgICBjdXJyZW50WyJ0ZXh0Il0gPSBmIntjdXJyZW50Wyd0ZXh0J119IHtwaWVjZX0iLnN0cmlwKCkKICAgIHJldHVybiBbc2VnbWVudCBmb3Igc2VnbWVudCBpbiBzZWdtZW50cyBpZiBzZWdtZW50WyJ0ZXh0Il1dCgoKIyBUaWtUb2sgbGFiZWxzIGNhcHRpb24gdHJhY2tzIHdpdGggSVNPIDYzOS0zICsgcmVnaW9uICgiZW5nLVVTIiwgInNwYS1FUyIsCiMgImNtbi1IYW5zLUNOIik7IGNhbGxlcnMgcGFzcyB0aGUgdXN1YWwgdHdvLWxldHRlciBjb2RlLgpfSVNPMyA9IHsiZW4iOiAiZW5nIiwgImVzIjogInNwYSIsICJwdCI6ICJwb3IiLCAiZGUiOiAiZGV1IiwgImZyIjogImZyYSIsICJpdCI6ICJpdGEiLCAiamEiOiAianBuIiwgImtvIjogImtvciIsCiAgICAgICAgICJpZCI6ICJpbmQiLCAicnUiOiAicnVzIiwgImFyIjogImFyYSIsICJ2aSI6ICJ2aWUiLCAiemgiOiAiY21uIiwgInRyIjogInR1ciIsICJ0aCI6ICJ0aGEiLCAibmwiOiAibmxkIiwKICAgICAgICAgInBsIjogInBvbCIsICJoaSI6ICJoaW4iLCAibXMiOiAibXNhIiwgInN2IjogInN3ZSIsICJybyI6ICJyb24iLCAidWsiOiAidWtyIiwgImhlIjogImhlYiIsICJlbCI6ICJlbGwiLAogICAgICAgICAiY3MiOiAiY2VzIiwgImh1IjogImh1biIsICJmaWwiOiAiZmlsIiwgInRsIjogImZpbCIsICJibiI6ICJiZW4iLCAidXIiOiAidXJkIiwgImZhIjogImZhcyJ9CgoKZGVmIF9sYW5ndWFnZV9tYXRjaGVzKHRyYWNrX2xhbmd1YWdlLCB3YW50ZWQpOgogICAgdHJhY2ssIHdhbnRlZCA9ICh0cmFja19sYW5ndWFnZSBvciAiIikubG93ZXIoKSwgd2FudGVkLmxvd2VyKCkKICAgIGlmIHRyYWNrID09IHdhbnRlZDoKICAgICAgICByZXR1cm4gVHJ1ZQogICAgcHJpbWFyeSwgd2FudGVkX3ByaW1hcnkgPSB0cmFjay5zcGxpdCgiLSIpWzBdLCB3YW50ZWQuc3BsaXQoIi0iKVswXQogICAgaWYgcHJpbWFyeSBub3QgaW4gKHdhbnRlZF9wcmltYXJ5LCBfSVNPMy5nZXQod2FudGVkX3ByaW1hcnkpKToKICAgICAgICByZXR1cm4gRmFsc2UKICAgIHJlZ2lvbiA9IHdhbnRlZC5zcGxpdCgiLSIpWzFdIGlmICItIiBpbiB3YW50ZWQgZWxzZSBOb25lCiAgICByZXR1cm4gcmVnaW9uIGlzIE5vbmUgb3IgdHJhY2suZW5kc3dpdGgoIi0iICsgcmVnaW9uKQoKCmRlZiBfcGlja19zdWJ0aXRsZSh0cmFja3MsIGxhbmd1YWdlKToKICAgIGlmIGxhbmd1YWdlOgogICAgICAgIHJldHVybiBuZXh0KCh0cmFjayBmb3IgdHJhY2sgaW4gdHJhY2tzIGlmIF9sYW5ndWFnZV9tYXRjaGVzKHRyYWNrWyJsYW5ndWFnZSJdLCBsYW5ndWFnZSkpLCBOb25lKQogICAgb3JpZ2luYWxzID0gW3RyYWNrIGZvciB0cmFjayBpbiB0cmFja3MgaWYgbm90IHRyYWNrWyJpc190cmFuc2xhdGlvbiJdXQogICAgcmV0dXJuIChvcmlnaW5hbHMgb3IgdHJhY2tzKVswXQoKCmRlZiBnZXRfdHJhbnNjcmlwdCh2aWRlbywgbGFuZ3VhZ2U9Tm9uZSwgY291bnRyeT1Ob25lKToKICAgICIiIlRoZSB2aWRlbydzIGNhcHRpb25zIGFzIHRpbWVkIHNlZ21lbnRzIHBsdXMgdGhlIGpvaW5lZCB0ZXh0LiBXaXRob3V0CiAgICBgbGFuZ3VhZ2VgIHRoZSBvcmlnaW5hbCAoYXV0by1nZW5lcmF0ZWQpIHRyYWNrIGlzIHJldHVybmVkLiIiIgogICAgaXRlbSA9IF9pdGVtKHZpZGVvLCBjb3VudHJ5KQogICAgdHJhY2tzID0gW3QgZm9yIHQgaW4gUC5zdWJ0aXRsZXMoKGl0ZW0uZ2V0KCJ2aWRlbyIpIG9yIHt9KS5nZXQoInN1YnRpdGxlSW5mb3MiKSkgaWYgKHRbImZvcm1hdCJdIG9yICIiKS5sb3dlcigpID09ICJ3ZWJ2dHQiXQogICAgYXZhaWxhYmxlID0gc29ydGVkKHt0cmFja1sibGFuZ3VhZ2UiXSBmb3IgdHJhY2sgaW4gdHJhY2tzIGlmIHRyYWNrWyJsYW5ndWFnZSJdfSkKICAgIGlmIG5vdCB0cmFja3M6CiAgICAgICAgcmFpc2UgVGlrVG9rTm90Rm91bmQoZiJ2aWRlbyB7aXRlbS5nZXQoJ2lkJyl9IGhhcyBubyBjYXB0aW9ucyIpCiAgICB0cmFjayA9IF9waWNrX3N1YnRpdGxlKHRyYWNrcywgbGFuZ3VhZ2UpCiAgICBpZiB0cmFjayBpcyBOb25lOgogICAgICAgIHJhaXNlIFRpa1Rva0JhZFJlcXVlc3QoZiJubyBjYXB0aW9ucyBpbiB7bGFuZ3VhZ2Uhcn07IGF2YWlsYWJsZTogeycsICcuam9pbihhdmFpbGFibGUpfSIpCiAgICBzZWdtZW50cyA9IHBhcnNlX3dlYnZ0dChnZXRfdGV4dCh0cmFja1sibGluayJdLCBjb3VudHJ5PWNvdW50cnkpKQogICAgcmV0dXJuIHsKICAgICAgICAidmlkZW9faWQiOiBQLnRvX2lkKGl0ZW0uZ2V0KCJpZCIpKSwKICAgICAgICAibGFuZ3VhZ2UiOiB0cmFja1sibGFuZ3VhZ2UiXSwKICAgICAgICAiaXNfYXV0b19nZW5lcmF0ZWQiOiB0cmFja1siaXNfYXV0b19nZW5lcmF0ZWQiXSwKICAgICAgICAiaXNfdHJhbnNsYXRpb24iOiB0cmFja1siaXNfdHJhbnNsYXRpb24iXSwKICAgICAgICAiYXZhaWxhYmxlX2xhbmd1YWdlcyI6IGF2YWlsYWJsZSwKICAgICAgICAidGV4dCI6ICIgIi5qb2luKHNlZ21lbnRbInRleHQiXSBmb3Igc2VnbWVudCBpbiBzZWdtZW50cyksCiAgICAgICAgInNlZ21lbnRfY291bnQiOiBsZW4oc2VnbWVudHMpLAogICAgICAgICJzZWdtZW50cyI6IHNlZ21lbnRzLAogICAgfQo=
+"""Video endpoints: details, media files, comments, comment replies, related
+videos, transcript and resolve.
+
+`video` is {"id": ..., "short_link": ...} from refs.resolve_video. A share
+link (vm.tiktok.com/…, tiktok.com/t/…) carries no id: it is followed once
+(memoised) and the id read off the page it lands on.
+
+Upstream (all signed, probed 2026-10-05):
+  * /api/item/detail      one itemStruct, videos and photo posts alike;
+                          status 10204 = no such video
+  * /api/comment/list     up to 50 a page, offset cursor, `total`; an
+                          unknown video answers `comments: null` with no
+                          total, which is told apart from "no comments yet"
+                          by one detail call
+  * /api/comment/list/reply  20 a page
+  * /api/related/item_list   one page of 8-16
+  * subtitles: itemStruct.video.subtitleInfos[] -> WebVTT files on the CDN
+    (auto captions as "ASR", machine translations as "MT"), no cookies needed
+
+`country` picks the exit the video is fetched through (the default exit
+serves everything; a video that is unavailable in one region can still be
+read through another).
+"""
+import re
+import threading
+import time
+
+from . import parsers as P
+from . import refs
+from . import shared
+from .fetch import TikTokBadRequest, TikTokNotFound, api, country_order, eu_country, get_text, resolve_redirect
+
+COMMENTS_PAGE = 50
+REPLIES_PAGE = 20
+SHORT_TTL = 3600
+_short_lock = threading.Lock()
+_short_links = {}       # share link -> (expires, video id)
+
+_CUE_TIME_RE = re.compile(r"(?:(\d+):)?(\d{2}):(\d{2})[.,](\d{3})\s*-->\s*(?:(\d+):)?(\d{2}):(\d{2})[.,](\d{3})")
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def video_id(video, country=None):
+    """The numeric id of a resolved ref, following a share link if needed."""
+    if video.get("id"):
+        return video["id"]
+    link = video["short_link"]
+    with _short_lock:
+        hit = _short_links.get(link)
+        if hit and hit[0] > time.time():
+            return hit[1]
+    target = resolve_redirect(link, country=country)
+    found = refs.video_id_from_link(target)
+    if not found:
+        raise TikTokNotFound("that share link does not lead to a video")
+    with _short_lock:
+        if len(_short_links) > 5000:
+            _short_links.clear()
+        _short_links[link] = (time.time() + SHORT_TTL, found)
+    return found
+
+
+def _item(video, country):
+    vid = video_id(video, country)
+    payload = api("/api/item/detail/", {"itemId": vid}, countries=country_order(country, eu_country()),
+                  not_found=shared.VIDEO_NOT_FOUND, label=f"video {vid}")
+    item = (payload.get("itemInfo") or {}).get("itemStruct")
+    if not isinstance(item, dict) or not item.get("id"):
+        raise TikTokNotFound(f"video {vid} not found")
+    return item
+
+
+def get_details(video, country=None):
+    """Everything about one video or photo post."""
+    return P.video(_item(video, country))
+
+
+def get_media(video, country=None):
+    """Only the files: every video rendition, photo, cover, subtitle and the sound."""
+    return P.media(_item(video, country))
+
+
+def resolve(video, country=None):
+    """Any accepted reference -> the video's id, canonical link, type and author."""
+    parsed = P.video(_item(video, country))
+    return {"id": parsed["id"], "link": parsed["link"], "type": parsed["type"],
+            "created_at": parsed["created_at"], "author": parsed["author"]}
+
+
+def get_comments(video, cursor=None, country=None):
+    """Top-level comments, ranked as the site shows them."""
+    vid = video_id(video, country)
+    payload = api("/api/comment/list/", {"aweme_id": vid, "count": COMMENTS_PAGE, "cursor": cursor or 0},
+                  country=country, label=f"comments of video {vid}")
+    if payload.get("comments") is None and payload.get("total") is None and not cursor:
+        _item({"id": vid}, country)          # raises TikTokNotFound for an unknown video
+    comments = P.comments(payload.get("comments"))
+    next_cursor = shared.next_cursor(payload)
+    return {
+        "video_id": vid,
+        "total_count": P.to_int(payload.get("total")),
+        "comment_count": len(comments),
+        "comments": comments,
+        "next_cursor": next_cursor,
+        "has_more": next_cursor is not None,
+    }
+
+
+def get_comment_replies(video, comment_id, cursor=None, country=None):
+    """Replies under one comment, oldest first."""
+    vid = video_id(video, country)
+    payload = api("/api/comment/list/reply/", {"item_id": vid, "comment_id": comment_id, "count": REPLIES_PAGE,
+                                               "cursor": cursor or 0},
+                  country=country, label=f"replies to comment {comment_id}")
+    replies = P.comments(payload.get("comments"))
+    next_cursor = shared.next_cursor(payload)
+    return {
+        "video_id": vid,
+        "comment_id": comment_id,
+        "total_count": P.to_int(payload.get("total")),
+        "reply_count": len(replies),
+        "replies": replies,
+        "next_cursor": next_cursor,
+        "has_more": next_cursor is not None,
+    }
+
+
+def get_related(video, country=None):
+    """Videos TikTok recommends next to this one."""
+    vid = video_id(video, country)
+    payload = api("/api/related/item_list/", {"itemID": vid, "count": 16, "cursor": 0},
+                  country=country, label=f"videos related to {vid}")
+    videos = P.videos(payload.get("itemList"))
+    return {"video_id": vid, "video_count": len(videos), "videos": videos}
+
+
+# ---- transcript ------------------------------------------------------------------------
+
+def _seconds(hours, minutes, seconds, millis):
+    return round(int(hours or 0) * 3600 + int(minutes) * 60 + int(seconds) + int(millis) / 1000, 3)
+
+
+def parse_webvtt(text):
+    """WebVTT -> [{start_seconds, end_seconds, text}]."""
+    segments, current = [], None
+    for line in (text or "").replace("\r", "").split("\n"):
+        match = _CUE_TIME_RE.search(line)
+        if match:
+            g = match.groups()
+            current = {"start_seconds": _seconds(*g[:4]), "end_seconds": _seconds(*g[4:]), "text": ""}
+            segments.append(current)
+        elif not line.strip():
+            current = None
+        elif current is not None:
+            piece = _TAG_RE.sub("", line).strip()
+            if piece:
+                current["text"] = f"{current['text']} {piece}".strip()
+    return [segment for segment in segments if segment["text"]]
+
+
+# TikTok labels caption tracks with ISO 639-3 + region ("eng-US", "spa-ES",
+# "cmn-Hans-CN"); callers pass the usual two-letter code.
+_ISO3 = {"en": "eng", "es": "spa", "pt": "por", "de": "deu", "fr": "fra", "it": "ita", "ja": "jpn", "ko": "kor",
+         "id": "ind", "ru": "rus", "ar": "ara", "vi": "vie", "zh": "cmn", "tr": "tur", "th": "tha", "nl": "nld",
+         "pl": "pol", "hi": "hin", "ms": "msa", "sv": "swe", "ro": "ron", "uk": "ukr", "he": "heb", "el": "ell",
+         "cs": "ces", "hu": "hun", "fil": "fil", "tl": "fil", "bn": "ben", "ur": "urd", "fa": "fas"}
+
+
+def _language_matches(track_language, wanted):
+    track, wanted = (track_language or "").lower(), wanted.lower()
+    if track == wanted:
+        return True
+    primary, wanted_primary = track.split("-")[0], wanted.split("-")[0]
+    if primary not in (wanted_primary, _ISO3.get(wanted_primary)):
+        return False
+    region = wanted.split("-")[1] if "-" in wanted else None
+    return region is None or track.endswith("-" + region)
+
+
+def _pick_subtitle(tracks, language):
+    if language:
+        return next((track for track in tracks if _language_matches(track["language"], language)), None)
+    originals = [track for track in tracks if not track["is_translation"]]
+    return (originals or tracks)[0]
+
+
+def get_transcript(video, language=None, country=None):
+    """The video's captions as timed segments plus the joined text. Without
+    `language` the original (auto-generated) track is returned."""
+    item = _item(video, country)
+    tracks = [t for t in P.subtitles((item.get("video") or {}).get("subtitleInfos")) if (t["format"] or "").lower() == "webvtt"]
+    available = sorted({track["language"] for track in tracks if track["language"]})
+    if not tracks:
+        raise TikTokNotFound(f"video {item.get('id')} has no captions")
+    track = _pick_subtitle(tracks, language)
+    if track is None:
+        raise TikTokBadRequest(f"no captions in {language!r}; available: {', '.join(available)}")
+    segments = parse_webvtt(get_text(track["link"], country=country))
+    return {
+        "video_id": P.to_id(item.get("id")),
+        "language": track["language"],
+        "is_auto_generated": track["is_auto_generated"],
+        "is_translation": track["is_translation"],
+        "available_languages": available,
+        "text": " ".join(segment["text"] for segment in segments),
+        "segment_count": len(segments),
+        "segments": segments,
+    }

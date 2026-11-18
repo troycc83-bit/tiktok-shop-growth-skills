@@ -1,1 +1,84 @@
-IiIiVGhlIHZhbHVlIGhlbHBlcnM6IHdoYXQgZWFjaCB2YXJpYW50IHByb21pc2VzLCBhbmQgdGhhdCB0aGUgc3RhbmRhcmQgb25lcwpzdGlsbCBhZ3JlZSB3aXRoIHRoZSBjb2RlIHRoZXkgcmVwbGFjZWQgb24gb3JkaW5hcnkgaW5wdXRzLiIiIgppbXBvcnQgbWF0aAoKZnJvbSBzY3JhcGVyX3V0aWxzIGltcG9ydCB2YWx1ZXMgYXMgVgoKCmRlZiB0ZXN0X3NhZmVfYWNjZXNzKCk6CiAgICBkYXRhID0geyJhIjogeyJiIjogWzEwLCB7ImMiOiA1fV19fQogICAgYXNzZXJ0IFYuZyhkYXRhLCAiYSIsICJiIiwgMSwgImMiKSA9PSA1CiAgICBhc3NlcnQgVi5nKGRhdGEsICJhIiwgImIiLCAtMikgPT0gMTAKICAgIGFzc2VydCBWLmcoZGF0YSwgImEiLCAieCIsIGRlZmF1bHQ9ImQiKSA9PSAiZCIKICAgIGFzc2VydCBWLmcoZGF0YSwgImEiLCAiYiIsIDUpIGlzIE5vbmUgYW5kIFYuZyhkYXRhLCAiYSIsIDApIGlzIE5vbmUgYW5kIFYuZyhOb25lLCAiYSIpIGlzIE5vbmUKICAgIGFzc2VydCBWLmFzX2xpc3QoWzFdKSA9PSBbMV0gYW5kIFYuYXNfbGlzdCgieCIpID09IFtdIGFuZCBWLmFzX2xpc3QoTm9uZSkgPT0gW10KICAgIGFzc2VydCBWLmFzX2RpY3QoeyJhIjogMX0pID09IHsiYSI6IDF9IGFuZCBWLmFzX2RpY3QoWzFdKSA9PSB7fQogICAgYXNzZXJ0IFYuYm9vbF9vcl9ub25lKFRydWUpIGlzIFRydWUgYW5kIFYuYm9vbF9vcl9ub25lKDApIGlzIE5vbmUgYW5kIFYuYm9vbF9vcl9ub25lKCJ0cnVlIikgaXMgTm9uZQoKCmRlZiB0ZXN0X251bSgpOgogICAgYXNzZXJ0IFYubnVtKCIxLDIzNC41IikgPT0gMTIzNC41IGFuZCBWLm51bSgiIDcgIikgPT0gNy4wIGFuZCBWLm51bSgzKSA9PSAzLjAgYW5kIFYubnVtKCIxZTMiKSA9PSAxMDAwLjAKICAgIGFzc2VydCBWLnRvX2Zsb2F0IGlzIFYubnVtCiAgICBmb3IganVuayBpbiAoTm9uZSwgVHJ1ZSwgRmFsc2UsICIiLCAiYWJjIiwgIjEyYWJjIiwgIiQ1IiwgW10sIHt9LCBmbG9hdCgibmFuIiksIGZsb2F0KCJpbmYiKSwgIm5hbiIsICJpbmYiLCAxMCAqKiA0MDApOgogICAgICAgIGFzc2VydCBWLm51bShqdW5rKSBpcyBOb25lLCBqdW5rCgoKZGVmIHRlc3RfdG9faW50X3RydW5jYXRlc19hbmRfdG9faW50X3JvdW5kX3JvdW5kcygpOgogICAgYXNzZXJ0IFYudG9faW50KCIzLjciKSA9PSAzIGFuZCBWLnRvX2ludCgzLjcpID09IDMgYW5kIFYudG9faW50KC0zLjcpID09IC0zIGFuZCBWLnRvX2ludCgiMSwyMzQiKSA9PSAxMjM0CiAgICBhc3NlcnQgVi50b19pbnRfcm91bmQoIjMuNyIpID09IDQgYW5kIFYudG9faW50X3JvdW5kKDMuNykgPT0gNCBhbmQgVi50b19pbnRfcm91bmQoMi41KSA9PSAyCiAgICBiaWcgPSAxMCAqKiAxOCArIDEKICAgIGFzc2VydCBWLnRvX2ludChiaWcpID09IGJpZyBhbmQgVi50b19pbnRfcm91bmQoYmlnKSA9PSBiaWcgICAgICAgICMgaWRzIGtlZXAgZXZlcnkgZGlnaXQKICAgIGZvciBmbiBpbiAoVi50b19pbnQsIFYudG9faW50X3JvdW5kKToKICAgICAgICBhc3NlcnQgZm4oVHJ1ZSkgaXMgTm9uZSBhbmQgZm4oTm9uZSkgaXMgTm9uZSBhbmQgZm4oImFiYyIpIGlzIE5vbmUgYW5kIGZuKGZsb2F0KCJpbmYiKSkgaXMgTm9uZQoKCmRlZiB0ZXN0X251bWJlcl9rZWVwc193aG9sZV9udW1iZXJzX2FzX2ludHMoKToKICAgIGFzc2VydCBWLm51bWJlcigiMzg0LjAiKSA9PSAzODQgYW5kIGlzaW5zdGFuY2UoVi5udW1iZXIoIjM4NC4wIiksIGludCkKICAgIGFzc2VydCBWLm51bWJlcigiNzYuOCIpID09IDc2LjggYW5kIFYubnVtYmVyKDUpID09IDUgYW5kIFYubnVtYmVyKE5vbmUpIGlzIE5vbmUKCgpkZWYgdGVzdF9maXJzdF9udW1iZXJfaW5fYV90ZXh0KCk6CiAgICBhc3NlcnQgVi5maXJzdF9mbG9hdCgiJDEsMjk5Ljk5IGVhY2giKSA9PSAxMjk5Ljk5IGFuZCBWLmZpcnN0X2ludCgiMTIgcmV2aWV3cyIpID09IDEyCiAgICBhc3NlcnQgVi5maXJzdF9pbnQoImZyb20gLTUgdG8gMyIpID09IC01IGFuZCBWLmZpcnN0X2ludCg3LjkpID09IDcgYW5kIFYuZmlyc3RfaW50KCIzLjcgc3RhcnMiKSA9PSAzCiAgICBhc3NlcnQgVi5maXJzdF9pbnQoIm5vIGRpZ2l0cyIpIGlzIE5vbmUgYW5kIFYuZmlyc3RfaW50KFRydWUpIGlzIE5vbmUgYW5kIFYuZmlyc3RfZmxvYXQoTm9uZSkgaXMgTm9uZQoKCiMgLS0tLSB0aGUgY29kZSB0aGVzZSByZXBsYWNlZCwga2VwdCB2ZXJiYXRpbSBhcyB0aGUgcmVmZXJlbmNlIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmRlZiBfb2xkX251bSh2YWx1ZSk6CiAgICBpZiB2YWx1ZSBpcyBOb25lIG9yIGlzaW5zdGFuY2UodmFsdWUsIGJvb2wpOgogICAgICAgIHJldHVybiBOb25lCiAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCAoaW50LCBmbG9hdCkpOgogICAgICAgIHJldHVybiBmbG9hdCh2YWx1ZSkgaWYgdmFsdWUgPT0gdmFsdWUgZWxzZSBOb25lCiAgICB0cnk6CiAgICAgICAgb3V0ID0gZmxvYXQoc3RyKHZhbHVlKS5zdHJpcCgpLnJlcGxhY2UoIiwiLCAiIikpCiAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICByZXR1cm4gTm9uZQogICAgcmV0dXJuIG91dCBpZiBvdXQgPT0gb3V0IGVsc2UgTm9uZQoKCmRlZiBfb2xkX3RvX2ludCh2YWx1ZSk6CiAgICBvdXQgPSBfb2xkX251bSh2YWx1ZSkKICAgIHJldHVybiBpbnQocm91bmQob3V0KSkgaWYgb3V0IGlzIG5vdCBOb25lIGVsc2UgTm9uZQoKCk9SRElOQVJZID0gW05vbmUsIFRydWUsIEZhbHNlLCAwLCAxLCAtMSwgMywgMTAgKiogMTIsIDMuNywgLTMuMiwgMC4wLCAyLjUsIDMuNSwgMC40OSwgIiIsICIgIiwgIjAiLCAiMTIiLCAiLTUiLCAiKzUiLAogICAgICAgICAgICAiMy43IiwgIjMuMCIsICIuNSIsICI1LiIsICIxZTMiLCAiMSwyMzQiLCAiMSwyMzQuNTYiLCAiMSAyMzQiLCAiJDEsMjk5Ljk5IiwgIjEyJSIsICJhYmMiLCAiMTJhYmMiLCAiTi9BIiwKICAgICAgICAgICAgIiAgNDIgICIsIFtdLCBbMV0sIHt9LCB7InZhbHVlIjogNX0sIGIiMTIiLCBmbG9hdCgibmFuIildCgoKZGVmIHRlc3RfbnVtX2FuZF90b19pbnRfcm91bmRfbWF0Y2hfdGhlX2NvZGVfdGhleV9yZXBsYWNlZCgpOgogICAgZm9yIHZhbHVlIGluIE9SRElOQVJZOgogICAgICAgIG9sZCwgbmV3ID0gX29sZF9udW0odmFsdWUpLCBWLm51bSh2YWx1ZSkKICAgICAgICBhc3NlcnQgb2xkID09IG5ldyBvciAob2xkICE9IG9sZCBhbmQgbmV3IGlzIE5vbmUpLCB2YWx1ZQogICAgICAgIGFzc2VydCBfb2xkX3RvX2ludCh2YWx1ZSkgPT0gVi50b19pbnRfcm91bmQodmFsdWUpLCB2YWx1ZQogICAgIyB0aGUgb25lIGRlbGliZXJhdGUgZGlmZmVyZW5jZTogaW5maW5pdHkgaXMganVuaywgbm90IGEgbnVtYmVyCiAgICBhc3NlcnQgX29sZF9udW0oImluZiIpID09IG1hdGguaW5mIGFuZCBWLm51bSgiaW5mIikgaXMgTm9uZQoKCmRlZiB0ZXN0X251bWJlcnNfd2l0aF9hX21lYW5pbmcoKToKICAgIGFzc2VydCBWLnJvdW5kZWQoIjMuMTQxNTkiKSA9PSAzLjE0IGFuZCBWLnJvdW5kZWQoIjMuMTQxNTkiLCAzKSA9PSAzLjE0MiBhbmQgVi5yb3VuZGVkKCJ4IikgaXMgTm9uZQogICAgYXNzZXJ0IFYuYW1vdW50KCIxLDIwMCIpID09IDEyMDAgYW5kIGlzaW5zdGFuY2UoVi5hbW91bnQoIjEsMjAwLjAiKSwgaW50KSBhbmQgVi5hbW91bnQoIjEyLjM0NSIpID09IDEyLjM1CiAgICBhc3NlcnQgVi5yYXRpbmcoIjQuNDU2IikgPT0gNC40NiBhbmQgVi5yYXRpbmcoMCkgaXMgTm9uZSBhbmQgVi5yYXRpbmcoTm9uZSkgaXMgTm9uZQogICAgYXNzZXJ0IFYuY291bnQoIjEyIikgPT0gMTIgYW5kIFYuY291bnQoLTMpID09IDAgYW5kIFYuY291bnQoIngiKSBpcyBOb25lCiAgICBhc3NlcnQgVi55ZWFyKCIxOTk5IikgPT0gMTk5OSBhbmQgVi55ZWFyKDApIGlzIE5vbmUgYW5kIFYueWVhcig5OTk5OSkgaXMgTm9uZQo=
+"""The value helpers: what each variant promises, and that the standard ones
+still agree with the code they replaced on ordinary inputs."""
+import math
+
+from scraper_utils import values as V
+
+
+def test_safe_access():
+    data = {"a": {"b": [10, {"c": 5}]}}
+    assert V.g(data, "a", "b", 1, "c") == 5
+    assert V.g(data, "a", "b", -2) == 10
+    assert V.g(data, "a", "x", default="d") == "d"
+    assert V.g(data, "a", "b", 5) is None and V.g(data, "a", 0) is None and V.g(None, "a") is None
+    assert V.as_list([1]) == [1] and V.as_list("x") == [] and V.as_list(None) == []
+    assert V.as_dict({"a": 1}) == {"a": 1} and V.as_dict([1]) == {}
+    assert V.bool_or_none(True) is True and V.bool_or_none(0) is None and V.bool_or_none("true") is None
+
+
+def test_num():
+    assert V.num("1,234.5") == 1234.5 and V.num(" 7 ") == 7.0 and V.num(3) == 3.0 and V.num("1e3") == 1000.0
+    assert V.to_float is V.num
+    for junk in (None, True, False, "", "abc", "12abc", "$5", [], {}, float("nan"), float("inf"), "nan", "inf", 10 ** 400):
+        assert V.num(junk) is None, junk
+
+
+def test_to_int_truncates_and_to_int_round_rounds():
+    assert V.to_int("3.7") == 3 and V.to_int(3.7) == 3 and V.to_int(-3.7) == -3 and V.to_int("1,234") == 1234
+    assert V.to_int_round("3.7") == 4 and V.to_int_round(3.7) == 4 and V.to_int_round(2.5) == 2
+    big = 10 ** 18 + 1
+    assert V.to_int(big) == big and V.to_int_round(big) == big        # ids keep every digit
+    for fn in (V.to_int, V.to_int_round):
+        assert fn(True) is None and fn(None) is None and fn("abc") is None and fn(float("inf")) is None
+
+
+def test_number_keeps_whole_numbers_as_ints():
+    assert V.number("384.0") == 384 and isinstance(V.number("384.0"), int)
+    assert V.number("76.8") == 76.8 and V.number(5) == 5 and V.number(None) is None
+
+
+def test_first_number_in_a_text():
+    assert V.first_float("$1,299.99 each") == 1299.99 and V.first_int("12 reviews") == 12
+    assert V.first_int("from -5 to 3") == -5 and V.first_int(7.9) == 7 and V.first_int("3.7 stars") == 3
+    assert V.first_int("no digits") is None and V.first_int(True) is None and V.first_float(None) is None
+
+
+# ---- the code these replaced, kept verbatim as the reference ----------------------------------
+
+def _old_num(value):
+    if value is None or isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)):
+        return float(value) if value == value else None
+    try:
+        out = float(str(value).strip().replace(",", ""))
+    except ValueError:
+        return None
+    return out if out == out else None
+
+
+def _old_to_int(value):
+    out = _old_num(value)
+    return int(round(out)) if out is not None else None
+
+
+ORDINARY = [None, True, False, 0, 1, -1, 3, 10 ** 12, 3.7, -3.2, 0.0, 2.5, 3.5, 0.49, "", " ", "0", "12", "-5", "+5",
+            "3.7", "3.0", ".5", "5.", "1e3", "1,234", "1,234.56", "1 234", "$1,299.99", "12%", "abc", "12abc", "N/A",
+            "  42  ", [], [1], {}, {"value": 5}, b"12", float("nan")]
+
+
+def test_num_and_to_int_round_match_the_code_they_replaced():
+    for value in ORDINARY:
+        old, new = _old_num(value), V.num(value)
+        assert old == new or (old != old and new is None), value
+        assert _old_to_int(value) == V.to_int_round(value), value
+    # the one deliberate difference: infinity is junk, not a number
+    assert _old_num("inf") == math.inf and V.num("inf") is None
+
+
+def test_numbers_with_a_meaning():
+    assert V.rounded("3.14159") == 3.14 and V.rounded("3.14159", 3) == 3.142 and V.rounded("x") is None
+    assert V.amount("1,200") == 1200 and isinstance(V.amount("1,200.0"), int) and V.amount("12.345") == 12.35
+    assert V.rating("4.456") == 4.46 and V.rating(0) is None and V.rating(None) is None
+    assert V.count("12") == 12 and V.count(-3) == 0 and V.count("x") is None
+    assert V.year("1999") == 1999 and V.year(0) is None and V.year(99999) is None

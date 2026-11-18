@@ -1,1 +1,213 @@
-IiIiRGlzY292ZXJ5IGVuZHBvaW50czogaGFzaHRhZ3MsIHNvdW5kcywgcGxheWxpc3RzLCBjb2xsZWN0aW9ucywgcGxhY2VzLAplZmZlY3RzIGFuZCB0aGUgdHdvIGZlZWRzICh0cmVuZGluZyBhbmQgZXhwbG9yZSkuCgpVcHN0cmVhbSAocHJvYmVkIDIwMjYtMTAtMDUpOgogICogaGFzaHRhZyAgL2FwaS9jaGFsbGVuZ2UvZGV0YWlsIChieSBuYW1lOyAxMDIwNSA9IHVua25vd24pIHRoZW4KICAgICAgICAgICAgIC9hcGkvY2hhbGxlbmdlL2l0ZW1fbGlzdCBieSBpZCwgMzAgYSBwYWdlLCBvZmZzZXQgY3Vyc29yCiAgKiBtdXNpYyAgICAvYXBpL211c2ljL2RldGFpbCAoMTAyMDMgPSB1bmtub3duKSwgL2FwaS9tdXNpYy9pdGVtX2xpc3QgMzAgYSBwYWdlCiAgKiBwbGF5bGlzdCAvYXBpL21peC9kZXRhaWwgKGFuIHVua25vd24gaWQgYW5zd2VycyAyMDAgd2l0aG91dCBgbWl4SW5mb2ApLAogICAgICAgICAgICAgL2FwaS9taXgvaXRlbV9saXN0IGluIHBsYXlsaXN0IG9yZGVyCiAgKiBjb2xsZWN0aW9uIC9hcGkvY29sbGVjdGlvbi9pdGVtX2xpc3QgMzAgYSBwYWdlICh0aGUgY29sbGVjdGlvbidzIG93bgogICAgICAgICAgICAgbmFtZSAvIG93bmVyIGNvbWUgZnJvbSB0aGUgb3duZXIncyBjb2xsZWN0aW9uIGxpc3QpCiAgKiBwbGFjZSAgICAvYXBpL3BvaS9kZXRhaWwsIC9hcGkvcG9pL2l0ZW1fbGlzdCAzMCBhIHBhZ2UKICAqIGVmZmVjdCAgIC9hcGkvc3RpY2tlci9kZXRhaWwgKGl0cyB2aWRlbyBsaXN0IGlzIHJlZnVzZWQgbG9nZ2VkIG91dCkKICAqIHRyZW5kaW5nIC9hcGkvcmVjb21tZW5kL2l0ZW1fbGlzdCDigJQgdGhlIGxvZ2dlZC1vdXQgRm9yIFlvdSBmZWVkIG9mIHRoZQogICAgICAgICAgICAgZXhpdCdzIGNvdW50cnksIHVwIHRvIDMwIGZyZXNoIHZpZGVvcyBwZXIgY2FsbCwgbm8gY3Vyc29yOgogICAgICAgICAgICAgY2FsbGluZyBhZ2FpbiByZXR1cm5zIGEgbmV3IGJhdGNoCiAgKiBleHBsb3JlICAvYXBpL2V4cGxvcmUvaXRlbV9saXN0IOKAlCB0aGUgRXhwbG9yZSBwYWdlJ3MgY2F0ZWdvcnkgdGFicywKICAgICAgICAgICAgIHVwIHRvIDMwIHBlciBjYWxsLCBzYW1lICJjYWxsIGFnYWluIiBwYWdpbmcKClRoZSBpdGVtIGxpc3RzIGNhcnJ5IGZ1bGwgdmlkZW9zIChzdGF0cywgYXV0aG9yLCBtdXNpYywgZXZlcnkgcmVuZGl0aW9uKS4KIiIiCmltcG9ydCB0aHJlYWRpbmcKaW1wb3J0IHRpbWUKCmZyb20gLiBpbXBvcnQgcGFyc2VycyBhcyBQCmZyb20gLiBpbXBvcnQgc2hhcmVkCmZyb20gLmZldGNoIGltcG9ydCBUaWtUb2tOb3RGb3VuZCwgYXBpLCBjb3VudHJ5X29yZGVyLCBldV9jb3VudHJ5CgpQQUdFID0gMzAKTE9PS1VQX1RUTCA9IDM2MDAKX2xvb2t1cF9sb2NrID0gdGhyZWFkaW5nLkxvY2soKQpfaGFzaHRhZ19pZHMgPSB7fSAgICAgICAjIGxvd2VyLWNhc2UgbmFtZSAtPiAoZXhwaXJlcywgY2hhbGxlbmdlSW5mbykKCiMgVGhlIEV4cGxvcmUgcGFnZSdzIHRhYnMgKGNhdGVnb3J5VHlwZSksIHJlYWQgb2ZmIHRoZSBsaXZlIGZlZWRzIDIwMjYtMTAtMDUuCkVYUExPUkVfQ0FURUdPUklFUyA9IHsKICAgICJhbGwiOiAxMjAsCiAgICAic2luZ2luZy1kYW5jaW5nIjogMTE5LAogICAgImNvbWVkeSI6IDEwNCwKICAgICJzcG9ydHMiOiAxMTIsCiAgICAiYW5pbWUtY29taWNzIjogMTAwLAogICAgInJlbGF0aW9uc2hpcCI6IDEwNywKICAgICJzaG93cyI6IDEwMSwKICAgICJsaXBzeW5jIjogMTEwLAogICAgImRhaWx5LWxpZmUiOiAxMDUsCiAgICAiYmVhdXR5LWNhcmUiOiAxMDIsCiAgICAiZ2FtZXMiOiAxMDMsCiAgICAic29jaWV0eSI6IDExNCwKICAgICJvdXRmaXQiOiAxMDksCiAgICAiY2FycyI6IDExNSwKICAgICJmb29kIjogMTExLAogICAgImFuaW1hbHMiOiAxMTMsCiAgICAiZmFtaWx5IjogMTA2LAogICAgImRyYW1hIjogMTA4LAogICAgImZpdG5lc3MtaGVhbHRoIjogMTE3LAogICAgImVkdWNhdGlvbiI6IDExNiwKICAgICJ0ZWNobm9sb2d5IjogMTE4LAp9CkVYUExPUkVfTkFNRVMgPSB7CiAgICAiYWxsIjogIkFsbCIsICJzaW5naW5nLWRhbmNpbmciOiAiU2luZ2luZyAmIERhbmNpbmciLCAiY29tZWR5IjogIkNvbWVkeSIsICJzcG9ydHMiOiAiU3BvcnRzIiwKICAgICJhbmltZS1jb21pY3MiOiAiQW5pbWUgJiBDb21pY3MiLCAicmVsYXRpb25zaGlwIjogIlJlbGF0aW9uc2hpcCIsICJzaG93cyI6ICJTaG93cyIsICJsaXBzeW5jIjogIkxpcHN5bmMiLAogICAgImRhaWx5LWxpZmUiOiAiRGFpbHkgTGlmZSIsICJiZWF1dHktY2FyZSI6ICJCZWF1dHkgQ2FyZSIsICJnYW1lcyI6ICJHYW1lcyIsICJzb2NpZXR5IjogIlNvY2lldHkiLAogICAgIm91dGZpdCI6ICJPdXRmaXQiLCAiY2FycyI6ICJDYXJzIiwgImZvb2QiOiAiRm9vZCIsICJhbmltYWxzIjogIkFuaW1hbHMiLCAiZmFtaWx5IjogIkZhbWlseSIsCiAgICAiZHJhbWEiOiAiRHJhbWEiLCAiZml0bmVzcy1oZWFsdGgiOiAiRml0bmVzcyAmIEhlYWx0aCIsICJlZHVjYXRpb24iOiAiRWR1Y2F0aW9uIiwgInRlY2hub2xvZ3kiOiAiVGVjaG5vbG9neSIsCn0KCgojIC0tLS0gaGFzaHRhZ3MgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmRlZiBfaGFzaHRhZ19pbmZvKG5hbWUpOgogICAga2V5ID0gbmFtZS5sb3dlcigpCiAgICB3aXRoIF9sb29rdXBfbG9jazoKICAgICAgICBoaXQgPSBfaGFzaHRhZ19pZHMuZ2V0KGtleSkKICAgICAgICBpZiBoaXQgYW5kIGhpdFswXSA+IHRpbWUudGltZSgpOgogICAgICAgICAgICByZXR1cm4gaGl0WzFdCiAgICBwYXlsb2FkID0gYXBpKCIvYXBpL2NoYWxsZW5nZS9kZXRhaWwvIiwgeyJjaGFsbGVuZ2VOYW1lIjogbmFtZX0sIGNvdW50cmllcz1jb3VudHJ5X29yZGVyKE5vbmUsIGV1X2NvdW50cnkoKSksCiAgICAgICAgICAgICAgICAgIG5vdF9mb3VuZD1zaGFyZWQuSEFTSFRBR19OT1RfRk9VTkQsIGxhYmVsPWYiaGFzaHRhZyAje25hbWV9IikKICAgIGluZm8gPSBwYXlsb2FkLmdldCgiY2hhbGxlbmdlSW5mbyIpCiAgICBpZiBub3QgaXNpbnN0YW5jZShpbmZvLCBkaWN0KSBvciBub3QgKGluZm8uZ2V0KCJjaGFsbGVuZ2UiKSBvciB7fSkuZ2V0KCJpZCIpOgogICAgICAgIHJhaXNlIFRpa1Rva05vdEZvdW5kKGYiaGFzaHRhZyAje25hbWV9IG5vdCBmb3VuZCIpCiAgICB3aXRoIF9sb29rdXBfbG9jazoKICAgICAgICBpZiBsZW4oX2hhc2h0YWdfaWRzKSA+IDUwMDA6CiAgICAgICAgICAgIF9oYXNodGFnX2lkcy5jbGVhcigpCiAgICAgICAgX2hhc2h0YWdfaWRzW2tleV0gPSAodGltZS50aW1lKCkgKyBMT09LVVBfVFRMLCBpbmZvKQogICAgcmV0dXJuIGluZm8KCgpkZWYgZ2V0X2hhc2h0YWcoaGFzaHRhZyk6CiAgICAiIiJBIGhhc2h0YWcncyBpZCwgZGVzY3JpcHRpb24sIHZpZGVvIGNvdW50IGFuZCB0b3RhbCB2aWV3cy4iIiIKICAgIHJldHVybiBQLmhhc2h0YWcoX2hhc2h0YWdfaW5mbyhoYXNodGFnKSkKCgpkZWYgZ2V0X2hhc2h0YWdfcG9zdHMoaGFzaHRhZywgY3Vyc29yPU5vbmUsIGNvdW50cnk9Tm9uZSk6CiAgICAiIiJWaWRlb3MgdW5kZXIgYSBoYXNodGFnLCBpbiB0aGUgc2l0ZSdzIHJhbmtlZCBvcmRlci4iIiIKICAgIGluZm8gPSBfaGFzaHRhZ19pbmZvKGhhc2h0YWcpCiAgICBwYXlsb2FkID0gYXBpKCIvYXBpL2NoYWxsZW5nZS9pdGVtX2xpc3QvIiwgeyJjaGFsbGVuZ2VJRCI6IGluZm9bImNoYWxsZW5nZSJdWyJpZCJdLCAiY291bnQiOiBQQUdFLCAiY3Vyc29yIjogY3Vyc29yIG9yIDB9LAogICAgICAgICAgICAgICAgICBjb3VudHJpZXM9Y291bnRyeV9vcmRlcihjb3VudHJ5LCBldV9jb3VudHJ5KCkpLCBsYWJlbD1mInZpZGVvcyBvZiAje2hhc2h0YWd9IikKICAgIHJldHVybiBzaGFyZWQudmlkZW9fcGFnZShwYXlsb2FkLCBoYXNodGFnPVAuaGFzaHRhZ19yZWYoaW5mb1siY2hhbGxlbmdlIl0pKQoKCiMgLS0tLSBtdXNpYyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKZGVmIF9tdXNpY19pbmZvKG11c2ljLCBjb3VudHJ5PU5vbmUpOgogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9tdXNpYy9kZXRhaWwvIiwgeyJtdXNpY0lkIjogbXVzaWN9LCBjb3VudHJpZXM9Y291bnRyeV9vcmRlcihjb3VudHJ5LCBldV9jb3VudHJ5KCkpLAogICAgICAgICAgICAgICAgICBub3RfZm91bmQ9c2hhcmVkLk1VU0lDX05PVF9GT1VORCwgbGFiZWw9ZiJzb3VuZCB7bXVzaWN9IikKICAgIGluZm8gPSBwYXlsb2FkLmdldCgibXVzaWNJbmZvIikKICAgIGlmIG5vdCBpc2luc3RhbmNlKGluZm8sIGRpY3QpIG9yIG5vdCAoaW5mby5nZXQoIm11c2ljIikgb3Ige30pLmdldCgiaWQiKToKICAgICAgICByYWlzZSBUaWtUb2tOb3RGb3VuZChmInNvdW5kIHttdXNpY30gbm90IGZvdW5kIikKICAgIHJldHVybiBpbmZvCgoKZGVmIGdldF9tdXNpYyhtdXNpYyk6CiAgICAiIiJBIHNvdW5kOiB0aXRsZSwgYXJ0aXN0LCBkdXJhdGlvbiwgYXVkaW8gZmlsZSwgdXNhZ2UgY291bnQsIHRoZQogICAgYWNjb3VudCB0aGF0IHBvc3RlZCBpdCBhbmQgaXRzIEFwcGxlIE11c2ljIC8gU3BvdGlmeSBpZHMuIiIiCiAgICBpbmZvID0gX211c2ljX2luZm8obXVzaWMpCiAgICByZXR1cm4gUC5tdXNpYyhpbmZvLmdldCgibXVzaWMiKSwgaW5mby5nZXQoInN0YXRzIikgb3Ige30sIGluZm8uZ2V0KCJhdXRob3IiKSBvciB7fSkKCgpkZWYgZ2V0X211c2ljX3Bvc3RzKG11c2ljLCBjdXJzb3I9Tm9uZSwgY291bnRyeT1Ob25lKToKICAgICIiIlZpZGVvcyB0aGF0IHVzZSBhIHNvdW5kLiIiIgogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9tdXNpYy9pdGVtX2xpc3QvIiwgeyJtdXNpY0lEIjogbXVzaWMsICJjb3VudCI6IFBBR0UsICJjdXJzb3IiOiBjdXJzb3Igb3IgMH0sCiAgICAgICAgICAgICAgICAgIGNvdW50cmllcz1jb3VudHJ5X29yZGVyKGNvdW50cnksIGV1X2NvdW50cnkoKSksIG5vdF9mb3VuZD1zaGFyZWQuQkFEX0lELAogICAgICAgICAgICAgICAgICBsYWJlbD1mInNvdW5kIHttdXNpY30iKQogICAgaWYgbm90IHBheWxvYWQuZ2V0KCJpdGVtTGlzdCIpIGFuZCBub3QgY3Vyc29yOgogICAgICAgIF9tdXNpY19pbmZvKG11c2ljLCBjb3VudHJ5KSAgICAgICAgICAjIHJhaXNlcyBUaWtUb2tOb3RGb3VuZCBmb3IgYW4gdW5rbm93biBzb3VuZAogICAgcmV0dXJuIHNoYXJlZC52aWRlb19wYWdlKHBheWxvYWQsIG11c2ljX2lkPW11c2ljKQoKCiMgLS0tLSBwbGF5bGlzdHMgLyBjb2xsZWN0aW9ucyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKZGVmIGdldF9wbGF5bGlzdChwbGF5bGlzdCk6CiAgICAiIiJBIHBsYXlsaXN0J3MgbmFtZSwgY292ZXIsIHZpZGVvIGNvdW50IGFuZCBjcmVhdG9yLiIiIgogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9taXgvZGV0YWlsLyIsIHsibWl4SWQiOiBwbGF5bGlzdH0sIG5vdF9mb3VuZD1zaGFyZWQuQkFEX0lELCBsYWJlbD1mInBsYXlsaXN0IHtwbGF5bGlzdH0iKQogICAgcGFyc2VkID0gUC5wbGF5bGlzdChwYXlsb2FkLmdldCgibWl4SW5mbyIpKQogICAgaWYgcGFyc2VkIGlzIE5vbmU6CiAgICAgICAgcmFpc2UgVGlrVG9rTm90Rm91bmQoZiJwbGF5bGlzdCB7cGxheWxpc3R9IG5vdCBmb3VuZCIpCiAgICByZXR1cm4gcGFyc2VkCgoKZGVmIGdldF9wbGF5bGlzdF9wb3N0cyhwbGF5bGlzdCwgY3Vyc29yPU5vbmUsIGNvdW50cnk9Tm9uZSk6CiAgICAiIiJBIHBsYXlsaXN0J3MgdmlkZW9zIGluIHRoZSBjcmVhdG9yJ3Mgb3JkZXIuIiIiCiAgICBwYXlsb2FkID0gYXBpKCIvYXBpL21peC9pdGVtX2xpc3QvIiwgeyJtaXhJZCI6IHBsYXlsaXN0LCAiY291bnQiOiBQQUdFLCAiY3Vyc29yIjogY3Vyc29yIG9yIDB9LAogICAgICAgICAgICAgICAgICBjb3VudHJ5PWNvdW50cnksIHNpZ25lZD1GYWxzZSwgbm90X2ZvdW5kPXNoYXJlZC5CQURfSUQsIGxhYmVsPWYicGxheWxpc3Qge3BsYXlsaXN0fSIpCiAgICBpZiBub3QgcGF5bG9hZC5nZXQoIml0ZW1MaXN0IikgYW5kIG5vdCBjdXJzb3I6CiAgICAgICAgZ2V0X3BsYXlsaXN0KHBsYXlsaXN0KSAgICAgICAgICAgICAgICMgcmFpc2VzIFRpa1Rva05vdEZvdW5kIGZvciBhbiB1bmtub3duIHBsYXlsaXN0CiAgICByZXR1cm4gc2hhcmVkLnZpZGVvX3BhZ2UocGF5bG9hZCwgcGxheWxpc3RfaWQ9cGxheWxpc3QpCgoKZGVmIGdldF9jb2xsZWN0aW9uX3Bvc3RzKGNvbGxlY3Rpb24sIGN1cnNvcj1Ob25lLCBjb3VudHJ5PU5vbmUpOgogICAgIiIiVGhlIHZpZGVvcyBzYXZlZCBpbiBhIHB1YmxpYyBjb2xsZWN0aW9uLiIiIgogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9jb2xsZWN0aW9uL2l0ZW1fbGlzdC8iLCB7ImNvbGxlY3Rpb25JZCI6IGNvbGxlY3Rpb24sICJjb3VudCI6IFBBR0UsICJjdXJzb3IiOiBjdXJzb3Igb3IgMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJzb3VyY2VUeXBlIjogMTEzfSwKICAgICAgICAgICAgICAgICAgY291bnRyeT1jb3VudHJ5LCBub3RfZm91bmQ9c2hhcmVkLkJBRF9JRCwgbGFiZWw9ZiJjb2xsZWN0aW9uIHtjb2xsZWN0aW9ufSIpCiAgICBpZiBub3QgcGF5bG9hZC5nZXQoIml0ZW1MaXN0IikgYW5kIG5vdCBjdXJzb3I6CiAgICAgICAgcmFpc2UgVGlrVG9rTm90Rm91bmQoZiJjb2xsZWN0aW9uIHtjb2xsZWN0aW9ufSBub3QgZm91bmQgKG9yIGl0IGlzIHByaXZhdGUpIikKICAgIHJldHVybiBzaGFyZWQudmlkZW9fcGFnZShwYXlsb2FkLCBjb2xsZWN0aW9uX2lkPWNvbGxlY3Rpb24pCgoKIyAtLS0tIHBsYWNlcyAvIGVmZmVjdHMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgZ2V0X3BsYWNlKHBsYWNlKToKICAgICIiIkEgdGFnZ2VkIGxvY2F0aW9uOiBuYW1lLCBhZGRyZXNzLCBjYXRlZ29yeSwgcGhvdG9zIGFuZCB2aWRlbyBjb3VudC4iIiIKICAgIHBheWxvYWQgPSBhcGkoIi9hcGkvcG9pL2RldGFpbC8iLCB7InBvaUlkIjogcGxhY2V9LCBub3RfZm91bmQ9c2hhcmVkLlBMQUNFX05PVF9GT1VORCArIHNoYXJlZC5CQURfSUQsCiAgICAgICAgICAgICAgICAgIGxhYmVsPWYicGxhY2Uge3BsYWNlfSIpCiAgICBwYXJzZWQgPSBQLnBsYWNlKHBheWxvYWQuZ2V0KCJwb2lJbmZvIikpCiAgICBpZiBwYXJzZWQgaXMgTm9uZToKICAgICAgICByYWlzZSBUaWtUb2tOb3RGb3VuZChmInBsYWNlIHtwbGFjZX0gbm90IGZvdW5kIikKICAgIHJldHVybiBwYXJzZWQKCgpkZWYgZ2V0X3BsYWNlX3Bvc3RzKHBsYWNlLCBjdXJzb3I9Tm9uZSwgY291bnRyeT1Ob25lKToKICAgICIiIlZpZGVvcyB0YWdnZWQgYXQgYSBsb2NhdGlvbi4iIiIKICAgIHBheWxvYWQgPSBhcGkoIi9hcGkvcG9pL2l0ZW1fbGlzdC8iLCB7InBvaUlkIjogcGxhY2UsICJjb3VudCI6IFBBR0UsICJjdXJzb3IiOiBjdXJzb3Igb3IgMH0sCiAgICAgICAgICAgICAgICAgIGNvdW50cnk9Y291bnRyeSwgbm90X2ZvdW5kPXNoYXJlZC5QTEFDRV9OT1RfRk9VTkQgKyBzaGFyZWQuQkFEX0lELCBsYWJlbD1mInBsYWNlIHtwbGFjZX0iKQogICAgaWYgbm90IHBheWxvYWQuZ2V0KCJpdGVtTGlzdCIpIGFuZCBub3QgY3Vyc29yOgogICAgICAgIGdldF9wbGFjZShwbGFjZSkgICAgICAgICAgICAgICAgICAgICAjIHJhaXNlcyBUaWtUb2tOb3RGb3VuZCBmb3IgYW4gdW5rbm93biBwbGFjZQogICAgcmV0dXJuIHNoYXJlZC52aWRlb19wYWdlKHBheWxvYWQsIHBsYWNlX2lkPXBsYWNlKQoKCmRlZiBnZXRfZWZmZWN0KGVmZmVjdCk6CiAgICAiIiJBbiBlZmZlY3QgKHN0aWNrZXIpOiBuYW1lLCBpY29uIGFuZCB0aGUgY3JlYXRvciB3aG8gbWFkZSBpdC4iIiIKICAgIHBheWxvYWQgPSBhcGkoIi9hcGkvc3RpY2tlci9kZXRhaWwvIiwgeyJzdGlja2VySWQiOiBlZmZlY3R9LCBub3RfZm91bmQ9c2hhcmVkLkVGRkVDVF9OT1RfRk9VTkQgKyBzaGFyZWQuQkFEX0lELAogICAgICAgICAgICAgICAgICBsYWJlbD1mImVmZmVjdCB7ZWZmZWN0fSIpCiAgICBwYXJzZWQgPSBQLmVmZmVjdChwYXlsb2FkLmdldCgic3RpY2tlckluZm8iKSkKICAgIGlmIHBhcnNlZCBpcyBOb25lOgogICAgICAgIHJhaXNlIFRpa1Rva05vdEZvdW5kKGYiZWZmZWN0IHtlZmZlY3R9IG5vdCBmb3VuZCIpCiAgICByZXR1cm4gcGFyc2VkCgoKIyAtLS0tIGZlZWRzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgZ2V0X3RyZW5kaW5nKGNvdW50cnk9Tm9uZSk6CiAgICAiIiJUaGUgRm9yIFlvdSBmZWVkIGEgbG9nZ2VkLW91dCB2aXNpdG9yIGluIGBjb3VudHJ5YCBpcyBzaG93biByaWdodAogICAgbm93LiBFdmVyeSBjYWxsIHJldHVybnMgYSBmcmVzaCBiYXRjaC4iIiIKICAgIGNvZGUgPSAoY291bnRyeSBvciAiIikubG93ZXIoKSBvciBOb25lCiAgICBwYXlsb2FkID0gYXBpKCIvYXBpL3JlY29tbWVuZC9pdGVtX2xpc3QvIiwgeyJjb3VudCI6IFBBR0V9LCBjb3VudHJ5PWNvZGUsIGxhYmVsPSJ0cmVuZGluZyBmZWVkIikKICAgIHZpZGVvcyA9IFAudmlkZW9zKHBheWxvYWQuZ2V0KCJpdGVtTGlzdCIpKQogICAgcmV0dXJuIHsiY291bnRyeSI6IChjb2RlIG9yIGNvdW50cnlfb3JkZXIoTm9uZSlbMF0pLnVwcGVyKCksICJ2aWRlb19jb3VudCI6IGxlbih2aWRlb3MpLCAidmlkZW9zIjogdmlkZW9zfQoKCmRlZiBnZXRfZXhwbG9yZShjYXRlZ29yeT0iYWxsIiwgY291bnRyeT1Ob25lKToKICAgICIiIk9uZSB0YWIgb2YgdGhlIEV4cGxvcmUgcGFnZS4gRXZlcnkgY2FsbCByZXR1cm5zIGEgZnJlc2ggYmF0Y2guIiIiCiAgICBjb2RlID0gKGNvdW50cnkgb3IgIiIpLmxvd2VyKCkgb3IgTm9uZQogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9leHBsb3JlL2l0ZW1fbGlzdC8iLCB7ImNhdGVnb3J5VHlwZSI6IEVYUExPUkVfQ0FURUdPUklFU1tjYXRlZ29yeV0sICJjb3VudCI6IFBBR0V9LAogICAgICAgICAgICAgICAgICBjb3VudHJ5PWNvZGUsIHNpZ25lZD1GYWxzZSwgbGFiZWw9ImV4cGxvcmUgZmVlZCIpCiAgICB2aWRlb3MgPSBQLnZpZGVvcyhwYXlsb2FkLmdldCgiaXRlbUxpc3QiKSkKICAgIHJldHVybiB7ImNhdGVnb3J5IjogY2F0ZWdvcnksICJjb3VudHJ5IjogKGNvZGUgb3IgY291bnRyeV9vcmRlcihOb25lKVswXSkudXBwZXIoKSwKICAgICAgICAgICAgInZpZGVvX2NvdW50IjogbGVuKHZpZGVvcyksICJ2aWRlb3MiOiB2aWRlb3N9CgoKZGVmIGdldF9leHBsb3JlX2NhdGVnb3JpZXMoKToKICAgICIiIlRoZSBFeHBsb3JlIHRhYnMgYWNjZXB0ZWQgYnkgL3Rpa3Rvay9mZWVkL2V4cGxvcmUuIiIiCiAgICByZXR1cm4geyJjYXRlZ29yeV9jb3VudCI6IGxlbihFWFBMT1JFX0NBVEVHT1JJRVMpLAogICAgICAgICAgICAiY2F0ZWdvcmllcyI6IFt7ImlkIjoga2V5LCAibmFtZSI6IEVYUExPUkVfTkFNRVNba2V5XX0gZm9yIGtleSBpbiBFWFBMT1JFX0NBVEVHT1JJRVNdfQo=
+"""Discovery endpoints: hashtags, sounds, playlists, collections, places,
+effects and the two feeds (trending and explore).
+
+Upstream (probed 2026-10-05):
+  * hashtag  /api/challenge/detail (by name; 10205 = unknown) then
+             /api/challenge/item_list by id, 30 a page, offset cursor
+  * music    /api/music/detail (10203 = unknown), /api/music/item_list 30 a page
+  * playlist /api/mix/detail (an unknown id answers 200 without `mixInfo`),
+             /api/mix/item_list in playlist order
+  * collection /api/collection/item_list 30 a page (the collection's own
+             name / owner come from the owner's collection list)
+  * place    /api/poi/detail, /api/poi/item_list 30 a page
+  * effect   /api/sticker/detail (its video list is refused logged out)
+  * trending /api/recommend/item_list — the logged-out For You feed of the
+             exit's country, up to 30 fresh videos per call, no cursor:
+             calling again returns a new batch
+  * explore  /api/explore/item_list — the Explore page's category tabs,
+             up to 30 per call, same "call again" paging
+
+The item lists carry full videos (stats, author, music, every rendition).
+"""
+import threading
+import time
+
+from . import parsers as P
+from . import shared
+from .fetch import TikTokNotFound, api, country_order, eu_country
+
+PAGE = 30
+LOOKUP_TTL = 3600
+_lookup_lock = threading.Lock()
+_hashtag_ids = {}       # lower-case name -> (expires, challengeInfo)
+
+# The Explore page's tabs (categoryType), read off the live feeds 2026-10-05.
+EXPLORE_CATEGORIES = {
+    "all": 120,
+    "singing-dancing": 119,
+    "comedy": 104,
+    "sports": 112,
+    "anime-comics": 100,
+    "relationship": 107,
+    "shows": 101,
+    "lipsync": 110,
+    "daily-life": 105,
+    "beauty-care": 102,
+    "games": 103,
+    "society": 114,
+    "outfit": 109,
+    "cars": 115,
+    "food": 111,
+    "animals": 113,
+    "family": 106,
+    "drama": 108,
+    "fitness-health": 117,
+    "education": 116,
+    "technology": 118,
+}
+EXPLORE_NAMES = {
+    "all": "All", "singing-dancing": "Singing & Dancing", "comedy": "Comedy", "sports": "Sports",
+    "anime-comics": "Anime & Comics", "relationship": "Relationship", "shows": "Shows", "lipsync": "Lipsync",
+    "daily-life": "Daily Life", "beauty-care": "Beauty Care", "games": "Games", "society": "Society",
+    "outfit": "Outfit", "cars": "Cars", "food": "Food", "animals": "Animals", "family": "Family",
+    "drama": "Drama", "fitness-health": "Fitness & Health", "education": "Education", "technology": "Technology",
+}
+
+
+# ---- hashtags --------------------------------------------------------------------------
+
+def _hashtag_info(name):
+    key = name.lower()
+    with _lookup_lock:
+        hit = _hashtag_ids.get(key)
+        if hit and hit[0] > time.time():
+            return hit[1]
+    payload = api("/api/challenge/detail/", {"challengeName": name}, countries=country_order(None, eu_country()),
+                  not_found=shared.HASHTAG_NOT_FOUND, label=f"hashtag #{name}")
+    info = payload.get("challengeInfo")
+    if not isinstance(info, dict) or not (info.get("challenge") or {}).get("id"):
+        raise TikTokNotFound(f"hashtag #{name} not found")
+    with _lookup_lock:
+        if len(_hashtag_ids) > 5000:
+            _hashtag_ids.clear()
+        _hashtag_ids[key] = (time.time() + LOOKUP_TTL, info)
+    return info
+
+
+def get_hashtag(hashtag):
+    """A hashtag's id, description, video count and total views."""
+    return P.hashtag(_hashtag_info(hashtag))
+
+
+def get_hashtag_posts(hashtag, cursor=None, country=None):
+    """Videos under a hashtag, in the site's ranked order."""
+    info = _hashtag_info(hashtag)
+    payload = api("/api/challenge/item_list/", {"challengeID": info["challenge"]["id"], "count": PAGE, "cursor": cursor or 0},
+                  countries=country_order(country, eu_country()), label=f"videos of #{hashtag}")
+    return shared.video_page(payload, hashtag=P.hashtag_ref(info["challenge"]))
+
+
+# ---- music -----------------------------------------------------------------------------
+
+def _music_info(music, country=None):
+    payload = api("/api/music/detail/", {"musicId": music}, countries=country_order(country, eu_country()),
+                  not_found=shared.MUSIC_NOT_FOUND, label=f"sound {music}")
+    info = payload.get("musicInfo")
+    if not isinstance(info, dict) or not (info.get("music") or {}).get("id"):
+        raise TikTokNotFound(f"sound {music} not found")
+    return info
+
+
+def get_music(music):
+    """A sound: title, artist, duration, audio file, usage count, the
+    account that posted it and its Apple Music / Spotify ids."""
+    info = _music_info(music)
+    return P.music(info.get("music"), info.get("stats") or {}, info.get("author") or {})
+
+
+def get_music_posts(music, cursor=None, country=None):
+    """Videos that use a sound."""
+    payload = api("/api/music/item_list/", {"musicID": music, "count": PAGE, "cursor": cursor or 0},
+                  countries=country_order(country, eu_country()), not_found=shared.BAD_ID,
+                  label=f"sound {music}")
+    if not payload.get("itemList") and not cursor:
+        _music_info(music, country)          # raises TikTokNotFound for an unknown sound
+    return shared.video_page(payload, music_id=music)
+
+
+# ---- playlists / collections -----------------------------------------------------------
+
+def get_playlist(playlist):
+    """A playlist's name, cover, video count and creator."""
+    payload = api("/api/mix/detail/", {"mixId": playlist}, not_found=shared.BAD_ID, label=f"playlist {playlist}")
+    parsed = P.playlist(payload.get("mixInfo"))
+    if parsed is None:
+        raise TikTokNotFound(f"playlist {playlist} not found")
+    return parsed
+
+
+def get_playlist_posts(playlist, cursor=None, country=None):
+    """A playlist's videos in the creator's order."""
+    payload = api("/api/mix/item_list/", {"mixId": playlist, "count": PAGE, "cursor": cursor or 0},
+                  country=country, signed=False, not_found=shared.BAD_ID, label=f"playlist {playlist}")
+    if not payload.get("itemList") and not cursor:
+        get_playlist(playlist)               # raises TikTokNotFound for an unknown playlist
+    return shared.video_page(payload, playlist_id=playlist)
+
+
+def get_collection_posts(collection, cursor=None, country=None):
+    """The videos saved in a public collection."""
+    payload = api("/api/collection/item_list/", {"collectionId": collection, "count": PAGE, "cursor": cursor or 0,
+                                                 "sourceType": 113},
+                  country=country, not_found=shared.BAD_ID, label=f"collection {collection}")
+    if not payload.get("itemList") and not cursor:
+        raise TikTokNotFound(f"collection {collection} not found (or it is private)")
+    return shared.video_page(payload, collection_id=collection)
+
+
+# ---- places / effects ------------------------------------------------------------------
+
+def get_place(place):
+    """A tagged location: name, address, category, photos and video count."""
+    payload = api("/api/poi/detail/", {"poiId": place}, not_found=shared.PLACE_NOT_FOUND + shared.BAD_ID,
+                  label=f"place {place}")
+    parsed = P.place(payload.get("poiInfo"))
+    if parsed is None:
+        raise TikTokNotFound(f"place {place} not found")
+    return parsed
+
+
+def get_place_posts(place, cursor=None, country=None):
+    """Videos tagged at a location."""
+    payload = api("/api/poi/item_list/", {"poiId": place, "count": PAGE, "cursor": cursor or 0},
+                  country=country, not_found=shared.PLACE_NOT_FOUND + shared.BAD_ID, label=f"place {place}")
+    if not payload.get("itemList") and not cursor:
+        get_place(place)                     # raises TikTokNotFound for an unknown place
+    return shared.video_page(payload, place_id=place)
+
+
+def get_effect(effect):
+    """An effect (sticker): name, icon and the creator who made it."""
+    payload = api("/api/sticker/detail/", {"stickerId": effect}, not_found=shared.EFFECT_NOT_FOUND + shared.BAD_ID,
+                  label=f"effect {effect}")
+    parsed = P.effect(payload.get("stickerInfo"))
+    if parsed is None:
+        raise TikTokNotFound(f"effect {effect} not found")
+    return parsed
+
+
+# ---- feeds -----------------------------------------------------------------------------
+
+def get_trending(country=None):
+    """The For You feed a logged-out visitor in `country` is shown right
+    now. Every call returns a fresh batch."""
+    code = (country or "").lower() or None
+    payload = api("/api/recommend/item_list/", {"count": PAGE}, country=code, label="trending feed")
+    videos = P.videos(payload.get("itemList"))
+    return {"country": (code or country_order(None)[0]).upper(), "video_count": len(videos), "videos": videos}
+
+
+def get_explore(category="all", country=None):
+    """One tab of the Explore page. Every call returns a fresh batch."""
+    code = (country or "").lower() or None
+    payload = api("/api/explore/item_list/", {"categoryType": EXPLORE_CATEGORIES[category], "count": PAGE},
+                  country=code, signed=False, label="explore feed")
+    videos = P.videos(payload.get("itemList"))
+    return {"category": category, "country": (code or country_order(None)[0]).upper(),
+            "video_count": len(videos), "videos": videos}
+
+
+def get_explore_categories():
+    """The Explore tabs accepted by /tiktok/feed/explore."""
+    return {"category_count": len(EXPLORE_CATEGORIES),
+            "categories": [{"id": key, "name": EXPLORE_NAMES[key]} for key in EXPLORE_CATEGORIES]}

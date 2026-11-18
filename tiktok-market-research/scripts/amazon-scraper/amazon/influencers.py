@@ -1,1 +1,47 @@
-IiIiL2FtYXpvbi9pbmZsdWVuY2Vycy8qIOKAlCBBbWF6b24gSW5mbHVlbmNlciBzdG9yZWZyb250cyAoL3Nob3AvPG5hbWU+KToKdGhlIHByb2ZpbGUgd2l0aCBpdHMgZmlyc3QgcGFnZSBvZiBwb3N0cywgYW5kIGEgbGlzdCBwb3N0J3MgcHJvZHVjdHMKKC9zaG9wLzxuYW1lPi9saXN0LzxpZD4pLgoKUG9zdCBwYWdpbmF0aW9uIGJleW9uZCB0aGUgZmlyc3QgMjAgY2FyZHMgaXMgbm90IGV4cG9zZWQ6IHRoZSBzdG9yZWZyb250CmxvYWRzIG1vcmUgdGhyb3VnaCBhIHRva2VuLXNpZ25lZCBhamF4IHRoYXQgdGhlIHBhZ2UncyBKUyBkZXJpdmVzIGZyb20KaXRzIG93biBzdGF0ZTsgYGhhc19tb3JlX3Bvc3RzYCAvIGBuZXh0X3BhZ2VfdG9rZW5gIGFyZSByZXBvcnRlZCBzbyB0aGUKY2FsbGVyIGtub3dzIHRoZSBwYWdlIGlzIHBhcnRpYWwuCiIiIgpmcm9tIGFtYXpvbiBpbXBvcnQgZmV0Y2gsIHBhcnNlcnMgYXMgUApmcm9tIGFtYXpvbi5zaGFyZWQgaW1wb3J0IGNvbnRleHQKCgpkZWYgcHJvZmlsZShpbmZsdWVuY2VyLCBjb3VudHJ5PU5vbmUsIGxhbmd1YWdlPU5vbmUpOgogICAgc2l0ZSwgbG9jYWxlID0gY29udGV4dChjb3VudHJ5LCBsYW5ndWFnZSkKICAgIGh0bWwgPSBmZXRjaC5wYWdlKHNpdGVbImNvdW50cnkiXSwgZiIvc2hvcC97aW5mbHVlbmNlcn0iLCBsYW5ndWFnZT1sb2NhbGUsIGxhYmVsPWYiaW5mbHVlbmNlciB7aW5mbHVlbmNlcn0iKQogICAgZGF0YSA9IFAuaW5mbHVlbmNlcl9wYWdlKGh0bWwsIHNpdGUsIGluZmx1ZW5jZXIpCiAgICBpZiBub3QgZGF0YS5nZXQoIm5hbWUiKSBhbmQgbm90IGRhdGEuZ2V0KCJwb3N0cyIpOgogICAgICAgIHJhaXNlIGZldGNoLkFtYXpvbk5vdEZvdW5kKGYiaW5mbHVlbmNlciB7aW5mbHVlbmNlcn06IG5vIHN0b3JlZnJvbnQgcGFnZSIpCiAgICBkYXRhWyJjb3VudHJ5Il0gPSBzaXRlWyJjb3VudHJ5Il0KICAgIGRhdGFbImRvbWFpbiJdID0gc2l0ZVsiaG9zdCJdCiAgICByZXR1cm4gZGF0YQoKCmRlZiBwb3N0cyhpbmZsdWVuY2VyLCBjb3VudHJ5PU5vbmUsIGxhbmd1YWdlPU5vbmUsIHBvc3RfdHlwZT1Ob25lKToKICAgIGRhdGEgPSBwcm9maWxlKGluZmx1ZW5jZXIsIGNvdW50cnksIGxhbmd1YWdlKQogICAgcm93cyA9IGRhdGEucG9wKCJwb3N0cyIpIG9yIFtdCiAgICBpZiBwb3N0X3R5cGUgYW5kIHBvc3RfdHlwZSAhPSAiYWxsIjoKICAgICAgICByb3dzID0gW3AgZm9yIHAgaW4gcm93cyBpZiBwLmdldCgidHlwZSIpID09IHBvc3RfdHlwZV0KICAgIHJldHVybiB7ImluZmx1ZW5jZXIiOiB7Im5hbWUiOiBkYXRhLmdldCgibmFtZSIpLCAiaGFuZGxlIjogZGF0YS5nZXQoImhhbmRsZSIpLCAibGluayI6IGRhdGEuZ2V0KCJsaW5rIil9LAogICAgICAgICAgICAicG9zdHMiOiByb3dzLCAiY291bnQiOiBsZW4ocm93cyksICJoYXNfbW9yZSI6IGRhdGEuZ2V0KCJoYXNfbW9yZV9wb3N0cyIpLAogICAgICAgICAgICAibmV4dF9wYWdlX3Rva2VuIjogZGF0YS5nZXQoIm5leHRfcGFnZV90b2tlbiIpLCAiY291bnRyeSI6IGRhdGFbImNvdW50cnkiXSwgImRvbWFpbiI6IGRhdGFbImRvbWFpbiJdfQoKCmRlZiBwb3N0X3Byb2R1Y3RzKHBvc3QsIGNvdW50cnk9Tm9uZSwgbGFuZ3VhZ2U9Tm9uZSwgaW5mbHVlbmNlcj1Ob25lKToKICAgIHNpdGUsIGxvY2FsZSA9IGNvbnRleHQoY291bnRyeSwgbGFuZ3VhZ2UpCiAgICBoYW5kbGUgPSBwb3N0LmdldCgiaGFuZGxlIikgb3IgaW5mbHVlbmNlcgogICAgaWYgbm90IGhhbmRsZToKICAgICAgICByYWlzZSBmZXRjaC5BbWF6b25CYWRSZXF1ZXN0KCJwb3N0IHByb2R1Y3RzIG5lZWQgdGhlIGluZmx1ZW5jZXIgbmFtZSB0b28gKHBhc3MgYGluZmx1ZW5jZXJgLCBvciB0aGUgZnVsbCBsaXN0IGxpbmspIikKICAgIHBhdGggPSBmIi9zaG9wL3toYW5kbGV9L2xpc3Qve3Bvc3RbJ2lkJ119IgogICAgaHRtbCA9IGZldGNoLnBhZ2Uoc2l0ZVsiY291bnRyeSJdLCBwYXRoLCBsYW5ndWFnZT1sb2NhbGUsIGxhYmVsPWYiaW5mbHVlbmNlciBsaXN0IHtwb3N0WydpZCddfSIpCiAgICBkYXRhID0gUC5pbmZsdWVuY2VyX2xpc3RfcGFnZShodG1sLCBzaXRlKQogICAgaWYgbm90IGRhdGEuZ2V0KCJwcm9kdWN0cyIpOgogICAgICAgIHJhaXNlIGZldGNoLkFtYXpvbk5vdEZvdW5kKGYibGlzdCB7cG9zdFsnaWQnXX06IG5vIHByb2R1Y3RzIGZvdW5kIChub3QgYSBsaXN0IHBvc3QsIG9yIHJlbW92ZWQpIikKICAgIHJldHVybiB7ImlkIjogcG9zdFsiaWQiXSwgInRpdGxlIjogZGF0YS5nZXQoInRpdGxlIiksICJkZXNjcmlwdGlvbiI6IGRhdGEuZ2V0KCJkZXNjcmlwdGlvbiIpLAogICAgICAgICAgICAibGluayI6IHNpdGVbImJhc2UiXSArIHBhdGgsICJpbmZsdWVuY2VyIjogeyJoYW5kbGUiOiBoYW5kbGUsICJsaW5rIjogZiJ7c2l0ZVsnYmFzZSddfS9zaG9wL3toYW5kbGV9In0sCiAgICAgICAgICAgICJwcm9kdWN0cyI6IGRhdGFbInByb2R1Y3RzIl0sICJjb3VudCI6IGxlbihkYXRhWyJwcm9kdWN0cyJdKSwgImNvdW50cnkiOiBzaXRlWyJjb3VudHJ5Il0sICJkb21haW4iOiBzaXRlWyJob3N0Il19Cg==
+"""/amazon/influencers/* — Amazon Influencer storefronts (/shop/<name>):
+the profile with its first page of posts, and a list post's products
+(/shop/<name>/list/<id>).
+
+Post pagination beyond the first 20 cards is not exposed: the storefront
+loads more through a token-signed ajax that the page's JS derives from
+its own state; `has_more_posts` / `next_page_token` are reported so the
+caller knows the page is partial.
+"""
+from amazon import fetch, parsers as P
+from amazon.shared import context
+
+
+def profile(influencer, country=None, language=None):
+    site, locale = context(country, language)
+    html = fetch.page(site["country"], f"/shop/{influencer}", language=locale, label=f"influencer {influencer}")
+    data = P.influencer_page(html, site, influencer)
+    if not data.get("name") and not data.get("posts"):
+        raise fetch.AmazonNotFound(f"influencer {influencer}: no storefront page")
+    data["country"] = site["country"]
+    data["domain"] = site["host"]
+    return data
+
+
+def posts(influencer, country=None, language=None, post_type=None):
+    data = profile(influencer, country, language)
+    rows = data.pop("posts") or []
+    if post_type and post_type != "all":
+        rows = [p for p in rows if p.get("type") == post_type]
+    return {"influencer": {"name": data.get("name"), "handle": data.get("handle"), "link": data.get("link")},
+            "posts": rows, "count": len(rows), "has_more": data.get("has_more_posts"),
+            "next_page_token": data.get("next_page_token"), "country": data["country"], "domain": data["domain"]}
+
+
+def post_products(post, country=None, language=None, influencer=None):
+    site, locale = context(country, language)
+    handle = post.get("handle") or influencer
+    if not handle:
+        raise fetch.AmazonBadRequest("post products need the influencer name too (pass `influencer`, or the full list link)")
+    path = f"/shop/{handle}/list/{post['id']}"
+    html = fetch.page(site["country"], path, language=locale, label=f"influencer list {post['id']}")
+    data = P.influencer_list_page(html, site)
+    if not data.get("products"):
+        raise fetch.AmazonNotFound(f"list {post['id']}: no products found (not a list post, or removed)")
+    return {"id": post["id"], "title": data.get("title"), "description": data.get("description"),
+            "link": site["base"] + path, "influencer": {"handle": handle, "link": f"{site['base']}/shop/{handle}"},
+            "products": data["products"], "count": len(data["products"]), "country": site["country"], "domain": site["host"]}

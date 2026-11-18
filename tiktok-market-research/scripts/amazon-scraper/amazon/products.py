@@ -1,1 +1,213 @@
-IiIiL2FtYXpvbi9wcm9kdWN0cy8qIOKAlCBwcm9kdWN0IHBhZ2UgZGV0YWlscywgb2ZmZXJzIChhb2RBamF4TWFpbiksIHRoZQp2YXJpYXRpb24gbWF0cml4LCB0b3AgcmV2aWV3cyArIEFJIHN1bW1hcnksIGJ1bGsgbG9va3VwcyBhbmQgdGhlCnNjcmFwZS1ieS11cmwgZGlzcGF0Y2hlci4KClJldmlld3M6IEFtYXpvbiByZW5kZXJzIHRoZSBwcm9kdWN0IHBhZ2UncyB0b3AgcmV2aWV3cyBpbmxpbmUgb25seSBmb3IKc2Vzc2lvbnMgaW4gaXRzICJDIiB0cmVhdG1lbnQgKGFib3V0IGhhbGYgb2YgbmV3IHNlc3Npb25zLCBzdGlja3kgcGVyCnNlc3Npb24pOyB0aGUgb3RoZXJzIGdldCBhbiBlbXB0eSByZXZpZXdzIG1lZGxleSwgYW5kIGV2ZXJ5IHJldmlldyBhamF4CnJvdXRlIGlzIGxvZ2luLWdhdGVkLiBgX3BhZ2Vfd2l0aF9yZXZpZXdzYCB0aGVyZWZvcmUgZHJvcHMgdGhlIHRocmVhZCdzCnNlc3Npb24gYW5kIHJlLWZldGNoZXMgdW50aWwgYSBwYWdlIGNhcnJpZXMgcmV2aWV3cyAoYm91bmRlZCBieQpSRVZJRVdfQVRURU1QVFMpLCByZW1lbWJlcmluZyBzZXNzaW9ucyB0aGF0IG5ldmVyIHdpbGwuCiIiIgpmcm9tIGFtYXpvbiBpbXBvcnQgZmV0Y2gsIHBhcnNlcnMgYXMgUCwgcmVmcywgc2l0ZXMKZnJvbSBhbWF6b24uc2hhcmVkIGltcG9ydCBjb250ZXh0LCBmYW5fb3V0LCBwYWdlZF9yZXN1bHQKClJFVklFV19BVFRFTVBUU19ERVRBSUxTID0gMiAgICAgICMgZmV0Y2hlcyBzcGVudCBsb29raW5nIGZvciBpbmxpbmUgcmV2aWV3cyBvbiAvcHJvZHVjdHMvZGV0YWlscwpSRVZJRVdfQVRURU1QVFNfUkVWSUVXUyA9IDUgICAgICAjIOKApiBvbiAvcHJvZHVjdHMvcmV2aWV3cyAocmV2aWV3cyBhcmUgdGhlIHdob2xlIHBvaW50IHRoZXJlKQpPRkZFUlNfUEVSX1BBR0UgPSAxMApCVUxLX01BWCA9IDEwCkNPTkRJVElPTlMgPSB7ImFsbCI6IE5vbmUsICJuZXciOiAibmV3IiwgInVzZWQiOiAidXNlZEFjY2VwdGFibGUiLCAidXNlZF9saWtlX25ldyI6ICJ1c2VkTGlrZU5ldyIsCiAgICAgICAgICAgICAgInVzZWRfdmVyeV9nb29kIjogInVzZWRWZXJ5R29vZCIsICJ1c2VkX2dvb2QiOiAidXNlZEdvb2QiLCAidXNlZF9hY2NlcHRhYmxlIjogInVzZWRBY2NlcHRhYmxlIiwKICAgICAgICAgICAgICAiY29sbGVjdGlibGUiOiAiY29sbGVjdGlibGUifQoKCmRlZiBfcHJvZHVjdF9wYWdlKGFzaW4sIHNpdGUsIGxvY2FsZSwgcG9zdGFsX2NvZGU9Tm9uZSwgd2FudF9yZXZpZXdzPUZhbHNlLCBhdHRlbXB0cz0xKToKICAgICIiIlRoZSBkcCBwYWdlIEhUTUwsIHJlLWZldGNoZWQgb24gYSBmcmVzaCBzZXNzaW9uIHdoaWxlIGl0IGxhY2tzCiAgICBpbmxpbmUgcmV2aWV3cyAod2hlbiB3YW50ZWQpLiIiIgogICAgaHRtbCA9IE5vbmUKICAgIGZvciBhdHRlbXB0IGluIHJhbmdlKG1heChhdHRlbXB0cywgMSkpOgogICAgICAgIGh0bWwgPSBmZXRjaC5wYWdlKHNpdGVbImNvdW50cnkiXSwgZiIvZHAve2FzaW59IiwgeyJ0aCI6ICIxIiwgInBzYyI6ICIxIn0sIHJlZmVyZXI9ZiJ7c2l0ZVsnYmFzZSddfS9zP2s9e2FzaW59IiwKICAgICAgICAgICAgICAgICAgICAgICAgICBwb3N0YWxfY29kZT1wb3N0YWxfY29kZSwgbGFuZ3VhZ2U9bG9jYWxlLCBsYWJlbD1mInByb2R1Y3Qge2FzaW59IikKICAgICAgICBpZiBub3Qgd2FudF9yZXZpZXdzIG9yICdkYXRhLWhvb2s9InJldmlldyInIGluIGh0bWw6CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgaWYgUC5yZXZpZXdfdHJlYXRtZW50KGh0bWwpID09ICJUMSIgYW5kIGF0dGVtcHQgPCBhdHRlbXB0cyAtIDE6CiAgICAgICAgICAgIGZldGNoLmRyb3Bfc2Vzc2lvbihzaXRlWyJjb3VudHJ5Il0sICJwYWdlIiwgbG9jYWxlKQogICAgcmV0dXJuIGh0bWwKCgpkZWYgX2xvb2tzX2xpa2Vfc3RvcmVmcm9udChodG1sKToKICAgICIiIkEgZnVsbCBzdG9yZWZyb250IHBhZ2UgKG5hdiBiYXIgKyBhIHJlYWwgYm9keSkgYXMgb3Bwb3NlZCB0byBhCiAgICBjaGFsbGVuZ2UgLyBpbnRlcnN0aXRpYWwgLyBzdHViIHRoYXQgc2xpcHBlZCBwYXN0IHRoZSBibG9jayBjaGVja3MuIiIiCiAgICByZXR1cm4gbGVuKGh0bWwgb3IgIiIpID4gMTAwXzAwMCBhbmQgKCdpZD0ibmF2YmFyJyBpbiBodG1sIG9yICdpZD0ibmF2LWxvZ28nIGluIGh0bWwpCgoKTk9fVElUTEVfUkVUUklFUyA9IDIgICAgICAgICAgICAjIGZyZXNoIHNlc3Npb25zIHNwZW50IG9uIGEgcGFnZSB0aGF0IGlzIG5laXRoZXIgYSBwcm9kdWN0IG5vciBhIHN0b3JlZnJvbnQgcGFnZQoKCmRlZiBfcHJvZHVjdF9kYXRhKHByb2R1Y3QsIHNpdGUsIGxvY2FsZSwgcG9zdGFsX2NvZGU9Tm9uZSwgd2FudF9yZXZpZXdzPUZhbHNlLCBhdHRlbXB0cz0xKToKICAgICIiIihodG1sLCBwYXJzZWQpIG9mIGEgcHJvZHVjdCBwYWdlLiBBIHBhZ2Ugd2l0aG91dCBhIHRpdGxlIHRoYXQgaXMgbm90CiAgICBhIGZ1bGwgc3RvcmVmcm9udCBwYWdlIGVpdGhlciBpcyBhIGJsb2NrIHRoZSBmZXRjaCBsYXllciBkaWQgbm90CiAgICByZWNvZ25pc2UgKGludGVyc3RpdGlhbCwgY2hhbGxlbmdlIHN0dWIpOiBpdCBpcyByZXRyaWVkIG9uIGEgZnJlc2gKICAgIHNlc3Npb24gYW5kIGZpbmFsbHkgcmFpc2VkIGFzIEFtYXpvbkJsb2NrZWQsIG5ldmVyIGFzIGEgbWlzc2luZyBwcm9kdWN0CiAgICDigJQgYSByZW1vdmVkIEFTSU4gaXMgQW1hem9uJ3Mgb3duIEhUVFAgNDA0IChmZXRjaCByYWlzZXMgQW1hem9uTm90Rm91bmQpLAogICAgYW5kIGEgZnVsbCBwYWdlIHdpdGhvdXQgYSBwcm9kdWN0IHRpdGxlIGlzIHRoZSBvbmx5ICJubyBwcm9kdWN0IHBhZ2UiLiIiIgogICAgaHRtbCA9IF9wcm9kdWN0X3BhZ2UocHJvZHVjdCwgc2l0ZSwgbG9jYWxlLCBwb3N0YWxfY29kZSwgd2FudF9yZXZpZXdzPXdhbnRfcmV2aWV3cywgYXR0ZW1wdHM9YXR0ZW1wdHMpCiAgICBkYXRhID0gUC5wcm9kdWN0X3BhZ2UoaHRtbCwgc2l0ZSkKICAgIGZvciBfIGluIHJhbmdlKE5PX1RJVExFX1JFVFJJRVMpOgogICAgICAgIGlmIGRhdGEuZ2V0KCJ0aXRsZSIpIG9yIF9sb29rc19saWtlX3N0b3JlZnJvbnQoaHRtbCk6CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgZmV0Y2guZHVtcF9kZWJ1ZyhmIm5vX3RpdGxlX3twcm9kdWN0fSIsIGh0bWwpCiAgICAgICAgZmV0Y2guZHJvcF9zZXNzaW9uKHNpdGVbImNvdW50cnkiXSwgInBhZ2UiLCBsb2NhbGUpCiAgICAgICAgaHRtbCA9IF9wcm9kdWN0X3BhZ2UocHJvZHVjdCwgc2l0ZSwgbG9jYWxlLCBwb3N0YWxfY29kZSwgd2FudF9yZXZpZXdzPXdhbnRfcmV2aWV3cywgYXR0ZW1wdHM9YXR0ZW1wdHMpCiAgICAgICAgZGF0YSA9IFAucHJvZHVjdF9wYWdlKGh0bWwsIHNpdGUpCiAgICBpZiBub3QgZGF0YS5nZXQoInRpdGxlIik6CiAgICAgICAgaWYgbm90IF9sb29rc19saWtlX3N0b3JlZnJvbnQoaHRtbCk6CiAgICAgICAgICAgIHJhaXNlIGZldGNoLkFtYXpvbkJsb2NrZWQoZiJwcm9kdWN0IHtwcm9kdWN0fTogQW1hem9uIGFuc3dlcmVkIGEgYm90LWNoZWNrIHBhZ2UgaW5zdGVhZCBvZiB0aGUgcHJvZHVjdCAocmV0cnkpIikKICAgICAgICByYWlzZSBmZXRjaC5BbWF6b25Ob3RGb3VuZChmInByb2R1Y3Qge3Byb2R1Y3R9OiBubyBwcm9kdWN0IHBhZ2UgKHVuYXZhaWxhYmxlIG9yIHJlbW92ZWQpIikKICAgIHJldHVybiBodG1sLCBkYXRhCgoKZGVmIGRldGFpbHMocHJvZHVjdCwgY291bnRyeT1Ob25lLCBsYW5ndWFnZT1Ob25lLCBwb3N0YWxfY29kZT1Ob25lKToKICAgIHNpdGUsIGxvY2FsZSA9IGNvbnRleHQoY291bnRyeSwgbGFuZ3VhZ2UpCiAgICBfLCBkYXRhID0gX3Byb2R1Y3RfZGF0YShwcm9kdWN0LCBzaXRlLCBsb2NhbGUsIHBvc3RhbF9jb2RlLCB3YW50X3Jldmlld3M9VHJ1ZSwgYXR0ZW1wdHM9UkVWSUVXX0FUVEVNUFRTX0RFVEFJTFMpCiAgICBkYXRhWyJhc2luIl0gPSBkYXRhLmdldCgiYXNpbiIpIG9yIHByb2R1Y3QKICAgIGRhdGFbImxpbmsiXSA9IFAucHJvZHVjdF9saW5rKHNpdGUsIGRhdGFbImFzaW4iXSkKICAgIHJldHVybiBkYXRhCgoKZGVmIG9mZmVycyhwcm9kdWN0LCBjb3VudHJ5PU5vbmUsIGxhbmd1YWdlPU5vbmUsIHBhZ2U9MSwgY29uZGl0aW9uPSJhbGwiLCBwcmltZV9vbmx5PU5vbmUsIHBvc3RhbF9jb2RlPU5vbmUpOgogICAgc2l0ZSwgbG9jYWxlID0gY29udGV4dChjb3VudHJ5LCBsYW5ndWFnZSkKICAgIHBhcmFtcyA9IHsiYXNpbiI6IHByb2R1Y3QsICJwYyI6ICJkcCIsICJleHBlcmllbmNlSWQiOiAiYW9kQWpheE1haW4ifQogICAgZmlsdGVycyA9IHt9CiAgICB0b2tlbiA9IENPTkRJVElPTlMuZ2V0KGNvbmRpdGlvbiBvciAiYWxsIikKICAgIGlmIHRva2VuOgogICAgICAgIGZpbHRlcnNbdG9rZW5dID0gVHJ1ZQogICAgaWYgcHJpbWVfb25seToKICAgICAgICBmaWx0ZXJzWyJwcmltZUVsaWdpYmxlIl0gPSBUcnVlCiAgICBpZiBmaWx0ZXJzOgogICAgICAgIGltcG9ydCBqc29uCiAgICAgICAgcGFyYW1zWyJmaWx0ZXJzIl0gPSBqc29uLmR1bXBzKHsiYWxsIjogVHJ1ZSwgKipmaWx0ZXJzfSwgc2VwYXJhdG9ycz0oIiwiLCAiOiIpKQogICAgaWYgcGFnZSA+IDE6CiAgICAgICAgcGFyYW1zWyJwYWdlbm8iXSA9IHN0cihwYWdlKQogICAgICAgIHBhcmFtc1siaXNvbmx5cmVuZGVyb2ZmZXJsaXN0Il0gPSAidHJ1ZSIKICAgIGh0bWwgPSBmZXRjaC5hamF4KHNpdGVbImNvdW50cnkiXSwgIi9ncC9wcm9kdWN0L2FqYXgvYW9kQWpheE1haW4iLCBwYXJhbXMsIHJlZmVyZXI9UC5wcm9kdWN0X2xpbmsoc2l0ZSwgcHJvZHVjdCksCiAgICAgICAgICAgICAgICAgICAgICBsb2NhdGU9VHJ1ZSwgcG9zdGFsX2NvZGU9cG9zdGFsX2NvZGUsIGxhbmd1YWdlPWxvY2FsZSwgbGFiZWw9ZiJvZmZlcnMge3Byb2R1Y3R9IikKICAgIGRhdGEgPSBQLm9mZmVyc19wYWdlKGh0bWwsIHNpdGUpCiAgICByb3dzID0gZGF0YVsib2ZmZXJzIl0KICAgIHRvdGFsID0gZGF0YS5nZXQoIm90aGVyX29mZmVyc19jb3VudCIpCiAgICBwaW5uZWQgPSBbbyBmb3IgbyBpbiByb3dzIGlmIG9bImlzX3Bpbm5lZCJdXQogICAgdG90YWxfY291bnQgPSAodG90YWwgKyBsZW4ocGlubmVkKSkgaWYgdG90YWwgaXMgbm90IE5vbmUgZWxzZSBOb25lCiAgICBvdXQgPSBwYWdlZF9yZXN1bHQoIm9mZmVycyIsIHJvd3MsIHBhZ2UsIE9GRkVSU19QRVJfUEFHRSwgdG90YWw9dG90YWxfY291bnQgaWYgcGFnZSA9PSAxIGVsc2UgTm9uZSwKICAgICAgICAgICAgICAgICAgICAgICBoYXNfbW9yZT1kYXRhLmdldCgiaGFzX21vcmUiKSBpZiBwYWdlID09IDEgZWxzZSBsZW4oW28gZm9yIG8gaW4gcm93cyBpZiBub3Qgb1siaXNfcGlubmVkIl1dKSA+PSBPRkZFUlNfUEVSX1BBR0UsCiAgICAgICAgICAgICAgICAgICAgICAgYXNpbj1wcm9kdWN0LCB0aXRsZT1kYXRhLmdldCgidGl0bGUiKSwgcmF0aW5nPWRhdGEuZ2V0KCJyYXRpbmciKSwgY29uZGl0aW9uPWNvbmRpdGlvbiBvciAiYWxsIiwKICAgICAgICAgICAgICAgICAgICAgICBjb3VudHJ5PXNpdGVbImNvdW50cnkiXSwgZG9tYWluPXNpdGVbImhvc3QiXSkKICAgIGlmIHRvdGFsX2NvdW50IGlzIG5vdCBOb25lOgogICAgICAgIG91dFsicGFnaW5hdGlvbiJdWyJ0b3RhbF9jb3VudCJdID0gdG90YWxfY291bnQKICAgICAgICBvdXRbInBhZ2luYXRpb24iXVsidG90YWxfcGFnZXMiXSA9IG1heCgodG90YWwgKyBPRkZFUlNfUEVSX1BBR0UgLSAxKSAvLyBPRkZFUlNfUEVSX1BBR0UsIDEpIGlmIHRvdGFsIGVsc2UgMQogICAgcmV0dXJuIG91dAoKCmRlZiB2YXJpYXRpb25zKHByb2R1Y3QsIGNvdW50cnk9Tm9uZSwgbGFuZ3VhZ2U9Tm9uZSk6CiAgICBzaXRlLCBsb2NhbGUgPSBjb250ZXh0KGNvdW50cnksIGxhbmd1YWdlKQogICAgXywgZGF0YSA9IF9wcm9kdWN0X2RhdGEocHJvZHVjdCwgc2l0ZSwgbG9jYWxlKQogICAgYmxvY2sgPSBkYXRhLmdldCgidmFyaWF0aW9ucyIpIG9yIHsicGFyZW50X2FzaW4iOiBOb25lLCAiY3VycmVudF9hc2luIjogZGF0YS5nZXQoImFzaW4iKSwgImRpbWVuc2lvbnMiOiBbXSwgInByb2R1Y3RzIjogW10sICJjb3VudCI6IDB9CiAgICByZXR1cm4geyJhc2luIjogZGF0YS5nZXQoImFzaW4iKSBvciBwcm9kdWN0LCAidGl0bGUiOiBkYXRhLmdldCgidGl0bGUiKSwgImxpbmsiOiBkYXRhLmdldCgibGluayIpLCAqKmJsb2NrLAogICAgICAgICAgICAiY291bnRyeSI6IHNpdGVbImNvdW50cnkiXSwgImRvbWFpbiI6IHNpdGVbImhvc3QiXX0KCgpkZWYgcmV2aWV3cyhwcm9kdWN0LCBjb3VudHJ5PU5vbmUsIGxhbmd1YWdlPU5vbmUpOgogICAgc2l0ZSwgbG9jYWxlID0gY29udGV4dChjb3VudHJ5LCBsYW5ndWFnZSkKICAgIGh0bWwsIGRhdGEgPSBfcHJvZHVjdF9kYXRhKHByb2R1Y3QsIHNpdGUsIGxvY2FsZSwgd2FudF9yZXZpZXdzPVRydWUsIGF0dGVtcHRzPVJFVklFV19BVFRFTVBUU19SRVZJRVdTKQogICAgcm93cyA9IGRhdGEuZ2V0KCJ0b3BfcmV2aWV3cyIpIG9yIFtdCiAgICByZXR1cm4gewogICAgICAgICJhc2luIjogZGF0YS5nZXQoImFzaW4iKSBvciBwcm9kdWN0LAogICAgICAgICJ0aXRsZSI6IGRhdGEuZ2V0KCJ0aXRsZSIpLAogICAgICAgICJsaW5rIjogZGF0YS5nZXQoImxpbmsiKSwKICAgICAgICAicmF0aW5nIjogZGF0YS5nZXQoInJhdGluZyIpLAogICAgICAgICJjdXN0b21lcnNfc2F5IjogZGF0YS5nZXQoImN1c3RvbWVyc19zYXkiKSwKICAgICAgICAicmV2aWV3cyI6IHJvd3MsCiAgICAgICAgImNvdW50IjogbGVuKHJvd3MpLAogICAgICAgICJpc19wYXJ0aWFsIjogbm90IHJvd3MgYW5kIFAucmV2aWV3X3RyZWF0bWVudChodG1sKSA9PSAiVDEiLAogICAgICAgICJub3RlIjogIkFtYXpvbiBzaG93cyB0aGUgdG9wIHJldmlld3Mgb24gdGhlIHByb2R1Y3QgcGFnZTsgZnVsbCByZXZpZXcgcGFnaW5hdGlvbiByZXF1aXJlcyBhIHNpZ25lZC1pbiBjdXN0b21lci4iLAogICAgICAgICJjb3VudHJ5Ijogc2l0ZVsiY291bnRyeSJdLAogICAgICAgICJkb21haW4iOiBzaXRlWyJob3N0Il0sCiAgICB9CgoKZGVmIF9zdW1tYXJ5KGRhdGEpOgogICAgaW1hZ2VzID0gZGF0YS5nZXQoImltYWdlcyIpIG9yIFtdCiAgICByZXR1cm4gewogICAgICAgICJhc2luIjogZGF0YS5nZXQoImFzaW4iKSwgInRpdGxlIjogZGF0YS5nZXQoInRpdGxlIiksICJsaW5rIjogZGF0YS5nZXQoImxpbmsiKSwgImJyYW5kIjogKGRhdGEuZ2V0KCJicmFuZCIpIG9yIHt9KS5nZXQoIm5hbWUiKSwKICAgICAgICAicHJpY2UiOiBkYXRhLmdldCgicHJpY2UiKSwgImF2YWlsYWJpbGl0eSI6IGRhdGEuZ2V0KCJhdmFpbGFiaWxpdHkiKSwgImJ1eWJveCI6IGRhdGEuZ2V0KCJidXlib3giKSwKICAgICAgICAiaXNfcHJpbWUiOiBkYXRhLmdldCgiaXNfcHJpbWUiKSwgInJhdGluZyI6IHtrOiB2IGZvciBrLCB2IGluIChkYXRhLmdldCgicmF0aW5nIikgb3Ige30pLml0ZW1zKCkgaWYgayAhPSAiaGlzdG9ncmFtIn0gb3IgTm9uZSwKICAgICAgICAiYm91Z2h0X3Bhc3RfbW9udGgiOiBkYXRhLmdldCgiYm91Z2h0X3Bhc3RfbW9udGgiKSwgImJhZGdlcyI6IGRhdGEuZ2V0KCJiYWRnZXMiKSwgImRlYWxfYmFkZ2UiOiBkYXRhLmdldCgiZGVhbF9iYWRnZSIpLAogICAgICAgICJjb3Vwb24iOiBkYXRhLmdldCgiY291cG9uIiksICJpbWFnZSI6IGltYWdlc1swXVsibGluayJdIGlmIGltYWdlcyBlbHNlIE5vbmUsICJpbWFnZXNfY291bnQiOiBsZW4oaW1hZ2VzKSwKICAgICAgICAiYmVzdF9zZWxsZXJzX3JhbmsiOiBkYXRhLmdldCgiYmVzdF9zZWxsZXJzX3JhbmsiKSwgImNhdGVnb3JpZXMiOiBbY1sibmFtZSJdIGZvciBjIGluIGRhdGEuZ2V0KCJjYXRlZ29yaWVzIikgb3IgW11dLAogICAgICAgICJ2YXJpYXRpb25zX2NvdW50IjogKGRhdGEuZ2V0KCJ2YXJpYXRpb25zIikgb3Ige30pLmdldCgiY291bnQiKSwgInBhcmVudF9hc2luIjogKGRhdGEuZ2V0KCJ2YXJpYXRpb25zIikgb3Ige30pLmdldCgicGFyZW50X2FzaW4iKSwKICAgIH0KCgpkZWYgYnVsayhwcm9kdWN0cywgY291bnRyeT1Ob25lLCBsYW5ndWFnZT1Ob25lLCBwb3N0YWxfY29kZT1Ob25lKToKICAgIHNpdGUsIGxvY2FsZSA9IGNvbnRleHQoY291bnRyeSwgbGFuZ3VhZ2UpCiAgICBhc2lucyA9IGxpc3QoZGljdC5mcm9ta2V5cyhwcm9kdWN0cykpWzpCVUxLX01BWF0KCiAgICBkZWYgb25lKGFzaW4pOgogICAgICAgIF8sIGRhdGEgPSBfcHJvZHVjdF9kYXRhKGFzaW4sIHNpdGUsIGxvY2FsZSwgcG9zdGFsX2NvZGUpCiAgICAgICAgZGF0YVsiYXNpbiJdID0gZGF0YS5nZXQoImFzaW4iKSBvciBhc2luCiAgICAgICAgZGF0YVsibGluayJdID0gUC5wcm9kdWN0X2xpbmsoc2l0ZSwgZGF0YVsiYXNpbiJdKQogICAgICAgIHJldHVybiBfc3VtbWFyeShkYXRhKQogICAgcmVzdWx0cyA9IGZhbl9vdXQob25lLCBhc2lucywgd29ya2Vycz00KQogICAgcm93cyA9IFtdCiAgICBmb3IgYXNpbiwgcmVzdWx0IGluIHppcChhc2lucywgcmVzdWx0cyk6CiAgICAgICAgaWYgaXNpbnN0YW5jZShyZXN1bHQsIEV4Y2VwdGlvbik6CiAgICAgICAgICAgIHJvd3MuYXBwZW5kKHsiYXNpbiI6IGFzaW4sICJlcnJvciI6IHN0cihyZXN1bHQpIG9yIHR5cGUocmVzdWx0KS5fX25hbWVfX30pCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcm93cy5hcHBlbmQocmVzdWx0KQogICAgcmV0dXJuIHsicHJvZHVjdHMiOiByb3dzLCAiY291bnQiOiBsZW4ocm93cyksICJjb3VudHJ5Ijogc2l0ZVsiY291bnRyeSJdLCAiZG9tYWluIjogc2l0ZVsiaG9zdCJdfQoKCmRlZiBzY3JhcGVfdXJsKHVybCwgbGFuZ3VhZ2U9Tm9uZSwgcG9zdGFsX2NvZGU9Tm9uZSk6CiAgICAiIiJBbnkgQW1hem9uIGxpbmsgLT4gdGhlIG1hdGNoaW5nIGVuZHBvaW50J3MgcmVzdWx0ICgrIGBwYWdlX3R5cGVgKS4iIiIKICAgIGZyb20gYW1hem9uIGltcG9ydCBpbmZsdWVuY2VycywgcmFua2luZ3MsIHNlYXJjaCwgc2VsbGVycwogICAgY291bnRyeSA9IHJlZnMuY291bnRyeV9vZih1cmwpIG9yIHNpdGVzLkRFRkFVTFRfQ09VTlRSWQogICAga2luZCA9IHJlZnMucGFnZV90eXBlKHVybCkKICAgIGZyb20gdXJsbGliLnBhcnNlIGltcG9ydCBwYXJzZV9xcywgdXJscGFyc2UKICAgIHBhcnNlZCA9IHVybHBhcnNlKHVybCkKICAgIHF1ZXJ5ID0gcGFyc2VfcXMocGFyc2VkLnF1ZXJ5KQogICAgaWYga2luZCA9PSAicHJvZHVjdCI6CiAgICAgICAgb3V0ID0gZGV0YWlscyhyZWZzLnJlc29sdmVfcHJvZHVjdCh1cmwpLCBjb3VudHJ5LCBsYW5ndWFnZSwgcG9zdGFsX2NvZGUpCiAgICBlbGlmIGtpbmQgPT0gInNlbGxlciI6CiAgICAgICAgb3V0ID0gc2VsbGVycy5wcm9maWxlKHJlZnMucmVzb2x2ZV9zZWxsZXIodXJsKSwgY291bnRyeSwgbGFuZ3VhZ2UpCiAgICBlbGlmIGtpbmQgPT0gImluZmx1ZW5jZXIiOgogICAgICAgIG91dCA9IGluZmx1ZW5jZXJzLnByb2ZpbGUocmVmcy5yZXNvbHZlX2luZmx1ZW5jZXIodXJsKSwgY291bnRyeSwgbGFuZ3VhZ2UpCiAgICBlbGlmIGtpbmQgPT0gImluZmx1ZW5jZXJfcG9zdCI6CiAgICAgICAgcG9zdCA9IHJlZnMucmVzb2x2ZV9wb3N0KHVybCkKICAgICAgICBvdXQgPSBpbmZsdWVuY2Vycy5wb3N0X3Byb2R1Y3RzKHBvc3QsIGNvdW50cnksIGxhbmd1YWdlKQogICAgZWxpZiBraW5kID09ICJiZXN0c2VsbGVycyI6CiAgICAgICAgcGF0aCA9IHBhcnNlZC5wYXRoLmxvd2VyKCkKICAgICAgICBsaXN0X3R5cGUgPSAibmV3X3JlbGVhc2VzIiBpZiAibmV3LXJlbGVhc2VzIiBpbiBwYXRoIGVsc2UgIm1vdmVyc19hbmRfc2hha2VycyIgaWYgIm1vdmVycyIgaW4gcGF0aCBlbHNlIFwKICAgICAgICAgICAgIm1vc3Rfd2lzaGVkX2ZvciIgaWYgIndpc2hlZCIgaW4gcGF0aCBlbHNlICJtb3N0X2dpZnRlZCIgaWYgImdpZnRlZCIgaW4gcGF0aCBlbHNlICJiZXN0X3NlbGxlcnMiCiAgICAgICAgb3V0ID0gcmFua2luZ3MuYmVzdHNlbGxlcnMocmVmcy5yZXNvbHZlX2Jlc3RzZWxsZXJfY2F0ZWdvcnkodXJsKSwgbGlzdF90eXBlPWxpc3RfdHlwZSwgY291bnRyeT1jb3VudHJ5LCBsYW5ndWFnZT1sYW5ndWFnZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZ2U9aW50KChxdWVyeS5nZXQoInBnIikgb3IgWyIxIl0pWzBdKSBpZiAocXVlcnkuZ2V0KCJwZyIpIG9yIFsiMSJdKVswXS5pc2RpZ2l0KCkgZWxzZSAxKQogICAgZWxpZiBraW5kID09ICJkZWFscyI6CiAgICAgICAgb3V0ID0gcmFua2luZ3MuZGVhbHMoY291bnRyeT1jb3VudHJ5LCBsYW5ndWFnZT1sYW5ndWFnZSwgY29sbGVjdGlvbj0ocXVlcnkuZ2V0KCJidWJibGUtaWQiKSBvciBbTm9uZV0pWzBdKQogICAgZWxpZiBraW5kID09ICJzZWFyY2giOgogICAgICAgIGtleXdvcmQgPSAocXVlcnkuZ2V0KCJrIikgb3IgcXVlcnkuZ2V0KCJrZXl3b3JkcyIpIG9yIFtOb25lXSlbMF0KICAgICAgICBtZSA9IChxdWVyeS5nZXQoIm1lIikgb3IgW05vbmVdKVswXQogICAgICAgIG5vZGUgPSBOb25lCiAgICAgICAgdHJ5OgogICAgICAgICAgICBub2RlID0gcmVmcy5yZXNvbHZlX25vZGUodXJsKQogICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICBwYXNzCiAgICAgICAgcGFnZSA9IGludCgocXVlcnkuZ2V0KCJwYWdlIikgb3IgWyIxIl0pWzBdKSBpZiAocXVlcnkuZ2V0KCJwYWdlIikgb3IgWyIxIl0pWzBdLmlzZGlnaXQoKSBlbHNlIDEKICAgICAgICBpZiBtZToKICAgICAgICAgICAgb3V0ID0gc2VsbGVycy5wcm9kdWN0cyhtZSwgY291bnRyeSwgbGFuZ3VhZ2UsIHBhZ2U9cGFnZSwgcXVlcnk9a2V5d29yZCkKICAgICAgICBlbGlmIGtleXdvcmQ6CiAgICAgICAgICAgIG91dCA9IHNlYXJjaC5zZWFyY2goa2V5d29yZCwgY291bnRyeSwgbGFuZ3VhZ2UsIHBhZ2U9cGFnZSwgY2F0ZWdvcnk9KHF1ZXJ5LmdldCgiaSIpIG9yIFtOb25lXSlbMF0sIG5vZGU9bm9kZSkKICAgICAgICBlbGlmIG5vZGU6CiAgICAgICAgICAgIG91dCA9IHNlYXJjaC5jYXRlZ29yeV9wcm9kdWN0cyhub2RlLCBjb3VudHJ5LCBsYW5ndWFnZSwgcGFnZT1wYWdlKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJhaXNlIGZldGNoLkFtYXpvbkJhZFJlcXVlc3QoInNlYXJjaCBsaW5rIGNhcnJpZXMgbm8ga2V5d29yZCwgc2VsbGVyIG9yIGJyb3dzZSBub2RlIikKICAgIGVsc2U6CiAgICAgICAgcmFpc2UgZmV0Y2guQW1hem9uQmFkUmVxdWVzdCgidW5zdXBwb3J0ZWQgQW1hem9uIGxpbms6IHVzZSBhIHByb2R1Y3QsIHNlYXJjaCwgY2F0ZWdvcnksIGJlc3Qgc2VsbGVycywgZGVhbHMsIHNlbGxlciBvciBpbmZsdWVuY2VyIHBhZ2UiKQogICAgcmV0dXJuIHsicGFnZV90eXBlIjoga2luZCwgInVybCI6IHVybCwgImNvdW50cnkiOiBjb3VudHJ5LCAqKm91dH0K
+"""/amazon/products/* — product page details, offers (aodAjaxMain), the
+variation matrix, top reviews + AI summary, bulk lookups and the
+scrape-by-url dispatcher.
+
+Reviews: Amazon renders the product page's top reviews inline only for
+sessions in its "C" treatment (about half of new sessions, sticky per
+session); the others get an empty reviews medley, and every review ajax
+route is login-gated. `_page_with_reviews` therefore drops the thread's
+session and re-fetches until a page carries reviews (bounded by
+REVIEW_ATTEMPTS), remembering sessions that never will.
+"""
+from amazon import fetch, parsers as P, refs, sites
+from amazon.shared import context, fan_out, paged_result
+
+REVIEW_ATTEMPTS_DETAILS = 2      # fetches spent looking for inline reviews on /products/details
+REVIEW_ATTEMPTS_REVIEWS = 5      # … on /products/reviews (reviews are the whole point there)
+OFFERS_PER_PAGE = 10
+BULK_MAX = 10
+CONDITIONS = {"all": None, "new": "new", "used": "usedAcceptable", "used_like_new": "usedLikeNew",
+              "used_very_good": "usedVeryGood", "used_good": "usedGood", "used_acceptable": "usedAcceptable",
+              "collectible": "collectible"}
+
+
+def _product_page(asin, site, locale, postal_code=None, want_reviews=False, attempts=1):
+    """The dp page HTML, re-fetched on a fresh session while it lacks
+    inline reviews (when wanted)."""
+    html = None
+    for attempt in range(max(attempts, 1)):
+        html = fetch.page(site["country"], f"/dp/{asin}", {"th": "1", "psc": "1"}, referer=f"{site['base']}/s?k={asin}",
+                          postal_code=postal_code, language=locale, label=f"product {asin}")
+        if not want_reviews or 'data-hook="review"' in html:
+            break
+        if P.review_treatment(html) == "T1" and attempt < attempts - 1:
+            fetch.drop_session(site["country"], "page", locale)
+    return html
+
+
+def _looks_like_storefront(html):
+    """A full storefront page (nav bar + a real body) as opposed to a
+    challenge / interstitial / stub that slipped past the block checks."""
+    return len(html or "") > 100_000 and ('id="navbar' in html or 'id="nav-logo' in html)
+
+
+NO_TITLE_RETRIES = 2            # fresh sessions spent on a page that is neither a product nor a storefront page
+
+
+def _product_data(product, site, locale, postal_code=None, want_reviews=False, attempts=1):
+    """(html, parsed) of a product page. A page without a title that is not
+    a full storefront page either is a block the fetch layer did not
+    recognise (interstitial, challenge stub): it is retried on a fresh
+    session and finally raised as AmazonBlocked, never as a missing product
+    — a removed ASIN is Amazon's own HTTP 404 (fetch raises AmazonNotFound),
+    and a full page without a product title is the only "no product page"."""
+    html = _product_page(product, site, locale, postal_code, want_reviews=want_reviews, attempts=attempts)
+    data = P.product_page(html, site)
+    for _ in range(NO_TITLE_RETRIES):
+        if data.get("title") or _looks_like_storefront(html):
+            break
+        fetch.dump_debug(f"no_title_{product}", html)
+        fetch.drop_session(site["country"], "page", locale)
+        html = _product_page(product, site, locale, postal_code, want_reviews=want_reviews, attempts=attempts)
+        data = P.product_page(html, site)
+    if not data.get("title"):
+        if not _looks_like_storefront(html):
+            raise fetch.AmazonBlocked(f"product {product}: Amazon answered a bot-check page instead of the product (retry)")
+        raise fetch.AmazonNotFound(f"product {product}: no product page (unavailable or removed)")
+    return html, data
+
+
+def details(product, country=None, language=None, postal_code=None):
+    site, locale = context(country, language)
+    _, data = _product_data(product, site, locale, postal_code, want_reviews=True, attempts=REVIEW_ATTEMPTS_DETAILS)
+    data["asin"] = data.get("asin") or product
+    data["link"] = P.product_link(site, data["asin"])
+    return data
+
+
+def offers(product, country=None, language=None, page=1, condition="all", prime_only=None, postal_code=None):
+    site, locale = context(country, language)
+    params = {"asin": product, "pc": "dp", "experienceId": "aodAjaxMain"}
+    filters = {}
+    token = CONDITIONS.get(condition or "all")
+    if token:
+        filters[token] = True
+    if prime_only:
+        filters["primeEligible"] = True
+    if filters:
+        import json
+        params["filters"] = json.dumps({"all": True, **filters}, separators=(",", ":"))
+    if page > 1:
+        params["pageno"] = str(page)
+        params["isonlyrenderofferlist"] = "true"
+    html = fetch.ajax(site["country"], "/gp/product/ajax/aodAjaxMain", params, referer=P.product_link(site, product),
+                      locate=True, postal_code=postal_code, language=locale, label=f"offers {product}")
+    data = P.offers_page(html, site)
+    rows = data["offers"]
+    total = data.get("other_offers_count")
+    pinned = [o for o in rows if o["is_pinned"]]
+    total_count = (total + len(pinned)) if total is not None else None
+    out = paged_result("offers", rows, page, OFFERS_PER_PAGE, total=total_count if page == 1 else None,
+                       has_more=data.get("has_more") if page == 1 else len([o for o in rows if not o["is_pinned"]]) >= OFFERS_PER_PAGE,
+                       asin=product, title=data.get("title"), rating=data.get("rating"), condition=condition or "all",
+                       country=site["country"], domain=site["host"])
+    if total_count is not None:
+        out["pagination"]["total_count"] = total_count
+        out["pagination"]["total_pages"] = max((total + OFFERS_PER_PAGE - 1) // OFFERS_PER_PAGE, 1) if total else 1
+    return out
+
+
+def variations(product, country=None, language=None):
+    site, locale = context(country, language)
+    _, data = _product_data(product, site, locale)
+    block = data.get("variations") or {"parent_asin": None, "current_asin": data.get("asin"), "dimensions": [], "products": [], "count": 0}
+    return {"asin": data.get("asin") or product, "title": data.get("title"), "link": data.get("link"), **block,
+            "country": site["country"], "domain": site["host"]}
+
+
+def reviews(product, country=None, language=None):
+    site, locale = context(country, language)
+    html, data = _product_data(product, site, locale, want_reviews=True, attempts=REVIEW_ATTEMPTS_REVIEWS)
+    rows = data.get("top_reviews") or []
+    return {
+        "asin": data.get("asin") or product,
+        "title": data.get("title"),
+        "link": data.get("link"),
+        "rating": data.get("rating"),
+        "customers_say": data.get("customers_say"),
+        "reviews": rows,
+        "count": len(rows),
+        "is_partial": not rows and P.review_treatment(html) == "T1",
+        "note": "Amazon shows the top reviews on the product page; full review pagination requires a signed-in customer.",
+        "country": site["country"],
+        "domain": site["host"],
+    }
+
+
+def _summary(data):
+    images = data.get("images") or []
+    return {
+        "asin": data.get("asin"), "title": data.get("title"), "link": data.get("link"), "brand": (data.get("brand") or {}).get("name"),
+        "price": data.get("price"), "availability": data.get("availability"), "buybox": data.get("buybox"),
+        "is_prime": data.get("is_prime"), "rating": {k: v for k, v in (data.get("rating") or {}).items() if k != "histogram"} or None,
+        "bought_past_month": data.get("bought_past_month"), "badges": data.get("badges"), "deal_badge": data.get("deal_badge"),
+        "coupon": data.get("coupon"), "image": images[0]["link"] if images else None, "images_count": len(images),
+        "best_sellers_rank": data.get("best_sellers_rank"), "categories": [c["name"] for c in data.get("categories") or []],
+        "variations_count": (data.get("variations") or {}).get("count"), "parent_asin": (data.get("variations") or {}).get("parent_asin"),
+    }
+
+
+def bulk(products, country=None, language=None, postal_code=None):
+    site, locale = context(country, language)
+    asins = list(dict.fromkeys(products))[:BULK_MAX]
+
+    def one(asin):
+        _, data = _product_data(asin, site, locale, postal_code)
+        data["asin"] = data.get("asin") or asin
+        data["link"] = P.product_link(site, data["asin"])
+        return _summary(data)
+    results = fan_out(one, asins, workers=4)
+    rows = []
+    for asin, result in zip(asins, results):
+        if isinstance(result, Exception):
+            rows.append({"asin": asin, "error": str(result) or type(result).__name__})
+        else:
+            rows.append(result)
+    return {"products": rows, "count": len(rows), "country": site["country"], "domain": site["host"]}
+
+
+def scrape_url(url, language=None, postal_code=None):
+    """Any Amazon link -> the matching endpoint's result (+ `page_type`)."""
+    from amazon import influencers, rankings, search, sellers
+    country = refs.country_of(url) or sites.DEFAULT_COUNTRY
+    kind = refs.page_type(url)
+    from urllib.parse import parse_qs, urlparse
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+    if kind == "product":
+        out = details(refs.resolve_product(url), country, language, postal_code)
+    elif kind == "seller":
+        out = sellers.profile(refs.resolve_seller(url), country, language)
+    elif kind == "influencer":
+        out = influencers.profile(refs.resolve_influencer(url), country, language)
+    elif kind == "influencer_post":
+        post = refs.resolve_post(url)
+        out = influencers.post_products(post, country, language)
+    elif kind == "bestsellers":
+        path = parsed.path.lower()
+        list_type = "new_releases" if "new-releases" in path else "movers_and_shakers" if "movers" in path else \
+            "most_wished_for" if "wished" in path else "most_gifted" if "gifted" in path else "best_sellers"
+        out = rankings.bestsellers(refs.resolve_bestseller_category(url), list_type=list_type, country=country, language=language,
+                                  page=int((query.get("pg") or ["1"])[0]) if (query.get("pg") or ["1"])[0].isdigit() else 1)
+    elif kind == "deals":
+        out = rankings.deals(country=country, language=language, collection=(query.get("bubble-id") or [None])[0])
+    elif kind == "search":
+        keyword = (query.get("k") or query.get("keywords") or [None])[0]
+        me = (query.get("me") or [None])[0]
+        node = None
+        try:
+            node = refs.resolve_node(url)
+        except ValueError:
+            pass
+        page = int((query.get("page") or ["1"])[0]) if (query.get("page") or ["1"])[0].isdigit() else 1
+        if me:
+            out = sellers.products(me, country, language, page=page, query=keyword)
+        elif keyword:
+            out = search.search(keyword, country, language, page=page, category=(query.get("i") or [None])[0], node=node)
+        elif node:
+            out = search.category_products(node, country, language, page=page)
+        else:
+            raise fetch.AmazonBadRequest("search link carries no keyword, seller or browse node")
+    else:
+        raise fetch.AmazonBadRequest("unsupported Amazon link: use a product, search, category, best sellers, deals, seller or influencer page")
+    return {"page_type": kind, "url": url, "country": country, **out}

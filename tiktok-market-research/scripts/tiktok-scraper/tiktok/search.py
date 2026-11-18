@@ -1,1 +1,111 @@
-IiIiU2VhcmNoIGVuZHBvaW50czogdmlkZW9zLCB1c2VycywgdGhlIG1peGVkICJUb3AiIHRhYiwgbGl2ZSBzdHJlYW1zIGFuZAprZXl3b3JkIHN1Z2dlc3Rpb25zLgoKU2VhcmNoIGlzIHRoZSBvbmUgc3VyZmFjZSB0aGF0IG5lZWRzIGEgYm9vdGVkIHNlc3Npb24gKGNvb2tpZXMgZnJvbSBvbmUKcGFnZSBsb2FkKSBhbmQgaXQgaXMgc3BsaXQgYnkgZXhpdCByZWdpb24gKHByb2JlZCAyMDI2LTEwLTA1KToKICAqIC9hcGkvc2VhcmNoL2l0ZW0vZnVsbCAgICAgdmlkZW9zLCAyMCBhIHBhZ2Ug4oCUIGFuc3dlcnMgb24gVVMgZXhpdHMsIGlzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpbGVudGx5IGVtcHR5IG9uIEVVIG9uZXMgLT4gdGhlIGNhbGxlcidzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvdW50cnkgZmlyc3QsIHRoZW4gVVMKICAqIC9hcGkvc2VhcmNoL3VzZXIvZnVsbCAgICAgYWNjb3VudHMsIDEwIGEgcGFnZSDigJQgdGhlIHJldmVyc2U6IEVVIG9ubHkKICAqIC9hcGkvc2VhcmNoL2dlbmVyYWwvZnVsbCAgdGhlIFRvcCB0YWIgKHZpZGVvcyArIGEgdXNlciBjYXJkKSwgMTIgYSBwYWdlCiAgKiAvYXBpL3NlYXJjaC9saXZlL2Z1bGwgICAgIGxpdmUgcm9vbXMsIDIwIGEgcGFnZQogICogL2FwaS9zZWFyY2gvZ2VuZXJhbC9wcmV2aWV3ICBzdWdnZXN0aW9ucywgdW5zaWduZWQsIG5vIGJvb3QKClBhZ2VzIGFyZSBhZGRyZXNzZWQgYnkgb2Zmc2V0LCBhbmQgZXZlcnkgcGFnZSBhZnRlciB0aGUgZmlyc3QgbXVzdCBjYXJyeQp0aGUgZmlyc3QgcGFnZSdzIHNlYXJjaCBpZC4gQm90aCB0cmF2ZWwgaW4gb25lIG9wYXF1ZSBjdXJzb3I6CiI8b2Zmc2V0Pi48c2VhcmNoIGlkPiIuCgpWaWRlbyBmaWx0ZXJzIGFyZSB0aGUgc2l0ZSdzIG93bjogc29ydCAocmVsZXZhbmNlIHwgbGlrZXMpIGFuZCBwdWJsaXNoZWQKKGRheSB8IHdlZWsgfCBtb250aCB8IDNtb250aHMgfCA2bW9udGhzKS4KIiIiCmZyb20gLiBpbXBvcnQgcGFyc2VycyBhcyBQCmZyb20gLmZldGNoIGltcG9ydCBhcGksIGNvdW50cnlfb3JkZXIsIGV1X2NvdW50cnksIHN0YXR1c19vZgoKU09SVFMgPSB7InJlbGV2YW5jZSI6IDAsICJsaWtlcyI6IDF9ClBVQkxJU0hFRCA9IHsiZGF5IjogMSwgIndlZWsiOiA3LCAibW9udGgiOiAzMCwgIjNtb250aHMiOiA5MCwgIjZtb250aHMiOiAxODB9CgoKZGVmIF9zcGxpdF9jdXJzb3IoY3Vyc29yKToKICAgICIiIiI0MC4yMDI2MTAwNUFCQyIgLT4gKDQwLCAiMjAyNjEwMDVBQkMiKTsgTm9uZSAtPiAoMCwgIiIpLiIiIgogICAgaWYgbm90IGN1cnNvcjoKICAgICAgICByZXR1cm4gMCwgIiIKICAgIG9mZnNldCwgXywgc2VhcmNoX2lkID0gc3RyKGN1cnNvcikucGFydGl0aW9uKCIuIikKICAgIHJldHVybiBpbnQob2Zmc2V0KSwgc2VhcmNoX2lkCgoKZGVmIF9uZXh0X2N1cnNvcihwYXlsb2FkLCBzZWFyY2hfaWQpOgogICAgaWYgbm90IHBheWxvYWQuZ2V0KCJoYXNfbW9yZSIpOgogICAgICAgIHJldHVybiBOb25lCiAgICBvZmZzZXQgPSBwYXlsb2FkLmdldCgiY3Vyc29yIikKICAgIGlmIG9mZnNldCBpbiAoTm9uZSwgIiIpOgogICAgICAgIHJldHVybiBOb25lCiAgICAjIHRoZSBpZCBsYXRlciBwYWdlcyBtdXN0IGVjaG86IGxvZ19wYi5pbXByX2lkIG9uIHRoZSB2aWRlbyAvIHRvcCAvIGxpdmUKICAgICMgc2VhcmNoZXMgKD0gZXh0cmEubG9naWQpLCBgcmlkYCBvbiB0aGUgdXNlciBzZWFyY2gKICAgIHNlYXJjaF9pZCA9IHNlYXJjaF9pZCBvciBfc2VhcmNoX2lkKHBheWxvYWQpCiAgICByZXR1cm4gZiJ7b2Zmc2V0fS57c2VhcmNoX2lkfSIgaWYgc2VhcmNoX2lkIGVsc2Ugc3RyKG9mZnNldCkKCgpkZWYgX3NlYXJjaF9pZChwYXlsb2FkKToKICAgIGZvciB2YWx1ZSBpbiAoKHBheWxvYWQuZ2V0KCJsb2dfcGIiKSBvciB7fSkuZ2V0KCJpbXByX2lkIiksIChwYXlsb2FkLmdldCgiZXh0cmEiKSBvciB7fSkuZ2V0KCJsb2dpZCIpLAogICAgICAgICAgICAgICAgICBwYXlsb2FkLmdldCgicmlkIikpOgogICAgICAgIGlmIGlzaW5zdGFuY2UodmFsdWUsIHN0cikgYW5kIHZhbHVlOgogICAgICAgICAgICByZXR1cm4gdmFsdWUKICAgIHJldHVybiAiIgoKCmRlZiBfc2VhcmNoKHBhdGgsIHF1ZXJ5LCBjdXJzb3IsICosIGNvdW50cmllcywgb2Zmc2V0X2tleT0ib2Zmc2V0IiwgZXh0cmE9Tm9uZSk6CiAgICBvZmZzZXQsIHNlYXJjaF9pZCA9IF9zcGxpdF9jdXJzb3IoY3Vyc29yKQogICAgcGFyYW1zID0geyJrZXl3b3JkIjogcXVlcnksIG9mZnNldF9rZXk6IG9mZnNldCwgImZyb21fcGFnZSI6ICJzZWFyY2gifQogICAgaWYgc2VhcmNoX2lkOgogICAgICAgIHBhcmFtc1sic2VhcmNoX2lkIl0gPSBzZWFyY2hfaWQKICAgIHBhcmFtcy51cGRhdGUoZXh0cmEgb3Ige30pCiAgICBwYXlsb2FkID0gYXBpKHBhdGgsIHBhcmFtcywgY291bnRyaWVzPWNvdW50cmllcywgYm9vdD1UcnVlLAogICAgICAgICAgICAgICAgICByZWZlcmVyPSJodHRwczovL3d3dy50aWt0b2suY29tL3NlYXJjaCIsIGxhYmVsPWYic2VhcmNoIGZvciB7cXVlcnkhcn0iKQogICAgcmV0dXJuIHBheWxvYWQsIF9uZXh0X2N1cnNvcihwYXlsb2FkLCBzZWFyY2hfaWQpCgoKZGVmIHNlYXJjaF92aWRlb3MocXVlcnksIGNvdW50cnk9Tm9uZSwgc29ydD0icmVsZXZhbmNlIiwgcHVibGlzaGVkPU5vbmUsIGN1cnNvcj1Ob25lKToKICAgICIiIlZpZGVvcyBtYXRjaGluZyB0aGUgcXVlcnkuIiIiCiAgICBleHRyYSA9IHsiY291bnQiOiAyMH0KICAgIGlmIHNvcnQgIT0gInJlbGV2YW5jZSIgb3IgcHVibGlzaGVkOgogICAgICAgIGV4dHJhLnVwZGF0ZSh7ImlzX2ZpbHRlcl9zZWFyY2giOiAxLCAic29ydF90eXBlIjogU09SVFNbc29ydF0sICJwdWJsaXNoX3RpbWUiOiBQVUJMSVNIRUQuZ2V0KHB1Ymxpc2hlZCwgMCl9KQogICAgcGF5bG9hZCwgbmV4dF9jdXJzb3IgPSBfc2VhcmNoKCIvYXBpL3NlYXJjaC9pdGVtL2Z1bGwvIiwgcXVlcnksIGN1cnNvciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb3VudHJpZXM9Y291bnRyeV9vcmRlcihjb3VudHJ5LCAidXMiKSwgZXh0cmE9ZXh0cmEpCiAgICB2aWRlb3MgPSBQLnZpZGVvcyhwYXlsb2FkLmdldCgiaXRlbV9saXN0IikpCiAgICByZXR1cm4geyJxdWVyeSI6IHF1ZXJ5LCAic29ydCI6IHNvcnQsICJwdWJsaXNoZWQiOiBwdWJsaXNoZWQsICJ2aWRlb19jb3VudCI6IGxlbih2aWRlb3MpLCAidmlkZW9zIjogdmlkZW9zLAogICAgICAgICAgICAibmV4dF9jdXJzb3IiOiBuZXh0X2N1cnNvciwgImhhc19tb3JlIjogbmV4dF9jdXJzb3IgaXMgbm90IE5vbmV9CgoKZGVmIHNlYXJjaF91c2VycyhxdWVyeSwgY3Vyc29yPU5vbmUpOgogICAgIiIiQWNjb3VudHMgbWF0Y2hpbmcgdGhlIHF1ZXJ5LCB3aXRoIGZvbGxvd2VyIGFuZCBsaWtlIGNvdW50cy4iIiIKICAgIHBheWxvYWQsIG5leHRfY3Vyc29yID0gX3NlYXJjaCgiL2FwaS9zZWFyY2gvdXNlci9mdWxsLyIsIHF1ZXJ5LCBjdXJzb3IsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY291bnRyaWVzPShldV9jb3VudHJ5KCksKSwgb2Zmc2V0X2tleT0iY3Vyc29yIikKICAgIHVzZXJzID0gUC51c2VycyhwYXlsb2FkLmdldCgidXNlcl9saXN0IiksIFAuc2VhcmNoX3VzZXIpCiAgICByZXR1cm4geyJxdWVyeSI6IHF1ZXJ5LCAidXNlcl9jb3VudCI6IGxlbih1c2VycyksICJ1c2VycyI6IHVzZXJzLAogICAgICAgICAgICAibmV4dF9jdXJzb3IiOiBuZXh0X2N1cnNvciwgImhhc19tb3JlIjogbmV4dF9jdXJzb3IgaXMgbm90IE5vbmV9CgoKZGVmIHNlYXJjaF90b3AocXVlcnksIGNvdW50cnk9Tm9uZSwgY3Vyc29yPU5vbmUpOgogICAgIiIiVGhlIHNpdGUncyBkZWZhdWx0ICJUb3AiIHJlc3VsdHM6IHZpZGVvcywgcGx1cyB0aGUgbWF0Y2hpbmcgYWNjb3VudHMKICAgIGNhcmQgb24gdGhlIGZpcnN0IHBhZ2UuIiIiCiAgICBwYXlsb2FkLCBuZXh0X2N1cnNvciA9IF9zZWFyY2goIi9hcGkvc2VhcmNoL2dlbmVyYWwvZnVsbC8iLCBxdWVyeSwgY3Vyc29yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvdW50cmllcz1jb3VudHJ5X29yZGVyKGNvdW50cnksIGV1X2NvdW50cnkoKSkpCiAgICB2aWRlb3MsIHVzZXJzID0gUC50b3BfcmVzdWx0cyhwYXlsb2FkLmdldCgiZGF0YSIpKQogICAgcmV0dXJuIHsicXVlcnkiOiBxdWVyeSwgInVzZXJfY291bnQiOiBsZW4odXNlcnMpLCAidXNlcnMiOiB1c2VycywgInZpZGVvX2NvdW50IjogbGVuKHZpZGVvcyksICJ2aWRlb3MiOiB2aWRlb3MsCiAgICAgICAgICAgICJuZXh0X2N1cnNvciI6IG5leHRfY3Vyc29yLCAiaGFzX21vcmUiOiBuZXh0X2N1cnNvciBpcyBub3QgTm9uZX0KCgpkZWYgc2VhcmNoX2xpdmUocXVlcnksIGNvdW50cnk9Tm9uZSwgY3Vyc29yPU5vbmUpOgogICAgIiIiTGl2ZSBzdHJlYW1zIG1hdGNoaW5nIHRoZSBxdWVyeSwgd2l0aCB2aWV3ZXIgY291bnRzIGFuZCBzdHJlYW0gbGlua3MuIiIiCiAgICBwYXlsb2FkLCBuZXh0X2N1cnNvciA9IF9zZWFyY2goIi9hcGkvc2VhcmNoL2xpdmUvZnVsbC8iLCBxdWVyeSwgY3Vyc29yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvdW50cmllcz1jb3VudHJ5X29yZGVyKGNvdW50cnksIGV1X2NvdW50cnkoKSksIGV4dHJhPXsiY291bnQiOiAyMH0pCiAgICByb29tcyA9IFtyb29tIGZvciByb29tIGluIChQLnNlYXJjaF9saXZlX3Jvb20ocm93KSBmb3Igcm93IGluIHBheWxvYWQuZ2V0KCJkYXRhIikgb3IgW10pIGlmIHJvb21dCiAgICByZXR1cm4geyJxdWVyeSI6IHF1ZXJ5LCAicm9vbV9jb3VudCI6IGxlbihyb29tcyksICJyb29tcyI6IHJvb21zLAogICAgICAgICAgICAibmV4dF9jdXJzb3IiOiBuZXh0X2N1cnNvciwgImhhc19tb3JlIjogbmV4dF9jdXJzb3IgaXMgbm90IE5vbmV9CgoKZGVmIGdldF9zdWdnZXN0aW9ucyhxdWVyeSwgY291bnRyeT1Ob25lKToKICAgICIiIldoYXQgdGhlIHNlYXJjaCBib3ggc3VnZ2VzdHMgd2hpbGUgdHlwaW5nLiIiIgogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9zZWFyY2gvZ2VuZXJhbC9wcmV2aWV3LyIsIHsia2V5d29yZCI6IHF1ZXJ5fSwgY291bnRyeT1jb3VudHJ5LCBzaWduZWQ9RmFsc2UpCiAgICBzdWdnZXN0aW9ucyA9IFAuc3VnZ2VzdGlvbnMocGF5bG9hZC5nZXQoInN1Z19saXN0IikpIGlmIHN0YXR1c19vZihwYXlsb2FkKSA9PSAwIGVsc2UgW10KICAgIHJldHVybiB7InF1ZXJ5IjogcXVlcnksICJzdWdnZXN0aW9uX2NvdW50IjogbGVuKHN1Z2dlc3Rpb25zKSwgInN1Z2dlc3Rpb25zIjogc3VnZ2VzdGlvbnN9Cg==
+"""Search endpoints: videos, users, the mixed "Top" tab, live streams and
+keyword suggestions.
+
+Search is the one surface that needs a booted session (cookies from one
+page load) and it is split by exit region (probed 2026-10-05):
+  * /api/search/item/full     videos, 20 a page — answers on US exits, is
+                              silently empty on EU ones -> the caller's
+                              country first, then US
+  * /api/search/user/full     accounts, 10 a page — the reverse: EU only
+  * /api/search/general/full  the Top tab (videos + a user card), 12 a page
+  * /api/search/live/full     live rooms, 20 a page
+  * /api/search/general/preview  suggestions, unsigned, no boot
+
+Pages are addressed by offset, and every page after the first must carry
+the first page's search id. Both travel in one opaque cursor:
+"<offset>.<search id>".
+
+Video filters are the site's own: sort (relevance | likes) and published
+(day | week | month | 3months | 6months).
+"""
+from . import parsers as P
+from .fetch import api, country_order, eu_country, status_of
+
+SORTS = {"relevance": 0, "likes": 1}
+PUBLISHED = {"day": 1, "week": 7, "month": 30, "3months": 90, "6months": 180}
+
+
+def _split_cursor(cursor):
+    """"40.20261005ABC" -> (40, "20261005ABC"); None -> (0, "")."""
+    if not cursor:
+        return 0, ""
+    offset, _, search_id = str(cursor).partition(".")
+    return int(offset), search_id
+
+
+def _next_cursor(payload, search_id):
+    if not payload.get("has_more"):
+        return None
+    offset = payload.get("cursor")
+    if offset in (None, ""):
+        return None
+    # the id later pages must echo: log_pb.impr_id on the video / top / live
+    # searches (= extra.logid), `rid` on the user search
+    search_id = search_id or _search_id(payload)
+    return f"{offset}.{search_id}" if search_id else str(offset)
+
+
+def _search_id(payload):
+    for value in ((payload.get("log_pb") or {}).get("impr_id"), (payload.get("extra") or {}).get("logid"),
+                  payload.get("rid")):
+        if isinstance(value, str) and value:
+            return value
+    return ""
+
+
+def _search(path, query, cursor, *, countries, offset_key="offset", extra=None):
+    offset, search_id = _split_cursor(cursor)
+    params = {"keyword": query, offset_key: offset, "from_page": "search"}
+    if search_id:
+        params["search_id"] = search_id
+    params.update(extra or {})
+    payload = api(path, params, countries=countries, boot=True,
+                  referer="https://www.tiktok.com/search", label=f"search for {query!r}")
+    return payload, _next_cursor(payload, search_id)
+
+
+def search_videos(query, country=None, sort="relevance", published=None, cursor=None):
+    """Videos matching the query."""
+    extra = {"count": 20}
+    if sort != "relevance" or published:
+        extra.update({"is_filter_search": 1, "sort_type": SORTS[sort], "publish_time": PUBLISHED.get(published, 0)})
+    payload, next_cursor = _search("/api/search/item/full/", query, cursor,
+                                   countries=country_order(country, "us"), extra=extra)
+    videos = P.videos(payload.get("item_list"))
+    return {"query": query, "sort": sort, "published": published, "video_count": len(videos), "videos": videos,
+            "next_cursor": next_cursor, "has_more": next_cursor is not None}
+
+
+def search_users(query, cursor=None):
+    """Accounts matching the query, with follower and like counts."""
+    payload, next_cursor = _search("/api/search/user/full/", query, cursor,
+                                   countries=(eu_country(),), offset_key="cursor")
+    users = P.users(payload.get("user_list"), P.search_user)
+    return {"query": query, "user_count": len(users), "users": users,
+            "next_cursor": next_cursor, "has_more": next_cursor is not None}
+
+
+def search_top(query, country=None, cursor=None):
+    """The site's default "Top" results: videos, plus the matching accounts
+    card on the first page."""
+    payload, next_cursor = _search("/api/search/general/full/", query, cursor,
+                                   countries=country_order(country, eu_country()))
+    videos, users = P.top_results(payload.get("data"))
+    return {"query": query, "user_count": len(users), "users": users, "video_count": len(videos), "videos": videos,
+            "next_cursor": next_cursor, "has_more": next_cursor is not None}
+
+
+def search_live(query, country=None, cursor=None):
+    """Live streams matching the query, with viewer counts and stream links."""
+    payload, next_cursor = _search("/api/search/live/full/", query, cursor,
+                                   countries=country_order(country, eu_country()), extra={"count": 20})
+    rooms = [room for room in (P.search_live_room(row) for row in payload.get("data") or []) if room]
+    return {"query": query, "room_count": len(rooms), "rooms": rooms,
+            "next_cursor": next_cursor, "has_more": next_cursor is not None}
+
+
+def get_suggestions(query, country=None):
+    """What the search box suggests while typing."""
+    payload = api("/api/search/general/preview/", {"keyword": query}, country=country, signed=False)
+    suggestions = P.suggestions(payload.get("sug_list")) if status_of(payload) == 0 else []
+    return {"query": query, "suggestion_count": len(suggestions), "suggestions": suggestions}

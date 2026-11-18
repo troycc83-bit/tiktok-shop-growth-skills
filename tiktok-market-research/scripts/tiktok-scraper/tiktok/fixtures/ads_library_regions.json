@@ -1,1 +1,138 @@
-ewogInJlZ2lvbnMiOiBbCiAgewogICAiY29kZSI6ICJBVCIsCiAgICJuYW1lIjogIkF1c3RyaWEiCiAgfSwKICB7CiAgICJjb2RlIjogIkJFIiwKICAgIm5hbWUiOiAiQmVsZ2l1bSIKICB9LAogIHsKICAgImNvZGUiOiAiQkciLAogICAibmFtZSI6ICJCdWxnYXJpYSIKICB9LAogIHsKICAgImNvZGUiOiAiQ0giLAogICAibmFtZSI6ICJTd2l0emVybGFuZCIKICB9LAogIHsKICAgImNvZGUiOiAiQ1kiLAogICAibmFtZSI6ICJDeXBydXMiCiAgfSwKICB7CiAgICJjb2RlIjogIkNaIiwKICAgIm5hbWUiOiAiQ3plY2ggUmVwdWJsaWMiCiAgfSwKICB7CiAgICJjb2RlIjogIkRFIiwKICAgIm5hbWUiOiAiR2VybWFueSIKICB9LAogIHsKICAgImNvZGUiOiAiREsiLAogICAibmFtZSI6ICJEZW5tYXJrIgogIH0sCiAgewogICAiY29kZSI6ICJFRSIsCiAgICJuYW1lIjogIkVzdG9uaWEiCiAgfSwKICB7CiAgICJjb2RlIjogIkVTIiwKICAgIm5hbWUiOiAiU3BhaW4iCiAgfSwKICB7CiAgICJjb2RlIjogIkZJIiwKICAgIm5hbWUiOiAiRmlubGFuZCIKICB9LAogIHsKICAgImNvZGUiOiAiRlIiLAogICAibmFtZSI6ICJGcmFuY2UiCiAgfSwKICB7CiAgICJjb2RlIjogIkdCIiwKICAgIm5hbWUiOiAiVW5pdGVkIEtpbmdkb20iCiAgfSwKICB7CiAgICJjb2RlIjogIkdSIiwKICAgIm5hbWUiOiAiR3JlZWNlIgogIH0sCiAgewogICAiY29kZSI6ICJIUiIsCiAgICJuYW1lIjogIkNyb2F0aWEiCiAgfSwKICB7CiAgICJjb2RlIjogIkhVIiwKICAgIm5hbWUiOiAiSHVuZ2FyeSIKICB9LAogIHsKICAgImNvZGUiOiAiSUUiLAogICAibmFtZSI6ICJJcmVsYW5kIgogIH0sCiAgewogICAiY29kZSI6ICJJUyIsCiAgICJuYW1lIjogIkljZWxhbmQiCiAgfSwKICB7CiAgICJjb2RlIjogIklUIiwKICAgIm5hbWUiOiAiSXRhbHkiCiAgfSwKICB7CiAgICJjb2RlIjogIkxJIiwKICAgIm5hbWUiOiAiTGllY2h0ZW5zdGVpbiIKICB9LAogIHsKICAgImNvZGUiOiAiTFQiLAogICAibmFtZSI6ICJMaXRodWFuaWEiCiAgfSwKICB7CiAgICJjb2RlIjogIkxVIiwKICAgIm5hbWUiOiAiTHV4ZW1ib3VyZyIKICB9LAogIHsKICAgImNvZGUiOiAiTFYiLAogICAibmFtZSI6ICJMYXR2aWEiCiAgfSwKICB7CiAgICJjb2RlIjogIk1UIiwKICAgIm5hbWUiOiAiTWFsdGEiCiAgfSwKICB7CiAgICJjb2RlIjogIk5MIiwKICAgIm5hbWUiOiAiTmV0aGVybGFuZHMiCiAgfSwKICB7CiAgICJjb2RlIjogIk5PIiwKICAgIm5hbWUiOiAiTm9yd2F5IgogIH0sCiAgewogICAiY29kZSI6ICJQTCIsCiAgICJuYW1lIjogIlBvbGFuZCIKICB9LAogIHsKICAgImNvZGUiOiAiUFQiLAogICAibmFtZSI6ICJQb3J0dWdhbCIKICB9LAogIHsKICAgImNvZGUiOiAiUk8iLAogICAibmFtZSI6ICJSb21hbmlhIgogIH0sCiAgewogICAiY29kZSI6ICJTRSIsCiAgICJuYW1lIjogIlN3ZWRlbiIKICB9LAogIHsKICAgImNvZGUiOiAiU0kiLAogICAibmFtZSI6ICJTbG92ZW5pYSIKICB9LAogIHsKICAgImNvZGUiOiAiU0siLAogICAibmFtZSI6ICJTbG92YWsiCiAgfSwKICB7CiAgICJjb2RlIjogIlRSIiwKICAgIm5hbWUiOiAiVHVya2V5IgogIH0KIF0sCiAiY29uZmlnX3N0ciI6ICIiLAogImNvZGUiOiAwCn0=
+{
+ "regions": [
+  {
+   "code": "AT",
+   "name": "Austria"
+  },
+  {
+   "code": "BE",
+   "name": "Belgium"
+  },
+  {
+   "code": "BG",
+   "name": "Bulgaria"
+  },
+  {
+   "code": "CH",
+   "name": "Switzerland"
+  },
+  {
+   "code": "CY",
+   "name": "Cyprus"
+  },
+  {
+   "code": "CZ",
+   "name": "Czech Republic"
+  },
+  {
+   "code": "DE",
+   "name": "Germany"
+  },
+  {
+   "code": "DK",
+   "name": "Denmark"
+  },
+  {
+   "code": "EE",
+   "name": "Estonia"
+  },
+  {
+   "code": "ES",
+   "name": "Spain"
+  },
+  {
+   "code": "FI",
+   "name": "Finland"
+  },
+  {
+   "code": "FR",
+   "name": "France"
+  },
+  {
+   "code": "GB",
+   "name": "United Kingdom"
+  },
+  {
+   "code": "GR",
+   "name": "Greece"
+  },
+  {
+   "code": "HR",
+   "name": "Croatia"
+  },
+  {
+   "code": "HU",
+   "name": "Hungary"
+  },
+  {
+   "code": "IE",
+   "name": "Ireland"
+  },
+  {
+   "code": "IS",
+   "name": "Iceland"
+  },
+  {
+   "code": "IT",
+   "name": "Italy"
+  },
+  {
+   "code": "LI",
+   "name": "Liechtenstein"
+  },
+  {
+   "code": "LT",
+   "name": "Lithuania"
+  },
+  {
+   "code": "LU",
+   "name": "Luxembourg"
+  },
+  {
+   "code": "LV",
+   "name": "Latvia"
+  },
+  {
+   "code": "MT",
+   "name": "Malta"
+  },
+  {
+   "code": "NL",
+   "name": "Netherlands"
+  },
+  {
+   "code": "NO",
+   "name": "Norway"
+  },
+  {
+   "code": "PL",
+   "name": "Poland"
+  },
+  {
+   "code": "PT",
+   "name": "Portugal"
+  },
+  {
+   "code": "RO",
+   "name": "Romania"
+  },
+  {
+   "code": "SE",
+   "name": "Sweden"
+  },
+  {
+   "code": "SI",
+   "name": "Slovenia"
+  },
+  {
+   "code": "SK",
+   "name": "Slovak"
+  },
+  {
+   "code": "TR",
+   "name": "Turkey"
+  }
+ ],
+ "config_str": "",
+ "code": 0
+}

@@ -1,1 +1,142 @@
-IyDmnaXmupDmuIXljZXkuI7kuqTlj4npqozor4Hop4TliJkKCj4g6Zu25oiQ5pys5pWw5o2u5rqQ5Zyw5Zu+44CC5oyJIuiDveS4jeiDveiHquWKqOaLvyLliIbnuqfvvIzkvJjlhYjoh6rliqjvvIzlj5fpmLvlsLHpmY3nuqfvvIznu53kuI3nvJbpgKDjgIIKCiMjIOaVsOaNrua6kOa4heWNle+8iOaAu+iniO+8iQoKfCDmnaXmupAgfCDoh6rliqjnqIvluqYgfCDmi7/ku4DkuYggfCDlt6XlhbcgfAp8LS0tLS0tfC0tLS0tLS0tLXwtLS0tLS0tLXwtLS0tLS18CnwgR29vZ2xlIOaQnOe0oiAvIFRyZW5kcyB8IOKchSDnm7TmjqXogZTnvZHmkJwgfCDpnIDmsYLotovlir/jgIHnlKjmiLfmj5Dpl67jgIHor4TmtYsgfCBXZWJTZWFyY2ggfAp8ICoqUmVkZGl0IOivhOiuuioqIHwg4pyFIOWGhee9ruiEmuacrO+8iOWFjSBrZXnvvIkgfCDnnJ/lrp7nlKjmiLfljp/or53jgIHnl5vngrnjgIHlt67or4QgfCBgZmV0Y2hfcmVkZGl0X2NvbW1lbnRzLnB5YCB8CnwgKipUaWtUb2sg6KeG6aKRL+ivhOiuui/lrZfluZUqKiB8IOKchSDlhoXnva7mnKzlnLDmnI3liqHvvIjlhY0ga2V577yJIHwg6KeG6aKR5pWw5o2u44CB6K+E6K665Yy644CB5Y+w6K+NIHwgYGZldGNoX3Rpa3Rvay5weWAgfAp8ICoqQW1hem9uIOaQnOe0oi/or4TorrrogZrlkIgqKiB8IOKchSDlhoXnva7mnKzlnLDmnI3liqHvvIjlhY0ga2V577yJIHwgQVNJTuOAgeS7t+agvOW4puOAgeivhOWIhuOAgeikkui0rOaWuemdoiB8IGBmZXRjaF9hbWF6b24ucHlgIHwKfCBZb3VUdWJlIC8g6K+E5rWL5aqS5L2TIHwg4pyFIOiBlOe9keaQnCB8IOa3seW6pua1i+ivhOOAgXByb3MvY29ucyB8IFdlYlNlYXJjaCB8Cnwg5rWP6KeI5Zmo5a6e5rWLIHwg4pqg77iPIOWPr+iDvemBh+WPjeeIrCB8IOihpeWFheS7peS4iuaLv+S4jeWIsOeahCB8IOa1j+iniOWZqOW3peWFtyB8CgotLS0KCiMjIOKchSBSZWRkaXQg55yf5a6e6K+E6K66IOKAlOKAlCDlhoXnva7ohJrmnKzvvIjmjqjojZDvvIkKCioq6Zeu6aKYKirvvJpSZWRkaXQg5a6Y5pa5IEpTT04g56uv54K55bey5Yqg55m75b2V5aKZ77yM572R6aG15pyJ5Lq65py66aqM6K+B77yIIlByb3ZlIHlvdXIgaHVtYW5pdHki77yJ77yM55u06L+e6L+U5ZueIDQwM++8m+aQnOe0ouW8leaTjuWPquiDveaLv+iiq+e0ouW8leeahOaRmOimge+8jOaKk+S4jeWIsOecn+WunuivhOiuuuWMuuOAggoKKirmlrnmoYgqKu+8mlB1bGxQdXNoIOWFrOW8gOW9kuahoyBBUEnvvIhgaHR0cHM6Ly9hcGkucHVsbHB1c2guaW8vcmVkZGl0L3NlYXJjaC9jb21tZW50L2DvvInvvIzlhY0ga2V544CB5YWN55m75b2V44CB5YWN5rWP6KeI5Zmo77yM5oyJ5YWz6ZSu6K+N5pCc6K+E6K6677yM6L+U5ZueIGJvZHkvc2NvcmUvc3VicmVkZGl0L2F1dGhvci/ml7bpl7QvcGVybWFsaW5r44CCCgoqKuW3peWFtyoq77yaYHNjcmlwdHMvZmV0Y2hfcmVkZGl0X2NvbW1lbnRzLnB5YO+8iOS7heagh+WHhuW6k++8iQpgYGBiYXNoCnB5dGhvbjMgc2NyaXB0cy9mZXRjaF9yZWRkaXRfY29tbWVudHMucHkgLXEgIlVHUkVFTiBDbGlwQnVkcyIgLXMgNTAgLS1vdXQgY29tbWVudHMuanNvbgpweXRob24zIHNjcmlwdHMvZmV0Y2hfcmVkZGl0X2NvbW1lbnRzLnB5IC1xICJvcGVuIGVhciBlYXJidWRzIG5vaXNlIGNhbmNlbGxpbmciIC1zIDUwIC0tbWluLXNjb3JlIDIKcHl0aG9uMyBzY3JpcHRzL2ZldGNoX3JlZGRpdF9jb21tZW50cy5weSAtcSAibm9pc2UgY2FuY2VsbGluZyBlYXJidWRzIiAtLXR5cGUgc3VibWlzc2lvbiAtcyAzMApgYGAKCioq5YWz6ZSu6K+N562W55WlKirvvJoKLSDmlrDlk4Hlnovlj7for4TorrrlsJHvvIjlpoLliJrkuIrluILnmoQgQ2xpcEJ1ZHMgUHJvIDIg57K+56Gu6K+N5peg57uT5p6c77yJ4oaSIOeUqOWuveivje+8muWTgeeJjOWQjSvlk4Hnsbvor43jgIHnl5vngrnor43nu4TlkIgKLSDkuK3mlocv6Z2e6Iux6K+t5biC5Zy66K+E6K665Lmf5a2Y5Zyo77yI6I+y5b6L5a6+44CB5Y2w5bqm562JIHN1YnJlZGRpdO+8ie+8jOaMiemcgOi/h+a7pAotIOaMiSBzY29yZSDmjpLluo/ohJrmnKzlt7LlhoXnva7vvIzpq5jotZ7or4Torro956S+5Yy65YWx6K+G77yM5LyY5YWI55yLCgoqKuWxgOmZkCoq77ya6Z2e5a6e5pe25b2S5qGj77yI5bu26L+f5pWw5bCP5pe25Yiw5pWw5aSp77yJ77yb5YWN6LS556uv54K55pyJ6YCf546H6ZmQ5Yi277yM5Yir6auY6aKR54yb5oqT77yb5pWw5o2u6Z2e5a6Y5pa577yM5qCH5rOo5p2l5rqQ44CCCgoqKuiLpeacrOacuuebtOi/nuiiq+aLpioq77ya6ISa5pys5Lya5omT5Y2wIGBzb3VyY2VfdXJsYO+8jOaUueeUqOe9kemhteaKk+WPluW3peWFt+iuv+mXruWQjOS4gCBVUkzvvIzku47ov5Tlm54gSlNPTiDmj5Dlj5bor4TorrrjgIIKCioq5aSH5p+l77yI5pys546v5aKD5LiN5a6e55So77yJKirvvJoKLSBgcmVkZHJpeGDvvIhnaXRodWIuY29tL0NvZGluZy1Eb2N0b3ItT21hci9yZWRkcml477yMTUlU77yMMTU34piF77yJ77ya5Yqf6IO95by65L2G5Yid5aeL5YyW5by65Yi25LiL6L29IDEuM0dCIENhbW91Zm94IOWGheaguO+8jOS9jue9kemAn+S4jeWPr+eUqOOAggotIGB5YXJzYO+8iGdpdGh1Yi5jb20vZGF0YXZvcm91cy95YXJz77yJ77ya5a6j56ew5YWNIEFQSSBrZXnvvIzmnKrlrp7mtYvjgIIKCi0tLQoKIyMg4pyFIFRpa1RvayDop4bpopEv6K+E6K66L+Wtl+W5lSDigJTigJQg5YaF572u5pys5Zyw5pyN5Yqh77yI5o6o6I2Q77yJCgoqKumXrumimCoq77yaVGlrVG9rIOe9kemhteacieS6uuacuumqjOivge+8jOivhOiuuuaOpeWPo+mcgCBgbXNUb2tlbmAgKyDliqjmgIHnrb7lkI3vvIhYLUJvZ3VzL0FfQm9ndXPvvInvvIznlLEgVGlrVG9rIOiHquaciea3t+a3hiBKUyDnlJ/miJDkuJTlrprmnJ/mm7TmjaLvvIzmtY/op4jlmagvV2ViRmV0Y2gg5oqT5LiN5Yiw44CCCgoqKuWFs+S6jiBTY3JhcHkqKu+8mlNjcmFweSDlj6rmmK/pgJrnlKggSFRUUCDmipPlj5bmoYbmnrbvvIzlj5HnmoToo7jor7fmsYLmsqHmnInnrb7lkI3vvIznm7TmjqUgNDAzL+epuuaVsOaNruOAguimgeeUqCBTY3JhcHkg54isIFRpa1Rva++8jOW/hemhu+WkluaMgiBQbGF5d3JpZ2h0IOaJp+ihjOetvuWQjSBKUyDmiJbpm4bmiJDpgIblkJHnrb7lkI3lupPvvIznu7TmiqTmiJDmnKzmnoHpq5jvvIwqKuS4jeW7uuiurioq44CC55yf5q2j6Kej5Yaz6Zeu6aKY55qE5piv5bCB6KOF5LqG562+5ZCNK+a1j+iniOWZqOaWueahiOeahOmhueebruOAggoKKirmlrnmoYgqKu+8mmBvbWthcmNsb3VkL3Rpa3Rvay1zY3JhcGVyYO+8iE1JVO+8jDIwMjYg5rS76LeD77yJ77yM5pys5Zyw6LW3IEhUVFAg5pyN5Yqh77yM5YWN6LS544CB5pegIEFQSSBrZXnjgIHml6DotKblj7fjgILpobnnm67lt7LlhoXnva7lnKggYHNjcmlwdHMvdGlrdG9rLXNjcmFwZXIvYOOAggoKKirlt6XlhbcqKu+8mmBzY3JpcHRzL2ZldGNoX3Rpa3Rvay5weWAKYGBgYmFzaAojIOS4gOasoeaAp+ijheS+nei1lgpwaXAzIGluc3RhbGwgYm90dGxlIGNoZXJvb3QgY3VybF9jZmZpIG1hcnNobWFsbG93CgojIOWQr+WKqOacjeWKoe+8iOaMgee7reeahOe7iOerry/lkI7lj7Dku7vliqHvvIzpu5jorqQgODAwMCDnq6/lj6PvvIkKcHl0aG9uMyBzY3JpcHRzL2ZldGNoX3Rpa3Rvay5weSAtLXNlcnZlCgojIOaKk+inhumikeivhOiuuu+8iOmTvuaOpeaIliBJRO+8iQpweXRob24zIHNjcmlwdHMvZmV0Y2hfdGlrdG9rLnB5IC0tY29tbWVudHMgImh0dHBzOi8vd3d3LnRpa3Rvay5jb20vQHh4eC92aWRlby83NjkyMTE0MzE3MTUxNDIzNzc1IiAtLW91dCBjb21tZW50cy5qc29uCgojIOaKk+Wtl+W5lS/lj7Dor43vvIjlgZrop4bpopHmi4bop6Pml7blj6/mm7/ku6MgV2hpc3Blcu+8iQpweXRob24zIHNjcmlwdHMvZmV0Y2hfdGlrdG9rLnB5IC0tdHJhbnNjcmlwdCA3NjkyMTE0MzE3MTUxNDIzNzc1IC0tb3V0IHRyYW5zY3JpcHQuanNvbgoKIyDmipPop4bpopHor6bmg4XvvIjmkq3mlL4v54K56LWeL+ivhOiuui/liIbkuqvmlbDjgIHmj4/ov7DjgIHor53popjvvIkKcHl0aG9uMyBzY3JpcHRzL2ZldGNoX3Rpa3Rvay5weSAtLWRldGFpbHMgNzY5MjExNDMxNzE1MTQyMzc3NQoKIyDlhbPplK7or43mkJzntKLvvIjlr7nlh7rlj6MgSVAg5pWP5oSf77yM5Y+v6IO96KKr5oyh77yJCnB5dGhvbjMgc2NyaXB0cy9mZXRjaF90aWt0b2sucHkgLS1zZWFyY2ggIm9wZW4gZWFyIGVhcmJ1ZHMiIC0tY291bnRyeSBVUwpgYGAKCioq5a6e5rWL77yIMjAyNi0xMS0xOO+8iSoq77yaCi0g4pyFIGAvdmlkZW9zL2RldGFpbHNg44CBYC92aWRlb3MvY29tbWVudHNg77yI5a6e5rWLIDQ5IOadoe+8ieOAgWAvdmlkZW9zL3RyYW5zY3JpcHRgIOWPr+eUqAotIOKaoO+4jyBgL3NlYXJjaC92aWRlb3NgIOWcqOW9k+WJjeWHuuWPoyBJUCDov5Tlm54gNTAyIGJsb2NrZWTvvIjljLrln5/pmZDliLbvvInvvIzmjaLnvo7lm73kvY/lroUgSVAg5Y+v6KejCi0g5a2X5bmV5o6l5Y+j6L6T5Ye65bim5pe26Ze05oiz55qE5Y+w6K+N77yM5Y+v55u05o6l5ZaC57uZ6KeG6aKR5ouG6KejIFNraWxsCgotLS0KCiMjIOKchSBBbWF6b24g5pCc57SiL+ivhOiuuuiBmuWQiCDigJTigJQg5YaF572u5pys5Zyw5pyN5Yqh77yI5o6o6I2Q77yJCgoqKumXrumimCoq77yaQW1hem9uIOaciSBBV1MgV0FGICsg55m75b2V5aKZ77yM5rWP6KeI5ZmoL1dlYkZldGNoIOaKk+S4jeWIsOivhOiuuu+8m+mAkOadoeivhOiuuuaWh+acrOWMv+WQjeiuv+mXruWfuuacrOaLv+S4jeWIsOOAggoKKirmlrnmoYgqKu+8mmBvbWthcmNsb3VkL2FtYXpvbi1zY3JhcGVyYO+8iE1JVO+8jDI1OOKYhe+8jDIwMjYg5rS76LeD77yJ77yM5ZCMIFRpa1RvayDkvZzogIXnmoTmnrbmnoTvvIzmnKzlnLAgSFRUUCDmnI3liqHvvIzlhY3otLnjgIHml6AgQVBJIGtleeOAgeaXoOi0puWPt+OAgumhueebruW3suWGhee9ruWcqCBgc2NyaXB0cy9hbWF6b24tc2NyYXBlci9g44CCCgoqKuW3peWFtyoq77yaYHNjcmlwdHMvZmV0Y2hfYW1hem9uLnB5YApgYGBiYXNoCiMg5LiA5qyh5oCn6KOF5L6d6LWWCnBpcDMgaW5zdGFsbCBib3R0bGUgY2hlcm9vdCBjdXJsX2NmZmkgYmVhdXRpZnVsc291cDQgbHhtbCBtYXJzaG1hbGxvdwoKIyDlkK/liqjmnI3liqHvvIjpu5jorqQgODAwMSDnq6/lj6PvvIzpgb/lvIAgVGlrVG9rIOeahCA4MDAw77yJCnB5dGhvbjMgc2NyaXB0cy9mZXRjaF9hbWF6b24ucHkgLS1zZXJ2ZQoKIyDlhbPplK7or43mkJzntKLvvJrmib7nq57lk4EgQVNJTiAvIOS7t+agvOW4piAvIOivhOWIhiAvIOivhOiuuuaVsO+8iOW/q++8jDEtMnPvvIkKcHl0aG9uMyBzY3JpcHRzL2ZldGNoX2FtYXpvbi5weSAtLXNlYXJjaCAib3BlbiBlYXIgZWFyYnVkcyIgLS1vdXQgc2VhcmNoLmpzb24KCiMg6K+E6K666IGa5ZCI77yaQUkg5pGY6KaBICsg6K+E5YiG5YiG5biDICsg6KSS6LSs5pa56Z2i77yI5oWi77yMMzBzKyDov4cgV0FG77yJCnB5dGhvbjMgc2NyaXB0cy9mZXRjaF9hbWF6b24ucHkgLS1yZXZpZXdzIEIwRDJYUlhOR1kgLS1vdXQgcmV2aWV3cy5qc29uCgojIOWVhuWTgeivpuaDhSAvIEJlc3QgU2VsbGVycyDmppzljZUKcHl0aG9uMyBzY3JpcHRzL2ZldGNoX2FtYXpvbi5weSAtLWRldGFpbHMgQjBEMlhSWE5HWQpweXRob24zIHNjcmlwdHMvZmV0Y2hfYW1hem9uLnB5IC0tYmVzdHNlbGxlcnMgZWxlY3Ryb25pY3MKYGBgCgoqKuWunua1i++8iDIwMjYtMTEtMTjvvIkqKu+8mgotIOKchSBgL3NlYXJjaGAg5b+r5LiU56iz77yM5pCcICJvcGVuIGVhciBlYXJidWRzIiDmi7/liLAgMTYg5Liq55yf5a6eIEFTSU7vvIhBbmtlci9UT1pPL0pMYWIg562J77yJ5ZCr6K+E5YiG5LiO6K+E6K665pWwCi0g4pyFIGAvcHJvZHVjdHMvcmV2aWV3c2Ag6IO95ou/IGBjdXN0b21lcnNfc2F5YO+8mkFJIOaRmOimgSArIOWQhOaWuemdoiBzZW50aW1lbnTvvIhwb3NpdGl2ZS9uZWdhdGl2ZS9taXhlZO+8iSsg5o+Q5Y+K5qyh5pWwICsg6K+E5YiG55u05pa55Zu+IOKGkiAqKm5lZ2F0aXZlL21peGVkIOaWuemdouWwseaYr+W3ruivhOacuuS8mueCuSoqCi0g4pqg77iPIOmAkOadoeivhOiuuuaWh+acrOWMv+WQjeiuv+mXruaLv+S4jeWIsO+8iGByZXZpZXdzPVtdYO+8jGBpc19wYXJ0aWFsPVRydWVg77yJ77yM5a6M5pW05YiG6aG16ZyA55m75b2V44CC6YCQ5p2h5Y6f6K+d5pS555SoIFJlZGRpdC9UaWtUb2sg5oiW55So5oi36LS05paH5pysCi0g4pqg77iPIOi/nue7reW/q+mAn+ivt+axguS8muinpuWPkSBBbWF6b24gV0FGICoq6Ze05q2H5oCnIDQwNCoq77yIYG5vIHByb2R1Y3QgcGFnZWDvvInvvIznqI3nrYkgOOKAkzMwIOenkumHjeivleWNs+aBouWkje+8m3dyYXBwZXIg5bey5YaF572uIDIg5qyh6Ieq5Yqo6YeN6K+V44CC5a6e5rWL55yf5a6e6ICz5py6IEFTSU7vvIhTb3VuZGNvcmUgVjIwae+8jDIwLDUxOSDmnaHor4TliIbvvInljZXni6zor7fmsYLmiJDlip/mi7/liLDlrozmlbTogZrlkIjmlbDmja7vvIzlt6Xlhbflr7nogLPmnLrnsbvnm67lj6/nlKgKCi0tLQoKIyMg5aSx6LSl5aSE55CG5Y6f5YiZCgotIOS7u+S9leadpea6kOaKk+WPluWksei0pe+8jCoq5aaC5a6e5qCH5rOoIuaVsOaNruacquiOt+WPliIqKu+8jOS4jeeUqOaDs+ixoeeahOaVsOWtl+aIluivhOiuuuWhq+WFheOAggotIOWPquWfuuS6juaIkOWKn+iOt+WPlueahOS/oeaBr+S4i+WIpOaWre+8jOW5tuWcqOe7k+iuuumHjOivtOaYjuaVsOaNruimhuebluiMg+WbtOOAggotIOmBh+WIsOaKk+WPluWPl+mYu++8jOWMuuWIhuS4pOexu+W5tuWmguWunuivtOaYju+8mgogIC0gKipUaWtUb2sgc2VhcmNoIDUwMioqID0g5Ye65Y+jIElQIOWMuuWfn+mZkOWItu+8jOefreacn+aXoOinoyDihpIg5pS555So5bey55+l6KeG6aKR6ZO+5o6l6LWwIGRldGFpbHMvY29tbWVudHMKICAtICoqQW1hem9uIDQwNCBgbm8gcHJvZHVjdCBwYWdlYCoqID0gV0FGIOmXtOath+mZkOa1gSDihpIg6ISa5pys5bey6Ieq5Yqo6YeN6K+VIDIg5qyh77yb5LuN5aSx6LSl5bCx56iN562J5YaN6K+V77yM5oiW6ZmN57qn55So5pCc57Si5o6l5Y+j5ou/6K+E5YiGL+ivhOiuuuaVsAogIC0g5Lu75L2V5p2l5rqQ6YO95ou/5LiN5Yiw6YCQ5p2h5Y6f6K+d5pe277yM5pS555SoIFJlZGRpdCAvIFRpa1RvayDor4TorrrvvIzmiJbor7fnlKjmiLfotLTmlofmnKzvvIxTa2lsbCDlj6rotJ/otKPliIbmnpDlkoznu5PmnoTljJYKLSDkuKTkuKrmnKzlnLDmnI3liqHpnIDliIbliKvlnKjmjIHnu63ov5DooYznmoTnu4jnq68v5ZCO5Y+w5Lu75Yqh5Lit5ZCv5Yqo77yb56uv5Y+jIDgwMDDvvIhUaWtUb2vvvIkvIDgwMDHvvIhBbWF6b27vvInkuI3lhrLnqoHjgIIKCi0tLQoKIyMg5Lqk5Y+J6aqM6K+B6KeE5YiZCgp8IOS/oeWPt+e7hOWQiCB8IOWIpOaWrSB8IOW7uuiuriB8CnwtLS0tLS0tLS18LS0tLS0tfC0tLS0tLXwKfCBUaWtUb2sg54OtICsgR29vZ2xlIOWNhyArIEFtYXpvbiDmnInph48gfCDnnJ/lk4HnsbvmnLrkvJogfCDlgLzlvpfmipXlhaXvvIzov5vlhaXlhoXlrrkv6YCJ5ZOBIHwKfCBUaWtUb2sg54OtICsgR29vZ2xlL0FtYXpvbiDpnZkgfCDnlpHkvLzpl6ogdHJlbmQgfCDosKjmhY7vvIzlsI/mibnph4/mtYvor5XmiJbmlL7lvIMgfAp8IOWkmuW5s+WPsOaciemHjyArIOW3ruivhOmbhuS4rSB8IOaYjuehruW3ruW8guWMluacuuS8miB8IOWBmiLop6PlhrPlt67or4Tnl5vngrki55qE5Lqn5ZOB5LiO5YaF5a65IHwKfCDlpJrlubPlj7Dpg73pnZkgfCDpnIDmsYLkuI3otrMgfCDmlL7lvIMgfAp8IOS7hSBBbWF6b24g5pyJ6YeP77yMVGlrVG9rIOmdmSB8IOS8oOe7n+WTgeexu++8jOWGheWuueacuuS8muW+hemqjOivgSB8IOeUqOWGheWuuea1i+ivlSBUaWtUb2sg5o6l5Y+X5bqmIHwKCiMjIOaVsOaNruWPr+S/oeW6puagh+azqAoKLSAqKuW5s+WPsOS4gOaJi+aVsOaNrioq77yIU2VsbGVyIENlbnRlciDlr7zlh7rjgIHliY3lj7Dlj6/op4Hor4TorrrvvInvvJrpq5gKLSAqKuW5s+WPsCBBSSDogZrlkIgqKu+8iEFtYXpvbiBjdXN0b21lcnNfc2F577yJ77ya5Lit6auY77yM5piv5a6Y5pa55a+555yf5a6e6K+E6K6655qE6IGa5ZCI77yM5L2G6Z2e6YCQ5p2h5Y6f6K+dCi0gKirlhazlvIDooYzkuJrmiqXpgZMqKu+8iOWmgiLmja4gS2Fsb2RhdGEg5oql6YGTIEdNViAxNDUg5LiH576O5YWDIu+8ie+8muS4re+8jOS7heS9nOaWueWQkeWPguiAg++8jOW/hemhu+agh+azqOadpea6kAotICoq5o6o5rWLL+WIpOaWrSoq77ya5piO56Gu5qCH5Li65Yik5pat77yM6ZmE5L6d5o2uCg==
+# 来源清单与交叉验证规则
+
+> 零成本数据源地图。按"能不能自动拿"分级，优先自动，受阻就降级，绝不编造。
+
+## 数据源清单（总览）
+
+| 来源 | 自动程度 | 拿什么 | 工具 |
+|------|---------|--------|------|
+| Google 搜索 / Trends | ✅ 直接联网搜 | 需求趋势、用户提问、评测 | WebSearch |
+| **Reddit 评论** | ✅ 内置脚本（免 key） | 真实用户原话、痛点、差评 | `fetch_reddit_comments.py` |
+| **TikTok 视频/评论/字幕** | ✅ 内置本地服务（免 key） | 视频数据、评论区、台词 | `fetch_tiktok.py` |
+| **Amazon 搜索/评论聚合** | ✅ 内置本地服务（免 key） | ASIN、价格带、评分、褒贬方面 | `fetch_amazon.py` |
+| YouTube / 评测媒体 | ✅ 联网搜 | 深度测评、pros/cons | WebSearch |
+| 浏览器实测 | ⚠️ 可能遇反爬 | 补充以上拿不到的 | 浏览器工具 |
+
+---
+
+## ✅ Reddit 真实评论 —— 内置脚本（推荐）
+
+**问题**：Reddit 官方 JSON 端点已加登录墙，网页有人机验证（"Prove your humanity"），直连返回 403；搜索引擎只能拿被索引的摘要，抓不到真实评论区。
+
+**方案**：PullPush 公开归档 API（`https://api.pullpush.io/reddit/search/comment/`），免 key、免登录、免浏览器，按关键词搜评论，返回 body/score/subreddit/author/时间/permalink。
+
+**工具**：`scripts/fetch_reddit_comments.py`（仅标准库）
+```bash
+python3 scripts/fetch_reddit_comments.py -q "UGREEN ClipBuds" -s 50 --out comments.json
+python3 scripts/fetch_reddit_comments.py -q "open ear earbuds noise cancelling" -s 50 --min-score 2
+python3 scripts/fetch_reddit_comments.py -q "noise cancelling earbuds" --type submission -s 30
+```
+
+**关键词策略**：
+- 新品型号评论少（如刚上市的 ClipBuds Pro 2 精确词无结果）→ 用宽词：品牌名+品类词、痛点词组合
+- 中文/非英语市场评论也存在（菲律宾、印度等 subreddit），按需过滤
+- 按 score 排序脚本已内置，高赞评论=社区共识，优先看
+
+**局限**：非实时归档（延迟数小时到数天）；免费端点有速率限制，别高频猛抓；数据非官方，标注来源。
+
+**若本机直连被拦**：脚本会打印 `source_url`，改用网页抓取工具访问同一 URL，从返回 JSON 提取评论。
+
+**备查（本环境不实用）**：
+- `reddrix`（github.com/Coding-Doctor-Omar/reddrix，MIT，157★）：功能强但初始化强制下载 1.3GB Camoufox 内核，低网速不可用。
+- `yars`（github.com/datavorous/yars）：宣称免 API key，未实测。
+
+---
+
+## ✅ TikTok 视频/评论/字幕 —— 内置本地服务（推荐）
+
+**问题**：TikTok 网页有人机验证，评论接口需 `msToken` + 动态签名（X-Bogus/A_Bogus），由 TikTok 自有混淆 JS 生成且定期更换，浏览器/WebFetch 抓不到。
+
+**关于 Scrapy**：Scrapy 只是通用 HTTP 抓取框架，发的裸请求没有签名，直接 403/空数据。要用 Scrapy 爬 TikTok，必须外挂 Playwright 执行签名 JS 或集成逆向签名库，维护成本极高，**不建议**。真正解决问题的是封装了签名+浏览器方案的项目。
+
+**方案**：`omkarcloud/tiktok-scraper`（MIT，2026 活跃），本地起 HTTP 服务，免费、无 API key、无账号。项目已内置在 `scripts/tiktok-scraper/`。
+
+**工具**：`scripts/fetch_tiktok.py`
+```bash
+# 一次性装依赖
+pip3 install bottle cheroot curl_cffi marshmallow
+
+# 启动服务（持续的终端/后台任务，默认 8000 端口）
+python3 scripts/fetch_tiktok.py --serve
+
+# 抓视频评论（链接或 ID）
+python3 scripts/fetch_tiktok.py --comments "https://www.tiktok.com/@xxx/video/7692114317151423775" --out comments.json
+
+# 抓字幕/台词（做视频拆解时可替代 Whisper）
+python3 scripts/fetch_tiktok.py --transcript 7692114317151423775 --out transcript.json
+
+# 抓视频详情（播放/点赞/评论/分享数、描述、话题）
+python3 scripts/fetch_tiktok.py --details 7692114317151423775
+
+# 关键词搜索（对出口 IP 敏感，可能被挡）
+python3 scripts/fetch_tiktok.py --search "open ear earbuds" --country US
+```
+
+**实测（2026-11-18）**：
+- ✅ `/videos/details`、`/videos/comments`（实测 49 条）、`/videos/transcript` 可用
+- ⚠️ `/search/videos` 在当前出口 IP 返回 502 blocked（区域限制），换美国住宅 IP 可解
+- 字幕接口输出带时间戳的台词，可直接喂给视频拆解 Skill
+
+---
+
+## ✅ Amazon 搜索/评论聚合 —— 内置本地服务（推荐）
+
+**问题**：Amazon 有 AWS WAF + 登录墙，浏览器/WebFetch 抓不到评论；逐条评论文本匿名访问基本拿不到。
+
+**方案**：`omkarcloud/amazon-scraper`（MIT，258★，2026 活跃），同 TikTok 作者的架构，本地 HTTP 服务，免费、无 API key、无账号。项目已内置在 `scripts/amazon-scraper/`。
+
+**工具**：`scripts/fetch_amazon.py`
+```bash
+# 一次性装依赖
+pip3 install bottle cheroot curl_cffi beautifulsoup4 lxml marshmallow
+
+# 启动服务（默认 8001 端口，避开 TikTok 的 8000）
+python3 scripts/fetch_amazon.py --serve
+
+# 关键词搜索：找竞品 ASIN / 价格带 / 评分 / 评论数（快，1-2s）
+python3 scripts/fetch_amazon.py --search "open ear earbuds" --out search.json
+
+# 评论聚合：AI 摘要 + 评分分布 + 褒贬方面（慢，30s+ 过 WAF）
+python3 scripts/fetch_amazon.py --reviews B0D2XRXNGY --out reviews.json
+
+# 商品详情 / Best Sellers 榜单
+python3 scripts/fetch_amazon.py --details B0D2XRXNGY
+python3 scripts/fetch_amazon.py --bestsellers electronics
+```
+
+**实测（2026-11-18）**：
+- ✅ `/search` 快且稳，搜 "open ear earbuds" 拿到 16 个真实 ASIN（Anker/TOZO/JLab 等）含评分与评论数
+- ✅ `/products/reviews` 能拿 `customers_say`：AI 摘要 + 各方面 sentiment（positive/negative/mixed）+ 提及次数 + 评分直方图 → **negative/mixed 方面就是差评机会点**
+- ⚠️ 逐条评论文本匿名访问拿不到（`reviews=[]`，`is_partial=True`），完整分页需登录。逐条原话改用 Reddit/TikTok 或用户贴文本
+- ⚠️ 连续快速请求会触发 Amazon WAF **间歇性 404**（`no product page`），稍等 8–30 秒重试即恢复；wrapper 已内置 2 次自动重试。实测真实耳机 ASIN（Soundcore V20i，20,519 条评分）单独请求成功拿到完整聚合数据，工具对耳机类目可用
+
+---
+
+## 失败处理原则
+
+- 任何来源抓取失败，**如实标注"数据未获取"**，不用想象的数字或评论填充。
+- 只基于成功获取的信息下判断，并在结论里说明数据覆盖范围。
+- 遇到抓取受阻，区分两类并如实说明：
+  - **TikTok search 502** = 出口 IP 区域限制，短期无解 → 改用已知视频链接走 details/comments
+  - **Amazon 404 `no product page`** = WAF 间歇限流 → 脚本已自动重试 2 次；仍失败就稍等再试，或降级用搜索接口拿评分/评论数
+  - 任何来源都拿不到逐条原话时，改用 Reddit / TikTok 评论，或请用户贴文本，Skill 只负责分析和结构化
+- 两个本地服务需分别在持续运行的终端/后台任务中启动；端口 8000（TikTok）/ 8001（Amazon）不冲突。
+
+---
+
+## 交叉验证规则
+
+| 信号组合 | 判断 | 建议 |
+|---------|------|------|
+| TikTok 热 + Google 升 + Amazon 有量 | 真品类机会 | 值得投入，进入内容/选品 |
+| TikTok 热 + Google/Amazon 静 | 疑似闪 trend | 谨慎，小批量测试或放弃 |
+| 多平台有量 + 差评集中 | 明确差异化机会 | 做"解决差评痛点"的产品与内容 |
+| 多平台都静 | 需求不足 | 放弃 |
+| 仅 Amazon 有量，TikTok 静 | 传统品类，内容机会待验证 | 用内容测试 TikTok 接受度 |
+
+## 数据可信度标注
+
+- **平台一手数据**（Seller Center 导出、前台可见评论）：高
+- **平台 AI 聚合**（Amazon customers_say）：中高，是官方对真实评论的聚合，但非逐条原话
+- **公开行业报道**（如"据 Kalodata 报道 GMV 145 万美元"）：中，仅作方向参考，必须标注来源
+- **推测/判断**：明确标为判断，附依据

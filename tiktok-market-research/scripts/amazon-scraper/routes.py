@@ -1,1 +1,129 @@
-IiIiVGhlIDIxIEFtYXpvbiBlbmRwb2ludHMuIEV2ZXJ5IHBhdGggaXMgc2VydmVkIHdpdGggYW5kIHdpdGhvdXQgdGhlCmAvYW1hem9uYCBwcmVmaXgsIHNvIGNvZGUgZ2VuZXJhdGVkIGFnYWluc3QgdGhlIGhvc3RlZCBBUEkgKHBhdGhzIGxpa2UKL3Byb2R1Y3RzL2RldGFpbHMpIHJ1bnMgdW5jaGFuZ2VkIGFnYWluc3QgdGhpcyBzZXJ2ZXIuCgpQYXJhbXMgYXJlIHZhbGlkYXRlZCBieSB0aGUgcGFja2FnZSdzIG93biBtYXJzaG1hbGxvdyBzY2hlbWFzCihhbWF6b24vc2NoZW1hcy5weSk6IE9ORSBwYXJhbSBwZXIgaW5wdXQg4oCUIGBwcm9kdWN0YCB0YWtlcyBhbiBBU0lOIG9yIGEKcHJvZHVjdCBsaW5rLCBgc2VsbGVyYCBhbiBpZCBvciBhIHNlbGxlciBsaW5rLCBhbmQgc28gb24g4oCUIGFuZCBhIHBhc3RlZAphbWF6b24uZGUgLyBhbWF6b24uY28udWsg4oCmIGxpbmsgcGlja3MgdGhhdCBtYXJrZXRwbGFjZSBieSBpdHNlbGYuCiIiIgppbXBvcnQganNvbgpmcm9tIHVybGxpYi5wYXJzZSBpbXBvcnQgdXJsZW5jb2RlCgpmcm9tIGJvdHRsZSBpbXBvcnQgcmVxdWVzdCwgcmVzcG9uc2UsIHJvdXRlCgpmcm9tIGNhY2hlIGltcG9ydCBEb250Q2FjaGUKZnJvbSBhbWF6b24gaW1wb3J0IGluZmx1ZW5jZXJzLCBwcm9kdWN0cywgcmFua2luZ3MsIHNjaGVtYXMsIHNlYXJjaCwgc2VsbGVycwpmcm9tIHNjaGVtYV9maWVsZHMgaW1wb3J0IGxvYWRfcXVlcnkKZnJvbSBzY3JhcGVyX2Vycm9ycyBpbXBvcnQgQmFkUmVxdWVzdCwgQmxvY2tlZCwgTm90Rm91bmQsIFVwc3RyZWFtRXJyb3IKCgpkZWYganNvbl9yZXNwb25zZShkYXRhLCBzdGF0dXM9MjAwKToKICAgIHJlc3BvbnNlLnN0YXR1cyA9IHN0YXR1cwogICAgcmVzcG9uc2UuY29udGVudF90eXBlID0gImFwcGxpY2F0aW9uL2pzb24iCiAgICByZXR1cm4ganNvbi5kdW1wcyhkYXRhLCBlbnN1cmVfYXNjaWk9RmFsc2UpCgoKZGVmIHF1ZXJ5X2RpY3QoKToKICAgICIiIlRoZSBxdWVyeSBhcyB1bmljb2RlIHN0cmluZ3MgKGJvdHRsZSAwLjEyJ3MgLmdldCgpIGhhbmRzIGJhY2sgbGF0aW4tMQogICAgZGVjb2RlZCBieXRlcywgc28gYSBVVEYtOCAiQ2Fmw6kiIHdvdWxkIGFycml2ZSBhcyAiQ2Fmw4PCqSIpLiIiIgogICAgcmV0dXJuIHtrZXk6IHJlcXVlc3QucXVlcnkuZ2V0dW5pY29kZShrZXkpIGZvciBrZXkgaW4gcmVxdWVzdC5xdWVyeS5rZXlzKCl9CgoKZGVmIF9wYWdlX2xpbmsocGF0aCwgcGFyYW1zLCBwYWdlKToKICAgIGlmIG5vdCBwYWdlOgogICAgICAgIHJldHVybiBOb25lCiAgICBxdWVyeSA9IHtrOiB2IGZvciBrLCB2IGluIHBhcmFtcy5pdGVtcygpIGlmIHYgbm90IGluIChOb25lLCAiIil9CiAgICBxdWVyeVsicGFnZSJdID0gcGFnZQogICAgcmV0dXJuIGYie3JlcXVlc3QudXJscGFydHMuc2NoZW1lfTovL3tyZXF1ZXN0LnVybHBhcnRzLm5ldGxvY317cGF0aH0/e3VybGVuY29kZShxdWVyeSl9IgoKCmRlZiBwYWdpbmF0ZShyZXN1bHQsIHBhdGgsIHBhcmFtcyk6CiAgICAiIiJMaWZ0IHRoZSBlbmRwb2ludCdzIGBwYWdpbmF0aW9uYCBibG9jayBpbnRvIHRoZSBmbGF0IHNoYXBlIHRoZSBob3N0ZWQKICAgIEFQSSByZXR1cm5zOiBjb3VudCAvIHBlcl9wYWdlIC8gY3VycmVudF9wYWdlIC8gdG90YWxfcGFnZXMgLyBuZXh0IC8gcHJldmlvdXMuIiIiCiAgICBwYWdpbmF0aW9uID0gcmVzdWx0LnBvcCgicGFnaW5hdGlvbiIsIE5vbmUpIG9yIHt9CiAgICBwYWdlID0gaW50KHBhZ2luYXRpb24uZ2V0KCJwYWdlIikgb3IgcGFyYW1zLmdldCgicGFnZSIpIG9yIDEpCiAgICB0b3RhbF9wYWdlcyA9IGludChwYWdpbmF0aW9uLmdldCgidG90YWxfcGFnZXMiKSBvciAwKQogICAgb3V0ID0gewogICAgICAgICJjb3VudCI6IHBhZ2luYXRpb24uZ2V0KCJ0b3RhbF9jb3VudCIpLAogICAgICAgICJwZXJfcGFnZSI6IHBhZ2luYXRpb24uZ2V0KCJpdGVtc19wZXJfcGFnZSIpLAogICAgICAgICJjdXJyZW50X3BhZ2UiOiBwYWdlLAogICAgICAgICJ0b3RhbF9wYWdlcyI6IHRvdGFsX3BhZ2VzLAogICAgICAgICJuZXh0IjogX3BhZ2VfbGluayhwYXRoLCBwYXJhbXMsIHBhZ2UgKyAxIGlmIHBhZ2UgPCB0b3RhbF9wYWdlcyBlbHNlIE5vbmUpLAogICAgICAgICJwcmV2aW91cyI6IF9wYWdlX2xpbmsocGF0aCwgcGFyYW1zLCBwYWdlIC0gMSBpZiBwYWdlID4gMSBlbHNlIE5vbmUpLAogICAgfQogICAgb3V0LnVwZGF0ZShyZXN1bHQpCiAgICByZXR1cm4gb3V0CgoKZGVmIGhhbmRsZShzY2hlbWEsIGltcGwsIHBhZ2luYXRlZCk6CiAgICAiIiJWYWxpZGF0ZSAtPiBjYWxsIC0+IG1hcCBlcnJvcnM6IGJhZCBwYXJhbXMgNDAwLCBtaXNzaW5nIGVudGl0eSA0MDQsCiAgICBBbWF6b24gYmxvY2tzIC8gdHJhbnNwb3J0IGZhaWx1cmVzIDUwMiwgYW55dGhpbmcgZWxzZSA1MDAuIiIiCiAgICByYXcgPSBxdWVyeV9kaWN0KCkKICAgIGRhdGEsIGVycm9yID0gbG9hZF9xdWVyeShzY2hlbWEsIHJhdykKICAgIGlmIGVycm9yOgogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKGVycm9yLCA0MDApCiAgICB0cnk6CiAgICAgICAgcmVzdWx0ID0gaW1wbCgqKmRhdGEpCiAgICBleGNlcHQgVmFsdWVFcnJvciBhcyBlOgogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKHsiZXJyb3IiOiBzdHIoZSl9LCA0MDApCiAgICBleGNlcHQgQmFkUmVxdWVzdCBhcyBlOgogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKHsiZXJyb3IiOiBmImFtYXpvbiByZWplY3RlZCB0aGUgcmVxdWVzdDoge2V9In0sIDQwMCkKICAgIGV4Y2VwdCBOb3RGb3VuZCBhcyBlOgogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKHsiZXJyb3IiOiBzdHIoZSkgb3IgIm5vdCBmb3VuZCJ9LCA0MDQpCiAgICBleGNlcHQgQmxvY2tlZCBhcyBlOgogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKHsiZXJyb3IiOiBmImFtYXpvbiBibG9ja2VkIHRoZSByZXF1ZXN0LCByZXRyeSBsYXRlcjoge2V9In0sIDUwMikKICAgIGV4Y2VwdCBVcHN0cmVhbUVycm9yIGFzIGU6CiAgICAgICAgcmV0dXJuIGpzb25fcmVzcG9uc2UoeyJlcnJvciI6IGYiYW1hem9uIHJlcXVlc3QgZmFpbGVkOiB7ZX0ifSwgNTAyKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKHsiZXJyb3IiOiBmInt0eXBlKGUpLl9fbmFtZV9ffToge2V9In0sIDUwMCkKICAgIGlmIGlzaW5zdGFuY2UocmVzdWx0LCBEb250Q2FjaGUpOiAgICAgICAjIGFuIGFuc3dlciBub3Qgd29ydGggY2FjaGluZwogICAgICAgIHJlc3VsdCA9IHJlc3VsdC5kYXRhCiAgICBpZiBwYWdpbmF0ZWQ6CiAgICAgICAgcmVzdWx0ID0gcGFnaW5hdGUocmVzdWx0LCByZXF1ZXN0LnBhdGgsIHJhdykKICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKHJlc3VsdCkKCgpFTkRQT0lOVFMgPSBbCiAgICAjIHBhdGgsIHNjaGVtYSwgZnVuY3Rpb24sIHBhZ2luYXRlZAogICAgKCIvcHJvZHVjdHMvZGV0YWlscyIsIHNjaGVtYXMuUHJvZHVjdERldGFpbHNTY2hlbWEsIHByb2R1Y3RzLmRldGFpbHMsIEZhbHNlKSwKICAgICgiL3NlYXJjaC9hdXRvY29tcGxldGUiLCBzY2hlbWFzLkF1dG9jb21wbGV0ZVNjaGVtYSwgc2VhcmNoLmF1dG9jb21wbGV0ZSwgRmFsc2UpLAogICAgKCIvc2VhcmNoIiwgc2NoZW1hcy5TZWFyY2hTY2hlbWEsIHNlYXJjaC5zZWFyY2gsIFRydWUpLAogICAgKCIvcHJvZHVjdHMvcmV2aWV3cyIsIHNjaGVtYXMuUHJvZHVjdFNjaGVtYSwgcHJvZHVjdHMucmV2aWV3cywgRmFsc2UpLAogICAgKCIvcHJvZHVjdHMvb2ZmZXJzIiwgc2NoZW1hcy5PZmZlcnNTY2hlbWEsIHByb2R1Y3RzLm9mZmVycywgVHJ1ZSksCiAgICAoIi9wcm9kdWN0cy92YXJpYXRpb25zIiwgc2NoZW1hcy5Qcm9kdWN0U2NoZW1hLCBwcm9kdWN0cy52YXJpYXRpb25zLCBGYWxzZSksCiAgICAoIi9wcm9kdWN0cy9idWxrIiwgc2NoZW1hcy5CdWxrU2NoZW1hLCBwcm9kdWN0cy5idWxrLCBGYWxzZSksCiAgICAoIi9wcm9kdWN0cy9sb29rdXAiLCBzY2hlbWFzLkxvb2t1cFNjaGVtYSwgc2VhcmNoLmxvb2t1cCwgRmFsc2UpLAogICAgKCIvYmVzdC1zZWxsZXJzIiwgc2NoZW1hcy5CZXN0c2VsbGVyc1NjaGVtYSwgcmFua2luZ3MuYmVzdHNlbGxlcnMsIFRydWUpLAogICAgKCIvYmVzdC1zZWxsZXJzL2NhdGVnb3JpZXMiLCBzY2hlbWFzLkJlc3RzZWxsZXJDYXRlZ29yaWVzU2NoZW1hLCByYW5raW5ncy5iZXN0c2VsbGVyX2NhdGVnb3JpZXMsIEZhbHNlKSwKICAgICgiL2RlYWxzIiwgc2NoZW1hcy5EZWFsc1NjaGVtYSwgcmFua2luZ3MuZGVhbHMsIFRydWUpLAogICAgKCIvY2F0ZWdvcmllcyIsIHNjaGVtYXMuQ2F0ZWdvcmllc1NjaGVtYSwgc2VhcmNoLmNhdGVnb3JpZXMsIEZhbHNlKSwKICAgICgiL2NhdGVnb3JpZXMvdHJlZSIsIHNjaGVtYXMuQ2F0ZWdvcnlUcmVlU2NoZW1hLCBzZWFyY2guY2F0ZWdvcnlfdHJlZSwgRmFsc2UpLAogICAgKCIvY2F0ZWdvcmllcy9wcm9kdWN0cyIsIHNjaGVtYXMuQ2F0ZWdvcnlQcm9kdWN0c1NjaGVtYSwgc2VhcmNoLmNhdGVnb3J5X3Byb2R1Y3RzLCBUcnVlKSwKICAgICgiL3NlbGxlcnMvZGV0YWlscyIsIHNjaGVtYXMuU2VsbGVyU2NoZW1hLCBzZWxsZXJzLnByb2ZpbGUsIEZhbHNlKSwKICAgICgiL3NlbGxlcnMvZmVlZGJhY2siLCBzY2hlbWFzLlNlbGxlckZlZWRiYWNrU2NoZW1hLCBzZWxsZXJzLmZlZWRiYWNrLCBUcnVlKSwKICAgICgiL3NlbGxlcnMvcHJvZHVjdHMiLCBzY2hlbWFzLlNlbGxlclByb2R1Y3RzU2NoZW1hLCBzZWxsZXJzLnByb2R1Y3RzLCBUcnVlKSwKICAgICgiL2luZmx1ZW5jZXJzL2RldGFpbHMiLCBzY2hlbWFzLkluZmx1ZW5jZXJTY2hlbWEsIGluZmx1ZW5jZXJzLnByb2ZpbGUsIEZhbHNlKSwKICAgICgiL2luZmx1ZW5jZXJzL3Bvc3RzIiwgc2NoZW1hcy5JbmZsdWVuY2VyUG9zdHNTY2hlbWEsIGluZmx1ZW5jZXJzLnBvc3RzLCBGYWxzZSksCiAgICAoIi9pbmZsdWVuY2Vycy9wb3N0cy9wcm9kdWN0cyIsIHNjaGVtYXMuSW5mbHVlbmNlclBvc3RTY2hlbWEsIGluZmx1ZW5jZXJzLnBvc3RfcHJvZHVjdHMsIEZhbHNlKSwKICAgICgiL3NjcmFwZSIsIHNjaGVtYXMuU2NyYXBlVXJsU2NoZW1hLCBwcm9kdWN0cy5zY3JhcGVfdXJsLCBGYWxzZSksCl0KCgpkZWYgbW91bnQocGF0aCwgc2NoZW1hLCBpbXBsLCBwYWdpbmF0ZWQpOgogICAgIiIiU2VydmUgYW4gZW5kcG9pbnQgYXQgL3BhdGggYW5kIC9hbWF6b24vcGF0aC4iIiIKICAgIGRlZiBoYW5kbGVyKCk6CiAgICAgICAgcmV0dXJuIGhhbmRsZShzY2hlbWEsIGltcGwsIHBhZ2luYXRlZCkKICAgIGhhbmRsZXIuX19uYW1lX18gPSAiYW1hem9uXyIgKyBwYXRoLnN0cmlwKCIvIikucmVwbGFjZSgiLyIsICJfIikucmVwbGFjZSgiLSIsICJfIikKICAgIHJvdXRlKHBhdGgsIG1ldGhvZD0iR0VUIikoaGFuZGxlcikKICAgIHJvdXRlKCIvYW1hem9uIiArIHBhdGgsIG1ldGhvZD0iR0VUIikoaGFuZGxlcikKCgpmb3IgX3BhdGgsIF9zY2hlbWEsIF9pbXBsLCBfcGFnaW5hdGVkIGluIEVORFBPSU5UUzoKICAgIG1vdW50KF9wYXRoLCBfc2NoZW1hLCBfaW1wbCwgX3BhZ2luYXRlZCkKCgpAcm91dGUoIi8iLCBtZXRob2Q9IkdFVCIpCkByb3V0ZSgiL2hlYWx0aCIsIG1ldGhvZD0iR0VUIikKZGVmIGhlYWx0aCgpOgogICAgcmV0dXJuIGpzb25fcmVzcG9uc2UoeyJzdGF0dXMiOiAib2siLCAiZW5kcG9pbnRzIjogW2VbMF0gZm9yIGUgaW4gRU5EUE9JTlRTXX0pCg==
+"""The 21 Amazon endpoints. Every path is served with and without the
+`/amazon` prefix, so code generated against the hosted API (paths like
+/products/details) runs unchanged against this server.
+
+Params are validated by the package's own marshmallow schemas
+(amazon/schemas.py): ONE param per input — `product` takes an ASIN or a
+product link, `seller` an id or a seller link, and so on — and a pasted
+amazon.de / amazon.co.uk … link picks that marketplace by itself.
+"""
+import json
+from urllib.parse import urlencode
+
+from bottle import request, response, route
+
+from cache import DontCache
+from amazon import influencers, products, rankings, schemas, search, sellers
+from schema_fields import load_query
+from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
+
+
+def json_response(data, status=200):
+    response.status = status
+    response.content_type = "application/json"
+    return json.dumps(data, ensure_ascii=False)
+
+
+def query_dict():
+    """The query as unicode strings (bottle 0.12's .get() hands back latin-1
+    decoded bytes, so a UTF-8 "Café" would arrive as "CafÃ©")."""
+    return {key: request.query.getunicode(key) for key in request.query.keys()}
+
+
+def _page_link(path, params, page):
+    if not page:
+        return None
+    query = {k: v for k, v in params.items() if v not in (None, "")}
+    query["page"] = page
+    return f"{request.urlparts.scheme}://{request.urlparts.netloc}{path}?{urlencode(query)}"
+
+
+def paginate(result, path, params):
+    """Lift the endpoint's `pagination` block into the flat shape the hosted
+    API returns: count / per_page / current_page / total_pages / next / previous."""
+    pagination = result.pop("pagination", None) or {}
+    page = int(pagination.get("page") or params.get("page") or 1)
+    total_pages = int(pagination.get("total_pages") or 0)
+    out = {
+        "count": pagination.get("total_count"),
+        "per_page": pagination.get("items_per_page"),
+        "current_page": page,
+        "total_pages": total_pages,
+        "next": _page_link(path, params, page + 1 if page < total_pages else None),
+        "previous": _page_link(path, params, page - 1 if page > 1 else None),
+    }
+    out.update(result)
+    return out
+
+
+def handle(schema, impl, paginated):
+    """Validate -> call -> map errors: bad params 400, missing entity 404,
+    Amazon blocks / transport failures 502, anything else 500."""
+    raw = query_dict()
+    data, error = load_query(schema, raw)
+    if error:
+        return json_response(error, 400)
+    try:
+        result = impl(**data)
+    except ValueError as e:
+        return json_response({"error": str(e)}, 400)
+    except BadRequest as e:
+        return json_response({"error": f"amazon rejected the request: {e}"}, 400)
+    except NotFound as e:
+        return json_response({"error": str(e) or "not found"}, 404)
+    except Blocked as e:
+        return json_response({"error": f"amazon blocked the request, retry later: {e}"}, 502)
+    except UpstreamError as e:
+        return json_response({"error": f"amazon request failed: {e}"}, 502)
+    except Exception as e:
+        return json_response({"error": f"{type(e).__name__}: {e}"}, 500)
+    if isinstance(result, DontCache):       # an answer not worth caching
+        result = result.data
+    if paginated:
+        result = paginate(result, request.path, raw)
+    return json_response(result)
+
+
+ENDPOINTS = [
+    # path, schema, function, paginated
+    ("/products/details", schemas.ProductDetailsSchema, products.details, False),
+    ("/search/autocomplete", schemas.AutocompleteSchema, search.autocomplete, False),
+    ("/search", schemas.SearchSchema, search.search, True),
+    ("/products/reviews", schemas.ProductSchema, products.reviews, False),
+    ("/products/offers", schemas.OffersSchema, products.offers, True),
+    ("/products/variations", schemas.ProductSchema, products.variations, False),
+    ("/products/bulk", schemas.BulkSchema, products.bulk, False),
+    ("/products/lookup", schemas.LookupSchema, search.lookup, False),
+    ("/best-sellers", schemas.BestsellersSchema, rankings.bestsellers, True),
+    ("/best-sellers/categories", schemas.BestsellerCategoriesSchema, rankings.bestseller_categories, False),
+    ("/deals", schemas.DealsSchema, rankings.deals, True),
+    ("/categories", schemas.CategoriesSchema, search.categories, False),
+    ("/categories/tree", schemas.CategoryTreeSchema, search.category_tree, False),
+    ("/categories/products", schemas.CategoryProductsSchema, search.category_products, True),
+    ("/sellers/details", schemas.SellerSchema, sellers.profile, False),
+    ("/sellers/feedback", schemas.SellerFeedbackSchema, sellers.feedback, True),
+    ("/sellers/products", schemas.SellerProductsSchema, sellers.products, True),
+    ("/influencers/details", schemas.InfluencerSchema, influencers.profile, False),
+    ("/influencers/posts", schemas.InfluencerPostsSchema, influencers.posts, False),
+    ("/influencers/posts/products", schemas.InfluencerPostSchema, influencers.post_products, False),
+    ("/scrape", schemas.ScrapeUrlSchema, products.scrape_url, False),
+]
+
+
+def mount(path, schema, impl, paginated):
+    """Serve an endpoint at /path and /amazon/path."""
+    def handler():
+        return handle(schema, impl, paginated)
+    handler.__name__ = "amazon_" + path.strip("/").replace("/", "_").replace("-", "_")
+    route(path, method="GET")(handler)
+    route("/amazon" + path, method="GET")(handler)
+
+
+for _path, _schema, _impl, _paginated in ENDPOINTS:
+    mount(_path, _schema, _impl, _paginated)
+
+
+@route("/", method="GET")
+@route("/health", method="GET")
+def health():
+    return json_response({"status": "ok", "endpoints": [e[0] for e in ENDPOINTS]})

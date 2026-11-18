@@ -1,1 +1,49 @@
-IyDnq57lk4HkuI7lr7nmoIfmuIXljZXvvIhDb21wZXRpdG9yc++8iQoKPiDpqqjmnrbmqKHmnb/jgILosIPnoJTlkozmi4bop6Pml7booaXlhYXnq57lk4Hlupfpk7rjgIHniIbmrL7llYblk4HjgIHlr7nmoIfovr7kurrjgIIKCiMjIOernuWTgeW6l+mTuiAvIOWVhuWTgQoKfCDlkI3np7AgfCDlubPlj7AgfCDku7fmoLwgfCDljZbngrkgfCDmlbDmja7ooajnjrAgfCDlpIfms6ggfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18LS0tLS0tfC0tLS0tLS0tLXwtLS0tLS18Cnwg5b6F6KGl5YWFIHwgfCB8IHwgfCB8CgojIyDlr7nmoIfovr7kuroKCnwg6L6+5Lq6IHwg57KJ5Lid6YeP57qnIHwg5ZOB57G7IHwg5bim6LSn6KGo546wIHwg5ZCI5L2c54q25oCBIHwg5aSH5rOoIHwKfC0tLS0tLXwtLS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLXwtLS0tLS0tLS18LS0tLS0tfAp8IOW+heihpeWFhSB8IHwgfCB8IHwgfAoKIyMg5YWz5rOo5YWz6ZSu6K+NIC8g5ZOB57G76K+NCgotIO+8iOW+heihpeWFhe+8mueUqOS6jiBUaWtUb2sg5YmN5Y+w5pCc57Si44CBR29vZ2xlIFRyZW5kc+OAgUFtYXpvbiDmppzljZXnmoTlm7rlrprmo4DntKLor43vvIkKCiMjIOmqqOWjsOe6uS9WUFUg5oqA5pyv5qC85bGA77yIMjAyNi0xMS0xOCDosIPnoJTvvIzph43opoHvvIkKCioq5YWz6ZSu5r6E5riF77ya6aqo5aOw57q577yIVlBV77yJPSDpgJror53mi77pn7PpmY3lmarvvIjlr7nmlrnlkKzmuIXkvaDvvInvvIziiaAg5ZCs6Z+z56uvIEFOQ++8iOS9oOWQrOa4heWklueVjO+8ieOAgioqCuiAs+WkuS/lvIDmlL7lvI/lm6Dml6Dlr4blsIHvvIzniannkIbkuIrml6Dms5XlgZrnnJ/mraMgQU5D77yI5LiJ5pifIEdhbGF4eSBCdWRzIE9uIOaKpemBk+aYjuehruaMh+WHuui/meaYryBwaHlzaWNzIGNvbnN0cmFpbnTvvInjgIIKCue+juWMui/lhajnkIPlt7LnlKjpqqjlo7DnurkgVlBVIOeahOS6p+WTge+8iOivtOaYjuivpeaKgOacr+ato+S7juWNlueCueWPmOagh+mFje+8jOmdnueLrOWutueqgeegtO+8ie+8mgp8IOWTgeeJjC/kuqflk4EgfCDmlrnmoYggfCDml7bpl7QgfCDmnaXmupAgfAp8LS0tLS0tLS0tLS18LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgVUdSRUVOIENsaXBCdWRzIFBybyAyIHwgNOm6pisyIFZQVe+8jOS4u+aJkyAiQ2xhcml0eSBpbiBDYWxscyLvvIw3NWRCIOeOr+Wig+a4heaZsOmAmuivnSB8IDIwMjYtMTAgfCBQUk5ld3N3aXJlIHwKfCBTYW1zdW5nIEdhbGF4eSBCdWRzIE9uIHwgVlBVKzPpuqYrTUzvvIxGQ0Mg5bey6L+HKDIwMjYtMDkp77yM6aKE6K6hIDIwMjcgUTEg576O5Zu95LiK5biC77yMJDIyOS0yNDkgfCAyMDI2LTEwIHwgVGVjaCBUaW1lcy9GQ0MgfAp8IFRpbWVrZXR0bGUgVzQvVzQgUGx1cyB8IOmqqOWjsOe6uee/u+ivkeiAs+acuu+8jFZvaWNlRm9jdXMg6ZmN5Zmq5o+Q5Y2HMzItNDclIHwgMjAyNS0yMDI2IHwgYXVkaW9YcHJlc3MgfAp8IOibh+Wco+mZqOefs01heCAvIEpWQyAvIOe0ouWjsFMxIHwg5Zu95YaF6ICz5aS5L+WFpeiAs+mqqOWjsOe6uSB8IDIwMjYgfCDooYzkuJrlqpLkvZMgfAoK5Lyg5oSf5Zmo5L6b5bqU6ZO+5oiQ54af77yaU29uaW9u44CBR29lcnRlayjmrYzlsJQp44CBU1RNaWNyb+OAgUJvc2No44CBS25vd2xlc+OAgVZlc3BlcuOAgU1FTVNlbnNpbmcg5Z2H5L6bIFZQVS/pqqjkvKDlr7zkvKDmhJ/lmajjgIIKCioq5a+5IFRyb3kg6aG555uu55qE5ZCv56S6KirvvJrpqqjlo7DnurnmnKzouqvkuI3mnoTmiJDlt67lvILljJbvvIjlpKfniYzlt7LkuIrvvInvvIznqoHnoLTngrnlupTlnKgi5ZG85Y+r5riF5pmw5bqmIueahCoq5Zy65pmv5YyW6aqM6K+B5pWw5o2uKiogKyDlhoXlrrnlj6/op4bljJbmvJTnpLrvvIzmiJbpqqjlo7DnurnkuI4gQU5DL+e/u+ivkeeahOe7hOWQiOOAgumcgOWcqOiwg+eglOS4reehruiupCBUcm95IOeahOaKgOacr+WFt+S9k+aYryLmi77pn7Pnq68i6L+Y5pivIuWQrOmfs+erryLjgIIKCiMjIOe+juWMuuiAs+Wkue+8iGNsaXAtb27vvInnq57lk4Hnn6npmLXvvIgyMDI2LTExLTE4IEFtYXpvbiDliY3lj7DmkJzntKLvvIzpnZ7lrpjmlrnplIDph4/vvIkKCnwg5ZWG5ZOBIHwgQVNJTiB8IOivhOWIhiB8IOivhOiuuuaVsCB8IOexu+WeiyB8IOWkh+azqCB8CnwtLS0tLS18LS0tLS0tfC0tLS0tLXwtLS0tLS0tLXwtLS0tLS18LS0tLS0tfAp8IFRPWk8gT3BlbkVhclJpbmcgfCBCMERIVkg1S0NCIHwgNC4zIHwgNDYsMTY4IHwg5byA5pS+5byP6ICz5aS5IHwg6K+E6K666YeP5pyA5aSn77yM5ZWG5ZOB6aG15pys5qyh5Y+N5aSNIDQwNCDmnKrmipPliLAgQUkg6IGa5ZCIIHwKfCBTb3VuZGNvcmUgQzUwaSAoQW5rZXIpIHwgQjBGS1NWMkdXMiB8IDQuMyB8IDMsNTcxIHwg5aS56ICz5byPIHwgQUnogZrlkIjvvJrpn7PotKgv5oCn5Lu35q+UL+i/kOWKqOeos+WbuiBwb3NpdGl2Ze+8m+e7reiIqi/ov57mjqUvY29tZm9ydCBtaXhlZCB8CnwgSkJMIFNvdW5kZ2VhciBDbGlwcyB8IEIwR0xMRjY3NU0gfCA0LjEgfCAyMTQgfCDlvIDmlL7lvI/ogLPlpLkgfCDpgI/mmI7oibLlpJbop4Ir5Zy65pmv5oSf55+l5Li65Y2W54K577ybdmFsdWUvZml0L2JhdHRlcnkgbWl4ZWQgfAp8IFJheWNvbiBFdmVyeWRheSBDbGlwIE9uIHwgQjBHVEJWMUMxTiB8IDQuMyB8IDQ4NiB8IOWkueiAs+W8jyB8IOS4u+aJkyBvcGVuIGVhciArIOmYsuawtCB8CnwgSHVhd2VpIEZyZWVjbGlwIDIgfCDigJQgfCDigJQgfCDigJQgfCDlpLnogLPlvI8gfCBSZWRkaXQg55So5oi356ewImN1cnJlbnRseSB0aGUgYmVzdCBjbGlwLW9uIHN0eWxlIu+8iOS4u+inguivhOS7t++8jOmdnuaVsOaNru+8iSB8CnwgU2hva3ogT3BlbmRvdHMgMiB8IOKAlCB8IOKAlCB8IOKAlCB8IOWkueiAs+W8jyB8IFJlZGRpdCDpq5jpopHmjqjojZDvvIznnLzplZzlhZov6L+Q5Yqo5YWa5Y+L5aW9IHwKCuazqO+8muS7peS4iuivhOWIhi/or4TorrrmlbDkuLogQW1hem9uIOWJjeWPsOWPr+ingeaVsOaNru+8iOaKk+WPluaXtumXtCAyMDI2LTExLTE477yJ77yM6Z2e5a6Y5pa56ZSA6YeP77yM5LuF5L2c56ue5LqJ5qC85bGA5Y+C6ICD44CC5Lu35qC85bim5pys5qyh5pyq6YCQ5LiA5oqT5Y+W77yM5b6F6KGl5YWF44CCCg==
+# 竞品与对标清单（Competitors）
+
+> 骨架模板。调研和拆解时补充竞品店铺、爆款商品、对标达人。
+
+## 竞品店铺 / 商品
+
+| 名称 | 平台 | 价格 | 卖点 | 数据表现 | 备注 |
+|------|------|------|------|---------|------|
+| 待补充 | | | | | |
+
+## 对标达人
+
+| 达人 | 粉丝量级 | 品类 | 带货表现 | 合作状态 | 备注 |
+|------|---------|------|---------|---------|------|
+| 待补充 | | | | | |
+
+## 关注关键词 / 品类词
+
+- （待补充：用于 TikTok 前台搜索、Google Trends、Amazon 榜单的固定检索词）
+
+## 骨声纹/VPU 技术格局（2026-11-18 调研，重要）
+
+**关键澄清：骨声纹（VPU）= 通话拾音降噪（对方听清你），≠ 听音端 ANC（你听清外界）。**
+耳夹/开放式因无密封，物理上无法做真正 ANC（三星 Galaxy Buds On 报道明确指出这是 physics constraint）。
+
+美区/全球已用骨声纹 VPU 的产品（说明该技术正从卖点变标配，非独家突破）：
+| 品牌/产品 | 方案 | 时间 | 来源 |
+|-----------|------|------|------|
+| UGREEN ClipBuds Pro 2 | 4麦+2 VPU，主打 "Clarity in Calls"，75dB 环境清晰通话 | 2026-10 | PRNewswire |
+| Samsung Galaxy Buds On | VPU+3麦+ML，FCC 已过(2026-09)，预计 2027 Q1 美国上市，$229-249 | 2026-10 | Tech Times/FCC |
+| Timekettle W4/W4 Plus | 骨声纹翻译耳机，VoiceFocus 降噪提升32-47% | 2025-2026 | audioXpress |
+| 蛇圣陨石Max / JVC / 索声S1 | 国内耳夹/入耳骨声纹 | 2026 | 行业媒体 |
+
+传感器供应链成熟：Sonion、Goertek(歌尔)、STMicro、Bosch、Knowles、Vesper、MEMSensing 均供 VPU/骨传导传感器。
+
+**对 Troy 项目的启示**：骨声纹本身不构成差异化（大牌已上），突破点应在"呼叫清晰度"的**场景化验证数据** + 内容可视化演示，或骨声纹与 ANC/翻译的组合。需在调研中确认 Troy 的技术具体是"拾音端"还是"听音端"。
+
+## 美区耳夹（clip-on）竞品矩阵（2026-11-18 Amazon 前台搜索，非官方销量）
+
+| 商品 | ASIN | 评分 | 评论数 | 类型 | 备注 |
+|------|------|------|--------|------|------|
+| TOZO OpenEarRing | B0DHVH5KCB | 4.3 | 46,168 | 开放式耳夹 | 评论量最大，商品页本次反复 404 未抓到 AI 聚合 |
+| Soundcore C50i (Anker) | B0FKSV2GW2 | 4.3 | 3,571 | 夹耳式 | AI聚合：音质/性价比/运动稳固 positive；续航/连接/comfort mixed |
+| JBL Soundgear Clips | B0GLLF675M | 4.1 | 214 | 开放式耳夹 | 透明色外观+场景感知为卖点；value/fit/battery mixed |
+| Raycon Everyday Clip On | B0GTBV1C1N | 4.3 | 486 | 夹耳式 | 主打 open ear + 防水 |
+| Huawei Freeclip 2 | — | — | — | 夹耳式 | Reddit 用户称"currently the best clip-on style"（主观评价，非数据） |
+| Shokz Opendots 2 | — | — | — | 夹耳式 | Reddit 高频推荐，眼镜党/运动党友好 |
+
+注：以上评分/评论数为 Amazon 前台可见数据（抓取时间 2026-11-18），非官方销量，仅作竞争格局参考。价格带本次未逐一抓取，待补充。

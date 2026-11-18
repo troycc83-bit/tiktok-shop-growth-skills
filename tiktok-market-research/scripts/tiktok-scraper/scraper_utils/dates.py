@@ -1,1 +1,73 @@
-IiIiRGF0ZSBoZWxwZXJzIGZvciBwYXJzZXJzOiB3aGF0ZXZlciBhIHNpdGUgcHJpbnRzIC0+IElTTyB0ZXh0LCBvciBOb25lLiIiIgppbXBvcnQgcmUKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWV6b25lCgpmcm9tIHNjcmFwZXJfdXRpbHMudGV4dCBpbXBvcnQgY2xlYW4gYXMgdGV4dApmcm9tIHNjcmFwZXJfdXRpbHMudmFsdWVzIGltcG9ydCB0b19pbnQKCl9MT05HX0RBVEVfRk9STUFUUyA9ICgiJUIgJWQsICVZIiwgIiViICVkLCAlWSIsICIlZCAlQiAlWSIsICIlZCAlYiAlWSIsICIlWS0lbS0lZCIsICIlbS8lZC8lWSIsICIlZC8lbS8lWSIpCgoKZGVmIGlzb19kYXRlKHZhbHVlKToKICAgICIiIicyMSBTZXAgMjAyNicgLyAnMjAyNi0wOS0yMlTigKYnIC8gJ1NlcHRlbWJlciAyMiwgMjAyNicgLT4gJ1lZWVktTU0tREQnLgogICAgQSBzbGFzaCBkYXRlIGlzIHJlYWQgbW9udGggZmlyc3QgKCcwMy8wNC8yMDI2JyBpcyA0IE1hcmNoKS4iIiIKICAgIHZhbHVlID0gdGV4dCh2YWx1ZSkKICAgIGlmIG5vdCB2YWx1ZToKICAgICAgICByZXR1cm4gTm9uZQogICAgbWF0Y2ggPSByZS5tYXRjaChyIihcZHs0fSktKFxkezJ9KS0oXGR7Mn0pIiwgdmFsdWUpCiAgICBpZiBtYXRjaDoKICAgICAgICByZXR1cm4gIi0iLmpvaW4obWF0Y2guZ3JvdXBzKCkpCiAgICBmb3IgZm10IGluIF9MT05HX0RBVEVfRk9STUFUUzoKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJldHVybiBkYXRldGltZS5zdHJwdGltZSh2YWx1ZSwgZm10KS5zdHJmdGltZSgiJVktJW0tJWQiKQogICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICBjb250aW51ZQogICAgcmV0dXJuIE5vbmUKCgpkZWYgaXNvX2RhdGV0aW1lKHZhbHVlKToKICAgICIiIicyMDI2LTA5LTE4VDA0OjMwOjQ5LjQzM1onIC8ge2RhdGVUaW1lVXRjfSAtPiAnMjAyNi0wOS0xOFQwNDozMDo0OVonICh0aGUKICAgIGNsb2NrIHRpbWUgYXMgd3JpdHRlbiwgdG8gdGhlIHNlY29uZCk7IGEgYmFyZSBkYXRlIC0+ICdZWVlZLU1NLUREJy4iIiIKICAgIGlmIGlzaW5zdGFuY2UodmFsdWUsIGRpY3QpOgogICAgICAgIHZhbHVlID0gdmFsdWUuZ2V0KCJkYXRlVGltZVV0YyIpIG9yIHZhbHVlLmdldCgiZGF0ZVRpbWUiKSBvciB2YWx1ZS5nZXQoInNob3J0QWJzb2x1dGVMYWJlbCIpCiAgICB2YWx1ZSA9IHRleHQodmFsdWUpCiAgICBpZiBub3QgdmFsdWU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIG1hdGNoID0gcmUubWF0Y2gociIoXGR7NH0tXGR7Mn0tXGR7Mn0pVChcZHsyfTpcZHsyfTpcZHsyfSkiLCB2YWx1ZSkKICAgIGlmIG1hdGNoOgogICAgICAgIHJldHVybiBmInttYXRjaC5ncm91cCgxKX1Ue21hdGNoLmdyb3VwKDIpfVoiCiAgICByZXR1cm4gaXNvX2RhdGUodmFsdWUpCgoKZGVmIGlzb19kYXkodmFsdWUpOgogICAgIiIiJzIwMjYtMDQtMDcnIC8gJzIwMjYtMDQtMDdULi4uJyAtPiAnMjAyNi0wNC0wNycgKHRoZSBjYWxlbmRhciBkYXRlIGFzCiAgICB3cml0dGVuKTsgYW55dGhpbmcgdGhhdCBkb2VzIG5vdCBzdGFydCB3aXRoIGFuIElTTyBkYXRlIC0+IE5vbmUuIiIiCiAgICBpZiBub3QgaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKToKICAgICAgICByZXR1cm4gTm9uZQogICAgbWF0Y2ggPSByZS5tYXRjaChyIihcZHs0fS1cZHsyfS1cZHsyfSkiLCB2YWx1ZS5zdHJpcCgpKQogICAgcmV0dXJuIG1hdGNoLmdyb3VwKDEpIGlmIG1hdGNoIGVsc2UgTm9uZQoKCmRlZiBpc29fdXRjKHZhbHVlKToKICAgICIiIicyMDI2LTEwLTA1VDIwOjQ3OjI0LjU2MSsxMTowMCcgLT4gJzIwMjYtMTAtMDVUMDk6NDc6MjRaJy4gQSB0aW1lIHdpdGgKICAgIG5vIG9mZnNldCBpcyB0YWtlbiBhcyBVVEMgYWxyZWFkeS4iIiIKICAgIGlmIG5vdCB2YWx1ZSBvciBub3QgaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKToKICAgICAgICByZXR1cm4gTm9uZQogICAgdHJ5OgogICAgICAgIHBhcnNlZCA9IGRhdGV0aW1lLmZyb21pc29mb3JtYXQodmFsdWUucmVwbGFjZSgiWiIsICIrMDA6MDAiKSkKICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgIHJldHVybiBOb25lCiAgICBpZiBwYXJzZWQudHppbmZvIGlzIE5vbmU6CiAgICAgICAgcGFyc2VkID0gcGFyc2VkLnJlcGxhY2UodHppbmZvPXRpbWV6b25lLnV0YykKICAgIHJldHVybiBwYXJzZWQuYXN0aW1lem9uZSh0aW1lem9uZS51dGMpLnN0cmZ0aW1lKCIlWS0lbS0lZFQlSDolTTolU1oiKQoKCmRlZiBlcG9jaF91dGMoZXBvY2gpOgogICAgIiIiRXBvY2ggc2Vjb25kcyAtPiAnMjAyNi0wOS0xN1QxNDoyNzo0NFonOyAwLCBqdW5rIGFuZCBvdXQtb2YtcmFuZ2UgLT4gTm9uZS4iIiIKICAgIHNlY29uZHMgPSB0b19pbnQoZXBvY2gpCiAgICBpZiBub3Qgc2Vjb25kczoKICAgICAgICByZXR1cm4gTm9uZQogICAgdHJ5OgogICAgICAgIHJldHVybiBkYXRldGltZS5mcm9tdGltZXN0YW1wKHNlY29uZHMsIHR6PXRpbWV6b25lLnV0Yykuc3RyZnRpbWUoIiVZLSVtLSVkVCVIOiVNOiVTWiIpCiAgICBleGNlcHQgKE92ZXJmbG93RXJyb3IsIE9TRXJyb3IsIFZhbHVlRXJyb3IpOgogICAgICAgIHJldHVybiBOb25lCg==
+"""Date helpers for parsers: whatever a site prints -> ISO text, or None."""
+import re
+from datetime import datetime, timezone
+
+from scraper_utils.text import clean as text
+from scraper_utils.values import to_int
+
+_LONG_DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y", "%d %B %Y", "%d %b %Y", "%Y-%m-%d", "%m/%d/%Y", "%d/%m/%Y")
+
+
+def iso_date(value):
+    """'21 Sep 2026' / '2026-09-22T…' / 'September 22, 2026' -> 'YYYY-MM-DD'.
+    A slash date is read month first ('03/04/2026' is 4 March)."""
+    value = text(value)
+    if not value:
+        return None
+    match = re.match(r"(\d{4})-(\d{2})-(\d{2})", value)
+    if match:
+        return "-".join(match.groups())
+    for fmt in _LONG_DATE_FORMATS:
+        try:
+            return datetime.strptime(value, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return None
+
+
+def iso_datetime(value):
+    """'2026-09-18T04:30:49.433Z' / {dateTimeUtc} -> '2026-09-18T04:30:49Z' (the
+    clock time as written, to the second); a bare date -> 'YYYY-MM-DD'."""
+    if isinstance(value, dict):
+        value = value.get("dateTimeUtc") or value.get("dateTime") or value.get("shortAbsoluteLabel")
+    value = text(value)
+    if not value:
+        return None
+    match = re.match(r"(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2}:\d{2})", value)
+    if match:
+        return f"{match.group(1)}T{match.group(2)}Z"
+    return iso_date(value)
+
+
+def iso_day(value):
+    """'2026-04-07' / '2026-04-07T...' -> '2026-04-07' (the calendar date as
+    written); anything that does not start with an ISO date -> None."""
+    if not isinstance(value, str):
+        return None
+    match = re.match(r"(\d{4}-\d{2}-\d{2})", value.strip())
+    return match.group(1) if match else None
+
+
+def iso_utc(value):
+    """'2026-10-05T20:47:24.561+11:00' -> '2026-10-05T09:47:24Z'. A time with
+    no offset is taken as UTC already."""
+    if not value or not isinstance(value, str):
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def epoch_utc(epoch):
+    """Epoch seconds -> '2026-09-17T14:27:44Z'; 0, junk and out-of-range -> None."""
+    seconds = to_int(epoch)
+    if not seconds:
+        return None
+    try:
+        return datetime.fromtimestamp(seconds, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except (OverflowError, OSError, ValueError):
+        return None

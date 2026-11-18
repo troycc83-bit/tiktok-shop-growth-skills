@@ -1,1 +1,11 @@
-c2VydmljZXM6CiAgYW1hem9uLXNjcmFwZXI6CiAgICBidWlsZDogLgogICAgcmVzdGFydDogdW5sZXNzLXN0b3BwZWQKICAgIHBvcnRzOgogICAgICAtICI4MDAwOjgwMDAiCiAgICBlbnZpcm9ubWVudDoKICAgICAgLSBQT1JUPTgwMDAKICAgICAgIyBPcHRpb25hbCDigJQgb25seSBuZWVkZWQgZm9yIGNvdW50cnk9SlAgLyBjb3VudHJ5PUFVIChhIHByb3h5IGluIHRoYXQKICAgICAgIyBjb3VudHJ5KSBvciB2ZXJ5IGhpZ2ggdm9sdW1lcy4KICAgICAgIyAtIEFNQVpPTl9QUk9YWT1odHRwOi8vdXNlcjpwYXNzQGhvc3Q6cG9ydAo=
+services:
+  amazon-scraper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # Optional — only needed for country=JP / country=AU (a proxy in that
+      # country) or very high volumes.
+      # - AMAZON_PROXY=http://user:pass@host:port

@@ -1,1 +1,61 @@
-IiIiU21hbGwgaW4tcHJvY2VzcyBjYWNoZXMgZm9yIGxvb2t1cHMgYSBzaXRlIHJlcGVhdHMgKHJlZmVyZW5jZSBsaXN0cywgaWRzKS4KClRoZSBkaWN0IGFuZCBpdHMgbG9jayBzdGF5IGluIHRoZSBzaXRlIG1vZHVsZSBhbmQgYXJlIHBhc3NlZCBpbiwgc28gdGhlIHNpdGUncwp0ZXN0cyBjYW4gY2xlYXIgb3IgaW5zcGVjdCB0aGVtIGFzIGJlZm9yZS4iIiIKaW1wb3J0IGpzb24KaW1wb3J0IHRpbWUKCgpkZWYgbWVtb2l6ZWQoc3RvcmUsIGxvY2ssIGNhcCwga2V5LCBmbiwgdHRsKToKICAgICIiImZuKCkgY2FjaGVkIHVuZGVyIGBrZXlgIGZvciBgdHRsYCBzZWNvbmRzLiBgc3RvcmVgIGlzIGFuIE9yZGVyZWREaWN0CiAgICBrZXB0IHRvIHRoZSBgY2FwYCBtb3N0IHJlY2VudGx5IHVzZWQgZW50cmllcy4gZm4oKSBydW5zIG91dHNpZGUgdGhlIGxvY2ssCiAgICBzbyB0d28gdGhyZWFkcyBtYXkgYm90aCBjb21wdXRlIGEgbWlzc2luZyBrZXkuIiIiCiAgICBub3cgPSB0aW1lLm1vbm90b25pYygpCiAgICB3aXRoIGxvY2s6CiAgICAgICAgaGl0ID0gc3RvcmUuZ2V0KGtleSkKICAgICAgICBpZiBoaXQgYW5kIG5vdyAtIGhpdFswXSA8IHR0bDoKICAgICAgICAgICAgc3RvcmUubW92ZV90b19lbmQoa2V5KQogICAgICAgICAgICByZXR1cm4gaGl0WzFdCiAgICB2YWx1ZSA9IGZuKCkKICAgIHdpdGggbG9jazoKICAgICAgICBzdG9yZVtrZXldID0gKG5vdywgdmFsdWUpCiAgICAgICAgc3RvcmUubW92ZV90b19lbmQoa2V5KQogICAgICAgIHdoaWxlIGxlbihzdG9yZSkgPiBjYXA6CiAgICAgICAgICAgIHN0b3JlLnBvcGl0ZW0obGFzdD1GYWxzZSkKICAgIHJldHVybiB2YWx1ZQoKCmRlZiBleHBpcmluZyhzdG9yZSwgbG9jaywga2V5LCB0dGwsIGJ1aWxkKToKICAgICIiImJ1aWxkKCkgY2FjaGVkIHVuZGVyIGBrZXlgIHVudGlsIGB0dGxgIHNlY29uZHMgZnJvbSBub3c7IG5ldmVyIGV2aWN0ZWQuIiIiCiAgICBub3cgPSB0aW1lLnRpbWUoKQogICAgd2l0aCBsb2NrOgogICAgICAgIGhpdCA9IHN0b3JlLmdldChrZXkpCiAgICAgICAgaWYgaGl0IGFuZCBoaXRbMF0gPiBub3c6CiAgICAgICAgICAgIHJldHVybiBoaXRbMV0KICAgIHZhbHVlID0gYnVpbGQoKQogICAgd2l0aCBsb2NrOgogICAgICAgIHN0b3JlW2tleV0gPSAobm93ICsgdHRsLCB2YWx1ZSkKICAgIHJldHVybiB2YWx1ZQoKCmRlZiByZW1lbWJlcihzdG9yZSwgbG9jaywga2V5LCB0dGwsIHZhbHVlKToKICAgICIiIlB1dCBhIHZhbHVlIGFuIGV4cGlyaW5nKCkgbG9va3VwIHdvdWxkIHJldHVybiwgd2l0aG91dCBidWlsZGluZyBpdC4iIiIKICAgIHdpdGggbG9jazoKICAgICAgICBzdG9yZVtrZXldID0gKHRpbWUudGltZSgpICsgdHRsLCB2YWx1ZSkKCgpkZWYgc2hhcmVkX3JhdyhtZW1vaXplZCwgcHJlZml4LCBtZW1vX3R0bCwgbmFtZSwgcGFyYW1zLCBidWlsZCwgdHRsKToKICAgICIiIkFuIHVwc3RyZWFtIHBheWxvYWQgc2hhcmVkIGJ5IHNldmVyYWwgcm91dGVzOiB0aGUgc2l0ZSdzIGluLXByb2Nlc3MKICAgIG1lbW8sIHRoZW4gdGhlIHNlcnZpY2UncyByZXNwb25zZSBjYWNoZSAocG9kcyBzaGFyZSBpdCkgd2hlbiBvbmUgaXMKICAgIGluc3RhbGxlZCwgdGhlbiBidWlsZCgpLiBXaXRob3V0IGEgYGNhY2hlYCBtb2R1bGUgKGFuIG9wZW4tc291cmNlIHJlcG8pCiAgICBpdCBpcyB0aGUgaW4tcHJvY2VzcyBtZW1vIGFsb25lLiIiIgogICAgdHJ5OgogICAgICAgIGZyb20gY2FjaGUgaW1wb3J0IGNhY2hlZF9jYWxsCiAgICBleGNlcHQgSW1wb3J0RXJyb3I6CiAgICAgICAgY2FjaGVkX2NhbGwgPSBOb25lCiAgICBzZWNvbmRzID0gdHRsLnRvdGFsX3NlY29uZHMoKSBpZiBoYXNhdHRyKHR0bCwgInRvdGFsX3NlY29uZHMiKSBlbHNlIHR0bAogICAga2V5ID0gKG5hbWUsIGpzb24uZHVtcHMocGFyYW1zLCBzb3J0X2tleXM9VHJ1ZSkpCiAgICBpZiBjYWNoZWRfY2FsbCBpcyBOb25lOgogICAgICAgIHJldHVybiBtZW1vaXplZChrZXksIGJ1aWxkLCB0dGw9bWluKHNlY29uZHMsIG1lbW9fdHRsKSkKICAgIHJldHVybiBtZW1vaXplZChrZXksIGxhbWJkYTogY2FjaGVkX2NhbGwoZiJ7cHJlZml4fXtuYW1lfSIsIHBhcmFtcywgbGFtYmRhICoqXzogYnVpbGQoKSwgdHRsKSwKICAgICAgICAgICAgICAgICAgICB0dGw9bWluKHNlY29uZHMsIG1lbW9fdHRsKSkK
+"""Small in-process caches for lookups a site repeats (reference lists, ids).
+
+The dict and its lock stay in the site module and are passed in, so the site's
+tests can clear or inspect them as before."""
+import json
+import time
+
+
+def memoized(store, lock, cap, key, fn, ttl):
+    """fn() cached under `key` for `ttl` seconds. `store` is an OrderedDict
+    kept to the `cap` most recently used entries. fn() runs outside the lock,
+    so two threads may both compute a missing key."""
+    now = time.monotonic()
+    with lock:
+        hit = store.get(key)
+        if hit and now - hit[0] < ttl:
+            store.move_to_end(key)
+            return hit[1]
+    value = fn()
+    with lock:
+        store[key] = (now, value)
+        store.move_to_end(key)
+        while len(store) > cap:
+            store.popitem(last=False)
+    return value
+
+
+def expiring(store, lock, key, ttl, build):
+    """build() cached under `key` until `ttl` seconds from now; never evicted."""
+    now = time.time()
+    with lock:
+        hit = store.get(key)
+        if hit and hit[0] > now:
+            return hit[1]
+    value = build()
+    with lock:
+        store[key] = (now + ttl, value)
+    return value
+
+
+def remember(store, lock, key, ttl, value):
+    """Put a value an expiring() lookup would return, without building it."""
+    with lock:
+        store[key] = (time.time() + ttl, value)
+
+
+def shared_raw(memoized, prefix, memo_ttl, name, params, build, ttl):
+    """An upstream payload shared by several routes: the site's in-process
+    memo, then the service's response cache (pods share it) when one is
+    installed, then build(). Without a `cache` module (an open-source repo)
+    it is the in-process memo alone."""
+    try:
+        from cache import cached_call
+    except ImportError:
+        cached_call = None
+    seconds = ttl.total_seconds() if hasattr(ttl, "total_seconds") else ttl
+    key = (name, json.dumps(params, sort_keys=True))
+    if cached_call is None:
+        return memoized(key, build, ttl=min(seconds, memo_ttl))
+    return memoized(key, lambda: cached_call(f"{prefix}{name}", params, lambda **_: build(), ttl),
+                    ttl=min(seconds, memo_ttl))

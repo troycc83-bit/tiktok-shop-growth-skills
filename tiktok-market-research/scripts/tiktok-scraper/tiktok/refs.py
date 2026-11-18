@@ -1,1 +1,215 @@
-IiIiVGlrVG9rIHJlZmVyZW5jZSBwYXJzaW5nOiBPTkUgcGFyYW0gcGVyIGlucHV0IHRoYXQgYXV0by1kZXRlY3RzIGl0cyBmb3JtcwoodHJpcGFkdmlzb3IgUXVlcnlPcklkRmllbGQgY29udmVudGlvbiDigJQgbmV2ZXIgYSBzaWJsaW5nIGB1cmxgL2BpZGAgcGFpcikuCgogIHVzZXIgICAgICBuYXNhIHwgQG5hc2EgfCBNUzR3TGpBQkFBQUHigKYgKGEgc2VjVWlkKSB8IGh0dHBzOi8vd3d3LnRpa3Rvay5jb20vQG5hc2EKICAgICAgICAgICAgfCBhIHZpZGVvIGxpbmsgKGl0cyBhdXRob3IpCiAgICAtPiB7InVzZXJuYW1lIjogIm5hc2EiLCAic2VjX3VpZCI6IE5vbmV9IC8geyJ1c2VybmFtZSI6IE5vbmUsICJzZWNfdWlkIjogIk1TNHfigKYifQogICAgQSBiYXJlIG51bWVyaWMgdXNlciBpZCBpcyBOT1QgYWNjZXB0ZWQ6IHRoZSB3ZWIgQVBJIGNhbm5vdCBsb29rIGEgdXNlcgogICAgdXAgYnkgaXQsIGFuZCBhbiBhbGwtZGlnaXQgc3RyaW5nIGlzIGEgdmFsaWQgdXNlcm5hbWUuCgogIHZpZGVvICAgICA3NjkyMTE0MzE3MTUxNDIzNzc1IHwgaHR0cHM6Ly93d3cudGlrdG9rLmNvbS9AdGlrdG9rL3ZpZGVvLzc2OTIxMTQzMTcxNTE0MjM3NzUKICAgICAgICAgICAgfCDigKYvcGhvdG8vPGlkPiB8IGh0dHBzOi8vbS50aWt0b2suY29tL3YvPGlkPi5odG1sCiAgICAgICAgICAgIHwgYSBzaGFyZSBsaW5rOiBodHRwczovL3ZtLnRpa3Rvay5jb20vWk3igKYvICwgaHR0cHM6Ly92dC50aWt0b2suY29tL1pT4oCmLyAsCiAgICAgICAgICAgICAgaHR0cHM6Ly93d3cudGlrdG9rLmNvbS90L1pU4oCmLwogICAgLT4geyJpZCI6ICI3Njky4oCmIiwgInNob3J0X2xpbmsiOiBOb25lfSAvIHsiaWQiOiBOb25lLCAic2hvcnRfbGluayI6ICJodHRwczovL3ZtLnRpa3Rvay5jb20vWk3igKYvIn0KICAgIChhIHNoYXJlIGxpbmsgaXMgcmVzb2x2ZWQgYnkgZm9sbG93aW5nIGl0cyByZWRpcmVjdCwgdmlkZW9zLnB5KQoKICBoYXNodGFnICAgbmFzYSB8ICNuYXNhIHwgaHR0cHM6Ly93d3cudGlrdG9rLmNvbS90YWcvbmFzYSAgICAgICAgICAgIC0+ICJuYXNhIgogIG11c2ljICAgICA3MDc3NDM1NjY2MjMzMDUxMTM4IHwgaHR0cHM6Ly93d3cudGlrdG9rLmNvbS9tdXNpYy9zbm93ZmFsbC03MDc3NDM1NjY2MjMzMDUxMTM4IC0+IGlkCiAgcGxheWxpc3QgIDc2ODExNzE1Mzc1NzU4MjQxNTkgfCBodHRwczovL3d3dy50aWt0b2suY29tL0B0aWt0b2svcGxheWxpc3QvU29uZ3MtNzY4MTE3MTUzNzU3NTgyNDE1OSAtPiBpZAogIGNvbGxlY3Rpb24gNzM5NDYyNzc1NjYzNTU3MzAyMiB8IGh0dHBzOi8vd3d3LnRpa3Rvay5jb20vQHRpa3Rvay9jb2xsZWN0aW9uL1N1bW1lci03Mzk0NjI3NzU2NjM1NTczMDIyIC0+IGlkCiAgcGxhY2UgICAgIDIwNDQyMzk1NTAwNDMzMjEyIHwgaHR0cHM6Ly93d3cudGlrdG9rLmNvbS9wbGFjZS9Mb3MtQW5nZWxlcy1UZW1wbGUtMjA0NDIzOTU1MDA0MzMyMTIgLT4gaWQKICBlZmZlY3QgICAgMzM5MDEyMjY0NSB8IGh0dHBzOi8vd3d3LnRpa3Rvay5jb20vc3RpY2tlci9NYWtldXAtTHVzaC0zMzkwMTIyNjQ1IC0+IGlkCiIiIgppbXBvcnQgcmUKZnJvbSB1cmxsaWIucGFyc2UgaW1wb3J0IHF1b3RlLCB1bnF1b3RlLCB1cmxwYXJzZQoKU0lURSA9ICJodHRwczovL3d3dy50aWt0b2suY29tIgoKX0hPU1RfUkUgPSByZS5jb21waWxlKHIiKF58XC4pdGlrdG9rXC5jb20kIikKX1NIT1JUX0hPU1RTID0geyJ2bS50aWt0b2suY29tIiwgInZ0LnRpa3Rvay5jb20ifQpfQkFSRV9MSU5LX1JFID0gcmUuY29tcGlsZShyIl4oPzpbYS16MC05LV0rXC4pKnRpa3Rva1wuY29tKD86Wy8/I118JCkiLCByZS5JKQpfVVNFUk5BTUVfUkUgPSByZS5jb21waWxlKHIiXlthLXowLTkuX117MSwyNH0kIikKX1NFQ19VSURfUkUgPSByZS5jb21waWxlKHIiXk1TNHdMakFCQUFBQVtBLVphLXowLTlfLV17MjAsMTIwfSQiKQpfSURfUkUgPSByZS5jb21waWxlKHIiXlxkezUsMjV9JCIpCl9WSURFT19JRF9SRSA9IHJlLmNvbXBpbGUociJeXGR7MTUsMjV9JCIpCl9TSE9SVF9DT0RFX1JFID0gcmUuY29tcGlsZShyIl5bQS1aYS16MC05Xy1dezUsMjB9JCIpCl9UUkFJTElOR19JRF9SRSA9IHJlLmNvbXBpbGUociIoPzpefC0pKFxkezUsMjV9KSQiKQoKCmRlZiBfYXNfdXJsKHRleHQpOgogICAgaWYgdGV4dC5zdGFydHN3aXRoKCgiaHR0cDovLyIsICJodHRwczovLyIpKToKICAgICAgICByZXR1cm4gdGV4dAogICAgaWYgdGV4dC5zdGFydHN3aXRoKCIvLyIpOgogICAgICAgIHJldHVybiAiaHR0cHM6IiArIHRleHQKICAgIHJldHVybiAiaHR0cHM6Ly8iICsgdGV4dAoKCmRlZiBfbG9va3NfbGlrZV9saW5rKHRleHQpOgogICAgIyBhIGJhcmUgaG9zdCBtdXN0IGVuZCBhdCBhIHBhdGggYm91bmRhcnk6ICJ0aWt0b2suY29tbXVuaXR5IiBpcyBhIHVzZXJuYW1lCiAgICBsb3cgPSB0ZXh0Lmxvd2VyKCkKICAgIHJldHVybiBsb3cuc3RhcnRzd2l0aCgoImh0dHA6Ly8iLCAiaHR0cHM6Ly8iLCAiLy8iKSkgb3IgYm9vbChfQkFSRV9MSU5LX1JFLm1hdGNoKHRleHQpKQoKCmRlZiBfcGFyc2VfbGluayh0ZXh0LCBraW5kKToKICAgIHBhcnNlZCA9IHVybHBhcnNlKF9hc191cmwodGV4dCkpCiAgICBob3N0ID0gKHBhcnNlZC5ob3N0bmFtZSBvciAiIikubG93ZXIoKQogICAgaWYgbm90IF9IT1NUX1JFLnNlYXJjaChob3N0KToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2tpbmR9IGxpbmsgbXVzdCBiZSBhIHRpa3Rvay5jb20gbGluayIpCiAgICByZXR1cm4gaG9zdCwgW3VucXVvdGUocCkgZm9yIHAgaW4gcGFyc2VkLnBhdGguc3BsaXQoIi8iKSBpZiBwXQoKCmRlZiBfdXNlcm5hbWUodGV4dCwgb3JpZ2luYWwpOgogICAgbmFtZSA9IHRleHQubHN0cmlwKCJAIikubG93ZXIoKQogICAgaWYgbm90IF9VU0VSTkFNRV9SRS5tYXRjaChuYW1lKSBvciBuYW1lLmVuZHN3aXRoKCIuIik6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmImludmFsaWQgVGlrVG9rIHVzZXJuYW1lIHtvcmlnaW5hbCFyfSIpCiAgICByZXR1cm4gbmFtZQoKCmRlZiByZXNvbHZlX3VzZXIodmFsdWUpOgogICAgdGV4dCA9IHN0cih2YWx1ZSBvciAiIikuc3RyaXAoKQogICAgaWYgbm90IHRleHQ6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigidXNlciBtdXN0IG5vdCBiZSBlbXB0eSIpCiAgICBpZiBfbG9va3NfbGlrZV9saW5rKHRleHQpOgogICAgICAgIF8sIHBhcnRzID0gX3BhcnNlX2xpbmsodGV4dCwgInVzZXIiKQogICAgICAgIGlmIG5vdCBwYXJ0cyBvciBub3QgcGFydHNbMF0uc3RhcnRzd2l0aCgiQCIpIG9yIGxlbihwYXJ0c1swXSkgPCAyOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYibm8gQHVzZXJuYW1lIGluIGxpbmsge3RleHQhcn0iKQogICAgICAgIHRleHQgPSBwYXJ0c1swXQogICAgaWYgX1NFQ19VSURfUkUubWF0Y2godGV4dCk6CiAgICAgICAgcmV0dXJuIHsidXNlcm5hbWUiOiBOb25lLCAic2VjX3VpZCI6IHRleHR9CiAgICBpZiAiICIgaW4gdGV4dDoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYidXNlciBtdXN0IGJlIGEgVGlrVG9rIHVzZXJuYW1lLCBhIHNlY1VpZCBvciBhIHRpa3Rvay5jb20gcHJvZmlsZSBsaW5rLCBnb3Qge3RleHQhcn0iKQogICAgcmV0dXJuIHsidXNlcm5hbWUiOiBfdXNlcm5hbWUodGV4dCwgdGV4dCksICJzZWNfdWlkIjogTm9uZX0KCgpkZWYgcmVzb2x2ZV92aWRlbyh2YWx1ZSk6CiAgICB0ZXh0ID0gc3RyKHZhbHVlIG9yICIiKS5zdHJpcCgpCiAgICBpZiBub3QgdGV4dDoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJ2aWRlbyBtdXN0IG5vdCBiZSBlbXB0eSIpCiAgICBpZiBfVklERU9fSURfUkUubWF0Y2godGV4dCk6CiAgICAgICAgcmV0dXJuIHsiaWQiOiB0ZXh0LCAic2hvcnRfbGluayI6IE5vbmV9CiAgICBpZiBub3QgX2xvb2tzX2xpa2VfbGluayh0ZXh0KToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYidmlkZW8gbXVzdCBiZSBhIFRpa1RvayB2aWRlbyBpZCBvciBhIHRpa3Rvay5jb20gdmlkZW8gbGluaywgZ290IHt0ZXh0IXJ9IikKICAgIGhvc3QsIHBhcnRzID0gX3BhcnNlX2xpbmsodGV4dCwgInZpZGVvIikKICAgIGlmIGhvc3QgaW4gX1NIT1JUX0hPU1RTOgogICAgICAgIGlmIG5vdCBwYXJ0cyBvciBub3QgX1NIT1JUX0NPREVfUkUubWF0Y2gocGFydHNbMF0pOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYibm8gc2hhcmUgY29kZSBpbiBsaW5rIHt0ZXh0IXJ9IikKICAgICAgICByZXR1cm4geyJpZCI6IE5vbmUsICJzaG9ydF9saW5rIjogZiJodHRwczovL3tob3N0fS97cGFydHNbMF19LyJ9CiAgICBmb3IgaSwgcGFydCBpbiBlbnVtZXJhdGUocGFydHMpOgogICAgICAgIGlmIHBhcnQgaW4gKCJ2aWRlbyIsICJwaG90byIsICJ2IikgYW5kIGkgKyAxIDwgbGVuKHBhcnRzKToKICAgICAgICAgICAgY2FuZGlkYXRlID0gcGFydHNbaSArIDFdLnNwbGl0KCIuIilbMF0KICAgICAgICAgICAgaWYgX1ZJREVPX0lEX1JFLm1hdGNoKGNhbmRpZGF0ZSk6CiAgICAgICAgICAgICAgICByZXR1cm4geyJpZCI6IGNhbmRpZGF0ZSwgInNob3J0X2xpbmsiOiBOb25lfQogICAgICAgIGlmIHBhcnQgPT0gInQiIGFuZCBpICsgMSA8IGxlbihwYXJ0cykgYW5kIF9TSE9SVF9DT0RFX1JFLm1hdGNoKHBhcnRzW2kgKyAxXSk6CiAgICAgICAgICAgIHJldHVybiB7ImlkIjogTm9uZSwgInNob3J0X2xpbmsiOiBmIntTSVRFfS90L3twYXJ0c1tpICsgMV19LyJ9CiAgICByYWlzZSBWYWx1ZUVycm9yKGYibm8gdmlkZW8gaWQgaW4gbGluayB7dGV4dCFyfSIpCgoKZGVmIHZpZGVvX2lkX2Zyb21fbGluayh1cmwpOgogICAgIiIiVGhlIHZpZGVvIGlkIGluIGEgZnVsbCB2aWRlbyBsaW5rLCBvciBOb25lICh1c2VkIG9uIHRoZSB0YXJnZXQgb2YgYQogICAgcmVzb2x2ZWQgc2hhcmUgbGluaykuIiIiCiAgICB0cnk6CiAgICAgICAgcmVmID0gcmVzb2x2ZV92aWRlbyh1cmwpCiAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICByZXR1cm4gTm9uZQogICAgcmV0dXJuIHJlZlsiaWQiXQoKCmRlZiByZXNvbHZlX2hhc2h0YWcodmFsdWUpOgogICAgdGV4dCA9IHN0cih2YWx1ZSBvciAiIikuc3RyaXAoKQogICAgaWYgX2xvb2tzX2xpa2VfbGluayh0ZXh0KToKICAgICAgICBfLCBwYXJ0cyA9IF9wYXJzZV9saW5rKHRleHQsICJoYXNodGFnIikKICAgICAgICBpZiBsZW4ocGFydHMpIDwgMiBvciBwYXJ0c1swXSAhPSAidGFnIjoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIm5vIGhhc2h0YWcgaW4gbGluayB7dGV4dCFyfSIpCiAgICAgICAgdGV4dCA9IHBhcnRzWzFdCiAgICB0ZXh0ID0gdGV4dC5sc3RyaXAoIiMiKS5zdHJpcCgpCiAgICBpZiBub3QgdGV4dDoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJoYXNodGFnIG11c3Qgbm90IGJlIGVtcHR5IikKICAgIGlmIGxlbih0ZXh0KSA+IDEwMCBvciBhbnkoY2guaXNzcGFjZSgpIGZvciBjaCBpbiB0ZXh0KToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJoYXNodGFnIG11c3QgYmUgb25lIHdvcmQgb2YgYXQgbW9zdCAxMDAgY2hhcmFjdGVycyIpCiAgICByZXR1cm4gdGV4dAoKCmRlZiBfaWRfcmVmKGtpbmQsIG1hcmtlcnMsIGV4YW1wbGUpOgogICAgIiIiQSByZXNvbHZlciBmb3IgYW4gZW50aXR5IGFkZHJlc3NlZCBieSBhIG51bWVyaWMgaWQgb3IgYnkgYSBsaW5rIHdob3NlCiAgICBwYXRoIHNlZ21lbnQgYWZ0ZXIgb25lIG9mIGBtYXJrZXJzYCBlbmRzIGluIHRoYXQgaWQuIiIiCiAgICBkZWYgcmVzb2x2ZSh2YWx1ZSk6CiAgICAgICAgdGV4dCA9IHN0cih2YWx1ZSBvciAiIikuc3RyaXAoKQogICAgICAgIGlmIG5vdCB0ZXh0OgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYie2tpbmR9IG11c3Qgbm90IGJlIGVtcHR5IikKICAgICAgICBpZiBfSURfUkUubWF0Y2godGV4dCk6CiAgICAgICAgICAgIHJldHVybiB0ZXh0CiAgICAgICAgaWYgX2xvb2tzX2xpa2VfbGluayh0ZXh0KToKICAgICAgICAgICAgXywgcGFydHMgPSBfcGFyc2VfbGluayh0ZXh0LCBraW5kKQogICAgICAgICAgICBmb3IgaSwgcGFydCBpbiBlbnVtZXJhdGUocGFydHMpOgogICAgICAgICAgICAgICAgaWYgcGFydCBpbiBtYXJrZXJzIGFuZCBpICsgMSA8IGxlbihwYXJ0cyk6CiAgICAgICAgICAgICAgICAgICAgbWF0Y2ggPSBfVFJBSUxJTkdfSURfUkUuc2VhcmNoKHBhcnRzW2kgKyAxXSkKICAgICAgICAgICAgICAgICAgICBpZiBtYXRjaDoKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG1hdGNoLmdyb3VwKDEpCiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJubyB7a2luZH0gaWQgaW4gbGluayB7dGV4dCFyfSIpCiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntraW5kfSBtdXN0IGJlIGEgbnVtZXJpYyB7a2luZH0gaWQgb3IgYSB0aWt0b2suY29tIHtraW5kfSBsaW5rIGxpa2Uge2V4YW1wbGV9LCBnb3Qge3RleHQhcn0iKQogICAgcmV0dXJuIHJlc29sdmUKCgpyZXNvbHZlX211c2ljID0gX2lkX3JlZigibXVzaWMiLCAoIm11c2ljIiwpLCBmIntTSVRFfS9tdXNpYy9vcmlnaW5hbC1zb3VuZC02Njg5ODA0NjYwMTcxMDgyNTAxIikKcmVzb2x2ZV9wbGF5bGlzdCA9IF9pZF9yZWYoInBsYXlsaXN0IiwgKCJwbGF5bGlzdCIsKSwgZiJ7U0lURX0vQHRpa3Rvay9wbGF5bGlzdC9Tb25ncy03NjgxMTcxNTM3NTc1ODI0MTU5IikKcmVzb2x2ZV9jb2xsZWN0aW9uID0gX2lkX3JlZigiY29sbGVjdGlvbiIsICgiY29sbGVjdGlvbiIsKSwgZiJ7U0lURX0vQHRpa3Rvay9jb2xsZWN0aW9uL1N1bW1lci03Mzk0NjI3NzU2NjM1NTczMDIyIikKcmVzb2x2ZV9wbGFjZSA9IF9pZF9yZWYoInBsYWNlIiwgKCJwbGFjZSIsKSwgZiJ7U0lURX0vcGxhY2UvTG9zLUFuZ2VsZXMtQ2FsaWZvcm5pYS1UZW1wbGUtMjA0NDIzOTU1MDA0MzMyMTIiKQpyZXNvbHZlX2VmZmVjdCA9IF9pZF9yZWYoImVmZmVjdCIsICgic3RpY2tlciIsICJlZmZlY3QiKSwgZiJ7U0lURX0vc3RpY2tlci9NYWtldXAtTHVzaC0zMzkwMTIyNjQ1IikKCgojIC0tLS0gbGlua3MgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKZGVmIF9zbHVnKG5hbWUpOgogICAgdGV4dCA9IHJlLnN1YihyIlteXHddKyIsICItIiwgc3RyKG5hbWUgb3IgIiIpLCBmbGFncz1yZS5VTklDT0RFKS5zdHJpcCgiLSIpCiAgICByZXR1cm4gcXVvdGUodGV4dCwgc2FmZT0iLSIpIGlmIHRleHQgZWxzZSBOb25lCgoKZGVmIHVzZXJfbGluayh1c2VybmFtZSk6CiAgICByZXR1cm4gZiJ7U0lURX0vQHt1c2VybmFtZX0iIGlmIHVzZXJuYW1lIGVsc2UgTm9uZQoKCmRlZiB2aWRlb19saW5rKHVzZXJuYW1lLCB2aWRlb19pZCwgaXNfcGhvdG89RmFsc2UpOgogICAgaWYgbm90IHZpZGVvX2lkOgogICAgICAgIHJldHVybiBOb25lCiAgICBraW5kID0gInBob3RvIiBpZiBpc19waG90byBlbHNlICJ2aWRlbyIKICAgICMgVGlrVG9rIHJlZGlyZWN0cyAvQC92aWRlby88aWQ+IHRvIHRoZSBhdXRob3IncyBjYW5vbmljYWwgbGluawogICAgcmV0dXJuIGYie1NJVEV9L0B7dXNlcm5hbWUgb3IgJyd9L3traW5kfS97dmlkZW9faWR9IgoKCmRlZiBoYXNodGFnX2xpbmsobmFtZSk6CiAgICByZXR1cm4gZiJ7U0lURX0vdGFnL3txdW90ZShzdHIobmFtZSksIHNhZmU9JycpfSIgaWYgbmFtZSBlbHNlIE5vbmUKCgpkZWYgbXVzaWNfbGluayh0aXRsZSwgbXVzaWNfaWQpOgogICAgaWYgbm90IG11c2ljX2lkOgogICAgICAgIHJldHVybiBOb25lCiAgICByZXR1cm4gZiJ7U0lURX0vbXVzaWMve19zbHVnKHRpdGxlKSBvciAnb3JpZ2luYWwtc291bmQnfS17bXVzaWNfaWR9IgoKCmRlZiBwbGF5bGlzdF9saW5rKHVzZXJuYW1lLCBuYW1lLCBwbGF5bGlzdF9pZCk6CiAgICBpZiBub3QgcGxheWxpc3RfaWQgb3Igbm90IHVzZXJuYW1lOgogICAgICAgIHJldHVybiBOb25lCiAgICByZXR1cm4gZiJ7U0lURX0vQHt1c2VybmFtZX0vcGxheWxpc3Qve19zbHVnKG5hbWUpIG9yICdwbGF5bGlzdCd9LXtwbGF5bGlzdF9pZH0iCgoKZGVmIGNvbGxlY3Rpb25fbGluayh1c2VybmFtZSwgbmFtZSwgY29sbGVjdGlvbl9pZCk6CiAgICBpZiBub3QgY29sbGVjdGlvbl9pZCBvciBub3QgdXNlcm5hbWU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiBmIntTSVRFfS9Ae3VzZXJuYW1lfS9jb2xsZWN0aW9uL3tfc2x1ZyhuYW1lKSBvciAnY29sbGVjdGlvbid9LXtjb2xsZWN0aW9uX2lkfSIKCgpkZWYgcGxhY2VfbGluayhuYW1lLCBwbGFjZV9pZCk6CiAgICBpZiBub3QgcGxhY2VfaWQ6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiBmIntTSVRFfS9wbGFjZS97X3NsdWcobmFtZSkgb3IgJ3BsYWNlJ30te3BsYWNlX2lkfSIKCgpkZWYgZWZmZWN0X2xpbmsobmFtZSwgZWZmZWN0X2lkKToKICAgIGlmIG5vdCBlZmZlY3RfaWQ6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiBmIntTSVRFfS9zdGlja2VyL3tfc2x1ZyhuYW1lKSBvciAnZWZmZWN0J30te2VmZmVjdF9pZH0iCgoKZGVmIGxpdmVfbGluayh1c2VybmFtZSk6CiAgICByZXR1cm4gZiJ7U0lURX0vQHt1c2VybmFtZX0vbGl2ZSIgaWYgdXNlcm5hbWUgZWxzZSBOb25lCg==
+"""TikTok reference parsing: ONE param per input that auto-detects its forms
+(tripadvisor QueryOrIdField convention — never a sibling `url`/`id` pair).
+
+  user      nasa | @nasa | MS4wLjABAAAA… (a secUid) | https://www.tiktok.com/@nasa
+            | a video link (its author)
+    -> {"username": "nasa", "sec_uid": None} / {"username": None, "sec_uid": "MS4w…"}
+    A bare numeric user id is NOT accepted: the web API cannot look a user
+    up by it, and an all-digit string is a valid username.
+
+  video     7692114317151423775 | https://www.tiktok.com/@tiktok/video/7692114317151423775
+            | …/photo/<id> | https://m.tiktok.com/v/<id>.html
+            | a share link: https://vm.tiktok.com/ZM…/ , https://vt.tiktok.com/ZS…/ ,
+              https://www.tiktok.com/t/ZT…/
+    -> {"id": "7692…", "short_link": None} / {"id": None, "short_link": "https://vm.tiktok.com/ZM…/"}
+    (a share link is resolved by following its redirect, videos.py)
+
+  hashtag   nasa | #nasa | https://www.tiktok.com/tag/nasa            -> "nasa"
+  music     7077435666233051138 | https://www.tiktok.com/music/snowfall-7077435666233051138 -> id
+  playlist  7681171537575824159 | https://www.tiktok.com/@tiktok/playlist/Songs-7681171537575824159 -> id
+  collection 7394627756635573022 | https://www.tiktok.com/@tiktok/collection/Summer-7394627756635573022 -> id
+  place     20442395500433212 | https://www.tiktok.com/place/Los-Angeles-Temple-20442395500433212 -> id
+  effect    3390122645 | https://www.tiktok.com/sticker/Makeup-Lush-3390122645 -> id
+"""
+import re
+from urllib.parse import quote, unquote, urlparse
+
+SITE = "https://www.tiktok.com"
+
+_HOST_RE = re.compile(r"(^|\.)tiktok\.com$")
+_SHORT_HOSTS = {"vm.tiktok.com", "vt.tiktok.com"}
+_BARE_LINK_RE = re.compile(r"^(?:[a-z0-9-]+\.)*tiktok\.com(?:[/?#]|$)", re.I)
+_USERNAME_RE = re.compile(r"^[a-z0-9._]{1,24}$")
+_SEC_UID_RE = re.compile(r"^MS4wLjABAAAA[A-Za-z0-9_-]{20,120}$")
+_ID_RE = re.compile(r"^\d{5,25}$")
+_VIDEO_ID_RE = re.compile(r"^\d{15,25}$")
+_SHORT_CODE_RE = re.compile(r"^[A-Za-z0-9_-]{5,20}$")
+_TRAILING_ID_RE = re.compile(r"(?:^|-)(\d{5,25})$")
+
+
+def _as_url(text):
+    if text.startswith(("http://", "https://")):
+        return text
+    if text.startswith("//"):
+        return "https:" + text
+    return "https://" + text
+
+
+def _looks_like_link(text):
+    # a bare host must end at a path boundary: "tiktok.community" is a username
+    low = text.lower()
+    return low.startswith(("http://", "https://", "//")) or bool(_BARE_LINK_RE.match(text))
+
+
+def _parse_link(text, kind):
+    parsed = urlparse(_as_url(text))
+    host = (parsed.hostname or "").lower()
+    if not _HOST_RE.search(host):
+        raise ValueError(f"{kind} link must be a tiktok.com link")
+    return host, [unquote(p) for p in parsed.path.split("/") if p]
+
+
+def _username(text, original):
+    name = text.lstrip("@").lower()
+    if not _USERNAME_RE.match(name) or name.endswith("."):
+        raise ValueError(f"invalid TikTok username {original!r}")
+    return name
+
+
+def resolve_user(value):
+    text = str(value or "").strip()
+    if not text:
+        raise ValueError("user must not be empty")
+    if _looks_like_link(text):
+        _, parts = _parse_link(text, "user")
+        if not parts or not parts[0].startswith("@") or len(parts[0]) < 2:
+            raise ValueError(f"no @username in link {text!r}")
+        text = parts[0]
+    if _SEC_UID_RE.match(text):
+        return {"username": None, "sec_uid": text}
+    if " " in text:
+        raise ValueError(f"user must be a TikTok username, a secUid or a tiktok.com profile link, got {text!r}")
+    return {"username": _username(text, text), "sec_uid": None}
+
+
+def resolve_video(value):
+    text = str(value or "").strip()
+    if not text:
+        raise ValueError("video must not be empty")
+    if _VIDEO_ID_RE.match(text):
+        return {"id": text, "short_link": None}
+    if not _looks_like_link(text):
+        raise ValueError(f"video must be a TikTok video id or a tiktok.com video link, got {text!r}")
+    host, parts = _parse_link(text, "video")
+    if host in _SHORT_HOSTS:
+        if not parts or not _SHORT_CODE_RE.match(parts[0]):
+            raise ValueError(f"no share code in link {text!r}")
+        return {"id": None, "short_link": f"https://{host}/{parts[0]}/"}
+    for i, part in enumerate(parts):
+        if part in ("video", "photo", "v") and i + 1 < len(parts):
+            candidate = parts[i + 1].split(".")[0]
+            if _VIDEO_ID_RE.match(candidate):
+                return {"id": candidate, "short_link": None}
+        if part == "t" and i + 1 < len(parts) and _SHORT_CODE_RE.match(parts[i + 1]):
+            return {"id": None, "short_link": f"{SITE}/t/{parts[i + 1]}/"}
+    raise ValueError(f"no video id in link {text!r}")
+
+
+def video_id_from_link(url):
+    """The video id in a full video link, or None (used on the target of a
+    resolved share link)."""
+    try:
+        ref = resolve_video(url)
+    except ValueError:
+        return None
+    return ref["id"]
+
+
+def resolve_hashtag(value):
+    text = str(value or "").strip()
+    if _looks_like_link(text):
+        _, parts = _parse_link(text, "hashtag")
+        if len(parts) < 2 or parts[0] != "tag":
+            raise ValueError(f"no hashtag in link {text!r}")
+        text = parts[1]
+    text = text.lstrip("#").strip()
+    if not text:
+        raise ValueError("hashtag must not be empty")
+    if len(text) > 100 or any(ch.isspace() for ch in text):
+        raise ValueError("hashtag must be one word of at most 100 characters")
+    return text
+
+
+def _id_ref(kind, markers, example):
+    """A resolver for an entity addressed by a numeric id or by a link whose
+    path segment after one of `markers` ends in that id."""
+    def resolve(value):
+        text = str(value or "").strip()
+        if not text:
+            raise ValueError(f"{kind} must not be empty")
+        if _ID_RE.match(text):
+            return text
+        if _looks_like_link(text):
+            _, parts = _parse_link(text, kind)
+            for i, part in enumerate(parts):
+                if part in markers and i + 1 < len(parts):
+                    match = _TRAILING_ID_RE.search(parts[i + 1])
+                    if match:
+                        return match.group(1)
+            raise ValueError(f"no {kind} id in link {text!r}")
+        raise ValueError(f"{kind} must be a numeric {kind} id or a tiktok.com {kind} link like {example}, got {text!r}")
+    return resolve
+
+
+resolve_music = _id_ref("music", ("music",), f"{SITE}/music/original-sound-6689804660171082501")
+resolve_playlist = _id_ref("playlist", ("playlist",), f"{SITE}/@tiktok/playlist/Songs-7681171537575824159")
+resolve_collection = _id_ref("collection", ("collection",), f"{SITE}/@tiktok/collection/Summer-7394627756635573022")
+resolve_place = _id_ref("place", ("place",), f"{SITE}/place/Los-Angeles-California-Temple-20442395500433212")
+resolve_effect = _id_ref("effect", ("sticker", "effect"), f"{SITE}/sticker/Makeup-Lush-3390122645")
+
+
+# ---- links -------------------------------------------------------------------------------
+
+def _slug(name):
+    text = re.sub(r"[^\w]+", "-", str(name or ""), flags=re.UNICODE).strip("-")
+    return quote(text, safe="-") if text else None
+
+
+def user_link(username):
+    return f"{SITE}/@{username}" if username else None
+
+
+def video_link(username, video_id, is_photo=False):
+    if not video_id:
+        return None
+    kind = "photo" if is_photo else "video"
+    # TikTok redirects /@/video/<id> to the author's canonical link
+    return f"{SITE}/@{username or ''}/{kind}/{video_id}"
+
+
+def hashtag_link(name):
+    return f"{SITE}/tag/{quote(str(name), safe='')}" if name else None
+
+
+def music_link(title, music_id):
+    if not music_id:
+        return None
+    return f"{SITE}/music/{_slug(title) or 'original-sound'}-{music_id}"
+
+
+def playlist_link(username, name, playlist_id):
+    if not playlist_id or not username:
+        return None
+    return f"{SITE}/@{username}/playlist/{_slug(name) or 'playlist'}-{playlist_id}"
+
+
+def collection_link(username, name, collection_id):
+    if not collection_id or not username:
+        return None
+    return f"{SITE}/@{username}/collection/{_slug(name) or 'collection'}-{collection_id}"
+
+
+def place_link(name, place_id):
+    if not place_id:
+        return None
+    return f"{SITE}/place/{_slug(name) or 'place'}-{place_id}"
+
+
+def effect_link(name, effect_id):
+    if not effect_id:
+        return None
+    return f"{SITE}/sticker/{_slug(name) or 'effect'}-{effect_id}"
+
+
+def live_link(username):
+    return f"{SITE}/@{username}/live" if username else None

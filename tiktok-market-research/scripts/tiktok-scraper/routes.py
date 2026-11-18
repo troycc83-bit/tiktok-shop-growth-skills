@@ -1,1 +1,122 @@
-IiIiVGhlIDQxIFRpa1RvayBlbmRwb2ludHMuIEV2ZXJ5IHBhdGggaXMgc2VydmVkIHdpdGggYW5kIHdpdGhvdXQgdGhlCmAvdGlrdG9rYCBwcmVmaXgsIHNvIGNvZGUgZ2VuZXJhdGVkIGFnYWluc3QgdGhlIGhvc3RlZCBBUEkgb24gUmFwaWRBUEkKKHBhdGhzIGxpa2UgL3ZpZGVvcy9kZXRhaWxzKSBydW5zIHVuY2hhbmdlZCBhZ2FpbnN0IHRoaXMgc2VydmVyLgoKUGFyYW1zIGFyZSB2YWxpZGF0ZWQgYnkgdGhlIHNhbWUgbWFyc2htYWxsb3cgc2NoZW1hcyB0aGUgaG9zdGVkIEFQSSB1c2VzCih0aWt0b2svc2NoZW1hcy5weSk6IGB1c2VyYCwgYHZpZGVvYCwgYGhhc2h0YWdgLCBgbXVzaWNgLCBgcGxheWxpc3RgLApgY29sbGVjdGlvbmAsIGBwbGFjZWAgYW5kIGBlZmZlY3RgIGVhY2ggYWNjZXB0IGEgYmFyZSB2YWx1ZSBvciBhIHBhc3RlZAp0aWt0b2suY29tIGxpbmsuIiIiCmltcG9ydCBqc29uCgpmcm9tIGJvdHRsZSBpbXBvcnQgcmVxdWVzdCwgcmVzcG9uc2UsIHJvdXRlCgpmcm9tIHNjaGVtYV9maWVsZHMgaW1wb3J0IGxvYWRfcXVlcnkKZnJvbSBzY3JhcGVyX2Vycm9ycyBpbXBvcnQgQmFkUmVxdWVzdCwgQmxvY2tlZCwgTm90Rm91bmQsIFVwc3RyZWFtRXJyb3IKZnJvbSB0aWt0b2sgaW1wb3J0IGFkcywgZGlzY292ZXJ5LCBsaXZlLCBzY2hlbWFzLCBzZWFyY2gsIHVzZXJzLCB2aWRlb3MKCgpkZWYganNvbl9yZXNwb25zZShkYXRhLCBzdGF0dXM9MjAwKToKICAgIHJlc3BvbnNlLnN0YXR1cyA9IHN0YXR1cwogICAgcmVzcG9uc2UuY29udGVudF90eXBlID0gImFwcGxpY2F0aW9uL2pzb24iCiAgICByZXR1cm4ganNvbi5kdW1wcyhkYXRhLCBlbnN1cmVfYXNjaWk9RmFsc2UpCgoKZGVmIHF1ZXJ5X2RpY3QoKToKICAgICIiIlRoZSBxdWVyeSBhcyB1bmljb2RlIHN0cmluZ3MgKGJvdHRsZSAwLjEyJ3MgLmdldCgpIGhhbmRzIGJhY2sgbGF0aW4tMQogICAgZGVjb2RlZCBieXRlcywgc28gYSBVVEYtOCAiQW3DqWxpZSIgd291bGQgYXJyaXZlIGFzICJBbcODwqlsaWUiKS4iIiIKICAgIHJldHVybiB7a2V5OiByZXF1ZXN0LnF1ZXJ5LmdldHVuaWNvZGUoa2V5KSBmb3Iga2V5IGluIHJlcXVlc3QucXVlcnkua2V5cygpfQoKCmRlZiBjYWxsKGxhYmVsLCBzY2hlbWEsIGZuKToKICAgICIiIlZhbGlkYXRlLCBydW4sIG1hcCBlcnJvcnM6IGJhZCBwYXJhbXMgLT4gNDAwLCBtaXNzaW5nIGVudGl0eSAtPiA0MDQsCiAgICB0cmFuc3BvcnQvYmxvY2tzIC0+IDUwMC4iIiIKICAgIGRhdGEsIGVycm9yID0gbG9hZF9xdWVyeShzY2hlbWEsIHF1ZXJ5X2RpY3QoKSkKICAgIGlmIGVycm9yOgogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKGVycm9yLCA0MDApCiAgICB0cnk6CiAgICAgICAgcmV0dXJuIGpzb25fcmVzcG9uc2UoZm4oKipkYXRhKSkKICAgIGV4Y2VwdCBWYWx1ZUVycm9yIGFzIGU6ICAgICAgICAgICAgICAgICMgYmFkIHZhbHVlCiAgICAgICAgcmV0dXJuIGpzb25fcmVzcG9uc2UoeyJlcnJvciI6IHN0cihlKX0sIDQwMCkKICAgIGV4Y2VwdCBCYWRSZXF1ZXN0IGFzIGU6ICAgICAgICAgICAgICAgICMgdXBzdHJlYW0gcmVqZWN0ZWQgdGhlIHJlcXVlc3QgKGUuZy4gYSBiYWQgY3Vyc29yKQogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKHsiZXJyb3IiOiBmInRpa3RvayByZWplY3RlZCB0aGUgcmVxdWVzdDoge2V9In0sIDQwMCkKICAgIGV4Y2VwdCBOb3RGb3VuZCBhcyBlOgogICAgICAgIHJldHVybiBqc29uX3Jlc3BvbnNlKHsiZXJyb3IiOiBzdHIoZSkgb3IgIm5vdCBmb3VuZCJ9LCA0MDQpCiAgICBleGNlcHQgQmxvY2tlZCBhcyBlOiAgICAgICAgICAgICAgICAgICAjIHNpbGVudCBlbXB0eSBib2R5LCA0MDMgLyA0MjkKICAgICAgICByZXR1cm4ganNvbl9yZXNwb25zZSh7ImVycm9yIjogZiJ0aWt0b2sgYmxvY2tlZCB0aGUgcmVxdWVzdCwgcmV0cnkgbGF0ZXI6IHtlfSJ9LCA1MDIpCiAgICBleGNlcHQgVXBzdHJlYW1FcnJvciBhcyBlOiAgICAgICAgICAgICAjIHJldHJpZXMgZXhoYXVzdGVkCiAgICAgICAgcmV0dXJuIGpzb25fcmVzcG9uc2UoeyJlcnJvciI6IGYidGlrdG9rIHtsYWJlbH0gZmFpbGVkOiB7ZX0ifSwgNTAyKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOiAgICAgICAgICAgICAgICAgIyBwYXJzZXIgc3VycHJpc2VzCiAgICAgICAgcmV0dXJuIGpzb25fcmVzcG9uc2UoeyJlcnJvciI6IGYidGlrdG9rIHtsYWJlbH0gZmFpbGVkOiB7dHlwZShlKS5fX25hbWVfX306IHtlfSJ9LCA1MDApCgoKZGVmIG1vdW50KHBhdGgsIHNjaGVtYSwgZm4pOgogICAgIiIiU2VydmUgYW4gZW5kcG9pbnQgZnVuY3Rpb24gYXQgL3BhdGggYW5kIC90aWt0b2svcGF0aC4iIiIKICAgIGxhYmVsID0gcGF0aC5zdHJpcCgiLyIpCgogICAgZGVmIGhhbmRsZXIoKToKICAgICAgICByZXR1cm4gY2FsbChsYWJlbCwgc2NoZW1hLCBmbikKCiAgICBoYW5kbGVyLl9fbmFtZV9fID0gInRpa3Rva18iICsgbGFiZWwucmVwbGFjZSgiLyIsICJfIikucmVwbGFjZSgiLSIsICJfIikKICAgIHJvdXRlKHBhdGgsIG1ldGhvZD0iR0VUIikoaGFuZGxlcikKICAgIHJvdXRlKCIvdGlrdG9rIiArIHBhdGgsIG1ldGhvZD0iR0VUIikoaGFuZGxlcikKCgpFTkRQT0lOVFMgPSBbCiAgICAjIHZpZGVvcwogICAgKCIvdmlkZW9zL2RldGFpbHMiLCBzY2hlbWFzLlZpZGVvU2NoZW1hLCB2aWRlb3MuZ2V0X2RldGFpbHMpLAogICAgKCIvdmlkZW9zL21lZGlhIiwgc2NoZW1hcy5WaWRlb1NjaGVtYSwgdmlkZW9zLmdldF9tZWRpYSksCiAgICAoIi92aWRlb3MvY29tbWVudHMiLCBzY2hlbWFzLlZpZGVvUGFnZVNjaGVtYSwgdmlkZW9zLmdldF9jb21tZW50cyksCiAgICAoIi92aWRlb3MvY29tbWVudC1yZXBsaWVzIiwgc2NoZW1hcy5Db21tZW50UmVwbGllc1NjaGVtYSwgdmlkZW9zLmdldF9jb21tZW50X3JlcGxpZXMpLAogICAgKCIvdmlkZW9zL3RyYW5zY3JpcHQiLCBzY2hlbWFzLlRyYW5zY3JpcHRTY2hlbWEsIHZpZGVvcy5nZXRfdHJhbnNjcmlwdCksCiAgICAoIi92aWRlb3MvcmVsYXRlZCIsIHNjaGVtYXMuVmlkZW9TY2hlbWEsIHZpZGVvcy5nZXRfcmVsYXRlZCksCiAgICAoIi92aWRlb3MvcmVzb2x2ZSIsIHNjaGVtYXMuVmlkZW9TY2hlbWEsIHZpZGVvcy5yZXNvbHZlKSwKICAgICMgdXNlcnMKICAgICgiL3VzZXJzL3Byb2ZpbGUiLCBzY2hlbWFzLlVzZXJTY2hlbWEsIHVzZXJzLmdldF9wcm9maWxlKSwKICAgICgiL3VzZXJzL3ZpZGVvcyIsIHNjaGVtYXMuVXNlclBvc3RzU2NoZW1hLCB1c2Vycy5nZXRfcG9zdHMpLAogICAgKCIvdXNlcnMvcmVwb3N0cyIsIHNjaGVtYXMuVXNlclZpZGVvc1NjaGVtYSwgdXNlcnMuZ2V0X3JlcG9zdHMpLAogICAgKCIvdXNlcnMvZm9sbG93ZXJzIiwgc2NoZW1hcy5Vc2VyUGFnZVNjaGVtYSwgdXNlcnMuZ2V0X2ZvbGxvd2VycyksCiAgICAoIi91c2Vycy9mb2xsb3dpbmciLCBzY2hlbWFzLlVzZXJQYWdlU2NoZW1hLCB1c2Vycy5nZXRfZm9sbG93aW5nKSwKICAgICgiL3VzZXJzL3BsYXlsaXN0cyIsIHNjaGVtYXMuVXNlclBhZ2VTY2hlbWEsIHVzZXJzLmdldF9wbGF5bGlzdHMpLAogICAgKCIvdXNlcnMvY29sbGVjdGlvbnMiLCBzY2hlbWFzLlVzZXJQYWdlU2NoZW1hLCB1c2Vycy5nZXRfY29sbGVjdGlvbnMpLAogICAgKCIvdXNlcnMvcmVzb2x2ZSIsIHNjaGVtYXMuVXNlclNjaGVtYSwgdXNlcnMucmVzb2x2ZSksCiAgICAjIHNlYXJjaAogICAgKCIvc2VhcmNoL3N1Z2dlc3Rpb25zIiwgc2NoZW1hcy5TdWdnZXN0aW9uc1NjaGVtYSwgc2VhcmNoLmdldF9zdWdnZXN0aW9ucyksCiAgICAoIi9zZWFyY2gvdmlkZW9zIiwgc2NoZW1hcy5WaWRlb1NlYXJjaFNjaGVtYSwgc2VhcmNoLnNlYXJjaF92aWRlb3MpLAogICAgKCIvc2VhcmNoL3VzZXJzIiwgc2NoZW1hcy5Vc2VyU2VhcmNoU2NoZW1hLCBzZWFyY2guc2VhcmNoX3VzZXJzKSwKICAgICgiL3NlYXJjaC90b3AiLCBzY2hlbWFzLlNlYXJjaFNjaGVtYSwgc2VhcmNoLnNlYXJjaF90b3ApLAogICAgKCIvc2VhcmNoL2xpdmUiLCBzY2hlbWFzLlNlYXJjaFNjaGVtYSwgc2VhcmNoLnNlYXJjaF9saXZlKSwKICAgICMgaGFzaHRhZ3MsIHNvdW5kcywgcGxheWxpc3RzLCBjb2xsZWN0aW9ucywgcGxhY2VzLCBlZmZlY3RzCiAgICAoIi9oYXNodGFncy9kZXRhaWxzIiwgc2NoZW1hcy5IYXNodGFnU2NoZW1hLCBkaXNjb3ZlcnkuZ2V0X2hhc2h0YWcpLAogICAgKCIvaGFzaHRhZ3MvdmlkZW9zIiwgc2NoZW1hcy5IYXNodGFnUG9zdHNTY2hlbWEsIGRpc2NvdmVyeS5nZXRfaGFzaHRhZ19wb3N0cyksCiAgICAoIi9tdXNpYy9kZXRhaWxzIiwgc2NoZW1hcy5NdXNpY1NjaGVtYSwgZGlzY292ZXJ5LmdldF9tdXNpYyksCiAgICAoIi9tdXNpYy92aWRlb3MiLCBzY2hlbWFzLk11c2ljUG9zdHNTY2hlbWEsIGRpc2NvdmVyeS5nZXRfbXVzaWNfcG9zdHMpLAogICAgKCIvcGxheWxpc3RzL2RldGFpbHMiLCBzY2hlbWFzLlBsYXlsaXN0U2NoZW1hLCBkaXNjb3ZlcnkuZ2V0X3BsYXlsaXN0KSwKICAgICgiL3BsYXlsaXN0cy92aWRlb3MiLCBzY2hlbWFzLlBsYXlsaXN0UG9zdHNTY2hlbWEsIGRpc2NvdmVyeS5nZXRfcGxheWxpc3RfcG9zdHMpLAogICAgKCIvY29sbGVjdGlvbnMvdmlkZW9zIiwgc2NoZW1hcy5Db2xsZWN0aW9uUG9zdHNTY2hlbWEsIGRpc2NvdmVyeS5nZXRfY29sbGVjdGlvbl9wb3N0cyksCiAgICAoIi9wbGFjZXMvZGV0YWlscyIsIHNjaGVtYXMuUGxhY2VTY2hlbWEsIGRpc2NvdmVyeS5nZXRfcGxhY2UpLAogICAgKCIvcGxhY2VzL3ZpZGVvcyIsIHNjaGVtYXMuUGxhY2VQb3N0c1NjaGVtYSwgZGlzY292ZXJ5LmdldF9wbGFjZV9wb3N0cyksCiAgICAoIi9lZmZlY3RzL2RldGFpbHMiLCBzY2hlbWFzLkVmZmVjdFNjaGVtYSwgZGlzY292ZXJ5LmdldF9lZmZlY3QpLAogICAgIyBmZWVkcwogICAgKCIvZmVlZC90cmVuZGluZyIsIHNjaGVtYXMuVHJlbmRpbmdTY2hlbWEsIGRpc2NvdmVyeS5nZXRfdHJlbmRpbmcpLAogICAgKCIvZmVlZC9leHBsb3JlIiwgc2NoZW1hcy5FeHBsb3JlU2NoZW1hLCBkaXNjb3ZlcnkuZ2V0X2V4cGxvcmUpLAogICAgKCIvZmVlZC9leHBsb3JlL2NhdGVnb3JpZXMiLCBzY2hlbWFzLkVtcHR5U2NoZW1hLCBkaXNjb3ZlcnkuZ2V0X2V4cGxvcmVfY2F0ZWdvcmllcyksCiAgICAjIGxpdmUKICAgICgiL2xpdmUvZGV0YWlscyIsIHNjaGVtYXMuVXNlclNjaGVtYSwgbGl2ZS5nZXRfcm9vbSksCiAgICAjIGFkczogQ29tbWVyY2lhbCBDb250ZW50IExpYnJhcnkgKyBDcmVhdGl2ZSBDZW50ZXIgdG9wIGFkcwogICAgKCIvYWRzL3NlYXJjaCIsIHNjaGVtYXMuQWRzU2VhcmNoU2NoZW1hLCBhZHMuc2VhcmNoX2xpYnJhcnkpLAogICAgKCIvYWRzL2RldGFpbHMiLCBzY2hlbWFzLkFkU2NoZW1hLCBhZHMuZ2V0X2xpYnJhcnlfYWQpLAogICAgKCIvYWRzL2FkdmVydGlzZXJzIiwgc2NoZW1hcy5BZHZlcnRpc2VyU2VhcmNoU2NoZW1hLCBhZHMuc2VhcmNoX2FkdmVydGlzZXJzKSwKICAgICgiL2Fkcy9jb3VudHJpZXMiLCBzY2hlbWFzLkVtcHR5U2NoZW1hLCBhZHMuZ2V0X2xpYnJhcnlfY291bnRyaWVzKSwKICAgICgiL2Fkcy90b3AiLCBzY2hlbWFzLlRvcEFkc1NjaGVtYSwgYWRzLmdldF90b3BfYWRzKSwKICAgICgiL2Fkcy90b3AvZGV0YWlscyIsIHNjaGVtYXMuQWRTY2hlbWEsIGFkcy5nZXRfdG9wX2FkKSwKICAgICgiL2Fkcy90b3AvZmlsdGVycyIsIHNjaGVtYXMuRW1wdHlTY2hlbWEsIGFkcy5nZXRfdG9wX2FkX2ZpbHRlcnMpLApdCgpmb3IgX3BhdGgsIF9zY2hlbWEsIF9mbiBpbiBFTkRQT0lOVFM6CiAgICBtb3VudChfcGF0aCwgX3NjaGVtYSwgX2ZuKQoKCkByb3V0ZSgiLyIsIG1ldGhvZD0iR0VUIikKQHJvdXRlKCIvaGVhbHRoIiwgbWV0aG9kPSJHRVQiKQpkZWYgaGVhbHRoKCk6CiAgICByZXR1cm4ganNvbl9yZXNwb25zZSh7InN0YXR1cyI6ICJvayIsICJlbmRwb2ludHMiOiBbcCBmb3IgcCwgXywgXyBpbiBFTkRQT0lOVFNdfSkK
+"""The 41 TikTok endpoints. Every path is served with and without the
+`/tiktok` prefix, so code generated against the hosted API on RapidAPI
+(paths like /videos/details) runs unchanged against this server.
+
+Params are validated by the same marshmallow schemas the hosted API uses
+(tiktok/schemas.py): `user`, `video`, `hashtag`, `music`, `playlist`,
+`collection`, `place` and `effect` each accept a bare value or a pasted
+tiktok.com link."""
+import json
+
+from bottle import request, response, route
+
+from schema_fields import load_query
+from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
+from tiktok import ads, discovery, live, schemas, search, users, videos
+
+
+def json_response(data, status=200):
+    response.status = status
+    response.content_type = "application/json"
+    return json.dumps(data, ensure_ascii=False)
+
+
+def query_dict():
+    """The query as unicode strings (bottle 0.12's .get() hands back latin-1
+    decoded bytes, so a UTF-8 "Amélie" would arrive as "AmÃ©lie")."""
+    return {key: request.query.getunicode(key) for key in request.query.keys()}
+
+
+def call(label, schema, fn):
+    """Validate, run, map errors: bad params -> 400, missing entity -> 404,
+    transport/blocks -> 500."""
+    data, error = load_query(schema, query_dict())
+    if error:
+        return json_response(error, 400)
+    try:
+        return json_response(fn(**data))
+    except ValueError as e:                # bad value
+        return json_response({"error": str(e)}, 400)
+    except BadRequest as e:                # upstream rejected the request (e.g. a bad cursor)
+        return json_response({"error": f"tiktok rejected the request: {e}"}, 400)
+    except NotFound as e:
+        return json_response({"error": str(e) or "not found"}, 404)
+    except Blocked as e:                   # silent empty body, 403 / 429
+        return json_response({"error": f"tiktok blocked the request, retry later: {e}"}, 502)
+    except UpstreamError as e:             # retries exhausted
+        return json_response({"error": f"tiktok {label} failed: {e}"}, 502)
+    except Exception as e:                 # parser surprises
+        return json_response({"error": f"tiktok {label} failed: {type(e).__name__}: {e}"}, 500)
+
+
+def mount(path, schema, fn):
+    """Serve an endpoint function at /path and /tiktok/path."""
+    label = path.strip("/")
+
+    def handler():
+        return call(label, schema, fn)
+
+    handler.__name__ = "tiktok_" + label.replace("/", "_").replace("-", "_")
+    route(path, method="GET")(handler)
+    route("/tiktok" + path, method="GET")(handler)
+
+
+ENDPOINTS = [
+    # videos
+    ("/videos/details", schemas.VideoSchema, videos.get_details),
+    ("/videos/media", schemas.VideoSchema, videos.get_media),
+    ("/videos/comments", schemas.VideoPageSchema, videos.get_comments),
+    ("/videos/comment-replies", schemas.CommentRepliesSchema, videos.get_comment_replies),
+    ("/videos/transcript", schemas.TranscriptSchema, videos.get_transcript),
+    ("/videos/related", schemas.VideoSchema, videos.get_related),
+    ("/videos/resolve", schemas.VideoSchema, videos.resolve),
+    # users
+    ("/users/profile", schemas.UserSchema, users.get_profile),
+    ("/users/videos", schemas.UserPostsSchema, users.get_posts),
+    ("/users/reposts", schemas.UserVideosSchema, users.get_reposts),
+    ("/users/followers", schemas.UserPageSchema, users.get_followers),
+    ("/users/following", schemas.UserPageSchema, users.get_following),
+    ("/users/playlists", schemas.UserPageSchema, users.get_playlists),
+    ("/users/collections", schemas.UserPageSchema, users.get_collections),
+    ("/users/resolve", schemas.UserSchema, users.resolve),
+    # search
+    ("/search/suggestions", schemas.SuggestionsSchema, search.get_suggestions),
+    ("/search/videos", schemas.VideoSearchSchema, search.search_videos),
+    ("/search/users", schemas.UserSearchSchema, search.search_users),
+    ("/search/top", schemas.SearchSchema, search.search_top),
+    ("/search/live", schemas.SearchSchema, search.search_live),
+    # hashtags, sounds, playlists, collections, places, effects
+    ("/hashtags/details", schemas.HashtagSchema, discovery.get_hashtag),
+    ("/hashtags/videos", schemas.HashtagPostsSchema, discovery.get_hashtag_posts),
+    ("/music/details", schemas.MusicSchema, discovery.get_music),
+    ("/music/videos", schemas.MusicPostsSchema, discovery.get_music_posts),
+    ("/playlists/details", schemas.PlaylistSchema, discovery.get_playlist),
+    ("/playlists/videos", schemas.PlaylistPostsSchema, discovery.get_playlist_posts),
+    ("/collections/videos", schemas.CollectionPostsSchema, discovery.get_collection_posts),
+    ("/places/details", schemas.PlaceSchema, discovery.get_place),
+    ("/places/videos", schemas.PlacePostsSchema, discovery.get_place_posts),
+    ("/effects/details", schemas.EffectSchema, discovery.get_effect),
+    # feeds
+    ("/feed/trending", schemas.TrendingSchema, discovery.get_trending),
+    ("/feed/explore", schemas.ExploreSchema, discovery.get_explore),
+    ("/feed/explore/categories", schemas.EmptySchema, discovery.get_explore_categories),
+    # live
+    ("/live/details", schemas.UserSchema, live.get_room),
+    # ads: Commercial Content Library + Creative Center top ads
+    ("/ads/search", schemas.AdsSearchSchema, ads.search_library),
+    ("/ads/details", schemas.AdSchema, ads.get_library_ad),
+    ("/ads/advertisers", schemas.AdvertiserSearchSchema, ads.search_advertisers),
+    ("/ads/countries", schemas.EmptySchema, ads.get_library_countries),
+    ("/ads/top", schemas.TopAdsSchema, ads.get_top_ads),
+    ("/ads/top/details", schemas.AdSchema, ads.get_top_ad),
+    ("/ads/top/filters", schemas.EmptySchema, ads.get_top_ad_filters),
+]
+
+for _path, _schema, _fn in ENDPOINTS:
+    mount(_path, _schema, _fn)
+
+
+@route("/", method="GET")
+@route("/health", method="GET")
+def health():
+    return json_response({"status": "ok", "endpoints": [p for p, _, _ in ENDPOINTS]})

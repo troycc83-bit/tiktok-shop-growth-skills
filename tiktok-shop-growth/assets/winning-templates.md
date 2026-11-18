@@ -1,1 +1,21 @@
-IyDot5HotaLpqqjmnrblupPvvIhXaW5uaW5nIFRlbXBsYXRlc++8iQoKPiDnlLEgYHRpa3Rvay13ZWVrbHktcmV2aWV3YCDlnKjlpI3nm5jml7blm57mtYHlhpnlhaXvvJrmn5DkuKrpqqjmnrYv6ISa5pys6LeR5Ye65aW957uT5p6c77yM5bCx5oqK5a6D55qE57uT5p6E6K6w5Zyo6L+Z6YeM44CCCj4g5Y+q6K6wKirlj6/lpI3nlKjnmoTlj5nkuovpqqjmnrYqKu+8jOS4jeiusOWFt+S9k+S6p+WTgeaWh+ahiOOAguavj+asoeS7v+WGmeWJjeWFiOivu+acrOaWh+S7tuOAggoKIyMg6K6w5b2V5qC85byPCgpgYGAKIyMjIFvpqqjmnrblkI1dIOKAlCDorrDlvZXml6XmnJ8KLSDmnaXmupDop4bpopEgLyDpqqjmnrbnsbvlnovvvJoKLSDpqozor4Hnu5PmnpzvvJrvvIjmkq3mlL4v5a6M5pKtL+eCueWHuy/ovazljJbnrYnvvIzmnInmlbDmja7lsLHloavvvIzml6DliJnmoIfms6gi5a6a5oCn6LeR6LWiIu+8iQotIOmAgueUqOWNlueCuSAvIOWcuuaZr++8mgotIEhvb2sg57G75Z6L77yaCi0g5pe26Ze06L206aqo5p6277yaCi0g5Li65LuA5LmI6LeR6LWi77yI5aSN55uY5Yik5pat77yJ77yaCi0g5Y+v5aSN55So6KaB54K577yaCmBgYAoKIyMg5bey6aqM6K+B6aqo5p62CgrvvIjmmoLml6DorrDlvZXjgILlpI3nm5jot5HotaLlkI7mjInkuIrmlrnmoLzlvI/ov73liqDjgILvvIkK
+# 跑赢骨架库（Winning Templates）
+
+> 由 `tiktok-weekly-review` 在复盘时回流写入：某个骨架/脚本跑出好结果，就把它的结构记在这里。
+> 只记**可复用的叙事骨架**，不记具体产品文案。每次仿写前先读本文件。
+
+## 记录格式
+
+```
+### [骨架名] — 记录日期
+- 来源视频 / 骨架类型：
+- 验证结果：（播放/完播/点击/转化等，有数据就填，无则标注"定性跑赢"）
+- 适用卖点 / 场景：
+- Hook 类型：
+- 时间轴骨架：
+- 为什么跑赢（复盘判断）：
+- 可复用要点：
+```
+
+## 已验证骨架
+
+（暂无记录。复盘跑赢后按上方格式追加。）

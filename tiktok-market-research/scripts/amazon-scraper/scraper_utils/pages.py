@@ -1,1 +1,21 @@
-IiIiUmVhZGluZyBhIGZldGNoZWQgcGFnZTogaXRzIHRpdGxlLCBhbmQgd2hldGhlciBpdCBpcyBhIGNoYWxsZW5nZSBwYWdlLiIiIgppbXBvcnQgcmUKCl9USVRMRV9SRSA9IHJlLmNvbXBpbGUociI8dGl0bGU+KFtePF0qKTwvdGl0bGU+IiwgcmUuSSkKCkNGX01BUktFUlMgPSAoImp1c3QgYSBtb21lbnQiLCAiY2hhbGxlbmdlLWVycm9yLXRleHQiLCAiY2YtY2hsIiwgImNoYWxsZW5nZS1wbGF0Zm9ybSIsICJhdHRlbnRpb24gcmVxdWlyZWQiKQoKCmRlZiBwYWdlX3RpdGxlKHRleHQpOgogICAgIiIiVGhlIHBhZ2UncyA8dGl0bGU+LCB0cmltbWVkOyAnJyB3aGVuIHRoZXJlIGlzIG5vbmUuIiIiCiAgICBtYXRjaCA9IF9USVRMRV9SRS5zZWFyY2godGV4dCBvciAiIikKICAgIHJldHVybiBtYXRjaC5ncm91cCgxKS5zdHJpcCgpIGlmIG1hdGNoIGVsc2UgIiIKCgpkZWYgaXNfY2hhbGxlbmdlZChzdGF0dXMsIGhlYWRlcnMsIHRleHQpOgogICAgIiIiVHJ1ZSBmb3IgYSBDbG91ZGZsYXJlIGNoYWxsZW5nZTogdGhlIGNmLW1pdGlnYXRlZCBoZWFkZXIsIG9yIGEgNDAzIC8gNDI5CiAgICAvIDUwMyB3aG9zZSBib2R5IGNhcnJpZXMgYSBjaGFsbGVuZ2UgbWFya2VyLiIiIgogICAgaWYgKGhlYWRlcnMgb3Ige30pLmdldCgiY2YtbWl0aWdhdGVkIikgPT0gImNoYWxsZW5nZSI6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIGhlYWQgPSAodGV4dCBvciAiIilbOjQwMDBdLmxvd2VyKCkKICAgIHJldHVybiBzdGF0dXMgaW4gKDQwMywgNDI5LCA1MDMpIGFuZCBhbnkobSBpbiBoZWFkIGZvciBtIGluIENGX01BUktFUlMpCg==
+"""Reading a fetched page: its title, and whether it is a challenge page."""
+import re
+
+_TITLE_RE = re.compile(r"<title>([^<]*)</title>", re.I)
+
+CF_MARKERS = ("just a moment", "challenge-error-text", "cf-chl", "challenge-platform", "attention required")
+
+
+def page_title(text):
+    """The page's <title>, trimmed; '' when there is none."""
+    match = _TITLE_RE.search(text or "")
+    return match.group(1).strip() if match else ""
+
+
+def is_challenged(status, headers, text):
+    """True for a Cloudflare challenge: the cf-mitigated header, or a 403 / 429
+    / 503 whose body carries a challenge marker."""
+    if (headers or {}).get("cf-mitigated") == "challenge":
+        return True
+    head = (text or "")[:4000].lower()
+    return status in (403, 429, 503) and any(m in head for m in CF_MARKERS)

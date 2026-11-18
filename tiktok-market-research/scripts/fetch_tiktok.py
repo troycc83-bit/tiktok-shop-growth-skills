@@ -1,1 +1,145 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKVGlrVG9rIOaVsOaNruaKk+WPluWZqCDigJTigJQg5Z+65LqO5pys5Zyw5byA5rqQ6aG555uuIG9ta2FyY2xvdWQvdGlrdG9rLXNjcmFwZXLvvIhNSVTvvIwyNOKYhe+8jDIwMjYg5rS76LeD77yJ44CCCgrkuLrku4DkuYjpnIDopoHlroPvvJpUaWtUb2sg572R6aG15pyJ5Lq65py66aqM6K+BICsg6K+35rGC562+5ZCN77yM5rWP6KeI5ZmoL1dlYkZldGNoIOaKk+S4jeWIsOivhOiuuuOAggrmnKzpobnnm67mnKzlnLDotbfkuIDkuKogSFRUUCDmnI3liqHvvIhsb2NhbGhvc3Q6ODAwMO+8ie+8jOWwgeijhSBUaWtUb2sg5o6l5Y+j77yM5YWN6LS544CB5peg6ZyAIEFQSSBrZXnjgIEK5peg6ZyA5Luj55CG77yI576O5Zu95L2P5a6FIElQIOebtOi/nuWNs+WPr++8ieOAguWunua1i+WPr+eUqOaOpeWPo++8muinhumikeivpuaDhSAvIOivhOiuuiAvIOWtl+W5lei9rOW9lSAvIOebuOWFs+inhumikeOAggoK5a6e5rWL57uT6K6677yIMjAyNi0xMS0xOO+8ie+8mgogIOKchSAvdmlkZW9zL2RldGFpbHMgICDop4bpopHor6bmg4XvvIjmkq3mlL4v54K56LWeL+ivhOiuui/liIbkuqvmlbDjgIHmj4/ov7DjgIHkvZzogIXjgIHor53popjvvIkKICDinIUgL3ZpZGVvcy9jb21tZW50cyAg6KeG6aKR6K+E6K6677yI5q+P6aG157qmIDUwIOadoe+8jOWunua1iyA0OSDmnaHmiJDlip/vvIkKICDinIUgL3ZpZGVvcy90cmFuc2NyaXB0IOWtl+W5lei9rOW9le+8iOW4puaXtumXtOaIs+eahOWPsOivjSArIOWFqOaWh++8ieKGkCDop4bpopHmi4bop6MgU2tpbGwg55u05o6l55SoCiAg4pqg77iPIC9zZWFyY2gvdmlkZW9zICAg5YWz6ZSu6K+N5pCc57Si77yI5a+55Ye65Y+jIElQIOaVj+aEn++8jOW9k+WJjeeOr+Wig+i/lOWbniA1MDIgYmxvY2tlZO+8iQogIOKaoO+4jyAvZmVlZC90cmVuZGluZyAgIOi2i+WKv++8iOWPr+iDveWboCBJUCDooqvmjKHvvIkKCummluasoeWHhuWkh++8iOS4gOasoeaAp++8ie+8mgogICAgcGlwMyBpbnN0YWxsIGJvdHRsZSBjaGVyb290IGN1cmxfY2ZmaSBtYXJzaG1hbGxvdwogICAgIyDohJrmnKzlt7LlhoXnva7pobnnm67mlofku7blnKggdGlrdG9rLXNjcmFwZXIvIOWtkOebruW9le+8jOaXoOmcgOWNleeLrOWFi+mahgoK55So5rOV77yaCiAgICAjIDEuIOWQr+WKqOacjeWKoe+8iOWcqOS4gOS4quaMgee7reeahOe7iOerry/lkI7lj7Dku7vliqHkuK3vvIkKICAgIHB5dGhvbjMgZmV0Y2hfdGlrdG9rLnB5IC0tc2VydmUKCiAgICAjIDIuIOaKk+afkOS4quinhumikeeahOivhOiuuu+8iOinhumikemTvuaOpeaIliBJRCDpg73ooYzvvIkKICAgIHB5dGhvbjMgZmV0Y2hfdGlrdG9rLnB5IC0tY29tbWVudHMgImh0dHBzOi8vd3d3LnRpa3Rvay5jb20vQHh4eC92aWRlby83NjkyMTE0MzE3MTUxNDIzNzc1IiAtLW91dCBjb21tZW50cy5qc29uCgogICAgIyAzLiDmipPlrZfluZXvvIjlgZrop4bpopHmi4bop6Pml7bmm7/ku6MgV2hpc3Blcu+8iQogICAgcHl0aG9uMyBmZXRjaF90aWt0b2sucHkgLS10cmFuc2NyaXB0IDc2OTIxMTQzMTcxNTE0MjM3NzUgLS1vdXQgdHJhbnNjcmlwdC5qc29uCgogICAgIyA0LiDmipPop4bpopHor6bmg4UKICAgIHB5dGhvbjMgZmV0Y2hfdGlrdG9rLnB5IC0tZGV0YWlscyA3NjkyMTE0MzE3MTUxNDIzNzc1CgogICAgIyA1LiDlhbPplK7or43mkJzntKLvvIhJUCDlhYHorrjml7blj6/nlKjvvIkKICAgIHB5dGhvbjMgZmV0Y2hfdGlrdG9rLnB5IC0tc2VhcmNoICJvcGVuIGVhciBlYXJidWRzIiAtLWNvdW50cnkgVVMKCui+k+WHuu+8mkpTT07jgILor4TorrrlkKsgdGV4dC9saWtlcy9hdXRob3LvvJvlrZfluZXlkKsgdGV4dCArIOaXtumXtOaIs+WIhuauteOAggoiIiIKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgcmUKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHN5cwppbXBvcnQgdGltZQppbXBvcnQgdXJsbGliLnBhcnNlCmltcG9ydCB1cmxsaWIucmVxdWVzdAppbXBvcnQgdXJsbGliLmVycm9yCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKQkFTRV9VUkwgPSAiaHR0cDovL2xvY2FsaG9zdDo4MDAwIgpTQ1JBUEVSX0RJUiA9IFBhdGgoX19maWxlX18pLnBhcmVudCAvICJ0aWt0b2stc2NyYXBlciIKCgpkZWYgZXh0cmFjdF92aWRlb19pZChzKToKICAgICIiIuS7jiBUaWtUb2sg6ZO+5o6l5oiW57qvIElEIOS4reaPkOWPluinhumikSBJROOAgiIiIgogICAgcyA9IHMuc3RyaXAoKQogICAgaWYgcy5pc2RpZ2l0KCk6CiAgICAgICAgcmV0dXJuIHMKICAgIG0gPSByZS5zZWFyY2gociIvdmlkZW8vKFxkKykiLCBzKQogICAgaWYgbToKICAgICAgICByZXR1cm4gbS5ncm91cCgxKQogICAgcmV0dXJuIHMgICMg5Lqk57uZ5pyN5Yqh56uv6Kej5p6Q77yI5pSv5oyBIHNoYXJlIGxpbmvvvIkKCgpkZWYgZW5zdXJlX3NlcnZlcigpOgogICAgIiIi56Gu6K6k5pyN5Yqh5Zyo6LeR77yM5LiN5Zyo5bCx5o+Q56S65ZCv5Yqo44CCIiIiCiAgICB0cnk6CiAgICAgICAgdXJsbGliLnJlcXVlc3QudXJsb3BlbihmIntCQVNFX1VSTH0vdmlkZW9zL2RldGFpbHM/dmlkZW89NzY5MjExNDMxNzE1MTQyMzc3NSIsIHRpbWVvdXQ9MTApCiAgICAgICAgcmV0dXJuIFRydWUKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcmV0dXJuIEZhbHNlCgoKZGVmIGFwaV9jYWxsKGVuZHBvaW50LCBwYXJhbXMpOgogICAgdXJsID0gZiJ7QkFTRV9VUkx9e2VuZHBvaW50fT97dXJsbGliLnBhcnNlLnVybGVuY29kZShwYXJhbXMpfSIKICAgIHRyeToKICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4odXJsLCB0aW1lb3V0PTcwKSBhcyByOgogICAgICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhyLnJlYWQoKS5kZWNvZGUoInV0Zi04IikpCiAgICBleGNlcHQgdXJsbGliLmVycm9yLkhUVFBFcnJvciBhcyBlOgogICAgICAgIGJvZHkgPSBlLnJlYWQoKS5kZWNvZGUoInV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIilbOjMwMF0KICAgICAgICBzeXMuZXhpdChmIlvplJnor69dIEhUVFAge2UuY29kZX06IHtib2R5fSIpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgc3lzLmV4aXQoZiJb6ZSZ6K+vXSB7dHlwZShlKS5fX25hbWVfX306IHtlfSIpCgoKZGVmIHNhdmVfb3JfcHJpbnQoZGF0YSwgb3V0LCBsYWJlbCk6CiAgICBpZiBvdXQ6CiAgICAgICAgd2l0aCBvcGVuKG91dCwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICBqc29uLmR1bXAoZGF0YSwgZiwgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MikKICAgICAgICBwcmludChmIlvlrozmiJBdIHtsYWJlbH0gLT4ge291dH0iKQogICAgZWxzZToKICAgICAgICBwcmludChqc29uLmR1bXBzKGRhdGEsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpWzo1MDAwXSkKCgpkZWYgbWFpbigpOgogICAgYXAgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0iVGlrVG9rIOaVsOaNruaKk+WPlu+8iOacrOWcsOW8gOa6kOacjeWKoe+8iSIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tc2VydmUiLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSLlkK/liqjmnKzlnLDmipPlj5bmnI3liqHvvIjmjIHnu63ov5DooYzvvIkiKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLWNvbW1lbnRzIiwgbWV0YXZhcj0iVklERU8iLCBoZWxwPSLmipPop4bpopHor4TorrrvvIzovpPlhaXpk77mjqXmiJYgSUQiKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLXRyYW5zY3JpcHQiLCBtZXRhdmFyPSJWSURFTyIsIGhlbHA9IuaKk+inhumikeWtl+W5lS/lj7Dor40iKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLWRldGFpbHMiLCBtZXRhdmFyPSJWSURFTyIsIGhlbHA9IuaKk+inhumikeivpuaDhSIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tc2VhcmNoIiwgbWV0YXZhcj0iUVVFUlkiLCBoZWxwPSLlhbPplK7or43mkJzntKLop4bpopHvvIhJUCDlhYHorrjml7bvvIkiKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLWNvdW50cnkiLCBkZWZhdWx0PSJVUyIsIGhlbHA9IuaQnOe0ouWbveWutu+8jOm7mOiupCBVUyIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tb3V0IiwgZGVmYXVsdD1Ob25lLCBoZWxwPSLovpPlh7ogSlNPTiDmlofku7YiKQogICAgYXJncyA9IGFwLnBhcnNlX2FyZ3MoKQoKICAgIGlmIGFyZ3Muc2VydmU6CiAgICAgICAgaWYgbm90IChTQ1JBUEVSX0RJUiAvICJydW4ucHkiKS5leGlzdHMoKToKICAgICAgICAgICAgc3lzLmV4aXQoZiJb6ZSZ6K+vXSDmnKrmib7liLDlhoXnva4gc2NyYXBlcjoge1NDUkFQRVJfRElSfSIpCiAgICAgICAgcHJpbnQoIlvkv6Hmga9dIOWQr+WKqCBUaWtUb2sgc2NyYXBlciDmnI3liqHkuo4gbG9jYWxob3N0OjgwMDDvvIhDdHJsK0Mg5YGc5q2i77yJIikKICAgICAgICBzdWJwcm9jZXNzLnJ1bihbc3lzLmV4ZWN1dGFibGUsICJydW4ucHkiXSwgY3dkPXN0cihTQ1JBUEVSX0RJUikpCiAgICAgICAgcmV0dXJuCgogICAgYWN0aW9ucyA9IFthcmdzLmNvbW1lbnRzLCBhcmdzLnRyYW5zY3JpcHQsIGFyZ3MuZGV0YWlscywgYXJncy5zZWFyY2hdCiAgICBpZiBub3QgYW55KGFjdGlvbnMpOgogICAgICAgIGFwLnByaW50X2hlbHAoKQogICAgICAgIHJldHVybgoKICAgIGlmIG5vdCBlbnN1cmVfc2VydmVyKCk6CiAgICAgICAgc3lzLmV4aXQoCiAgICAgICAgICAgICJb6ZSZ6K+vXSDmnKzlnLDmnI3liqHmnKrlkK/liqjjgILor7flhYjlnKjkuIDkuKrmjIHnu63nmoTnu4jnq68v5ZCO5Y+w5Lu75Yqh6L+Q6KGM77yaXG4iCiAgICAgICAgICAgIGYiICBweXRob24zIHtQYXRoKF9fZmlsZV9fKX0gLS1zZXJ2ZSIKICAgICAgICApCgogICAgaWYgYXJncy5jb21tZW50czoKICAgICAgICB2aWQgPSBleHRyYWN0X3ZpZGVvX2lkKGFyZ3MuY29tbWVudHMpCiAgICAgICAgZGF0YSA9IGFwaV9jYWxsKCIvdmlkZW9zL2NvbW1lbnRzIiwgeyJ2aWRlbyI6IHZpZH0pCiAgICAgICAgY29tbWVudHMgPSBkYXRhLmdldCgiY29tbWVudHMiLCBbXSkKICAgICAgICBwcmludChmIlvkv6Hmga9dIOaKk+WIsCB7bGVuKGNvbW1lbnRzKX0g5p2h6K+E6K66IikKICAgICAgICBzYXZlX29yX3ByaW50KGRhdGEsIGFyZ3Mub3V0IG9yICJ0dF9jb21tZW50cy5qc29uIiwgIuivhOiuuiIpCiAgICBpZiBhcmdzLnRyYW5zY3JpcHQ6CiAgICAgICAgdmlkID0gZXh0cmFjdF92aWRlb19pZChhcmdzLnRyYW5zY3JpcHQpCiAgICAgICAgZGF0YSA9IGFwaV9jYWxsKCIvdmlkZW9zL3RyYW5zY3JpcHQiLCB7InZpZGVvIjogdmlkfSkKICAgICAgICBwcmludChmIlvkv6Hmga9dIOWtl+W5leivreiogDoge2RhdGEuZ2V0KCdsYW5ndWFnZScpfSwg5YWo5paHIHtsZW4oZGF0YS5nZXQoJ3RleHQnLCcnKSl9IOWtlyIpCiAgICAgICAgc2F2ZV9vcl9wcmludChkYXRhLCBhcmdzLm91dCBvciAidHRfdHJhbnNjcmlwdC5qc29uIiwgIuWtl+W5lSIpCiAgICBpZiBhcmdzLmRldGFpbHM6CiAgICAgICAgdmlkID0gZXh0cmFjdF92aWRlb19pZChhcmdzLmRldGFpbHMpCiAgICAgICAgZGF0YSA9IGFwaV9jYWxsKCIvdmlkZW9zL2RldGFpbHMiLCB7InZpZGVvIjogdmlkfSkKICAgICAgICBzYXZlX29yX3ByaW50KGRhdGEsIGFyZ3Mub3V0IG9yICJ0dF9kZXRhaWxzLmpzb24iLCAi6KeG6aKR6K+m5oOFIikKICAgIGlmIGFyZ3Muc2VhcmNoOgogICAgICAgIGRhdGEgPSBhcGlfY2FsbCgiL3NlYXJjaC92aWRlb3MiLCB7InF1ZXJ5IjogYXJncy5zZWFyY2gsICJjb3VudHJ5IjogYXJncy5jb3VudHJ5fSkKICAgICAgICBzYXZlX29yX3ByaW50KGRhdGEsIGFyZ3Mub3V0IG9yICJ0dF9zZWFyY2guanNvbiIsICLmkJzntKLnu5PmnpwiKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+"""
+TikTok 数据抓取器 —— 基于本地开源项目 omkarcloud/tiktok-scraper（MIT，24★，2026 活跃）。
+
+为什么需要它：TikTok 网页有人机验证 + 请求签名，浏览器/WebFetch 抓不到评论。
+本项目本地起一个 HTTP 服务（localhost:8000），封装 TikTok 接口，免费、无需 API key、
+无需代理（美国住宅 IP 直连即可）。实测可用接口：视频详情 / 评论 / 字幕转录 / 相关视频。
+
+实测结论（2026-11-18）：
+  ✅ /videos/details   视频详情（播放/点赞/评论/分享数、描述、作者、话题）
+  ✅ /videos/comments  视频评论（每页约 50 条，实测 49 条成功）
+  ✅ /videos/transcript 字幕转录（带时间戳的台词 + 全文）← 视频拆解 Skill 直接用
+  ⚠️ /search/videos   关键词搜索（对出口 IP 敏感，当前环境返回 502 blocked）
+  ⚠️ /feed/trending   趋势（可能因 IP 被挡）
+
+首次准备（一次性）：
+    pip3 install bottle cheroot curl_cffi marshmallow
+    # 脚本已内置项目文件在 tiktok-scraper/ 子目录，无需单独克隆
+
+用法：
+    # 1. 启动服务（在一个持续的终端/后台任务中）
+    python3 fetch_tiktok.py --serve
+
+    # 2. 抓某个视频的评论（视频链接或 ID 都行）
+    python3 fetch_tiktok.py --comments "https://www.tiktok.com/@xxx/video/7692114317151423775" --out comments.json
+
+    # 3. 抓字幕（做视频拆解时替代 Whisper）
+    python3 fetch_tiktok.py --transcript 7692114317151423775 --out transcript.json
+
+    # 4. 抓视频详情
+    python3 fetch_tiktok.py --details 7692114317151423775
+
+    # 5. 关键词搜索（IP 允许时可用）
+    python3 fetch_tiktok.py --search "open ear earbuds" --country US
+
+输出：JSON。评论含 text/likes/author；字幕含 text + 时间戳分段。
+"""
+import argparse
+import json
+import os
+import re
+import subprocess
+import sys
+import time
+import urllib.parse
+import urllib.request
+import urllib.error
+from pathlib import Path
+
+BASE_URL = "http://localhost:8000"
+SCRAPER_DIR = Path(__file__).parent / "tiktok-scraper"
+
+
+def extract_video_id(s):
+    """从 TikTok 链接或纯 ID 中提取视频 ID。"""
+    s = s.strip()
+    if s.isdigit():
+        return s
+    m = re.search(r"/video/(\d+)", s)
+    if m:
+        return m.group(1)
+    return s  # 交给服务端解析（支持 share link）
+
+
+def ensure_server():
+    """确认服务在跑，不在就提示启动。"""
+    try:
+        urllib.request.urlopen(f"{BASE_URL}/videos/details?video=7692114317151423775", timeout=10)
+        return True
+    except Exception:
+        return False
+
+
+def api_call(endpoint, params):
+    url = f"{BASE_URL}{endpoint}?{urllib.parse.urlencode(params)}"
+    try:
+        with urllib.request.urlopen(url, timeout=70) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")[:300]
+        sys.exit(f"[错误] HTTP {e.code}: {body}")
+    except Exception as e:
+        sys.exit(f"[错误] {type(e).__name__}: {e}")
+
+
+def save_or_print(data, out, label):
+    if out:
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"[完成] {label} -> {out}")
+    else:
+        print(json.dumps(data, ensure_ascii=False, indent=2)[:5000])
+
+
+def main():
+    ap = argparse.ArgumentParser(description="TikTok 数据抓取（本地开源服务）")
+    ap.add_argument("--serve", action="store_true", help="启动本地抓取服务（持续运行）")
+    ap.add_argument("--comments", metavar="VIDEO", help="抓视频评论，输入链接或 ID")
+    ap.add_argument("--transcript", metavar="VIDEO", help="抓视频字幕/台词")
+    ap.add_argument("--details", metavar="VIDEO", help="抓视频详情")
+    ap.add_argument("--search", metavar="QUERY", help="关键词搜索视频（IP 允许时）")
+    ap.add_argument("--country", default="US", help="搜索国家，默认 US")
+    ap.add_argument("--out", default=None, help="输出 JSON 文件")
+    args = ap.parse_args()
+
+    if args.serve:
+        if not (SCRAPER_DIR / "run.py").exists():
+            sys.exit(f"[错误] 未找到内置 scraper: {SCRAPER_DIR}")
+        print("[信息] 启动 TikTok scraper 服务于 localhost:8000（Ctrl+C 停止）")
+        subprocess.run([sys.executable, "run.py"], cwd=str(SCRAPER_DIR))
+        return
+
+    actions = [args.comments, args.transcript, args.details, args.search]
+    if not any(actions):
+        ap.print_help()
+        return
+
+    if not ensure_server():
+        sys.exit(
+            "[错误] 本地服务未启动。请先在一个持续的终端/后台任务运行：\n"
+            f"  python3 {Path(__file__)} --serve"
+        )
+
+    if args.comments:
+        vid = extract_video_id(args.comments)
+        data = api_call("/videos/comments", {"video": vid})
+        comments = data.get("comments", [])
+        print(f"[信息] 抓到 {len(comments)} 条评论")
+        save_or_print(data, args.out or "tt_comments.json", "评论")
+    if args.transcript:
+        vid = extract_video_id(args.transcript)
+        data = api_call("/videos/transcript", {"video": vid})
+        print(f"[信息] 字幕语言: {data.get('language')}, 全文 {len(data.get('text',''))} 字")
+        save_or_print(data, args.out or "tt_transcript.json", "字幕")
+    if args.details:
+        vid = extract_video_id(args.details)
+        data = api_call("/videos/details", {"video": vid})
+        save_or_print(data, args.out or "tt_details.json", "视频详情")
+    if args.search:
+        data = api_call("/search/videos", {"query": args.search, "country": args.country})
+        save_or_print(data, args.out or "tt_search.json", "搜索结果")
+
+
+if __name__ == "__main__":
+    main()

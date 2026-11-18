@@ -1,1 +1,193 @@
-IiIiL2FtYXpvbi9zZWFyY2gsIC9hbWF6b24vY2F0ZWdvcmllcy9wcm9kdWN0cywgL2FtYXpvbi9wcm9kdWN0cy9sb29rdXAsCi9hbWF6b24vc2VhcmNoL2F1dG9jb21wbGV0ZSwgL2FtYXpvbi9jYXRlZ29yaWVzLCAvYW1hem9uL2NhdGVnb3JpZXMvdHJlZSDigJQKdGhlIC9zIHJlc3VsdCBwYWdlcyBhbmQgdGhlIGNvbXBsZXRpb24gc2VydmljZS4KCkZpbHRlcnMgdGhhdCBBbWF6b24gZW5jb2RlcyBhcyBtYXJrZXRwbGFjZS1zcGVjaWZpYyByZWZpbmVtZW50IGlkcwooUHJpbWUsIDQgc3RhcnMgJiB1cCwgY29uZGl0aW9uLCBkZWFscykgYXJlIHJlc29sdmVkIGZyb20gdGhlIHBhZ2UncyBvd24KcmVmaW5lbWVudCBzaWRlYmFyOiB0aGUgZmlyc3QgZmV0Y2ggcmVhZHMgdGhlIGlkcyBmb3IgdGhpcyBtYXJrZXRwbGFjZSBhbmQKa2V5d29yZCwgdGhlIHNlY29uZCBhcHBsaWVzIHRoZW0uIFVuaXZlcnNhbCBwYXJhbXMgKGtleXdvcmQsIGRlcGFydG1lbnQKYWxpYXMsIGJyb3dzZSBub2RlLCBwcmljZSBib3VuZHMsIGJyYW5kIG5hbWUsIHNlbGxlciwgc29ydCwgcGFnZSkgZ28Kc3RyYWlnaHQgaW50byB0aGUgVVJMLgoiIiIKaW1wb3J0IHJlCgpmcm9tIGFtYXpvbiBpbXBvcnQgZmV0Y2gsIHBhcnNlcnMgYXMgUCwgcmVmcwpmcm9tIGNhY2hlIGltcG9ydCBEb250Q2FjaGUKZnJvbSBhbWF6b24uc2hhcmVkIGltcG9ydCBjb250ZXh0LCBwYWdlZF9yZXN1bHQKClBFUl9QQUdFID0gMjQgICAgICAgICAgICAjIG9yZ2FuaWMgY2FyZHMgcGVyIHBhZ2Ugb24gdGhlIGRlc2t0b3AgbGF5b3V0ICgxNi02MCBkZXBlbmRpbmcgb24gbGF5b3V0KQpNQVhfUEFHRVMgPSA0MDAKClNPUlRTID0gewogICAgInJlbGV2YW5jZSI6ICJyZWxldmFuY2VibGVuZGVyIiwKICAgICJwcmljZV9sb3dfdG9faGlnaCI6ICJwcmljZS1hc2MtcmFuayIsCiAgICAicHJpY2VfaGlnaF90b19sb3ciOiAicHJpY2UtZGVzYy1yYW5rIiwKICAgICJyZXZpZXdzIjogInJldmlldy1yYW5rIiwKICAgICJuZXdlc3QiOiAiZGF0ZS1kZXNjLXJhbmsiLAogICAgImJlc3Rfc2VsbGVycyI6ICJleGFjdC1hd2FyZS1wb3B1bGFyaXR5LXJhbmsiLAp9CkNPTkRJVElPTlMgPSAoIm5ldyIsICJ1c2VkIiwgInJlbmV3ZWQiLCAiY29sbGVjdGlibGUiLCAiYWxsIikKREVBTF9UWVBFUyA9ICgiYWxsX2Rpc2NvdW50cyIsICJ0b2RheXNfZGVhbHMiLCAiY291cG9ucyIsICJsaWdodG5pbmdfZGVhbHMiKQpfQ09ORElUSU9OX0xBQkVMUyA9IHsibmV3IjogKCJuZXciLCAibmV1IiwgIm51ZXZvIiwgIm5ldWYiLCAibnVvdm8iKSwgInVzZWQiOiAoInVzZWQiLCAiZ2VicmF1Y2h0IiwgInVzYWRvIiwgImQnb2NjYXNpb24iLCAidXNhdG8iKSwKICAgICAgICAgICAgICAgICAgICAgInJlbmV3ZWQiOiAoInJlbmV3ZWQiLCAicmVmdXJiaXNoZWQiLCAiZ2VuZXJhbMO8YmVyaG9sdCIsICJyZWNvbmRpdGlvbm7DqSIsICJyaWNvbmRpemlvbmF0byIpLAogICAgICAgICAgICAgICAgICAgICAiY29sbGVjdGlibGUiOiAoImNvbGxlY3RpYmxlIiwgInNhbW1sZXIiKX0KX0RFQUxfTEFCRUxTID0geyJhbGxfZGlzY291bnRzIjogKCJhbGwgZGlzY291bnRzIiwgImFsbCBzYXZpbmdzIiwgImFsbGUgYW5nZWJvdGUiLCAidG91dGVzIGxlcyIpLCAidG9kYXlzX2RlYWxzIjogKCJ0b2RheSdzIGRlYWxzIiwgImFuZ2Vib3RlIGRlcyB0YWdlcyIsICJvZmZyZXMgZHUgam91ciIpLAogICAgICAgICAgICAgICAgImNvdXBvbnMiOiAoImNvdXBvbnMiLCAiZ3V0c2NoZWluZSIpLCAibGlnaHRuaW5nX2RlYWxzIjogKCJsaWdodG5pbmciLCAiYmxpdHoiKX0KCgpkZWYgX3JlZmluZW1lbnRfaWRzKHNpdGUsIHBhcmFtcywgd2FudHMpOgogICAgIiIiUmVhZCB0aGUgcmVmaW5lbWVudCBpZHMgdGhpcyBtYXJrZXRwbGFjZSB1c2VzIGZvciB0aGUgcmVxdWVzdGVkCiAgICBtYXJrZXRwbGFjZS1zcGVjaWZpYyBmaWx0ZXJzIGZyb20gYW4gdW5maWx0ZXJlZCByZXN1bHQgcGFnZS4iIiIKICAgIGh0bWwgPSBmZXRjaC5wYWdlKHNpdGVbImNvdW50cnkiXSwgIi9zIiwgcGFyYW1zLCBsYWJlbD0ic2VhcmNoIHJlZmluZW1lbnRzIikKICAgIHBhZ2UgPSBQLnNlYXJjaF9wYWdlKGh0bWwsIHNpdGUpCiAgICBwaWNrcyA9IFtdCiAgICBieV9pZCA9IHtmWyJpZCJdOiBmIGZvciBmIGluIHBhZ2VbInJlZmluZW1lbnRzIl19CgogICAgZGVmIG9wdGlvbl92YWx1ZShmYWNldF9pZCwgbGFiZWxzPU5vbmUsIGluZGV4PU5vbmUpOgogICAgICAgIGZhY2V0ID0gYnlfaWQuZ2V0KGZhY2V0X2lkKQogICAgICAgIGlmIG5vdCBmYWNldDoKICAgICAgICAgICAgcmV0dXJuIE5vbmUKICAgICAgICBpZiBpbmRleCBpcyBub3QgTm9uZSBhbmQgZmFjZXRbIm9wdGlvbnMiXToKICAgICAgICAgICAgb3B0aW9uID0gZmFjZXRbIm9wdGlvbnMiXVtpbmRleF0KICAgICAgICAgICAgcmV0dXJuIGYie2ZhY2V0X2lkfTp7b3B0aW9uWyd2YWx1ZSddfSIgaWYgb3B0aW9uLmdldCgidmFsdWUiKSBlbHNlIE5vbmUKICAgICAgICBmb3Igb3B0aW9uIGluIGZhY2V0WyJvcHRpb25zIl06CiAgICAgICAgICAgIG5hbWUgPSAob3B0aW9uLmdldCgibmFtZSIpIG9yICIiKS5sb3dlcigpCiAgICAgICAgICAgIGlmIGFueShsYmwgaW4gbmFtZSBmb3IgbGJsIGluIGxhYmVscyBvciAoKSk6CiAgICAgICAgICAgICAgICByZXR1cm4gZiJ7ZmFjZXRfaWR9OntvcHRpb25bJ3ZhbHVlJ119IiBpZiBvcHRpb24uZ2V0KCJ2YWx1ZSIpIGVsc2UgTm9uZQogICAgICAgIHJldHVybiBOb25lCiAgICBpZiB3YW50cy5nZXQoImlzX3ByaW1lIik6CiAgICAgICAgcGlja3MuYXBwZW5kKG9wdGlvbl92YWx1ZSgicF84NSIsIGluZGV4PTApKQogICAgaWYgd2FudHMuZ2V0KCJmb3VyX3N0YXJzX2FuZF91cCIpOgogICAgICAgIHBpY2tzLmFwcGVuZChvcHRpb25fdmFsdWUoInBfNzIiLCBpbmRleD0wKSkKICAgIGlmIHdhbnRzLmdldCgiY29uZGl0aW9uIikgYW5kIHdhbnRzWyJjb25kaXRpb24iXSAhPSAiYWxsIjoKICAgICAgICBwaWNrcy5hcHBlbmQob3B0aW9uX3ZhbHVlKCJwX25fY29uZGl0aW9uLXR5cGUiLCBsYWJlbHM9X0NPTkRJVElPTl9MQUJFTFMuZ2V0KHdhbnRzWyJjb25kaXRpb24iXSwgKCkpKSkKICAgIGlmIHdhbnRzLmdldCgiZGVhbHMiKToKICAgICAgICBwaWNrcy5hcHBlbmQob3B0aW9uX3ZhbHVlKCJwX25fZGVhbF90eXBlIiwgbGFiZWxzPV9ERUFMX0xBQkVMUy5nZXQod2FudHNbImRlYWxzIl0sICgpKSkpCiAgICByZXR1cm4gW3AgZm9yIHAgaW4gcGlja3MgaWYgcF0sIHBhZ2UKCgpkZWYgX3NlYXJjaF9wYXJhbXMocXVlcnk9Tm9uZSwgbm9kZT1Ob25lLCBhbGlhcz1Ob25lLCBwYWdlPTEsIHNvcnQ9Tm9uZSwgbWluX3ByaWNlPU5vbmUsIG1heF9wcmljZT1Ob25lLCBicmFuZD1Ob25lLAogICAgICAgICAgICAgICAgICAgc2VsbGVyPU5vbmUsIGV4dHJhX3JoPU5vbmUpOgogICAgcGFyYW1zID0ge30KICAgIGlmIHF1ZXJ5OgogICAgICAgIHBhcmFtc1siayJdID0gcXVlcnkKICAgIGlmIGFsaWFzOgogICAgICAgIHBhcmFtc1siaSJdID0gYWxpYXMKICAgIGlmIHNlbGxlcjoKICAgICAgICBwYXJhbXNbIm1lIl0gPSBzZWxsZXIKICAgIHJoID0gW10KICAgIGlmIG5vZGU6CiAgICAgICAgcmguYXBwZW5kKGYibjp7bm9kZX0iKQogICAgaWYgYnJhbmQ6CiAgICAgICAgcmguYXBwZW5kKGYicF84OTp7YnJhbmR9IikKICAgIHJoLmV4dGVuZChleHRyYV9yaCBvciBbXSkKICAgIGlmIHJoOgogICAgICAgIHBhcmFtc1sicmgiXSA9ICIsIi5qb2luKHJoKQogICAgICAgIGlmIG5vZGUgYW5kIG5vdCBxdWVyeToKICAgICAgICAgICAgcGFyYW1zWyJmcyJdID0gInRydWUiCiAgICBpZiBtaW5fcHJpY2UgaXMgbm90IE5vbmU6CiAgICAgICAgcGFyYW1zWyJsb3ctcHJpY2UiXSA9IGYie21pbl9wcmljZTpnfSIKICAgIGlmIG1heF9wcmljZSBpcyBub3QgTm9uZToKICAgICAgICBwYXJhbXNbImhpZ2gtcHJpY2UiXSA9IGYie21heF9wcmljZTpnfSIKICAgIGlmIHNvcnQgYW5kIHNvcnQgIT0gInJlbGV2YW5jZSI6CiAgICAgICAgcGFyYW1zWyJzIl0gPSBTT1JUU1tzb3J0XQogICAgaWYgcGFnZSBhbmQgcGFnZSA+IDE6CiAgICAgICAgcGFyYW1zWyJwYWdlIl0gPSBzdHIocGFnZSkKICAgIHJldHVybiBwYXJhbXMKCgpkZWYgX3J1bl9zZWFyY2goc2l0ZSwgbG9jYWxlLCBiYXNlX3BhcmFtcywgd2FudHMsIHBhZ2UsIGtleT0icmVzdWx0cyIsICoqZXh0cmEpOgogICAgdW5maWx0ZXJlZCA9IHtrOiB2IGZvciBrLCB2IGluIGJhc2VfcGFyYW1zLml0ZW1zKCkgaWYgayAhPSAicGFnZSJ9CiAgICBleHRyYV9yaCA9IFtdCiAgICBpZiBhbnkod2FudHMudmFsdWVzKCkpOgogICAgICAgIGV4dHJhX3JoLCBfID0gX3JlZmluZW1lbnRfaWRzKHNpdGUsIHVuZmlsdGVyZWQsIHdhbnRzKQogICAgICAgIGlmIGV4dHJhX3JoOgogICAgICAgICAgICByaCA9IGJhc2VfcGFyYW1zLmdldCgicmgiKQogICAgICAgICAgICBiYXNlX3BhcmFtc1sicmgiXSA9ICIsIi5qb2luKChbcmhdIGlmIHJoIGVsc2UgW10pICsgZXh0cmFfcmgpCiAgICBodG1sID0gZmV0Y2gucGFnZShzaXRlWyJjb3VudHJ5Il0sICIvcyIsIGJhc2VfcGFyYW1zLCBsYW5ndWFnZT1sb2NhbGUsIGxhYmVsPSJzZWFyY2giKQogICAgcGFyc2VkID0gUC5zZWFyY2hfcGFnZShodG1sLCBzaXRlKQogICAgcmVzdWx0cyA9IHBhcnNlZC5wb3AoInJlc3VsdHMiKQogICAgdG90YWxfcGFnZXMgPSBwYXJzZWQucG9wKCJ0b3RhbF9wYWdlcyIsIE5vbmUpCiAgICBjdXJyZW50ID0gcGFyc2VkLnBvcCgiY3VycmVudF9wYWdlIiwgcGFnZSkKICAgIHRvdGFsID0gcGFyc2VkLnBvcCgidG90YWxfY291bnQiLCBOb25lKQogICAgcGVyX3BhZ2UgPSBsZW4ocmVzdWx0cykgb3IgUEVSX1BBR0UKICAgIG91dCA9IHBhZ2VkX3Jlc3VsdChrZXksIHJlc3VsdHMsIGN1cnJlbnQgb3IgcGFnZSwgcGVyX3BhZ2UsIHRvdGFsPU5vbmUsIGhhc19tb3JlPSh0b3RhbF9wYWdlcyBvciAwKSA+IChjdXJyZW50IG9yIHBhZ2UpLCAqKmV4dHJhKQogICAgb3V0WyJwYWdpbmF0aW9uIl1bInRvdGFsX3BhZ2VzIl0gPSB0b3RhbF9wYWdlcyBvciAoMSBpZiByZXN1bHRzIGVsc2UgMCkKICAgIG91dFsicGFnaW5hdGlvbiJdWyJ0b3RhbF9jb3VudCJdID0gdG90YWwKICAgIG91dFsiaXNfdG90YWxfYXBwcm94aW1hdGUiXSA9IHBhcnNlZC5nZXQoImlzX3RvdGFsX2FwcHJveGltYXRlIikKICAgIG91dFsicmVzdWx0c190ZXh0Il0gPSBwYXJzZWQuZ2V0KCJyZXN1bHRzX3RleHQiKQogICAgb3V0WyJkZXBhcnRtZW50cyJdID0gcGFyc2VkLmdldCgiZGVwYXJ0bWVudHMiKQogICAgb3V0WyJyZWZpbmVtZW50cyJdID0gcGFyc2VkLmdldCgicmVmaW5lbWVudHMiKQogICAgb3V0WyJhcHBsaWVkX3JlZmluZW1lbnRzIl0gPSBleHRyYV9yaCBvciBOb25lCiAgICByZXR1cm4gb3V0CgoKZGVmIHNlYXJjaChxdWVyeSwgY291bnRyeT1Ob25lLCBsYW5ndWFnZT1Ob25lLCBwYWdlPTEsIHNvcnQ9InJlbGV2YW5jZSIsIGNhdGVnb3J5PU5vbmUsIG5vZGU9Tm9uZSwgbWluX3ByaWNlPU5vbmUsCiAgICAgICAgICAgbWF4X3ByaWNlPU5vbmUsIGJyYW5kPU5vbmUsIGNvbmRpdGlvbj1Ob25lLCBpc19wcmltZT1Ob25lLCBmb3VyX3N0YXJzX2FuZF91cD1Ob25lLCBkZWFscz1Ob25lLCBzZWxsZXI9Tm9uZSk6CiAgICBzaXRlLCBsb2NhbGUgPSBjb250ZXh0KGNvdW50cnksIGxhbmd1YWdlKQogICAgcGFyYW1zID0gX3NlYXJjaF9wYXJhbXMocXVlcnk9cXVlcnksIG5vZGU9bm9kZSwgYWxpYXM9Y2F0ZWdvcnksIHBhZ2U9cGFnZSwgc29ydD1zb3J0LCBtaW5fcHJpY2U9bWluX3ByaWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4X3ByaWNlPW1heF9wcmljZSwgYnJhbmQ9YnJhbmQsIHNlbGxlcj1zZWxsZXIpCiAgICB3YW50cyA9IHsiaXNfcHJpbWUiOiBpc19wcmltZSwgImZvdXJfc3RhcnNfYW5kX3VwIjogZm91cl9zdGFyc19hbmRfdXAsICJjb25kaXRpb24iOiBjb25kaXRpb24sICJkZWFscyI6IGRlYWxzfQogICAgcmV0dXJuIF9ydW5fc2VhcmNoKHNpdGUsIGxvY2FsZSwgcGFyYW1zLCB3YW50cywgcGFnZSwgcXVlcnk9cXVlcnksIGNvdW50cnk9c2l0ZVsiY291bnRyeSJdLCBkb21haW49c2l0ZVsiaG9zdCJdKQoKCmRlZiBjYXRlZ29yeV9wcm9kdWN0cyhub2RlLCBjb3VudHJ5PU5vbmUsIGxhbmd1YWdlPU5vbmUsIHBhZ2U9MSwgc29ydD0icmVsZXZhbmNlIiwgbWluX3ByaWNlPU5vbmUsIG1heF9wcmljZT1Ob25lLAogICAgICAgICAgICAgICAgICAgICAgYnJhbmQ9Tm9uZSwgY29uZGl0aW9uPU5vbmUsIGlzX3ByaW1lPU5vbmUsIGZvdXJfc3RhcnNfYW5kX3VwPU5vbmUsIGRlYWxzPU5vbmUpOgogICAgc2l0ZSwgbG9jYWxlID0gY29udGV4dChjb3VudHJ5LCBsYW5ndWFnZSkKICAgIHBhcmFtcyA9IF9zZWFyY2hfcGFyYW1zKG5vZGU9bm9kZSwgcGFnZT1wYWdlLCBzb3J0PXNvcnQsIG1pbl9wcmljZT1taW5fcHJpY2UsIG1heF9wcmljZT1tYXhfcHJpY2UsIGJyYW5kPWJyYW5kKQogICAgd2FudHMgPSB7ImlzX3ByaW1lIjogaXNfcHJpbWUsICJmb3VyX3N0YXJzX2FuZF91cCI6IGZvdXJfc3RhcnNfYW5kX3VwLCAiY29uZGl0aW9uIjogY29uZGl0aW9uLCAiZGVhbHMiOiBkZWFsc30KICAgIHJldHVybiBfcnVuX3NlYXJjaChzaXRlLCBsb2NhbGUsIHBhcmFtcywgd2FudHMsIHBhZ2UsIG5vZGVfaWQ9bm9kZSwgY291bnRyeT1zaXRlWyJjb3VudHJ5Il0sIGRvbWFpbj1zaXRlWyJob3N0Il0pCgoKZGVmIGxvb2t1cChpZGVudGlmaWVyLCBjb3VudHJ5PU5vbmUsIGxhbmd1YWdlPU5vbmUpOgogICAgIiIiR1RJTiAvIFVQQyAvIEVBTiAvIElTQk4gKG9yIGFueSBleGFjdCBpZGVudGlmaWVyKSAtPiB0aGUgcHJvZHVjdHMKICAgIEFtYXpvbiByZXNvbHZlcyBpdCB0byAodGhlIHNlYXJjaCBpbmRleCBtYXRjaGVzIGlkZW50aWZpZXJzIGV4YWN0bHkpLiIiIgogICAgc2l0ZSwgbG9jYWxlID0gY29udGV4dChjb3VudHJ5LCBsYW5ndWFnZSkKICAgIGh0bWwgPSBmZXRjaC5wYWdlKHNpdGVbImNvdW50cnkiXSwgIi9zIiwgeyJrIjogaWRlbnRpZmllcn0sIGxhbmd1YWdlPWxvY2FsZSwgbGFiZWw9Imxvb2t1cCIpCiAgICBwYXJzZWQgPSBQLnNlYXJjaF9wYWdlKGh0bWwsIHNpdGUpCiAgICByZXN1bHRzID0gW3IgZm9yIHIgaW4gcGFyc2VkWyJyZXN1bHRzIl0gaWYgbm90IHJbImlzX3Nwb25zb3JlZCJdXQogICAgcmV0dXJuIHsiaWRlbnRpZmllciI6IGlkZW50aWZpZXIsICJyZXN1bHRzIjogcmVzdWx0cywgImNvdW50IjogbGVuKHJlc3VsdHMpLCAiY291bnRyeSI6IHNpdGVbImNvdW50cnkiXSwgImRvbWFpbiI6IHNpdGVbImhvc3QiXX0KCgpkZWYgYXV0b2NvbXBsZXRlKHF1ZXJ5LCBjb3VudHJ5PU5vbmUsIGNhdGVnb3J5PU5vbmUsIGxpbWl0PTExKToKICAgIHNpdGUsIF8gPSBjb250ZXh0KGNvdW50cnkpCiAgICBib2R5ID0gZmV0Y2guY29tcGxldGlvbihzaXRlWyJjb3VudHJ5Il0sIHsicHJlZml4IjogcXVlcnksICJhbGlhcyI6IGNhdGVnb3J5IG9yICJhcHMiLCAibGltaXQiOiBzdHIobGltaXQpfSkKICAgIHJvd3MgPSBbUC5zdWdnZXN0aW9uKHMpIGZvciBzIGluIChib2R5IG9yIHt9KS5nZXQoInN1Z2dlc3Rpb25zIikgb3IgW11dCiAgICByZXN1bHQgPSB7InF1ZXJ5IjogcXVlcnksICJzdWdnZXN0aW9ucyI6IHJvd3NbOmxpbWl0XSwgImNvdW50IjogbGVuKHJvd3NbOmxpbWl0XSksICJjb3VudHJ5Ijogc2l0ZVsiY291bnRyeSJdfQogICAgIyBhbiBlbXB0eSBsaXN0IGlzIGFzIG9mdGVuIGEgYnJva2VuIGNvbXBsZXRpb24gaG9zdCBhcyBhIGRlYWQgcHJlZml4OwogICAgIyBkb24ndCBwaW4gaXQgZm9yIEFVVE9DT01QTEVURV9DQUNIRQogICAgcmV0dXJuIHJlc3VsdCBpZiByb3dzIGVsc2UgRG9udENhY2hlKHJlc3VsdCkKCgpkZWYgY2F0ZWdvcmllcyhjb3VudHJ5PU5vbmUsIGxhbmd1YWdlPU5vbmUpOgogICAgIiIiVGhlIHNlYXJjaCBkZXBhcnRtZW50cyAoYGNhdGVnb3J5YCBhbGlhc2VzKSBvZiBhIG1hcmtldHBsYWNlLCBmcm9tCiAgICB0aGUgc2VhcmNoIGJveCBkcm9wZG93bi4iIiIKICAgIHNpdGUsIGxvY2FsZSA9IGNvbnRleHQoY291bnRyeSwgbGFuZ3VhZ2UpCiAgICBodG1sID0gZmV0Y2gucGFnZShzaXRlWyJjb3VudHJ5Il0sICIvcyIsIHsiayI6ICJhbWF6b24ifSwgbGFuZ3VhZ2U9bG9jYWxlLCBsYWJlbD0iY2F0ZWdvcmllcyIpCiAgICBwYXJzZWQgPSBQLnNlYXJjaF9wYWdlKGh0bWwsIHNpdGUpCiAgICByb3dzID0gW2EgZm9yIGEgaW4gcGFyc2VkWyJzZWFyY2hfYWxpYXNlcyJdIGlmIGEuZ2V0KCJpZCIpXQogICAgcmV0dXJuIHsiY2F0ZWdvcmllcyI6IHJvd3MsICJjb3VudCI6IGxlbihyb3dzKSwgImNvdW50cnkiOiBzaXRlWyJjb3VudHJ5Il0sICJkb21haW4iOiBzaXRlWyJob3N0Il19CgoKZGVmIGNhdGVnb3J5X3RyZWUobm9kZSwgY291bnRyeT1Ob25lLCBsYW5ndWFnZT1Ob25lKToKICAgICIiIkEgYnJvd3NlIG5vZGUncyBwbGFjZSBpbiB0aGUgZGVwYXJ0bWVudCB0cmVlIChhbmNlc3RvcnMsIGl0c2VsZiwKICAgIGNoaWxkcmVuKSBwbHVzIHRoZSBmYWNldHMgc2hvd24gZm9yIGl0LCBmcm9tIGl0cyAvcz9yaD1uOiBwYWdlLiIiIgogICAgc2l0ZSwgbG9jYWxlID0gY29udGV4dChjb3VudHJ5LCBsYW5ndWFnZSkKICAgIGh0bWwgPSBmZXRjaC5wYWdlKHNpdGVbImNvdW50cnkiXSwgIi9zIiwgeyJyaCI6IGYibjp7bm9kZX0iLCAiZnMiOiAidHJ1ZSJ9LCBsYW5ndWFnZT1sb2NhbGUsIGxhYmVsPSJjYXRlZ29yeSB0cmVlIikKICAgIHBhcnNlZCA9IFAuc2VhcmNoX3BhZ2UoaHRtbCwgc2l0ZSkKICAgIGRlcGFydG1lbnRzID0gcGFyc2VkWyJkZXBhcnRtZW50cyJdCiAgICBzZWxlY3RlZCA9IG5leHQoKGQgZm9yIGQgaW4gZGVwYXJ0bWVudHMgaWYgZFsiaXNfc2VsZWN0ZWQiXSksIE5vbmUpCiAgICBpZHggPSBkZXBhcnRtZW50cy5pbmRleChzZWxlY3RlZCkgaWYgc2VsZWN0ZWQgZWxzZSAtMQogICAgYW5jZXN0b3JzID0gW2QgZm9yIGQgaW4gZGVwYXJ0bWVudHNbOmlkeF0gaWYgZC5nZXQoIm5vZGVfaWQiKSBvciBkWyJuYW1lIl0ubG93ZXIoKS5zdGFydHN3aXRoKCJhbnkiKV0gaWYgaWR4ID49IDAgZWxzZSBbXQogICAgY2hpbGRyZW4gPSBkZXBhcnRtZW50c1tpZHggKyAxOl0gaWYgaWR4ID49IDAgZWxzZSBkZXBhcnRtZW50cwogICAgcmV0dXJuIHsKICAgICAgICAibm9kZV9pZCI6IG5vZGUsCiAgICAgICAgIm5hbWUiOiBzZWxlY3RlZFsibmFtZSJdIGlmIHNlbGVjdGVkIGVsc2UgTm9uZSwKICAgICAgICAibGluayI6IGYie3NpdGVbJ2Jhc2UnXX0vcz9yaD1uOntub2RlfSIsCiAgICAgICAgImFuY2VzdG9ycyI6IFt7Im5hbWUiOiBhWyJuYW1lIl0sICJub2RlX2lkIjogYS5nZXQoIm5vZGVfaWQiKSwgImxpbmsiOiBhLmdldCgibGluayIpfSBmb3IgYSBpbiBhbmNlc3RvcnNdLAogICAgICAgICJjaGlsZHJlbiI6IFt7Im5hbWUiOiBjWyJuYW1lIl0sICJub2RlX2lkIjogYy5nZXQoIm5vZGVfaWQiKSwgImxpbmsiOiBjLmdldCgibGluayIpfSBmb3IgYyBpbiBjaGlsZHJlbl0sCiAgICAgICAgInByb2R1Y3RzX2NvdW50IjogcGFyc2VkLmdldCgidG90YWxfY291bnQiKSwKICAgICAgICAicmVmaW5lbWVudHMiOiBwYXJzZWQuZ2V0KCJyZWZpbmVtZW50cyIpLAogICAgICAgICJjb3VudHJ5Ijogc2l0ZVsiY291bnRyeSJdLAogICAgICAgICJkb21haW4iOiBzaXRlWyJob3N0Il0sCiAgICB9Cg==
+"""/amazon/search, /amazon/categories/products, /amazon/products/lookup,
+/amazon/search/autocomplete, /amazon/categories, /amazon/categories/tree —
+the /s result pages and the completion service.
+
+Filters that Amazon encodes as marketplace-specific refinement ids
+(Prime, 4 stars & up, condition, deals) are resolved from the page's own
+refinement sidebar: the first fetch reads the ids for this marketplace and
+keyword, the second applies them. Universal params (keyword, department
+alias, browse node, price bounds, brand name, seller, sort, page) go
+straight into the URL.
+"""
+import re
+
+from amazon import fetch, parsers as P, refs
+from cache import DontCache
+from amazon.shared import context, paged_result
+
+PER_PAGE = 24            # organic cards per page on the desktop layout (16-60 depending on layout)
+MAX_PAGES = 400
+
+SORTS = {
+    "relevance": "relevanceblender",
+    "price_low_to_high": "price-asc-rank",
+    "price_high_to_low": "price-desc-rank",
+    "reviews": "review-rank",
+    "newest": "date-desc-rank",
+    "best_sellers": "exact-aware-popularity-rank",
+}
+CONDITIONS = ("new", "used", "renewed", "collectible", "all")
+DEAL_TYPES = ("all_discounts", "todays_deals", "coupons", "lightning_deals")
+_CONDITION_LABELS = {"new": ("new", "neu", "nuevo", "neuf", "nuovo"), "used": ("used", "gebraucht", "usado", "d'occasion", "usato"),
+                     "renewed": ("renewed", "refurbished", "generalüberholt", "reconditionné", "ricondizionato"),
+                     "collectible": ("collectible", "sammler")}
+_DEAL_LABELS = {"all_discounts": ("all discounts", "all savings", "alle angebote", "toutes les"), "todays_deals": ("today's deals", "angebote des tages", "offres du jour"),
+                "coupons": ("coupons", "gutscheine"), "lightning_deals": ("lightning", "blitz")}
+
+
+def _refinement_ids(site, params, wants):
+    """Read the refinement ids this marketplace uses for the requested
+    marketplace-specific filters from an unfiltered result page."""
+    html = fetch.page(site["country"], "/s", params, label="search refinements")
+    page = P.search_page(html, site)
+    picks = []
+    by_id = {f["id"]: f for f in page["refinements"]}
+
+    def option_value(facet_id, labels=None, index=None):
+        facet = by_id.get(facet_id)
+        if not facet:
+            return None
+        if index is not None and facet["options"]:
+            option = facet["options"][index]
+            return f"{facet_id}:{option['value']}" if option.get("value") else None
+        for option in facet["options"]:
+            name = (option.get("name") or "").lower()
+            if any(lbl in name for lbl in labels or ()):
+                return f"{facet_id}:{option['value']}" if option.get("value") else None
+        return None
+    if wants.get("is_prime"):
+        picks.append(option_value("p_85", index=0))
+    if wants.get("four_stars_and_up"):
+        picks.append(option_value("p_72", index=0))
+    if wants.get("condition") and wants["condition"] != "all":
+        picks.append(option_value("p_n_condition-type", labels=_CONDITION_LABELS.get(wants["condition"], ())))
+    if wants.get("deals"):
+        picks.append(option_value("p_n_deal_type", labels=_DEAL_LABELS.get(wants["deals"], ())))
+    return [p for p in picks if p], page
+
+
+def _search_params(query=None, node=None, alias=None, page=1, sort=None, min_price=None, max_price=None, brand=None,
+                   seller=None, extra_rh=None):
+    params = {}
+    if query:
+        params["k"] = query
+    if alias:
+        params["i"] = alias
+    if seller:
+        params["me"] = seller
+    rh = []
+    if node:
+        rh.append(f"n:{node}")
+    if brand:
+        rh.append(f"p_89:{brand}")
+    rh.extend(extra_rh or [])
+    if rh:
+        params["rh"] = ",".join(rh)
+        if node and not query:
+            params["fs"] = "true"
+    if min_price is not None:
+        params["low-price"] = f"{min_price:g}"
+    if max_price is not None:
+        params["high-price"] = f"{max_price:g}"
+    if sort and sort != "relevance":
+        params["s"] = SORTS[sort]
+    if page and page > 1:
+        params["page"] = str(page)
+    return params
+
+
+def _run_search(site, locale, base_params, wants, page, key="results", **extra):
+    unfiltered = {k: v for k, v in base_params.items() if k != "page"}
+    extra_rh = []
+    if any(wants.values()):
+        extra_rh, _ = _refinement_ids(site, unfiltered, wants)
+        if extra_rh:
+            rh = base_params.get("rh")
+            base_params["rh"] = ",".join(([rh] if rh else []) + extra_rh)
+    html = fetch.page(site["country"], "/s", base_params, language=locale, label="search")
+    parsed = P.search_page(html, site)
+    results = parsed.pop("results")
+    total_pages = parsed.pop("total_pages", None)
+    current = parsed.pop("current_page", page)
+    total = parsed.pop("total_count", None)
+    per_page = len(results) or PER_PAGE
+    out = paged_result(key, results, current or page, per_page, total=None, has_more=(total_pages or 0) > (current or page), **extra)
+    out["pagination"]["total_pages"] = total_pages or (1 if results else 0)
+    out["pagination"]["total_count"] = total
+    out["is_total_approximate"] = parsed.get("is_total_approximate")
+    out["results_text"] = parsed.get("results_text")
+    out["departments"] = parsed.get("departments")
+    out["refinements"] = parsed.get("refinements")
+    out["applied_refinements"] = extra_rh or None
+    return out
+
+
+def search(query, country=None, language=None, page=1, sort="relevance", category=None, node=None, min_price=None,
+           max_price=None, brand=None, condition=None, is_prime=None, four_stars_and_up=None, deals=None, seller=None):
+    site, locale = context(country, language)
+    params = _search_params(query=query, node=node, alias=category, page=page, sort=sort, min_price=min_price,
+                            max_price=max_price, brand=brand, seller=seller)
+    wants = {"is_prime": is_prime, "four_stars_and_up": four_stars_and_up, "condition": condition, "deals": deals}
+    return _run_search(site, locale, params, wants, page, query=query, country=site["country"], domain=site["host"])
+
+
+def category_products(node, country=None, language=None, page=1, sort="relevance", min_price=None, max_price=None,
+                      brand=None, condition=None, is_prime=None, four_stars_and_up=None, deals=None):
+    site, locale = context(country, language)
+    params = _search_params(node=node, page=page, sort=sort, min_price=min_price, max_price=max_price, brand=brand)
+    wants = {"is_prime": is_prime, "four_stars_and_up": four_stars_and_up, "condition": condition, "deals": deals}
+    return _run_search(site, locale, params, wants, page, node_id=node, country=site["country"], domain=site["host"])
+
+
+def lookup(identifier, country=None, language=None):
+    """GTIN / UPC / EAN / ISBN (or any exact identifier) -> the products
+    Amazon resolves it to (the search index matches identifiers exactly)."""
+    site, locale = context(country, language)
+    html = fetch.page(site["country"], "/s", {"k": identifier}, language=locale, label="lookup")
+    parsed = P.search_page(html, site)
+    results = [r for r in parsed["results"] if not r["is_sponsored"]]
+    return {"identifier": identifier, "results": results, "count": len(results), "country": site["country"], "domain": site["host"]}
+
+
+def autocomplete(query, country=None, category=None, limit=11):
+    site, _ = context(country)
+    body = fetch.completion(site["country"], {"prefix": query, "alias": category or "aps", "limit": str(limit)})
+    rows = [P.suggestion(s) for s in (body or {}).get("suggestions") or []]
+    result = {"query": query, "suggestions": rows[:limit], "count": len(rows[:limit]), "country": site["country"]}
+    # an empty list is as often a broken completion host as a dead prefix;
+    # don't pin it for AUTOCOMPLETE_CACHE
+    return result if rows else DontCache(result)
+
+
+def categories(country=None, language=None):
+    """The search departments (`category` aliases) of a marketplace, from
+    the search box dropdown."""
+    site, locale = context(country, language)
+    html = fetch.page(site["country"], "/s", {"k": "amazon"}, language=locale, label="categories")
+    parsed = P.search_page(html, site)
+    rows = [a for a in parsed["search_aliases"] if a.get("id")]
+    return {"categories": rows, "count": len(rows), "country": site["country"], "domain": site["host"]}
+
+
+def category_tree(node, country=None, language=None):
+    """A browse node's place in the department tree (ancestors, itself,
+    children) plus the facets shown for it, from its /s?rh=n: page."""
+    site, locale = context(country, language)
+    html = fetch.page(site["country"], "/s", {"rh": f"n:{node}", "fs": "true"}, language=locale, label="category tree")
+    parsed = P.search_page(html, site)
+    departments = parsed["departments"]
+    selected = next((d for d in departments if d["is_selected"]), None)
+    idx = departments.index(selected) if selected else -1
+    ancestors = [d for d in departments[:idx] if d.get("node_id") or d["name"].lower().startswith("any")] if idx >= 0 else []
+    children = departments[idx + 1:] if idx >= 0 else departments
+    return {
+        "node_id": node,
+        "name": selected["name"] if selected else None,
+        "link": f"{site['base']}/s?rh=n:{node}",
+        "ancestors": [{"name": a["name"], "node_id": a.get("node_id"), "link": a.get("link")} for a in ancestors],
+        "children": [{"name": c["name"], "node_id": c.get("node_id"), "link": c.get("link")} for c in children],
+        "products_count": parsed.get("total_count"),
+        "refinements": parsed.get("refinements"),
+        "country": site["country"],
+        "domain": site["host"],
+    }

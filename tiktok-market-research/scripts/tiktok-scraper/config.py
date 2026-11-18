@@ -1,1 +1,48 @@
-IiIiQ29uZmlndXJhdGlvbiBmb3IgdGhlIFRpa1RvayBTY3JhcGVyLiBFdmVyeXRoaW5nIGNhbiBiZSBzZXQgd2l0aCBhbgplbnZpcm9ubWVudCB2YXJpYWJsZTsgdGhlIGRlZmF1bHRzIHdvcmsgb3V0IG9mIHRoZSBib3guCgogICAgUE9SVCAgICAgICAgICBwb3J0IHRoZSBBUEkgbGlzdGVucyBvbiAoZGVmYXVsdCA4MDAwKQogICAgVElLVE9LX1BST1hZICBwcm94eSBVUkwgZm9yIGV2ZXJ5IHJlcXVlc3QsIGUuZy4gaHR0cDovL3VzZXI6cGFzc0Bob3N0OnBvcnQKICAgICAgICAgICAgICAgICAgKGRlZmF1bHQ6IG5vbmUg4oCUIGRpcmVjdCkuIFRpa1RvayBhbnN3ZXJzIHBsYWluIHJlcXVlc3RzIGZyb20KICAgICAgICAgICAgICAgICAgYW4gb3JkaW5hcnkgcmVzaWRlbnRpYWwgSVAgaW4gYSBjb3VudHJ5IHdoZXJlIFRpa1RvayBpcwogICAgICAgICAgICAgICAgICBhdmFpbGFibGUsIHNvIHlvdSB2ZXJ5IGxpa2VseSBkb24ndCBuZWVkIHRoaXMuIFNldCBpdCBpZgogICAgICAgICAgICAgICAgICBUaWtUb2sgaXMgYmxvY2tlZCB3aGVyZSB5b3UgcnVuIChJbmRpYSwgZm9yIGV4YW1wbGUpLCBvciBpZgogICAgICAgICAgICAgICAgICBhIHVzZXIncyB2aWRlb3Mgc3RhcnQgY29taW5nIGJhY2sgZW1wdHkgYXQgaGlnaCB2b2x1bWUg4oCUCiAgICAgICAgICAgICAgICAgIFRpa1RvayByZXRpcmVzIGFuIElQIGZvciB0aGF0IGVuZHBvaW50IGFmdGVyIH4yMCBjYWxscy4KICAgICAgICAgICAgICAgICAgSWYgeW91ciBwcm94eSBwcm92aWRlciB0YXJnZXRzIGNvdW50cmllcyB0aHJvdWdoIHRoZSBVUkwsCiAgICAgICAgICAgICAgICAgIHB1dCBge2NvdW50cnl9YCB3aGVyZSB0aGUgMi1sZXR0ZXIgY29kZSBnb2VzLCBlLmcuCiAgICAgICAgICAgICAgICAgIGh0dHA6Ly91c2VyLWNyLntjb3VudHJ5fTpwYXNzQGhvc3Q6cG9ydCDigJQgdGhlIHNjcmFwZXIgdGhlbgogICAgICAgICAgICAgICAgICBhc2tzIGVhY2ggcmVxdWVzdCBmcm9tIHRoZSBjb3VudHJ5IGl0IG5lZWRzIChUaWtUb2sgYW5zd2VycwogICAgICAgICAgICAgICAgICB1c2VyIHNlYXJjaCBvbmx5IGZyb20gRXVyb3BlIGFuZCB2aWRlbyBzZWFyY2ggb25seSBmcm9tCiAgICAgICAgICAgICAgICAgIHRoZSBVUykuCgpFdmVyeXRoaW5nIGVsc2UgYmVsb3cgaXMgYSBwbGFpbiBjb25zdGFudCB3aXRoIGEgd29ya2luZyBkZWZhdWx0IOKAlCBlZGl0IGl0CmhlcmUgaWYgeW91IG5lZWQgdG8uCiIiIgppbXBvcnQgb3MKClBPUlQgPSBpbnQob3MuZW52aXJvbi5nZXQoIlBPUlQiLCAiODAwMCIpKQoKIyBSZXRyeSBwb2xpY3kgZm9yIHRyYW5zcG9ydCBlcnJvcnMgYW5kIGJsb2NrcyAoZXZlcnkgcmVxdWVzdCkuCk1BWF9SRVRSSUVTID0gMwpSRVRSWV9CQUNLT0ZGID0gMiAgICAgICAgICAjIHNlY29uZHMsIG11bHRpcGxpZWQgYnkgdGhlIGF0dGVtcHQgbnVtYmVyCgpUSUtUT0tfUFJPWFkgPSBvcy5lbnZpcm9uLmdldCgiVElLVE9LX1BST1hZIikgb3IgTm9uZQpUSUtUT0tfVVNFX1BST1hZID0gVElLVE9LX1BST1hZIGlzIG5vdCBOb25lCgojIGBjb3VudHJ5YCBvbiBhIHJlcXVlc3QgaXMgdGhlIFRpa1RvayBlZGl0aW9uIGFza2VkIGZvciAodGhlIGByZWdpb25gCiMgcGFyYW0pLiBXaXRoIFRJS1RPS19QUk9YWSBzZXQsIGV2ZXJ5IHJlcXVlc3QgZ29lcyB0aHJvdWdoIHRoYXQgb25lIHByb3h5CiMgd2hhdGV2ZXIgdGhlIGNvdW50cnkg4oCUIHRoZXNlIG9ubHkgbmFtZSB0aGUgZGVmYXVsdHMuClRJS1RPS19ERUZBVUxUX0NPVU5UUlkgPSAidXMiICAgICAgICAgICAgICAjIGVkaXRpb24gZm9yIGNhbGxzIHRoYXQgdGFrZSBubyBgY291bnRyeWAKVElLVE9LX0VVX0NPVU5UUlkgPSAiZGUiICAgICAgICAgICAgICAgICAgICMgZWRpdGlvbiB0cmllZCBmb3IgdGhlIGVuZHBvaW50cyBUaWtUb2sgb25seSBhbnN3ZXJzIGZyb20gRXVyb3BlCgpUSUtUT0tfUE9TVFNfQ0FMTFNfUEVSX0VYSVQgPSAxMiAgICAgICAgICAgIyB1c2VyLXZpZGVvIGNhbGxzIG9uZSBzZXNzaW9uIHNlcnZlcyBiZWZvcmUgYSBmcmVzaCBvbmUgaXMgdXNlZApUSUtUT0tfU0VTU0lPTl9NQVhfQUdFID0gMTgwMCAgICAgICAgICAgICAgIyBzZWNvbmRzIGEgcG9vbGVkIHNlc3Npb24gaXMgcmV1c2VkClRJS1RPS19JRExFX1NFU1NJT05TX1BFUl9DT1VOVFJZID0gNiAgICAgICAjIHBvb2xlZCBzZXNzaW9ucyBrZXB0IHBlciBjb3VudHJ5CgoKZGVmIHRpa3Rva19wcm94eShjb3VudHJ5KToKICAgICIiIlRoZSBwcm94eSBmb3Igb25lIHNlc3Npb24gaW4gYGNvdW50cnlgIChOb25lID0gZGlyZWN0KS4iIiIKICAgIGlmIG5vdCBUSUtUT0tfUFJPWFk6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiBUSUtUT0tfUFJPWFkucmVwbGFjZSgie2NvdW50cnl9IiwgKGNvdW50cnkgb3IgVElLVE9LX0RFRkFVTFRfQ09VTlRSWSkubG93ZXIoKSkK
+"""Configuration for the TikTok Scraper. Everything can be set with an
+environment variable; the defaults work out of the box.
+
+    PORT          port the API listens on (default 8000)
+    TIKTOK_PROXY  proxy URL for every request, e.g. http://user:pass@host:port
+                  (default: none — direct). TikTok answers plain requests from
+                  an ordinary residential IP in a country where TikTok is
+                  available, so you very likely don't need this. Set it if
+                  TikTok is blocked where you run (India, for example), or if
+                  a user's videos start coming back empty at high volume —
+                  TikTok retires an IP for that endpoint after ~20 calls.
+                  If your proxy provider targets countries through the URL,
+                  put `{country}` where the 2-letter code goes, e.g.
+                  http://user-cr.{country}:pass@host:port — the scraper then
+                  asks each request from the country it needs (TikTok answers
+                  user search only from Europe and video search only from
+                  the US).
+
+Everything else below is a plain constant with a working default — edit it
+here if you need to.
+"""
+import os
+
+PORT = int(os.environ.get("PORT", "8000"))
+
+# Retry policy for transport errors and blocks (every request).
+MAX_RETRIES = 3
+RETRY_BACKOFF = 2          # seconds, multiplied by the attempt number
+
+TIKTOK_PROXY = os.environ.get("TIKTOK_PROXY") or None
+TIKTOK_USE_PROXY = TIKTOK_PROXY is not None
+
+# `country` on a request is the TikTok edition asked for (the `region`
+# param). With TIKTOK_PROXY set, every request goes through that one proxy
+# whatever the country — these only name the defaults.
+TIKTOK_DEFAULT_COUNTRY = "us"              # edition for calls that take no `country`
+TIKTOK_EU_COUNTRY = "de"                   # edition tried for the endpoints TikTok only answers from Europe
+
+TIKTOK_POSTS_CALLS_PER_EXIT = 12           # user-video calls one session serves before a fresh one is used
+TIKTOK_SESSION_MAX_AGE = 1800              # seconds a pooled session is reused
+TIKTOK_IDLE_SESSIONS_PER_COUNTRY = 6       # pooled sessions kept per country
+
+
+def tiktok_proxy(country):
+    """The proxy for one session in `country` (None = direct)."""
+    if not TIKTOK_PROXY:
+        return None
+    return TIKTOK_PROXY.replace("{country}", (country or TIKTOK_DEFAULT_COUNTRY).lower())

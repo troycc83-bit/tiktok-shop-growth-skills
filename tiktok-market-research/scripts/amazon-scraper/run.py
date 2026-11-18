@@ -1,1 +1,27 @@
-IiIiU3RhcnQgdGhlIEFtYXpvbiBTY3JhcGVyIEFQSS4KCiAgICBweXRob24gcnVuLnB5ICAgICAgICAgICAgIyBodHRwOi8vbG9jYWxob3N0OjgwMDAKICAgIFBPUlQ9OTAwMCBweXRob24gcnVuLnB5ICAjIGFub3RoZXIgcG9ydAoKVGhlbjogIGN1cmwgImh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC9wcm9kdWN0cy9kZXRhaWxzP3Byb2R1Y3Q9QjA3UVNGSFQyNyIKIiIiCmltcG9ydCBib3R0bGUKZnJvbSBjaGVyb290IGltcG9ydCB3c2dpCgppbXBvcnQgY29uZmlnCmltcG9ydCByb3V0ZXMgICMgbm9xYTogRjQwMSAgKG1vdW50cyB0aGUgcm91dGVzIG9uIGJvdHRsZSdzIGRlZmF1bHQgYXBwKQoKCmRlZiBtYWluKCk6CiAgICBhcHAgPSBib3R0bGUuZGVmYXVsdF9hcHAoKQogICAgcHJpbnQoZiJBbWF6b24gU2NyYXBlciBsaXN0ZW5pbmcgb24gaHR0cDovL2xvY2FsaG9zdDp7Y29uZmlnLlBPUlR9LyIpCiAgICBwcmludChmIlRyeTogIGN1cmwgXCJodHRwOi8vbG9jYWxob3N0Ontjb25maWcuUE9SVH0vcHJvZHVjdHMvZGV0YWlscz9wcm9kdWN0PUIwN1FTRkhUMjdcIiIpCiAgICBzZXJ2ZXIgPSB3c2dpLlNlcnZlcigoIjAuMC4wLjAiLCBjb25maWcuUE9SVCksIGFwcCwgc2VydmVyX25hbWU9ImFtYXpvbi1zY3JhcGVyIiwgbnVtdGhyZWFkcz0xNikKICAgIHRyeToKICAgICAgICBzZXJ2ZXIuc3RhcnQoKQogICAgZXhjZXB0IEtleWJvYXJkSW50ZXJydXB0OgogICAgICAgIHNlcnZlci5zdG9wKCkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+"""Start the Amazon Scraper API.
+
+    python run.py            # http://localhost:8000
+    PORT=9000 python run.py  # another port
+
+Then:  curl "http://localhost:8000/products/details?product=B07QSFHT27"
+"""
+import bottle
+from cheroot import wsgi
+
+import config
+import routes  # noqa: F401  (mounts the routes on bottle's default app)
+
+
+def main():
+    app = bottle.default_app()
+    print(f"Amazon Scraper listening on http://localhost:{config.PORT}/")
+    print(f"Try:  curl \"http://localhost:{config.PORT}/products/details?product=B07QSFHT27\"")
+    server = wsgi.Server(("0.0.0.0", config.PORT), app, server_name="amazon-scraper", numthreads=16)
+    try:
+        server.start()
+    except KeyboardInterrupt:
+        server.stop()
+
+
+if __name__ == "__main__":
+    main()

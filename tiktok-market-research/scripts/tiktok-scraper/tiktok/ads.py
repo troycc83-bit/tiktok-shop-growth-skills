@@ -1,1 +1,174 @@
-IiIiQWRzIGVuZHBvaW50cy4KCkNPTU1FUkNJQUwgQ09OVEVOVCBMSUJSQVJZIChsaWJyYXJ5LnRpa3Rvay5jb20g4oCUIFRpa1RvaydzIHB1YmxpYyBhcmNoaXZlIG9mCmV2ZXJ5IGFkIHNob3duIGluIHRoZSBFVSAvIEVFQSwgU3dpdHplcmxhbmQsIHRoZSBVSyBhbmQgVMO8cmtpeWUsIGtlcHQgZm9yCm9uZSB5ZWFyKToKICAqIHNlYXJjaCAgICBQT1NUIC9hcGkvdjEvc2VhcmNoP3JlZ2lvbj08Y29kZXxhbGw+JnR5cGU9MSZzdGFydF90aW1lJmVuZF90aW1lCiAgICAgICAgICAgICAgMTIgYWRzIGEgcGFnZTsgbGF0ZXIgcGFnZXMgbmVlZCB0aGUgZmlyc3QgcGFnZSdzIHNlYXJjaCBpZCwKICAgICAgICAgICAgICBzbyBib3RoIHJpZGUgb25lIG9wYXF1ZSBjdXJzb3IgIjxwYWdlIGluZGV4Pi48c2VhcmNoIGlkPiIuCiAgICAgICAgICAgICAgQnkga2V5d29yZCAocXVlcnlfdHlwZSAxKSwgb3IgYnkgYWR2ZXJ0aXNlcjogdGhlIHVwc3RyZWFtIG9ubHkKICAgICAgICAgICAgICBtYXRjaGVzIGFuIGFkdmVydGlzZXIgYnkgaXRzIGV4YWN0IHJlZ2lzdGVyZWQgbmFtZSBBTkQgaXRzCiAgICAgICAgICAgICAgYnVzaW5lc3MgaWQgdG9nZXRoZXIsIHNvIGBhZHZlcnRpc2VyYCBpcyBsb29rZWQgdXAgdGhyb3VnaAogICAgICAgICAgICAgIHRoZSBzdWdnZXN0aW9uIGVuZHBvaW50IGZpcnN0LgogICogZGV0YWlscyAgIEdFVCAvYXBpL3YxL2l0ZW1zLzxhZCBpZD4vZGV0YWlscyAtPiB0aGUgYWQsIHdobyBwYWlkIGZvciBpdCwKICAgICAgICAgICAgICB0YXJnZXRpbmcgYW5kIHBlci1jb3VudHJ5IHJlYWNoIGJ5IGFnZSBhbmQgZ2VuZGVyCiAgKiBhZHZlcnRpc2VycyAgUE9TVCAvYXBpL3YxL3N1Z2dlc3Rpb24gLT4gYWR2ZXJ0aXNlciBuYW1lcyArIGlkcwogICogY291bnRyaWVzICAgIEdFVCAvYXBpL3YxL3N1cHBvcnQtcmVnaW9ucwogIEltcHJlc3Npb25zIGFuZCBhdWRpZW5jZSBzaXplcyBhcmUgcHVibGlzaGVkIGFzIHJhbmdlcyAoIjEwSy0xMDBLIikgYW5kCiAgc3RheSBzdHJpbmdzLiBUaGUgYG9yZGVyYCBmaWVsZCBvZiB0aGUgc2VhcmNoIGJvZHkgaXMgYWNjZXB0ZWQgYnV0IGhhcyBubwogIGVmZmVjdCBvbiB0aGUgcmVzdWx0IChwcm9iZWQgMjAyNi0xMC0wNSksIHNvIG5vIHNvcnQgaXMgZXhwb3NlZC4KCkNSRUFUSVZFIENFTlRFUiBUT1AgQURTIChhZHMudGlrdG9rLmNvbSAiVG9wIEFkcyIgaW5zcGlyYXRpb24gZ2FsbGVyeSk6CiAgKiB0b3AgICAgICAgR0VUIC9jcmVhdGl2ZV9yYWRhcl9hcGkvdjEvdG9wX2Fkcy92Mi9saXN0IOKAlCAyMCBiZXN0LXBlcmZvcm1pbmcKICAgICAgICAgICAgICBhZHMgZm9yIGEgY291bnRyeSAvIHBlcmlvZCAvIHJhbmtpbmc7IGxvZ2dlZCBvdXQgb25seSB0aGUKICAgICAgICAgICAgICBmaXJzdCBwYWdlIGlzIHNlcnZlZAogICogZGV0YWlscyAgIEdFVCAvY3JlYXRpdmVfcmFkYXJfYXBpL3YxL3RvcF9hZHMvdjIvZGV0YWlsCiAgKiBmaWx0ZXJzICAgR0VUIC9jcmVhdGl2ZV9yYWRhcl9hcGkvdjEvdG9wX2Fkcy92Mi9maWx0ZXJzIChpbmR1c3RyaWVzLAogICAgICAgICAgICAgIG9iamVjdGl2ZXMsIGxhbmd1YWdlcywgY291bnRyaWVzKQoiIiIKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZSwgZGF0ZXRpbWUsIHRpbWVkZWx0YSwgdGltZXpvbmUKCmZyb20gLiBpbXBvcnQgcGFyc2VycyBhcyBQCmZyb20gLmZldGNoIGltcG9ydCBUaWtUb2tCYWRSZXF1ZXN0LCBUaWtUb2tOb3RGb3VuZCwgYWRzX2xpYnJhcnksIGFkc19saWJyYXJ5X3JlZ2lvbnMsIGNyZWF0aXZlX2NlbnRlcgoKTElCUkFSWV9QQUdFID0gMTIKVE9QX0FEU19QQUdFID0gMjAKVE9QX0FEX05PVF9GT1VORCA9ICg0MDAwNCwpClRPUF9TT1JUUyA9IHsiZm9yX3lvdSI6ICJmb3JfeW91IiwgImxpa2VzIjogImxpa2UiLCAiY3RyIjogImN0ciIsICJpbXByZXNzaW9ucyI6ICJpbXByZXNzaW9uIiwKICAgICAgICAgICAgICJ3YXRjaF8yc19yYXRlIjogInBsYXlfMnNfcmF0ZSIsICJ3YXRjaF82c19yYXRlIjogInBsYXlfNnNfcmF0ZSIsICJjb252ZXJzaW9uX3JhdGUiOiAiY3ZyIn0KVE9QX09CSkVDVElWRVMgPSB7InRyYWZmaWMiOiAxLCAiYXBwX2luc3RhbGxzIjogMiwgImNvbnZlcnNpb25zIjogMywgInZpZGVvX3ZpZXdzIjogNCwgInJlYWNoIjogNSwKICAgICAgICAgICAgICAgICAgImxlYWRfZ2VuZXJhdGlvbiI6IDgsICJwcm9kdWN0X3NhbGVzIjogMTV9ClRPUF9QRVJJT0RTID0gKDcsIDMwLCAxODApCgoKZGVmIF9lcG9jaChkYXksIGVuZD1GYWxzZSk6CiAgICBwYXJzZWQgPSBkYXRldGltZS5zdHJwdGltZShkYXksICIlWS0lbS0lZCIpLnJlcGxhY2UodHppbmZvPXRpbWV6b25lLnV0YykKICAgIGlmIGVuZDoKICAgICAgICBwYXJzZWQgKz0gdGltZWRlbHRhKGRheXM9MSkgLSB0aW1lZGVsdGEoc2Vjb25kcz0xKQogICAgcmV0dXJuIGludChwYXJzZWQudGltZXN0YW1wKCkpCgoKZGVmIF9hZHZlcnRpc2VyKG5hbWUpOgogICAgIiIiQW4gYWR2ZXJ0aXNlcidzIGV4YWN0IChuYW1lLCBidXNpbmVzcyBpZHMpIGZyb20gdGhlIHN1Z2dlc3Rpb24gbGlzdC4iIiIKICAgIGZvciByb3cgaW4gc2VhcmNoX2FkdmVydGlzZXJzKG5hbWUpWyJhZHZlcnRpc2VycyJdOgogICAgICAgIGlmIHJvd1sibmFtZSJdLmxvd2VyKCkgPT0gbmFtZS5sb3dlcigpOgogICAgICAgICAgICByZXR1cm4gcm93WyJuYW1lIl0sIHJvd1siaWQiXQogICAgcmFpc2UgVGlrVG9rTm90Rm91bmQoZiJhZHZlcnRpc2VyIHtuYW1lIXJ9IG5vdCBmb3VuZCDigJQgcGFzcyBhIG5hbWUgZXhhY3RseSBhcyAvdGlrdG9rL2Fkcy9hZHZlcnRpc2VycyByZXR1cm5zIGl0IikKCgpkZWYgc2VhcmNoX2xpYnJhcnkocXVlcnk9Tm9uZSwgYWR2ZXJ0aXNlcj1Ob25lLCBjb3VudHJ5PU5vbmUsIHN0YXJ0X2RhdGU9Tm9uZSwgZW5kX2RhdGU9Tm9uZSwgY3Vyc29yPU5vbmUpOgogICAgIiIiQWRzIGZyb20gdGhlIENvbW1lcmNpYWwgQ29udGVudCBMaWJyYXJ5LCBtb3N0IHJlY2VudGx5IHNob3duIGZpcnN0OgogICAgYnkga2V5d29yZCwgYnkgYWR2ZXJ0aXNlciwgb3Ig4oCUIHdpdGggbmVpdGhlciDigJQgdGhlIG5ld2VzdCBhZHMgb3ZlcmFsbC4iIiIKICAgIGlmIHF1ZXJ5IGFuZCBhZHZlcnRpc2VyOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoInBhc3MgcXVlcnkgKGFkIGtleXdvcmQpIG9yIGFkdmVydGlzZXIgKGFkdmVydGlzZXIgbmFtZSksIG5vdCBib3RoIikKICAgIGVuZF9kYXRlID0gZW5kX2RhdGUgb3IgZGF0ZS50b2RheSgpLmlzb2Zvcm1hdCgpCiAgICBzdGFydF9kYXRlID0gc3RhcnRfZGF0ZSBvciAoZGF0ZS5mcm9taXNvZm9ybWF0KGVuZF9kYXRlKSAtIHRpbWVkZWx0YShkYXlzPTMwKSkuaXNvZm9ybWF0KCkKICAgIGlmIHN0YXJ0X2RhdGUgPiBlbmRfZGF0ZToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJzdGFydF9kYXRlIG11c3Qgbm90IGJlIGFmdGVyIGVuZF9kYXRlIikKICAgIHBhZ2UsIF8sIHNlYXJjaF9pZCA9IChjdXJzb3Igb3IgIjAuIikucGFydGl0aW9uKCIuIikKICAgIGJvZHkgPSB7InF1ZXJ5IjogcXVlcnkgb3IgIiIsICJxdWVyeV90eXBlIjogIjEiLCAiYWR2X2Jpel9pZHMiOiAiIiwgIm9yZGVyIjogImxhc3Rfc2hvd25fZGF0ZSxkZXNjIiwKICAgICAgICAgICAgIm9mZnNldCI6IGludChwYWdlKSwgInNlYXJjaF9pZCI6IHNlYXJjaF9pZCwgImxpbWl0IjogTElCUkFSWV9QQUdFLCAiYWRfdHlwZSI6IDAsICJhZF9zdGF0dXMiOiAxLAogICAgICAgICAgICAiYWdlcyI6IFsiYWxsIl0sICJhZF9yZWFjaCI6IFsiYWxsIl0sICJnZW5kZXIiOiAiQUxMIn0KICAgIGlmIGFkdmVydGlzZXI6CiAgICAgICAgbmFtZSwgaWRzID0gX2FkdmVydGlzZXIoYWR2ZXJ0aXNlcikKICAgICAgICBib2R5LnVwZGF0ZShxdWVyeT1uYW1lLCBxdWVyeV90eXBlPSIyIiwgYWR2X2Jpel9pZHM9aWRzKQogICAgcGFyYW1zID0geyJyZWdpb24iOiBjb3VudHJ5IG9yICJhbGwiLCAidHlwZSI6ICIxIiwgInN0YXJ0X3RpbWUiOiBfZXBvY2goc3RhcnRfZGF0ZSksICJlbmRfdGltZSI6IF9lcG9jaChlbmRfZGF0ZSwgZW5kPVRydWUpfQogICAgdHJ5OgogICAgICAgIHBheWxvYWQgPSBhZHNfbGlicmFyeSgiUE9TVCIsICIvYXBpL3YxL3NlYXJjaCIsIHBhcmFtcz1wYXJhbXMsIGJvZHk9Ym9keSkKICAgIGV4Y2VwdCBUaWtUb2tCYWRSZXF1ZXN0OgogICAgICAgIGlmIGN1cnNvcjoKICAgICAgICAgICAgcmFpc2UgVGlrVG9rQmFkUmVxdWVzdCgiaW52YWxpZCBjdXJzb3I6IHBhc3MgdGhlIG5leHRfY3Vyc29yIHZhbHVlIGZyb20gdGhlIHByZXZpb3VzIHBhZ2UgdW5jaGFuZ2VkIikKICAgICAgICByYWlzZSBUaWtUb2tCYWRSZXF1ZXN0KGYidGhlIGFkcyBsaWJyYXJ5IGRvZXMgbm90IGNvdmVyIGNvdW50cnkge2NvdW50cnkhcn0g4oCUIHNlZSAvdGlrdG9rL2Fkcy9jb3VudHJpZXMiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBjb3VudHJ5IGVsc2UgInRoZSBhZHMgbGlicmFyeSByZWZ1c2VkIHRoZXNlIHBhcmFtZXRlcnMiKQogICAgYWRzID0gW2FkIGZvciBhZCBpbiAoUC5saWJyYXJ5X2FkKHJvdykgZm9yIHJvdyBpbiBwYXlsb2FkLmdldCgiZGF0YSIpIG9yIFtdKSBpZiBhZF0KICAgIG1vcmUgPSBib29sKHBheWxvYWQuZ2V0KCJoYXNfbW9yZSIpKSBhbmQgYm9vbChwYXlsb2FkLmdldCgic2VhcmNoX2lkIikpCiAgICByZXR1cm4gewogICAgICAgICJxdWVyeSI6IHF1ZXJ5LAogICAgICAgICJhZHZlcnRpc2VyIjogYWR2ZXJ0aXNlciwKICAgICAgICAiY291bnRyeSI6IGNvdW50cnksCiAgICAgICAgInN0YXJ0X2RhdGUiOiBzdGFydF9kYXRlLAogICAgICAgICJlbmRfZGF0ZSI6IGVuZF9kYXRlLAogICAgICAgICJ0b3RhbF9jb3VudCI6IFAudG9faW50KHBheWxvYWQuZ2V0KCJ0b3RhbCIpKSwKICAgICAgICAiYWRfY291bnQiOiBsZW4oYWRzKSwKICAgICAgICAiYWRzIjogYWRzLAogICAgICAgICJuZXh0X2N1cnNvciI6IGYie2ludChwYWdlKSArIDF9LntwYXlsb2FkWydzZWFyY2hfaWQnXX0iIGlmIG1vcmUgZWxzZSBOb25lLAogICAgICAgICJoYXNfbW9yZSI6IG1vcmUsCiAgICB9CgoKZGVmIGdldF9saWJyYXJ5X2FkKGFkKToKICAgICIiIk9uZSBsaWJyYXJ5IGFkIHdpdGggaXRzIGFkdmVydGlzZXIsIHRhcmdldGluZyBhbmQgcmVhY2ggYnJlYWtkb3duLiIiIgogICAgcGF5bG9hZCA9IGFkc19saWJyYXJ5KCJHRVQiLCBmIi9hcGkvdjEvaXRlbXMve2FkfS9kZXRhaWxzIiwgcGFyYW1zPXsibGFuZyI6ICJlbiJ9LCBub3RfZm91bmQ9ZiJhZCB7YWR9IikKICAgIHBhcnNlZCA9IFAubGlicmFyeV9hZF9kZXRhaWxzKHBheWxvYWQuZ2V0KCJkYXRhIikpCiAgICBpZiBwYXJzZWQgaXMgTm9uZToKICAgICAgICByYWlzZSBUaWtUb2tOb3RGb3VuZChmImFkIHthZH0gbm90IGZvdW5kIikKICAgIHJldHVybiBwYXJzZWQKCgpkZWYgc2VhcmNoX2FkdmVydGlzZXJzKHF1ZXJ5KToKICAgICIiIkFkdmVydGlzZXJzIHdob3NlIHJlZ2lzdGVyZWQgbmFtZSBtYXRjaGVzIOKAlCB0aGUgbmFtZXMgL3Rpa3Rvay9hZHMvc2VhcmNoCiAgICBhY2NlcHRzIGFzIGBhZHZlcnRpc2VyYC4iIiIKICAgIHBheWxvYWQgPSBhZHNfbGlicmFyeSgiUE9TVCIsICIvYXBpL3YxL3N1Z2dlc3Rpb24iLCBib2R5PXsicXVlcnkiOiBxdWVyeSwgImxpbWl0IjogMjAsICJzdWdnZXN0X3R5cGUiOiAiMSJ9KQogICAgcm93cyA9IFtdCiAgICBmb3Igcm93IGluIChwYXlsb2FkLmdldCgiZGF0YSIpIG9yIHt9KS5nZXQoImFkdl9uYW1lcyIpIG9yIFtdOgogICAgICAgIG5hbWUgPSBQLmNsZWFuKChyb3cgb3Ige30pLmdldCgibmFtZSIpKQogICAgICAgIGlmIG5hbWU6CiAgICAgICAgICAgIHJvd3MuYXBwZW5kKHsiaWQiOiBQLmNsZWFuKHJvdy5nZXQoImlkcyIpKSwgIm5hbWUiOiBuYW1lfSkKICAgIHJldHVybiB7InF1ZXJ5IjogcXVlcnksICJhZHZlcnRpc2VyX2NvdW50IjogbGVuKHJvd3MpLCAiYWR2ZXJ0aXNlcnMiOiByb3dzfQoKCmRlZiBnZXRfbGlicmFyeV9jb3VudHJpZXMoKToKICAgICIiIlRoZSBjb3VudHJpZXMgdGhlIENvbW1lcmNpYWwgQ29udGVudCBMaWJyYXJ5IGNvdmVycy4iIiIKICAgIHJvd3MgPSBbeyJjb2RlIjogUC5jbGVhbihyLmdldCgiY29kZSIpKSwgIm5hbWUiOiBQLmNsZWFuKHIuZ2V0KCJuYW1lIikpfSBmb3IgciBpbiBhZHNfbGlicmFyeV9yZWdpb25zKCkgaWYgaXNpbnN0YW5jZShyLCBkaWN0KV0KICAgIHJldHVybiB7ImNvdW50cnlfY291bnQiOiBsZW4ocm93cyksICJjb3VudHJpZXMiOiByb3dzfQoKCmRlZiBnZXRfdG9wX2Fkcyhjb3VudHJ5PSJVUyIsIHBlcmlvZD0zMCwgc29ydD0iZm9yX3lvdSIsIGluZHVzdHJ5PU5vbmUsIG9iamVjdGl2ZT1Ob25lLCBsYW5ndWFnZT1Ob25lLAogICAgICAgICAgICAgICAgcXVlcnk9Tm9uZSk6CiAgICAiIiJUaGUgQ3JlYXRpdmUgQ2VudGVyJ3MgYmVzdC1wZXJmb3JtaW5nIGFkcyBmb3IgYSBjb3VudHJ5IGFuZCBwZXJpb2QuIiIiCiAgICBwYXJhbXMgPSB7InBlcmlvZCI6IHBlcmlvZCwgInBhZ2UiOiAxLCAibGltaXQiOiBUT1BfQURTX1BBR0UsICJvcmRlcl9ieSI6IFRPUF9TT1JUU1tzb3J0XSwgImNvdW50cnlfY29kZSI6IGNvdW50cnl9CiAgICBpZiBpbmR1c3RyeToKICAgICAgICBwYXJhbXNbImluZHVzdHJ5Il0gPSBpbmR1c3RyeQogICAgaWYgb2JqZWN0aXZlOgogICAgICAgIHBhcmFtc1sib2JqZWN0aXZlIl0gPSBUT1BfT0JKRUNUSVZFU1tvYmplY3RpdmVdCiAgICBpZiBsYW5ndWFnZToKICAgICAgICBwYXJhbXNbImFkX2xhbmd1YWdlIl0gPSBsYW5ndWFnZQogICAgaWYgcXVlcnk6CiAgICAgICAgcGFyYW1zWyJrZXl3b3JkIl0gPSBxdWVyeQogICAgZGF0YSA9IGNyZWF0aXZlX2NlbnRlcigiL2NyZWF0aXZlX3JhZGFyX2FwaS92MS90b3BfYWRzL3YyL2xpc3QiLCBwYXJhbXMpCiAgICBhZHMgPSBbYWQgZm9yIGFkIGluIChQLnRvcF9hZChyb3cpIGZvciByb3cgaW4gZGF0YS5nZXQoIm1hdGVyaWFscyIpIG9yIFtdKSBpZiBhZF0KICAgIHJldHVybiB7CiAgICAgICAgImNvdW50cnkiOiBjb3VudHJ5LAogICAgICAgICJwZXJpb2RfZGF5cyI6IHBlcmlvZCwKICAgICAgICAic29ydCI6IHNvcnQsCiAgICAgICAgInRvdGFsX2NvdW50IjogUC50b19pbnQoKGRhdGEuZ2V0KCJwYWdpbmF0aW9uIikgb3Ige30pLmdldCgidG90YWxfY291bnQiKSksCiAgICAgICAgImFkX2NvdW50IjogbGVuKGFkcyksCiAgICAgICAgImFkcyI6IGFkcywKICAgIH0KCgpkZWYgZ2V0X3RvcF9hZChhZCk6CiAgICAiIiJPbmUgdG9wIGFkOiBjYXB0aW9uLCBsYW5kaW5nIHBhZ2UsIGNvdW50cmllcywgb2JqZWN0aXZlcywgZW5nYWdlbWVudC4iIiIKICAgIGRhdGEgPSBjcmVhdGl2ZV9jZW50ZXIoIi9jcmVhdGl2ZV9yYWRhcl9hcGkvdjEvdG9wX2Fkcy92Mi9kZXRhaWwiLCB7Im1hdGVyaWFsX2lkIjogYWR9LCBub3RfZm91bmQ9VE9QX0FEX05PVF9GT1VORCkKICAgIHBhcnNlZCA9IFAudG9wX2FkKGRhdGEpCiAgICBpZiBwYXJzZWQgaXMgTm9uZToKICAgICAgICByYWlzZSBUaWtUb2tOb3RGb3VuZChmImFkIHthZH0gbm90IGZvdW5kIikKICAgIHJldHVybiBwYXJzZWQKCgpkZWYgZ2V0X3RvcF9hZF9maWx0ZXJzKCk6CiAgICAiIiJUaGUgaW5kdXN0cmllcywgb2JqZWN0aXZlcywgbGFuZ3VhZ2VzIGFuZCBjb3VudHJpZXMgL3Rpa3Rvay9hZHMvdG9wIGFjY2VwdHMuIiIiCiAgICBkYXRhID0gY3JlYXRpdmVfY2VudGVyKCIvY3JlYXRpdmVfcmFkYXJfYXBpL3YxL3RvcF9hZHMvdjIvZmlsdGVycyIsIHt9KQoKICAgIGRlZiBvcHRpb25zKGtleSk6CiAgICAgICAgcmV0dXJuIFt7ImlkIjogc3RyKHJvdy5nZXQoImlkIikpLCAibmFtZSI6IFAuY2xlYW4ocm93LmdldCgidmFsdWUiKSl9CiAgICAgICAgICAgICAgICBmb3Igcm93IGluIGRhdGEuZ2V0KGtleSkgb3IgW10gaWYgaXNpbnN0YW5jZShyb3csIGRpY3QpIGFuZCByb3cuZ2V0KCJpZCIpIGlzIG5vdCBOb25lXQoKICAgIHJldHVybiB7CiAgICAgICAgImluZHVzdHJpZXMiOiBvcHRpb25zKCJpbmR1c3RyeSIpLAogICAgICAgICJjb3VudHJpZXMiOiBvcHRpb25zKCJjb3VudHJ5IiksCiAgICAgICAgImxhbmd1YWdlcyI6IFt7ImlkIjogcm93WyJpZCJdLCAibmFtZSI6IChyb3dbIm5hbWUiXSBvciAiIikucmVwbGFjZSgibGFuZ3VhZ2VfIiwgIiIpfSBmb3Igcm93IGluIG9wdGlvbnMoImFkX2xhbmd1YWdlIildLAogICAgICAgICJvYmplY3RpdmVzIjogW3siaWQiOiBrZXl9IGZvciBrZXkgaW4gVE9QX09CSkVDVElWRVNdLAogICAgICAgICJwZXJpb2RzIjogbGlzdChUT1BfUEVSSU9EUyksCiAgICAgICAgInNvcnRzIjogbGlzdChUT1BfU09SVFMpLAogICAgfQo=
+"""Ads endpoints.
+
+COMMERCIAL CONTENT LIBRARY (library.tiktok.com — TikTok's public archive of
+every ad shown in the EU / EEA, Switzerland, the UK and Türkiye, kept for
+one year):
+  * search    POST /api/v1/search?region=<code|all>&type=1&start_time&end_time
+              12 ads a page; later pages need the first page's search id,
+              so both ride one opaque cursor "<page index>.<search id>".
+              By keyword (query_type 1), or by advertiser: the upstream only
+              matches an advertiser by its exact registered name AND its
+              business id together, so `advertiser` is looked up through
+              the suggestion endpoint first.
+  * details   GET /api/v1/items/<ad id>/details -> the ad, who paid for it,
+              targeting and per-country reach by age and gender
+  * advertisers  POST /api/v1/suggestion -> advertiser names + ids
+  * countries    GET /api/v1/support-regions
+  Impressions and audience sizes are published as ranges ("10K-100K") and
+  stay strings. The `order` field of the search body is accepted but has no
+  effect on the result (probed 2026-10-05), so no sort is exposed.
+
+CREATIVE CENTER TOP ADS (ads.tiktok.com "Top Ads" inspiration gallery):
+  * top       GET /creative_radar_api/v1/top_ads/v2/list — 20 best-performing
+              ads for a country / period / ranking; logged out only the
+              first page is served
+  * details   GET /creative_radar_api/v1/top_ads/v2/detail
+  * filters   GET /creative_radar_api/v1/top_ads/v2/filters (industries,
+              objectives, languages, countries)
+"""
+from datetime import date, datetime, timedelta, timezone
+
+from . import parsers as P
+from .fetch import TikTokBadRequest, TikTokNotFound, ads_library, ads_library_regions, creative_center
+
+LIBRARY_PAGE = 12
+TOP_ADS_PAGE = 20
+TOP_AD_NOT_FOUND = (40004,)
+TOP_SORTS = {"for_you": "for_you", "likes": "like", "ctr": "ctr", "impressions": "impression",
+             "watch_2s_rate": "play_2s_rate", "watch_6s_rate": "play_6s_rate", "conversion_rate": "cvr"}
+TOP_OBJECTIVES = {"traffic": 1, "app_installs": 2, "conversions": 3, "video_views": 4, "reach": 5,
+                  "lead_generation": 8, "product_sales": 15}
+TOP_PERIODS = (7, 30, 180)
+
+
+def _epoch(day, end=False):
+    parsed = datetime.strptime(day, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    if end:
+        parsed += timedelta(days=1) - timedelta(seconds=1)
+    return int(parsed.timestamp())
+
+
+def _advertiser(name):
+    """An advertiser's exact (name, business ids) from the suggestion list."""
+    for row in search_advertisers(name)["advertisers"]:
+        if row["name"].lower() == name.lower():
+            return row["name"], row["id"]
+    raise TikTokNotFound(f"advertiser {name!r} not found — pass a name exactly as /tiktok/ads/advertisers returns it")
+
+
+def search_library(query=None, advertiser=None, country=None, start_date=None, end_date=None, cursor=None):
+    """Ads from the Commercial Content Library, most recently shown first:
+    by keyword, by advertiser, or — with neither — the newest ads overall."""
+    if query and advertiser:
+        raise ValueError("pass query (ad keyword) or advertiser (advertiser name), not both")
+    end_date = end_date or date.today().isoformat()
+    start_date = start_date or (date.fromisoformat(end_date) - timedelta(days=30)).isoformat()
+    if start_date > end_date:
+        raise ValueError("start_date must not be after end_date")
+    page, _, search_id = (cursor or "0.").partition(".")
+    body = {"query": query or "", "query_type": "1", "adv_biz_ids": "", "order": "last_shown_date,desc",
+            "offset": int(page), "search_id": search_id, "limit": LIBRARY_PAGE, "ad_type": 0, "ad_status": 1,
+            "ages": ["all"], "ad_reach": ["all"], "gender": "ALL"}
+    if advertiser:
+        name, ids = _advertiser(advertiser)
+        body.update(query=name, query_type="2", adv_biz_ids=ids)
+    params = {"region": country or "all", "type": "1", "start_time": _epoch(start_date), "end_time": _epoch(end_date, end=True)}
+    try:
+        payload = ads_library("POST", "/api/v1/search", params=params, body=body)
+    except TikTokBadRequest:
+        if cursor:
+            raise TikTokBadRequest("invalid cursor: pass the next_cursor value from the previous page unchanged")
+        raise TikTokBadRequest(f"the ads library does not cover country {country!r} — see /tiktok/ads/countries"
+                               if country else "the ads library refused these parameters")
+    ads = [ad for ad in (P.library_ad(row) for row in payload.get("data") or []) if ad]
+    more = bool(payload.get("has_more")) and bool(payload.get("search_id"))
+    return {
+        "query": query,
+        "advertiser": advertiser,
+        "country": country,
+        "start_date": start_date,
+        "end_date": end_date,
+        "total_count": P.to_int(payload.get("total")),
+        "ad_count": len(ads),
+        "ads": ads,
+        "next_cursor": f"{int(page) + 1}.{payload['search_id']}" if more else None,
+        "has_more": more,
+    }
+
+
+def get_library_ad(ad):
+    """One library ad with its advertiser, targeting and reach breakdown."""
+    payload = ads_library("GET", f"/api/v1/items/{ad}/details", params={"lang": "en"}, not_found=f"ad {ad}")
+    parsed = P.library_ad_details(payload.get("data"))
+    if parsed is None:
+        raise TikTokNotFound(f"ad {ad} not found")
+    return parsed
+
+
+def search_advertisers(query):
+    """Advertisers whose registered name matches — the names /tiktok/ads/search
+    accepts as `advertiser`."""
+    payload = ads_library("POST", "/api/v1/suggestion", body={"query": query, "limit": 20, "suggest_type": "1"})
+    rows = []
+    for row in (payload.get("data") or {}).get("adv_names") or []:
+        name = P.clean((row or {}).get("name"))
+        if name:
+            rows.append({"id": P.clean(row.get("ids")), "name": name})
+    return {"query": query, "advertiser_count": len(rows), "advertisers": rows}
+
+
+def get_library_countries():
+    """The countries the Commercial Content Library covers."""
+    rows = [{"code": P.clean(r.get("code")), "name": P.clean(r.get("name"))} for r in ads_library_regions() if isinstance(r, dict)]
+    return {"country_count": len(rows), "countries": rows}
+
+
+def get_top_ads(country="US", period=30, sort="for_you", industry=None, objective=None, language=None,
+                query=None):
+    """The Creative Center's best-performing ads for a country and period."""
+    params = {"period": period, "page": 1, "limit": TOP_ADS_PAGE, "order_by": TOP_SORTS[sort], "country_code": country}
+    if industry:
+        params["industry"] = industry
+    if objective:
+        params["objective"] = TOP_OBJECTIVES[objective]
+    if language:
+        params["ad_language"] = language
+    if query:
+        params["keyword"] = query
+    data = creative_center("/creative_radar_api/v1/top_ads/v2/list", params)
+    ads = [ad for ad in (P.top_ad(row) for row in data.get("materials") or []) if ad]
+    return {
+        "country": country,
+        "period_days": period,
+        "sort": sort,
+        "total_count": P.to_int((data.get("pagination") or {}).get("total_count")),
+        "ad_count": len(ads),
+        "ads": ads,
+    }
+
+
+def get_top_ad(ad):
+    """One top ad: caption, landing page, countries, objectives, engagement."""
+    data = creative_center("/creative_radar_api/v1/top_ads/v2/detail", {"material_id": ad}, not_found=TOP_AD_NOT_FOUND)
+    parsed = P.top_ad(data)
+    if parsed is None:
+        raise TikTokNotFound(f"ad {ad} not found")
+    return parsed
+
+
+def get_top_ad_filters():
+    """The industries, objectives, languages and countries /tiktok/ads/top accepts."""
+    data = creative_center("/creative_radar_api/v1/top_ads/v2/filters", {})
+
+    def options(key):
+        return [{"id": str(row.get("id")), "name": P.clean(row.get("value"))}
+                for row in data.get(key) or [] if isinstance(row, dict) and row.get("id") is not None]
+
+    return {
+        "industries": options("industry"),
+        "countries": options("country"),
+        "languages": [{"id": row["id"], "name": (row["name"] or "").replace("language_", "")} for row in options("ad_language")],
+        "objectives": [{"id": key} for key in TOP_OBJECTIVES],
+        "periods": list(TOP_PERIODS),
+        "sorts": list(TOP_SORTS),
+    }

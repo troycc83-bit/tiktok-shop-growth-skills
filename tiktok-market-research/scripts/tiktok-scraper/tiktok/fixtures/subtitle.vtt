@@ -1,1 +1,65 @@
-V0VCVlRUCgoKMDA6MDA6MDAuMzAwIC0tPiAwMDowMDowNC4zODAKZ2lybCB5b3UgbG9vayBsaWtlIHlvdSBtdXN0IGJlIGEgSyBwb3AgZmFuIHdvdyBob3cnZCB5b3Uga25vdwoKMDA6MDA6MDQuMzgxIC0tPiAwMDowMDowNi40MjEKaWYgSSBnaXZlIHlvdSB0aGlzIGRpZ2kgY2FtIGNhbiB5b3Ugc2hvdyBtZSB3aGF0IEsgcG9wCgowMDowMDowNi40MjIgLS0+IDAwOjAwOjA4LjMyMQpzdW1tZXIgbG9va3MgbGlrZSBmb3IgeW91IHN1cmUKCjAwOjAwOjEzLjM0MCAtLT4gMDA6MDA6MTUuNzAwCndobyBkbyB5b3UgZmVlbCB3YXMgZXZlcnl3aGVyZSBvbiB5b3VyIGZvciB5b3UgcGFnZSB0aGlzIHN1bW1lcgoKMDA6MDA6MTUuNzAxIC0tPiAwMDowMDoxNy45NDEKSSB0aGluayBBdGVleiBJIHNhdyB0aGVtIGxpdGVyYWxseQoKMDA6MDA6MTcuOTQyIC0tPiAwMDowMDoyMC42MjEKYWxsIG92ZXIgbXkgZm9yIHlvdSBwYWdlIHRoZSBhdWRpbyB3YXMgYmVpbmcgdXNlZCBldmVyeXdoZXJlCgowMDowMDoyMC42MjIgLS0+IDAwOjAwOjI1LjEyMQpkZWZpbml0ZWx5IEJUUyBJIGFsd2F5cyBmZWVsIGV4Y2l0ZWQgd2hhdCdzIHJldmVhbGVkIG9uIGVhY2gKCjAwOjAwOjI1LjM4MCAtLT4gMDA6MDA6MjcuMTgwCnRoZXJlIHdlcmUgc28gbWFueSBrIHBvcCB0cmVuZHMgdGhpcyBzdW1tZXIKCjAwOjAwOjI3LjE4MSAtLT4gMDA6MDA6MjkuNjYxCndoaWNoIG9uZXMgd2VyZSB5b3VyIGZhdm9yaXRlIEkgcmVhbGx5IGxvdmUgZGFuY2UgY2hhbGxlbmdlcwoKMDA6MDA6MjkuNjYyIC0tPiAwMDowMDozMy4zODEKc3BlY2lmaWNhbGx5IFJlZCBSZWQgQmFkIGJ5IDgwcyB3YXMgYW1hemluZyBzbwoKMDA6MDA6MzMuMzgyIC0tPiAwMDowMDozNi4yODEKSSBqdXN0IGxvdmUgYmVpbmcgYWJsZSB0byBzZWUgZXZlcnlvbmUgZm9sbG93aW5nIGFsb25nIHdpdGggdGhlIHRyZW5kCgowMDowMDozNi40NjAgLS0+IDAwOjAwOjM4LjQ0MAp3aGF0IGRvIHlvdSB0aGluayBoYXMgbWFkZSB0aGUgc3VtbWVyIHNvIEsgcG9wCgowMDowMDozOC40NjAgLS0+IDAwOjAwOjM5Ljk4MApJIHRoaW5rIGl0J3MgaG93IGdsb2JhbCBLIHBvcCBoYXMKCjAwOjAwOjM5Ljk4MSAtLT4gMDA6MDA6NDMuNDAxCmJlY29tZSB0aGVyZSdzIGp1c3Qgc28gbWFueSBtb3JlIG9wcG9ydHVuaXRpZXMgdG8gc2VlIGlkb2xzIGluIHBlcnNvbgoKMDA6MDA6NDMuNDAyIC0tPiAwMDowMDo0NS42NjEKaXMgdGhlcmUgYW4gYXJ0aXN0IHRoYXQgeW91IGRpc2NvdmVyZWQgYmVjYXVzZSBvZiBUaWtUb2sgdGhpcyBzdW1tZXIKCjAwOjAwOjQ1LjY2MiAtLT4gMDA6MDA6NDkuMjQxCkkgdGhpbmsgS2lraSBmb3Igc3VyZSBJIHRoaW5rIGEgbG90IG9mIHRoZWlyIG11c2ljIGlzIHZlcnkKCjAwOjAwOjQ5LjI2MCAtLT4gMDA6MDA6NTEuNzgwCmdpcmwgcG9wIFN1bW1lciBDb2F0ZWQgd2FzIHRoZXJlIGEgSyBwb3AKCjAwOjAwOjUxLjc4MSAtLT4gMDA6MDA6NTQuNjIxCnRyZW5kIHlvdSBrZXB0IHNlZWluZyBhbGwgb3ZlciB5b3VyIGZvciB5b3UgcGFnZSB0aGlzIHN1bW1lciB0aGUgcnVkZQoKMDA6MDA6NTQuNjIyIC0tPiAwMDowMDo1Ny40MjEKY2hhbGxlbmdlIHdoZXJlIGl0IHdhcyBEYWxsYXMgcGFydCBpbiB0aGUgbWlkZGxlCgowMDowMDo1Ny40MjIgLS0+IDAwOjAwOjU5Ljk0MQp3aGVyZSBzaGUncyBsaWtlIHlvdSBrbm93IHdoYXQgaGUgc2FpZCB0byBtZSB3aGF0CgowMDowMDo1OS45NDIgLS0+IDAwOjAxOjAyLjQ0MQpoZSB3YXMgbGlrZSB5b3UncmUgc28gcnVkZQo=
+WEBVTT
+
+
+00:00:00.300 --> 00:00:04.380
+girl you look like you must be a K pop fan wow how'd you know
+
+00:00:04.381 --> 00:00:06.421
+if I give you this digi cam can you show me what K pop
+
+00:00:06.422 --> 00:00:08.321
+summer looks like for you sure
+
+00:00:13.340 --> 00:00:15.700
+who do you feel was everywhere on your for you page this summer
+
+00:00:15.701 --> 00:00:17.941
+I think Ateez I saw them literally
+
+00:00:17.942 --> 00:00:20.621
+all over my for you page the audio was being used everywhere
+
+00:00:20.622 --> 00:00:25.121
+definitely BTS I always feel excited what's revealed on each
+
+00:00:25.380 --> 00:00:27.180
+there were so many k pop trends this summer
+
+00:00:27.181 --> 00:00:29.661
+which ones were your favorite I really love dance challenges
+
+00:00:29.662 --> 00:00:33.381
+specifically Red Red Bad by 80s was amazing so
+
+00:00:33.382 --> 00:00:36.281
+I just love being able to see everyone following along with the trend
+
+00:00:36.460 --> 00:00:38.440
+what do you think has made the summer so K pop
+
+00:00:38.460 --> 00:00:39.980
+I think it's how global K pop has
+
+00:00:39.981 --> 00:00:43.401
+become there's just so many more opportunities to see idols in person
+
+00:00:43.402 --> 00:00:45.661
+is there an artist that you discovered because of TikTok this summer
+
+00:00:45.662 --> 00:00:49.241
+I think Kiki for sure I think a lot of their music is very
+
+00:00:49.260 --> 00:00:51.780
+girl pop Summer Coated was there a K pop
+
+00:00:51.781 --> 00:00:54.621
+trend you kept seeing all over your for you page this summer the rude
+
+00:00:54.622 --> 00:00:57.421
+challenge where it was Dallas part in the middle
+
+00:00:57.422 --> 00:00:59.941
+where she's like you know what he said to me what
+
+00:00:59.942 --> 00:01:02.441
+he was like you're so rude

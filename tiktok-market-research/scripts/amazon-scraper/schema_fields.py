@@ -1,1 +1,473 @@
-IiIiU2hhcmVkIG1hcnNobWFsbG93IHJlcXVlc3QgZmllbGRzICsgc2NoZW1hIGhlbHBlcnMgZm9yIHNjcmFwZXIgcm91dGVzLgoKU2l0ZSBwYWNrYWdlcyAoYWxpYmFiYS9zY2hlbWFzLnB5LCDigKYpIGNvbXBvc2UgdGhlaXIgcm91dGUgc2NoZW1hcyBmcm9tIHRoZXNlCnNvIGV2ZXJ5IC88c2l0ZT4vKiBBUEkgdmFsaWRhdGVzIHRoZSBzYW1lIHdheToKCiAgKiB3aGl0ZXNwYWNlLXN0cmlwcGVkIHN0cmluZ3MsIGVtcHR5ID09IG1pc3NpbmcKICAqIGJvb2xlYW5zIGFzIHRydWUvZmFsc2UgfCAxLzAgfCB5ZXMvbm8gZmxhZ3MKICAqIE9ORSBwYXJhbSBwZXIgaW5wdXQg4oCUIGEgYFJlZkZpZWxkYCBzdWJjbGFzcyBhY2NlcHRzIGEgYmFyZSBpZCBPUiBhIGZ1bGwKICAgIHNpdGUgbGluayBhbmQgaGFuZHMgdGhlIHJhdyBzdHJpbmcgdG8gYSBzaXRlLXNwZWNpZmljIGByZXNvbHZlcmAKICAgICh0cmlwYWR2aXNvciBRdWVyeU9ySWRGaWVsZCBjb252ZW50aW9uOyBuZXZlciBhIHNpYmxpbmcgYHVybGAvYGlkYCBwYWlyKQogICogY2hvaWNlIHBhcmFtcyBhcmUgY2FzZS1pbnNlbnNpdGl2ZSBhbmQgbWF5IG1hcCB0byB1cHN0cmVhbSB0b2tlbnMKICAqIGNvbW1hIGxpc3RzIGFyZSB0cmltbWVkL2RlZHVwZWQsIG9wdGlvbmFsbHkgdmFsaWRhdGVkICsgbWFwcGVkCiAgKiBJU08gY29kZXMgKGNvdW50cnkgLyBjdXJyZW5jeSAvIGxhbmd1YWdlKSBhcmUgdXBwZXIvbG93ZXItY2FzZWQgYW5kCiAgICB2YWxpZGF0ZWQgYWdhaW5zdCB0aGUgcmVhbCBjb2RlIGxpc3RzCiAgKiB1bmtub3duIHF1ZXJ5IHBhcmFtcyBhcmUgcmVqZWN0ZWQgKEJhc2VTY2hlbWEpIHNvIHR5cG9zIHN1cmZhY2UgYXMgNDAwcwoKUG9ydGVkIGZyb20gcmFwaWRhcGkvdXRpbHMve2ZpZWxkcyxoYW5kbGVyc30ucHkgKHRoZSBnYXRld2F5J3MgZmllbGQKbGlicmFyeSkgd2hlcmUgdGhlIGlkZWEgd2FzIHdvcnRoIGtlZXBpbmc6IHRoZSBJU08tMzE2NiBjb3VudHJ5IGxpc3QsCmNvbW1hLXNlcGFyYXRlZCB2YWx1ZXMgd2l0aCBgYWxsb3dlZGAgKyBgdmFsdWVfbWFwYCwgbWFwcGVkIGNob2ljZXMsCmBTaXRlU2x1Z0ZpZWxkYCAoYmFyZSBzbHVnIG9yIHNpdGUgVVJMIC0+IHNsdWcpLCBodHRwcy1vbmx5IFVSTCB3aXRoIGEKcmVxdWlyZWQgZG9tYWluLCBZWVlZLU1NIC8gWVlZWS1NTS1ERCBkYXRlcyB3aXRoIHRvZGF5L2Z1dHVyZS9wYXN0IGJvdW5kcywKbGltaXQvb2Zmc2V0IHBhZ2luYXRpb24gZmllbGRzLgoKYGxvYWRfcXVlcnkoU2NoZW1hQ2xzLCBxdWVyeV9kaWN0KWAgLT4gKGRhdGEsIE5vbmUpIHwgKE5vbmUsIDQwMCBib2R5KS4KIiIiCmltcG9ydCByZQpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlLCBkYXRldGltZSwgdGltZWRlbHRhCmZyb20gdXJsbGliLnBhcnNlIGltcG9ydCB1cmxwYXJzZQoKZnJvbSBtYXJzaG1hbGxvdyBpbXBvcnQgUkFJU0UsIFNjaGVtYSwgVmFsaWRhdGlvbkVycm9yLCBmaWVsZHMsIHZhbGlkYXRlCgpfX2FsbF9fID0gWwogICAgIkJhc2VTY2hlbWEiLCAibG9hZF9xdWVyeSIsCiAgICAiU3RyaXBwZWRTdHJpbmciLCAiUXVlcnlGaWVsZCIsICJGbGFnIiwgIlRydWVPbmx5RmxhZyIsICJSZWZGaWVsZCIsCiAgICAiUGFnZUZpZWxkIiwgIlBhZ2VTaXplRmllbGQiLCAiTGltaXRGaWVsZCIsICJPZmZzZXRGaWVsZCIsCiAgICAiUG9zaXRpdmVJbnQiLCAiTm9uTmVnYXRpdmVOdW1iZXIiLCAiUHJpY2UiLCAiUXVhbnRpdHkiLAogICAgIkNob2ljZUZpZWxkIiwgIkNvbW1hTGlzdEZpZWxkIiwgIkN1cnJlbmN5RmllbGQiLCAiQ291bnRyeUNvZGVGaWVsZCIsCiAgICAiTGFuZ3VhZ2VDb2RlRmllbGQiLCAiVXJsRmllbGQiLCAiU2l0ZVNsdWdGaWVsZCIsICJub3JtYWxpemVfc2l0ZV9zbHVnIiwKICAgICJEYXRlRmllbGQiLCAiWWVhck1vbnRoRmllbGQiLCAiQ09VTlRSWV9DT0RFUyIsICJMQU5HVUFHRV9DT0RFUyIsCl0KCl9UUlVFID0geyJ0cnVlIiwgIjEiLCAieWVzIiwgInkiLCAib24ifQpfRkFMU0UgPSB7ImZhbHNlIiwgIjAiLCAibm8iLCAibiIsICJvZmYiLCAiIn0KCiMgSVNPIDMxNjYtMSBhbHBoYS0yIChzYW1lIGxpc3QgdGhlIHJhcGlkYXBpIGdhdGV3YXkgdmFsaWRhdGVzIGFnYWluc3QpLgpDT1VOVFJZX0NPREVTID0gZnJvemVuc2V0KCIiIgpBRiBBWCBBTCBEWiBBUyBBRCBBTyBBSSBBUSBBRyBBUiBBTSBBVyBBVSBBVCBBWiBCUyBCSCBCRCBCQiBCWSBCRSBCWiBCSiBCTSBCVCBCTyBCUSBCQSBCVyBCViBCUiBJTyBWRyBCTiBCRyBCRiBCSQpDViBLSCBDTSBDQSBLWSBDRiBURCBDTCBDTiBDWCBDQyBDTyBLTSBDSyBDUiBIUiBDVSBDVyBDWSBDWiBDRCBESyBESiBETSBETyBFQyBFRyBTViBHUSBFUiBFRSBTWiBFVCBGSyBGTyBGSiBGSSBGUiBHRgpQRiBURiBHQSBHTSBHRSBERSBHSCBHSSBHUiBHTCBHRCBHUCBHVSBHVCBHRyBHTiBHVyBHWSBIVCBITSBITiBISyBIVSBJUyBJTiBJRCBJUiBJUSBJRSBJTSBJTCBJVCBDSSBKTSBKUCBKRSBKTyBLWiBLRQpLSSBYSyBLVyBLRyBMQSBMViBMQiBMUyBMUiBMWSBMSSBMVCBMVSBNTyBNRyBNVyBNWSBNViBNTCBNVCBNSCBNUSBNUiBNVSBZVCBNWCBGTSBNRCBNQyBNTiBNRSBNUyBNQSBNWiBNTSBOQSBOUiBOUCBOTApBTiBOQyBOWiBOSSBORSBORyBOVSBORiBNUCBLUCBNSyBOTyBPTSBQSyBQVyBQUyBQQSBQRyBQWSBQRSBQSCBQTiBQTCBQVCBQUiBRQSBDRyBSRSBSTyBSVSBSVyBCTCBTSCBLTiBMQyBNRiBQTSBWQyBXUwpTTSBTVCBTQSBTTiBSUyBDUyBTQyBTTCBTRyBTWCBTSyBTSSBTQiBTTyBaQSBHUyBLUiBTUyBFUyBMSyBTRCBTUiBTSiBTRSBDSCBTWSBUVyBUSiBUWiBUSCBUTCBURyBUSyBUTyBUVCBUTiBUUiBUTSBUQwpUViBVRyBVQSBBRSBHQiBVUyBVTSBVWSBWSSBVWiBWVSBWQSBWRSBWTiBXRiBFSCBZRSBaTSBaVwoiIiIuc3BsaXQoKSkKCiMgSVNPIDYzOS0xIHR3by1sZXR0ZXIgbGFuZ3VhZ2UgY29kZXMuCkxBTkdVQUdFX0NPREVTID0gZnJvemVuc2V0KCIiIgphYSBhYiBhZSBhZiBhayBhbSBhbiBhciBhcyBhdiBheSBheiBiYSBiZSBiZyBiaCBiaSBibSBibiBibyBiciBicyBjYSBjZSBjaCBjbyBjciBjcyBjdSBjdiBjeSBkYSBkZSBkdiBkeiBlZSBlbCBlbiBlbwplcyBldCBldSBmYSBmZiBmaSBmaiBmbyBmciBmeSBnYSBnZCBnbCBnbiBndSBndiBoYSBoZSBoaSBobyBociBodCBodSBoeSBoeiBpYSBpZCBpZSBpZyBpaSBpayBpbyBpcyBpdCBpdSBqYSBqdiBrYSBrZwpraSBraiBrayBrbCBrbSBrbiBrbyBrciBrcyBrdSBrdiBrdyBreSBsYSBsYiBsZyBsaSBsbiBsbyBsdCBsdSBsdiBtZyBtaCBtaSBtayBtbCBtbiBtciBtcyBtdCBteSBuYSBuYiBuZCBuZSBuZyBubCBubgpubyBuciBudiBueSBvYyBvaiBvbSBvciBvcyBwYSBwaSBwbCBwcyBwdCBxdSBybSBybiBybyBydSBydyBzYSBzYyBzZCBzZSBzZyBzaSBzayBzbCBzbSBzbiBzbyBzcSBzciBzcyBzdCBzdSBzdiBzdyB0YQp0ZSB0ZyB0aCB0aSB0ayB0bCB0biB0byB0ciB0cyB0dCB0dyB0eSB1ZyB1ayB1ciB1eiB2ZSB2aSB2byB3YSB3byB4aCB5aSB5byB6YSB6aCB6dQoiIiIuc3BsaXQoKSkKCgojIC0tLS0gc2NoZW1hICsgbG9hZGluZyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKY2xhc3MgQmFzZVNjaGVtYShTY2hlbWEpOgogICAgIiIiVW5rbm93biBxdWVyeSBwYXJhbXMgYXJlIHJlamVjdGVkIChhIHR5cG8gbXVzdCBub3Qgc2lsZW50bHkgbm8tb3ApLiIiIgoKICAgIGNsYXNzIE1ldGE6CiAgICAgICAgdW5rbm93biA9IFJBSVNFCgoKZGVmIGxvYWRfcXVlcnkoc2NoZW1hX2NscywgcXVlcnkpOgogICAgIiIiVmFsaWRhdGUgYSBxdWVyeSBkaWN0LiBSZXR1cm5zIChkYXRhLCBOb25lKSBvciAoTm9uZSwgYm9keSkgd2hlcmUgYm9keQogICAgaXMgeyJlcnJvciI6ICJJbnZhbGlkIHBhcmFtZXRlcnM6IOKApiIsICJlcnJvcnMiOiB7ZmllbGQ6IFttc2dzXX19IGZvciBhIDQwMC4iIiIKICAgIHRyeToKICAgICAgICByZXR1cm4gc2NoZW1hX2NscygpLmxvYWQocXVlcnkpLCBOb25lCiAgICBleGNlcHQgVmFsaWRhdGlvbkVycm9yIGFzIGU6CiAgICAgICAgbWVzc2FnZXMgPSBlLm5vcm1hbGl6ZWRfbWVzc2FnZXMoKQogICAgICAgIGZsYXQgPSAiOyAiLmpvaW4oZiJ7a306IHsnICcuam9pbih2KSBpZiBpc2luc3RhbmNlKHYsIGxpc3QpIGVsc2Ugdn0iIGZvciBrLCB2IGluIG1lc3NhZ2VzLml0ZW1zKCkpCiAgICAgICAgcmV0dXJuIE5vbmUsIHsiZXJyb3IiOiBmIkludmFsaWQgcGFyYW1ldGVyczoge2ZsYXR9IiwgImVycm9ycyI6IG1lc3NhZ2VzfQoKCiMgLS0tLSBzdHJpbmdzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpjbGFzcyBTdHJpcHBlZFN0cmluZyhmaWVsZHMuU3RyaW5nKToKICAgICIiIlN0cmluZyB3aXRoIHdoaXRlc3BhY2UgY29sbGFwc2VkOyBlbXB0eSAtPiBlcnJvciB3aGVuIHJlcXVpcmVkLCBlbHNlIE5vbmUuIiIiCgogICAgZGVmIF9kZXNlcmlhbGl6ZShzZWxmLCB2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpOgogICAgICAgIHZhbHVlID0gc3VwZXIoKS5fZGVzZXJpYWxpemUodmFsdWUsIGF0dHIsIGRhdGEsICoqa3dhcmdzKQogICAgICAgIHZhbHVlID0gIiAiLmpvaW4odmFsdWUuc3BsaXQoKSkKICAgICAgICBpZiBub3QgdmFsdWU6CiAgICAgICAgICAgIGlmIHNlbGYucmVxdWlyZWQ6CiAgICAgICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoIk11c3Qgbm90IGJlIGVtcHR5LiIpCiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgcmV0dXJuIHZhbHVlCgoKY2xhc3MgUXVlcnlGaWVsZChTdHJpcHBlZFN0cmluZyk6CiAgICAiIiJGcmVlLXRleHQgc2VhcmNoIHRlcm0sIHJlcXVpcmVkLCAxLTIwMCBjaGFycyBieSBkZWZhdWx0LiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtYXhfbGVuZ3RoPTIwMCwgKiprd2FyZ3MpOgogICAgICAgIGt3YXJncy5zZXRkZWZhdWx0KCJyZXF1aXJlZCIsIFRydWUpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInZhbGlkYXRlIiwgdmFsaWRhdGUuTGVuZ3RoKG1pbj0xLCBtYXg9bWF4X2xlbmd0aCkpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygqKmt3YXJncykKCgpjbGFzcyBSZWZGaWVsZChTdHJpcHBlZFN0cmluZyk6CiAgICAiIiJPTkUgcGFyYW0gdGhhdCBhY2NlcHRzIGEgYmFyZSBpZCBPUiBhIGZ1bGwgc2l0ZSBsaW5rLiBTdWJjbGFzc2VzIHNldAogICAgYHJlc29sdmVyYCAoYSBmdW5jdGlvbiByYWlzaW5nIFZhbHVlRXJyb3Igd2l0aCBhIHVzZXItZmFjaW5nIG1lc3NhZ2UpIG9yCiAgICBwYXNzIGByZXNvbHZlcj1gIGF0IGNvbnN0cnVjdGlvbjoKCiAgICAgICAgY2xhc3MgUHJvZHVjdFJlZkZpZWxkKFJlZkZpZWxkKToKICAgICAgICAgICAgcmVzb2x2ZXIgPSBzdGF0aWNtZXRob2QocmVmcy5yZXNvbHZlX3Byb2R1Y3RfcmVmKQogICAgIiIiCiAgICByZXNvbHZlciA9IE5vbmUKCiAgICBkZWYgX19pbml0X18oc2VsZiwgcmVzb2x2ZXI9Tm9uZSwgKiprd2FyZ3MpOgogICAgICAgIGt3YXJncy5zZXRkZWZhdWx0KCJyZXF1aXJlZCIsIFRydWUpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygqKmt3YXJncykKICAgICAgICBpZiByZXNvbHZlciBpcyBub3QgTm9uZToKICAgICAgICAgICAgc2VsZi5fcmVzb2x2ZXIgPSByZXNvbHZlcgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYuX3Jlc29sdmVyID0gdHlwZShzZWxmKS5yZXNvbHZlcgoKICAgIGRlZiBfZGVzZXJpYWxpemUoc2VsZiwgdmFsdWUsIGF0dHIsIGRhdGEsICoqa3dhcmdzKToKICAgICAgICB2YWx1ZSA9IHN1cGVyKCkuX2Rlc2VyaWFsaXplKHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncykKICAgICAgICBpZiB2YWx1ZSBpcyBOb25lOgogICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgIGlmIHNlbGYuX3Jlc29sdmVyIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiB2YWx1ZQogICAgICAgIHRyeToKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX3Jlc29sdmVyKHZhbHVlKQogICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yIGFzIGU6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcihzdHIoZSkpCgoKIyAtLS0tIGJvb2xlYW5zIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmNsYXNzIEZsYWcoZmllbGRzLkZpZWxkKToKICAgICIiIkJvb2xlYW4gcXVlcnkgZmxhZzogdHJ1ZS9mYWxzZSwgMS8wLCB5ZXMvbm8sIG9uL29mZiAoY2FzZS1pbnNlbnNpdGl2ZSkuCiAgICBEZWZhdWx0cyB0byBOb25lICg9ICJub3Qgc3BlY2lmaWVkIikgdW5sZXNzIGxvYWRfZGVmYXVsdCBpcyBnaXZlbi4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgKiprd2FyZ3MpOgogICAgICAgIGt3YXJncy5zZXRkZWZhdWx0KCJsb2FkX2RlZmF1bHQiLCBOb25lKQogICAgICAgIHN1cGVyKCkuX19pbml0X18oKiprd2FyZ3MpCgogICAgZGVmIF9kZXNlcmlhbGl6ZShzZWxmLCB2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpOgogICAgICAgIGlmIGlzaW5zdGFuY2UodmFsdWUsIGJvb2wpOgogICAgICAgICAgICByZXR1cm4gdmFsdWUKICAgICAgICBsb3cgPSBzdHIodmFsdWUpLnN0cmlwKCkubG93ZXIoKQogICAgICAgIGlmIGxvdyBpbiBfVFJVRToKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICBpZiBsb3cgaW4gX0ZBTFNFOgogICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoIk11c3QgYmUgdHJ1ZSBvciBmYWxzZS4iKQoKCmNsYXNzIFRydWVPbmx5RmxhZyhGbGFnKToKICAgICIiIk9wdC1pbiBzd2l0Y2ggKGUuZy4gcmVmcmVzaD10cnVlKTogb25seSB0cnVlIGlzIGFjY2VwdGVkLiIiIgoKICAgIGRlZiBfZGVzZXJpYWxpemUoc2VsZiwgdmFsdWUsIGF0dHIsIGRhdGEsICoqa3dhcmdzKToKICAgICAgICB2YWx1ZSA9IHN1cGVyKCkuX2Rlc2VyaWFsaXplKHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncykKICAgICAgICBpZiB2YWx1ZSBpcyBub3QgVHJ1ZToKICAgICAgICAgICAgcmFpc2UgVmFsaWRhdGlvbkVycm9yKCJNdXN0IGJlIHRydWUsIG9yIG5vdCBwcm92aWRlZC4iKQogICAgICAgIHJldHVybiB2YWx1ZQoKCiMgLS0tLSBudW1iZXJzIC8gcGFnaW5hdGlvbiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpjbGFzcyBQYWdlRmllbGQoZmllbGRzLkludGVnZXIpOgogICAgIiIiMS1iYXNlZCBwYWdlLCBkZWZhdWx0IDEsIGNhcHBlZCBhdCBtYXhfcGFnZS4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgbWF4X3BhZ2U9MTAwLCAqKmt3YXJncyk6CiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIDEpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInZhbGlkYXRlIiwgdmFsaWRhdGUuUmFuZ2UobWluPTEsIG1heD1tYXhfcGFnZSkpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhzdHJpY3Q9RmFsc2UsICoqa3dhcmdzKQoKCmNsYXNzIFBhZ2VTaXplRmllbGQoZmllbGRzLkludGVnZXIpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGRlZmF1bHQ9MTAsIG1heF9zaXplPTUwLCAqKmt3YXJncyk6CiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIGRlZmF1bHQpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInZhbGlkYXRlIiwgdmFsaWRhdGUuUmFuZ2UobWluPTEsIG1heD1tYXhfc2l6ZSkpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhzdHJpY3Q9RmFsc2UsICoqa3dhcmdzKQoKCmNsYXNzIExpbWl0RmllbGQoUGFnZVNpemVGaWVsZCk6CiAgICAiIiJNYXhpbXVtIG51bWJlciBvZiByZXN1bHRzIChkZWZhdWx0IDEwLCBtYXggNTAgdW5sZXNzIG92ZXJyaWRkZW4pLiIiIgoKCmNsYXNzIE9mZnNldEZpZWxkKGZpZWxkcy5JbnRlZ2VyKToKICAgICIiIlJlc3VsdHMgdG8gc2tpcCAoZGVmYXVsdCAwKS4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgKiprd2FyZ3MpOgogICAgICAgIGt3YXJncy5zZXRkZWZhdWx0KCJsb2FkX2RlZmF1bHQiLCAwKQogICAgICAgIGt3YXJncy5zZXRkZWZhdWx0KCJ2YWxpZGF0ZSIsIHZhbGlkYXRlLlJhbmdlKG1pbj0wKSkKICAgICAgICBzdXBlcigpLl9faW5pdF9fKHN0cmljdD1GYWxzZSwgKiprd2FyZ3MpCgoKY2xhc3MgUG9zaXRpdmVJbnQoZmllbGRzLkludGVnZXIpOgogICAgIiIiT3B0aW9uYWwgaW50ZWdlciA+PSAxIChjb3VudHMsIHF1YW50aXRpZXMsIGlkcyBnaXZlbiBhcyBudW1iZXJzKS4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgbWF4X3ZhbHVlPU5vbmUsICoqa3dhcmdzKToKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgibG9hZF9kZWZhdWx0IiwgTm9uZSkKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgidmFsaWRhdGUiLCB2YWxpZGF0ZS5SYW5nZShtaW49MSwgbWF4PW1heF92YWx1ZSkpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhzdHJpY3Q9RmFsc2UsICoqa3dhcmdzKQoKCmNsYXNzIE5vbk5lZ2F0aXZlTnVtYmVyKGZpZWxkcy5GbG9hdCk6CiAgICAiIiJPcHRpb25hbCBmbG9hdCA+PSAwLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCAqKmt3YXJncyk6CiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIE5vbmUpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInZhbGlkYXRlIiwgdmFsaWRhdGUuUmFuZ2UobWluPTApKQogICAgICAgIHN1cGVyKCkuX19pbml0X18oKiprd2FyZ3MpCgoKY2xhc3MgUHJpY2UoTm9uTmVnYXRpdmVOdW1iZXIpOgogICAgIiIiUHJpY2UgYm91bmQgaW4gdGhlIHJlcXVlc3QncyBjdXJyZW5jeS4iIiIKCgpjbGFzcyBRdWFudGl0eShQb3NpdGl2ZUludCk6CiAgICAiIiJPcmRlci9zdG9jayBxdWFudGl0eS4iIiIKCgojIC0tLS0gY2hvaWNlcyAvIGxpc3RzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKY2xhc3MgQ2hvaWNlRmllbGQoU3RyaXBwZWRTdHJpbmcpOgogICAgIiIiQ2FzZS1pbnNlbnNpdGl2ZSBjaG9pY2UuIGBjaG9pY2VzYCBpcyBhIGxpc3Qgb2YgcHVibGljIHZhbHVlcywgT1IgYQogICAgZGljdCB7cHVibGljIHZhbHVlOiB1cHN0cmVhbSB0b2tlbn0gaW4gd2hpY2ggY2FzZSB0aGUgbWFwcGVkIHRva2VuIGlzCiAgICByZXR1cm5lZCAocmFwaWRhcGkgTWFwcGVkRmllbGQpLiBPcHRpb25hbCBieSBkZWZhdWx0LiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjaG9pY2VzLCAqKmt3YXJncyk6CiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInJlcXVpcmVkIiwgRmFsc2UpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIE5vbmUpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygqKmt3YXJncykKICAgICAgICBzZWxmLnZhbHVlX21hcCA9IGRpY3QoY2hvaWNlcykgaWYgaXNpbnN0YW5jZShjaG9pY2VzLCBkaWN0KSBlbHNlIE5vbmUKICAgICAgICBzZWxmLmNob2ljZXMgPSBbc3RyKGMpLmxvd2VyKCkgZm9yIGMgaW4gKGNob2ljZXMua2V5cygpIGlmIGlzaW5zdGFuY2UoY2hvaWNlcywgZGljdCkgZWxzZSBjaG9pY2VzKV0KICAgICAgICBzZWxmLl9sb29rdXAgPSB7Yy5sb3dlcigpOiBjIGZvciBjIGluIChjaG9pY2VzLmtleXMoKSBpZiBpc2luc3RhbmNlKGNob2ljZXMsIGRpY3QpIGVsc2UgY2hvaWNlcyl9CgogICAgZGVmIF9kZXNlcmlhbGl6ZShzZWxmLCB2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpOgogICAgICAgIHZhbHVlID0gc3VwZXIoKS5fZGVzZXJpYWxpemUodmFsdWUsIGF0dHIsIGRhdGEsICoqa3dhcmdzKQogICAgICAgIGlmIHZhbHVlIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAga2V5ID0gc2VsZi5fbG9va3VwLmdldCh2YWx1ZS5sb3dlcigpKQogICAgICAgIGlmIGtleSBpcyBOb25lOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoZiJNdXN0IGJlIG9uZSBvZjogeycsICcuam9pbihzZWxmLmNob2ljZXMpfS4iKQogICAgICAgIHJldHVybiBzZWxmLnZhbHVlX21hcFtrZXldIGlmIHNlbGYudmFsdWVfbWFwIGlzIG5vdCBOb25lIGVsc2Ugc3RyKGtleSkubG93ZXIoKQoKCmNsYXNzIENvbW1hTGlzdEZpZWxkKGZpZWxkcy5GaWVsZCk6CiAgICAiIiInYSwgYixBJyAtPiBbJ0EnLCAnQiddICh0cmltbWVkLCBkZWR1cGVkOyB1cHBlci1jYXNlZCBieSBkZWZhdWx0KS4KICAgIGBhbGxvd2VkYCByZXN0cmljdHMgdmFsdWVzIChjYXNlLWluc2Vuc2l0aXZlKSBhbmQgYHZhbHVlX21hcGAgbWFwcyBlYWNoCiAgICBhY2NlcHRlZCB2YWx1ZSB0byBhbiB1cHN0cmVhbSB0b2tlbiAocmFwaWRhcGkgQ29tbWFTZXBhcmF0ZWRGaWVsZCkuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGFsbG93ZWQ9Tm9uZSwgdmFsdWVfbWFwPU5vbmUsIHVwcGVyPVRydWUsIG1heF9pdGVtcz0xMCwgKiprd2FyZ3MpOgogICAgICAgIGt3YXJncy5zZXRkZWZhdWx0KCJsb2FkX2RlZmF1bHQiLCBOb25lKQogICAgICAgIHN1cGVyKCkuX19pbml0X18oKiprd2FyZ3MpCiAgICAgICAgc2VsZi51cHBlciA9IHVwcGVyCiAgICAgICAgc2VsZi5tYXhfaXRlbXMgPSBtYXhfaXRlbXMKICAgICAgICBzb3VyY2UgPSBsaXN0KHZhbHVlX21hcC5rZXlzKCkpIGlmIHZhbHVlX21hcCBlbHNlIGxpc3QoYWxsb3dlZCBvciBbXSkKICAgICAgICBzZWxmLl9hbGxvd2VkID0ge3N0cihhKS5sb3dlcigpOiBhIGZvciBhIGluIHNvdXJjZX0gaWYgc291cmNlIGVsc2UgTm9uZQogICAgICAgIHNlbGYudmFsdWVfbWFwID0gdmFsdWVfbWFwCgogICAgZGVmIF9kZXNlcmlhbGl6ZShzZWxmLCB2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpOgogICAgICAgIGl0ZW1zID0gW10KICAgICAgICBmb3IgcmF3IGluIHN0cih2YWx1ZSkuc3BsaXQoIiwiKToKICAgICAgICAgICAgaXRlbSA9IHJhdy5zdHJpcCgpCiAgICAgICAgICAgIGlmIG5vdCBpdGVtOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgaWYgc2VsZi5fYWxsb3dlZCBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgIGNhbm9uaWNhbCA9IHNlbGYuX2FsbG93ZWQuZ2V0KGl0ZW0ubG93ZXIoKSkKICAgICAgICAgICAgICAgIGlmIGNhbm9uaWNhbCBpcyBOb25lOgogICAgICAgICAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcihmIid7aXRlbX0nIGlzIG5vdCBvbmUgb2Y6IHsnLCAnLmpvaW4oc3RyKGEpIGZvciBhIGluIHNlbGYuX2FsbG93ZWQudmFsdWVzKCkpfS4iKQogICAgICAgICAgICAgICAgaXRlbSA9IHNlbGYudmFsdWVfbWFwW2Nhbm9uaWNhbF0gaWYgc2VsZi52YWx1ZV9tYXAgZWxzZSBjYW5vbmljYWwKICAgICAgICAgICAgZWxpZiBzZWxmLnVwcGVyOgogICAgICAgICAgICAgICAgaXRlbSA9IGl0ZW0udXBwZXIoKQogICAgICAgICAgICBpZiBpdGVtIG5vdCBpbiBpdGVtczoKICAgICAgICAgICAgICAgIGl0ZW1zLmFwcGVuZChpdGVtKQogICAgICAgIGlmIG5vdCBpdGVtczoKICAgICAgICAgICAgcmV0dXJuIE5vbmUKICAgICAgICBpZiBsZW4oaXRlbXMpID4gc2VsZi5tYXhfaXRlbXM6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcihmIkF0IG1vc3Qge3NlbGYubWF4X2l0ZW1zfSB2YWx1ZXMuIikKICAgICAgICByZXR1cm4gaXRlbXMKCgojIC0tLS0gSVNPIGNvZGVzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKY2xhc3MgQ3VycmVuY3lGaWVsZChTdHJpcHBlZFN0cmluZyk6CiAgICAiIiIzLWxldHRlciBJU08gNDIxNyBjb2RlLCB1cHBlci1jYXNlZCAoVVNELCBFVVIsIElOUiwg4oCmKS4gT3B0aW9uYWwuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsICoqa3dhcmdzKToKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgicmVxdWlyZWQiLCBGYWxzZSkKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgibG9hZF9kZWZhdWx0IiwgTm9uZSkKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCoqa3dhcmdzKQoKICAgIGRlZiBfZGVzZXJpYWxpemUoc2VsZiwgdmFsdWUsIGF0dHIsIGRhdGEsICoqa3dhcmdzKToKICAgICAgICB2YWx1ZSA9IHN1cGVyKCkuX2Rlc2VyaWFsaXplKHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncykKICAgICAgICBpZiB2YWx1ZSBpcyBOb25lOgogICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgIHZhbHVlID0gdmFsdWUudXBwZXIoKQogICAgICAgIGlmIG5vdCAobGVuKHZhbHVlKSA9PSAzIGFuZCB2YWx1ZS5pc2FscGhhKCkpOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoIk11c3QgYmUgYSAzLWxldHRlciBJU08gY3VycmVuY3kgY29kZSAoVVNELCBFVVIsIElOUiwgLi4uKS4iKQogICAgICAgIHJldHVybiB2YWx1ZQoKCmNsYXNzIENvdW50cnlDb2RlRmllbGQoU3RyaXBwZWRTdHJpbmcpOgogICAgIiIiMi1sZXR0ZXIgSVNPIDMxNjYtMSBjb2RlLCB1cHBlci1jYXNlZCBhbmQgY2hlY2tlZCBhZ2FpbnN0IHRoZSByZWFsCiAgICBsaXN0IChDTiwgVVMsIElOLCDigKYpLiBPcHRpb25hbCBieSBkZWZhdWx0LiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCAqKmt3YXJncyk6CiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInJlcXVpcmVkIiwgRmFsc2UpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIE5vbmUpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygqKmt3YXJncykKCiAgICBkZWYgX2Rlc2VyaWFsaXplKHNlbGYsIHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncyk6CiAgICAgICAgdmFsdWUgPSBzdXBlcigpLl9kZXNlcmlhbGl6ZSh2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpCiAgICAgICAgaWYgdmFsdWUgaXMgTm9uZToKICAgICAgICAgICAgcmV0dXJuIE5vbmUKICAgICAgICB2YWx1ZSA9IHZhbHVlLnVwcGVyKCkKICAgICAgICBpZiB2YWx1ZSBub3QgaW4gQ09VTlRSWV9DT0RFUzoKICAgICAgICAgICAgcmFpc2UgVmFsaWRhdGlvbkVycm9yKCJNdXN0IGJlIGEgMi1sZXR0ZXIgSVNPIGNvdW50cnkgY29kZSAoQ04sIFVTLCBJTiwgLi4uKS4iKQogICAgICAgIHJldHVybiB2YWx1ZQoKCmNsYXNzIExhbmd1YWdlQ29kZUZpZWxkKFN0cmlwcGVkU3RyaW5nKToKICAgICIiIklTTyA2MzktMSBjb2RlICgiZW4iKSwgb3IgYSBsb2NhbGUgdGFnICgiZW4tVVMiIC0+IGtlcHQgYXMgImVuLVVTIikKICAgIHdoZW4gYWxsb3dfbG9jYWxlPVRydWUuIExvd2VyLWNhc2VzIHRoZSBsYW5ndWFnZSBwYXJ0LiBPcHRpb25hbC4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgYWxsb3dfbG9jYWxlPVRydWUsICoqa3dhcmdzKToKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgicmVxdWlyZWQiLCBGYWxzZSkKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgibG9hZF9kZWZhdWx0IiwgTm9uZSkKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCoqa3dhcmdzKQogICAgICAgIHNlbGYuYWxsb3dfbG9jYWxlID0gYWxsb3dfbG9jYWxlCgogICAgZGVmIF9kZXNlcmlhbGl6ZShzZWxmLCB2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpOgogICAgICAgIHZhbHVlID0gc3VwZXIoKS5fZGVzZXJpYWxpemUodmFsdWUsIGF0dHIsIGRhdGEsICoqa3dhcmdzKQogICAgICAgIGlmIHZhbHVlIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgbGFuZywgc2VwLCByZWdpb24gPSB2YWx1ZS5yZXBsYWNlKCJfIiwgIi0iKS5wYXJ0aXRpb24oIi0iKQogICAgICAgIGxhbmcgPSBsYW5nLmxvd2VyKCkKICAgICAgICBpZiBsYW5nIG5vdCBpbiBMQU5HVUFHRV9DT0RFUyBvciAocmVnaW9uIGFuZCBub3Qgc2VsZi5hbGxvd19sb2NhbGUpOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoIk11c3QgYmUgYW4gSVNPIDYzOS0xIGxhbmd1YWdlIGNvZGUgKGVuLCBmciwgZGUsIC4uLikuIikKICAgICAgICBpZiByZWdpb246CiAgICAgICAgICAgIGlmIG5vdCAobGVuKHJlZ2lvbikgPT0gMiBhbmQgcmVnaW9uLmlzYWxwaGEoKSk6CiAgICAgICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoIkxvY2FsZSBtdXN0IGxvb2sgbGlrZSBlbi1VUy4iKQogICAgICAgICAgICByZXR1cm4gZiJ7bGFuZ30te3JlZ2lvbi51cHBlcigpfSIKICAgICAgICByZXR1cm4gbGFuZwoKCiMgLS0tLSBVUkxzIC8gc2x1Z3MgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmNsYXNzIFVybEZpZWxkKGZpZWxkcy5VcmwpOgogICAgIiIiaHR0cChzKSBVUkw7IGBkb21haW5gIHJlcXVpcmVzIHRoZSBob3N0IHRvIGJlIHRoYXQgcmVnaXN0cmFibGUgZG9tYWluCiAgICBvciBhIHN1YmRvbWFpbiBvZiBpdCAoZS5nLiBkb21haW49ImFsaWJhYmEuY29tIikuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGRvbWFpbj1Ob25lLCBzY2hlbWVzPSgiaHR0cCIsICJodHRwcyIpLCAqKmt3YXJncyk6CiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInJlcXVpcmVkIiwgRmFsc2UpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIE5vbmUpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhzY2hlbWVzPXNldChzY2hlbWVzKSwgKiprd2FyZ3MpCiAgICAgICAgc2VsZi5kb21haW4gPSBkb21haW4ubG93ZXIoKSBpZiBkb21haW4gZWxzZSBOb25lCgogICAgZGVmIF9kZXNlcmlhbGl6ZShzZWxmLCB2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpOgogICAgICAgIHZhbHVlID0gc3VwZXIoKS5fZGVzZXJpYWxpemUoc3RyKHZhbHVlKS5zdHJpcCgpLCBhdHRyLCBkYXRhLCAqKmt3YXJncykKICAgICAgICBpZiBzZWxmLmRvbWFpbjoKICAgICAgICAgICAgaG9zdCA9ICh1cmxwYXJzZSh2YWx1ZSkuaG9zdG5hbWUgb3IgIiIpLmxvd2VyKCkKICAgICAgICAgICAgaWYgbm90IChob3N0ID09IHNlbGYuZG9tYWluIG9yIGhvc3QuZW5kc3dpdGgoIi4iICsgc2VsZi5kb21haW4pKToKICAgICAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcihmIk11c3QgYmUgYSB7c2VsZi5kb21haW59IGxpbmsuIikKICAgICAgICByZXR1cm4gdmFsdWUKCgpkZWYgbm9ybWFsaXplX3NpdGVfc2x1Zyh2YWx1ZSwgc2l0ZV9kb21haW4sIG1hcmtlcik6CiAgICAiIiJCYXJlIHNsdWcgKCdhY21lJykgb3IgYSBmdWxsIFVSTCBvZiBgc2l0ZV9kb21haW5gIG9uIGFueSBUTEQKICAgICgnaHR0cHM6Ly91ay50cnVzdHBpbG90LmNvbS9yZXZpZXcvYWNtZT94JykgLT4gJ2FjbWUnICh0aGUgcGF0aCBzZWdtZW50CiAgICBhZnRlciBgbWFya2VyYCkuIFJhaXNlcyBWYWx1ZUVycm9yIGZvciBhbm90aGVyIHNpdGUncyBVUkwgb3IgYW4gZW1wdHkKICAgIHNsdWcuIChQb3J0IG9mIHJhcGlkYXBpL3V0aWxzL2ZpZWxkcy5ub3JtYWxpemVfc2l0ZV9zbHVnLikiIiIKICAgIHZhbHVlID0gKHZhbHVlIG9yICIiKS5zdHJpcCgpCiAgICBpZiB2YWx1ZS5zdGFydHN3aXRoKCgiaHR0cDovLyIsICJodHRwczovLyIsICIvLyIpKToKICAgICAgICB1cmwgPSB2YWx1ZSBpZiBub3QgdmFsdWUuc3RhcnRzd2l0aCgiLy8iKSBlbHNlICJodHRwczoiICsgdmFsdWUKICAgICAgICBob3N0ID0gKHVybHBhcnNlKHVybCkuaG9zdG5hbWUgb3IgIiIpLmxvd2VyKCkKICAgICAgICBsYWJlbHMgPSBob3N0LnNwbGl0KCIuIikKICAgICAgICBpZiBzaXRlX2RvbWFpbi5sb3dlcigpIG5vdCBpbiBsYWJlbHM6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJub3QgYSB7c2l0ZV9kb21haW59IFVSTCIpCiAgICAgICAgaWYgbWFya2VyIGFuZCBtYXJrZXIgaW4gdXJsOgogICAgICAgICAgICB2YWx1ZSA9IHVybC5zcGxpdChtYXJrZXIsIDEpWzFdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdmFsdWUgPSB1cmxwYXJzZSh1cmwpLnBhdGgucnN0cmlwKCIvIikucnNwbGl0KCIvIiwgMSlbLTFdCiAgICB2YWx1ZSA9IHZhbHVlLnNwbGl0KCI/IilbMF0uc3BsaXQoIiMiKVswXS5zcGxpdCgiLyIpWzBdLnN0cmlwKCkKICAgIGlmIG5vdCB2YWx1ZToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJlbXB0eSBzbHVnIikKICAgIHJldHVybiB2YWx1ZQoKCmNsYXNzIFNpdGVTbHVnRmllbGQoU3RyaXBwZWRTdHJpbmcpOgogICAgIiIiQmFyZSBzbHVnIE9SIGEgZnVsbCBVUkwgb2Ygb25lIHNpdGUgLT4gdGhlIHNsdWcgKG9yIHRoZSBjYW5vbmljYWwgVVJMCiAgICB3aGVuIGFzX3VybD1UcnVlKS4gc2l0ZV9kb21haW4gPSByZWdpc3RyYWJsZSBuYW1lIHdpdGhvdXQgVExECiAgICAoJ3RydXN0cGlsb3QnKTsgbWFya2VyID0gdGhlIHBhdGggc2VnbWVudCBiZWZvcmUgdGhlIHNsdWcgKCcvcmV2aWV3LycpLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzaXRlX2RvbWFpbiwgbWFya2VyLCBhc191cmw9RmFsc2UsIGNhbm9uaWNhbF9ob3N0PU5vbmUsICoqa3dhcmdzKToKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgicmVxdWlyZWQiLCBUcnVlKQogICAgICAgIHN1cGVyKCkuX19pbml0X18oKiprd2FyZ3MpCiAgICAgICAgc2VsZi5zaXRlX2RvbWFpbiA9IHNpdGVfZG9tYWluCiAgICAgICAgc2VsZi5tYXJrZXIgPSBtYXJrZXIKICAgICAgICBzZWxmLmFzX3VybCA9IGFzX3VybAogICAgICAgIHNlbGYuY2Fub25pY2FsX2hvc3QgPSBjYW5vbmljYWxfaG9zdCBvciBmInd3dy57c2l0ZV9kb21haW59LmNvbSIKCiAgICBkZWYgX2Rlc2VyaWFsaXplKHNlbGYsIHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncyk6CiAgICAgICAgdmFsdWUgPSBzdXBlcigpLl9kZXNlcmlhbGl6ZSh2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpCiAgICAgICAgaWYgdmFsdWUgaXMgTm9uZToKICAgICAgICAgICAgcmV0dXJuIE5vbmUKICAgICAgICB0cnk6CiAgICAgICAgICAgIHNsdWcgPSBub3JtYWxpemVfc2l0ZV9zbHVnKHZhbHVlLCBzZWxmLnNpdGVfZG9tYWluLCBzZWxmLm1hcmtlcikKICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgcmFpc2UgVmFsaWRhdGlvbkVycm9yKGYiTXVzdCBiZSBhIHZhbGlkIHtzZWxmLnNpdGVfZG9tYWlufSBsaW5rIG9yIHNsdWcuIikKICAgICAgICByZXR1cm4gZiJodHRwczovL3tzZWxmLmNhbm9uaWNhbF9ob3N0fXtzZWxmLm1hcmtlcn17c2x1Z30iIGlmIHNlbGYuYXNfdXJsIGVsc2Ugc2x1ZwoKCiMgLS0tLSBkYXRlcyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpjbGFzcyBEYXRlRmllbGQoZmllbGRzLlN0cmluZyk6CiAgICAiIiJZWVlZLU1NLUREIC0+ICdZWVlZLU1NLUREJyBzdHJpbmcuIGJvdW5kPSdmdXR1cmUnICh0b2RheSBvciBsYXRlciksCiAgICAncGFzdCcgKHRvZGF5IG9yIGVhcmxpZXIpIG9yIE5vbmU7IGRlZmF1bHRfZGF5c19haGVhZD1OIG1ha2VzIGEgbWlzc2luZwogICAgdmFsdWUgZGVmYXVsdCB0byB0b2RheStOIChlLmcuIDEgPSB0b21vcnJvdykuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGJvdW5kPU5vbmUsIGRlZmF1bHRfZGF5c19haGVhZD1Ob25lLCAqKmt3YXJncyk6CiAgICAgICAgaWYgZGVmYXVsdF9kYXlzX2FoZWFkIGlzIG5vdCBOb25lOgogICAgICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgibG9hZF9kZWZhdWx0IiwgbGFtYmRhOiAoZGF0ZS50b2RheSgpICsgdGltZWRlbHRhKGRheXM9ZGVmYXVsdF9kYXlzX2FoZWFkKSkuaXNvZm9ybWF0KCkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIE5vbmUpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInJlcXVpcmVkIiwgRmFsc2UpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygqKmt3YXJncykKICAgICAgICBzZWxmLmJvdW5kID0gYm91bmQKCiAgICBkZWYgX2Rlc2VyaWFsaXplKHNlbGYsIHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncyk6CiAgICAgICAgdmFsdWUgPSBzdXBlcigpLl9kZXNlcmlhbGl6ZSh2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpLnN0cmlwKCkKICAgICAgICBpZiBub3QgcmUuZnVsbG1hdGNoKHIiXGR7NH0tXGR7Mn0tXGR7Mn0iLCB2YWx1ZSk6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcigiTXVzdCBiZSBhIGRhdGUgYXMgWVlZWS1NTS1ERCAoZS5nLiAyMDI2LTEwLTE1KS4iKQogICAgICAgIHRyeToKICAgICAgICAgICAgcGFyc2VkID0gZGF0ZXRpbWUuc3RycHRpbWUodmFsdWUsICIlWS0lbS0lZCIpLmRhdGUoKQogICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yIGFzIGU6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcihmIkludmFsaWQgZGF0ZToge2V9LiIpCiAgICAgICAgdG9kYXkgPSBkYXRlLnRvZGF5KCkKICAgICAgICBpZiBzZWxmLmJvdW5kID09ICJmdXR1cmUiIGFuZCBwYXJzZWQgPCB0b2RheToKICAgICAgICAgICAgcmFpc2UgVmFsaWRhdGlvbkVycm9yKCJNdXN0IGJlIHRvZGF5IG9yIGEgZnV0dXJlIGRhdGUuIikKICAgICAgICBpZiBzZWxmLmJvdW5kID09ICJwYXN0IiBhbmQgcGFyc2VkID4gdG9kYXk6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcigiTXVzdCBiZSB0b2RheSBvciBhIHBhc3QgZGF0ZS4iKQogICAgICAgIHJldHVybiBwYXJzZWQuaXNvZm9ybWF0KCkKCgpjbGFzcyBZZWFyTW9udGhGaWVsZChmaWVsZHMuU3RyaW5nKToKICAgICIiIllZWVktTU0gLT4gJ1lZWVktTU0nIHN0cmluZzsgYm91bmQ9J2Z1dHVyZScgPSBjdXJyZW50IG1vbnRoIG9yIGxhdGVyLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBib3VuZD1Ob25lLCAqKmt3YXJncyk6CiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInJlcXVpcmVkIiwgRmFsc2UpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIE5vbmUpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygqKmt3YXJncykKICAgICAgICBzZWxmLmJvdW5kID0gYm91bmQKCiAgICBkZWYgX2Rlc2VyaWFsaXplKHNlbGYsIHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncyk6CiAgICAgICAgdmFsdWUgPSBzdXBlcigpLl9kZXNlcmlhbGl6ZSh2YWx1ZSwgYXR0ciwgZGF0YSwgKiprd2FyZ3MpLnN0cmlwKCkKICAgICAgICBpZiBub3QgcmUuZnVsbG1hdGNoKHIiXGR7NH0tXGR7Mn0iLCB2YWx1ZSk6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcigiTXVzdCBiZSBhIG1vbnRoIGFzIFlZWVktTU0gKGUuZy4gMjAyNi0xMCkuIikKICAgICAgICB0cnk6CiAgICAgICAgICAgIHBhcnNlZCA9IGRhdGV0aW1lLnN0cnB0aW1lKHZhbHVlLCAiJVktJW0iKS5kYXRlKCkKICAgICAgICBleGNlcHQgVmFsdWVFcnJvciBhcyBlOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoZiJJbnZhbGlkIG1vbnRoOiB7ZX0uIikKICAgICAgICBpZiBzZWxmLmJvdW5kID09ICJmdXR1cmUiIGFuZCBwYXJzZWQgPCBkYXRlLnRvZGF5KCkucmVwbGFjZShkYXk9MSk6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcigiTXVzdCBiZSB0aGUgY3VycmVudCBtb250aCBvciBsYXRlci4iKQogICAgICAgIGlmIHNlbGYuYm91bmQgPT0gInBhc3QiIGFuZCBwYXJzZWQgPiBkYXRlLnRvZGF5KCkucmVwbGFjZShkYXk9MSk6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcigiTXVzdCBiZSB0aGUgY3VycmVudCBtb250aCBvciBlYXJsaWVyLiIpCiAgICAgICAgcmV0dXJuIHZhbHVlCg==
+"""Shared marshmallow request fields + schema helpers for scraper routes.
+
+Site packages (alibaba/schemas.py, …) compose their route schemas from these
+so every /<site>/* API validates the same way:
+
+  * whitespace-stripped strings, empty == missing
+  * booleans as true/false | 1/0 | yes/no flags
+  * ONE param per input — a `RefField` subclass accepts a bare id OR a full
+    site link and hands the raw string to a site-specific `resolver`
+    (tripadvisor QueryOrIdField convention; never a sibling `url`/`id` pair)
+  * choice params are case-insensitive and may map to upstream tokens
+  * comma lists are trimmed/deduped, optionally validated + mapped
+  * ISO codes (country / currency / language) are upper/lower-cased and
+    validated against the real code lists
+  * unknown query params are rejected (BaseSchema) so typos surface as 400s
+
+Ported from rapidapi/utils/{fields,handlers}.py (the gateway's field
+library) where the idea was worth keeping: the ISO-3166 country list,
+comma-separated values with `allowed` + `value_map`, mapped choices,
+`SiteSlugField` (bare slug or site URL -> slug), https-only URL with a
+required domain, YYYY-MM / YYYY-MM-DD dates with today/future/past bounds,
+limit/offset pagination fields.
+
+`load_query(SchemaCls, query_dict)` -> (data, None) | (None, 400 body).
+"""
+import re
+from datetime import date, datetime, timedelta
+from urllib.parse import urlparse
+
+from marshmallow import RAISE, Schema, ValidationError, fields, validate
+
+__all__ = [
+    "BaseSchema", "load_query",
+    "StrippedString", "QueryField", "Flag", "TrueOnlyFlag", "RefField",
+    "PageField", "PageSizeField", "LimitField", "OffsetField",
+    "PositiveInt", "NonNegativeNumber", "Price", "Quantity",
+    "ChoiceField", "CommaListField", "CurrencyField", "CountryCodeField",
+    "LanguageCodeField", "UrlField", "SiteSlugField", "normalize_site_slug",
+    "DateField", "YearMonthField", "COUNTRY_CODES", "LANGUAGE_CODES",
+]
+
+_TRUE = {"true", "1", "yes", "y", "on"}
+_FALSE = {"false", "0", "no", "n", "off", ""}
+
+# ISO 3166-1 alpha-2 (same list the rapidapi gateway validates against).
+COUNTRY_CODES = frozenset("""
+AF AX AL DZ AS AD AO AI AQ AG AR AM AW AU AT AZ BS BH BD BB BY BE BZ BJ BM BT BO BQ BA BW BV BR IO VG BN BG BF BI
+CV KH CM CA KY CF TD CL CN CX CC CO KM CK CR HR CU CW CY CZ CD DK DJ DM DO EC EG SV GQ ER EE SZ ET FK FO FJ FI FR GF
+PF TF GA GM GE DE GH GI GR GL GD GP GU GT GG GN GW GY HT HM HN HK HU IS IN ID IR IQ IE IM IL IT CI JM JP JE JO KZ KE
+KI XK KW KG LA LV LB LS LR LY LI LT LU MO MG MW MY MV ML MT MH MQ MR MU YT MX FM MD MC MN ME MS MA MZ MM NA NR NP NL
+AN NC NZ NI NE NG NU NF MP KP MK NO OM PK PW PS PA PG PY PE PH PN PL PT PR QA CG RE RO RU RW BL SH KN LC MF PM VC WS
+SM ST SA SN RS CS SC SL SG SX SK SI SB SO ZA GS KR SS ES LK SD SR SJ SE CH SY TW TJ TZ TH TL TG TK TO TT TN TR TM TC
+TV UG UA AE GB US UM UY VI UZ VU VA VE VN WF EH YE ZM ZW
+""".split())
+
+# ISO 639-1 two-letter language codes.
+LANGUAGE_CODES = frozenset("""
+aa ab ae af ak am an ar as av ay az ba be bg bh bi bm bn bo br bs ca ce ch co cr cs cu cv cy da de dv dz ee el en eo
+es et eu fa ff fi fj fo fr fy ga gd gl gn gu gv ha he hi ho hr ht hu hy hz ia id ie ig ii ik io is it iu ja jv ka kg
+ki kj kk kl km kn ko kr ks ku kv kw ky la lb lg li ln lo lt lu lv mg mh mi mk ml mn mr ms mt my na nb nd ne ng nl nn
+no nr nv ny oc oj om or os pa pi pl ps pt qu rm rn ro ru rw sa sc sd se sg si sk sl sm sn so sq sr ss st su sv sw ta
+te tg th ti tk tl tn to tr ts tt tw ty ug uk ur uz ve vi vo wa wo xh yi yo za zh zu
+""".split())
+
+
+# ---- schema + loading --------------------------------------------------------
+
+class BaseSchema(Schema):
+    """Unknown query params are rejected (a typo must not silently no-op)."""
+
+    class Meta:
+        unknown = RAISE
+
+
+def load_query(schema_cls, query):
+    """Validate a query dict. Returns (data, None) or (None, body) where body
+    is {"error": "Invalid parameters: …", "errors": {field: [msgs]}} for a 400."""
+    try:
+        return schema_cls().load(query), None
+    except ValidationError as e:
+        messages = e.normalized_messages()
+        flat = "; ".join(f"{k}: {' '.join(v) if isinstance(v, list) else v}" for k, v in messages.items())
+        return None, {"error": f"Invalid parameters: {flat}", "errors": messages}
+
+
+# ---- strings -----------------------------------------------------------------
+
+class StrippedString(fields.String):
+    """String with whitespace collapsed; empty -> error when required, else None."""
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        value = " ".join(value.split())
+        if not value:
+            if self.required:
+                raise ValidationError("Must not be empty.")
+            return None
+        return value
+
+
+class QueryField(StrippedString):
+    """Free-text search term, required, 1-200 chars by default."""
+
+    def __init__(self, max_length=200, **kwargs):
+        kwargs.setdefault("required", True)
+        kwargs.setdefault("validate", validate.Length(min=1, max=max_length))
+        super().__init__(**kwargs)
+
+
+class RefField(StrippedString):
+    """ONE param that accepts a bare id OR a full site link. Subclasses set
+    `resolver` (a function raising ValueError with a user-facing message) or
+    pass `resolver=` at construction:
+
+        class ProductRefField(RefField):
+            resolver = staticmethod(refs.resolve_product_ref)
+    """
+    resolver = None
+
+    def __init__(self, resolver=None, **kwargs):
+        kwargs.setdefault("required", True)
+        super().__init__(**kwargs)
+        if resolver is not None:
+            self._resolver = resolver
+        else:
+            self._resolver = type(self).resolver
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        if value is None:
+            return None
+        if self._resolver is None:
+            return value
+        try:
+            return self._resolver(value)
+        except ValueError as e:
+            raise ValidationError(str(e))
+
+
+# ---- booleans ----------------------------------------------------------------
+
+class Flag(fields.Field):
+    """Boolean query flag: true/false, 1/0, yes/no, on/off (case-insensitive).
+    Defaults to None (= "not specified") unless load_default is given."""
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault("load_default", None)
+        super().__init__(**kwargs)
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        if isinstance(value, bool):
+            return value
+        low = str(value).strip().lower()
+        if low in _TRUE:
+            return True
+        if low in _FALSE:
+            return False
+        raise ValidationError("Must be true or false.")
+
+
+class TrueOnlyFlag(Flag):
+    """Opt-in switch (e.g. refresh=true): only true is accepted."""
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        if value is not True:
+            raise ValidationError("Must be true, or not provided.")
+        return value
+
+
+# ---- numbers / pagination ----------------------------------------------------
+
+class PageField(fields.Integer):
+    """1-based page, default 1, capped at max_page."""
+
+    def __init__(self, max_page=100, **kwargs):
+        kwargs.setdefault("load_default", 1)
+        kwargs.setdefault("validate", validate.Range(min=1, max=max_page))
+        super().__init__(strict=False, **kwargs)
+
+
+class PageSizeField(fields.Integer):
+    def __init__(self, default=10, max_size=50, **kwargs):
+        kwargs.setdefault("load_default", default)
+        kwargs.setdefault("validate", validate.Range(min=1, max=max_size))
+        super().__init__(strict=False, **kwargs)
+
+
+class LimitField(PageSizeField):
+    """Maximum number of results (default 10, max 50 unless overridden)."""
+
+
+class OffsetField(fields.Integer):
+    """Results to skip (default 0)."""
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault("load_default", 0)
+        kwargs.setdefault("validate", validate.Range(min=0))
+        super().__init__(strict=False, **kwargs)
+
+
+class PositiveInt(fields.Integer):
+    """Optional integer >= 1 (counts, quantities, ids given as numbers)."""
+
+    def __init__(self, max_value=None, **kwargs):
+        kwargs.setdefault("load_default", None)
+        kwargs.setdefault("validate", validate.Range(min=1, max=max_value))
+        super().__init__(strict=False, **kwargs)
+
+
+class NonNegativeNumber(fields.Float):
+    """Optional float >= 0."""
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault("load_default", None)
+        kwargs.setdefault("validate", validate.Range(min=0))
+        super().__init__(**kwargs)
+
+
+class Price(NonNegativeNumber):
+    """Price bound in the request's currency."""
+
+
+class Quantity(PositiveInt):
+    """Order/stock quantity."""
+
+
+# ---- choices / lists ---------------------------------------------------------
+
+class ChoiceField(StrippedString):
+    """Case-insensitive choice. `choices` is a list of public values, OR a
+    dict {public value: upstream token} in which case the mapped token is
+    returned (rapidapi MappedField). Optional by default."""
+
+    def __init__(self, choices, **kwargs):
+        kwargs.setdefault("required", False)
+        kwargs.setdefault("load_default", None)
+        super().__init__(**kwargs)
+        self.value_map = dict(choices) if isinstance(choices, dict) else None
+        self.choices = [str(c).lower() for c in (choices.keys() if isinstance(choices, dict) else choices)]
+        self._lookup = {c.lower(): c for c in (choices.keys() if isinstance(choices, dict) else choices)}
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        if value is None:
+            return None
+        key = self._lookup.get(value.lower())
+        if key is None:
+            raise ValidationError(f"Must be one of: {', '.join(self.choices)}.")
+        return self.value_map[key] if self.value_map is not None else str(key).lower()
+
+
+class CommaListField(fields.Field):
+    """'a, b,A' -> ['A', 'B'] (trimmed, deduped; upper-cased by default).
+    `allowed` restricts values (case-insensitive) and `value_map` maps each
+    accepted value to an upstream token (rapidapi CommaSeparatedField)."""
+
+    def __init__(self, allowed=None, value_map=None, upper=True, max_items=10, **kwargs):
+        kwargs.setdefault("load_default", None)
+        super().__init__(**kwargs)
+        self.upper = upper
+        self.max_items = max_items
+        source = list(value_map.keys()) if value_map else list(allowed or [])
+        self._allowed = {str(a).lower(): a for a in source} if source else None
+        self.value_map = value_map
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        items = []
+        for raw in str(value).split(","):
+            item = raw.strip()
+            if not item:
+                continue
+            if self._allowed is not None:
+                canonical = self._allowed.get(item.lower())
+                if canonical is None:
+                    raise ValidationError(f"'{item}' is not one of: {', '.join(str(a) for a in self._allowed.values())}.")
+                item = self.value_map[canonical] if self.value_map else canonical
+            elif self.upper:
+                item = item.upper()
+            if item not in items:
+                items.append(item)
+        if not items:
+            return None
+        if len(items) > self.max_items:
+            raise ValidationError(f"At most {self.max_items} values.")
+        return items
+
+
+# ---- ISO codes ---------------------------------------------------------------
+
+class CurrencyField(StrippedString):
+    """3-letter ISO 4217 code, upper-cased (USD, EUR, INR, …). Optional."""
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault("required", False)
+        kwargs.setdefault("load_default", None)
+        super().__init__(**kwargs)
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        if value is None:
+            return None
+        value = value.upper()
+        if not (len(value) == 3 and value.isalpha()):
+            raise ValidationError("Must be a 3-letter ISO currency code (USD, EUR, INR, ...).")
+        return value
+
+
+class CountryCodeField(StrippedString):
+    """2-letter ISO 3166-1 code, upper-cased and checked against the real
+    list (CN, US, IN, …). Optional by default."""
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault("required", False)
+        kwargs.setdefault("load_default", None)
+        super().__init__(**kwargs)
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        if value is None:
+            return None
+        value = value.upper()
+        if value not in COUNTRY_CODES:
+            raise ValidationError("Must be a 2-letter ISO country code (CN, US, IN, ...).")
+        return value
+
+
+class LanguageCodeField(StrippedString):
+    """ISO 639-1 code ("en"), or a locale tag ("en-US" -> kept as "en-US")
+    when allow_locale=True. Lower-cases the language part. Optional."""
+
+    def __init__(self, allow_locale=True, **kwargs):
+        kwargs.setdefault("required", False)
+        kwargs.setdefault("load_default", None)
+        super().__init__(**kwargs)
+        self.allow_locale = allow_locale
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        if value is None:
+            return None
+        lang, sep, region = value.replace("_", "-").partition("-")
+        lang = lang.lower()
+        if lang not in LANGUAGE_CODES or (region and not self.allow_locale):
+            raise ValidationError("Must be an ISO 639-1 language code (en, fr, de, ...).")
+        if region:
+            if not (len(region) == 2 and region.isalpha()):
+                raise ValidationError("Locale must look like en-US.")
+            return f"{lang}-{region.upper()}"
+        return lang
+
+
+# ---- URLs / slugs --------------------------------------------------------------
+
+class UrlField(fields.Url):
+    """http(s) URL; `domain` requires the host to be that registrable domain
+    or a subdomain of it (e.g. domain="alibaba.com")."""
+
+    def __init__(self, domain=None, schemes=("http", "https"), **kwargs):
+        kwargs.setdefault("required", False)
+        kwargs.setdefault("load_default", None)
+        super().__init__(schemes=set(schemes), **kwargs)
+        self.domain = domain.lower() if domain else None
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(str(value).strip(), attr, data, **kwargs)
+        if self.domain:
+            host = (urlparse(value).hostname or "").lower()
+            if not (host == self.domain or host.endswith("." + self.domain)):
+                raise ValidationError(f"Must be a {self.domain} link.")
+        return value
+
+
+def normalize_site_slug(value, site_domain, marker):
+    """Bare slug ('acme') or a full URL of `site_domain` on any TLD
+    ('https://uk.trustpilot.com/review/acme?x') -> 'acme' (the path segment
+    after `marker`). Raises ValueError for another site's URL or an empty
+    slug. (Port of rapidapi/utils/fields.normalize_site_slug.)"""
+    value = (value or "").strip()
+    if value.startswith(("http://", "https://", "//")):
+        url = value if not value.startswith("//") else "https:" + value
+        host = (urlparse(url).hostname or "").lower()
+        labels = host.split(".")
+        if site_domain.lower() not in labels:
+            raise ValueError(f"not a {site_domain} URL")
+        if marker and marker in url:
+            value = url.split(marker, 1)[1]
+        else:
+            value = urlparse(url).path.rstrip("/").rsplit("/", 1)[-1]
+    value = value.split("?")[0].split("#")[0].split("/")[0].strip()
+    if not value:
+        raise ValueError("empty slug")
+    return value
+
+
+class SiteSlugField(StrippedString):
+    """Bare slug OR a full URL of one site -> the slug (or the canonical URL
+    when as_url=True). site_domain = registrable name without TLD
+    ('trustpilot'); marker = the path segment before the slug ('/review/')."""
+
+    def __init__(self, site_domain, marker, as_url=False, canonical_host=None, **kwargs):
+        kwargs.setdefault("required", True)
+        super().__init__(**kwargs)
+        self.site_domain = site_domain
+        self.marker = marker
+        self.as_url = as_url
+        self.canonical_host = canonical_host or f"www.{site_domain}.com"
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        if value is None:
+            return None
+        try:
+            slug = normalize_site_slug(value, self.site_domain, self.marker)
+        except ValueError:
+            raise ValidationError(f"Must be a valid {self.site_domain} link or slug.")
+        return f"https://{self.canonical_host}{self.marker}{slug}" if self.as_url else slug
+
+
+# ---- dates -------------------------------------------------------------------
+
+class DateField(fields.String):
+    """YYYY-MM-DD -> 'YYYY-MM-DD' string. bound='future' (today or later),
+    'past' (today or earlier) or None; default_days_ahead=N makes a missing
+    value default to today+N (e.g. 1 = tomorrow)."""
+
+    def __init__(self, bound=None, default_days_ahead=None, **kwargs):
+        if default_days_ahead is not None:
+            kwargs.setdefault("load_default", lambda: (date.today() + timedelta(days=default_days_ahead)).isoformat())
+        else:
+            kwargs.setdefault("load_default", None)
+        kwargs.setdefault("required", False)
+        super().__init__(**kwargs)
+        self.bound = bound
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs).strip()
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+            raise ValidationError("Must be a date as YYYY-MM-DD (e.g. 2026-10-15).")
+        try:
+            parsed = datetime.strptime(value, "%Y-%m-%d").date()
+        except ValueError as e:
+            raise ValidationError(f"Invalid date: {e}.")
+        today = date.today()
+        if self.bound == "future" and parsed < today:
+            raise ValidationError("Must be today or a future date.")
+        if self.bound == "past" and parsed > today:
+            raise ValidationError("Must be today or a past date.")
+        return parsed.isoformat()
+
+
+class YearMonthField(fields.String):
+    """YYYY-MM -> 'YYYY-MM' string; bound='future' = current month or later."""
+
+    def __init__(self, bound=None, **kwargs):
+        kwargs.setdefault("required", False)
+        kwargs.setdefault("load_default", None)
+        super().__init__(**kwargs)
+        self.bound = bound
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs).strip()
+        if not re.fullmatch(r"\d{4}-\d{2}", value):
+            raise ValidationError("Must be a month as YYYY-MM (e.g. 2026-10).")
+        try:
+            parsed = datetime.strptime(value, "%Y-%m").date()
+        except ValueError as e:
+            raise ValidationError(f"Invalid month: {e}.")
+        if self.bound == "future" and parsed < date.today().replace(day=1):
+            raise ValidationError("Must be the current month or later.")
+        if self.bound == "past" and parsed > date.today().replace(day=1):
+            raise ValidationError("Must be the current month or earlier.")
+        return value

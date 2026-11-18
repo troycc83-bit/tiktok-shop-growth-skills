@@ -1,1 +1,59 @@
-IyDniIbmrL7mi4bop6PmoYbmnrbvvIhEZWNvbXByZXNzaW9uIEZyYW1ld29ya++8iQoKPiDmiorkuIDmnaHop4bpopHmi4bmiJDlj6/lpI3nlKjnu7TluqbnmoTmoIflh4bjgILkuI4gYHNhbGVzLXNjcmlwdC1nZW5lcmF0b3JgIOeahCBmcmFtZXdvcmtzLm1kIOWFvOWuue+8mumCo+i+ueaYryLnu7TluqbihpLohJrmnKwi77yM6L+Z6L655pivIuinhumikeKGkue7tOW6piLjgIIKCiMjIOaLhuino+S4g+e7tOW6pgoKfCDnu7TluqYgfCDnnIvku4DkuYggfAp8LS0tLS0tfC0tLS0tLS0tfAp8IDEuIEhvb2sgfCDliY0gMyDnp5LnmoTlj6Pmkq3nrKzkuIDlj6UgLyDnrKzkuIDkuKrnlLvpnaIgLyDnrKzkuIDmnaHlrZfluZXvvIzmmK/lkKblkIzkuIDnsbvlnovvvIzmnInml6DmqKHlvI/kuK3mlq0gfAp8IDIuIOeXm+eCueWRiOeOsCB8IOeXm+eCueaYr+S7gOS5iOOAgeWmguS9leaUvuWkp+WIsOacieeUu+mdouaEn++8iGFnaXRhdGXvvInjgIHnm67moIfkurrnvqTmmK/osIEgfAp8IDMuIOS6p+WTgeeZu+WcuiB8IOesrOWHoOenkuWHuueOsOOAgeaYr+WQpuWJjee9ruOAgeeZu+WcuuaWueW8j++8iOWvueavlC/mtYvor4Qv5Zy65pmvL+W8gOeuse+8iSB8CnwgNC4g5ryU56S65omL5rOVIHwgYmVmb3JlLWFmdGVyIC8g5p6B6ZmQ5rWL6K+VIC8g5Zy65pmv5Luj5YWlIC8g5L2p5oi05a+55q+UIC8g5pWw5o2u5Y+v6KeG5YyWIHwKfCA1LiDkv6Hku7vnirYgfCDor4TorrrlopkgLyDnlKjmiLfmlbAgLyDovr7kurrog4zkuaYgLyDorqTor4EgLyDop4Hor4EgfAp8IDYuIOiKguWljyB8IOmVnOWktOWIh+aNoumikeeOh+OAgeWNoeeCueOAgeS/oeaBr+WvhuW6puOAgeaXtumVvyB8CnwgNy4gQ1RBIHwg57G75Z6L77yI5LqG6Kej5pu05aSaL+eri+WNs+i0reS5sC/lhbPms6jvvInjgIHmmK/lkKbmnInpo47pmanpgIbovazjgIHkvY3nva7mjIflvJUgfAoKIyMgOCDnsbsgSG9va++8iOWJjSAzIOenku+8iQoKfCDnsbvlnosgfCDnpLrkvosgfCDpgILnlKggfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18Cnwg6Zeu6aKY54K55ZCNIHwgIlRpcmVkIG9mIGVhcmJ1ZHMgZmFsbGluZyBvdXQgbWlkLXJ1bj8iIHwg55eb54K55piO56Gu5Lq6576kIHwKfCDlpKfog4bmlq3oqIAgfCAiVGhlc2UgYXJlIHRoZSBtb3N0IGNvbWZvcnRhYmxlIGVhcmJ1ZHMgSSd2ZSB3b3JuIiB8IOaDhee7quWei+enjeiNiSB8Cnwg56S+5Lya6K+B5piOIHwgIjEwMGsgcGVvcGxlIHN3aXRjaGVkIHRvIG9wZW4tZWFyIiB8IOS/oeS7u+mpseWKqOS6uue+pCB8Cnwg5qih5byP5Lit5patIHwg5oSP5aSW55S76Z2iL+WjsOmfsy/lgJLmlL4gfCDkv6Hmga/mtYHliLflsY/lnLrmma8gfAp8IOaPkOmXriB8ICJEaWQgeW91IGtub3cgaW4tZWFyIGNhbiBkYW1hZ2UgeW91ciBoZWFyaW5nPyIgfCDmlZnogrLlnovlhoXlrrkgfAp8IEJlZm9yZS9BZnRlciB8IOebtOaOpeeUqeS9qeaItOWvueavlCB8IOinhuinieaViOaenOWei+S6p+WTgSB8Cnwg5p2D5aiBIHwgIk15IGF1ZGlvbG9naXN0IGZyaWVuZCB0b2xkIG1lLi4uIiB8IOS4k+S4muWumuS9jSB8Cnwg57Sn6L+rIHwgIkxhc3QgMjQgaG91cnMiIHwg6L+U5Zy6L+S/g+mUgC9CT0ZVIHwKCkhvb2sg5LiJ6YCa6YGT77yaKirlj6Pmkq3nrKzkuIDlj6UgKyDnrKzkuIDkuKrnlLvpnaIgKyDnrKzkuIDmnaHlrZfluZUqKuW/hemhu+acjeWKoeS6juWQjOS4gOS4qiBob29rIOexu+Wei++8jOS4ieiAheS4jeaJk+aetuOAggoKIyMgMTAg56eN5oiY5pyv77yI5qOA5p+l5piv5ZCm5L2/55So77yJCgrnpL7kvJror4HmmI4gLyDnqIDnvLogLyDntKfov6sgLyDmnYPlqIEgLyDmg4Xnu6rop6blj5EgLyDpl67popjihpLmlrnmoYggLyDpo47pmanpgIbovawgLyDplJrlrpogLyDkupLmg6AgLyDlhbfkvZPljJbjgIIKCiMjIENUQSDlupPvvIjmjInmvI/mlpfpmLbmrrXvvIkKCnwgQ1RBIHwg6K+d5pyv56S65L6LIHwg6Zi25q61IHwKfC0tLS0tfC0tLS0tLS0tLXwtLS0tLS18Cnwg5LqG6Kej5pu05aSaIHwgIkxpbmsncyBpbiBteSBiaW8sIGdvIGNoZWNrIGl0IG91dCIgfCBUT0ZV77yI56eN6I2J6aaW6YCJ77yJIHwKfCDlhY3otLnlsJ3or5UgfCAiR3JhYiBhIHNhbXBsZSBmaXJzdCIgfCBNT0ZVIHwKfCDnq4vljbPotK3kubAgfCAiVGFwIHRoZSBjYXJ0LCB0b2RheSBvbmx5IiB8IEJPRlUgfAp8IOWFs+azqCB8ICJGb2xsb3cgZm9yIHBhcnQgMiIgfCDnsonkuJ3msonmt4AgfAoKQ1RBIOS4ieS7tuWll++8iOe8uuS4gOmZjeaViO+8ie+8mioq6KGM5Yqo5oyH5LukICsg6aOO6Zmp6YCG6L2sICsg5L2N572u5oyH5byVKirjgILlhrfmtYHph4/li7/noazmjqggQnV5IG5vd+OAggoKIyMg5Y+X5LyX5oSP6K+G5bGC57qn77yI5Yaz5a6a5byA5Zy65YiH5YWl54K577yJCgpgYGAKVW5hd2FyZSDihpIg5Zy65pmvL+aDhee7quWIh+WFpe+8jOWLv+aPkOS6p+WTgQpQcm9ibGVtLWF3YXJlIOKGkiDpl67popjngrnlkI3lvIDlnLoKU29sdXRpb24tYXdhcmUg4oaSIOWvueavlC/mnLrliLblvIDlnLoKUHJvZHVjdC1hd2FyZSDihpIgb2ZmZXIv6KeB6K+B5byA5Zy6Ck1vc3QtYXdhcmUg4oaSIOebtOaOpSBwdXNoICsg57Sn6L+rCmBgYAoKIyMg6K+t6YCf5Z+65YeGCgroi7Hor63lj6Pmkq0g4omIIDIuNSDor40v56eS44CCMzBzIOinhumikeWPsOivjee6piA3MOKAkzgwIOivje+8jDYwcyDnuqYgMTQw4oCTMTYwIOivjeOAgumAkOauteagh+azqOWQjue0r+WKoOmhu+S4juaXtumVv+WQu+WQiO+8iMKxMTAl77yJ44CCCg==
+# 爆款拆解框架（Decompression Framework）
+
+> 把一条视频拆成可复用维度的标准。与 `sales-script-generator` 的 frameworks.md 兼容：那边是"维度→脚本"，这边是"视频→维度"。
+
+## 拆解七维度
+
+| 维度 | 看什么 |
+|------|--------|
+| 1. Hook | 前 3 秒的口播第一句 / 第一个画面 / 第一条字幕，是否同一类型，有无模式中断 |
+| 2. 痛点呈现 | 痛点是什么、如何放大到有画面感（agitate）、目标人群是谁 |
+| 3. 产品登场 | 第几秒出现、是否前置、登场方式（对比/测评/场景/开箱） |
+| 4. 演示手法 | before-after / 极限测试 / 场景代入 / 佩戴对比 / 数据可视化 |
+| 5. 信任状 | 评论墙 / 用户数 / 达人背书 / 认证 / 见证 |
+| 6. 节奏 | 镜头切换频率、卡点、信息密度、时长 |
+| 7. CTA | 类型（了解更多/立即购买/关注）、是否有风险逆转、位置指引 |
+
+## 8 类 Hook（前 3 秒）
+
+| 类型 | 示例 | 适用 |
+|------|------|------|
+| 问题点名 | "Tired of earbuds falling out mid-run?" | 痛点明确人群 |
+| 大胆断言 | "These are the most comfortable earbuds I've worn" | 情绪型种草 |
+| 社会证明 | "100k people switched to open-ear" | 信任驱动人群 |
+| 模式中断 | 意外画面/声音/倒放 | 信息流刷屏场景 |
+| 提问 | "Did you know in-ear can damage your hearing?" | 教育型内容 |
+| Before/After | 直接甩佩戴对比 | 视觉效果型产品 |
+| 权威 | "My audiologist friend told me..." | 专业定位 |
+| 紧迫 | "Last 24 hours" | 返场/促销/BOFU |
+
+Hook 三通道：**口播第一句 + 第一个画面 + 第一条字幕**必须服务于同一个 hook 类型，三者不打架。
+
+## 10 种战术（检查是否使用）
+
+社会证明 / 稀缺 / 紧迫 / 权威 / 情绪触发 / 问题→方案 / 风险逆转 / 锚定 / 互惠 / 具体化。
+
+## CTA 库（按漏斗阶段）
+
+| CTA | 话术示例 | 阶段 |
+|-----|---------|------|
+| 了解更多 | "Link's in my bio, go check it out" | TOFU（种草首选） |
+| 免费尝试 | "Grab a sample first" | MOFU |
+| 立即购买 | "Tap the cart, today only" | BOFU |
+| 关注 | "Follow for part 2" | 粉丝沉淀 |
+
+CTA 三件套（缺一降效）：**行动指令 + 风险逆转 + 位置指引**。冷流量勿硬推 Buy now。
+
+## 受众意识层级（决定开场切入点）
+
+```
+Unaware → 场景/情绪切入，勿提产品
+Problem-aware → 问题点名开场
+Solution-aware → 对比/机制开场
+Product-aware → offer/见证开场
+Most-aware → 直接 push + 紧迫
+```
+
+## 语速基准
+
+英语口播 ≈ 2.5 词/秒。30s 视频台词约 70–80 词，60s 约 140–160 词。逐段标注后累加须与时长吻合（±10%）。

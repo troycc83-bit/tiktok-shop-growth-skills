@@ -1,1 +1,34 @@
-IiIiSGVscGVycyBzaGFyZWQgYnkgdGhlIGVuZHBvaW50IG1vZHVsZXM6IHRoZSBwYWdlZC1saXN0IGVudmVsb3BlIGFuZCB0aGUKdXBzdHJlYW0gc3RhdHVzIGNvZGVzIHRoYXQgbWVhbiAiZG9lcyBub3QgZXhpc3QiLiIiIgpmcm9tIC4gaW1wb3J0IHBhcnNlcnMgYXMgUAoKIyBzdGF0dXNDb2RlIHZhbHVlcyBvZiB0aGUgd2ViYXBwIHNlcnZpY2VzIChwcm9iZWQgMjAyNi0xMC0wNSkKVVNFUl9OT1RfRk9VTkQgPSAoMTAyMDIsIDEwMjIxLCAxMDIyMykKVklERU9fTk9UX0ZPVU5EID0gKDEwMjA0LCAxMDIxNSwgMTAyMTYpCk1VU0lDX05PVF9GT1VORCA9ICgxMDIwMywgMTAyMTgpCkhBU0hUQUdfTk9UX0ZPVU5EID0gKDEwMjA1LCkKRUZGRUNUX05PVF9GT1VORCA9ICgxMDIwOCwpClBMQUNFX05PVF9GT1VORCA9ICgyMDUwMDEsKQpCQURfSUQgPSAoMTAwMDAxLCkgICAgICAgICAgICAjICJpbnZhbGlkIHBhcmFtcyI6IGFuIGlkIG9mIHRoZSByaWdodCBzaGFwZSB0aGF0IG5hbWVzIG5vdGhpbmcKCklOVkFMSURfQ1VSU09SID0gImludmFsaWQgY3Vyc29yOiBwYXNzIHRoZSBuZXh0X2N1cnNvciB2YWx1ZSBmcm9tIHRoZSBwcmV2aW91cyBwYWdlIHVuY2hhbmdlZCIKCgpkZWYgaGFzX21vcmUocGF5bG9hZCk6CiAgICByZXR1cm4gYm9vbChwYXlsb2FkLmdldCgiaGFzTW9yZSIpIG9yIHBheWxvYWQuZ2V0KCJoYXNfbW9yZSIpIG9yIHBheWxvYWQuZ2V0KCJoYXNNb3JlUHJldmlvdXMiKSkKCgpkZWYgbmV4dF9jdXJzb3IocGF5bG9hZCwga2V5PSJjdXJzb3IiKToKICAgICIiIlRoZSB1cHN0cmVhbSBjdXJzb3IgYXMgYW4gb3BhcXVlIHN0cmluZywgb3IgTm9uZSBvbiB0aGUgbGFzdCBwYWdlLiIiIgogICAgaWYgbm90IGhhc19tb3JlKHBheWxvYWQpOgogICAgICAgIHJldHVybiBOb25lCiAgICB2YWx1ZSA9IHBheWxvYWQuZ2V0KGtleSkKICAgIHJldHVybiBzdHIodmFsdWUpIGlmIHZhbHVlIG5vdCBpbiAoTm9uZSwgIiIpIGVsc2UgTm9uZQoKCmRlZiB2aWRlb19wYWdlKHBheWxvYWQsIGtleT0iaXRlbUxpc3QiLCAqKmhlYWQpOgogICAgIiIiey4uLmhlYWQsIHZpZGVvX2NvdW50LCB2aWRlb3MsIG5leHRfY3Vyc29yLCBoYXNfbW9yZX0gZm9yIG9uZSBwYWdlIG9mCiAgICBpdGVtU3RydWN0cy4iIiIKICAgIHZpZGVvcyA9IFAudmlkZW9zKHBheWxvYWQuZ2V0KGtleSkpCiAgICBjdXJzb3IgPSBuZXh0X2N1cnNvcihwYXlsb2FkKQogICAgcmV0dXJuIHsqKmhlYWQsICJ2aWRlb19jb3VudCI6IGxlbih2aWRlb3MpLCAidmlkZW9zIjogdmlkZW9zLCAibmV4dF9jdXJzb3IiOiBjdXJzb3IsICJoYXNfbW9yZSI6IGN1cnNvciBpcyBub3QgTm9uZX0K
+"""Helpers shared by the endpoint modules: the paged-list envelope and the
+upstream status codes that mean "does not exist"."""
+from . import parsers as P
+
+# statusCode values of the webapp services (probed 2026-10-05)
+USER_NOT_FOUND = (10202, 10221, 10223)
+VIDEO_NOT_FOUND = (10204, 10215, 10216)
+MUSIC_NOT_FOUND = (10203, 10218)
+HASHTAG_NOT_FOUND = (10205,)
+EFFECT_NOT_FOUND = (10208,)
+PLACE_NOT_FOUND = (205001,)
+BAD_ID = (100001,)            # "invalid params": an id of the right shape that names nothing
+
+INVALID_CURSOR = "invalid cursor: pass the next_cursor value from the previous page unchanged"
+
+
+def has_more(payload):
+    return bool(payload.get("hasMore") or payload.get("has_more") or payload.get("hasMorePrevious"))
+
+
+def next_cursor(payload, key="cursor"):
+    """The upstream cursor as an opaque string, or None on the last page."""
+    if not has_more(payload):
+        return None
+    value = payload.get(key)
+    return str(value) if value not in (None, "") else None
+
+
+def video_page(payload, key="itemList", **head):
+    """{...head, video_count, videos, next_cursor, has_more} for one page of
+    itemStructs."""
+    videos = P.videos(payload.get(key))
+    cursor = next_cursor(payload)
+    return {**head, "video_count": len(videos), "videos": videos, "next_cursor": cursor, "has_more": cursor is not None}

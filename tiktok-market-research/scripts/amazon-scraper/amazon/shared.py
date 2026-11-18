@@ -1,1 +1,50 @@
-IiIiSGVscGVycyBzaGFyZWQgYnkgdGhlIEFtYXpvbiBlbmRwb2ludCBtb2R1bGVzOiB0aGUgcGFnZWQtcmVzdWx0CmVudmVsb3BlIHJvdXRlX2dsdWUgbGlmdHMsIHRoZSBtYXJrZXRwbGFjZSBjb250ZXh0LCBhbmQgdGhlIGZhbi1vdXQKZXhlY3V0b3IgZm9yIHBlci1BU0lOIGh5ZHJhdGlvbi4iIiIKZnJvbSBjb25jdXJyZW50LmZ1dHVyZXMgaW1wb3J0IFRocmVhZFBvb2xFeGVjdXRvcgoKZnJvbSBhbWF6b24gaW1wb3J0IGZldGNoLCBzaXRlcwoKCmRlZiBjb250ZXh0KGNvdW50cnk9Tm9uZSwgbGFuZ3VhZ2U9Tm9uZSk6CiAgICAiIiIoc2l0ZSByb3csIHN0b3JlZnJvbnQgbG9jYWxlKSBmb3IgYSByZXF1ZXN0LiIiIgogICAgc2l0ZSA9IHNpdGVzLnNpdGUoY291bnRyeSkKICAgIGxvY2FsZSA9IE5vbmUKICAgIGlmIGxhbmd1YWdlOgogICAgICAgIGxhbmcsIF8sIHJlZ2lvbiA9IGxhbmd1YWdlLnJlcGxhY2UoIl8iLCAiLSIpLnBhcnRpdGlvbigiLSIpCiAgICAgICAgbG9jYWxlID0gZiJ7bGFuZy5sb3dlcigpfV97cmVnaW9uLnVwcGVyKCkgaWYgcmVnaW9uIGVsc2Ugc2l0ZVsnbGFuZ3VhZ2UnXS5zcGxpdCgnXycpWy0xXX0iCiAgICByZXR1cm4gc2l0ZSwgbG9jYWxlCgoKZGVmIHBhZ2luYXRpb24ocGFnZSwgcGVyX3BhZ2UsIHRvdGFsPU5vbmUsIGhhc19tb3JlPU5vbmUpOgogICAgaWYgdG90YWwgaXMgbm90IE5vbmUgYW5kIHBlcl9wYWdlOgogICAgICAgIHRvdGFsX3BhZ2VzID0gbWF4KCh0b3RhbCArIHBlcl9wYWdlIC0gMSkgLy8gcGVyX3BhZ2UsIDEgaWYgdG90YWwgZWxzZSAwKQogICAgZWxpZiBoYXNfbW9yZSBpcyBub3QgTm9uZToKICAgICAgICB0b3RhbF9wYWdlcyA9IHBhZ2UgKyAxIGlmIGhhc19tb3JlIGVsc2UgcGFnZQogICAgZWxzZToKICAgICAgICB0b3RhbF9wYWdlcyA9IHBhZ2UKICAgIHJldHVybiB7InBhZ2UiOiBwYWdlLCAiaXRlbXNfcGVyX3BhZ2UiOiBwZXJfcGFnZSwgInRvdGFsX3BhZ2VzIjogdG90YWxfcGFnZXMsICJ0b3RhbF9jb3VudCI6IHRvdGFsfQoKCmRlZiBwYWdlZF9yZXN1bHQoa2V5LCByZXN1bHRzLCBwYWdlLCBwZXJfcGFnZSwgdG90YWw9Tm9uZSwgaGFzX21vcmU9Tm9uZSwgKipleHRyYSk6CiAgICAiIiJFbmRwb2ludCByZXN1bHQgd2l0aCBhIGBwYWdpbmF0aW9uYCBibG9jayByb3V0ZV9nbHVlIGxpZnRzIGludG8gdGhlCiAgICBmbGF0IGdhdGV3YXkgc2hhcGUgKGNvdW50IC8gcGVyX3BhZ2UgLyBjdXJyZW50X3BhZ2UgLyB0b3RhbF9wYWdlcyAvCiAgICBuZXh0IC8gcHJldmlvdXMpLiIiIgogICAgaWYgaGFzX21vcmUgaXMgTm9uZSBhbmQgdG90YWwgaXMgTm9uZToKICAgICAgICBoYXNfbW9yZSA9IGxlbihyZXN1bHRzKSA+PSBwZXJfcGFnZQogICAgb3V0ID0gZGljdChleHRyYSkKICAgIG91dFtrZXldID0gcmVzdWx0cwogICAgb3V0WyJwYWdpbmF0aW9uIl0gPSBwYWdpbmF0aW9uKHBhZ2UsIHBlcl9wYWdlLCB0b3RhbCwgaGFzX21vcmUpCiAgICByZXR1cm4gb3V0CgoKZGVmIGZhbl9vdXQoZm4sIGl0ZW1zLCB3b3JrZXJzPU5vbmUpOgogICAgIiIiUnVuIGZuKGl0ZW0pIGZvciBldmVyeSBpdGVtIG9uIGEgc21hbGwgdGhyZWFkIHBvb2wsIGluIG9yZGVyOyBhCiAgICBmYWlsZWQgaXRlbSB5aWVsZHMgaXRzIGV4Y2VwdGlvbiBvYmplY3QgaW5zdGVhZCBvZiBhIHJlc3VsdC4iIiIKICAgIGRlZiBzYWZlKGl0ZW0pOgogICAgICAgIHRyeToKICAgICAgICAgICAgcmV0dXJuIGZuKGl0ZW0pCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOiAgIyByZXBvcnRlZCBwZXIgaXRlbSBieSB0aGUgY2FsbGVyCiAgICAgICAgICAgIHJldHVybiBlCiAgICB3aXRoIFRocmVhZFBvb2xFeGVjdXRvcihtYXhfd29ya2Vycz1taW4od29ya2VycyBvciBmZXRjaC5GQU5PVVRfV09SS0VSUywgbWF4KGxlbihpdGVtcyksIDEpKSkgYXMgcG9vbDoKICAgICAgICByZXR1cm4gbGlzdChwb29sLm1hcChzYWZlLCBpdGVtcykpCg==
+"""Helpers shared by the Amazon endpoint modules: the paged-result
+envelope route_glue lifts, the marketplace context, and the fan-out
+executor for per-ASIN hydration."""
+from concurrent.futures import ThreadPoolExecutor
+
+from amazon import fetch, sites
+
+
+def context(country=None, language=None):
+    """(site row, storefront locale) for a request."""
+    site = sites.site(country)
+    locale = None
+    if language:
+        lang, _, region = language.replace("_", "-").partition("-")
+        locale = f"{lang.lower()}_{region.upper() if region else site['language'].split('_')[-1]}"
+    return site, locale
+
+
+def pagination(page, per_page, total=None, has_more=None):
+    if total is not None and per_page:
+        total_pages = max((total + per_page - 1) // per_page, 1 if total else 0)
+    elif has_more is not None:
+        total_pages = page + 1 if has_more else page
+    else:
+        total_pages = page
+    return {"page": page, "items_per_page": per_page, "total_pages": total_pages, "total_count": total}
+
+
+def paged_result(key, results, page, per_page, total=None, has_more=None, **extra):
+    """Endpoint result with a `pagination` block route_glue lifts into the
+    flat gateway shape (count / per_page / current_page / total_pages /
+    next / previous)."""
+    if has_more is None and total is None:
+        has_more = len(results) >= per_page
+    out = dict(extra)
+    out[key] = results
+    out["pagination"] = pagination(page, per_page, total, has_more)
+    return out
+
+
+def fan_out(fn, items, workers=None):
+    """Run fn(item) for every item on a small thread pool, in order; a
+    failed item yields its exception object instead of a result."""
+    def safe(item):
+        try:
+            return fn(item)
+        except Exception as e:  # reported per item by the caller
+            return e
+    with ThreadPoolExecutor(max_workers=min(workers or fetch.FANOUT_WORKERS, max(len(items), 1))) as pool:
+        return list(pool.map(safe, items))

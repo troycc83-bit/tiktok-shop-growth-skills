@@ -1,1 +1,114 @@
-IiIiTGl2ZSBlbmRwb2ludCBzbW9rZSB0ZXN0czogb25lIGNhbGwgcGVyIC9hbWF6b24vKiByb3V0ZSBhZ2FpbnN0IGEgcnVubmluZwpzZXJ2aWNlLCB3aXRoIGV4YW1wbGUgdmFsdWVzIHByb3ZlbiB0byByZXR1cm4gZGF0YSAoMjAyNi0wOS0yMykuIFRoZQpsaXN0aW5nIHRvb2xpbmcgcmVhZHMgZWFjaCByb3V0ZSdzIEZJUlNUIGNhbGwgZnJvbSB0aGlzIGZpbGUncyBBU1QgYXMgaXRzCndvcmtpbmcgZXhhbXBsZSwgc28gdGhlIHZhbHVlcyBzdGF5IGxpdGVyYWxzLgoKU2tpcHBlZCB1bmxlc3MgQU1BWk9OX0JBU0UgcG9pbnRzIGF0IGEgcnVubmluZyBzZXJ2aWNlOgoKICAgIE9OTFlfU0NSQVBFUj1hbWF6b24gcHl0aG9uIHJ1bi5weSAgICAgICAgICAgICMgb3IgYW55IGJvdHRsZSBydW5uZXIKICAgIEFNQVpPTl9CQVNFPWh0dHA6Ly8xMjcuMC4wLjE6NjAwMiBweXRob24gLW0gcHl0ZXN0IGFtYXpvbi90ZXN0X2VuZHBvaW50cy5weSAtcQoiIiIKaW1wb3J0IG9zCgppbXBvcnQgcHl0ZXN0CgpCQVNFID0gb3MuZW52aXJvbi5nZXQoIkFNQVpPTl9CQVNFIiwgIiIpLnJzdHJpcCgiLyIpCgpweXRlc3RtYXJrID0gcHl0ZXN0Lm1hcmsuc2tpcGlmKG5vdCBCQVNFLCByZWFzb249InNldCBBTUFaT05fQkFTRSB0byBydW4gbGl2ZSBlbmRwb2ludCB0ZXN0cyIpCgoKZGVmIGNhbGwocGF0aCwgKipwYXJhbXMpOgogICAgZnJvbSBjdXJsX2NmZmkgaW1wb3J0IHJlcXVlc3RzCiAgICByZXNwID0gcmVxdWVzdHMuZ2V0KEJBU0UgKyBwYXRoLCBwYXJhbXM9cGFyYW1zLCB0aW1lb3V0PTMwMCkKICAgIGFzc2VydCByZXNwLnN0YXR1c19jb2RlID09IDIwMCwgZiJ7cGF0aH0ge3BhcmFtc30gLT4ge3Jlc3Auc3RhdHVzX2NvZGV9IHtyZXNwLnRleHRbOjMwMF19IgogICAgYm9keSA9IHJlc3AuanNvbigpCiAgICBhc3NlcnQgYm9keSwgZiJ7cGF0aH0gcmV0dXJuZWQgYW4gZW1wdHkgYm9keSIKICAgIHJldHVybiBib2R5CgoKZGVmIHN0YXR1cyhwYXRoLCAqKnBhcmFtcyk6CiAgICBmcm9tIGN1cmxfY2ZmaSBpbXBvcnQgcmVxdWVzdHMKICAgIHJldHVybiByZXF1ZXN0cy5nZXQoQkFTRSArIHBhdGgsIHBhcmFtcz1wYXJhbXMsIHRpbWVvdXQ9MzAwKS5zdGF0dXNfY29kZQoKCmRlZiB0ZXN0X3NlYXJjaCgpOgogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vc2VhcmNoIiwgcXVlcnk9InJhc3BiZXJyeSBwaSIpCiAgICBhc3NlcnQgYm9keVsicmVzdWx0cyJdIGFuZCBib2R5WyJjb3VudCJdID4gMTAwMCBhbmQgYm9keVsibmV4dCJdIGFuZCBib2R5WyJyZXN1bHRzIl1bMF1bImFzaW4iXQogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vc2VhcmNoIiwgcXVlcnk9ImxhcHRvcCIsIHBhZ2U9IjIiLCBzb3J0PSJwcmljZV9sb3dfdG9faGlnaCIsIG1pbl9wcmljZT0iMzAwIiwgbWF4X3ByaWNlPSI4MDAiLCBicmFuZD0iTGVub3ZvIikKICAgIHByaWNlcyA9IFtyWyJwcmljZSJdWyJhbW91bnQiXSBmb3IgciBpbiBib2R5WyJyZXN1bHRzIl0gaWYgclsicHJpY2UiXSBhbmQgbm90IHJbImlzX3Nwb25zb3JlZCJdXQogICAgYXNzZXJ0IHByaWNlcyBhbmQgcHJpY2VzWzBdIDw9IHByaWNlc1stMV0gYW5kIHN1bSgzMDAgPD0gcCA8PSA4MDAgZm9yIHAgaW4gcHJpY2VzKSA+PSBsZW4ocHJpY2VzKSAqIDAuOAogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vc2VhcmNoIiwgcXVlcnk9ImNvZmZlZSBtYWtlciIsIGlzX3ByaW1lPSJ0cnVlIiwgZm91cl9zdGFyc19hbmRfdXA9InRydWUiKQogICAgYXNzZXJ0IGJvZHlbImFwcGxpZWRfcmVmaW5lbWVudHMiXSBhbmQgYm9keVsicmVzdWx0cyJdCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9zZWFyY2giLCBxdWVyeT0iaHR0cHM6Ly93d3cuYW1hem9uLmRlL3M/az1sYXB0b3AiKQogICAgYXNzZXJ0IGJvZHlbImNvdW50cnkiXSA9PSAiREUiIGFuZCBib2R5WyJyZXN1bHRzIl1bMF1bInByaWNlIl1bImN1cnJlbmN5Il0gPT0gIkVVUiIKICAgIGFzc2VydCBjYWxsKCIvYW1hem9uL3NlYXJjaC9hdXRvY29tcGxldGUiLCBxdWVyeT0icmFzcGJlcnJ5IilbInN1Z2dlc3Rpb25zIl1bMF1bInZhbHVlIl0uc3RhcnRzd2l0aCgicmFzcGJlcnJ5IikKICAgIGFzc2VydCBhbnkoY1siaWQiXSA9PSAiZWxlY3Ryb25pY3MiIGZvciBjIGluIGNhbGwoIi9hbWF6b24vY2F0ZWdvcmllcyIpWyJjYXRlZ29yaWVzIl0pCiAgICB0cmVlID0gY2FsbCgiL2FtYXpvbi9jYXRlZ29yaWVzL3RyZWUiLCBjYXRlZ29yeT0iMTcyMjgyIikKICAgIGFzc2VydCB0cmVlWyJuYW1lIl0gPT0gIkVsZWN0cm9uaWNzIiBhbmQgdHJlZVsiY2hpbGRyZW4iXVswXVsibm9kZV9pZCJdCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9jYXRlZ29yaWVzL3Byb2R1Y3RzIiwgY2F0ZWdvcnk9IjU0MTk2NiIsIHNvcnQ9ImJlc3Rfc2VsbGVycyIpCiAgICBhc3NlcnQgYm9keVsicmVzdWx0cyJdIGFuZCBib2R5WyJub2RlX2lkIl0gPT0gIjU0MTk2NiIKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL3Byb2R1Y3RzL2xvb2t1cCIsIGlkZW50aWZpZXI9Ijk3ODA3MzUyMTEyOTIiKQogICAgYXNzZXJ0IGJvZHlbInJlc3VsdHMiXSBhbmQgIkF0b21pYyBIYWJpdHMiIGluIGJvZHlbInJlc3VsdHMiXVswXVsidGl0bGUiXQoKCmRlZiB0ZXN0X3Byb2R1Y3RzKCk6CiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9wcm9kdWN0cy9kZXRhaWxzIiwgcHJvZHVjdD0iQjA3UVNGSFQyNyIpCiAgICBhc3NlcnQgIlBBVk9JIiBpbiBib2R5WyJ0aXRsZSJdIGFuZCBib2R5WyJwcmljZSJdWyJjdXJyZW5jeSJdID09ICJVU0QiIGFuZCBib2R5WyJyYXRpbmciXVsiY291bnQiXSA+IDEwMDAwCiAgICBhc3NlcnQgYm9keVsiaW1hZ2VzIl0gYW5kIGJvZHlbImJ1bGxldHMiXSBhbmQgYm9keVsidmFyaWF0aW9ucyJdWyJwcm9kdWN0cyJdCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9wcm9kdWN0cy9kZXRhaWxzIiwgcHJvZHVjdD0iQjAwOTM5STdFSyIpCiAgICBhc3NlcnQgYm9keVsiYmVzdF9zZWxsZXJzX3JhbmsiXQogICAgYXNzZXJ0IGJvZHlbImJ1eWJveCJdWyJzZWxsZXIiXVsibmFtZSJdIGFuZCBib2R5WyJkZWxpdmVyeSJdWyJsb2NhdGlvbiJdLnN0YXJ0c3dpdGgoIk5ldyBZb3JrIikKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL3Byb2R1Y3RzL2RldGFpbHMiLCBwcm9kdWN0PSJodHRwczovL3d3dy5hbWF6b24uZGUvZHAvQjBEUzJMQjJEVCIpCiAgICBhc3NlcnQgYm9keVsiY291bnRyeSJdID09ICJERSIgYW5kIGJvZHlbInByaWNlIl1bImN1cnJlbmN5Il0gPT0gIkVVUiIKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL3Byb2R1Y3RzL2RldGFpbHMiLCBwcm9kdWN0PSJCMDk2WTI2NE1NIiwgY291bnRyeT0iSlAiKQogICAgYXNzZXJ0IGJvZHlbInByaWNlIl1bImN1cnJlbmN5Il0gPT0gIkpQWSIKICAgIGFzc2VydCBzdGF0dXMoIi9hbWF6b24vcHJvZHVjdHMvZGV0YWlscyIsIHByb2R1Y3Q9IkIwQzFIMjZDNDYiKSA9PSA0MDQKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL3Byb2R1Y3RzL29mZmVycyIsIHByb2R1Y3Q9IkIwN1FTRkhUMjciKQogICAgYXNzZXJ0IGJvZHlbIm9mZmVycyJdIGFuZCBib2R5WyJvZmZlcnMiXVswXVsiaXNfcGlubmVkIl0gYW5kIGJvZHlbIm9mZmVycyJdWzBdWyJwcmljZSJdWyJhbW91bnQiXQogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vcHJvZHVjdHMvdmFyaWF0aW9ucyIsIHByb2R1Y3Q9IkIwN1FTRkhUMjciKQogICAgYXNzZXJ0IGJvZHlbImNvdW50Il0gPj0gMiBhbmQgYm9keVsiZGltZW5zaW9ucyJdCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9wcm9kdWN0cy9yZXZpZXdzIiwgcHJvZHVjdD0iQjA3UVNGSFQyNyIpCiAgICBhc3NlcnQgYm9keVsicmF0aW5nIl1bImhpc3RvZ3JhbSJdIGFuZCBib2R5WyJjdXN0b21lcnNfc2F5Il1bInN1bW1hcnkiXQogICAgYXNzZXJ0IGJvZHlbInJldmlld3MiXSBvciBib2R5WyJpc19wYXJ0aWFsIl0KICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL3Byb2R1Y3RzL2J1bGsiLCBwcm9kdWN0cz0iQjA3UVNGSFQyNyxCMENSU05DSjZZLDA3MzUyMTEyOTkiKQogICAgYXNzZXJ0IGxlbihib2R5WyJwcm9kdWN0cyJdKSA9PSAzIGFuZCBhbGwocC5nZXQoInRpdGxlIikgZm9yIHAgaW4gYm9keVsicHJvZHVjdHMiXSkKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL3NjcmFwZSIsIHVybD0iaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9kcC9CMENSU05DSjZZIikKICAgIGFzc2VydCBib2R5WyJwYWdlX3R5cGUiXSA9PSAicHJvZHVjdCIgYW5kIGJvZHlbInRpdGxlIl0KICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL3NjcmFwZSIsIHVybD0iaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9ncC9iZXN0c2VsbGVycy9zb2Z0d2FyZS8iKQogICAgYXNzZXJ0IGJvZHlbInBhZ2VfdHlwZSJdID09ICJiZXN0c2VsbGVycyIgYW5kIGJvZHlbIml0ZW1zIl0KCgpkZWYgdGVzdF9yYW5raW5nc19hbmRfZGVhbHMoKToKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL2Jlc3Qtc2VsbGVycyIsIGNhdGVnb3J5PSJlbGVjdHJvbmljcyIpCiAgICBhc3NlcnQgbGVuKGJvZHlbIml0ZW1zIl0pID09IDUwIGFuZCBib2R5WyJpdGVtcyJdWzBdWyJyYW5rIl0gPT0gMSBhbmQgYm9keVsiaXRlbXMiXVstMV1bInJhbmsiXSA9PSA1MCBhbmQgYm9keVsibmV4dCJdCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9iZXN0LXNlbGxlcnMiLCBjYXRlZ29yeT0iZWxlY3Ryb25pY3MiLCBwYWdlPSIyIikKICAgIGFzc2VydCBib2R5WyJpdGVtcyJdWzBdWyJyYW5rIl0gPT0gNTEKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL2Jlc3Qtc2VsbGVycyIsIGNhdGVnb3J5PSJlbGVjdHJvbmljcyIsIGxpc3RfdHlwZT0ibmV3X3JlbGVhc2VzIikKICAgIGFzc2VydCBib2R5WyJpdGVtcyJdIGFuZCBib2R5WyJsaXN0X3R5cGUiXSA9PSAibmV3X3JlbGVhc2VzIgogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vYmVzdC1zZWxsZXJzIiwgY2F0ZWdvcnk9ImNlLWRlIiwgY291bnRyeT0iREUiKQogICAgYXNzZXJ0IGJvZHlbIml0ZW1zIl1bMF1bInByaWNlIl1bImN1cnJlbmN5Il0gPT0gIkVVUiIKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL2Jlc3Qtc2VsbGVycy9jYXRlZ29yaWVzIikKICAgIGFzc2VydCBib2R5WyJjb3VudCJdID4gMzAgYW5kIGFueShjWyJwYXRoIl0gPT0gImVsZWN0cm9uaWNzIiBmb3IgYyBpbiBib2R5WyJjYXRlZ29yaWVzIl0pCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9iZXN0LXNlbGxlcnMvY2F0ZWdvcmllcyIsIGNhdGVnb3J5PSJlbGVjdHJvbmljcyIpCiAgICBhc3NlcnQgYW55KGNbInBhdGgiXS5zdGFydHN3aXRoKCJlbGVjdHJvbmljcy8iKSBmb3IgYyBpbiBib2R5WyJjYXRlZ29yaWVzIl0gaWYgY1sicGF0aCJdKQogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vZGVhbHMiKQogICAgYXNzZXJ0IGJvZHlbImRlYWxzIl0gYW5kIGJvZHlbImNvbGxlY3Rpb25zIl0gYW5kIGJvZHlbImRlYWxzIl1bMF1bImRlYWwiXSBhbmQgYm9keVsiZGVhbHMiXVswXVsiZGVhbCJdWyJwcmljZSJdCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9kZWFscyIsIG1pbl9kaXNjb3VudD0iNTAiLCBzb3J0PSJkaXNjb3VudCIpCiAgICBhc3NlcnQgYWxsKGRbImRlYWwiXVsic2F2aW5nc19wZXJjZW50Il0gPj0gNTAgZm9yIGQgaW4gYm9keVsiZGVhbHMiXSBpZiBkWyJkZWFsIl0gYW5kIGRbImRlYWwiXS5nZXQoInNhdmluZ3NfcGVyY2VudCIpKQogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vZGVhbHMiLCBjb3VudHJ5PSJERSIsIGluY2x1ZGVfcHJpY2VzPSJmYWxzZSIsIHBhZ2U9IjIiKQogICAgYXNzZXJ0IGJvZHlbImRlYWxzIl0gYW5kIGJvZHlbImN1cnJlbmN5Il0gPT0gIkVVUiIKCgpkZWYgdGVzdF9zZWxsZXJzX2FuZF9pbmZsdWVuY2VycygpOgogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vc2VsbGVycy9kZXRhaWxzIiwgc2VsbGVyPSJBMUgxRVU4MTc4UVRSSCIpCiAgICBhc3NlcnQgYm9keVsibmFtZSJdID09ICJQQVZPSSBKZXdlbHJ5IiBhbmQgYm9keVsicmF0aW5ncyJdWyJsaWZldGltZSJdWyJjb3VudCJdID4gMTAwCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9zZWxsZXJzL2ZlZWRiYWNrIiwgc2VsbGVyPSJBMUgxRVU4MTc4UVRSSCIpCiAgICBhc3NlcnQgYm9keVsiZmVlZGJhY2siXSBhbmQgYm9keVsiZmVlZGJhY2siXVswXVsicmF0aW5nIl0gYW5kIGJvZHlbImZlZWRiYWNrIl1bMF1bImRhdGUiXQogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vc2VsbGVycy9wcm9kdWN0cyIsIHNlbGxlcj0iQTFIMUVVODE3OFFUUkgiKQogICAgYXNzZXJ0IGJvZHlbInJlc3VsdHMiXSBhbmQgYm9keVsic2VsbGVyX2lkIl0gPT0gIkExSDFFVTgxNzhRVFJIIgogICAgYm9keSA9IGNhbGwoIi9hbWF6b24vaW5mbHVlbmNlcnMvZGV0YWlscyIsIGluZmx1ZW5jZXI9InRhc3RlbWFkZSIpCiAgICBhc3NlcnQgYm9keVsibmFtZSJdID09ICJUYXN0ZW1hZGUiIGFuZCBib2R5WyJpc190b3BfY3JlYXRvciJdIGFuZCBib2R5WyJwb3N0cyJdCiAgICBib2R5ID0gY2FsbCgiL2FtYXpvbi9pbmZsdWVuY2Vycy9wb3N0cyIsIGluZmx1ZW5jZXI9InRhc3RlbWFkZSIsIHBvc3RfdHlwZT0ibGlzdCIpCiAgICBhc3NlcnQgYm9keVsicG9zdHMiXSBhbmQgYWxsKHBbInR5cGUiXSA9PSAibGlzdCIgZm9yIHAgaW4gYm9keVsicG9zdHMiXSkKICAgIGJvZHkgPSBjYWxsKCIvYW1hem9uL2luZmx1ZW5jZXJzL3Bvc3RzL3Byb2R1Y3RzIiwgcG9zdD0iaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9zaG9wL3Rhc3RlbWFkZS9saXN0LzFOODRQUTNDSTROVzAiKQogICAgYXNzZXJ0IGJvZHlbInByb2R1Y3RzIl0gYW5kIGJvZHlbInByb2R1Y3RzIl1bMF1bImFzaW4iXSBhbmQgYm9keVsidGl0bGUiXQo=
+"""Live endpoint smoke tests: one call per /amazon/* route against a running
+service, with example values proven to return data (2026-09-23). The
+listing tooling reads each route's FIRST call from this file's AST as its
+working example, so the values stay literals.
+
+Skipped unless AMAZON_BASE points at a running service:
+
+    ONLY_SCRAPER=amazon python run.py            # or any bottle runner
+    AMAZON_BASE=http://127.0.0.1:6002 python -m pytest amazon/test_endpoints.py -q
+"""
+import os
+
+import pytest
+
+BASE = os.environ.get("AMAZON_BASE", "").rstrip("/")
+
+pytestmark = pytest.mark.skipif(not BASE, reason="set AMAZON_BASE to run live endpoint tests")
+
+
+def call(path, **params):
+    from curl_cffi import requests
+    resp = requests.get(BASE + path, params=params, timeout=300)
+    assert resp.status_code == 200, f"{path} {params} -> {resp.status_code} {resp.text[:300]}"
+    body = resp.json()
+    assert body, f"{path} returned an empty body"
+    return body
+
+
+def status(path, **params):
+    from curl_cffi import requests
+    return requests.get(BASE + path, params=params, timeout=300).status_code
+
+
+def test_search():
+    body = call("/amazon/search", query="raspberry pi")
+    assert body["results"] and body["count"] > 1000 and body["next"] and body["results"][0]["asin"]
+    body = call("/amazon/search", query="laptop", page="2", sort="price_low_to_high", min_price="300", max_price="800", brand="Lenovo")
+    prices = [r["price"]["amount"] for r in body["results"] if r["price"] and not r["is_sponsored"]]
+    assert prices and prices[0] <= prices[-1] and sum(300 <= p <= 800 for p in prices) >= len(prices) * 0.8
+    body = call("/amazon/search", query="coffee maker", is_prime="true", four_stars_and_up="true")
+    assert body["applied_refinements"] and body["results"]
+    body = call("/amazon/search", query="https://www.amazon.de/s?k=laptop")
+    assert body["country"] == "DE" and body["results"][0]["price"]["currency"] == "EUR"
+    assert call("/amazon/search/autocomplete", query="raspberry")["suggestions"][0]["value"].startswith("raspberry")
+    assert any(c["id"] == "electronics" for c in call("/amazon/categories")["categories"])
+    tree = call("/amazon/categories/tree", category="172282")
+    assert tree["name"] == "Electronics" and tree["children"][0]["node_id"]
+    body = call("/amazon/categories/products", category="541966", sort="best_sellers")
+    assert body["results"] and body["node_id"] == "541966"
+    body = call("/amazon/products/lookup", identifier="9780735211292")
+    assert body["results"] and "Atomic Habits" in body["results"][0]["title"]
+
+
+def test_products():
+    body = call("/amazon/products/details", product="B07QSFHT27")
+    assert "PAVOI" in body["title"] and body["price"]["currency"] == "USD" and body["rating"]["count"] > 10000
+    assert body["images"] and body["bullets"] and body["variations"]["products"]
+    body = call("/amazon/products/details", product="B00939I7EK")
+    assert body["best_sellers_rank"]
+    assert body["buybox"]["seller"]["name"] and body["delivery"]["location"].startswith("New York")
+    body = call("/amazon/products/details", product="https://www.amazon.de/dp/B0DS2LB2DT")
+    assert body["country"] == "DE" and body["price"]["currency"] == "EUR"
+    body = call("/amazon/products/details", product="B096Y264MM", country="JP")
+    assert body["price"]["currency"] == "JPY"
+    assert status("/amazon/products/details", product="B0C1H26C46") == 404
+    body = call("/amazon/products/offers", product="B07QSFHT27")
+    assert body["offers"] and body["offers"][0]["is_pinned"] and body["offers"][0]["price"]["amount"]
+    body = call("/amazon/products/variations", product="B07QSFHT27")
+    assert body["count"] >= 2 and body["dimensions"]
+    body = call("/amazon/products/reviews", product="B07QSFHT27")
+    assert body["rating"]["histogram"] and body["customers_say"]["summary"]
+    assert body["reviews"] or body["is_partial"]
+    body = call("/amazon/products/bulk", products="B07QSFHT27,B0CRSNCJ6Y,0735211299")
+    assert len(body["products"]) == 3 and all(p.get("title") for p in body["products"])
+    body = call("/amazon/scrape", url="https://www.amazon.com/dp/B0CRSNCJ6Y")
+    assert body["page_type"] == "product" and body["title"]
+    body = call("/amazon/scrape", url="https://www.amazon.com/gp/bestsellers/software/")
+    assert body["page_type"] == "bestsellers" and body["items"]
+
+
+def test_rankings_and_deals():
+    body = call("/amazon/best-sellers", category="electronics")
+    assert len(body["items"]) == 50 and body["items"][0]["rank"] == 1 and body["items"][-1]["rank"] == 50 and body["next"]
+    body = call("/amazon/best-sellers", category="electronics", page="2")
+    assert body["items"][0]["rank"] == 51
+    body = call("/amazon/best-sellers", category="electronics", list_type="new_releases")
+    assert body["items"] and body["list_type"] == "new_releases"
+    body = call("/amazon/best-sellers", category="ce-de", country="DE")
+    assert body["items"][0]["price"]["currency"] == "EUR"
+    body = call("/amazon/best-sellers/categories")
+    assert body["count"] > 30 and any(c["path"] == "electronics" for c in body["categories"])
+    body = call("/amazon/best-sellers/categories", category="electronics")
+    assert any(c["path"].startswith("electronics/") for c in body["categories"] if c["path"])
+    body = call("/amazon/deals")
+    assert body["deals"] and body["collections"] and body["deals"][0]["deal"] and body["deals"][0]["deal"]["price"]
+    body = call("/amazon/deals", min_discount="50", sort="discount")
+    assert all(d["deal"]["savings_percent"] >= 50 for d in body["deals"] if d["deal"] and d["deal"].get("savings_percent"))
+    body = call("/amazon/deals", country="DE", include_prices="false", page="2")
+    assert body["deals"] and body["currency"] == "EUR"
+
+
+def test_sellers_and_influencers():
+    body = call("/amazon/sellers/details", seller="A1H1EU8178QTRH")
+    assert body["name"] == "PAVOI Jewelry" and body["ratings"]["lifetime"]["count"] > 100
+    body = call("/amazon/sellers/feedback", seller="A1H1EU8178QTRH")
+    assert body["feedback"] and body["feedback"][0]["rating"] and body["feedback"][0]["date"]
+    body = call("/amazon/sellers/products", seller="A1H1EU8178QTRH")
+    assert body["results"] and body["seller_id"] == "A1H1EU8178QTRH"
+    body = call("/amazon/influencers/details", influencer="tastemade")
+    assert body["name"] == "Tastemade" and body["is_top_creator"] and body["posts"]
+    body = call("/amazon/influencers/posts", influencer="tastemade", post_type="list")
+    assert body["posts"] and all(p["type"] == "list" for p in body["posts"])
+    body = call("/amazon/influencers/posts/products", post="https://www.amazon.com/shop/tastemade/list/1N84PQ3CI4NW0")
+    assert body["products"] and body["products"][0]["asin"] and body["title"]

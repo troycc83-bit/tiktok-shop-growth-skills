@@ -1,1 +1,6 @@
-Ym90dGxlCmNoZXJvb3QKY3VybF9jZmZpCmJlYXV0aWZ1bHNvdXA0Cmx4bWwKbWFyc2htYWxsb3cK
+bottle
+cheroot
+curl_cffi
+beautifulsoup4
+lxml
+marshmallow

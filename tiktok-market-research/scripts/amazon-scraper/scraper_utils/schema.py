@@ -1,1 +1,11 @@
-IiIiU2NoZW1hIGhlbHBlcnMgdGhlIHNpdGUgc2NoZW1hcyBzaGFyZS4gTmVlZHMgbWFyc2htYWxsb3csIGxpa2UgdGhlIHNjaGVtYXMuIiIiCmZyb20gbWFyc2htYWxsb3cgaW1wb3J0IFZhbGlkYXRpb25FcnJvcgoKCmRlZiBtYXhfbGVuZ3RoKG4pOgogICAgIiIidmFsaWRhdGUuTGVuZ3RoKG1heD1uKSB0aGF0IHRvbGVyYXRlcyB0aGUgTm9uZSBTdHJpcHBlZFN0cmluZyByZXR1cm5zCiAgICBmb3IgYW4gZW1wdHkgdmFsdWUgKG1hcnNobWFsbG93IHJ1bnMgdmFsaWRhdG9ycyBvbiBpdDsgbGVuKE5vbmUpIGlzIGEgNTAwKS4iIiIKICAgIGRlZiBjaGVjayh2YWx1ZSk6CiAgICAgICAgaWYgdmFsdWUgaXMgbm90IE5vbmUgYW5kIGxlbih2YWx1ZSkgPiBuOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoZiJMb25nZXIgdGhhbiBtYXhpbXVtIGxlbmd0aCB7bn0uIikKICAgIHJldHVybiBjaGVjawo=
+"""Schema helpers the site schemas share. Needs marshmallow, like the schemas."""
+from marshmallow import ValidationError
+
+
+def max_length(n):
+    """validate.Length(max=n) that tolerates the None StrippedString returns
+    for an empty value (marshmallow runs validators on it; len(None) is a 500)."""
+    def check(value):
+        if value is not None and len(value) > n:
+            raise ValidationError(f"Longer than maximum length {n}.")
+    return check

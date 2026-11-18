@@ -1,1 +1,47 @@
-ewogInNoYXJlTWV0YSI6IHsKICAiZGVzYyI6ICI3LjJtIHZpZGVvcyAtIFdhdGNoIGF3ZXNvbWUgc2hvcnQgdmlkZW9zIGNyZWF0ZWQgd2l0aCBNYWtldXAgTHVzaCIsCiAgInRpdGxlIjogIk1ha2V1cCBMdXNoIG9uIFRpa1RvayIKIH0sCiAic3RhdHVzQ29kZSI6IDAsCiAic3RhdHVzX2NvZGUiOiAwLAogInN0YXR1c19tc2ciOiAiIiwKICJzdGlja2VySW5mbyI6IHsKICAiYXV0aG9yIjogewogICAiYXZhdGFyTGFyZ2VyIjogImh0dHBzOi8vcDE2LWNvbW1vbi1zaWduLnRpa3Rva2Nkbi11cy5jb20vdG9zLXVzZWFzdDJhLWF2dC0wMDY4LWV1dHRwLzczMTQzMTI2MjgxMjAwNTk5Mzd+dHBsdi10aWt0b2t4LWNyb3BjZW50ZXI6MTA4MDoxMDgwLmpwZWc/ZHI9OTY0MCZyZWZyZXNoX3Rva2VuPTcxMjQzNmQ2JngtZXhwaXJlcz0xNzkxMzc4MDAwJngtc2lnbmF0dXJlPXlpSlZOWjB3OE5EMk5BRTZhdlIlMkJwYVM2Zm1FJTNEJnQ9NGQ1YjA0NzQmcHM9MTM3NDA2MTAmc2hwPWE1ZDQ4MDc4JnNoY3A9YjU5ZDZiNTUmaWRjPXVzZWFzdDgiLAogICAiYXZhdGFyTWVkaXVtIjogImh0dHBzOi8vcDE2LWNvbW1vbi1zaWduLnRpa3Rva2Nkbi11cy5jb20vdG9zLXVzZWFzdDJhLWF2dC0wMDY4LWV1dHRwLzczMTQzMTI2MjgxMjAwNTk5Mzd+dHBsdi10aWt0b2t4LWNyb3BjZW50ZXI6NzIwOjcyMC5qcGVnP2RyPTk2NDAmcmVmcmVzaF90b2tlbj0zNGI0OGQ2MiZ4LWV4cGlyZXM9MTc5MTM3ODAwMCZ4LXNpZ25hdHVyZT1QUXVBS3RyR0JkajVNdDZOMElET0U1WUpCRmclM0QmdD00ZDViMDQ3NCZwcz0xMzc0MDYxMCZzaHA9YTVkNDgwNzgmc2hjcD1iNTlkNmI1NSZpZGM9dXNlYXN0OCIsCiAgICJhdmF0YXJUaHVtYiI6ICJodHRwczovL3AxNi1jb21tb24tc2lnbi50aWt0b2tjZG4tdXMuY29tL3Rvcy11c2Vhc3QyYS1hdnQtMDA2OC1ldXR0cC83MzE0MzEyNjI4MTIwMDU5OTM3fnRwbHYtdGlrdG9reC1jcm9wY2VudGVyOjEwMDoxMDAuanBlZz9kcj05NjQwJnJlZnJlc2hfdG9rZW49ZTAzOGZiY2YmeC1leHBpcmVzPTE3OTEzNzgwMDAmeC1zaWduYXR1cmU9cnBQeDhNamdoZWJkRW5QJTJCQTB2N05lVlh3cTglM0QmdD00ZDViMDQ3NCZwcz0xMzc0MDYxMCZzaHA9YTVkNDgwNzgmc2hjcD1iNTlkNmI1NSZpZGM9dXNlYXN0OCIsCiAgICJjb21tZW50U2V0dGluZyI6IDAsCiAgICJkb3dubG9hZFNldHRpbmciOiAwLAogICAiZHVldFNldHRpbmciOiAwLAogICAiZnRjIjogZmFsc2UsCiAgICJpZCI6ICI2Nzc3NDY5MDAxNzM3OTc4ODgyIiwKICAgImlzQURWaXJ0dWFsIjogZmFsc2UsCiAgICJuaWNrbmFtZSI6ICJNYXMgS3VudG9vIiwKICAgIm9wZW5GYXZvcml0ZSI6IGZhbHNlLAogICAicHJpdmF0ZUFjY291bnQiOiBmYWxzZSwKICAgInJlbGF0aW9uIjogMCwKICAgInNlY1VpZCI6ICJNUzR3TGpBQkFBQUFmTWd2UWhMX3IyXzY0dk4xNUNibVlZbFVaRDBYZEczSXdFNU9LMnhhUkdqck55Q19RU01GOEhNdE1MOXJrdlB0IiwKICAgInNlY3JldCI6IGZhbHNlLAogICAic2lnbmF0dXJlIjogIvCfm4vvuI8gRXNzZW50aWFscyBSb29tXG5yb29tIGRlY29yIOKAoiB0ZWNoIOKAoiB1bmJveGluZ1xuSmFzYSBwZW1idWF0YW4gZmlsdGVyIHRpa3RvayA6XG5rZW5kYWxhIG9uZ2tpciBjZWsgZGlzaW5pIOKsh++4jyIsCiAgICJzdGl0Y2hTZXR0aW5nIjogMCwKICAgInR0U2VsbGVyIjogZmFsc2UsCiAgICJ1bmlxdWVJZCI6ICJtemt1bm5uIiwKICAgInZlcmlmaWVkIjogZmFsc2UKICB9LAogICJzdGlja2VyIjogewogICAiY292ZXJVcmxzIjogewogICAgInVybExpc3QiOiBbCiAgICAgImh0dHBzOi8vbGYxNi1lZmZlY3RjZG4tdXMudGlrdG9rY2RuLXVzLmNvbS9vYmovdGlrdG9rLWxva2ktZWZmZWN0LW9yYWNsZS10eC9kZjRhYjQ5ZjBmOGQ0ZmVmMTcwMWJlMDBlZTA0Njc2MyIsCiAgICAgImh0dHBzOi8vbGYxOS1lZmZlY3RjZG4tdXMudGlrdG9rY2RuLXVzLmNvbS9vYmovdGlrdG9rLWxva2ktZWZmZWN0LW9yYWNsZS10eC9kZjRhYjQ5ZjBmOGQ0ZmVmMTcwMWJlMDBlZTA0Njc2MyIKICAgIF0KICAgfSwKICAgImRlc2MiOiAiIiwKICAgImlkIjogIjMzOTAxMjI2NDUiLAogICAibmFtZSI6ICJNYWtldXAgTHVzaCIsCiAgICJzdGlja2VyU3RhdHMiOiB7CiAgICAidXNlQ291bnQiOiA3MjAwMDAwCiAgIH0KICB9CiB9Cn0=
+{
+ "shareMeta": {
+  "desc": "7.2m videos - Watch awesome short videos created with Makeup Lush",
+  "title": "Makeup Lush on TikTok"
+ },
+ "statusCode": 0,
+ "status_code": 0,
+ "status_msg": "",
+ "stickerInfo": {
+  "author": {
+   "avatarLarger": "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/7314312628120059937~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=712436d6&x-expires=1791378000&x-signature=yiJVNZ0w8ND2NAE6avR%2BpaS6fmE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=b59d6b55&idc=useast8",
+   "avatarMedium": "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/7314312628120059937~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=34b48d62&x-expires=1791378000&x-signature=PQuAKtrGBdj5Mt6N0IDOE5YJBFg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=b59d6b55&idc=useast8",
+   "avatarThumb": "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/7314312628120059937~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=e038fbcf&x-expires=1791378000&x-signature=rpPx8MjghebdEnP%2BA0v7NeVXwq8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=b59d6b55&idc=useast8",
+   "commentSetting": 0,
+   "downloadSetting": 0,
+   "duetSetting": 0,
+   "ftc": false,
+   "id": "6777469001737978882",
+   "isADVirtual": false,
+   "nickname": "Mas Kuntoo",
+   "openFavorite": false,
+   "privateAccount": false,
+   "relation": 0,
+   "secUid": "MS4wLjABAAAAfMgvQhL_r2_64vN15CbmYYlUZD0XdG3IwE5OK2xaRGjrNyC_QSMF8HMtML9rkvPt",
+   "secret": false,
+   "signature": "🛋️ Essentials Room\nroom decor • tech • unboxing\nJasa pembuatan filter tiktok :\nkendala ongkir cek disini ⬇️",
+   "stitchSetting": 0,
+   "ttSeller": false,
+   "uniqueId": "mzkunnn",
+   "verified": false
+  },
+  "sticker": {
+   "coverUrls": {
+    "urlList": [
+     "https://lf16-effectcdn-us.tiktokcdn-us.com/obj/tiktok-loki-effect-oracle-tx/df4ab49f0f8d4fef1701be00ee046763",
+     "https://lf19-effectcdn-us.tiktokcdn-us.com/obj/tiktok-loki-effect-oracle-tx/df4ab49f0f8d4fef1701be00ee046763"
+    ]
+   },
+   "desc": "",
+   "id": "3390122645",
+   "name": "Makeup Lush",
+   "stickerStats": {
+    "useCount": 7200000
+   }
+  }
+ }
+}

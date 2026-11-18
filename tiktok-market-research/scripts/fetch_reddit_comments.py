@@ -1,1 +1,138 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKUmVkZGl0IOecn+WunuivhOiuuuaKk+WPluWZqCDigJTigJQg5Z+65LqOIFB1bGxQdXNoIOWFrOW8gOW9kuahoyBBUEnvvIjml6DpnIAga2V544CB5peg6ZyA55m75b2V44CB5peg6ZyA5rWP6KeI5Zmo77yJ44CCCgrkuLrku4DkuYjpnIDopoHlroPvvJpSZWRkaXQg5a6Y5pa5IEpTT04g56uv54K55ZKM572R6aG16YO96KKr55m75b2V5aKZICsg5Lq65py66aqM6K+B5oyh5L2P77yI55u06L+e6L+U5ZueIDQwM++8ie+8jArmkJzntKLlvJXmk47vvIhXZWJTZWFyY2jvvInlj6rog73mi7/liLDooqvntKLlvJXnmoTmkZjopoHvvIzmipPkuI3liLDnnJ/lrp7or4TorrrljLrjgIJQdWxsUHVzaCDmmK8gUmVkZGl0IOeahArlhazlvIDljoblj7LlvZLmoaPplZzlg4/vvIzmj5DkvpvmjInlhbPplK7or43mkJzor4TorrrnmoQgQVBJ77yM57uV6L+H5LiK6L+w6ZmQ5Yi244CCCgrmlbDmja7mupDvvJpodHRwczovL2FwaS5wdWxscHVzaC5pby9yZWRkaXQvc2VhcmNoL2NvbW1lbnQvCuaWh+aho++8miAgaHR0cHM6Ly9wdWxscHVzaC5pby8K6ZmQ5Yi277yaICAtIOWFjei0ueWFrOWFseerr+eCue+8jOaciemAn+eOh+mZkOWItu+8m+Wkp+mHj+aKk+WPluivt+aUvuaFouaIluWKoCBzdWJyZWRkaXQg6L+H5rukCiAgICAgICAgLSDmlbDmja7mmK/ljoblj7LlvZLmoaPvvIzpnZ7lrp7ml7bvvIjpgJrluLjmnInmlbDlsI/ml7bliLDmlbDlpKnlu7bov5/vvIkKICAgICAgICAtIOaWsOWPkeW4g+S6p+WTge+8iOWmguWImuS4iuW4giAxIOS4quaciOeahOWei+WPt++8ieivhOiuuuWPr+iDveW+iOWwke+8jOmcgOeUqOWuveWFs+mUruivjQoK55So5rOV77yaCiAgICAjIOaMieWFs+mUruivjeaQnOivhOiuuu+8iOacgOmHjeimge+8iQogICAgcHl0aG9uMyBmZXRjaF9yZWRkaXRfY29tbWVudHMucHkgLS1xdWVyeSAiVUdSRUVOIENsaXBCdWRzIiAtLXNpemUgNTAKCiAgICAjIOeXm+eCueivjee7hOWQiAogICAgcHl0aG9uMyBmZXRjaF9yZWRkaXRfY29tbWVudHMucHkgLS1xdWVyeSAib3BlbiBlYXIgZWFyYnVkcyBub2lzZSBjYW5jZWxsaW5nIiAtLXNpemUgNTAKCiAgICAjIOmZkOWumiBzdWJyZWRkaXQgKyDovpPlh7rmlofku7YgKyDmjInliIbmlbDmjpLluo8KICAgIHB5dGhvbjMgZmV0Y2hfcmVkZGl0X2NvbW1lbnRzLnB5IC1xICJjbGlwIG9uIGVhcmJ1ZHMiIC1zIDEwMCAtLXN1YnJlZGRpdCBFYXJidWRzIFwKICAgICAgICAtLW1pbi1zY29yZSAyIC0tb3V0IGNvbW1lbnRzLmpzb24KCiAgICAjIOaQnOW4luWtkO+8iOS4jeaYr+ivhOiuuu+8iQogICAgcHl0aG9uMyBmZXRjaF9yZWRkaXRfY29tbWVudHMucHkgLXEgIm5vaXNlIGNhbmNlbGxpbmcgZWFyYnVkcyIgLS10eXBlIHN1Ym1pc3Npb24gLXMgMzAKCui+k+WHuu+8mkpTT04g5pWw57uE77yM5q+P5p2h5ZCrIGJvZHkgLyBzY29yZSAvIHN1YnJlZGRpdCAvIGF1dGhvciAvIGNyZWF0ZWRfdXRjIC8gcGVybWFsaW5r44CCCuiLpee9kee7nOeOr+Wig+ebtOi/nuiiq+aMoe+8iOi/lOWbnumdniBKU09O77yJ77yM6ISa5pys5Lya5o+Q56S65pS555SoIFdvcmtCdWRkeSDnmoTnvZHpobXmipPlj5blt6XlhbcKKFdlYkZldGNoKSDorr/pl67lkIzmoLfnmoQgVVJM44CCCiIiIgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KaW1wb3J0IHN5cwppbXBvcnQgdXJsbGliLnBhcnNlCmltcG9ydCB1cmxsaWIucmVxdWVzdAppbXBvcnQgdXJsbGliLmVycm9yCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lLCB0aW1lem9uZQoKQkFTRSA9ICJodHRwczovL2FwaS5wdWxscHVzaC5pby9yZWRkaXQvc2VhcmNoIgoKCmRlZiBmZXRjaChlbmRwb2ludCwgcGFyYW1zKToKICAgIHVybCA9IGYie0JBU0V9L3tlbmRwb2ludH0vP3t1cmxsaWIucGFyc2UudXJsZW5jb2RlKHBhcmFtcyl9IgogICAgcmVxID0gdXJsbGliLnJlcXVlc3QuUmVxdWVzdCh1cmwsIGhlYWRlcnM9ewogICAgICAgICJVc2VyLUFnZW50IjogIndvcmtidWRkeS1tYXJrZXQtcmVzZWFyY2gvMS4wIiwKICAgICAgICAiQWNjZXB0IjogImFwcGxpY2F0aW9uL2pzb24iLAogICAgfSkKICAgIHRyeToKICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxLCB0aW1lb3V0PTQ1KSBhcyByOgogICAgICAgICAgICByYXcgPSByLnJlYWQoKS5kZWNvZGUoInV0Zi04IikKICAgIGV4Y2VwdCB1cmxsaWIuZXJyb3IuSFRUUEVycm9yIGFzIGU6CiAgICAgICAgc3lzLmV4aXQoCiAgICAgICAgICAgIGYiW+mUmeivr10gSFRUUCB7ZS5jb2RlfeOAguiLpeS4uuacrOacuue9kee7nOaLpuaIqu+8jOivt+aUueeUqOe9kemhteaKk+WPluW3peWFt+iuv+mXru+8mlxuICB7dXJsfSIKICAgICAgICApCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgc3lzLmV4aXQoZiJb6ZSZ6K+vXSB7dHlwZShlKS5fX25hbWVfX306IHtlfVxu5Y+v5pS555So572R6aG15oqT5Y+W5bel5YW36K6/6Zeu77yaXG4gIHt1cmx9IikKICAgIHRyeToKICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhyYXcpLCB1cmwKICAgIGV4Y2VwdCBqc29uLkpTT05EZWNvZGVFcnJvcjoKICAgICAgICBzeXMuZXhpdChmIlvplJnor69dIOi/lOWbnuS4jeaYryBKU09O77yI5Y+v6IO96KKr572R57uc5bGC5oum5oiq77yJ44CC6K+35pS555So572R6aG15oqT5Y+W5bel5YW36K6/6Zeu77yaXG4gIHt1cmx9IikKCgpkZWYgbWFpbigpOgogICAgYXAgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0i55SoIFB1bGxQdXNoIOaKkyBSZWRkaXQg55yf5a6e6K+E6K6677yI5YWNIGtlee+8iSIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi1xIiwgIi0tcXVlcnkiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSLmkJzntKLlhbPplK7or40iKQogICAgYXAuYWRkX2FyZ3VtZW50KCItcyIsICItLXNpemUiLCB0eXBlPWludCwgZGVmYXVsdD01MCwgaGVscD0i6L+U5Zue5p2h5pWw77yM6buY6K6kIDUwIikKICAgIGFwLmFkZF9hcmd1bWVudCgiLS10eXBlIiwgY2hvaWNlcz1bImNvbW1lbnQiLCAic3VibWlzc2lvbiJdLCBkZWZhdWx0PSJjb21tZW50IiwKICAgICAgICAgICAgICAgICAgICBoZWxwPSJjb21tZW50PeivhOiuuiwgc3VibWlzc2lvbj3luJblrZDvvIzpu5jorqQgY29tbWVudCIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tc3VicmVkZGl0IiwgZGVmYXVsdD1Ob25lLCBoZWxwPSLpmZDlrpogc3VicmVkZGl077yM5aaCIEVhcmJ1ZHMiKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLW1pbi1zY29yZSIsIHR5cGU9aW50LCBkZWZhdWx0PU5vbmUsIGhlbHA9IuWPquS/neeVmeWIhuaVsCA+PSBOIOeahOadoeebriIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tc29ydCIsIGRlZmF1bHQ9ImRlc2MiLCBjaG9pY2VzPVsiZGVzYyIsICJhc2MiXSwgaGVscD0i5oyJ5pe26Ze05o6S5bqPIikKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1vdXQiLCBkZWZhdWx0PU5vbmUsIGhlbHA9Iui+k+WHuiBKU09OIOaWh+S7tui3r+W+hO+8m+S4jeWhq+WImeaJk+WNsOWIsOe7iOerryIpCiAgICBhcmdzID0gYXAucGFyc2VfYXJncygpCgogICAgZW5kcG9pbnQgPSAiY29tbWVudCIgaWYgYXJncy50eXBlID09ICJjb21tZW50IiBlbHNlICJzdWJtaXNzaW9uIgogICAgcGFyYW1zID0geyJxIjogYXJncy5xdWVyeSwgInNpemUiOiBhcmdzLnNpemUsICJzb3J0IjogYXJncy5zb3J0fQogICAgaWYgYXJncy5zdWJyZWRkaXQ6CiAgICAgICAgcGFyYW1zWyJzdWJyZWRkaXQiXSA9IGFyZ3Muc3VicmVkZGl0CgogICAgZGF0YSwgdXJsID0gZmV0Y2goZW5kcG9pbnQsIHBhcmFtcykKICAgIGl0ZW1zID0gZGF0YS5nZXQoImRhdGEiLCBbXSkgaWYgaXNpbnN0YW5jZShkYXRhLCBkaWN0KSBlbHNlIFtdCgogICAgIyDnu5/kuIDlrZfmrrUKICAgIHJvd3MgPSBbXQogICAgZm9yIGl0IGluIGl0ZW1zOgogICAgICAgIGNyZWF0ZWQgPSBpdC5nZXQoImNyZWF0ZWRfdXRjIikKICAgICAgICBkYXRlID0gIiIKICAgICAgICBpZiBjcmVhdGVkOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBkYXRlID0gZGF0ZXRpbWUuZnJvbXRpbWVzdGFtcChjcmVhdGVkLCB0ej10aW1lem9uZS51dGMpLnN0cmZ0aW1lKCIlWS0lbS0lZCIpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgc2NvcmUgPSBpdC5nZXQoInNjb3JlIiwgMCkgb3IgMAogICAgICAgIGlmIGFyZ3MubWluX3Njb3JlIGlzIG5vdCBOb25lIGFuZCBzY29yZSA8IGFyZ3MubWluX3Njb3JlOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHJvd3MuYXBwZW5kKHsKICAgICAgICAgICAgInR5cGUiOiBhcmdzLnR5cGUsCiAgICAgICAgICAgICJib2R5IjogaXQuZ2V0KCJib2R5Iikgb3IgaXQuZ2V0KCJzZWxmdGV4dCIpIG9yIGl0LmdldCgidGl0bGUiLCAiIiksCiAgICAgICAgICAgICJ0aXRsZSI6IGl0LmdldCgidGl0bGUiLCAiIiksCiAgICAgICAgICAgICJzY29yZSI6IHNjb3JlLAogICAgICAgICAgICAic3VicmVkZGl0IjogaXQuZ2V0KCJzdWJyZWRkaXQiLCAiIiksCiAgICAgICAgICAgICJhdXRob3IiOiBpdC5nZXQoImF1dGhvciIsICIiKSwKICAgICAgICAgICAgImRhdGUiOiBkYXRlLAogICAgICAgICAgICAicGVybWFsaW5rIjogImh0dHBzOi8vcmVkZGl0LmNvbSIgKyBpdC5nZXQoInBlcm1hbGluayIsICIiKSwKICAgICAgICB9KQoKICAgICMg5oyJ5YiG5pWw6ZmN5bqP77yM5L6/5LqO5YWI55yL6auY6LWe77yI55yf5a6e55eb54K55YWx6K+G77yJCiAgICByb3dzLnNvcnQoa2V5PWxhbWJkYSB4OiB4WyJzY29yZSJdLCByZXZlcnNlPVRydWUpCgogICAgcmVzdWx0ID0gewogICAgICAgICJxdWVyeSI6IGFyZ3MucXVlcnksCiAgICAgICAgInNvdXJjZV91cmwiOiB1cmwsCiAgICAgICAgImZldGNoZWRfYXQiOiBkYXRldGltZS5ub3codGltZXpvbmUudXRjKS5pc29mb3JtYXQoKSwKICAgICAgICAiY291bnQiOiBsZW4ocm93cyksCiAgICAgICAgIm5vdGUiOiAi5p2l5rqQIFB1bGxQdXNoIFJlZGRpdCDlhazlvIDlvZLmoaPvvJvpnZ7lrp7ml7bvvIzlj6/og73mnInlu7bov5/vvJvpnZ7lrpjmlrnmlbDmja4iLAogICAgICAgICJpdGVtcyI6IHJvd3MsCiAgICB9CgogICAgaWYgYXJncy5vdXQ6CiAgICAgICAgd2l0aCBvcGVuKGFyZ3Mub3V0LCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgICAgIGpzb24uZHVtcChyZXN1bHQsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCiAgICAgICAgcHJpbnQoZiJb5a6M5oiQXSB7bGVuKHJvd3MpfSDmnaEgLT4ge2FyZ3Mub3V0fSIpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYiIyB7YXJncy5xdWVyeX0g4oCUIHtsZW4ocm93cyl9IOadoe+8iOadpea6kO+8mlB1bGxQdXNoIFJlZGRpdCDlvZLmoaPvvIlcbiIpCiAgICAgICAgZm9yIHIgaW4gcm93czoKICAgICAgICAgICAgcHJpbnQoZiItLS0gW3tyWydzY29yZSddfeWIhl0gci97clsnc3VicmVkZGl0J119IHtyWydkYXRlJ119IC0tLSIpCiAgICAgICAgICAgIHByaW50KHJbImJvZHkiXVs6NTAwXSkKICAgICAgICAgICAgcHJpbnQoZiLpk77mjqU6IHtyWydwZXJtYWxpbmsnXX1cbiIpCgogICAgaWYgbm90IHJvd3M6CiAgICAgICAgcHJpbnQoIlvmj5DnpLpdIOaXoOe7k+aenOOAguaWsOWTgeWei+WPt+ivhOiuuuWwkeaXtu+8jOaUueeUqOabtOWuveeahOWFs+mUruivje+8iOWmguWTgeeJjOWQjSvlk4Hnsbvor43vvInjgIIiLAogICAgICAgICAgICAgIGZpbGU9c3lzLnN0ZGVycikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""
+Reddit 真实评论抓取器 —— 基于 PullPush 公开归档 API（无需 key、无需登录、无需浏览器）。
+
+为什么需要它：Reddit 官方 JSON 端点和网页都被登录墙 + 人机验证挡住（直连返回 403），
+搜索引擎（WebSearch）只能拿到被索引的摘要，抓不到真实评论区。PullPush 是 Reddit 的
+公开历史归档镜像，提供按关键词搜评论的 API，绕过上述限制。
+
+数据源：https://api.pullpush.io/reddit/search/comment/
+文档：  https://pullpush.io/
+限制：  - 免费公共端点，有速率限制；大量抓取请放慢或加 subreddit 过滤
+        - 数据是历史归档，非实时（通常有数小时到数天延迟）
+        - 新发布产品（如刚上市 1 个月的型号）评论可能很少，需用宽关键词
+
+用法：
+    # 按关键词搜评论（最重要）
+    python3 fetch_reddit_comments.py --query "UGREEN ClipBuds" --size 50
+
+    # 痛点词组合
+    python3 fetch_reddit_comments.py --query "open ear earbuds noise cancelling" --size 50
+
+    # 限定 subreddit + 输出文件 + 按分数排序
+    python3 fetch_reddit_comments.py -q "clip on earbuds" -s 100 --subreddit Earbuds \
+        --min-score 2 --out comments.json
+
+    # 搜帖子（不是评论）
+    python3 fetch_reddit_comments.py -q "noise cancelling earbuds" --type submission -s 30
+
+输出：JSON 数组，每条含 body / score / subreddit / author / created_utc / permalink。
+若网络环境直连被挡（返回非 JSON），脚本会提示改用 WorkBuddy 的网页抓取工具
+(WebFetch) 访问同样的 URL。
+"""
+import argparse
+import json
+import sys
+import urllib.parse
+import urllib.request
+import urllib.error
+from datetime import datetime, timezone
+
+BASE = "https://api.pullpush.io/reddit/search"
+
+
+def fetch(endpoint, params):
+    url = f"{BASE}/{endpoint}/?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "workbuddy-market-research/1.0",
+        "Accept": "application/json",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=45) as r:
+            raw = r.read().decode("utf-8")
+    except urllib.error.HTTPError as e:
+        sys.exit(
+            f"[错误] HTTP {e.code}。若为本机网络拦截，请改用网页抓取工具访问：\n  {url}"
+        )
+    except Exception as e:
+        sys.exit(f"[错误] {type(e).__name__}: {e}\n可改用网页抓取工具访问：\n  {url}")
+    try:
+        return json.loads(raw), url
+    except json.JSONDecodeError:
+        sys.exit(f"[错误] 返回不是 JSON（可能被网络层拦截）。请改用网页抓取工具访问：\n  {url}")
+
+
+def main():
+    ap = argparse.ArgumentParser(description="用 PullPush 抓 Reddit 真实评论（免 key）")
+    ap.add_argument("-q", "--query", required=True, help="搜索关键词")
+    ap.add_argument("-s", "--size", type=int, default=50, help="返回条数，默认 50")
+    ap.add_argument("--type", choices=["comment", "submission"], default="comment",
+                    help="comment=评论, submission=帖子，默认 comment")
+    ap.add_argument("--subreddit", default=None, help="限定 subreddit，如 Earbuds")
+    ap.add_argument("--min-score", type=int, default=None, help="只保留分数 >= N 的条目")
+    ap.add_argument("--sort", default="desc", choices=["desc", "asc"], help="按时间排序")
+    ap.add_argument("--out", default=None, help="输出 JSON 文件路径；不填则打印到终端")
+    args = ap.parse_args()
+
+    endpoint = "comment" if args.type == "comment" else "submission"
+    params = {"q": args.query, "size": args.size, "sort": args.sort}
+    if args.subreddit:
+        params["subreddit"] = args.subreddit
+
+    data, url = fetch(endpoint, params)
+    items = data.get("data", []) if isinstance(data, dict) else []
+
+    # 统一字段
+    rows = []
+    for it in items:
+        created = it.get("created_utc")
+        date = ""
+        if created:
+            try:
+                date = datetime.fromtimestamp(created, tz=timezone.utc).strftime("%Y-%m-%d")
+            except Exception:
+                pass
+        score = it.get("score", 0) or 0
+        if args.min_score is not None and score < args.min_score:
+            continue
+        rows.append({
+            "type": args.type,
+            "body": it.get("body") or it.get("selftext") or it.get("title", ""),
+            "title": it.get("title", ""),
+            "score": score,
+            "subreddit": it.get("subreddit", ""),
+            "author": it.get("author", ""),
+            "date": date,
+            "permalink": "https://reddit.com" + it.get("permalink", ""),
+        })
+
+    # 按分数降序，便于先看高赞（真实痛点共识）
+    rows.sort(key=lambda x: x["score"], reverse=True)
+
+    result = {
+        "query": args.query,
+        "source_url": url,
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "count": len(rows),
+        "note": "来源 PullPush Reddit 公开归档；非实时，可能有延迟；非官方数据",
+        "items": rows,
+    }
+
+    if args.out:
+        with open(args.out, "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"[完成] {len(rows)} 条 -> {args.out}")
+    else:
+        print(f"# {args.query} — {len(rows)} 条（来源：PullPush Reddit 归档）\n")
+        for r in rows:
+            print(f"--- [{r['score']}分] r/{r['subreddit']} {r['date']} ---")
+            print(r["body"][:500])
+            print(f"链接: {r['permalink']}\n")
+
+    if not rows:
+        print("[提示] 无结果。新品型号评论少时，改用更宽的关键词（如品牌名+品类词）。",
+              file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,1 +1,285 @@
-IiIiTWFyc2htYWxsb3cgcmVxdWVzdCBzY2hlbWFzIGZvciBldmVyeSAvYW1hem9uLyogcm91dGUuCgpHZW5lcmljIGZpZWxkcyBsaXZlIGluIHRoZSBzaGFyZWQgdG9wLWxldmVsIHNjaGVtYV9maWVsZHMucHk7IHRoaXMgbW9kdWxlCmFkZHMgdGhlIEFtYXpvbiByZXNvbHZlcnMgYW5kIHBlci1yb3V0ZSBzY2hlbWFzLiBFdmVyeSBzY2hlbWEncyBsb2FkKCkKb3V0cHV0IGlzIHRoZSBrd2FyZ3MgZGljdCBpdHMgZW5kcG9pbnQgZnVuY3Rpb24gdGFrZXMuCgpPTkUgcGFyYW0gcGVyIGlucHV0ICh0cmlwYWR2aXNvciBRdWVyeU9yTGlua0ZpZWxkIGNvbnZlbnRpb24sIG5ldmVyIGEKc2libGluZyBgdXJsYC9gaWRgIHBhaXIpOiBgcHJvZHVjdGAgdGFrZXMgYW4gQVNJTiBPUiBhIHByb2R1Y3QgbGluaywKYHNlbGxlcmAgYW4gaWQgT1IgYSBzZWxsZXIvc3RvcmVmcm9udCBsaW5rLCBgaW5mbHVlbmNlcmAgYSBzdG9yZWZyb250Cm5hbWUgT1IgaXRzIGxpbmssIGBwb3N0YCBhIGxpc3QgaWQgT1IgaXRzIGxpbmssIGBjYXRlZ29yeWAgKGJyb3dzZSkgYQpub2RlIGlkIE9SIGEgY2F0ZWdvcnkgbGluaywgYmVzdC1zZWxsZXIgYGNhdGVnb3J5YCBhbiBhbGlhcyBwYXRoIE9SIGEKbGlzdCBsaW5rLCBgcXVlcnlgIGEga2V5d29yZCBPUiBhIHNlYXJjaCBsaW5rIChyZWZzLnB5KS4KCmBjb3VudHJ5YCBwaWNrcyB0aGUgbWFya2V0cGxhY2UgKFVTIGRlZmF1bHQpLiBXaGVuIGl0IGlzIG5vdCBnaXZlbiBhbmQgYQpyZWYgcGFyYW0gaXMgYSBsaW5rIG9uIGFub3RoZXIgbWFya2V0cGxhY2UgKGFtYXpvbi5kZS/igKYpLCB0aGF0Cm1hcmtldHBsYWNlIGlzIHVzZWQgKE1hcmtldHBsYWNlU2NoZW1hLnByZV9sb2FkKS4KIiIiCmZyb20gbWFyc2htYWxsb3cgaW1wb3J0IFZhbGlkYXRpb25FcnJvciwgbWlzc2luZywgcG9zdF9sb2FkLCBwcmVfbG9hZCwgdmFsaWRhdGUKCmZyb20gYW1hem9uIGltcG9ydCByZWZzLCBzaXRlcwpmcm9tIGFtYXpvbi5wcm9kdWN0cyBpbXBvcnQgQ09ORElUSU9OUyBhcyBPRkZFUl9DT05ESVRJT05TCmZyb20gYW1hem9uLnJhbmtpbmdzIGltcG9ydCBERUFMX1NPUlRTLCBMSVNUX1RZUEVTCmZyb20gYW1hem9uLnNlYXJjaCBpbXBvcnQgQ09ORElUSU9OUywgREVBTF9UWVBFUywgU09SVFMKZnJvbSBhbWF6b24uc2VsbGVycyBpbXBvcnQgRkVFREJBQ0tfRklMVEVSUywgRkVFREJBQ0tfUEVSSU9EUywgRkVFREJBQ0tfU09SVFMKZnJvbSBzY2hlbWFfZmllbGRzIGltcG9ydCAoQmFzZVNjaGVtYSwgQ2hvaWNlRmllbGQsIENvbW1hTGlzdEZpZWxkLCBGbGFnLCBMYW5ndWFnZUNvZGVGaWVsZCwgTGltaXRGaWVsZCwgUGFnZUZpZWxkLAogICAgICAgICAgICAgICAgICAgICAgICAgICBQb3NpdGl2ZUludCwgUHJpY2UsIFF1ZXJ5RmllbGQsIFJlZkZpZWxkLCBTdHJpcHBlZFN0cmluZykKCgojIC0tLS0gZmllbGRzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKY2xhc3MgQ291bnRyeUZpZWxkKFN0cmlwcGVkU3RyaW5nKToKICAgICIiIk1hcmtldHBsYWNlIGNvdW50cnkgKElTTyBjb2RlOyBVSyBhY2NlcHRlZCBmb3IgR0IpLiBEZWZhdWx0IFVTLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCAqKmt3YXJncyk6CiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoInJlcXVpcmVkIiwgRmFsc2UpCiAgICAgICAga3dhcmdzLnNldGRlZmF1bHQoImxvYWRfZGVmYXVsdCIsIHNpdGVzLkRFRkFVTFRfQ09VTlRSWSkKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCoqa3dhcmdzKQoKICAgIGRlZiBfZGVzZXJpYWxpemUoc2VsZiwgdmFsdWUsIGF0dHIsIGRhdGEsICoqa3dhcmdzKToKICAgICAgICB2YWx1ZSA9IHN1cGVyKCkuX2Rlc2VyaWFsaXplKHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncykKICAgICAgICBpZiB2YWx1ZSBpcyBOb25lOgogICAgICAgICAgICByZXR1cm4gc2l0ZXMuREVGQVVMVF9DT1VOVFJZCiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXR1cm4gc2l0ZXMuc2l0ZSh2YWx1ZSlbImNvdW50cnkiXQogICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoZiJNdXN0IGJlIG9uZSBvZjogeycsICcuam9pbihzaXRlcy5DT1VOVFJJRVMpfS4iKQoKCmNsYXNzIFByb2R1Y3RSZWZGaWVsZChSZWZGaWVsZCk6CiAgICByZXNvbHZlciA9IHN0YXRpY21ldGhvZChyZWZzLnJlc29sdmVfcHJvZHVjdCkKCgpjbGFzcyBTZWxsZXJSZWZGaWVsZChSZWZGaWVsZCk6CiAgICByZXNvbHZlciA9IHN0YXRpY21ldGhvZChyZWZzLnJlc29sdmVfc2VsbGVyKQoKCmNsYXNzIEluZmx1ZW5jZXJSZWZGaWVsZChSZWZGaWVsZCk6CiAgICByZXNvbHZlciA9IHN0YXRpY21ldGhvZChyZWZzLnJlc29sdmVfaW5mbHVlbmNlcikKCgpjbGFzcyBQb3N0UmVmRmllbGQoUmVmRmllbGQpOgogICAgcmVzb2x2ZXIgPSBzdGF0aWNtZXRob2QocmVmcy5yZXNvbHZlX3Bvc3QpCgoKY2xhc3MgTm9kZVJlZkZpZWxkKFJlZkZpZWxkKToKICAgIHJlc29sdmVyID0gc3RhdGljbWV0aG9kKHJlZnMucmVzb2x2ZV9ub2RlKQoKCmNsYXNzIEJlc3RzZWxsZXJDYXRlZ29yeUZpZWxkKFJlZkZpZWxkKToKICAgIHJlc29sdmVyID0gc3RhdGljbWV0aG9kKHJlZnMucmVzb2x2ZV9iZXN0c2VsbGVyX2NhdGVnb3J5KQoKCmNsYXNzIFNlYXJjaFF1ZXJ5RmllbGQoUmVmRmllbGQpOgogICAgcmVzb2x2ZXIgPSBzdGF0aWNtZXRob2QocmVmcy5yZXNvbHZlX3F1ZXJ5KQoKCmNsYXNzIExpbmtGaWVsZChSZWZGaWVsZCk6CiAgICByZXNvbHZlciA9IHN0YXRpY21ldGhvZChyZWZzLnJlc29sdmVfbGluaykKCgpjbGFzcyBQb3N0YWxDb2RlRmllbGQoU3RyaXBwZWRTdHJpbmcpOgogICAgIiIiRGVsaXZlcnkgcG9zdGFsIGNvZGUgdGhlIHBhZ2UgaXMgcmVuZGVyZWQgZm9yIChkZWZhdWx0OiBhIGNvZGUgaW4gdGhlCiAgICBtYXJrZXRwbGFjZSdzIG93biBjb3VudHJ5LCBzaXRlcy5weSkuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsICoqa3dhcmdzKToKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgicmVxdWlyZWQiLCBGYWxzZSkKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgibG9hZF9kZWZhdWx0IiwgTm9uZSkKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgidmFsaWRhdGUiLCB2YWxpZGF0ZS5MZW5ndGgobWluPTMsIG1heD0xMikpCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygqKmt3YXJncykKCgpjbGFzcyBBc2luTGlzdEZpZWxkKENvbW1hTGlzdEZpZWxkKToKICAgICIiIkNvbW1hLXNlcGFyYXRlZCBBU0lOcyAvIHByb2R1Y3QgbGlua3MgKG1heCAxMCkuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsICoqa3dhcmdzKToKICAgICAgICBrd2FyZ3Muc2V0ZGVmYXVsdCgibWF4X2l0ZW1zIiwgMTApCiAgICAgICAga3dhcmdzLnBvcCgicmVxdWlyZWQiLCBUcnVlKQogICAgICAgIHN1cGVyKCkuX19pbml0X18odXBwZXI9RmFsc2UsICoqa3dhcmdzKQogICAgICAgICMgQ29tbWFMaXN0RmllbGQgZGVmYXVsdHMgdG8gb3B0aW9uYWw7IHRoaXMgb25lIGlzIG1hbmRhdG9yeS4KICAgICAgICBzZWxmLnJlcXVpcmVkID0gVHJ1ZQogICAgICAgIHNlbGYubG9hZF9kZWZhdWx0ID0gbWlzc2luZwoKICAgIGRlZiBfZGVzZXJpYWxpemUoc2VsZiwgdmFsdWUsIGF0dHIsIGRhdGEsICoqa3dhcmdzKToKICAgICAgICBpdGVtcyA9IHN1cGVyKCkuX2Rlc2VyaWFsaXplKHZhbHVlLCBhdHRyLCBkYXRhLCAqKmt3YXJncykKICAgICAgICBpZiBub3QgaXRlbXM6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcigiTXVzdCBsaXN0IGF0IGxlYXN0IG9uZSBBU0lOLiIpCiAgICAgICAgb3V0ID0gW10KICAgICAgICBmb3IgaXRlbSBpbiBpdGVtczoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgYXNpbiA9IHJlZnMucmVzb2x2ZV9wcm9kdWN0KGl0ZW0pCiAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yIGFzIGU6CiAgICAgICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3Ioc3RyKGUpKQogICAgICAgICAgICBpZiBhc2luIG5vdCBpbiBvdXQ6CiAgICAgICAgICAgICAgICBvdXQuYXBwZW5kKGFzaW4pCiAgICAgICAgcmV0dXJuIG91dAoKCl9SRUZfS0VZUyA9ICgicHJvZHVjdCIsICJwcm9kdWN0cyIsICJzZWxsZXIiLCAiaW5mbHVlbmNlciIsICJwb3N0IiwgImNhdGVnb3J5IiwgInF1ZXJ5IiwgInVybCIpCgoKY2xhc3MgTWFya2V0cGxhY2VTY2hlbWEoQmFzZVNjaGVtYSk6CiAgICAiIiJjb3VudHJ5ICsgbGFuZ3VhZ2UsIHdpdGggdGhlIGNvdW50cnkgaW5mZXJyZWQgZnJvbSBhIHBhc3RlZCBsaW5rLiIiIgogICAgY291bnRyeSA9IENvdW50cnlGaWVsZCgpCiAgICBsYW5ndWFnZSA9IExhbmd1YWdlQ29kZUZpZWxkKCkKCiAgICBAcHJlX2xvYWQKICAgIGRlZiBjb3VudHJ5X2Zyb21fbGluayhzZWxmLCBkYXRhLCAqKmt3YXJncyk6CiAgICAgICAgZGF0YSA9IGRpY3QoZGF0YSkKICAgICAgICBpZiBkYXRhLmdldCgiY291bnRyeSIpOgogICAgICAgICAgICByZXR1cm4gZGF0YQogICAgICAgIGZvciBrZXkgaW4gX1JFRl9LRVlTOgogICAgICAgICAgICB2YWx1ZSA9IGRhdGEuZ2V0KGtleSkKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKSBhbmQgdmFsdWU6CiAgICAgICAgICAgICAgICBjb3VudHJ5ID0gcmVmcy5jb3VudHJ5X29mKHZhbHVlLnNwbGl0KCIsIilbMF0pCiAgICAgICAgICAgICAgICBpZiBjb3VudHJ5OgogICAgICAgICAgICAgICAgICAgIGRhdGFbImNvdW50cnkiXSA9IGNvdW50cnkKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgIHJldHVybiBkYXRhCgoKIyAtLS0tIHNlYXJjaCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKY2xhc3MgX1NlYXJjaEZpbHRlcnMoTWFya2V0cGxhY2VTY2hlbWEpOgogICAgcGFnZSA9IFBhZ2VGaWVsZChtYXhfcGFnZT00MDApCiAgICBzb3J0ID0gQ2hvaWNlRmllbGQobGlzdChTT1JUUyksIGxvYWRfZGVmYXVsdD0icmVsZXZhbmNlIikKICAgIG1pbl9wcmljZSA9IFByaWNlKCkKICAgIG1heF9wcmljZSA9IFByaWNlKCkKICAgIGJyYW5kID0gU3RyaXBwZWRTdHJpbmcobG9hZF9kZWZhdWx0PU5vbmUsIHZhbGlkYXRlPXZhbGlkYXRlLkxlbmd0aChtYXg9MTAwKSkKICAgIGNvbmRpdGlvbiA9IENob2ljZUZpZWxkKGxpc3QoQ09ORElUSU9OUykpCiAgICBpc19wcmltZSA9IEZsYWcoKQogICAgZm91cl9zdGFyc19hbmRfdXAgPSBGbGFnKCkKICAgIGRlYWxzID0gQ2hvaWNlRmllbGQobGlzdChERUFMX1RZUEVTKSkKCiAgICBAcG9zdF9sb2FkCiAgICBkZWYgcHJpY2Vfb3JkZXIoc2VsZiwgZGF0YSwgKiprd2FyZ3MpOgogICAgICAgIGlmIGRhdGEuZ2V0KCJtaW5fcHJpY2UiKSBpcyBub3QgTm9uZSBhbmQgZGF0YS5nZXQoIm1heF9wcmljZSIpIGlzIG5vdCBOb25lIGFuZCBkYXRhWyJtaW5fcHJpY2UiXSA+IGRhdGFbIm1heF9wcmljZSJdOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoeyJtYXhfcHJpY2UiOiBbIk11c3QgYmUgZ3JlYXRlciB0aGFuIG1pbl9wcmljZS4iXX0pCiAgICAgICAgcmV0dXJuIGRhdGEKCgpjbGFzcyBTZWFyY2hTY2hlbWEoX1NlYXJjaEZpbHRlcnMpOgogICAgcXVlcnkgPSBTZWFyY2hRdWVyeUZpZWxkKCkKICAgIGNhdGVnb3J5ID0gU3RyaXBwZWRTdHJpbmcobG9hZF9kZWZhdWx0PU5vbmUsIHZhbGlkYXRlPXZhbGlkYXRlLkxlbmd0aChtYXg9NjApKQogICAgbm9kZSA9IE5vZGVSZWZGaWVsZChyZXF1aXJlZD1GYWxzZSwgbG9hZF9kZWZhdWx0PU5vbmUpCiAgICBzZWxsZXIgPSBTZWxsZXJSZWZGaWVsZChyZXF1aXJlZD1GYWxzZSwgbG9hZF9kZWZhdWx0PU5vbmUpCgoKY2xhc3MgQ2F0ZWdvcnlQcm9kdWN0c1NjaGVtYShfU2VhcmNoRmlsdGVycyk6CiAgICBjYXRlZ29yeSA9IE5vZGVSZWZGaWVsZChkYXRhX2tleT0iY2F0ZWdvcnkiKQoKICAgIEBwb3N0X2xvYWQKICAgIGRlZiByZW5hbWUoc2VsZiwgZGF0YSwgKiprd2FyZ3MpOgogICAgICAgIGRhdGFbIm5vZGUiXSA9IGRhdGEucG9wKCJjYXRlZ29yeSIpCiAgICAgICAgcmV0dXJuIGRhdGEKCgpjbGFzcyBMb29rdXBTY2hlbWEoTWFya2V0cGxhY2VTY2hlbWEpOgogICAgaWRlbnRpZmllciA9IFN0cmlwcGVkU3RyaW5nKHJlcXVpcmVkPVRydWUsIHZhbGlkYXRlPXZhbGlkYXRlLlJlZ2V4cChyIl5bXHdcLSBdezYsNDB9JCIsIGVycm9yPSJNdXN0IGJlIGEgVVBDIC8gRUFOIC8gR1RJTiAvIElTQk4uIikpCgoKY2xhc3MgQXV0b2NvbXBsZXRlU2NoZW1hKEJhc2VTY2hlbWEpOgogICAgcXVlcnkgPSBRdWVyeUZpZWxkKG1heF9sZW5ndGg9MTAwKQogICAgY291bnRyeSA9IENvdW50cnlGaWVsZCgpCiAgICBjYXRlZ29yeSA9IFN0cmlwcGVkU3RyaW5nKGxvYWRfZGVmYXVsdD1Ob25lLCB2YWxpZGF0ZT12YWxpZGF0ZS5MZW5ndGgobWF4PTYwKSkKICAgIGxpbWl0ID0gTGltaXRGaWVsZChkZWZhdWx0PTExLCBtYXhfc2l6ZT0yMCkKCgpjbGFzcyBDYXRlZ29yaWVzU2NoZW1hKE1hcmtldHBsYWNlU2NoZW1hKToKICAgIHBhc3MKCgpjbGFzcyBDYXRlZ29yeVRyZWVTY2hlbWEoTWFya2V0cGxhY2VTY2hlbWEpOgogICAgY2F0ZWdvcnkgPSBOb2RlUmVmRmllbGQoZGF0YV9rZXk9ImNhdGVnb3J5IikKCiAgICBAcG9zdF9sb2FkCiAgICBkZWYgcmVuYW1lKHNlbGYsIGRhdGEsICoqa3dhcmdzKToKICAgICAgICBkYXRhWyJub2RlIl0gPSBkYXRhLnBvcCgiY2F0ZWdvcnkiKQogICAgICAgIHJldHVybiBkYXRhCgoKIyAtLS0tIHByb2R1Y3RzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpjbGFzcyBQcm9kdWN0U2NoZW1hKE1hcmtldHBsYWNlU2NoZW1hKToKICAgIHByb2R1Y3QgPSBQcm9kdWN0UmVmRmllbGQoKQoKCmNsYXNzIFByb2R1Y3REZXRhaWxzU2NoZW1hKFByb2R1Y3RTY2hlbWEpOgogICAgcG9zdGFsX2NvZGUgPSBQb3N0YWxDb2RlRmllbGQoKQoKCmNsYXNzIE9mZmVyc1NjaGVtYShQcm9kdWN0U2NoZW1hKToKICAgIHBhZ2UgPSBQYWdlRmllbGQobWF4X3BhZ2U9NTApCiAgICBjb25kaXRpb24gPSBDaG9pY2VGaWVsZChsaXN0KE9GRkVSX0NPTkRJVElPTlMpLCBsb2FkX2RlZmF1bHQ9ImFsbCIpCiAgICBwcmltZV9vbmx5ID0gRmxhZygpCiAgICBwb3N0YWxfY29kZSA9IFBvc3RhbENvZGVGaWVsZCgpCgoKY2xhc3MgQnVsa1NjaGVtYShNYXJrZXRwbGFjZVNjaGVtYSk6CiAgICBwcm9kdWN0cyA9IEFzaW5MaXN0RmllbGQocmVxdWlyZWQ9VHJ1ZSkKICAgIHBvc3RhbF9jb2RlID0gUG9zdGFsQ29kZUZpZWxkKCkKCgpjbGFzcyBTY3JhcGVVcmxTY2hlbWEoQmFzZVNjaGVtYSk6CiAgICB1cmwgPSBMaW5rRmllbGQoKQogICAgbGFuZ3VhZ2UgPSBMYW5ndWFnZUNvZGVGaWVsZCgpCiAgICBwb3N0YWxfY29kZSA9IFBvc3RhbENvZGVGaWVsZCgpCgoKIyAtLS0tIHJhbmtpbmdzIC8gZGVhbHMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpjbGFzcyBCZXN0c2VsbGVyc1NjaGVtYShNYXJrZXRwbGFjZVNjaGVtYSk6CiAgICBjYXRlZ29yeSA9IEJlc3RzZWxsZXJDYXRlZ29yeUZpZWxkKHJlcXVpcmVkPUZhbHNlLCBsb2FkX2RlZmF1bHQ9IiIpCiAgICBsaXN0X3R5cGUgPSBDaG9pY2VGaWVsZChsaXN0KExJU1RfVFlQRVMpLCBsb2FkX2RlZmF1bHQ9ImJlc3Rfc2VsbGVycyIpCiAgICBwYWdlID0gUGFnZUZpZWxkKG1heF9wYWdlPTIpCgoKY2xhc3MgQmVzdHNlbGxlckNhdGVnb3JpZXNTY2hlbWEoTWFya2V0cGxhY2VTY2hlbWEpOgogICAgY2F0ZWdvcnkgPSBCZXN0c2VsbGVyQ2F0ZWdvcnlGaWVsZChyZXF1aXJlZD1GYWxzZSwgbG9hZF9kZWZhdWx0PSIiKQoKCmNsYXNzIERlYWxzU2NoZW1hKE1hcmtldHBsYWNlU2NoZW1hKToKICAgIGNvbGxlY3Rpb24gPSBTdHJpcHBlZFN0cmluZyhsb2FkX2RlZmF1bHQ9Tm9uZSwgdmFsaWRhdGU9dmFsaWRhdGUuTGVuZ3RoKG1heD04MCkpCiAgICBkZXBhcnRtZW50X2lkID0gU3RyaXBwZWRTdHJpbmcobG9hZF9kZWZhdWx0PU5vbmUsIHZhbGlkYXRlPXZhbGlkYXRlLlJlZ2V4cChyIl5cZHsxLDIwfSQiLCBlcnJvcj0iTXVzdCBiZSBhIG51bWVyaWMgZGVwYXJ0bWVudCBpZCAoZnJvbSBgcmVmaW5lbWVudHNgKS4iKSkKICAgIGJyYW5kID0gU3RyaXBwZWRTdHJpbmcobG9hZF9kZWZhdWx0PU5vbmUsIHZhbGlkYXRlPXZhbGlkYXRlLkxlbmd0aChtYXg9MTAwKSkKICAgIG1pbl9kaXNjb3VudCA9IFBvc2l0aXZlSW50KG1heF92YWx1ZT05OSkKICAgIG1heF9kaXNjb3VudCA9IFBvc2l0aXZlSW50KG1heF92YWx1ZT0xMDApCiAgICBtaW5fcmF0aW5nID0gQ2hvaWNlRmllbGQoeyI0IjogNCwgIjMiOiAzLCAiMiI6IDIsICIxIjogMX0pCiAgICBwcmltZV9lYXJseV9hY2Nlc3MgPSBGbGFnKCkKICAgIHNvcnQgPSBDaG9pY2VGaWVsZChsaXN0KERFQUxfU09SVFMpLCBsb2FkX2RlZmF1bHQ9ImZlYXR1cmVkIikKICAgIHBhZ2UgPSBQYWdlRmllbGQobWF4X3BhZ2U9NTApCiAgICBpbmNsdWRlX3ByaWNlcyA9IEZsYWcobG9hZF9kZWZhdWx0PVRydWUpCgoKIyAtLS0tIHNlbGxlcnMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKY2xhc3MgU2VsbGVyU2NoZW1hKE1hcmtldHBsYWNlU2NoZW1hKToKICAgIHNlbGxlciA9IFNlbGxlclJlZkZpZWxkKCkKCgpjbGFzcyBTZWxsZXJGZWVkYmFja1NjaGVtYShTZWxsZXJTY2hlbWEpOgogICAgcGFnZSA9IFBhZ2VGaWVsZChtYXhfcGFnZT0xMDAwKQogICAgcmF0aW5nID0gQ2hvaWNlRmllbGQobGlzdChGRUVEQkFDS19GSUxURVJTKSwgbG9hZF9kZWZhdWx0PSJhbGwiKQogICAgcGVyaW9kID0gQ2hvaWNlRmllbGQobGlzdChGRUVEQkFDS19QRVJJT0RTKSwgbG9hZF9kZWZhdWx0PSJsaWZldGltZSIpCiAgICBzb3J0ID0gQ2hvaWNlRmllbGQobGlzdChGRUVEQkFDS19TT1JUUyksIGxvYWRfZGVmYXVsdD0icmVjZW50IikKCgpjbGFzcyBTZWxsZXJQcm9kdWN0c1NjaGVtYShTZWxsZXJTY2hlbWEpOgogICAgcGFnZSA9IFBhZ2VGaWVsZChtYXhfcGFnZT00MDApCiAgICBzb3J0ID0gQ2hvaWNlRmllbGQobGlzdChTT1JUUyksIGxvYWRfZGVmYXVsdD0icmVsZXZhbmNlIikKICAgIHF1ZXJ5ID0gU3RyaXBwZWRTdHJpbmcobG9hZF9kZWZhdWx0PU5vbmUsIHZhbGlkYXRlPXZhbGlkYXRlLkxlbmd0aChtYXg9MjAwKSkKCgojIC0tLS0gaW5mbHVlbmNlcnMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKY2xhc3MgSW5mbHVlbmNlclNjaGVtYShNYXJrZXRwbGFjZVNjaGVtYSk6CiAgICBpbmZsdWVuY2VyID0gSW5mbHVlbmNlclJlZkZpZWxkKCkKCgpjbGFzcyBJbmZsdWVuY2VyUG9zdHNTY2hlbWEoSW5mbHVlbmNlclNjaGVtYSk6CiAgICBwb3N0X3R5cGUgPSBDaG9pY2VGaWVsZChbImFsbCIsICJsaXN0IiwgInBob3RvIiwgInZpZGVvIiwgInBvc3QiXSwgbG9hZF9kZWZhdWx0PSJhbGwiKQoKCmNsYXNzIEluZmx1ZW5jZXJQb3N0U2NoZW1hKE1hcmtldHBsYWNlU2NoZW1hKToKICAgIHBvc3QgPSBQb3N0UmVmRmllbGQoKQogICAgaW5mbHVlbmNlciA9IEluZmx1ZW5jZXJSZWZGaWVsZChyZXF1aXJlZD1GYWxzZSwgbG9hZF9kZWZhdWx0PU5vbmUpCg==
+"""Marshmallow request schemas for every /amazon/* route.
+
+Generic fields live in the shared top-level schema_fields.py; this module
+adds the Amazon resolvers and per-route schemas. Every schema's load()
+output is the kwargs dict its endpoint function takes.
+
+ONE param per input (tripadvisor QueryOrLinkField convention, never a
+sibling `url`/`id` pair): `product` takes an ASIN OR a product link,
+`seller` an id OR a seller/storefront link, `influencer` a storefront
+name OR its link, `post` a list id OR its link, `category` (browse) a
+node id OR a category link, best-seller `category` an alias path OR a
+list link, `query` a keyword OR a search link (refs.py).
+
+`country` picks the marketplace (US default). When it is not given and a
+ref param is a link on another marketplace (amazon.de/…), that
+marketplace is used (MarketplaceSchema.pre_load).
+"""
+from marshmallow import ValidationError, missing, post_load, pre_load, validate
+
+from amazon import refs, sites
+from amazon.products import CONDITIONS as OFFER_CONDITIONS
+from amazon.rankings import DEAL_SORTS, LIST_TYPES
+from amazon.search import CONDITIONS, DEAL_TYPES, SORTS
+from amazon.sellers import FEEDBACK_FILTERS, FEEDBACK_PERIODS, FEEDBACK_SORTS
+from schema_fields import (BaseSchema, ChoiceField, CommaListField, Flag, LanguageCodeField, LimitField, PageField,
+                           PositiveInt, Price, QueryField, RefField, StrippedString)
+
+
+# ---- fields ---------------------------------------------------------------------------------------------------
+
+class CountryField(StrippedString):
+    """Marketplace country (ISO code; UK accepted for GB). Default US."""
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault("required", False)
+        kwargs.setdefault("load_default", sites.DEFAULT_COUNTRY)
+        super().__init__(**kwargs)
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        value = super()._deserialize(value, attr, data, **kwargs)
+        if value is None:
+            return sites.DEFAULT_COUNTRY
+        try:
+            return sites.site(value)["country"]
+        except ValueError:
+            raise ValidationError(f"Must be one of: {', '.join(sites.COUNTRIES)}.")
+
+
+class ProductRefField(RefField):
+    resolver = staticmethod(refs.resolve_product)
+
+
+class SellerRefField(RefField):
+    resolver = staticmethod(refs.resolve_seller)
+
+
+class InfluencerRefField(RefField):
+    resolver = staticmethod(refs.resolve_influencer)
+
+
+class PostRefField(RefField):
+    resolver = staticmethod(refs.resolve_post)
+
+
+class NodeRefField(RefField):
+    resolver = staticmethod(refs.resolve_node)
+
+
+class BestsellerCategoryField(RefField):
+    resolver = staticmethod(refs.resolve_bestseller_category)
+
+
+class SearchQueryField(RefField):
+    resolver = staticmethod(refs.resolve_query)
+
+
+class LinkField(RefField):
+    resolver = staticmethod(refs.resolve_link)
+
+
+class PostalCodeField(StrippedString):
+    """Delivery postal code the page is rendered for (default: a code in the
+    marketplace's own country, sites.py)."""
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault("required", False)
+        kwargs.setdefault("load_default", None)
+        kwargs.setdefault("validate", validate.Length(min=3, max=12))
+        super().__init__(**kwargs)
+
+
+class AsinListField(CommaListField):
+    """Comma-separated ASINs / product links (max 10)."""
+
+    def __init__(self, **kwargs):
+        kwargs.setdefault("max_items", 10)
+        kwargs.pop("required", True)
+        super().__init__(upper=False, **kwargs)
+        # CommaListField defaults to optional; this one is mandatory.
+        self.required = True
+        self.load_default = missing
+
+    def _deserialize(self, value, attr, data, **kwargs):
+        items = super()._deserialize(value, attr, data, **kwargs)
+        if not items:
+            raise ValidationError("Must list at least one ASIN.")
+        out = []
+        for item in items:
+            try:
+                asin = refs.resolve_product(item)
+            except ValueError as e:
+                raise ValidationError(str(e))
+            if asin not in out:
+                out.append(asin)
+        return out
+
+
+_REF_KEYS = ("product", "products", "seller", "influencer", "post", "category", "query", "url")
+
+
+class MarketplaceSchema(BaseSchema):
+    """country + language, with the country inferred from a pasted link."""
+    country = CountryField()
+    language = LanguageCodeField()
+
+    @pre_load
+    def country_from_link(self, data, **kwargs):
+        data = dict(data)
+        if data.get("country"):
+            return data
+        for key in _REF_KEYS:
+            value = data.get(key)
+            if isinstance(value, str) and value:
+                country = refs.country_of(value.split(",")[0])
+                if country:
+                    data["country"] = country
+                    break
+        return data
+
+
+# ---- search --------------------------------------------------------------------------------------------------
+
+class _SearchFilters(MarketplaceSchema):
+    page = PageField(max_page=400)
+    sort = ChoiceField(list(SORTS), load_default="relevance")
+    min_price = Price()
+    max_price = Price()
+    brand = StrippedString(load_default=None, validate=validate.Length(max=100))
+    condition = ChoiceField(list(CONDITIONS))
+    is_prime = Flag()
+    four_stars_and_up = Flag()
+    deals = ChoiceField(list(DEAL_TYPES))
+
+    @post_load
+    def price_order(self, data, **kwargs):
+        if data.get("min_price") is not None and data.get("max_price") is not None and data["min_price"] > data["max_price"]:
+            raise ValidationError({"max_price": ["Must be greater than min_price."]})
+        return data
+
+
+class SearchSchema(_SearchFilters):
+    query = SearchQueryField()
+    category = StrippedString(load_default=None, validate=validate.Length(max=60))
+    node = NodeRefField(required=False, load_default=None)
+    seller = SellerRefField(required=False, load_default=None)
+
+
+class CategoryProductsSchema(_SearchFilters):
+    category = NodeRefField(data_key="category")
+
+    @post_load
+    def rename(self, data, **kwargs):
+        data["node"] = data.pop("category")
+        return data
+
+
+class LookupSchema(MarketplaceSchema):
+    identifier = StrippedString(required=True, validate=validate.Regexp(r"^[\w\- ]{6,40}$", error="Must be a UPC / EAN / GTIN / ISBN."))
+
+
+class AutocompleteSchema(BaseSchema):
+    query = QueryField(max_length=100)
+    country = CountryField()
+    category = StrippedString(load_default=None, validate=validate.Length(max=60))
+    limit = LimitField(default=11, max_size=20)
+
+
+class CategoriesSchema(MarketplaceSchema):
+    pass
+
+
+class CategoryTreeSchema(MarketplaceSchema):
+    category = NodeRefField(data_key="category")
+
+    @post_load
+    def rename(self, data, **kwargs):
+        data["node"] = data.pop("category")
+        return data
+
+
+# ---- products -----------------------------------------------------------------------------------------------
+
+class ProductSchema(MarketplaceSchema):
+    product = ProductRefField()
+
+
+class ProductDetailsSchema(ProductSchema):
+    postal_code = PostalCodeField()
+
+
+class OffersSchema(ProductSchema):
+    page = PageField(max_page=50)
+    condition = ChoiceField(list(OFFER_CONDITIONS), load_default="all")
+    prime_only = Flag()
+    postal_code = PostalCodeField()
+
+
+class BulkSchema(MarketplaceSchema):
+    products = AsinListField(required=True)
+    postal_code = PostalCodeField()
+
+
+class ScrapeUrlSchema(BaseSchema):
+    url = LinkField()
+    language = LanguageCodeField()
+    postal_code = PostalCodeField()
+
+
+# ---- rankings / deals ------------------------------------------------------------------------------------
+
+class BestsellersSchema(MarketplaceSchema):
+    category = BestsellerCategoryField(required=False, load_default="")
+    list_type = ChoiceField(list(LIST_TYPES), load_default="best_sellers")
+    page = PageField(max_page=2)
+
+
+class BestsellerCategoriesSchema(MarketplaceSchema):
+    category = BestsellerCategoryField(required=False, load_default="")
+
+
+class DealsSchema(MarketplaceSchema):
+    collection = StrippedString(load_default=None, validate=validate.Length(max=80))
+    department_id = StrippedString(load_default=None, validate=validate.Regexp(r"^\d{1,20}$", error="Must be a numeric department id (from `refinements`)."))
+    brand = StrippedString(load_default=None, validate=validate.Length(max=100))
+    min_discount = PositiveInt(max_value=99)
+    max_discount = PositiveInt(max_value=100)
+    min_rating = ChoiceField({"4": 4, "3": 3, "2": 2, "1": 1})
+    prime_early_access = Flag()
+    sort = ChoiceField(list(DEAL_SORTS), load_default="featured")
+    page = PageField(max_page=50)
+    include_prices = Flag(load_default=True)
+
+
+# ---- sellers -------------------------------------------------------------------------------------------------
+
+class SellerSchema(MarketplaceSchema):
+    seller = SellerRefField()
+
+
+class SellerFeedbackSchema(SellerSchema):
+    page = PageField(max_page=1000)
+    rating = ChoiceField(list(FEEDBACK_FILTERS), load_default="all")
+    period = ChoiceField(list(FEEDBACK_PERIODS), load_default="lifetime")
+    sort = ChoiceField(list(FEEDBACK_SORTS), load_default="recent")
+
+
+class SellerProductsSchema(SellerSchema):
+    page = PageField(max_page=400)
+    sort = ChoiceField(list(SORTS), load_default="relevance")
+    query = StrippedString(load_default=None, validate=validate.Length(max=200))
+
+
+# ---- influencers -------------------------------------------------------------------------------------------
+
+class InfluencerSchema(MarketplaceSchema):
+    influencer = InfluencerRefField()
+
+
+class InfluencerPostsSchema(InfluencerSchema):
+    post_type = ChoiceField(["all", "list", "photo", "video", "post"], load_default="all")
+
+
+class InfluencerPostSchema(MarketplaceSchema):
+    post = PostRefField()
+    influencer = InfluencerRefField(required=False, load_default=None)

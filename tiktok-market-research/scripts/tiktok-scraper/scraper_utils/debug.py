@@ -1,1 +1,16 @@
-IiIiRGVidWcgZHVtcHM6IGtlZXAgdGhlIHJhdyBib2R5IG9mIGEgZmFpbGVkIHJlc3BvbnNlIGZvciBhIHBvc3QtbW9ydGVtLiIiIgppbXBvcnQgb3MKCgpkZWYgZHVtcChlbnZfdmFyLCBuYW1lLCB0ZXh0LCBlbmNvZGluZz1Ob25lLCBleHQ9Ii50eHQiLCByZW5kZXI9Tm9uZSk6CiAgICAiIiJXcml0ZSBgdGV4dGAgdG8gJDxlbnZfdmFyPi88bmFtZT48ZXh0Pi4gRG9lcyBub3RoaW5nIHdoZW4gdGhlIHZhcmlhYmxlCiAgICBpcyB1bnNldCBvciB0aGUgdGV4dCBpcyBlbXB0eTsgYSB3cml0ZSBmYWlsdXJlIGlzIHN3YWxsb3dlZC4gYHJlbmRlcmAKICAgIHR1cm5zIGEgbm9uLXN0cmluZyAoYSBkZWNvZGVkIEpTT04gYm9keSkgaW50byB0ZXh0LiIiIgogICAgZGJnID0gb3MuZW52aXJvbi5nZXQoZW52X3ZhciwgIiIpCiAgICBpZiBkYmcgYW5kIHRleHQ6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBvcy5tYWtlZGlycyhkYmcsIGV4aXN0X29rPVRydWUpCiAgICAgICAgICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oZGJnLCBuYW1lICsgZXh0KSwgInciLCBlbmNvZGluZz1lbmNvZGluZykgYXMgZjoKICAgICAgICAgICAgICAgIGYud3JpdGUodGV4dCBpZiByZW5kZXIgaXMgTm9uZSBvciBpc2luc3RhbmNlKHRleHQsIHN0cikgZWxzZSByZW5kZXIodGV4dCkpCiAgICAgICAgZXhjZXB0IE9TRXJyb3I6CiAgICAgICAgICAgIHBhc3MK
+"""Debug dumps: keep the raw body of a failed response for a post-mortem."""
+import os
+
+
+def dump(env_var, name, text, encoding=None, ext=".txt", render=None):
+    """Write `text` to $<env_var>/<name><ext>. Does nothing when the variable
+    is unset or the text is empty; a write failure is swallowed. `render`
+    turns a non-string (a decoded JSON body) into text."""
+    dbg = os.environ.get(env_var, "")
+    if dbg and text:
+        try:
+            os.makedirs(dbg, exist_ok=True)
+            with open(os.path.join(dbg, name + ext), "w", encoding=encoding) as f:
+                f.write(text if render is None or isinstance(text, str) else render(text))
+        except OSError:
+            pass

@@ -1,1 +1,15 @@
-IiIiSGVscGVycyBzaGFyZWQgYnkgdGhlIHNpdGUgcGFja2FnZXMsIHNvIGEgc2l0ZSBrZWVwcyBvbmx5IHdoYXQgaXMgaXRzIG93bi4KClJ1bGVzIGZvciBhbnl0aGluZyBhZGRlZCBoZXJlOgoKLSBTdGFuZGFyZCBsaWJyYXJ5IG9ubHkgYXQgaW1wb3J0OyBjdXJsX2NmZmkgaXMgaW1wb3J0ZWQgaW5zaWRlIHRoZSBmdW5jdGlvbgogIHRoYXQgbmVlZHMgaXQuIE5vIGBjb25maWdgLCBgZWdyZXNzYCwgYGlkZW50aXR5X3Bvb2xgIG9yIGBicm93c2VyX2NsaWVudGA6CiAgYSBzaXRlIHBhc3NlcyBpbiB3aGF0IGEgaGVscGVyIG5lZWRzLCByZWFkIGF0IGNhbGwgdGltZS4KLSBOb3RoaW5nIHNlY3JldCBhbmQgbm8gcHJveHkgb3IgZ2F0ZXdheSBuYW1lcy4gVGhpcyBmb2xkZXIgaXMgY29waWVkIGFzLWlzCiAgaW50byBldmVyeSBvcGVuLXNvdXJjZSBzY3JhcGVyIHJlcG8uCi0gQSBzaXRlIG1vZHVsZSBrZWVwcyBpdHMgb3duIG5hbWVzLiBJdCBpbXBvcnRzIGEgaGVscGVyIHVuZGVyIHRoZSBuYW1lIGl0CiAgYWxyZWFkeSB1c2VkIChgZnJvbSBzY3JhcGVyX3V0aWxzLnZhbHVlcyBpbXBvcnQgdG9faW50X3JvdW5kIGFzIHRvX2ludGApIG9yCiAga2VlcHMgYSBvbmUtbGluZSB3cmFwcGVyLCBhbmQgbW9kdWxlIHN0YXRlIHN1Y2ggYXMgYF9sb2NhbGAgc3RheXMgaW4gdGhlIHNpdGUKICBtb2R1bGUsIHNvIGNvZGUgYW5kIHRlc3RzIHRoYXQgcmVhY2ggZm9yIGBwYXJzZXJzLnRvX2ludGAgb3IKICBgZmV0Y2guX2Ryb3Bfc2Vzc2lvbmAga2VlcCB3b3JraW5nLgoiIiIK
+"""Helpers shared by the site packages, so a site keeps only what is its own.
+
+Rules for anything added here:
+
+- Standard library only at import; curl_cffi is imported inside the function
+  that needs it. No `config`, `egress`, `identity_pool` or `browser_client`:
+  a site passes in what a helper needs, read at call time.
+- Nothing secret and no proxy or gateway names. This folder is copied as-is
+  into every open-source scraper repo.
+- A site module keeps its own names. It imports a helper under the name it
+  already used (`from scraper_utils.values import to_int_round as to_int`) or
+  keeps a one-line wrapper, and module state such as `_local` stays in the site
+  module, so code and tests that reach for `parsers.to_int` or
+  `fetch._drop_session` keep working.
+"""

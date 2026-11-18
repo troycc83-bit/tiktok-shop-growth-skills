@@ -1,1 +1,46 @@
-IiIiL2FtYXpvbi9zZWxsZXJzLyog4oCUIHRoZSBzZWxsZXIgcHJvZmlsZSBwYWdlICgvc3A/c2VsbGVyPSksIGl0cyBmZWVkYmFjawoodGhlIC9zcC9hamF4L2ZlZWRiYWNrIEpTT04gdGhlIHBhZ2UncyBoaXN0b2dyYW0gdXNlcykgYW5kIHRoZSBzZWxsZXIncwpzdG9yZWZyb250IGxpc3RpbmdzICgvcz9tZT0pLiIiIgpmcm9tIGFtYXpvbiBpbXBvcnQgZmV0Y2gsIHBhcnNlcnMgYXMgUApmcm9tIGFtYXpvbi5zaGFyZWQgaW1wb3J0IGNvbnRleHQsIHBhZ2VkX3Jlc3VsdAoKRkVFREJBQ0tfUEVSX1BBR0UgPSA1CkZFRURCQUNLX0ZJTFRFUlMgPSB7ImFsbCI6ICJhbGwiLCAicG9zaXRpdmUiOiAiYWxsX3Bvc2l0aXZlIiwgImNyaXRpY2FsIjogImFsbF9jcml0aWNhbCIsICI1X3N0YXJzIjogIjUiLCAiNF9zdGFycyI6ICI0IiwKICAgICAgICAgICAgICAgICAgICAiM19zdGFycyI6ICIzIiwgIjJfc3RhcnMiOiAiMiIsICIxX3N0YXIiOiAiMSJ9CkZFRURCQUNLX1BFUklPRFMgPSB7ImxpZmV0aW1lIjogImxpZmV0aW1lIiwgIjEyX21vbnRocyI6ICJ0d2VsdmVNb250aCIsICIzX21vbnRocyI6ICJ0aHJlZU1vbnRoIiwgIjFfbW9udGgiOiAib25lTW9udGgifQpGRUVEQkFDS19TT1JUUyA9IHsicmVjZW50IjogInJlY2VudCIsICJoZWxwZnVsIjogImhlbHBmdWwifQoKCmRlZiBwcm9maWxlKHNlbGxlciwgY291bnRyeT1Ob25lLCBsYW5ndWFnZT1Ob25lKToKICAgIHNpdGUsIGxvY2FsZSA9IGNvbnRleHQoY291bnRyeSwgbGFuZ3VhZ2UpCiAgICBodG1sID0gZmV0Y2gucGFnZShzaXRlWyJjb3VudHJ5Il0sICIvc3AiLCB7InNlbGxlciI6IHNlbGxlcn0sIGxhbmd1YWdlPWxvY2FsZSwgbGFiZWw9ZiJzZWxsZXIge3NlbGxlcn0iKQogICAgZGF0YSA9IFAuc2VsbGVyX3BhZ2UoaHRtbCwgc2l0ZSkKICAgIGlmIG5vdCBkYXRhLmdldCgibmFtZSIpOgogICAgICAgIHJhaXNlIGZldGNoLkFtYXpvbk5vdEZvdW5kKGYic2VsbGVyIHtzZWxsZXJ9OiBubyBwcm9maWxlIHBhZ2UiKQogICAgZGF0YVsiaWQiXSA9IGRhdGEuZ2V0KCJpZCIpIG9yIHNlbGxlcgogICAgcmV0dXJuIGRhdGEKCgpkZWYgZmVlZGJhY2soc2VsbGVyLCBjb3VudHJ5PU5vbmUsIGxhbmd1YWdlPU5vbmUsIHBhZ2U9MSwgcmF0aW5nPSJhbGwiLCBwZXJpb2Q9ImxpZmV0aW1lIiwgc29ydD0icmVjZW50Iik6CiAgICBzaXRlLCBsb2NhbGUgPSBjb250ZXh0KGNvdW50cnksIGxhbmd1YWdlKQogICAgcGFyYW1zID0geyJzZWxsZXIiOiBzZWxsZXIsICJtYXJrZXRwbGFjZUlEIjogc2l0ZVsibWFya2V0cGxhY2VfaWQiXSwgImZlZWRiYWNrS2V5IjogRkVFREJBQ0tfUEVSSU9EUy5nZXQocGVyaW9kLCAibGlmZXRpbWUiKSwKICAgICAgICAgICAgICAicGFnZU51bWJlciI6IHN0cihwYWdlKSwgImZpbHRlciI6IEZFRURCQUNLX0ZJTFRFUlMuZ2V0KHJhdGluZywgImFsbCIpLCAic29ydEJ5IjogRkVFREJBQ0tfU09SVFMuZ2V0KHNvcnQsICJyZWNlbnQiKX0KICAgIGJvZHkgPSBmZXRjaC5hamF4X2pzb24oc2l0ZVsiY291bnRyeSJdLCAiL3NwL2FqYXgvZmVlZGJhY2siLCBwYXJhbXMsIHJlZmVyZXI9ZiJ7c2l0ZVsnYmFzZSddfS9zcD9zZWxsZXI9e3NlbGxlcn0iLAogICAgICAgICAgICAgICAgICAgICAgICAgICBsYW5ndWFnZT1sb2NhbGUsIGxhYmVsPWYic2VsbGVyIGZlZWRiYWNrIHtzZWxsZXJ9IikKICAgIGlmIG5vdCBpc2luc3RhbmNlKGJvZHksIGRpY3QpOgogICAgICAgIHJhaXNlIGZldGNoLkFtYXpvblVwc3RyZWFtRXJyb3IoInNlbGxlciBmZWVkYmFjazogdW5leHBlY3RlZCByZXNwb25zZSIpCiAgICByb3dzID0gW1AuZmVlZGJhY2tfaXRlbShyLCBzaXRlKSBmb3IgciBpbiBib2R5LmdldCgiZGV0YWlscyIpIG9yIFtdIGlmIGlzaW5zdGFuY2UociwgZGljdCldCiAgICB0b3RhbCA9IFAudG9faW50KGJvZHkuZ2V0KCJ0b3RhbGNvdW50IikpIG9yIE5vbmUKICAgIHJldHVybiBwYWdlZF9yZXN1bHQoImZlZWRiYWNrIiwgcm93cywgcGFnZSwgRkVFREJBQ0tfUEVSX1BBR0UsIHRvdGFsPXRvdGFsLAogICAgICAgICAgICAgICAgICAgICAgICBoYXNfbW9yZT1ib29sKGJvZHkuZ2V0KCJoYXNOZXh0UGFnZSIpKSwgc2VsbGVyX2lkPXNlbGxlciwgcmF0aW5nPXJhdGluZywgcGVyaW9kPXBlcmlvZCwKICAgICAgICAgICAgICAgICAgICAgICAgY291bnRyeT1zaXRlWyJjb3VudHJ5Il0sIGRvbWFpbj1zaXRlWyJob3N0Il0pCgoKZGVmIHByb2R1Y3RzKHNlbGxlciwgY291bnRyeT1Ob25lLCBsYW5ndWFnZT1Ob25lLCBwYWdlPTEsIHNvcnQ9InJlbGV2YW5jZSIsIHF1ZXJ5PU5vbmUpOgogICAgZnJvbSBhbWF6b24gaW1wb3J0IHNlYXJjaCBhcyBTCiAgICBzaXRlLCBsb2NhbGUgPSBjb250ZXh0KGNvdW50cnksIGxhbmd1YWdlKQogICAgcGFyYW1zID0gUy5fc2VhcmNoX3BhcmFtcyhxdWVyeT1xdWVyeSwgc2VsbGVyPXNlbGxlciwgcGFnZT1wYWdlLCBzb3J0PXNvcnQpCiAgICBwYXJhbXNbIm1hcmtldHBsYWNlSUQiXSA9IHNpdGVbIm1hcmtldHBsYWNlX2lkIl0KICAgIG91dCA9IFMuX3J1bl9zZWFyY2goc2l0ZSwgbG9jYWxlLCBwYXJhbXMsIHt9LCBwYWdlLCBzZWxsZXJfaWQ9c2VsbGVyLCBxdWVyeT1xdWVyeSwgY291bnRyeT1zaXRlWyJjb3VudHJ5Il0sIGRvbWFpbj1zaXRlWyJob3N0Il0pCiAgICBvdXQucG9wKCJkZXBhcnRtZW50cyIsIE5vbmUpCiAgICByZXR1cm4gb3V0Cg==
+"""/amazon/sellers/* — the seller profile page (/sp?seller=), its feedback
+(the /sp/ajax/feedback JSON the page's histogram uses) and the seller's
+storefront listings (/s?me=)."""
+from amazon import fetch, parsers as P
+from amazon.shared import context, paged_result
+
+FEEDBACK_PER_PAGE = 5
+FEEDBACK_FILTERS = {"all": "all", "positive": "all_positive", "critical": "all_critical", "5_stars": "5", "4_stars": "4",
+                    "3_stars": "3", "2_stars": "2", "1_star": "1"}
+FEEDBACK_PERIODS = {"lifetime": "lifetime", "12_months": "twelveMonth", "3_months": "threeMonth", "1_month": "oneMonth"}
+FEEDBACK_SORTS = {"recent": "recent", "helpful": "helpful"}
+
+
+def profile(seller, country=None, language=None):
+    site, locale = context(country, language)
+    html = fetch.page(site["country"], "/sp", {"seller": seller}, language=locale, label=f"seller {seller}")
+    data = P.seller_page(html, site)
+    if not data.get("name"):
+        raise fetch.AmazonNotFound(f"seller {seller}: no profile page")
+    data["id"] = data.get("id") or seller
+    return data
+
+
+def feedback(seller, country=None, language=None, page=1, rating="all", period="lifetime", sort="recent"):
+    site, locale = context(country, language)
+    params = {"seller": seller, "marketplaceID": site["marketplace_id"], "feedbackKey": FEEDBACK_PERIODS.get(period, "lifetime"),
+              "pageNumber": str(page), "filter": FEEDBACK_FILTERS.get(rating, "all"), "sortBy": FEEDBACK_SORTS.get(sort, "recent")}
+    body = fetch.ajax_json(site["country"], "/sp/ajax/feedback", params, referer=f"{site['base']}/sp?seller={seller}",
+                           language=locale, label=f"seller feedback {seller}")
+    if not isinstance(body, dict):
+        raise fetch.AmazonUpstreamError("seller feedback: unexpected response")
+    rows = [P.feedback_item(r, site) for r in body.get("details") or [] if isinstance(r, dict)]
+    total = P.to_int(body.get("totalcount")) or None
+    return paged_result("feedback", rows, page, FEEDBACK_PER_PAGE, total=total,
+                        has_more=bool(body.get("hasNextPage")), seller_id=seller, rating=rating, period=period,
+                        country=site["country"], domain=site["host"])
+
+
+def products(seller, country=None, language=None, page=1, sort="relevance", query=None):
+    from amazon import search as S
+    site, locale = context(country, language)
+    params = S._search_params(query=query, seller=seller, page=page, sort=sort)
+    params["marketplaceID"] = site["marketplace_id"]
+    out = S._run_search(site, locale, params, {}, page, seller_id=seller, query=query, country=site["country"], domain=site["host"])
+    out.pop("departments", None)
+    return out

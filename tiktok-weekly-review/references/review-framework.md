@@ -1,1 +1,53 @@
-IyDlpI3nm5jmoYbmnrbvvIhSZXZpZXcgRnJhbWV3b3Jr77yJCgo+IOmAkOWxguWumuS9jeWBj+W3rueahOaWueazleOAguaguOW/g+aYryLmib7mnIDlpKflgY/lt67lsYIi77yM6ICM5LiN5piv5rOb5rOb55yL5pW05L2T44CCCgojIyDmvI/mlpfliIblsYLvvIjmib7lh7rlk6rkuIDnjq/mjonkuobvvIkKCiMjIyDlhoXlrrnmvI/mlpcKYGBgCuinhumikeWPkeW4g+aVsCDihpIg5bmz5Z2H5pKt5pS+IOKGkiAz56eS55WZ5a2YIOKGkiDllYblk4Hngrnlh7vnjocg4oaSIOS4i+WNlei9rOWMlueOhyDihpIg5oiQ5LqkCmBgYArpgJDlsYLlr7nmr5TorqHliJIgdnMg5a6e6ZmF77yM5om+5Ye66ZmN5bmF5pyA5aSn55qE5LiA5bGC44CCCgotIOWPkeW4g+aVsOS4jeWknyDihpIg5omn6KGM6Zeu6aKY77yI5Y+v5o6n5Yqo5L2c5LiN6Laz77yJCi0g5pKt5pS+5L2OIOKGkiDliIblj5EvaG9vayDpl67popjvvIjliY0gMyDnp5LmsqHmipPkvY/vvIkKLSDngrnlh7vkvY4g4oaSIOWGheWuueivtOacjeWKm+mXrumimO+8iOayoea/gOWPkeWFtOi2o++8iQotIOi9rOWMluS9jiDihpIg5ZWG5ZOB6aG1L+S7t+agvC/or4Tku7fpl67popgKCiMjIyDovr7kurrmvI/mlpcKYGBgCuW7uuiBlOaVsCDihpIg6YeH57qz546HIOKGkiDlh7rljZXmlbAg4oaSIOWNleS6uuS6p+WHuiDihpIg6L6+5Lq6IEdNViDotKHnjK4KYGBgCi0g5bu66IGU5bCRIOKGkiDliqjkvZzph4/kuI3otrMKLSDph4fnurPnjofkvY4g4oaSIOi+vuS6uuetm+mAieaIluivneacr+mXrumimAotIOWHuuWNleeOh+S9jiDihpIg5L2j6YeR5ZC45byV5Yqb5oiW5Lqn5ZOB5Yy56YWN6Zeu6aKYCgojIyDlvZLlm6DliIbnsbvvvIjlr7nmnIDlpKflgY/lt67lsYLvvIkKCnwg57G75YirIHwg5YW45Z6L5L+h5Y+3IHwKfC0tLS0tLXwtLS0tLS0tLS18Cnwg5YaF5a656Zeu6aKYIHwg5pKt5pS+6auY5L2G54K55Ye75L2O77ybMyDnp5LnlZnlrZjlt64gfAp8IOmAieWTgS/kuqflk4EgfCDngrnlh7vmnInkvYbovazljJbkvY7vvJvlt67or4Tpm4bkuK0gfAp8IOi+vuS6uumXrumimCB8IOW7uuiBlC/ph4fnurMv5Ye65Y2V5p+Q5bGC5o6JIHwKfCDmtYHph4/mipXmlL4gfCDmm53lhYnkuI3otrPjgIHpooTnrpfmj5DliY3ogJflsL0gfAoK5q+P57G75b2S5Zug5b+F6aG76ZmE5pWw5o2u5L6d5o2u77yb5pWw5o2u5LiN6Laz5Lul5pSv5pKR5pe25qCH5Li6IuaOqOa1iyLlubbor7TmmI7jgIIKCiMjIOi1hOS6p+Wbnua1geWIpOaWrQoK5LiA5p2h5YaF5a655YC85b6X5Zue5rWB5oiQ6aqo5p6277yM6ZyA5ruh6Laz6Iez5bCR5LiA5p2h77yaCi0g6L2s5YyW546H5piO5pi+6auY5LqO6L+R5pyf5bmz5Z2HCi0g5ZCM5LiA6aqo5p626KKr5aSa5qyh6aqM6K+B5pyJ5pWICi0g6LeR5Ye65LqG6L+H5Y675rKh5YGa6L+H55qE5ryP5paX56qB56C077yI5aaC6aaW5qyh56qB56C05p+Q54K55Ye7546H77yJCgrlm57mtYHml7blj6rorrAqKue7k+aehCoq77yaSG9vayDnsbvlnovjgIHml7bpl7TovbTjgIHor7TmnI3nm67nmoTpobrluo/jgIHmiJjmnK/kvb/nlKjjgILlhbfkvZPkuqflk4HmlofmoYjkuI3orrDjgIIKCiMjIOS4i+WRqCAzIOS7tuS6iwoK5Y+q5pS+5Y+v5o6n5Yqo5L2c77yM5Zu057uV77yaCi0g6L6+5Lq677ya5bu66IGUIE4gLyDlr4TmoLcgTgotIOWGheWuue+8muS6p+inhumikSBOIC8g5ouG54iG5qy+IE4KLSDmlbDmja7vvJrlpI3nm5jkuIDmrKEgLyDlm57mtYHpqqjmnrYKCk4g55Sx55So5oi35qC55o2u5a6e6ZmF5oOF5Ya15aGr77yMU2tpbGwg5LiN5Luj5a6a44CCCg==
+# 复盘框架（Review Framework）
+
+> 逐层定位偏差的方法。核心是"找最大偏差层"，而不是泛泛看整体。
+
+## 漏斗分层（找出哪一环掉了）
+
+### 内容漏斗
+```
+视频发布数 → 平均播放 → 3秒留存 → 商品点击率 → 下单转化率 → 成交
+```
+逐层对比计划 vs 实际，找出降幅最大的一层。
+
+- 发布数不够 → 执行问题（可控动作不足）
+- 播放低 → 分发/hook 问题（前 3 秒没抓住）
+- 点击低 → 内容说服力问题（没激发兴趣）
+- 转化低 → 商品页/价格/评价问题
+
+### 达人漏斗
+```
+建联数 → 采纳率 → 出单数 → 单人产出 → 达人 GMV 贡献
+```
+- 建联少 → 动作量不足
+- 采纳率低 → 达人筛选或话术问题
+- 出单率低 → 佣金吸引力或产品匹配问题
+
+## 归因分类（对最大偏差层）
+
+| 类别 | 典型信号 |
+|------|---------|
+| 内容问题 | 播放高但点击低；3 秒留存差 |
+| 选品/产品 | 点击有但转化低；差评集中 |
+| 达人问题 | 建联/采纳/出单某层掉 |
+| 流量投放 | 曝光不足、预算提前耗尽 |
+
+每类归因必须附数据依据；数据不足以支撑时标为"推测"并说明。
+
+## 资产回流判断
+
+一条内容值得回流成骨架，需满足至少一条：
+- 转化率明显高于近期平均
+- 同一骨架被多次验证有效
+- 跑出了过去没做过的漏斗突破（如首次突破某点击率）
+
+回流时只记**结构**：Hook 类型、时间轴、说服目的顺序、战术使用。具体产品文案不记。
+
+## 下周 3 件事
+
+只放可控动作，围绕：
+- 达人：建联 N / 寄样 N
+- 内容：产视频 N / 拆爆款 N
+- 数据：复盘一次 / 回流骨架
+
+N 由用户根据实际情况填，Skill 不代定。

@@ -1,1 +1,30 @@
-IiIiVGhlIHRleHQgaGVscGVyczogd2hhdCBlYWNoIHZhcmlhbnQgcHJvbWlzZXMuIiIiCmZyb20gc2NyYXBlcl91dGlscyBpbXBvcnQgdGV4dCBhcyBUCgoKZGVmIHRlc3Rfc2hvcnRfc3RyaW5nX3ZhcmlhbnRzKCk6CiAgICBhc3NlcnQgVC5zdHJpcHBlZCgiICBhICBiICIpID09ICJhICBiIiBhbmQgVC5zdHJpcHBlZCgiIikgaXMgTm9uZSBhbmQgVC5zdHJpcHBlZCg1KSBpcyBOb25lCiAgICBhc3NlcnQgVC50cmltbWVkKCIgIGEgIGIgIikgPT0gImEgIGIiIGFuZCBULnRyaW1tZWQoNSkgPT0gIjUiIGFuZCBULnRyaW1tZWQoVHJ1ZSkgaXMgTm9uZSBhbmQgVC50cmltbWVkKHt9KSBpcyBOb25lCiAgICBhc3NlcnQgVC5zcXVhc2hlZCgiIGEgXG4gYiAiKSA9PSAiYSBiIiBhbmQgVC5zcXVhc2hlZCg1KSBpcyBOb25lIGFuZCBULnNxdWFzaGVkKCIgICIpIGlzIE5vbmUKICAgIGFzc2VydCBULnNxdWFzaGVkX2FueSgiIGEgXG4gYiAiKSA9PSAiYSBiIiBhbmQgVC5zcXVhc2hlZF9hbnkoNSkgPT0gIjUiIGFuZCBULnNxdWFzaGVkX2FueShOb25lKSBpcyBOb25lCiAgICBhc3NlcnQgVC5jbGVhbigiIGFceGEwJmFtcDsgXG4gYiAiKSA9PSAiYSAmIGIiIGFuZCBULmNsZWFuKHsidGV4dCI6ICIgeCAifSkgPT0gIngiIGFuZCBULmNsZWFuKCIiKSBpcyBOb25lCiAgICBhc3NlcnQgVC5wbGFpbigiPGI+YTwvYj4gJmFtcDsgPGk+YjwvaT4iKSA9PSAiYSAmIGIiIGFuZCBULnBsYWluKE5vbmUpIGlzIE5vbmUKCgpkZWYgdGVzdF9tdWx0aWxpbmVfa2VlcHNfbGluZV9icmVha3MoKToKICAgIGFzc2VydCBULm11bHRpbGluZSgiIGEgIGIgXG5cblxuXG4gYyAiKSA9PSAiYSBiXG5cbmMiCiAgICBhc3NlcnQgVC5tdWx0aWxpbmUoeyJ0ZXh0IjogInhcbnkifSkgPT0gInhcbnkiIGFuZCBULm11bHRpbGluZShOb25lKSBpcyBOb25lIGFuZCBULm11bHRpbGluZSgiIFxuICIpIGlzIE5vbmUKCgpkZWYgdGVzdF9sb3dlcl9zbmFrZSgpOgogICAgYXNzZXJ0IFQubG93ZXJfc25ha2UoIldvcmsvTGlmZSBiYWxhbmNlIikgPT0gIndvcmtfbGlmZV9iYWxhbmNlIgogICAgYXNzZXJ0IFQubG93ZXJfc25ha2UoIkJlbmVmaXRzICZhbXA7IHBlcmtzIikgPT0gImJlbmVmaXRzX3BlcmtzIiBhbmQgVC5sb3dlcl9zbmFrZSgiLS0tIikgaXMgTm9uZQoKCmRlZiB0ZXN0X2h0bWxfdG9fdGV4dCgpOgogICAgYXNzZXJ0IFQuaHRtbF90b190ZXh0KCI8cD5hPC9wPjxwPmI8L3A+IikgPT0gImFcblxuYiIKICAgIGFzc2VydCBULmh0bWxfdG9fdGV4dCgiYTxicj5iIikgPT0gImFcbmIiCiAgICBhc3NlcnQgVC5odG1sX3RvX3RleHQoIjx1bD48bGk+YTwvbGk+PGxpPmI8L2xpPjwvdWw+IikgPT0gIi0gYVxuLSBiIgogICAgYXNzZXJ0IFQuaHRtbF90b190ZXh0KCI8c2NyaXB0Png8L3NjcmlwdD55IikgPT0gInkiCiAgICBhc3NlcnQgVC5odG1sX3RvX3RleHQoInBsYWluICZhbXA7IHNpbXBsZSIpID09ICJwbGFpbiAmIHNpbXBsZSIKICAgIGFzc2VydCBULmh0bWxfdG9fdGV4dCgiIikgaXMgTm9uZSBhbmQgVC5odG1sX3RvX3RleHQoNSkgaXMgTm9uZSBhbmQgVC5odG1sX3RvX3RleHQoTm9uZSkgaXMgTm9uZQo=
+"""The text helpers: what each variant promises."""
+from scraper_utils import text as T
+
+
+def test_short_string_variants():
+    assert T.stripped("  a  b ") == "a  b" and T.stripped("") is None and T.stripped(5) is None
+    assert T.trimmed("  a  b ") == "a  b" and T.trimmed(5) == "5" and T.trimmed(True) is None and T.trimmed({}) is None
+    assert T.squashed(" a \n b ") == "a b" and T.squashed(5) is None and T.squashed("  ") is None
+    assert T.squashed_any(" a \n b ") == "a b" and T.squashed_any(5) == "5" and T.squashed_any(None) is None
+    assert T.clean(" a\xa0&amp; \n b ") == "a & b" and T.clean({"text": " x "}) == "x" and T.clean("") is None
+    assert T.plain("<b>a</b> &amp; <i>b</i>") == "a & b" and T.plain(None) is None
+
+
+def test_multiline_keeps_line_breaks():
+    assert T.multiline(" a  b \n\n\n\n c ") == "a b\n\nc"
+    assert T.multiline({"text": "x\ny"}) == "x\ny" and T.multiline(None) is None and T.multiline(" \n ") is None
+
+
+def test_lower_snake():
+    assert T.lower_snake("Work/Life balance") == "work_life_balance"
+    assert T.lower_snake("Benefits &amp; perks") == "benefits_perks" and T.lower_snake("---") is None
+
+
+def test_html_to_text():
+    assert T.html_to_text("<p>a</p><p>b</p>") == "a\n\nb"
+    assert T.html_to_text("a<br>b") == "a\nb"
+    assert T.html_to_text("<ul><li>a</li><li>b</li></ul>") == "- a\n- b"
+    assert T.html_to_text("<script>x</script>y") == "y"
+    assert T.html_to_text("plain &amp; simple") == "plain & simple"
+    assert T.html_to_text("") is None and T.html_to_text(5) is None and T.html_to_text(None) is None

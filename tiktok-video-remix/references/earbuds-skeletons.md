@@ -1,1 +1,50 @@
-IyDnvo7ljLrogLPmnLrniIbmrL7pqqjmnrblupPvvIhFYXJidWRzIFNrZWxldG9uc++8iQoKPiDln7rkuo7nvo7ljLrogLPmnLrnsbvnm67lhazlvIDniIbmrL7moYjkvovmj5DngrznmoQgNSDlpKflj5nkuovpqqjmnrbjgILov5nmmK/ku7/lhpnnmoTotbfngrnmqKHmnb/vvIzkuI3mmK/lm7rlrprnrZTmoYjjgIIKPiDlrp7pmYXot5HotaLnmoTpqqjmnrbnlLEgYHRpa3Rvay13ZWVrbHktcmV2aWV3YCDlm57mtYHliLDlhbHkuqvnn6Xor4blupMgYHdpbm5pbmctdGVtcGxhdGVzLm1kYO+8jOS8mOWFiOe6p+mrmOS6juacrOaWh+S7tuOAggoKIyMg6aqo5p62IDHvvJrlnLrmma/nl5vngrnlnosKCi0g57uT5p6E77ya6L+Q5Yqo5Zy65pmv55eb54K577yI6ICz5py65o6J5LqGL+mXt+eDrS/lkKzkuI3liLDovablloflj63vvInihpIg5Lqn5ZOB55m75Zy6IOKGkiDnqLPlm7ov6IiS6YCC5ryU56S6IOKGkiDnu5PmnpznlLvpnaIKLSBIb29rIOexu+Wei++8mumXrumimOeCueWQjQotIOmAgueUqOWNlueCue+8muW8gOaUvuW8jy/lpLnogLPlvI/nmoTnqLPlm7rjgIHkuI3pl7fogLPjgIHnjq/looPpn7PmhJ/nn6UKLSDlv4Xpobvlh7rnjrDnmoTmvJTnpLrvvJrov5DliqjkuK3kvanmiLTkuI3ohLHokL3nmoTnnJ/lrp7nlLvpnaIKLSDlj4LogIPmoYjkvovvvJpTSE9LWiDnlKjmuLjms7Mv6LeR5q2l5Y2a5Li755yf5a6e5Zy65pmv77yM5Y2V5p2h5pKt5pS+56C05Y2D5LiH57qn77yI6KGM5Lia5oql6YGT77yJCgojIyDpqqjmnrYgMu+8muWvueavlOWGsuWHu+WeiwoKLSDnu5PmnoTvvJrlhaXogLPlvI8gdnMg5byA5pS+5byP5L2p5oi05a+55q+UIOKGkiDnjq/looPpn7PmvJTnpLrvvIjog73lkKzliLDlkajlm7TvvInihpIg6IiS6YCC5bqm57uT6K66Ci0gSG9vayDnsbvlnovvvJpCZWZvcmUvQWZ0ZXIg5oiW5qih5byP5Lit5patCi0g6YCC55So5Y2W54K577ya5a6J5YWo44CB5LiN5Lyk6ICz44CB5LmF5oi06IiS6YCCCi0g5b+F6aG75Ye6546w55qE5ryU56S677ya5Lik5Liq5Lqn5ZOB5ZCM5qGG5a+55q+U77yM5LiU5pWI5p6c5LiA55y85Y+v6KeBCi0g5rOo5oSP77ya5a+55q+U6ZyA5a6i6KeC77yM6YG/5YWN6LSs5o2f56ue5ZOB5ZOB54mM5ZCNCgojIyDpqqjmnrYgM++8muaegemZkOa1i+ivleWeiwoKLSDnu5PmnoTvvJrmipvlh7rnlpHpl67vvIjpmLLmsLTvvJ/nqLPlm7rvvJ/vvInihpIg5p6B6ZmQ5rWL6K+V77yI5Yay5rC0L+aatOaxly/pq5jlvLrluqbov5DliqjvvInihpIg57uT5p6cCi0gSG9vayDnsbvlnovvvJrlpKfog4bmlq3oqIAgLyDmqKHlvI/kuK3mlq0KLSDpgILnlKjljZbngrnvvJpJUCDpmLLmsLTnrYnnuqfjgIHogJDnlKjmgKfjgIHpuqblhYvpo47mipfpo47lmaoKLSDlv4Xpobvlh7rnjrDnmoTmvJTnpLrvvJrnnJ/lrp7mtYvor5Xov4fnqIvvvIzop4bop4nlhrLlh7vlvLoKLSDms6jmhI/vvJrmtYvor5XopoHnnJ/lrp7lj6/lpI3njrDvvIzpgb/lhY3lpLjlpKflr7zoh7TlkIjop4Tpo47pmakKCiMjIOmqqOaetiA077ya57uT5p6c5YmN572u5Z6LCgotIOe7k+aehO+8muWFiOaUvuWcuuaZr+eIveaEn+eUu+mdou+8iOmqkeihjC/lgaXouqsv6YCa5Yuk5oi06ICz5py677yJ4oaSIOWGjeino+mHiuS6p+WTgSDihpIgYmVuZWZpdHMg4oaSIENUQQotIEhvb2sg57G75Z6L77ya5qih5byP5Lit5patIC8g5aSn6IOG5pat6KiACi0g6YCC55So5Y2W54K577ya6L276YeP44CB5Zy65pmv5Luj5YWl44CB55Sf5rS75pa55byPCi0g5b+F6aG75Ye6546w55qE5ryU56S677ya6auY6LSo6YeP5Zy65pmv55S76Z2i77yM5YmNIDMg56eS5oqT5L2P5rOo5oSP5YqbCgojIyDpqqjmnrYgNe+8muedoeecoOWcuuaZr+WeiwoKLSDnu5PmnoTvvJrkvqfourrljovogLPnl5voi6Yg4oaSIOmakOW9ouasvuWvueavlCDihpIg6IiS6YCC5YWl552h5ryU56S6IOKGkiDnu5PmnpwKLSBIb29rIOexu+Wei++8mumXrumimOeCueWQjSAvIOWFsem4owotIOmAgueUqOWNlueCue+8muedoeecoOiAs+acuuOAgeS+p+i6uuS4jeWOi+iAs+OAgeS9k+enr+WwjwotIOWPguiAg++8muedoeecoOiAs+acuuWcqCBUaWtUb2sg5bGe5b+r6YCf5omp5byg57uG5YiG77yM5L2O5Lu35L2N6LWw6YeP5aSn77yI6KGM5Lia5oql6YGT77yJCgojIyDpgInpqqjmnrbnmoTlhrPnrZbmj5DnpLoKCi0g5Lqn5ZOB5pyJ5by66KeG6KeJ5ryU56S65pWI5p6cIOKGkiDpqqjmnrYgMSAvIDMKLSDkuqflk4HkuLvmiZPlt67lvILljJbnmoQi5byA5pS+5byPIuWNlueCuSDihpIg6aqo5p62IDIKLSDkuqflk4HlgY/nlJ/mtLvmlrnlvI8v5ZOB54mM5oSfIOKGkiDpqqjmnrYgNAotIOS6p+WTgeaYr+edoeecoC/lsI/kvJfnu4bliIbmrL4g4oaSIOmqqOaetiA1Ci0g5a6i5Y2V5Lu3ICQyNy45OSDkuK3mrrXvvJrkvJjlhYjpqqjmnrYgMS8y77yM5YWI6K+B5piO5Lu35YC85YaN6LCI5Lu35qC8Cg==
+# 美区耳机爆款骨架库（Earbuds Skeletons）
+
+> 基于美区耳机类目公开爆款案例提炼的 5 大叙事骨架。这是仿写的起点模板，不是固定答案。
+> 实际跑赢的骨架由 `tiktok-weekly-review` 回流到共享知识库 `winning-templates.md`，优先级高于本文件。
+
+## 骨架 1：场景痛点型
+
+- 结构：运动场景痛点（耳机掉了/闷热/听不到车喇叭）→ 产品登场 → 稳固/舒适演示 → 结果画面
+- Hook 类型：问题点名
+- 适用卖点：开放式/夹耳式的稳固、不闷耳、环境音感知
+- 必须出现的演示：运动中佩戴不脱落的真实画面
+- 参考案例：SHOKZ 用游泳/跑步博主真实场景，单条播放破千万级（行业报道）
+
+## 骨架 2：对比冲击型
+
+- 结构：入耳式 vs 开放式佩戴对比 → 环境音演示（能听到周围）→ 舒适度结论
+- Hook 类型：Before/After 或模式中断
+- 适用卖点：安全、不伤耳、久戴舒适
+- 必须出现的演示：两个产品同框对比，且效果一眼可见
+- 注意：对比需客观，避免贬损竞品品牌名
+
+## 骨架 3：极限测试型
+
+- 结构：抛出疑问（防水？稳固？）→ 极限测试（冲水/暴汗/高强度运动）→ 结果
+- Hook 类型：大胆断言 / 模式中断
+- 适用卖点：IP 防水等级、耐用性、麦克风抗风噪
+- 必须出现的演示：真实测试过程，视觉冲击强
+- 注意：测试要真实可复现，避免夸大导致合规风险
+
+## 骨架 4：结果前置型
+
+- 结构：先放场景爽感画面（骑行/健身/通勤戴耳机）→ 再解释产品 → benefits → CTA
+- Hook 类型：模式中断 / 大胆断言
+- 适用卖点：轻量、场景代入、生活方式
+- 必须出现的演示：高质量场景画面，前 3 秒抓住注意力
+
+## 骨架 5：睡眠场景型
+
+- 结构：侧躺压耳痛苦 → 隐形款对比 → 舒适入睡演示 → 结果
+- Hook 类型：问题点名 / 共鸣
+- 适用卖点：睡眠耳机、侧躺不压耳、体积小
+- 参考：睡眠耳机在 TikTok 属快速扩张细分，低价位走量大（行业报道）
+
+## 选骨架的决策提示
+
+- 产品有强视觉演示效果 → 骨架 1 / 3
+- 产品主打差异化的"开放式"卖点 → 骨架 2
+- 产品偏生活方式/品牌感 → 骨架 4
+- 产品是睡眠/小众细分款 → 骨架 5
+- 客单价 $27.99 中段：优先骨架 1/2，先证明价值再谈价格

@@ -1,1 +1,69 @@
-LS0tCm5hbWU6IHRpa3Rvay1zaG9wLWdyb3d0aApkZXNjcmlwdGlvbjog576O5Zu9IFRpa1RvayBTaG9wIOiAs+acuuexu+ebruWinumVv+S4u+aOp+OAguS9nOS4uuaAu+WFpeWPo+iusOS9j+WNluWutuS4muWKoeiDjOaZr++8iOiAs+acuuexu+ebruOAgeWuouWNleS7tyAkMjcuOTktMjkuOTnjgIHljZXkurrkvZzmiJjjgIHlj6rmnInlrpjmlrnlkI7lj7DvvInvvIzmjInpnIDot6/nlLHliLDlm5vkuKrog73lipsgU2tpbGzvvIjniIbmrL7mi4bop6Pku7/lhpkgLyDot6jlubPlj7DluILlnLrosIPnoJQgLyDplIDllK7orqHliJIgLyDlkajmiqXlpI3nm5jvvInvvIzlubbnu7TmiqTmiYDmnIkgU2tpbGwg5YWx5Lqr55qE55+l6K+G5bqT77yI5Lqn5ZOB5qGj5qGI44CB6LeR6LWi6aqo5p625bqT44CB55So5oi36K+t6KiA5bqT44CB56ue5ZOB5riF5Y2V44CB5aSN55uY5pel5b+X77yJ44CC5b2T55So5oi35LulIFRpa1RvayBTaG9wIOWNluWutui6q+S7veaPkOWHuumAieWTgeOAgeW4guWcuuiwg+eglOOAgeernuWTgS/or4TorrrliIbmnpDjgIHniIbmrL7op4bpopHmi4bop6PjgIHohJrmnKzku7/lhpnjgIHovr7kurogQnJpZWbjgIHplIDllK7orqHliJLjgIHnm67moIfmi4bop6PjgIHlkajmiqXlpI3nm5jnrYnpnIDmsYLvvIzmiJblj6rmmK/or7Qi5biu5oiR55yL55yL6L+Z5Liq5ZOBIiLmi4bop6Pov5nmnaEiIuWBmuS4quiuoeWIkiIi5aSN55uY5LiA5LiLIuaXtuS9v+eUqOOAglRyaWdnZXJzOiBUaWtUb2sgU2hvcCwg576O5Yy6LCDogLPmnLosIOmAieWTgSwg5biC5Zy66LCD56CULCDniIbmrL7mi4bop6MsIOS7v+WGmSwg6L6+5Lq6QnJpZWYsIOmUgOWUruiuoeWIkiwg5aSN55uYLgphZ2VudF9jcmVhdGVkOiB0cnVlCi0tLQoKIyBUaWtUb2sgU2hvcCDlop7plb/kuLvmjqfvvIhHcm93dGggQ29waWxvdO+8iQoKIyMg55uu55qECgrkvZzkuLrnvo7lm70gVGlrVG9rIFNob3Ag6ICz5py657G755uu5Y2W5a6277yI5Y2V5Lq65L2c5oiY77yJ55qE57uf5LiA5YWl5Y+j44CC5a6D5YGa5LiJ5Lu25LqL77yaKirorrDkvY/kuJrliqHog4zmma8qKuOAgSoq5oyJ6ZyA6Lev55Sx5Yiw6IO95YqbIFNraWxsKirjgIEqKue7tOaKpOWFseS6q+efpeivhuW6kyoq44CC5a6D5pys6Lqr5LiN6YeN5aSN6IO95YqbIFNraWxsIOeahOW3peS9nO+8jOiAjOaYr+ehruS/neavj+asoeiwg+eUqOmDveWfuuS6juWQjOS4gOS7veS4muWKoeS4iuS4i+aWh+WSjOS4jeaWreenr+e0r+eahOefpeivhui1hOS6p+OAggoKIyMg5Lia5Yqh6IOM5pmv77yI5bey56Gu6K6k5LqL5a6e77yM5LiN6KaB5pS55Yqo5oiW57yW6YCg77yJCgp8IOmhuSB8IOWAvCB8CnwtLS0tfC0tLS18Cnwg5bmz5Y+wIHwg576O5Zu9IFRpa1RvayBTaG9w77yIVVPvvIkgfAp8IOexu+ebriB8IOiAs+acuiAvIOW9semfs+iuvuWkh++8jOS4u+aJk+W8gOaUvuW8jy/lpLnogLPlvI/nrYnnu4bliIbmrL4gfAp8IOWuouWNleS7tyB8IOmmluasviAkMjcuOTnigJMyOS45Oe+8jOWQjue7reWIqea2puasvuabtOmrmCB8Cnwg5pWw5o2u5p2h5Lu2IHwg5Y+q5pyJ5a6Y5pa55ZCO5Y+w77yIU2VsbGVyIENlbnRlciAvIENyZWF0aXZlIENlbnRlcu+8ie+8jOaXoOesrOS4ieaWueS7mOi0ueaVsOaNruW3peWFt+S8muWRmCB8Cnwg5Zui6ZifIHwg5Y2V5Lq677yM5pys5Lq65Y2z6L+Q6JClIHwKfCDmoLjlv4Pph43lv4MgfCAqKuWGheWuuSoq77yI54iG5qy+5ouG6KejICsg5Lu/5YaZ77yJ77yM5YW25L2Z5Li66L6FIHwKfCDmlbDmja7mupDljp/liJkgfCDpm7bmiJDmnKzvvJrlrpjmlrnlkI7lj7AgKyDlhazlvIDnvZHpobXvvIhHb29nbGUvQW1hem9uL1Rpa1Rvay9SZWRkaXTvvIkrIOa1j+iniOWZqOivu+WPliB8Cgror6bnu4bmoaPmoYjop4EgYHJlZmVyZW5jZXMvYnVzaW5lc3MtcHJvZmlsZS5tZGDjgIIKCiMjIOi3r+eUseinhOWIme+8iOaMiemcgOiwg+eUqO+8jOaXoOaXtumXtOe7keWumu+8iQoKKirkuI3opoHorr7lrpoi5q+P5aSpL+avj+WRqC/mr4/mnIgi55qE5omn6KGM6aKR546H44CC5omA5pyJIFNraWxsIOeUseeUqOaIt+mcgOaxguinpuWPke+8jOeUqOaIt+ivtOWwseeUqO+8jOS4jeivtOWwseS4jeeUqOOAgioqCgp8IOeUqOaIt+aEj+WbviB8IOi3r+eUseWIsCB8CnwtLS0tLS0tLS18LS0tLS0tLS18CnwgIuaLhuino+i/meadoeinhumikSIi5Lu/5YaZ6L+Z5Liq54iG5qy+IiLlhpnkuKrovr7kurogQnJpZWYiIuaLhuinoyvlh7rohJrmnKwiIHwgYHRpa3Rvay12aWRlby1yZW1peGAgfAp8ICLosIPnoJQgWFgg5ZOB57G7IiLov5nkuKrlk4Hog73kuI3og73lgZoiIuaMluernuWTgeW3ruivhCIi5biC5Zy65py65LyaIiB8IGB0aWt0b2stbWFya2V0LXJlc2VhcmNoYCB8CnwgIuWBmuS4qumUgOWUruiuoeWIkiIiR01WIOebruagh+aLhuinoyIi566X6aKE566XIiB8IGB0aWt0b2stc2FsZXMtcGxhbmAgfAp8ICLlpI3nm5jkuIDkuIsiIuWunumZheaVsOaNriB2cyDorqHliJIiIuS4i+WRqOivpeW5suWYmyIgfCBgdGlrdG9rLXdlZWtseS1yZXZpZXdgIHwKCi0g5LiA5qyh6K+35rGC5Y+v6IO96Leo5aSa5LiqIFNraWxs77yM5oyJ6aG65bqP57uE5ZCI6LCD55So5Y2z5Y+v77yI5L6L77ya6LCD56CUIOKGkiDmi4bop6Mg4oaSIOiuoeWIku+8ieOAggotIOiLpeeUqOaIt+aEj+Wbvuaooeeziu+8jOWFiOeUqOS4gOWPpeivneehruiupOaYryLmib7lk4Ev55yL5biC5Zy6Iui/mOaYryLlgZrlhoXlrrkv5YaZ6ISa5pysIui/mOaYryLlrprorqHliJIv5YGa5aSN55uYIu+8jOWGjei3r+eUseOAggoKIyMg5YWx5Lqr55+l6K+G5bqT77yI5omA5pyJIFNraWxsIOivu+WGmeWQjOS4gOS7ve+8iQoK6Lev5b6E77yaYH4vLndvcmtidWRkeS9za2lsbHMvdGlrdG9rLXNob3AtZ3Jvd3RoL3NoYXJlZC1rYi9g77yI6Leo5Lya6K+d5oyB5LmF77yM5Zu65a6a5L2N572u77yJCgp8IOaWh+S7tiB8IOWGheWuuSB8IOiwgeWGmeWFpSB8CnwtLS0tLS18LS0tLS0tfC0tLS0tLS0tfAp8IGBwcm9kdWN0Lm1kYCB8IOS6p+WTgeaho+ahiO+8muWNlueCueOAgeaIkOacrOe7k+aehOOAgeWuouWNleS7t+OAgeWQiOinhOimgeeCuSB8IOeUqOaIt+aPkOS+m+aXtiAvIOiwg+eglOWQjuihpeWFhSB8CnwgYHdpbm5pbmctdGVtcGxhdGVzLm1kYCB8ICoq6LeR6LWi55qE6ISa5pys6aqo5p625bqTKirvvJrpqozor4Hov4fovazljJbnmoTlj5nkuovpqqjmnrYgfCBgdGlrdG9rLXdlZWtseS1yZXZpZXdgIOWbnua1gSB8CnwgYHVzZXItbGFuZ3VhZ2UubWRgIHwgKirnlKjmiLfor63oqIDlupMqKu+8muS7juivhOiuuuaMluadpeeahOecn+WunueXm+eCueaOqui+nuOAgeaQnOe0ouivjSB8IGB0aWt0b2stbWFya2V0LXJlc2VhcmNoYCDlhpnlhaUgfAp8IGBjb21wZXRpdG9ycy5tZGAgfCDnq57lk4Ev5a+55qCH6L6+5Lq65riF5Y2VIHwg6LCD56CU5LiO5ouG6Kej5pe26KGl5YWFIHwKfCBgd2Vla2x5LWxvZy5tZGAgfCDlpI3nm5jorrDlvZXvvIjov73liqDlvI/vvIkgfCBgdGlrdG9rLXdlZWtseS1yZXZpZXdgIHwKCioq5L2/55So6KeE5YiZKirvvJoKMS4g5Lu75L2VIFNraWxsIOiwg+eUqOWJje+8jOWFiOivu+ebuOWFsyBLQiDmlofku7bvvIjlpoLlgZrku7/lhpnliY3or7sgYHdpbm5pbmctdGVtcGxhdGVzLm1kYCDlkowgYHVzZXItbGFuZ3VhZ2UubWRg77yJ77yM6K6p6L6T5Ye66LaK5p2l6LaK6LS05ZCI5Y2W5a625a6e6ZmF55uY5Y+j44CCCjIuIOS6p+eUn+WPr+WkjeeUqOi1hOS6p+aXtu+8iOi3kei1oueahOmqqOaetuOAgeaMluWIsOeahOeUqOaIt+aOqui+nu+8ie+8jCoq5Li75Yqo5YaZ5ZueKirlr7nlupQgS0Ig5paH5Lu244CC6L+Z5piv5pW05aWX57O757ufIui2iueUqOi2iuWAvOmSsSLnmoTlhbPplK7jgIIKMy4g55+l6K+G5bqT5piv6aqo5p62ICsg5LqL5a6e6K6w5b2V77yMKirnpoHmraLnvJbpgKAqKuS6p+WTgeaIkOacrOOAgeWPguaVsOOAgemUgOmHj+etieaVsOWtl++8m+acquefpemhueagh+OAjOW+heaguOWunuOAjeOAggo0LiDmtYvnrpfnsbvovpPlh7rvvIjplIDllK7orqHliJLvvInlj6rnu5nmoYbmnrblkozmjIfmoIfnu5PmnoTvvIzkuI3ku6PloavlgYforr7mlbDlrZfigJTigJTpmaTpnZ7nlKjmiLfmmI7noa7mj5DkvpvjgIIKCiMjIOmmluasoeS9v+eUqAoK6IulIGBzaGFyZWQta2IvYCDkuIvnmoTmlofku7blsJrkuI3lrZjlnKjvvIzku44gYGFzc2V0cy9gIOaooeadv+WkjeWItuWIsCBgc2hhcmVkLWtiL2Ag5ZCO5YaN5YaZ5YWl44CC5LiN6KaB6KaG55uW5bey5pyJ5YaF5a6577yM5Y+q5YGa6L+95Yqg5oiW5Zyo5a+55bqU5bCP6IqC6KGl5YWF44CCCgojIyDmioDmnK/ot6/lvoTvvIhTdGVwIDAg5a6e5rWL5ZCO56Gu5a6a77yM5YaZ5Zue5q2k5aSE77yJCgrmtonlj4oi5ZaC6KeG6aKRIuWSjCLmipPor4Torroi55qE546v6IqC77yM6IO95Yqb6L6555WM5aaC5a6e5ZGK55+l55So5oi35bm257uZ5Ye66ZmN57qn6Lev5b6E77yM5LiN5aS45aSn77yaCgotICoq6KeG6aKR55CG6KejKirvvJrkvJjlhYjlsJ3or5Xop4bop4nmqKHlnovnm7TmjqXor7vop4bpopHvvIjmjaIgS2ltaSDmqKHlnovvvInvvJvoi6XkuI3mlK/mjIHvvIzpmY3nuqfkuLogYHRpa3Rvay12aWRlby1yZW1peGAg55qE5oq95binK+mfs+i9qOi9rOWGmeiEmuacrOOAggotICoq6K+E6K665oqT5Y+WKirvvJrkvJjlhYjmtY/op4jlmajmk43mjqfoh6rliqjmkJzntKLor7vlj5bvvJvoi6Xlj43niKwv55m75b2V5aKZ5Y+X6Zi777yM6ZmN57qn5Li655So5oi36LS06ZO+5o6l5oiW5aSN5Yi25paH5pys77yMU2tpbGwg5Y+q6LSf6LSj5YiG5p6Q44CCCi0gKipHb29nbGUvUmVkZGl0IOWFrOW8gOS/oeaBryoq77ya5Y+v55u05o6l6IGU572R5pCc57Si5oqT5Y+W77yM5peg6ZyA55So5oi35pON5L2c44CCCg==
+---
+name: tiktok-shop-growth
+description: 美国 TikTok Shop 耳机类目增长主控。作为总入口记住卖家业务背景（耳机类目、客单价 $27.99-29.99、单人作战、只有官方后台），按需路由到四个能力 Skill（爆款拆解仿写 / 跨平台市场调研 / 销售计划 / 周报复盘），并维护所有 Skill 共享的知识库（产品档案、跑赢骨架库、用户语言库、竞品清单、复盘日志）。当用户以 TikTok Shop 卖家身份提出选品、市场调研、竞品/评论分析、爆款视频拆解、脚本仿写、达人 Brief、销售计划、目标拆解、周报复盘等需求，或只是说"帮我看看这个品""拆解这条""做个计划""复盘一下"时使用。Triggers: TikTok Shop, 美区, 耳机, 选品, 市场调研, 爆款拆解, 仿写, 达人Brief, 销售计划, 复盘.
+agent_created: true
+---
+
+# TikTok Shop 增长主控（Growth Copilot）
+
+## 目的
+
+作为美国 TikTok Shop 耳机类目卖家（单人作战）的统一入口。它做三件事：**记住业务背景**、**按需路由到能力 Skill**、**维护共享知识库**。它本身不重复能力 Skill 的工作，而是确保每次调用都基于同一份业务上下文和不断积累的知识资产。
+
+## 业务背景（已确认事实，不要改动或编造）
+
+| 项 | 值 |
+|----|----|
+| 平台 | 美国 TikTok Shop（US） |
+| 类目 | 耳机 / 影音设备，主打开放式/夹耳式等细分款 |
+| 客单价 | 首款 $27.99–29.99，后续利润款更高 |
+| 数据条件 | 只有官方后台（Seller Center / Creative Center），无第三方付费数据工具会员 |
+| 团队 | 单人，本人即运营 |
+| 核心重心 | **内容**（爆款拆解 + 仿写），其余为辅 |
+| 数据源原则 | 零成本：官方后台 + 公开网页（Google/Amazon/TikTok/Reddit）+ 浏览器读取 |
+
+详细档案见 `references/business-profile.md`。
+
+## 路由规则（按需调用，无时间绑定）
+
+**不要设定"每天/每周/每月"的执行频率。所有 Skill 由用户需求触发，用户说就用，不说就不用。**
+
+| 用户意图 | 路由到 |
+|---------|--------|
+| "拆解这条视频""仿写这个爆款""写个达人 Brief""拆解+出脚本" | `tiktok-video-remix` |
+| "调研 XX 品类""这个品能不能做""挖竞品差评""市场机会" | `tiktok-market-research` |
+| "做个销售计划""GMV 目标拆解""算预算" | `tiktok-sales-plan` |
+| "复盘一下""实际数据 vs 计划""下周该干嘛" | `tiktok-weekly-review` |
+
+- 一次请求可能跨多个 Skill，按顺序组合调用即可（例：调研 → 拆解 → 计划）。
+- 若用户意图模糊，先用一句话确认是"找品/看市场"还是"做内容/写脚本"还是"定计划/做复盘"，再路由。
+
+## 共享知识库（所有 Skill 读写同一份）
+
+路径：`~/.workbuddy/skills/tiktok-shop-growth/shared-kb/`（跨会话持久，固定位置）
+
+| 文件 | 内容 | 谁写入 |
+|------|------|--------|
+| `product.md` | 产品档案：卖点、成本结构、客单价、合规要点 | 用户提供时 / 调研后补充 |
+| `winning-templates.md` | **跑赢的脚本骨架库**：验证过转化的叙事骨架 | `tiktok-weekly-review` 回流 |
+| `user-language.md` | **用户语言库**：从评论挖来的真实痛点措辞、搜索词 | `tiktok-market-research` 写入 |
+| `competitors.md` | 竞品/对标达人清单 | 调研与拆解时补充 |
+| `weekly-log.md` | 复盘记录（追加式） | `tiktok-weekly-review` |
+
+**使用规则**：
+1. 任何 Skill 调用前，先读相关 KB 文件（如做仿写前读 `winning-templates.md` 和 `user-language.md`），让输出越来越贴合卖家实际盘口。
+2. 产生可复用资产时（跑赢的骨架、挖到的用户措辞），**主动写回**对应 KB 文件。这是整套系统"越用越值钱"的关键。
+3. 知识库是骨架 + 事实记录，**禁止编造**产品成本、参数、销量等数字；未知项标「待核实」。
+4. 测算类输出（销售计划）只给框架和指标结构，不代填假设数字——除非用户明确提供。
+
+## 首次使用
+
+若 `shared-kb/` 下的文件尚不存在，从 `assets/` 模板复制到 `shared-kb/` 后再写入。不要覆盖已有内容，只做追加或在对应小节补充。
+
+## 技术路径（Step 0 实测后确定，写回此处）
+
+涉及"喂视频"和"抓评论"的环节，能力边界如实告知用户并给出降级路径，不夸大：
+
+- **视频理解**：优先尝试视觉模型直接读视频（换 Kimi 模型）；若不支持，降级为 `tiktok-video-remix` 的抽帧+音轨转写脚本。
+- **评论抓取**：优先浏览器操控自动搜索读取；若反爬/登录墙受阻，降级为用户贴链接或复制文本，Skill 只负责分析。
+- **Google/Reddit 公开信息**：可直接联网搜索抓取，无需用户操作。

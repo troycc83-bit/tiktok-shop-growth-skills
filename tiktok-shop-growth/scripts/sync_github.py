@@ -1,1 +1,119 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIK5LiA6ZSu5ZCM5q2l5pys5ZywIFNraWxscyDliLAgR2l0SHVi77yI5q+P5qyh5pu05paw5Lu75L2VIFNraWxsIOaWh+S7tuWQjui/kOihjO+8ieOAggoK55So5rOV77yaCiAgICBweXRob24zIHN5bmNfZ2l0aHViLnB5ICAgICAgICAgICAgICAgICAjIOiHquWKqOWQjOatpeWFqOmDqCA1IOS4qiBTa2lsbO+8jGNvbW1pdCBtZXNzYWdlIOiHquWKqOeUn+aIkAogICAgcHl0aG9uMyBzeW5jX2dpdGh1Yi5weSAtbSAi5pu05paw55So5oi36K+t6KiA5bqTIiAgIyDmjIflrpogY29tbWl0IG1lc3NhZ2UKICAgIHB5dGhvbjMgc3luY19naXRodWIucHkgLS1kcnktcnVuICAgICAgICMg5Y+q55yL5Lya5ZCM5q2l5ZOq5Lqb5paH5Lu277yM5LiN5o6o6YCBCgrmnLrliLbvvJoKICAgIDEuIOS7jiB+Ly53b3JrYnVkZHkvc2tpbGxzLyDlpI3liLYgNSDkuKogU2tpbGwg5Yiw5bel5L2c5Yy65YiG5Y+R5YyFCiAgICAyLiDnlKggR2l0IERhdGEgQVBJIOS4gOasoeaAp+aOqOmAgeaVtOajteebruW9le+8iHRyZWUg4oaSIGNvbW1pdCDihpIgcmVm77yJ77yMMSDkuKogY29tbWl0CiAgICAzLiDlh63or4Hku44gfi8ud29ya2J1ZGR5Ly5naXRodWJfdG9rZW4g6K+75Y+W77yI5p2D6ZmQIDYwMO+8jOS4jeiQveebmOWIsOS7k+W6k++8iQoK6L+Z5piv55So5oi35piO56Gu6KaB5rGC55qE5Zu65a6a5rWB56iL77ya5q+P5qyh5pu05paw5Lu75L2VIFNraWxsIC8g55+l6K+G5bqT5paH5Lu25ZCO55u05o6l5ZCM5q2lIEdpdEh1YuOAggoiIiIKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBiYXNlNjQKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzaHV0aWwKaW1wb3J0IHVybGxpYi5yZXF1ZXN0CmltcG9ydCB1cmxsaWIuZXJyb3IKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpTS0lMTFMgPSBbInRpa3Rvay1zaG9wLWdyb3d0aCIsICJ0aWt0b2stdmlkZW8tcmVtaXgiLCAidGlrdG9rLW1hcmtldC1yZXNlYXJjaCIsCiAgICAgICAgICAidGlrdG9rLXNhbGVzLXBsYW4iLCAidGlrdG9rLXdlZWtseS1yZXZpZXciXQpTUkNfUk9PVCA9IFBhdGguaG9tZSgpIC8gIi53b3JrYnVkZHkiIC8gInNraWxscyIKRElTVCA9IFBhdGgoIi9Vc2Vycy9sYWl4dXFpbmcvV29ya0J1ZGR5LzIwMjYtMTEtMTgtMTAtMzgtMTMvdGlrdG9rLXNob3AtZ3Jvd3RoLXNraWxscyIpClRPS0VOX0ZJTEUgPSBQYXRoLmhvbWUoKSAvICIud29ya2J1ZGR5IiAvICIuZ2l0aHViX3Rva2VuIgpPV05FUiwgUkVQTywgQVBJID0gInRyb3ljYzgzLWJpdCIsICJ0aWt0b2stc2hvcC1ncm93dGgtc2tpbGxzIiwgImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20iCgoKZGVmIHJlcShtZXRob2QsIHBhdGgsIGJvZHk9Tm9uZSwgdG9rZW49Tm9uZSk6CiAgICBoZWFkZXJzID0geyJBY2NlcHQiOiAiYXBwbGljYXRpb24vdm5kLmdpdGh1Yitqc29uIiwgIlgtR2l0SHViLUFwaS1WZXJzaW9uIjogIjIwMjItMTEtMjgiLAogICAgICAgICAgICAgICAiVXNlci1BZ2VudCI6ICJ3b3JrYnVkZHktc2tpbGxzLXN5bmMifQogICAgaWYgdG9rZW46CiAgICAgICAgaGVhZGVyc1siQXV0aG9yaXphdGlvbiJdID0gZiJCZWFyZXIge3Rva2VufSIKICAgIHIgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KAogICAgICAgIGYie0FQSX17cGF0aH0iLAogICAgICAgIGRhdGE9anNvbi5kdW1wcyhib2R5KS5lbmNvZGUoKSBpZiBib2R5IGlzIG5vdCBOb25lIGVsc2UgTm9uZSwKICAgICAgICBtZXRob2Q9bWV0aG9kLAogICAgICAgIGhlYWRlcnM9aGVhZGVycywKICAgICkKICAgIHRyeToKICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ociwgdGltZW91dD05MCkgYXMgcmVzcDoKICAgICAgICAgICAgcmV0dXJuIGpzb24ubG9hZHMocmVzcC5yZWFkKCkuZGVjb2RlKCkpCiAgICBleGNlcHQgdXJsbGliLmVycm9yLkhUVFBFcnJvciBhcyBlOgogICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoZiJb5aSx6LSlXSB7bWV0aG9kfSB7cGF0aH0gLT4gSFRUUCB7ZS5jb2RlfToge2UucmVhZCgpLmRlY29kZSgndXRmLTgnLCdyZXBsYWNlJylbOjQwMF19IikKCgpkZWYgcmVmcmVzaF9kaXN0KCk6CiAgICAiIiLku44gc2tpbGxzIOebruW9leWIt+aWsOWIhuWPkeWMhe+8iOaOkumZpOe8k+WtmO+8ieOAgiIiIgogICAgZm9yIHMgaW4gU0tJTExTOgogICAgICAgIHNyYywgZHN0ID0gU1JDX1JPT1QgLyBzLCBESVNUIC8gcwogICAgICAgIGlmIG5vdCBzcmMuZXhpc3RzKCk6CiAgICAgICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoZiJb6ZSZ6K+vXSDmupAgU2tpbGwg5LiN5a2Y5ZyoOiB7c3JjfSIpCiAgICAgICAgaWYgZHN0LmV4aXN0cygpOgogICAgICAgICAgICBzaHV0aWwucm10cmVlKGRzdCkKICAgICAgICBzaHV0aWwuY29weXRyZWUoc3JjLCBkc3QsIGlnbm9yZT1zaHV0aWwuaWdub3JlX3BhdHRlcm5zKCJfX3B5Y2FjaGVfXyIsICIqLnB5YyIsICIuRFNfU3RvcmUiKSkKICAgICMg5riF55CG5q6L55WZ57yT5a2YCiAgICBmb3IgcCBpbiBESVNULnJnbG9iKCJfX3B5Y2FjaGVfXyIpOgogICAgICAgIHNodXRpbC5ybXRyZWUocCwgaWdub3JlX2Vycm9ycz1UcnVlKQoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGRlc2NyaXB0aW9uPSLkuIDplK7lkIzmraUgU2tpbGxzIOWIsCBHaXRIdWIiKQogICAgYXAuYWRkX2FyZ3VtZW50KCItbSIsICItLW1lc3NhZ2UiLCBkZWZhdWx0PU5vbmUsIGhlbHA9ImNvbW1pdCBtZXNzYWdlIikKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1kcnktcnVuIiwgYWN0aW9uPSJzdG9yZV90cnVlIiwgaGVscD0i5Y+q6aKE6KeI5LiN5o6o6YCBIikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICByZWZyZXNoX2Rpc3QoKQogICAgZmlsZXMgPSBzb3J0ZWQocCBmb3IgcCBpbiBESVNULnJnbG9iKCIqIikgaWYgcC5pc19maWxlKCkpCiAgICB0b3RhbF9rYiA9IHN1bShwLnN0YXQoKS5zdF9zaXplIGZvciBwIGluIGZpbGVzKSAvLyAxMDI0CiAgICBwcmludChmIlsxLzVdIOWIhuWPkeWMheW3suWIt+aWsO+8mntsZW4oZmlsZXMpfSDkuKrmlofku7YgLyB7dG90YWxfa2J9IEtCIikKICAgIGlmIGFyZ3MuZHJ5X3J1bjoKICAgICAgICBmb3IgcCBpbiBmaWxlczoKICAgICAgICAgICAgcHJpbnQoIiAgIiwgcC5yZWxhdGl2ZV90byhESVNUKS5hc19wb3NpeCgpKQogICAgICAgIHByaW50KCJbZHJ5LXJ1bl0g5pyq5o6o6YCBIikKICAgICAgICByZXR1cm4KCiAgICBpZiBub3QgVE9LRU5fRklMRS5leGlzdHMoKToKICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KGYiW+mUmeivr10g5pyq5om+5Yiw5Yet6K+BIHtUT0tFTl9GSUxFfSIpCiAgICB0b2tlbiA9IFRPS0VOX0ZJTEUucmVhZF90ZXh0KCkuc3RyaXAoKQogICAgbWUgPSByZXEoIkdFVCIsICIvdXNlciIsIHRva2VuPXRva2VuKQogICAgcHJpbnQoZiJbMi81XSDlh63or4HmnInmlYjvvJp7bWVbJ2xvZ2luJ119IikKCiAgICByZXBvID0gcmVxKCJHRVQiLCBmIi9yZXBvcy97T1dORVJ9L3tSRVBPfSIsIHRva2VuPXRva2VuKQogICAgYnJhbmNoID0gcmVwb1siZGVmYXVsdF9icmFuY2giXQogICAgcmVmID0gcmVxKCJHRVQiLCBmIi9yZXBvcy97T1dORVJ9L3tSRVBPfS9naXQvcmVmL2hlYWRzL3ticmFuY2h9IiwgdG9rZW49dG9rZW4pCiAgICBwYXJlbnRfc2hhID0gcmVmWyJvYmplY3QiXVsic2hhIl0KICAgIGJhc2VfdHJlZSA9IHJlcSgiR0VUIiwgZiIvcmVwb3Mve09XTkVSfS97UkVQT30vZ2l0L2NvbW1pdHMve3BhcmVudF9zaGF9IiwgdG9rZW49dG9rZW4pWyJ0cmVlIl1bInNoYSJdCgogICAgZW50cmllcyA9IFtdCiAgICBmb3IgcCBpbiBmaWxlczoKICAgICAgICByZWwgPSBwLnJlbGF0aXZlX3RvKERJU1QpLmFzX3Bvc2l4KCkKICAgICAgICBibG9iID0gYmFzZTY0LmI2NGVuY29kZShwLnJlYWRfYnl0ZXMoKSkuZGVjb2RlKCkKICAgICAgICBtb2RlID0gIjEwMDc1NSIgaWYgb3MuYWNjZXNzKHAsIG9zLlhfT0spIGVsc2UgIjEwMDY0NCIKICAgICAgICBlbnRyaWVzLmFwcGVuZCh7InBhdGgiOiByZWwsICJtb2RlIjogbW9kZSwgInR5cGUiOiAiYmxvYiIsICJjb250ZW50IjogYmxvYiwgImVuY29kaW5nIjogImJhc2U2NCJ9KQogICAgdHJlZSA9IHJlcSgiUE9TVCIsIGYiL3JlcG9zL3tPV05FUn0ve1JFUE99L2dpdC90cmVlcyIsIHsiYmFzZV90cmVlIjogYmFzZV90cmVlLCAidHJlZSI6IGVudHJpZXN9LCB0b2tlbj10b2tlbikKICAgIHByaW50KGYiWzMvNV0gdHJlZSDlt7LliJvlu7rvvJp7dHJlZVsnc2hhJ11bOjEyXX0iKQoKICAgIG1zZyA9IGFyZ3MubWVzc2FnZSBvciAiY2hvcmU6IOWQjOatpSBTa2lsbHMg5LiO55+l6K+G5bqT5pu05pawIgogICAgY29tbWl0ID0gcmVxKCJQT1NUIiwgZiIvcmVwb3Mve09XTkVSfS97UkVQT30vZ2l0L2NvbW1pdHMiLAogICAgICAgICAgICAgICAgIHsibWVzc2FnZSI6IG1zZywgInRyZWUiOiB0cmVlWyJzaGEiXSwgInBhcmVudHMiOiBbcGFyZW50X3NoYV19LCB0b2tlbj10b2tlbikKICAgIHByaW50KGYiWzQvNV0gY29tbWl0IOW3suWIm+W7uu+8mntjb21taXRbJ3NoYSddWzoxMl19IOKAlCB7bXNnfSIpCgogICAgcmVxKCJQQVRDSCIsIGYiL3JlcG9zL3tPV05FUn0ve1JFUE99L2dpdC9yZWZzL2hlYWRzL3ticmFuY2h9IiwKICAgICAgICB7InNoYSI6IGNvbW1pdFsic2hhIl0sICJmb3JjZSI6IEZhbHNlfSwgdG9rZW49dG9rZW4pCiAgICBwcmludChmIls1LzVdIOKchSDlt7LlkIzmraXliLAge2JyYW5jaH0gIGh0dHBzOi8vZ2l0aHViLmNvbS97T1dORVJ9L3tSRVBPfSIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+"""
+一键同步本地 Skills 到 GitHub（每次更新任何 Skill 文件后运行）。
+
+用法：
+    python3 sync_github.py                 # 自动同步全部 5 个 Skill，commit message 自动生成
+    python3 sync_github.py -m "更新用户语言库"  # 指定 commit message
+    python3 sync_github.py --dry-run       # 只看会同步哪些文件，不推送
+
+机制：
+    1. 从 ~/.workbuddy/skills/ 复制 5 个 Skill 到工作区分发包
+    2. 用 Git Data API 一次性推送整棵目录（tree → commit → ref），1 个 commit
+    3. 凭证从 ~/.workbuddy/.github_token 读取（权限 600，不落盘到仓库）
+
+这是用户明确要求的固定流程：每次更新任何 Skill / 知识库文件后直接同步 GitHub。
+"""
+import argparse
+import base64
+import json
+import os
+import shutil
+import urllib.request
+import urllib.error
+from pathlib import Path
+
+SKILLS = ["tiktok-shop-growth", "tiktok-video-remix", "tiktok-market-research",
+          "tiktok-sales-plan", "tiktok-weekly-review"]
+SRC_ROOT = Path.home() / ".workbuddy" / "skills"
+DIST = Path("/Users/laixuqing/WorkBuddy/2026-11-18-10-38-13/tiktok-shop-growth-skills")
+TOKEN_FILE = Path.home() / ".workbuddy" / ".github_token"
+OWNER, REPO, API = "troycc83-bit", "tiktok-shop-growth-skills", "https://api.github.com"
+
+
+def req(method, path, body=None, token=None):
+    headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28",
+               "User-Agent": "workbuddy-skills-sync"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    r = urllib.request.Request(
+        f"{API}{path}",
+        data=json.dumps(body).encode() if body is not None else None,
+        method=method,
+        headers=headers,
+    )
+    try:
+        with urllib.request.urlopen(r, timeout=90) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        raise SystemExit(f"[失败] {method} {path} -> HTTP {e.code}: {e.read().decode('utf-8','replace')[:400]}")
+
+
+def refresh_dist():
+    """从 skills 目录刷新分发包（排除缓存）。"""
+    for s in SKILLS:
+        src, dst = SRC_ROOT / s, DIST / s
+        if not src.exists():
+            raise SystemExit(f"[错误] 源 Skill 不存在: {src}")
+        if dst.exists():
+            shutil.rmtree(dst)
+        shutil.copytree(src, dst, ignore=shutil.ignore_patterns("__pycache__", "*.pyc", ".DS_Store"))
+    # 清理残留缓存
+    for p in DIST.rglob("__pycache__"):
+        shutil.rmtree(p, ignore_errors=True)
+
+
+def main():
+    ap = argparse.ArgumentParser(description="一键同步 Skills 到 GitHub")
+    ap.add_argument("-m", "--message", default=None, help="commit message")
+    ap.add_argument("--dry-run", action="store_true", help="只预览不推送")
+    args = ap.parse_args()
+
+    refresh_dist()
+    files = sorted(p for p in DIST.rglob("*") if p.is_file())
+    total_kb = sum(p.stat().st_size for p in files) // 1024
+    print(f"[1/5] 分发包已刷新：{len(files)} 个文件 / {total_kb} KB")
+    if args.dry_run:
+        for p in files:
+            print("  ", p.relative_to(DIST).as_posix())
+        print("[dry-run] 未推送")
+        return
+
+    if not TOKEN_FILE.exists():
+        raise SystemExit(f"[错误] 未找到凭证 {TOKEN_FILE}")
+    token = TOKEN_FILE.read_text().strip()
+    me = req("GET", "/user", token=token)
+    print(f"[2/5] 凭证有效：{me['login']}")
+
+    repo = req("GET", f"/repos/{OWNER}/{REPO}", token=token)
+    branch = repo["default_branch"]
+    ref = req("GET", f"/repos/{OWNER}/{REPO}/git/ref/heads/{branch}", token=token)
+    parent_sha = ref["object"]["sha"]
+    base_tree = req("GET", f"/repos/{OWNER}/{REPO}/git/commits/{parent_sha}", token=token)["tree"]["sha"]
+
+    # 两步法：先逐个创建 blob（encoding=base64），tree 只引用 sha，避免内联 content 编码歧义
+    entries = []
+    for i, p in enumerate(files, 1):
+        rel = p.relative_to(DIST).as_posix()
+        blob_b64 = base64.b64encode(p.read_bytes()).decode()
+        created = req("POST", f"/repos/{OWNER}/{REPO}/git/blobs",
+                      {"content": blob_b64, "encoding": "base64"}, token=token)
+        mode = "100755" if os.access(p, os.X_OK) else "100644"
+        entries.append({"path": rel, "mode": mode, "type": "blob", "sha": created["sha"]})
+        if i % 40 == 0:
+            print(f"   已上传 {i}/{len(files)} 个 blob")
+    tree = req("POST", f"/repos/{OWNER}/{REPO}/git/trees", {"base_tree": base_tree, "tree": entries}, token=token)
+    print(f"[3/5] tree 已创建：{tree['sha'][:12]}（{len(entries)} 个文件）")
+
+    msg = args.message or "chore: 同步 Skills 与知识库更新"
+    commit = req("POST", f"/repos/{OWNER}/{REPO}/git/commits",
+                 {"message": msg, "tree": tree["sha"], "parents": [parent_sha]}, token=token)
+    print(f"[4/5] commit 已创建：{commit['sha'][:12]} — {msg}")
+
+    req("PATCH", f"/repos/{OWNER}/{REPO}/git/refs/heads/{branch}",
+        {"sha": commit["sha"], "force": False}, token=token)
+    print(f"[5/5] ✅ 已同步到 {branch}  https://github.com/{OWNER}/{REPO}")
+
+
+if __name__ == "__main__":
+    main()

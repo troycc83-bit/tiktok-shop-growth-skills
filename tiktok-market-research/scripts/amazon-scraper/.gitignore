@@ -1,1 +1,15 @@
-Y29udGVudC8KCl9fcHljYWNoZV9fLwoqLnB5W2NvZF0KLnB5dGVzdF9jYWNoZS8KCi5lbnYKLnZlbnYKZW52Lwp2ZW52LwoKL291dHB1dC8KL2RlYnVnLwoqKi8uRFNfU3RvcmUKLmhpc3RvcnkvCg==
+content/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.env
+.venv
+env/
+venv/
+
+/output/
+/debug/
+**/.DS_Store
+.history/

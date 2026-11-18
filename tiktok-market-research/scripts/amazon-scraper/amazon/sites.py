@@ -1,1 +1,140 @@
-IiIiQW1hem9uIG1hcmtldHBsYWNlcyBzZXJ2ZWQgYnkgL2FtYXpvbi8qOiBvbmUgcm93IHBlciBJU08gY291bnRyeSBjb2RlLgoKICAgIGRvbWFpbiAgICAgICAgICB0aGUgc3RvcmVmcm9udCBob3N0ICh3d3cuPGRvbWFpbj4pCiAgICBtYXJrZXRwbGFjZV9pZCAgQW1hem9uJ3Mgb2JmdXNjYXRlZCBtYXJrZXRwbGFjZSBpZCAoYXV0b2NvbXBsZXRlIGBtaWRgLAogICAgICAgICAgICAgICAgICAgIHRoZSBkYXRhLmFtYXpvbi4qIHByb2R1Y3QgQVBJIHBhdGgsIHNlbGxlciBmZWVkYmFjayBhamF4KQogICAgbGFuZ3VhZ2UgICAgICAgIHRoZSBzdG9yZWZyb250J3MgZGVmYXVsdCBsb2NhbGUgKHRoZSBgbGMtPHN1ZmZpeD5gIGNvb2tpZSwKICAgICAgICAgICAgICAgICAgICBzZWUgbG9jYWxlX2Nvb2tpZSgpOyBBY2NlcHQtTGFuZ3VhZ2UgZm9sbG93cyBpdCkKICAgIGN1cnJlbmN5ICAgICAgICBJU08gY29kZSB0aGUgc3RvcmVmcm9udCBwcmljZXMgaW4KICAgIGZpbmdlcnByaW50ICAgICBjdXJsX2NmZmkgaW1wZXJzb25hdGlvbiB0aGF0IHBhc3NlcyB0aGUgcHJvZHVjdC1wYWdlCiAgICAgICAgICAgICAgICAgICAgYm90IGNoZWNrIGZyb20gYSBub24tbG9jYWwgZXhpdCAodmFsaWRhdGVkIDIwMjYtMDktMjI6CiAgICAgICAgICAgICAgICAgICAgY2hyb21lIHdvcmtzIGZvciAuY29tLy5jYSBXSVRIIGEgc2VhcmNoIHJlZmVyZXI7IGV2ZXJ5CiAgICAgICAgICAgICAgICAgICAgb3RoZXIgc3RvcmVmcm9udCBhbnN3ZXJzIGEgY2FwdGNoYSB0byBjaHJvbWUgYW5kIHBhc3NlcwogICAgICAgICAgICAgICAgICAgIHNhZmFyaTE3XzApCiAgICBwb3N0YWxfY29kZSAgICAgYSByZWFsIHBvc3RhbCBjb2RlIGluIHRoZSBtYXJrZXRwbGFjZSdzIG93biBjb3VudHJ5OyBzZXQKICAgICAgICAgICAgICAgICAgICBvbmNlIHBlciBzZXNzaW9uIHRocm91Z2ggdGhlICJEZWxpdmVyIHRvIiAoZ2xvdykgZW5kcG9pbnQKICAgICAgICAgICAgICAgICAgICBzbyB0aGUgYnV5Ym94IC8gb2ZmZXJzIC8gZGVsaXZlcnkgYmxvY2tzIHJlbmRlciBhcyBmb3IgYQogICAgICAgICAgICAgICAgICAgIGxvY2FsIHNob3BwZXIgZXZlbiBmcm9tIGEgZm9yZWlnbiBleGl0CiAgICBleGl0X2NvdW50cnkgICAgTm9uZSA9IGRpcmVjdCBlZ3Jlc3Mgd29ya3M7IGFuIElTTyBjb2RlID0gdGhlIHN0b3JlZnJvbnQKICAgICAgICAgICAgICAgICAgICByZWplY3RzIGZvcmVpZ24gZXhpdHMsIHNvIGl0cyBzZXNzaW9ucyBydW4gdGhyb3VnaCBhCiAgICAgICAgICAgICAgICAgICAgcmVzaWRlbnRpYWwgZXhpdCBwaW5uZWQgdG8gdGhhdCBjb3VudHJ5IChzaW5jZQogICAgICAgICAgICAgICAgICAgIDIwMjYtMTEtMTEgb25seSBiZWhpbmQgdGhhdCBjb3VudHJ5J3MgZ2F0ZXdheSBleGl0LAogICAgICAgICAgICAgICAgICAgIGNvbmZpZy5BTUFaT05fR0FURVdBWV9FWElUUywgd2hpY2ggYW5zd2VycyBpbiBmdWxsKQogICAgZGF0YV9ob3N0ICAgICAgIHRoZSBBQVBJIGhvc3QgKGRhdGEuYW1hem9uLjx0bGQ+KSB0aGUgZGVhbHMgZ3JpZCBoeWRyYXRlcwogICAgICAgICAgICAgICAgICAgIHByaWNlcyBmcm9tCgphbWF6b24uY24gaXMgbm90IGxpc3RlZDogdGhlIENoaW5lc2UgbWFya2V0cGxhY2UgY2xvc2VkIHRvIHRoaXJkLXBhcnR5CnNlbGxlcnMgaW4gMjAyMyBhbmQgb25seSBzZXJ2ZXMgS2luZGxlIC8gZ2xvYmFsLXN0b3JlIGxhbmRpbmcgcGFnZXMuCiIiIgoKU0lURVMgPSB7CiAgICAiVVMiOiB7ImRvbWFpbiI6ICJhbWF6b24uY29tIiwgIm1hcmtldHBsYWNlX2lkIjogIkFUVlBES0lLWDBERVIiLCAibGFuZ3VhZ2UiOiAiZW5fVVMiLCAiY3VycmVuY3kiOiAiVVNEIiwKICAgICAgICAgICAiZmluZ2VycHJpbnQiOiAiY2hyb21lIiwgInBvc3RhbF9jb2RlIjogIjEwMDAxIiwgImV4aXRfY291bnRyeSI6IE5vbmV9LAogICAgIkNBIjogeyJkb21haW4iOiAiYW1hem9uLmNhIiwgIm1hcmtldHBsYWNlX2lkIjogIkEyRVVRMVdUR0NUQkcyIiwgImxhbmd1YWdlIjogImVuX0NBIiwgImN1cnJlbmN5IjogIkNBRCIsCiAgICAgICAgICAgImZpbmdlcnByaW50IjogImNocm9tZSIsICJwb3N0YWxfY29kZSI6ICJNNVYgM0w5IiwgImV4aXRfY291bnRyeSI6IE5vbmV9LAogICAgIk1YIjogeyJkb21haW4iOiAiYW1hem9uLmNvbS5teCIsICJtYXJrZXRwbGFjZV9pZCI6ICJBMUFNNzhDNjRVTTBZOCIsICJsYW5ndWFnZSI6ICJlc19NWCIsICJjdXJyZW5jeSI6ICJNWE4iLAogICAgICAgICAgICJmaW5nZXJwcmludCI6ICJzYWZhcmkxN18wIiwgInBvc3RhbF9jb2RlIjogIjAxMDAwIiwgImV4aXRfY291bnRyeSI6IE5vbmV9LAogICAgIkJSIjogeyJkb21haW4iOiAiYW1hem9uLmNvbS5iciIsICJtYXJrZXRwbGFjZV9pZCI6ICJBMlEzWTI2M0QwMEtXQyIsICJsYW5ndWFnZSI6ICJwdF9CUiIsICJjdXJyZW5jeSI6ICJCUkwiLAogICAgICAgICAgICJmaW5nZXJwcmludCI6ICJzYWZhcmkxN18wIiwgInBvc3RhbF9jb2RlIjogIjAxMzEwLTEwMCIsICJleGl0X2NvdW50cnkiOiBOb25lfSwKICAgICJHQiI6IHsiZG9tYWluIjogImFtYXpvbi5jby51ayIsICJtYXJrZXRwbGFjZV9pZCI6ICJBMUY4M0c4QzJBUk83UCIsICJsYW5ndWFnZSI6ICJlbl9HQiIsICJjdXJyZW5jeSI6ICJHQlAiLAogICAgICAgICAgICJmaW5nZXJwcmludCI6ICJzYWZhcmkxN18wIiwgInBvc3RhbF9jb2RlIjogIlNXMUEgMUFBIiwgImV4aXRfY291bnRyeSI6IE5vbmV9LAogICAgIklFIjogeyJkb21haW4iOiAiYW1hem9uLmllIiwgIm1hcmtldHBsYWNlX2lkIjogIkEyOFI4QzdOQktFV0VBIiwgImxhbmd1YWdlIjogImVuX0lFIiwgImN1cnJlbmN5IjogIkVVUiIsCiAgICAgICAgICAgImZpbmdlcnByaW50IjogInNhZmFyaTE3XzAiLCAicG9zdGFsX2NvZGUiOiAiRDAyIFgyODUiLCAiZXhpdF9jb3VudHJ5IjogTm9uZX0sCiAgICAiREUiOiB7ImRvbWFpbiI6ICJhbWF6b24uZGUiLCAibWFya2V0cGxhY2VfaWQiOiAiQTFQQTY3OTVVS01GUjkiLCAibGFuZ3VhZ2UiOiAiZGVfREUiLCAiY3VycmVuY3kiOiAiRVVSIiwKICAgICAgICAgICAiZmluZ2VycHJpbnQiOiAic2FmYXJpMTdfMCIsICJwb3N0YWxfY29kZSI6ICIxMDExNSIsICJleGl0X2NvdW50cnkiOiBOb25lfSwKICAgICJGUiI6IHsiZG9tYWluIjogImFtYXpvbi5mciIsICJtYXJrZXRwbGFjZV9pZCI6ICJBMTNWMUlCM1ZJWVpaSCIsICJsYW5ndWFnZSI6ICJmcl9GUiIsICJjdXJyZW5jeSI6ICJFVVIiLAogICAgICAgICAgICJmaW5nZXJwcmludCI6ICJzYWZhcmkxN18wIiwgInBvc3RhbF9jb2RlIjogIjc1MDAxIiwgImV4aXRfY291bnRyeSI6IE5vbmV9LAogICAgIklUIjogeyJkb21haW4iOiAiYW1hem9uLml0IiwgIm1hcmtldHBsYWNlX2lkIjogIkFQSjZKUkE5Tkc1VjQiLCAibGFuZ3VhZ2UiOiAiaXRfSVQiLCAiY3VycmVuY3kiOiAiRVVSIiwKICAgICAgICAgICAiZmluZ2VycHJpbnQiOiAic2FmYXJpMTdfMCIsICJwb3N0YWxfY29kZSI6ICIwMDEwMCIsICJleGl0X2NvdW50cnkiOiBOb25lfSwKICAgICJFUyI6IHsiZG9tYWluIjogImFtYXpvbi5lcyIsICJtYXJrZXRwbGFjZV9pZCI6ICJBMVJLS1VQSUhDUzlIUyIsICJsYW5ndWFnZSI6ICJlc19FUyIsICJjdXJyZW5jeSI6ICJFVVIiLAogICAgICAgICAgICJmaW5nZXJwcmludCI6ICJzYWZhcmkxN18wIiwgInBvc3RhbF9jb2RlIjogIjI4MDAxIiwgImV4aXRfY291bnRyeSI6IE5vbmV9LAogICAgIk5MIjogeyJkb21haW4iOiAiYW1hem9uLm5sIiwgIm1hcmtldHBsYWNlX2lkIjogIkExODA1SVpTR1RUNkhTIiwgImxhbmd1YWdlIjogIm5sX05MIiwgImN1cnJlbmN5IjogIkVVUiIsCiAgICAgICAgICAgImZpbmdlcnByaW50IjogInNhZmFyaTE3XzAiLCAicG9zdGFsX2NvZGUiOiAiMTAxMiBBQiIsICJleGl0X2NvdW50cnkiOiBOb25lfSwKICAgICJCRSI6IHsiZG9tYWluIjogImFtYXpvbi5jb20uYmUiLCAibWFya2V0cGxhY2VfaWQiOiAiQU1FTjdQTVMzRURXTCIsICJsYW5ndWFnZSI6ICJmcl9CRSIsICJjdXJyZW5jeSI6ICJFVVIiLAogICAgICAgICAgICJmaW5nZXJwcmludCI6ICJzYWZhcmkxN18wIiwgInBvc3RhbF9jb2RlIjogIjEwMDAiLCAiZXhpdF9jb3VudHJ5IjogTm9uZX0sCiAgICAiU0UiOiB7ImRvbWFpbiI6ICJhbWF6b24uc2UiLCAibWFya2V0cGxhY2VfaWQiOiAiQTJOT0RSS1pQODhaQjkiLCAibGFuZ3VhZ2UiOiAic3ZfU0UiLCAiY3VycmVuY3kiOiAiU0VLIiwKICAgICAgICAgICAiZmluZ2VycHJpbnQiOiAic2FmYXJpMTdfMCIsICJwb3N0YWxfY29kZSI6ICIxMTEgMjAiLCAiZXhpdF9jb3VudHJ5IjogTm9uZX0sCiAgICAiUEwiOiB7ImRvbWFpbiI6ICJhbWF6b24ucGwiLCAibWFya2V0cGxhY2VfaWQiOiAiQTFDM1NPWlJBUlE2UjMiLCAibGFuZ3VhZ2UiOiAicGxfUEwiLCAiY3VycmVuY3kiOiAiUExOIiwKICAgICAgICAgICAiZmluZ2VycHJpbnQiOiAic2FmYXJpMTdfMCIsICJwb3N0YWxfY29kZSI6ICIwMC0wMDEiLCAiZXhpdF9jb3VudHJ5IjogTm9uZX0sCiAgICAiVFIiOiB7ImRvbWFpbiI6ICJhbWF6b24uY29tLnRyIiwgIm1hcmtldHBsYWNlX2lkIjogIkEzM0FWQUoyUERZM0VWIiwgImxhbmd1YWdlIjogInRyX1RSIiwgImN1cnJlbmN5IjogIlRSWSIsCiAgICAgICAgICAgImZpbmdlcnByaW50IjogInNhZmFyaTE3XzAiLCAicG9zdGFsX2NvZGUiOiAiMzQwMDAiLCAiZXhpdF9jb3VudHJ5IjogTm9uZX0sCiAgICAiQUUiOiB7ImRvbWFpbiI6ICJhbWF6b24uYWUiLCAibWFya2V0cGxhY2VfaWQiOiAiQTJWSUdRMzVSQ1M0VUciLCAibGFuZ3VhZ2UiOiAiZW5fQUUiLCAiY3VycmVuY3kiOiAiQUVEIiwKICAgICAgICAgICAiZmluZ2VycHJpbnQiOiAic2FmYXJpMTdfMCIsICJwb3N0YWxfY29kZSI6IE5vbmUsICJleGl0X2NvdW50cnkiOiBOb25lfSwKICAgICJTQSI6IHsiZG9tYWluIjogImFtYXpvbi5zYSIsICJtYXJrZXRwbGFjZV9pZCI6ICJBMTdFNzlDNkQ4RFdOUCIsICJsYW5ndWFnZSI6ICJlbl9BRSIsICJjdXJyZW5jeSI6ICJTQVIiLAogICAgICAgICAgICJmaW5nZXJwcmludCI6ICJzYWZhcmkxN18wIiwgInBvc3RhbF9jb2RlIjogTm9uZSwgImV4aXRfY291bnRyeSI6IE5vbmV9LAogICAgIkVHIjogeyJkb21haW4iOiAiYW1hem9uLmVnIiwgIm1hcmtldHBsYWNlX2lkIjogIkFSQlA5T09TSFRDSFUiLCAibGFuZ3VhZ2UiOiAiZW5fQUUiLCAiY3VycmVuY3kiOiAiRUdQIiwKICAgICAgICAgICAiZmluZ2VycHJpbnQiOiAic2FmYXJpMTdfMCIsICJwb3N0YWxfY29kZSI6IE5vbmUsICJleGl0X2NvdW50cnkiOiBOb25lfSwKICAgICJJTiI6IHsiZG9tYWluIjogImFtYXpvbi5pbiIsICJtYXJrZXRwbGFjZV9pZCI6ICJBMjFUSlJVVU40S0dWIiwgImxhbmd1YWdlIjogImVuX0lOIiwgImN1cnJlbmN5IjogIklOUiIsCiAgICAgICAgICAgImZpbmdlcnByaW50IjogInNhZmFyaTE3XzAiLCAicG9zdGFsX2NvZGUiOiAiMTEwMDAxIiwgImV4aXRfY291bnRyeSI6IE5vbmV9LAogICAgIkpQIjogeyJkb21haW4iOiAiYW1hem9uLmNvLmpwIiwgIm1hcmtldHBsYWNlX2lkIjogIkExVkMzOFQ3WVhCNTI4IiwgImxhbmd1YWdlIjogImphX0pQIiwgImN1cnJlbmN5IjogIkpQWSIsCiAgICAgICAgICAgImZpbmdlcnByaW50IjogInNhZmFyaTE3XzAiLCAicG9zdGFsX2NvZGUiOiAiMTAwLTAwMDEiLCAiZXhpdF9jb3VudHJ5IjogImpwIn0sCiAgICAiU0ciOiB7ImRvbWFpbiI6ICJhbWF6b24uc2ciLCAibWFya2V0cGxhY2VfaWQiOiAiQTE5VkFVNVU1TzdSVVMiLCAibGFuZ3VhZ2UiOiAiZW5fU0ciLCAiY3VycmVuY3kiOiAiU0dEIiwKICAgICAgICAgICAiZmluZ2VycHJpbnQiOiAic2FmYXJpMTdfMCIsICJwb3N0YWxfY29kZSI6ICIwMTg5NTYiLCAiZXhpdF9jb3VudHJ5IjogTm9uZX0sCiAgICAiQVUiOiB7ImRvbWFpbiI6ICJhbWF6b24uY29tLmF1IiwgIm1hcmtldHBsYWNlX2lkIjogIkEzOUlCSjM3VFJQMUM2IiwgImxhbmd1YWdlIjogImVuX0FVIiwgImN1cnJlbmN5IjogIkFVRCIsCiAgICAgICAgICAgImZpbmdlcnByaW50IjogInNhZmFyaTE3XzAiLCAicG9zdGFsX2NvZGUiOiAiMjAwMCIsICJleGl0X2NvdW50cnkiOiAiYXUifSwKICAgICJaQSI6IHsiZG9tYWluIjogImFtYXpvbi5jby56YSIsICJtYXJrZXRwbGFjZV9pZCI6ICJBRTA4V0o2WUtOQk1DIiwgImxhbmd1YWdlIjogImVuX1pBIiwgImN1cnJlbmN5IjogIlpBUiIsCiAgICAgICAgICAgImZpbmdlcnByaW50IjogInNhZmFyaTE3XzAiLCAicG9zdGFsX2NvZGUiOiAiMjAwMCIsICJleGl0X2NvdW50cnkiOiBOb25lfSwKfQoKREVGQVVMVF9DT1VOVFJZID0gIlVTIgpDT1VOVFJJRVMgPSB0dXBsZShTSVRFUykKCiMgYW1hem9uLmNvLnVrIC0+IEdCIGV0Yy4gKGV2ZXJ5IGhvc3QgYSBsaW5rIGNhbiBjYXJyeSwgaW5jbHVkaW5nIHRoZSBiYXJlCiMgYXBleCBhbmQgdGhlIHNtaWxlLi9tLiBzdWJkb21haW5zKQpfRE9NQUlOX1RPX0NPVU5UUlkgPSB7cm93WyJkb21haW4iXTogY29kZSBmb3IgY29kZSwgcm93IGluIFNJVEVTLml0ZW1zKCl9CgojIFRoZSBjb21wbGV0aW9uIHNlcnZpY2UgcnVucyBvbmUgYmFja2VuZCBwZXIgQW1hem9uIHJlZ2lvbiBhbmQgZWFjaCBvbmx5CiMgYW5zd2VycyBpdHMgb3duIG1hcmtldHBsYWNlIGlkcyAoYSBmb3JlaWduIGBtaWRgIGdldHMgMjAwICsgZW1wdHkgbGlzdCkuCiMgY29tcGxldGlvbi48dGxkPiBpcyBhIENsb3VkRnJvbnQgYWxpYXMgb2YgdGhlc2U7IHdoZW4gaXQgYnJlYWtzCiMgKGNvbXBsZXRpb24uYW1hem9uLmluIDUwMnMgc2luY2UgMjAyNi0wOSkgdGhlIHJlZ2lvbmFsIGhvc3Qgc3RpbGwgc2VydmVzLgpfQ09NUExFVElPTl9SRUdJT05fSE9TVCA9IGRpY3QoCiAgICB7Y29kZTogImNvbXBsZXRpb24uYW1hem9uLmNvbSIgZm9yIGNvZGUgaW4gKCJVUyIsICJDQSIsICJNWCIsICJCUiIpfSwKICAgICoqe2NvZGU6ICJjb21wbGV0aW9uLmFtYXpvbi5jby5qcCIgZm9yIGNvZGUgaW4gKCJKUCIsICJTRyIsICJBVSIpfSkKCgpkZWYgbG9jYWxlX2Nvb2tpZShzaXRlX3Jvdyk6CiAgICAiIiJOYW1lIG9mIHRoZSBjb29raWUgdGhhdCBob2xkcyB0aGUgc3RvcmVmcm9udCBsYW5ndWFnZS4gRWFjaAogICAgbWFya2V0cGxhY2UgaGFzIGl0cyBvd24gc3VmZml4IChzZWVuIG9uIGl0cyBzZXNzaW9uIGNvb2tpZXM6CiAgICB1YmlkLWFjYmRlLCBzc3QtYWNiZGUsIGxjLWFjYmRlIG9uIGFtYXpvbi5kZSk7IG9ubHkgYW1hem9uLmNvbSB1c2VzCiAgICBgbGMtbWFpbmAsIGFuZCB0aGUgVUsgaXMgYGFjYnVrYCByYXRoZXIgdGhhbiBpdHMgSVNPIGNvZGUuIEEgY29va2llCiAgICB1bmRlciBhbnkgb3RoZXIgbmFtZSBpcyBpZ25vcmVkIGFuZCB0aGUgc3RvcmUgcGlja3MgdGhlIGxhbmd1YWdlIGZyb20KICAgIEFjY2VwdC1MYW5ndWFnZSBpbnN0ZWFkICh2ZXJpZmllZCBmb3IgYWxsIDIzIG1hcmtldHBsYWNlcyAyMDI2LTEwLTE2KS4iIiIKICAgIGNvZGUgPSBzaXRlX3Jvd1siY291bnRyeSJdCiAgICBpZiBjb2RlID09ICJVUyI6CiAgICAgICAgcmV0dXJuICJsYy1tYWluIgogICAgcmV0dXJuICJsYy1hY2IiICsgKCJ1ayIgaWYgY29kZSA9PSAiR0IiIGVsc2UgY29kZS5sb3dlcigpKQoKCmRlZiBhY2NlcHRfbGFuZ3VhZ2UobG9jYWxlKToKICAgICIiIidkZV9ERScgLT4gJ2RlLURFLGRlO3E9MC45LGVuO3E9MC41JyAodGhlIHN0b3JlZnJvbnQgaG9ub3VycyBpdCB3aGVuCiAgICB0aGUgbG9jYWxlIGNvb2tpZSBpcyBtaXNzaW5nIG9yIHJlc2V0LCBlLmcuIGFmdGVyIGEgY2FwdGNoYSkuIiIiCiAgICBsYW5nLCBfLCByZWdpb24gPSAobG9jYWxlIG9yICJlbl9VUyIpLnBhcnRpdGlvbigiXyIpCiAgICB0YWcgPSBmIntsYW5nfS17cmVnaW9ufSIgaWYgcmVnaW9uIGVsc2UgbGFuZwogICAgaWYgbGFuZyA9PSAiZW4iOgogICAgICAgIHJldHVybiBmInt0YWd9LGVuO3E9MC45IgogICAgcmV0dXJuIGYie3RhZ30se2xhbmd9O3E9MC45LGVuO3E9MC41IgoKCmRlZiBzaXRlKGNvdW50cnk9Tm9uZSk6CiAgICAiIiJUaGUgbWFya2V0cGxhY2Ugcm93IGZvciBhbiBJU08gY291bnRyeSBjb2RlIChVUyB3aGVuIE5vbmUpLiIiIgogICAgY29kZSA9IChjb3VudHJ5IG9yIERFRkFVTFRfQ09VTlRSWSkudXBwZXIoKQogICAgaWYgY29kZSA9PSAiVUsiOgogICAgICAgIGNvZGUgPSAiR0IiCiAgICByb3cgPSBTSVRFUy5nZXQoY29kZSkKICAgIGlmIHJvdyBpcyBOb25lOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJjb3VudHJ5IG11c3QgYmUgb25lIG9mOiB7JywgJy5qb2luKENPVU5UUklFUyl9IikKICAgIHJldHVybiBkaWN0KHJvdywgY291bnRyeT1jb2RlLCBob3N0PWYid3d3Lntyb3dbJ2RvbWFpbiddfSIsIGJhc2U9ZiJodHRwczovL3d3dy57cm93Wydkb21haW4nXX0iLAogICAgICAgICAgICAgICAgZGF0YV9ob3N0PWYiZGF0YS57cm93Wydkb21haW4nXX0iLCBjb21wbGV0aW9uX2hvc3Q9ZiJjb21wbGV0aW9uLntyb3dbJ2RvbWFpbiddfSIsCiAgICAgICAgICAgICAgICBjb21wbGV0aW9uX3JlZ2lvbl9ob3N0PV9DT01QTEVUSU9OX1JFR0lPTl9IT1NULmdldChjb2RlLCAiY29tcGxldGlvbi5hbWF6b24uY28udWsiKSkKCgpkZWYgY291bnRyeV9mb3JfaG9zdChob3N0KToKICAgICIiIklTTyBjb3VudHJ5IG9mIGFuIEFtYXpvbiBob3N0bmFtZSAoYW55IHN1YmRvbWFpbiksIE5vbmUgZm9yIG90aGVyIGhvc3RzLiIiIgogICAgaG9zdCA9IChob3N0IG9yICIiKS5sb3dlcigpLnNwbGl0KCI6IilbMF0KICAgIGxhYmVscyA9IGhvc3Quc3BsaXQoIi4iKQogICAgZm9yIGkgaW4gcmFuZ2UobGVuKGxhYmVscykpOgogICAgICAgIGNhbmRpZGF0ZSA9ICIuIi5qb2luKGxhYmVsc1tpOl0pCiAgICAgICAgY29kZSA9IF9ET01BSU5fVE9fQ09VTlRSWS5nZXQoY2FuZGlkYXRlKQogICAgICAgIGlmIGNvZGU6CiAgICAgICAgICAgIHJldHVybiBjb2RlCiAgICByZXR1cm4gTm9uZQo=
+"""Amazon marketplaces served by /amazon/*: one row per ISO country code.
+
+    domain          the storefront host (www.<domain>)
+    marketplace_id  Amazon's obfuscated marketplace id (autocomplete `mid`,
+                    the data.amazon.* product API path, seller feedback ajax)
+    language        the storefront's default locale (the `lc-<suffix>` cookie,
+                    see locale_cookie(); Accept-Language follows it)
+    currency        ISO code the storefront prices in
+    fingerprint     curl_cffi impersonation that passes the product-page
+                    bot check from a non-local exit (validated 2026-09-22:
+                    chrome works for .com/.ca WITH a search referer; every
+                    other storefront answers a captcha to chrome and passes
+                    safari17_0)
+    postal_code     a real postal code in the marketplace's own country; set
+                    once per session through the "Deliver to" (glow) endpoint
+                    so the buybox / offers / delivery blocks render as for a
+                    local shopper even from a foreign exit
+    exit_country    None = direct egress works; an ISO code = the storefront
+                    rejects foreign exits, so its sessions run through a
+                    residential exit pinned to that country (since
+                    2026-11-11 only behind that country's gateway exit,
+                    config.AMAZON_GATEWAY_EXITS, which answers in full)
+    data_host       the AAPI host (data.amazon.<tld>) the deals grid hydrates
+                    prices from
+
+amazon.cn is not listed: the Chinese marketplace closed to third-party
+sellers in 2023 and only serves Kindle / global-store landing pages.
+"""
+
+SITES = {
+    "US": {"domain": "amazon.com", "marketplace_id": "ATVPDKIKX0DER", "language": "en_US", "currency": "USD",
+           "fingerprint": "chrome", "postal_code": "10001", "exit_country": None},
+    "CA": {"domain": "amazon.ca", "marketplace_id": "A2EUQ1WTGCTBG2", "language": "en_CA", "currency": "CAD",
+           "fingerprint": "chrome", "postal_code": "M5V 3L9", "exit_country": None},
+    "MX": {"domain": "amazon.com.mx", "marketplace_id": "A1AM78C64UM0Y8", "language": "es_MX", "currency": "MXN",
+           "fingerprint": "safari17_0", "postal_code": "01000", "exit_country": None},
+    "BR": {"domain": "amazon.com.br", "marketplace_id": "A2Q3Y263D00KWC", "language": "pt_BR", "currency": "BRL",
+           "fingerprint": "safari17_0", "postal_code": "01310-100", "exit_country": None},
+    "GB": {"domain": "amazon.co.uk", "marketplace_id": "A1F83G8C2ARO7P", "language": "en_GB", "currency": "GBP",
+           "fingerprint": "safari17_0", "postal_code": "SW1A 1AA", "exit_country": None},
+    "IE": {"domain": "amazon.ie", "marketplace_id": "A28R8C7NBKEWEA", "language": "en_IE", "currency": "EUR",
+           "fingerprint": "safari17_0", "postal_code": "D02 X285", "exit_country": None},
+    "DE": {"domain": "amazon.de", "marketplace_id": "A1PA6795UKMFR9", "language": "de_DE", "currency": "EUR",
+           "fingerprint": "safari17_0", "postal_code": "10115", "exit_country": None},
+    "FR": {"domain": "amazon.fr", "marketplace_id": "A13V1IB3VIYZZH", "language": "fr_FR", "currency": "EUR",
+           "fingerprint": "safari17_0", "postal_code": "75001", "exit_country": None},
+    "IT": {"domain": "amazon.it", "marketplace_id": "APJ6JRA9NG5V4", "language": "it_IT", "currency": "EUR",
+           "fingerprint": "safari17_0", "postal_code": "00100", "exit_country": None},
+    "ES": {"domain": "amazon.es", "marketplace_id": "A1RKKUPIHCS9HS", "language": "es_ES", "currency": "EUR",
+           "fingerprint": "safari17_0", "postal_code": "28001", "exit_country": None},
+    "NL": {"domain": "amazon.nl", "marketplace_id": "A1805IZSGTT6HS", "language": "nl_NL", "currency": "EUR",
+           "fingerprint": "safari17_0", "postal_code": "1012 AB", "exit_country": None},
+    "BE": {"domain": "amazon.com.be", "marketplace_id": "AMEN7PMS3EDWL", "language": "fr_BE", "currency": "EUR",
+           "fingerprint": "safari17_0", "postal_code": "1000", "exit_country": None},
+    "SE": {"domain": "amazon.se", "marketplace_id": "A2NODRKZP88ZB9", "language": "sv_SE", "currency": "SEK",
+           "fingerprint": "safari17_0", "postal_code": "111 20", "exit_country": None},
+    "PL": {"domain": "amazon.pl", "marketplace_id": "A1C3SOZRARQ6R3", "language": "pl_PL", "currency": "PLN",
+           "fingerprint": "safari17_0", "postal_code": "00-001", "exit_country": None},
+    "TR": {"domain": "amazon.com.tr", "marketplace_id": "A33AVAJ2PDY3EV", "language": "tr_TR", "currency": "TRY",
+           "fingerprint": "safari17_0", "postal_code": "34000", "exit_country": None},
+    "AE": {"domain": "amazon.ae", "marketplace_id": "A2VIGQ35RCS4UG", "language": "en_AE", "currency": "AED",
+           "fingerprint": "safari17_0", "postal_code": None, "exit_country": None},
+    "SA": {"domain": "amazon.sa", "marketplace_id": "A17E79C6D8DWNP", "language": "en_AE", "currency": "SAR",
+           "fingerprint": "safari17_0", "postal_code": None, "exit_country": None},
+    "EG": {"domain": "amazon.eg", "marketplace_id": "ARBP9OOSHTCHU", "language": "en_AE", "currency": "EGP",
+           "fingerprint": "safari17_0", "postal_code": None, "exit_country": None},
+    "IN": {"domain": "amazon.in", "marketplace_id": "A21TJRUUN4KGV", "language": "en_IN", "currency": "INR",
+           "fingerprint": "safari17_0", "postal_code": "110001", "exit_country": None},
+    "JP": {"domain": "amazon.co.jp", "marketplace_id": "A1VC38T7YXB528", "language": "ja_JP", "currency": "JPY",
+           "fingerprint": "safari17_0", "postal_code": "100-0001", "exit_country": "jp"},
+    "SG": {"domain": "amazon.sg", "marketplace_id": "A19VAU5U5O7RUS", "language": "en_SG", "currency": "SGD",
+           "fingerprint": "safari17_0", "postal_code": "018956", "exit_country": None},
+    "AU": {"domain": "amazon.com.au", "marketplace_id": "A39IBJ37TRP1C6", "language": "en_AU", "currency": "AUD",
+           "fingerprint": "safari17_0", "postal_code": "2000", "exit_country": "au"},
+    "ZA": {"domain": "amazon.co.za", "marketplace_id": "AE08WJ6YKNBMC", "language": "en_ZA", "currency": "ZAR",
+           "fingerprint": "safari17_0", "postal_code": "2000", "exit_country": None},
+}
+
+DEFAULT_COUNTRY = "US"
+COUNTRIES = tuple(SITES)
+
+# amazon.co.uk -> GB etc. (every host a link can carry, including the bare
+# apex and the smile./m. subdomains)
+_DOMAIN_TO_COUNTRY = {row["domain"]: code for code, row in SITES.items()}
+
+# The completion service runs one backend per Amazon region and each only
+# answers its own marketplace ids (a foreign `mid` gets 200 + empty list).
+# completion.<tld> is a CloudFront alias of these; when it breaks
+# (completion.amazon.in 502s since 2026-09) the regional host still serves.
+_COMPLETION_REGION_HOST = dict(
+    {code: "completion.amazon.com" for code in ("US", "CA", "MX", "BR")},
+    **{code: "completion.amazon.co.jp" for code in ("JP", "SG", "AU")})
+
+
+def locale_cookie(site_row):
+    """Name of the cookie that holds the storefront language. Each
+    marketplace has its own suffix (seen on its session cookies:
+    ubid-acbde, sst-acbde, lc-acbde on amazon.de); only amazon.com uses
+    `lc-main`, and the UK is `acbuk` rather than its ISO code. A cookie
+    under any other name is ignored and the store picks the language from
+    Accept-Language instead (verified for all 23 marketplaces 2026-10-16)."""
+    code = site_row["country"]
+    if code == "US":
+        return "lc-main"
+    return "lc-acb" + ("uk" if code == "GB" else code.lower())
+
+
+def accept_language(locale):
+    """'de_DE' -> 'de-DE,de;q=0.9,en;q=0.5' (the storefront honours it when
+    the locale cookie is missing or reset, e.g. after a captcha)."""
+    lang, _, region = (locale or "en_US").partition("_")
+    tag = f"{lang}-{region}" if region else lang
+    if lang == "en":
+        return f"{tag},en;q=0.9"
+    return f"{tag},{lang};q=0.9,en;q=0.5"
+
+
+def site(country=None):
+    """The marketplace row for an ISO country code (US when None)."""
+    code = (country or DEFAULT_COUNTRY).upper()
+    if code == "UK":
+        code = "GB"
+    row = SITES.get(code)
+    if row is None:
+        raise ValueError(f"country must be one of: {', '.join(COUNTRIES)}")
+    return dict(row, country=code, host=f"www.{row['domain']}", base=f"https://www.{row['domain']}",
+                data_host=f"data.{row['domain']}", completion_host=f"completion.{row['domain']}",
+                completion_region_host=_COMPLETION_REGION_HOST.get(code, "completion.amazon.co.uk"))
+
+
+def country_for_host(host):
+    """ISO country of an Amazon hostname (any subdomain), None for other hosts."""
+    host = (host or "").lower().split(":")[0]
+    labels = host.split(".")
+    for i in range(len(labels)):
+        candidate = ".".join(labels[i:])
+        code = _DOMAIN_TO_COUNTRY.get(candidate)
+        if code:
+            return code
+    return None

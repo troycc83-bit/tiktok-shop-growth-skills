@@ -1,1 +1,200 @@
-IiIiVXNlciBlbmRwb2ludHM6IHByb2ZpbGUsIHJlc29sdmUsIHZpZGVvcywgcmVwb3N0cywgZm9sbG93ZXJzIC8gZm9sbG93aW5nLApwbGF5bGlzdHMgYW5kIGNvbGxlY3Rpb25zLgoKYHVzZXJgIGlzIHsidXNlcm5hbWUiOiAuLi4sICJzZWNfdWlkIjogLi4ufSBmcm9tIHJlZnMucmVzb2x2ZV91c2VyLiBFdmVyeQpsaXN0IGVuZHBvaW50IG5lZWRzIHRoZSBhY2NvdW50J3Mgc2VjVWlkLCBzbyBhIHVzZXJuYW1lIGlzIGZpcnN0IGxvb2tlZCB1cAoodGhlIHByb2ZpbGUgY2FsbCwgbWVtb2lzZWQgaW4tcHJvY2VzcyBmb3IgTE9PS1VQX1RUTCBzbyBhIHBhZ2luZyBjbGllbnQKcGF5cyBmb3IgaXQgb25jZSkuCgpXaGVyZSBlYWNoIGNhbGwgaXMgc2VydmVkIChwcm9iZWQgMjAyNi0xMC0wNSwgc2VlIGZldGNoLnB5KToKICAqIC9hcGkvdXNlci9kZXRhaWwgIGFuc3dlcnMgb24gRVUgZXhpdHMgb25seSAtPiBsb29rZWQgdXAgdGhlcmUsIHdpdGggdGhlCiAgICBwcm9maWxlIFBBR0Ugb24gdGhlIGRlZmF1bHQgZXhpdCBhcyB0aGUgZmFsbGJhY2sgKHVzZXJuYW1lIHJlZnMgb25seTsKICAgIHRoZSBwYWdlIGNhbm5vdCBiZSBhZGRyZXNzZWQgYnkgc2VjVWlkKS4KICAqIC9hcGkvcG9zdC9pdGVtX2xpc3QgKHNpZ25lZCwgMzUgYSBwYWdlLCBsYXRlc3QgLyBwb3B1bGFyIC8gb2xkZXN0KSBpcwogICAgdGhyb3R0bGVkIHBlciBleGl0IElQLCBzbyBlYWNoIHNlc3Npb24gc2VydmVzIGEgc21hbGwgYnVkZ2V0IG9mIGNhbGxzLgogICAgV2hlbiBpdCBzdGlsbCBjb21lcyBiYWNrIGVtcHR5LCBgbGF0ZXN0YCBmYWxscyBiYWNrIHRvIHRoZSB1bnNpZ25lZAogICAgL2FwaS9jcmVhdG9yL2l0ZW1fbGlzdCAoMTUgYSBwYWdlLCBzYW1lIGN1cnNvciBzY2FsZTogY3JlYXRlVGltZSBpbiBtcykuCiAgKiByZXBvc3RzIDMwIGEgcGFnZSAob2Zmc2V0IGN1cnNvciksIGZvbGxvd2VycyAvIGZvbGxvd2luZyAzMCBhIHBhZ2UKICAgIChjdXJzb3IgPSB0aGUgdXBzdHJlYW0gbWluQ3Vyc29yKSwgcGxheWxpc3RzIGFuZCBjb2xsZWN0aW9ucyAyMCBhIHBhZ2UuCgpBIHByaXZhdGUgYWNjb3VudCBhbnN3ZXJzIGl0cyBsaXN0cyB3aXRoIG5vIHJvd3M7IHRoZSBwcm9maWxlIHNheXMKYGlzX3ByaXZhdGVgLgoiIiIKaW1wb3J0IHRocmVhZGluZwppbXBvcnQgdGltZQoKaW1wb3J0IGNvbmZpZwoKZnJvbSAuIGltcG9ydCBwYXJzZXJzIGFzIFAKZnJvbSAuIGltcG9ydCBzaGFyZWQKZnJvbSAuZmV0Y2ggaW1wb3J0IFRpa1Rva0Jsb2NrZWQsIFRpa1Rva05vdEZvdW5kLCBUaWtUb2tVcHN0cmVhbUVycm9yLCBhcGksIGNvdW50cnlfb3JkZXIsIGV1X2NvdW50cnksIGdldF9wYWdlCgpMT09LVVBfVFRMID0gNjAwCl9sb29rdXBfbG9jayA9IHRocmVhZGluZy5Mb2NrKCkKX2xvb2t1cHMgPSB7fSAgICAgICAgICAgIyAoInVzZXJuYW1lInwic2VjX3VpZCIsIHZhbHVlKSAtPiAoZXhwaXJlcywgdXNlckluZm8pCgpQT1NUU19QQUdFID0gMzUKQ1JFQVRPUl9QQUdFID0gMTUKTElTVF9QQUdFID0gMzAKU09SVFMgPSB7ImxhdGVzdCI6IDAsICJwb3B1bGFyIjogMSwgIm9sZGVzdCI6IDJ9CkZPTExPV19TQ0VORVMgPSB7ImZvbGxvd2VycyI6IDY3LCAiZm9sbG93aW5nIjogMjF9CkxJU1RfSElEREVOID0gMTAyMjIgICAgICAjIHRoZSBhY2NvdW50IGhpZGVzIHRoaXMgbGlzdCAocHJvZmlsZSBzZXR0aW5nKQoKCmRlZiBfZGVzY3JpYmUodXNlcik6CiAgICByZXR1cm4gZiJAe3VzZXJbJ3VzZXJuYW1lJ119IiBpZiB1c2VyLmdldCgidXNlcm5hbWUiKSBlbHNlICJ0aGF0IHNlY1VpZCIKCgpkZWYgX3JlbWVtYmVyKGluZm8pOgogICAgcmF3ID0gaW5mby5nZXQoInVzZXIiKSBvciB7fQogICAgZXhwaXJlcyA9IHRpbWUudGltZSgpICsgTE9PS1VQX1RUTAogICAgd2l0aCBfbG9va3VwX2xvY2s6CiAgICAgICAgaWYgbGVuKF9sb29rdXBzKSA+IDUwMDA6CiAgICAgICAgICAgIF9sb29rdXBzLmNsZWFyKCkKICAgICAgICBpZiByYXcuZ2V0KCJ1bmlxdWVJZCIpOgogICAgICAgICAgICBfbG9va3Vwc1soInVzZXJuYW1lIiwgc3RyKHJhd1sidW5pcXVlSWQiXSkubG93ZXIoKSldID0gKGV4cGlyZXMsIGluZm8pCiAgICAgICAgaWYgcmF3LmdldCgic2VjVWlkIik6CiAgICAgICAgICAgIF9sb29rdXBzWygic2VjX3VpZCIsIHJhd1sic2VjVWlkIl0pXSA9IChleHBpcmVzLCBpbmZvKQoKCmRlZiBsb29rdXAodXNlcik6CiAgICAiIiJUaGUgcmF3IHdlYmFwcCB1c2VySW5mbyAoe3VzZXIsIHN0YXRzLCBzdGF0c1YyfSkgZm9yIGEgcmVzb2x2ZWQgcmVmOwogICAgVGlrVG9rTm90Rm91bmQgaWYgdGhlIGFjY291bnQgZG9lcyBub3QgZXhpc3QuIiIiCiAgICBrZXkgPSAoInVzZXJuYW1lIiwgdXNlclsidXNlcm5hbWUiXSkgaWYgdXNlci5nZXQoInVzZXJuYW1lIikgZWxzZSAoInNlY191aWQiLCB1c2VyWyJzZWNfdWlkIl0pCiAgICB3aXRoIF9sb29rdXBfbG9jazoKICAgICAgICBoaXQgPSBfbG9va3Vwcy5nZXQoa2V5KQogICAgICAgIGlmIGhpdCBhbmQgaGl0WzBdID4gdGltZS50aW1lKCk6CiAgICAgICAgICAgIHJldHVybiBoaXRbMV0KICAgIHBhcmFtcyA9IHsidW5pcXVlSWQiOiB1c2VyLmdldCgidXNlcm5hbWUiKSBvciAiIiwgInNlY1VpZCI6IHVzZXIuZ2V0KCJzZWNfdWlkIikgb3IgIiJ9CiAgICBsYWJlbCA9IGYidXNlciB7X2Rlc2NyaWJlKHVzZXIpfSIKICAgIHRyeToKICAgICAgICBwYXlsb2FkID0gYXBpKCIvYXBpL3VzZXIvZGV0YWlsLyIsIHBhcmFtcywgY291bnRyaWVzPShldV9jb3VudHJ5KCksKSwKICAgICAgICAgICAgICAgICAgICAgIG5vdF9mb3VuZD1zaGFyZWQuVVNFUl9OT1RfRk9VTkQsIGxhYmVsPWxhYmVsKQogICAgICAgIGluZm8gPSBwYXlsb2FkLmdldCgidXNlckluZm8iKQogICAgZXhjZXB0IFRpa1Rva05vdEZvdW5kOgogICAgICAgIHJhaXNlCiAgICBleGNlcHQgVGlrVG9rVXBzdHJlYW1FcnJvcjoKICAgICAgICBpZiBub3QgdXNlci5nZXQoInVzZXJuYW1lIik6CiAgICAgICAgICAgIHJhaXNlCiAgICAgICAgc2NvcGUgPSBnZXRfcGFnZShmIi9Ae3VzZXJbJ3VzZXJuYW1lJ119IikKICAgICAgICBkZXRhaWwgPSBzY29wZS5nZXQoIndlYmFwcC51c2VyLWRldGFpbCIpIG9yIHt9CiAgICAgICAgaWYgZGV0YWlsLmdldCgic3RhdHVzQ29kZSIpIGluIHNoYXJlZC5VU0VSX05PVF9GT1VORDoKICAgICAgICAgICAgcmFpc2UgVGlrVG9rTm90Rm91bmQoZiJ7bGFiZWx9IG5vdCBmb3VuZCIpCiAgICAgICAgaW5mbyA9IGRldGFpbC5nZXQoInVzZXJJbmZvIikKICAgIGlmIG5vdCBpc2luc3RhbmNlKGluZm8sIGRpY3QpIG9yIG5vdCAoaW5mby5nZXQoInVzZXIiKSBvciB7fSkuZ2V0KCJzZWNVaWQiKToKICAgICAgICByYWlzZSBUaWtUb2tOb3RGb3VuZChmIntsYWJlbH0gbm90IGZvdW5kIikKICAgIF9yZW1lbWJlcihpbmZvKQogICAgcmV0dXJuIGluZm8KCgpkZWYgX2lkZW50aXR5KHVzZXIpOgogICAgIiIiKHNlY1VpZCwgY29tcGFjdCB1c2VyKSDigJQgb25lIGxvb2t1cCwgc2tpcHBlZCB3aGVuIHRoZSByZWYgYWxyZWFkeSBpcwogICAgYSBzZWNVaWQgYW5kIG5vIGNvbXBhY3QgdXNlciBpcyBuZWVkZWQuIiIiCiAgICBpbmZvID0gbG9va3VwKHVzZXIpCiAgICByZXR1cm4gaW5mb1sidXNlciJdWyJzZWNVaWQiXSwgUC51c2VyX3JlZihpbmZvWyJ1c2VyIl0pCgoKZGVmIHJlc29sdmUodXNlcik6CiAgICAiIiJVc2VybmFtZSA8LT4gdXNlciBpZCA8LT4gc2VjVWlkLCB3aXRoIHRoZSBiYXNpYyBhY2NvdW50IGZhY3RzLiIiIgogICAgaW5mbyA9IGxvb2t1cCh1c2VyKQogICAgb3V0ID0gUC51c2VyX3JlZihpbmZvWyJ1c2VyIl0pCiAgICBvdXRbImZvbGxvd2VyX2NvdW50Il0gPSBQLnVzZXJfc3RhdHMoaW5mby5nZXQoInN0YXRzIiksIGluZm8uZ2V0KCJzdGF0c1YyIikpWyJmb2xsb3dlcl9jb3VudCJdCiAgICByZXR1cm4gb3V0CgoKZGVmIGdldF9wcm9maWxlKHVzZXIpOgogICAgIiIiVGhlIGZ1bGwgcHJvZmlsZTogYmlvLCBiaW8gbGluaywgY291bnRlcnMsIGZsYWdzLCBsaXZlIHJvb20gaWQuIiIiCiAgICBwYXJzZWQgPSBQLnByb2ZpbGUobG9va3VwKHVzZXIpKQogICAgaWYgcGFyc2VkIGlzIE5vbmU6CiAgICAgICAgcmFpc2UgVGlrVG9rTm90Rm91bmQoZiJ1c2VyIHtfZGVzY3JpYmUodXNlcil9IG5vdCBmb3VuZCIpCiAgICByZXR1cm4gcGFyc2VkCgoKZGVmIGdldF9wb3N0cyh1c2VyLCBzb3J0PSJsYXRlc3QiLCBjdXJzb3I9Tm9uZSwgY291bnRyeT1Ob25lKToKICAgICIiIlRoZSB1c2VyJ3MgdmlkZW9zIGFuZCBwaG90byBwb3N0czogbGF0ZXN0IChkZWZhdWx0KSwgcG9wdWxhciBvciBvbGRlc3QuIiIiCiAgICBzZWNfdWlkLCBjb21wYWN0ID0gX2lkZW50aXR5KHVzZXIpCiAgICBoZWFkID0geyJ1c2VyIjogY29tcGFjdCwgInNvcnQiOiBzb3J0fQogICAgcGFyYW1zID0geyJzZWNVaWQiOiBzZWNfdWlkLCAiY291bnQiOiBQT1NUU19QQUdFLCAiY3Vyc29yIjogY3Vyc29yIG9yIDAsCiAgICAgICAgICAgICAgInBvc3RfaXRlbV9saXN0X3JlcXVlc3RfdHlwZSI6IFNPUlRTW3NvcnRdLCAiY292ZXJGb3JtYXQiOiAyLCAibmVlZFBpbm5lZEl0ZW1JZHMiOiAidHJ1ZSJ9CiAgICB0cnk6CiAgICAgICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9wb3N0L2l0ZW1fbGlzdC8iLCBwYXJhbXMsIGNvdW50cmllcz1jb3VudHJ5X29yZGVyKGNvdW50cnksIGV1X2NvdW50cnkoKSksCiAgICAgICAgICAgICAgICAgICAgICBidWRnZXQ9KCJwb3N0cyIsIGNvbmZpZy5USUtUT0tfUE9TVFNfQ0FMTFNfUEVSX0VYSVQpLCBsYWJlbD1mInZpZGVvcyBvZiB7X2Rlc2NyaWJlKHVzZXIpfSIpCiAgICBleGNlcHQgVGlrVG9rQmxvY2tlZDoKICAgICAgICBpZiBzb3J0ICE9ICJsYXRlc3QiOgogICAgICAgICAgICByYWlzZQogICAgICAgIHJldHVybiBfY3JlYXRvcl9wb3N0cyhzZWNfdWlkLCBjdXJzb3IsIGNvdW50cnksIGhlYWQpCiAgICByZXR1cm4gc2hhcmVkLnZpZGVvX3BhZ2UocGF5bG9hZCwgKipoZWFkKQoKCmRlZiBfY3JlYXRvcl9wb3N0cyhzZWNfdWlkLCBjdXJzb3IsIGNvdW50cnksIGhlYWQpOgogICAgIiIiVGhlIHVuc2lnbmVkIGZhbGxiYWNrIGZvciBgbGF0ZXN0YC4gSXRzIGN1cnNvciBpcyBpbmNsdXNpdmUgKHRoZSBpdGVtCiAgICBjcmVhdGVkIGF0IHRoZSBjdXJzb3IgY29tZXMgYmFjayBhZ2FpbiksIHNvIHJvd3MgYXQgb3IgYWZ0ZXIgaXQgYXJlIGN1dC4iIiIKICAgIHBheWxvYWQgPSBhcGkoIi9hcGkvY3JlYXRvci9pdGVtX2xpc3QvIiwgeyJzZWNVaWQiOiBzZWNfdWlkLCAiY291bnQiOiBDUkVBVE9SX1BBR0UsICJjdXJzb3IiOiBjdXJzb3Igb3IgMCwgInR5cGUiOiAxfSwKICAgICAgICAgICAgICAgICAgY291bnRyeT1jb3VudHJ5LCBzaWduZWQ9RmFsc2UpCiAgICByb3dzID0gW3JvdyBmb3Igcm93IGluIHBheWxvYWQuZ2V0KCJpdGVtTGlzdCIpIG9yIFtdIGlmIGlzaW5zdGFuY2Uocm93LCBkaWN0KV0KICAgIGxpbWl0ID0gUC50b19pbnQoY3Vyc29yKQogICAgaWYgbGltaXQ6CiAgICAgICAgcm93cyA9IFtyb3cgZm9yIHJvdyBpbiByb3dzIGlmIChQLnRvX2ludChyb3cuZ2V0KCJjcmVhdGVUaW1lIikpIG9yIDApICogMTAwMCA8IGxpbWl0XQogICAgdmlkZW9zID0gUC52aWRlb3Mocm93cykKICAgIG1vcmUgPSBib29sKHBheWxvYWQuZ2V0KCJoYXNNb3JlUHJldmlvdXMiKSkgYW5kIGJvb2wocm93cykKICAgIGxhc3QgPSAoUC50b19pbnQocm93c1stMV0uZ2V0KCJjcmVhdGVUaW1lIikpIG9yIDApICogMTAwMCBpZiByb3dzIGVsc2UgMAogICAgcmV0dXJuIHsqKmhlYWQsICJ2aWRlb19jb3VudCI6IGxlbih2aWRlb3MpLCAidmlkZW9zIjogdmlkZW9zLAogICAgICAgICAgICAibmV4dF9jdXJzb3IiOiBzdHIobGFzdCkgaWYgbW9yZSBhbmQgbGFzdCBlbHNlIE5vbmUsICJoYXNfbW9yZSI6IG1vcmUgYW5kIGJvb2wobGFzdCl9CgoKZGVmIGdldF9yZXBvc3RzKHVzZXIsIGN1cnNvcj1Ob25lLCBjb3VudHJ5PU5vbmUpOgogICAgIiIiVmlkZW9zIHRoZSB1c2VyIHJlcG9zdGVkLCBuZXdlc3QgcmVwb3N0IGZpcnN0LiIiIgogICAgc2VjX3VpZCwgY29tcGFjdCA9IF9pZGVudGl0eSh1c2VyKQogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS9yZXBvc3QvaXRlbV9saXN0LyIsIHsic2VjVWlkIjogc2VjX3VpZCwgImNvdW50IjogTElTVF9QQUdFLCAiY3Vyc29yIjogY3Vyc29yIG9yIDB9LAogICAgICAgICAgICAgICAgICBjb3VudHJ5PWNvdW50cnksIHNpZ25lZD1GYWxzZSkKICAgIHJldHVybiBzaGFyZWQudmlkZW9fcGFnZShwYXlsb2FkLCB1c2VyPWNvbXBhY3QpCgoKZGVmIF9mb2xsb3dfbGlzdCh1c2VyLCBraW5kLCBjdXJzb3IpOgogICAgc2VjX3VpZCwgY29tcGFjdCA9IF9pZGVudGl0eSh1c2VyKQogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS91c2VyL2xpc3QvIiwgeyJzZWNVaWQiOiBzZWNfdWlkLCAic2NlbmUiOiBGT0xMT1dfU0NFTkVTW2tpbmRdLCAiY291bnQiOiBMSVNUX1BBR0UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm1pbkN1cnNvciI6IGN1cnNvciBvciAwLCAibWF4Q3Vyc29yIjogMH0sCiAgICAgICAgICAgICAgICAgIGNvdW50cmllcz1jb3VudHJ5X29yZGVyKE5vbmUsIGV1X2NvdW50cnkoKSksIHNpZ25lZD1GYWxzZSwgb2s9KDAsIExJU1RfSElEREVOKSwKICAgICAgICAgICAgICAgICAgbGFiZWw9ZiJ7a2luZH0gb2Yge19kZXNjcmliZSh1c2VyKX0iKQogICAgaWYgcGF5bG9hZC5nZXQoInN0YXR1c0NvZGUiKSA9PSBMSVNUX0hJRERFTjoKICAgICAgICByYWlzZSBUaWtUb2tOb3RGb3VuZChmIntfZGVzY3JpYmUodXNlcil9IGtlZXBzIGl0cyB7a2luZH0gbGlzdCBwcml2YXRlIikKICAgIHJvd3MgPSBQLnVzZXJzKHBheWxvYWQuZ2V0KCJ1c2VyTGlzdCIpLCBQLnVzZXJfd2l0aF9zdGF0cykKICAgIG5leHRfY3Vyc29yID0gc2hhcmVkLm5leHRfY3Vyc29yKHBheWxvYWQsICJtaW5DdXJzb3IiKQogICAgcmV0dXJuIHsKICAgICAgICAidXNlciI6IGNvbXBhY3QsCiAgICAgICAgInRvdGFsX2NvdW50IjogUC50b19pbnQocGF5bG9hZC5nZXQoInRvdGFsIikpLAogICAgICAgICJ1c2VyX2NvdW50IjogbGVuKHJvd3MpLAogICAgICAgICJ1c2VycyI6IHJvd3MsCiAgICAgICAgIm5leHRfY3Vyc29yIjogbmV4dF9jdXJzb3IsCiAgICAgICAgImhhc19tb3JlIjogbmV4dF9jdXJzb3IgaXMgbm90IE5vbmUsCiAgICB9CgoKZGVmIGdldF9mb2xsb3dlcnModXNlciwgY3Vyc29yPU5vbmUpOgogICAgIiIiQWNjb3VudHMgZm9sbG93aW5nIHRoZSB1c2VyLCBtb3N0IHJlY2VudCBmaXJzdCwgd2l0aCBlYWNoIG9uZSdzIGNvdW50ZXJzLiIiIgogICAgcmV0dXJuIF9mb2xsb3dfbGlzdCh1c2VyLCAiZm9sbG93ZXJzIiwgY3Vyc29yKQoKCmRlZiBnZXRfZm9sbG93aW5nKHVzZXIsIGN1cnNvcj1Ob25lKToKICAgICIiIkFjY291bnRzIHRoZSB1c2VyIGZvbGxvd3MsIG1vc3QgcmVjZW50IGZpcnN0LCB3aXRoIGVhY2ggb25lJ3MgY291bnRlcnMuIiIiCiAgICByZXR1cm4gX2ZvbGxvd19saXN0KHVzZXIsICJmb2xsb3dpbmciLCBjdXJzb3IpCgoKZGVmIGdldF9wbGF5bGlzdHModXNlciwgY3Vyc29yPU5vbmUpOgogICAgIiIiVGhlIHVzZXIncyBwbGF5bGlzdHMgKG9yZGVyZWQgc2VyaWVzIG9mIHRoZWlyIG93biB2aWRlb3MpLiIiIgogICAgc2VjX3VpZCwgY29tcGFjdCA9IF9pZGVudGl0eSh1c2VyKQogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS91c2VyL3BsYXlsaXN0LyIsIHsic2VjVWlkIjogc2VjX3VpZCwgImNvdW50IjogMjAsICJjdXJzb3IiOiBjdXJzb3Igb3IgMH0sIHNpZ25lZD1GYWxzZSkKICAgIHBsYXlsaXN0cyA9IFtwIGZvciBwIGluIChQLnBsYXlsaXN0KHJvdykgZm9yIHJvdyBpbiBwYXlsb2FkLmdldCgicGxheUxpc3QiKSBvciBbXSkgaWYgcF0KICAgIG5leHRfY3Vyc29yID0gc2hhcmVkLm5leHRfY3Vyc29yKHBheWxvYWQpCiAgICByZXR1cm4geyJ1c2VyIjogY29tcGFjdCwgInBsYXlsaXN0X2NvdW50IjogbGVuKHBsYXlsaXN0cyksICJwbGF5bGlzdHMiOiBwbGF5bGlzdHMsCiAgICAgICAgICAgICJuZXh0X2N1cnNvciI6IG5leHRfY3Vyc29yLCAiaGFzX21vcmUiOiBuZXh0X2N1cnNvciBpcyBub3QgTm9uZX0KCgpkZWYgZ2V0X2NvbGxlY3Rpb25zKHVzZXIsIGN1cnNvcj1Ob25lKToKICAgICIiIlRoZSB1c2VyJ3MgcHVibGljIGNvbGxlY3Rpb25zIChmb2xkZXJzIG9mIHNhdmVkIHZpZGVvcykuIiIiCiAgICBzZWNfdWlkLCBjb21wYWN0ID0gX2lkZW50aXR5KHVzZXIpCiAgICBwYXlsb2FkID0gYXBpKCIvYXBpL3VzZXIvY29sbGVjdGlvbl9saXN0LyIsIHsic2VjVWlkIjogc2VjX3VpZCwgImNvdW50IjogMjAsICJjdXJzb3IiOiBjdXJzb3Igb3IgMH0pCiAgICBjb2xsZWN0aW9ucyA9IFtjIGZvciBjIGluIChQLmNvbGxlY3Rpb24ocm93KSBmb3Igcm93IGluIHBheWxvYWQuZ2V0KCJjb2xsZWN0aW9uTGlzdCIpIG9yIFtdKSBpZiBjXQogICAgbmV4dF9jdXJzb3IgPSBzaGFyZWQubmV4dF9jdXJzb3IocGF5bG9hZCkKICAgIHJldHVybiB7InVzZXIiOiBjb21wYWN0LCAidG90YWxfY291bnQiOiBQLnRvX2ludChwYXlsb2FkLmdldCgidG90YWwiKSksICJjb2xsZWN0aW9uX2NvdW50IjogbGVuKGNvbGxlY3Rpb25zKSwKICAgICAgICAgICAgImNvbGxlY3Rpb25zIjogY29sbGVjdGlvbnMsICJuZXh0X2N1cnNvciI6IG5leHRfY3Vyc29yLCAiaGFzX21vcmUiOiBuZXh0X2N1cnNvciBpcyBub3QgTm9uZX0K
+"""User endpoints: profile, resolve, videos, reposts, followers / following,
+playlists and collections.
+
+`user` is {"username": ..., "sec_uid": ...} from refs.resolve_user. Every
+list endpoint needs the account's secUid, so a username is first looked up
+(the profile call, memoised in-process for LOOKUP_TTL so a paging client
+pays for it once).
+
+Where each call is served (probed 2026-10-05, see fetch.py):
+  * /api/user/detail  answers on EU exits only -> looked up there, with the
+    profile PAGE on the default exit as the fallback (username refs only;
+    the page cannot be addressed by secUid).
+  * /api/post/item_list (signed, 35 a page, latest / popular / oldest) is
+    throttled per exit IP, so each session serves a small budget of calls.
+    When it still comes back empty, `latest` falls back to the unsigned
+    /api/creator/item_list (15 a page, same cursor scale: createTime in ms).
+  * reposts 30 a page (offset cursor), followers / following 30 a page
+    (cursor = the upstream minCursor), playlists and collections 20 a page.
+
+A private account answers its lists with no rows; the profile says
+`is_private`.
+"""
+import threading
+import time
+
+import config
+
+from . import parsers as P
+from . import shared
+from .fetch import TikTokBlocked, TikTokNotFound, TikTokUpstreamError, api, country_order, eu_country, get_page
+
+LOOKUP_TTL = 600
+_lookup_lock = threading.Lock()
+_lookups = {}           # ("username"|"sec_uid", value) -> (expires, userInfo)
+
+POSTS_PAGE = 35
+CREATOR_PAGE = 15
+LIST_PAGE = 30
+SORTS = {"latest": 0, "popular": 1, "oldest": 2}
+FOLLOW_SCENES = {"followers": 67, "following": 21}
+LIST_HIDDEN = 10222      # the account hides this list (profile setting)
+
+
+def _describe(user):
+    return f"@{user['username']}" if user.get("username") else "that secUid"
+
+
+def _remember(info):
+    raw = info.get("user") or {}
+    expires = time.time() + LOOKUP_TTL
+    with _lookup_lock:
+        if len(_lookups) > 5000:
+            _lookups.clear()
+        if raw.get("uniqueId"):
+            _lookups[("username", str(raw["uniqueId"]).lower())] = (expires, info)
+        if raw.get("secUid"):
+            _lookups[("sec_uid", raw["secUid"])] = (expires, info)
+
+
+def lookup(user):
+    """The raw webapp userInfo ({user, stats, statsV2}) for a resolved ref;
+    TikTokNotFound if the account does not exist."""
+    key = ("username", user["username"]) if user.get("username") else ("sec_uid", user["sec_uid"])
+    with _lookup_lock:
+        hit = _lookups.get(key)
+        if hit and hit[0] > time.time():
+            return hit[1]
+    params = {"uniqueId": user.get("username") or "", "secUid": user.get("sec_uid") or ""}
+    label = f"user {_describe(user)}"
+    try:
+        payload = api("/api/user/detail/", params, countries=(eu_country(),),
+                      not_found=shared.USER_NOT_FOUND, label=label)
+        info = payload.get("userInfo")
+    except TikTokNotFound:
+        raise
+    except TikTokUpstreamError:
+        if not user.get("username"):
+            raise
+        scope = get_page(f"/@{user['username']}")
+        detail = scope.get("webapp.user-detail") or {}
+        if detail.get("statusCode") in shared.USER_NOT_FOUND:
+            raise TikTokNotFound(f"{label} not found")
+        info = detail.get("userInfo")
+    if not isinstance(info, dict) or not (info.get("user") or {}).get("secUid"):
+        raise TikTokNotFound(f"{label} not found")
+    _remember(info)
+    return info
+
+
+def _identity(user):
+    """(secUid, compact user) — one lookup, skipped when the ref already is
+    a secUid and no compact user is needed."""
+    info = lookup(user)
+    return info["user"]["secUid"], P.user_ref(info["user"])
+
+
+def resolve(user):
+    """Username <-> user id <-> secUid, with the basic account facts."""
+    info = lookup(user)
+    out = P.user_ref(info["user"])
+    out["follower_count"] = P.user_stats(info.get("stats"), info.get("statsV2"))["follower_count"]
+    return out
+
+
+def get_profile(user):
+    """The full profile: bio, bio link, counters, flags, live room id."""
+    parsed = P.profile(lookup(user))
+    if parsed is None:
+        raise TikTokNotFound(f"user {_describe(user)} not found")
+    return parsed
+
+
+def get_posts(user, sort="latest", cursor=None, country=None):
+    """The user's videos and photo posts: latest (default), popular or oldest."""
+    sec_uid, compact = _identity(user)
+    head = {"user": compact, "sort": sort}
+    params = {"secUid": sec_uid, "count": POSTS_PAGE, "cursor": cursor or 0,
+              "post_item_list_request_type": SORTS[sort], "coverFormat": 2, "needPinnedItemIds": "true"}
+    try:
+        payload = api("/api/post/item_list/", params, countries=country_order(country, eu_country()),
+                      budget=("posts", config.TIKTOK_POSTS_CALLS_PER_EXIT), label=f"videos of {_describe(user)}")
+    except TikTokBlocked:
+        if sort != "latest":
+            raise
+        return _creator_posts(sec_uid, cursor, country, head)
+    return shared.video_page(payload, **head)
+
+
+def _creator_posts(sec_uid, cursor, country, head):
+    """The unsigned fallback for `latest`. Its cursor is inclusive (the item
+    created at the cursor comes back again), so rows at or after it are cut."""
+    payload = api("/api/creator/item_list/", {"secUid": sec_uid, "count": CREATOR_PAGE, "cursor": cursor or 0, "type": 1},
+                  country=country, signed=False)
+    rows = [row for row in payload.get("itemList") or [] if isinstance(row, dict)]
+    limit = P.to_int(cursor)
+    if limit:
+        rows = [row for row in rows if (P.to_int(row.get("createTime")) or 0) * 1000 < limit]
+    videos = P.videos(rows)
+    more = bool(payload.get("hasMorePrevious")) and bool(rows)
+    last = (P.to_int(rows[-1].get("createTime")) or 0) * 1000 if rows else 0
+    return {**head, "video_count": len(videos), "videos": videos,
+            "next_cursor": str(last) if more and last else None, "has_more": more and bool(last)}
+
+
+def get_reposts(user, cursor=None, country=None):
+    """Videos the user reposted, newest repost first."""
+    sec_uid, compact = _identity(user)
+    payload = api("/api/repost/item_list/", {"secUid": sec_uid, "count": LIST_PAGE, "cursor": cursor or 0},
+                  country=country, signed=False)
+    return shared.video_page(payload, user=compact)
+
+
+def _follow_list(user, kind, cursor):
+    sec_uid, compact = _identity(user)
+    payload = api("/api/user/list/", {"secUid": sec_uid, "scene": FOLLOW_SCENES[kind], "count": LIST_PAGE,
+                                      "minCursor": cursor or 0, "maxCursor": 0},
+                  countries=country_order(None, eu_country()), signed=False, ok=(0, LIST_HIDDEN),
+                  label=f"{kind} of {_describe(user)}")
+    if payload.get("statusCode") == LIST_HIDDEN:
+        raise TikTokNotFound(f"{_describe(user)} keeps its {kind} list private")
+    rows = P.users(payload.get("userList"), P.user_with_stats)
+    next_cursor = shared.next_cursor(payload, "minCursor")
+    return {
+        "user": compact,
+        "total_count": P.to_int(payload.get("total")),
+        "user_count": len(rows),
+        "users": rows,
+        "next_cursor": next_cursor,
+        "has_more": next_cursor is not None,
+    }
+
+
+def get_followers(user, cursor=None):
+    """Accounts following the user, most recent first, with each one's counters."""
+    return _follow_list(user, "followers", cursor)
+
+
+def get_following(user, cursor=None):
+    """Accounts the user follows, most recent first, with each one's counters."""
+    return _follow_list(user, "following", cursor)
+
+
+def get_playlists(user, cursor=None):
+    """The user's playlists (ordered series of their own videos)."""
+    sec_uid, compact = _identity(user)
+    payload = api("/api/user/playlist/", {"secUid": sec_uid, "count": 20, "cursor": cursor or 0}, signed=False)
+    playlists = [p for p in (P.playlist(row) for row in payload.get("playList") or []) if p]
+    next_cursor = shared.next_cursor(payload)
+    return {"user": compact, "playlist_count": len(playlists), "playlists": playlists,
+            "next_cursor": next_cursor, "has_more": next_cursor is not None}
+
+
+def get_collections(user, cursor=None):
+    """The user's public collections (folders of saved videos)."""
+    sec_uid, compact = _identity(user)
+    payload = api("/api/user/collection_list/", {"secUid": sec_uid, "count": 20, "cursor": cursor or 0})
+    collections = [c for c in (P.collection(row) for row in payload.get("collectionList") or []) if c]
+    next_cursor = shared.next_cursor(payload)
+    return {"user": compact, "total_count": P.to_int(payload.get("total")), "collection_count": len(collections),
+            "collections": collections, "next_cursor": next_cursor, "has_more": next_cursor is not None}

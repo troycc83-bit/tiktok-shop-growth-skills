@@ -1,1 +1,282 @@
-IiIiYW1hem9uL2ZldGNoLnB5IG9uIHRoZSBwb29sZWQgc2Vzc2lvbnM6IG5vIG5ldHdvcmsgKGEgZmFrZSBjdXJsIHNlc3Npb24KaW5zaWRlIGEgcmVhbCBmZXRjaC5fU2Vzc2lvbjsgdGhlIHBvb2wncyBtaW50IGlzIGZha2VkKS4gVGhlIHRyaWNrcyB0aGF0CnRvdWNoIHRoZSBzZXNzaW9uICh3YXJtLXVwLCBkZWxpdmVyeSBsb2NhdGlvbiwgZHJvcF9zZXNzaW9uLCBwYWdlX2Nvb2tpZXMpCmFyZSBleGVyY2lzZWQgdGhyb3VnaCB0aGUgcHVibGljIHN1cmZhY2VzLgoKICAgIHB5dGhvbiAtbSBweXRlc3QgYW1hem9uL3Rlc3RfZmV0Y2gucHkgLXEKIiIiCmltcG9ydCBvcwppbXBvcnQgc3lzCmltcG9ydCB0aHJlYWRpbmcKZnJvbSB0eXBlcyBpbXBvcnQgU2ltcGxlTmFtZXNwYWNlCgppbXBvcnQgcHl0ZXN0CgpzeXMucGF0aC5pbnNlcnQoMCwgb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKSkpCgpmcm9tIGFtYXpvbiBpbXBvcnQgZmV0Y2gsIHNpdGVzICAjIG5vcWE6IEU0MDIKZnJvbSBzY3JhcGVyX3V0aWxzLnRlc3RpbmcgaW1wb3J0IGhvc3RlZF9vbmx5CgpDQVBUQ0hBID0gIjxodG1sPkVudGVyIHRoZSBjaGFyYWN0ZXJzIHlvdSBzZWUgYmVsb3c8Zm9ybSBhY3Rpb249Jy9lcnJvcnMvdmFsaWRhdGVDYXB0Y2hhJz48L2Zvcm0+PC9odG1sPiIKR0xPV19QQUdFID0gJzxodG1sPi4uLiAiYW50aS1jc3JmdG9rZW4tYTJ6IjoiR0xPVyIgLi4uPC9odG1sPicKTU9EQUwgPSAnQ1NSRl9UT0tFTiA6ICJNT0RBTCInCgoKY2xhc3MgUmVzcDoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBzdGF0dXM9MjAwLCB0ZXh0PSI8aHRtbD5wYWdlPC9odG1sPiIsIHVybD0iaHR0cHM6Ly93d3cuYW1hem9uLmNvbS94IiwgcGF5bG9hZD1Ob25lLAogICAgICAgICAgICAgICAgIGhlYWRlcnM9Tm9uZSk6CiAgICAgICAgc2VsZi5zdGF0dXNfY29kZSwgc2VsZi50ZXh0LCBzZWxmLnVybCwgc2VsZi5fcGF5bG9hZCA9IHN0YXR1cywgdGV4dCwgdXJsLCBwYXlsb2FkCiAgICAgICAgc2VsZi5oZWFkZXJzID0gaGVhZGVycyBvciB7fQoKICAgIGRlZiBqc29uKHNlbGYpOgogICAgICAgIGlmIHNlbGYuX3BheWxvYWQgaXMgTm9uZToKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigibm90IGpzb24iKQogICAgICAgIHJldHVybiBzZWxmLl9wYXlsb2FkCgoKY2xhc3MgRmFrZUNvb2tpZXM6CiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgc2VsZi5qYXIgPSBbXQoKICAgIGRlZiBzZXQoc2VsZiwgbmFtZSwgdmFsdWUsIGRvbWFpbj1Ob25lLCBwYXRoPSIvIik6CiAgICAgICAgc2VsZi5qYXIuYXBwZW5kKFNpbXBsZU5hbWVzcGFjZShuYW1lPW5hbWUsIHZhbHVlPXZhbHVlLCBkb21haW49ZG9tYWluLCBwYXRoPXBhdGgpKQoKCmNsYXNzIEZha2VDdXJsOgogICAgIiIiU2NyaXB0ZWQgcmVzcG9uc2VzIGZvciBnZXQgLyBwb3N0IC8gcmVxdWVzdCBhbGlrZTsgZXZlcnkgY2FsbCByZWNvcmRlZC4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgcmVzcG9uc2VzKToKICAgICAgICBzZWxmLnJlc3BvbnNlcyA9IGxpc3QocmVzcG9uc2VzKQogICAgICAgIHNlbGYuY2FsbHMgPSBbXQogICAgICAgIHNlbGYuY29va2llcyA9IEZha2VDb29raWVzKCkKICAgICAgICBzZWxmLmNsb3NlZCA9IEZhbHNlCgogICAgZGVmIF9hbnN3ZXIoc2VsZiwgbWV0aG9kLCB1cmwpOgogICAgICAgIHNlbGYuY2FsbHMuYXBwZW5kKChtZXRob2QsIHVybCkpCiAgICAgICAgcmV0dXJuIHNlbGYucmVzcG9uc2VzLnBvcCgwKQoKICAgIGRlZiByZXF1ZXN0KHNlbGYsIG1ldGhvZCwgdXJsLCAqKmt3KToKICAgICAgICByZXR1cm4gc2VsZi5fYW5zd2VyKG1ldGhvZCwgdXJsKQoKICAgIGRlZiBnZXQoc2VsZiwgdXJsLCAqKmt3KToKICAgICAgICByZXR1cm4gc2VsZi5fYW5zd2VyKCJHRVQiLCB1cmwpCgogICAgZGVmIHBvc3Qoc2VsZiwgdXJsLCAqKmt3KToKICAgICAgICByZXR1cm4gc2VsZi5fYW5zd2VyKCJQT1NUIiwgdXJsKQoKICAgIGRlZiBjbG9zZShzZWxmKToKICAgICAgICBzZWxmLmNsb3NlZCA9IFRydWUKCgpAcHl0ZXN0LmZpeHR1cmUKZGVmIHBvb2wobW9ua2V5cGF0Y2gpOgogICAgbW9ua2V5cGF0Y2guc2V0YXR0cihmZXRjaCwgIkJMT0NLX1JFVFJJRVMiLCAxKQogICAgbW9ua2V5cGF0Y2guc2V0YXR0cihmZXRjaCwgIlJFVFJJRVMiLCAwKQogICAgbW9ua2V5cGF0Y2guc2V0YXR0cihmZXRjaCwgIl9ub3RlX2ZhaWx1cmUiLCBsYW1iZGEgc2VzcywgcmVhc29uOiBOb25lKSAgICMga2VlcCB0aGUgZWdyZXNzIGxlZGdlciBvdXQgb2YgaXQKICAgIG1vbmtleXBhdGNoLnNldGF0dHIoZmV0Y2gudGltZSwgInNsZWVwIiwgbGFtYmRhIHM6IE5vbmUpCiAgICBxdWV1ZSwgbWludGVkID0gW10sIFtdCgogICAgZGVmIGZha2VfbWludChrZXksIGhpbnQ9Tm9uZSk6CiAgICAgICAgY291bnRyeSwgcHVycG9zZSwgbGFuZ3VhZ2UgPSBrZXkKICAgICAgICBzZXNzID0gZmV0Y2guX1Nlc3Npb24oc2l0ZXMuc2l0ZShjb3VudHJ5KSwgTm9uZSwgaHR0cDE9KHB1cnBvc2UgPT0gImFhcGkiKSwgbGFuZ3VhZ2U9bGFuZ3VhZ2UpCiAgICAgICAgc2Vzcy5jdXJsLmNsb3NlKCkKICAgICAgICBzZXNzLmN1cmwgPSBGYWtlQ3VybChxdWV1ZS5wb3AoMCkgaWYgcXVldWUgZWxzZSBbXSkKICAgICAgICBtaW50ZWQuYXBwZW5kKHNlc3MpCiAgICAgICAgcmV0dXJuIHNlc3MKCiAgICBwID0gZmV0Y2guX3Nlc3Npb25zCiAgICBwLmNsZWFyKCkKICAgIHAuX21pbnRfZm4gPSBmYWtlX21pbnQKICAgIHAubWludGVkID0gbWludGVkCiAgICBwLnNjcmlwdCA9IGxhbWJkYSAqcGVyX3Nlc3Npb246IHF1ZXVlLmV4dGVuZChsaXN0KHIpIGZvciByIGluIHBlcl9zZXNzaW9uKQogICAgZmV0Y2guX2xvY2FsLmxhc3QgPSBOb25lCiAgICB5aWVsZCBwCiAgICBwLmNsZWFyKCkKICAgIHAuX21pbnRfZm4gPSBmZXRjaC5fbWludAogICAgZmV0Y2guX2xvY2FsLmxhc3QgPSBOb25lCgoKZGVmIHRlc3RfdGhyZWVfdGhyZWFkc19zaGFyZV9vbmVfd2FybWVkX3Nlc3Npb25fYW5kX2FfYmxvY2tfcmV0aXJlc19pdChwb29sKToKICAgICIiIlRocmVlIHNlcXVlbnRpYWwgcGFnZSBjYWxscyBvbiB0aHJlZSBkaWZmZXJlbnQgdGhyZWFkcyByaWRlIE9ORSBwb29sZWQKICAgIHNlc3Npb24gb2YgKFVTLCBwYWdlLCBlbl9VUyk6IHRoZSBob21lcGFnZSB3YXJtLXVwIGhhcHBlbnMgb25jZSAoYmVmb3JlOgogICAgb25jZSBwZXIgdGhyZWFkKS4gQSBjYXB0Y2hhIHRoZW4gcmV0aXJlcyBpdCAoY2xvc2VkLCBub3RoaW5nIGlkbGUpLiIiIgogICAgcG9vbC5zY3JpcHQoW1Jlc3AodGV4dD0iPGh0bWw+aG9tZTwvaHRtbD4iKV0gKyBbUmVzcCh0ZXh0PSI8aHRtbD5wYWdlICVkPC9odG1sPiIgJSBpKSBmb3IgaSBpbiAoMSwgMiwgMyldCiAgICAgICAgICAgICAgICArIFtSZXNwKHRleHQ9Q0FQVENIQSldKQogICAgcmVzdWx0cyA9IFtdCiAgICBmb3IgXyBpbiByYW5nZSgzKToKICAgICAgICB0ID0gdGhyZWFkaW5nLlRocmVhZCh0YXJnZXQ9bGFtYmRhOiByZXN1bHRzLmFwcGVuZChmZXRjaC5wYWdlKCJVUyIsICIvZHAvQjAwMCIsIGxvY2F0ZT1GYWxzZSkpKQogICAgICAgIHQuc3RhcnQoKQogICAgICAgIHQuam9pbigpCiAgICBhc3NlcnQgcmVzdWx0cyA9PSBbIjxodG1sPnBhZ2UgMTwvaHRtbD4iLCAiPGh0bWw+cGFnZSAyPC9odG1sPiIsICI8aHRtbD5wYWdlIDM8L2h0bWw+Il0KICAgIGFzc2VydCBsZW4ocG9vbC5taW50ZWQpID09IDEKICAgIHNlc3MgPSBwb29sLm1pbnRlZFswXQogICAgYXNzZXJ0IHNlc3Mua2V5ID09ICgiVVMiLCAicGFnZSIsICJlbl9VUyIpIGFuZCBzZXNzLndhcm1lZAogICAgYXNzZXJ0IHNlc3MuY3VybC5jYWxsc1swXSA9PSAoIkdFVCIsICJodHRwczovL3d3dy5hbWF6b24uY29tLyIpIGFuZCBsZW4oc2Vzcy5jdXJsLmNhbGxzKSA9PSA0CiAgICBhc3NlcnQgcG9vbC5zdGF0cyhzZXNzLmtleSlbImlkbGUiXSA9PSAxIGFuZCBub3Qgc2Vzcy5jbG9zZWQKICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhmZXRjaC5BbWF6b25CbG9ja2VkKToKICAgICAgICBmZXRjaC5wYWdlKCJVUyIsICIvZHAvQjAwMCIsIGxvY2F0ZT1GYWxzZSkKICAgIGFzc2VydCBzZXNzLmRlYWQgYW5kIHNlc3MuY2xvc2VkIGFuZCBwb29sLnN0YXRzKHNlc3Mua2V5KVsiaWRsZSJdID09IDAKCgpkZWYgdGVzdF9vZmZlcnNfeGhyX2xvY2F0ZXNfdGhlX2JvcnJvd2VkX3Nlc3Npb25fZmlyc3Rfb25fdGhlX3NhbWVfc2Vzc2lvbihwb29sKToKICAgICIiImFqYXgobG9jYXRlPVRydWUpOiB0aGUgZGVsaXZlcnktbG9jYXRpb24gY2hhbmdlIChiZXN0c2VsbGVycyBwYWdlIGZvcgogICAgdGhlIGdsb3cgdG9rZW4sIG1vZGFsLCBhZGRyZXNzIFBPU1QpIGFuZCB0aGUgWEhSIGFsbCByaWRlIE9ORSBib3Jyb3dlZAogICAgc2Vzc2lvbjsgdGhlIG5leHQgWEhSIHNraXBzIGl0ICh0aGUgc2Vzc2lvbiBpcyBsb2NhdGVkKS4iIiIKICAgIHBvb2wuc2NyaXB0KFtSZXNwKHRleHQ9IjxodG1sPmhvbWU8L2h0bWw+IiksIFJlc3AodGV4dD1HTE9XX1BBR0UpLCBSZXNwKHRleHQ9TU9EQUwpLAogICAgICAgICAgICAgICAgIFJlc3AodGV4dD0neyJpc0FkZHJlc3NVcGRhdGVkIjogMX0nLCBwYXlsb2FkPXsiaXNBZGRyZXNzVXBkYXRlZCI6IDF9KSwKICAgICAgICAgICAgICAgICBSZXNwKHRleHQ9Im9mZmVycy0xIiksIFJlc3AodGV4dD0ib2ZmZXJzLTIiKV0pCiAgICBhc3NlcnQgZmV0Y2guYWpheCgiVVMiLCAiL2dwL2FvZC9hamF4IiwgeyJhc2luIjogIkIwMDAifSwgbG9jYXRlPVRydWUsIHBvc3RhbF9jb2RlPSIxMDAwMSIpID09ICJvZmZlcnMtMSIKICAgIHNlc3MgPSBwb29sLm1pbnRlZFswXQogICAgYXNzZXJ0IHNlc3MubG9jYXRlZCA9PSAiMTAwMDEiIGFuZCBzZXNzLmdsb3dfdG9rZW4gPT0gIkdMT1ciCiAgICBhc3NlcnQgW3Uuc3BsaXQoImFtYXpvbi5jb20iLCAxKVsxXS5zcGxpdCgiPyIpWzBdIGZvciBfLCB1IGluIHNlc3MuY3VybC5jYWxsc10gPT0gWwogICAgICAgICIvIiwgIi9ncC9iZXN0c2VsbGVycy8iLCAiL3BvcnRhbC1taWdyYXRpb24vaHovZ2xvdy9nZXQtcmVuZGVyZWQtYWRkcmVzcy1zZWxlY3Rpb25zIiwKICAgICAgICAiL3BvcnRhbC1taWdyYXRpb24vaHovZ2xvdy9hZGRyZXNzLWNoYW5nZSIsICIvZ3AvYW9kL2FqYXgiXQogICAgYXNzZXJ0IGZldGNoLmFqYXgoIlVTIiwgIi9ncC9hb2QvYWpheCIsIHsiYXNpbiI6ICJCMDAwIn0sIGxvY2F0ZT1UcnVlLCBwb3N0YWxfY29kZT0iMTAwMDEiKSA9PSAib2ZmZXJzLTIiCiAgICBhc3NlcnQgbGVuKHBvb2wubWludGVkKSA9PSAxIGFuZCBsZW4oc2Vzcy5jdXJsLmNhbGxzKSA9PSA2CgoKZGVmIHRlc3RfcGFnZV9sb2NhdGVfcmVuZGVyc19hZ2Fpbl9vbl90aGVfc2FtZV9zZXNzaW9uKHBvb2wpOgogICAgcG9vbC5zY3JpcHQoW1Jlc3AodGV4dD0iPGh0bWw+aG9tZTwvaHRtbD4iKSwgUmVzcCh0ZXh0PUdMT1dfUEFHRSksIFJlc3AodGV4dD1NT0RBTCksCiAgICAgICAgICAgICAgICAgUmVzcCh0ZXh0PSJ7fSIsIHBheWxvYWQ9eyJpc0FkZHJlc3NVcGRhdGVkIjogMX0pLCBSZXNwKHRleHQ9IjxodG1sPmxvY2FsIHBhZ2U8L2h0bWw+IildKQogICAgYXNzZXJ0IGZldGNoLnBhZ2UoIlVTIiwgIi9kcC9CMDAwIiwgcG9zdGFsX2NvZGU9IjEwMDAxIikgPT0gIjxodG1sPmxvY2FsIHBhZ2U8L2h0bWw+IgogICAgc2VzcyA9IHBvb2wubWludGVkWzBdCiAgICBhc3NlcnQgc2Vzcy5sb2NhdGVkID09ICIxMDAwMSIgYW5kIGxlbihwb29sLm1pbnRlZCkgPT0gMQogICAgYXNzZXJ0IFt1IGZvciBfLCB1IGluIHNlc3MuY3VybC5jYWxsc10uY291bnQoImh0dHBzOi8vd3d3LmFtYXpvbi5jb20vZHAvQjAwMCIpID09IDIKCgpkZWYgdGVzdF9kcm9wX3Nlc3Npb25fcmV0aXJlc190aGVfc2Vzc2lvbl90aGlzX3RocmVhZF9sYXN0X3JvZGUocG9vbCk6CiAgICBwb29sLnNjcmlwdChbUmVzcCh0ZXh0PSI8aHRtbD5ob21lPC9odG1sPiIpLCBSZXNwKHRleHQ9IjxodG1sPm5vIHRpdGxlPC9odG1sPiIpXSwgW1Jlc3AodGV4dD0iPGh0bWw+aG9tZTwvaHRtbD4iKV0pCiAgICBmZXRjaC5wYWdlKCJVUyIsICIvZHAvQjAwMCIsIGxvY2F0ZT1GYWxzZSkKICAgIGZpcnN0ID0gcG9vbC5taW50ZWRbMF0KICAgIGZldGNoLmRyb3Bfc2Vzc2lvbigiVVMiLCAicGFnZSIpCiAgICBhc3NlcnQgZmlyc3QuY2xvc2VkIGFuZCBwb29sLnN0YXRzKGZpcnN0LmtleSlbImlkbGUiXSA9PSAwCiAgICBmZXRjaC5kcm9wX3Nlc3Npb24oIlVTIiwgInBhZ2UiKSAgICAgICAgICAgICAgICAgIyBub3RoaW5nIHRvIGRyb3A6IGEgbm8tb3AKICAgIGZldGNoLmRyb3Bfc2Vzc2lvbigiREUiLCAicGFnZSIpCiAgICBhc3NlcnQgbGVuKHBvb2wubWludGVkKSA9PSAxCgoKZGVmIHRlc3RfcGFnZV9jb29raWVzX2FyZV90aGVfbGFzdF9wYWdlX3Nlc3Npb25zX2FuZF9yZWFjaF90aGVfYWFwaV9zZXNzaW9uKHBvb2wpOgogICAgcG9vbC5zY3JpcHQoW1Jlc3AodGV4dD0iPGh0bWw+aG9tZTwvaHRtbD4iKSwgUmVzcCh0ZXh0PSI8aHRtbD5kZWFsczwvaHRtbD4iKV0sCiAgICAgICAgICAgICAgICBbUmVzcCh0ZXh0PSd7ImVudGl0eSI6IHt9fScsIHBheWxvYWQ9eyJlbnRpdHkiOiB7fX0pXSkKICAgIGZldGNoLnBhZ2UoIlVTIiwgIi9kZWFscyIsIGxvY2F0ZT1GYWxzZSkKICAgIHBhZ2Vfc2VzcyA9IHBvb2wubWludGVkWzBdCiAgICBwYWdlX3Nlc3MuY3VybC5jb29raWVzLnNldCgic2Vzc2lvbi1pZCIsICJTSUQiLCBkb21haW49Ii5hbWF6b24uY29tIikKICAgIHBhZ2Vfc2Vzcy5zbmFwc2hvdF9jb29raWVzKCkKICAgIGNvb2tpZXMgPSBmZXRjaC5wYWdlX2Nvb2tpZXMoIlVTIikKICAgIGFzc2VydCAoInNlc3Npb24taWQiLCAiU0lEIiwgIi5hbWF6b24uY29tIiwgIi8iKSBpbiBjb29raWVzCiAgICBib2R5ID0gZmV0Y2guYWFwaSgiVVMiLCAiL2FwaS9tYXJrZXRwbGFjZXMvWC9wcm9kdWN0cy9CMDAwIiwgYWNjZXB0PSJhIiwgY3NyZl90b2tlbj0idCIsIGNvb2tpZXM9Y29va2llcykKICAgIGFzc2VydCBib2R5ID09IHsiZW50aXR5Ijoge319CiAgICBkYXRhX3Nlc3MgPSBwb29sLm1pbnRlZFsxXQogICAgYXNzZXJ0IGRhdGFfc2Vzcy5rZXkgPT0gKCJVUyIsICJhYXBpIiwgImVuX1VTIikKICAgIGFzc2VydCBbKGMubmFtZSwgYy52YWx1ZSkgZm9yIGMgaW4gZGF0YV9zZXNzLmN1cmwuY29va2llcy5qYXIgaWYgYy5uYW1lID09ICJzZXNzaW9uLWlkIl0gPT0gWygic2Vzc2lvbi1pZCIsICJTSUQiKV0KCgpkZWYgdGVzdF9zZXNzaW9uc19hcmVfa2V5ZWRfYnlfbWFya2V0cGxhY2VfcHVycG9zZV9hbmRfbGFuZ3VhZ2UocG9vbCk6CiAgICBwb29sLnNjcmlwdChbUmVzcCh0ZXh0PSI8aHRtbD5ob21lPC9odG1sPiIpLCBSZXNwKHRleHQ9InVzIildLCBbUmVzcCh0ZXh0PSI8aHRtbD5ob21lPC9odG1sPiIpLCBSZXNwKHRleHQ9ImRlIildLAogICAgICAgICAgICAgICAgW1Jlc3AodGV4dD0iPGh0bWw+aG9tZTwvaHRtbD4iKSwgUmVzcCh0ZXh0PSJkZS1lbiIpXSkKICAgIGFzc2VydCBmZXRjaC5wYWdlKCJVUyIsICIveCIsIGxvY2F0ZT1GYWxzZSkgPT0gInVzIgogICAgYXNzZXJ0IGZldGNoLnBhZ2UoIkRFIiwgIi94IiwgbG9jYXRlPUZhbHNlKSA9PSAiZGUiCiAgICBhc3NlcnQgZmV0Y2gucGFnZSgiREUiLCAiL3giLCBsb2NhdGU9RmFsc2UsIGxhbmd1YWdlPSJlbl9HQiIpID09ICJkZS1lbiIKICAgIGFzc2VydCBbcy5rZXkgZm9yIHMgaW4gcG9vbC5taW50ZWRdID09IFsoIlVTIiwgInBhZ2UiLCAiZW5fVVMiKSwgKCJERSIsICJwYWdlIiwgImRlX0RFIiksICgiREUiLCAicGFnZSIsICJlbl9HQiIpXQogICAgYXNzZXJ0IHBvb2wubGVmdChwb29sLm1pbnRlZFswXSkgPT0gZmV0Y2guY29uZmlnLkFNQVpPTl9TRVNTSU9OX1VTRVMgLSAxCgoKIyAtLS0tIHRoZSBnYXRld2F5IGV4aXQgKGNvbmZpZy5BTUFaT05fRUdSRVNTID0gImdhdGV3YXkiKSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKX25vdGVfZmFpbHVyZSA9IGZldGNoLl9ub3RlX2ZhaWx1cmUgICAgICAgICAgIyB0aGUgcmVhbCBvbmUgKHRoZSBgcG9vbGAgZml4dHVyZSBzdHVicyBpdCkKCgpAcHl0ZXN0LmZpeHR1cmUKZGVmIHRpZXJzKG1vbmtleXBhdGNoKToKICAgICIiIl9wcm94eV9mb3IgLyBfbm90ZV9mYWlsdXJlIHdpdGggZmFrZSBleGl0cyBhbmQgYSBjbGVhbiBsZWRnZXIuIiIiCiAgICBjbG9jayA9IFsxMDAwLjBdCiAgICBtb25rZXlwYXRjaC5zZXRhdHRyKGZldGNoLnRpbWUsICJtb25vdG9uaWMiLCBsYW1iZGE6IGNsb2NrWzBdKQogICAgbW9ua2V5cGF0Y2guc2V0YXR0cihmZXRjaC5jb25maWcsICJBTUFaT05fRUdSRVNTIiwgImdhdGV3YXkiKQogICAgbW9ua2V5cGF0Y2guc2V0YXR0cihmZXRjaC5jb25maWcsICJBTUFaT05fR0FURVdBWV9FWElUUyIsIHsiVVMiOiAiZ2F0ZXdheSIsICJERSI6ICJnYXRld2F5In0pCiAgICBtb25rZXlwYXRjaC5zZXRhdHRyKGZldGNoLmNvbmZpZywgIkFNQVpPTl9QUk9YWV9DT1VOVFJZIiwgTm9uZSkKICAgIG1vbmtleXBhdGNoLnNldGF0dHIoZmV0Y2guY29uZmlnLCAiYW1hem9uX2RhdGFjZW50ZXJfcHJveHkiLCBsYW1iZGE6ICJodHRwOi8vZGMiKQogICAgbW9ua2V5cGF0Y2guc2V0YXR0cihmZXRjaC5jb25maWcsICJhbWF6b25fZmFsbGJhY2tfcHJveHkiLCBsYW1iZGEgY291bnRyeTogZiJodHRwOi8vcmVzLXtjb3VudHJ5Lmxvd2VyKCl9IikKICAgIG1vbmtleXBhdGNoLnNldGF0dHIoZmV0Y2guY29uZmlnLCAiYW1hem9uX2NvdW50cnlfcHJveHkiLCBsYW1iZGEgY291bnRyeTogZiJodHRwOi8vcGluLXtjb3VudHJ5Lmxvd2VyKCl9IikKICAgIGZvciBsZWRnZXIgaW4gKCJfZGNfZmFpbHVyZXMiLCAiX2dhdGV3YXlfZmFpbHVyZXMiLCAiX2dhdGV3YXlfcGF1c2VkIik6CiAgICAgICAgbW9ua2V5cGF0Y2guc2V0YXR0cihmZXRjaCwgbGVkZ2VyLCB7fSkKICAgIG1vbmtleXBhdGNoLnNldGF0dHIoZmV0Y2gsICJfcmVzaWRlbnRpYWwiLCBzZXQoKSkKICAgIHJldHVybiBjbG9jawoKCmRlZiBfZXhpdF9vZihjb3VudHJ5KToKICAgIHJldHVybiBmZXRjaC5fcHJveHlfZm9yKHNpdGVzLnNpdGUoY291bnRyeSkpCgoKZGVmIF9mYWlsZWQoY291bnRyeSwgZWdyZXNzKToKICAgIF9ub3RlX2ZhaWx1cmUoU2ltcGxlTmFtZXNwYWNlKHNpdGU9c2l0ZXMuc2l0ZShjb3VudHJ5KSwgZWdyZXNzPWVncmVzcyksICJjYXB0Y2hhIikKCgpAaG9zdGVkX29ubHkKZGVmIHRlc3RfZ2F0ZXdheV9lZ3Jlc3NfcmlkZXNfZWFjaF9saXN0ZWRfbWFya2V0cGxhY2VzX293bl9nYXRld2F5X2V4aXQodGllcnMpOgogICAgYXNzZXJ0IF9leGl0X29mKCJVUyIpID09ICgiZ2F0ZXdheSIsICJnYXRld2F5IikgYW5kIF9leGl0X29mKCJERSIpID09ICgiZ2F0ZXdheSIsICJnYXRld2F5IikKICAgIGFzc2VydCBfZXhpdF9vZigiRlIiKSA9PSAoImh0dHA6Ly9kYyIsICJkYXRhY2VudGVyIikgICAgICAgICAgICAjIG5vdCBsaXN0ZWQ6IHRoZSBkYXRhY2VudGVyIHRpZXIgYXMgYmVmb3JlCiAgICBhc3NlcnQgX2V4aXRfb2YoIkpQIikgPT0gKCJodHRwOi8vcGluLWpwIiwgInJlc2lkZW50aWFsIikgICAgICAgIyBhIHBpbm5lZCBzdG9yZWZyb250IHRoYXQgaXMgbm90IGxpc3RlZAogICAgZmV0Y2guY29uZmlnLkFNQVpPTl9HQVRFV0FZX0VYSVRTID0geyJVUyI6ICJnYXRld2F5IiwgIkZSIjogImdhdGV3YXk6ZnIiLCAiSlAiOiAiZ2F0ZXdheTpqcCIsICJOTCI6ICJnYXRld2F5OmRlIn0KICAgIGFzc2VydCBfZXhpdF9vZigiRlIiKSA9PSAoImdhdGV3YXk6ZnIiLCAiZ2F0ZXdheSIpICAgICAgICAgICAgICAgICAgICAgICMgaXRzIG93biBjb3VudHJ5J3MgZ2F0ZXdheQogICAgYXNzZXJ0IF9leGl0X29mKCJOTCIpID09ICgiZ2F0ZXdheTpkZSIsICJnYXRld2F5IikgICAgICAgICAgICAgICAgICAgICAgIyBhIG5laWdoYm91cidzCiAgICBhc3NlcnQgX2V4aXRfb2YoIkpQIikgPT0gKCJnYXRld2F5OmpwIiwgImdhdGV3YXkiKSAgICAgICAgICAgICAgICAgICAgICAjIGEgcGlubmVkIHN0b3JlZnJvbnQgcmlkZXMgaXQgd2hlbiBsaXN0ZWQKICAgIF9mYWlsZWQoIkpQIiwgImdhdGV3YXkiKQogICAgX2ZhaWxlZCgiSlAiLCAiZ2F0ZXdheSIpCiAgICBhc3NlcnQgX2V4aXRfb2YoIkpQIikgPT0gKCJodHRwOi8vcGluLWpwIiwgInJlc2lkZW50aWFsIikgICAgICAgIyAuLi4gYW5kIGZhbGxzIGJhY2sgdG8gaXRzIHBpbm5lZCBleGl0CiAgICBmZXRjaC5jb25maWcuQU1BWk9OX1BST1hZX0NPVU5UUlkgPSAiZGUiICAgICAgICAgICAgICAgICAgICAgICAgIyB0aGUgZW1lcmdlbmN5IG92ZXJyaWRlIGJlYXRzIHRoZSBnYXRld2F5CiAgICBhc3NlcnQgX2V4aXRfb2YoIlVTIikgPT0gKCJodHRwOi8vcGluLWRlIiwgInJlc2lkZW50aWFsIikKICAgIGZldGNoLmNvbmZpZy5BTUFaT05fUFJPWFlfQ09VTlRSWSA9IE5vbmUKICAgIGZldGNoLmNvbmZpZy5BTUFaT05fRUdSRVNTID0gImRhdGFjZW50ZXIiICAgICAgICAgICAgICAgICAgICAgICAjIHRoZSBvbGQga25vYiB2YWx1ZTogbm90aGluZyBjaGFuZ2VkCiAgICBhc3NlcnQgX2V4aXRfb2YoIlVTIikgPT0gKCJodHRwOi8vZGMiLCAiZGF0YWNlbnRlciIpIGFuZCBfZXhpdF9vZigiSlAiKSA9PSAoImh0dHA6Ly9waW4tanAiLCAicmVzaWRlbnRpYWwiKQoKCkBob3N0ZWRfb25seQpkZWYgdGVzdF9nYXRld2F5X2ZhaWx1cmVzX3BhdXNlX2l0X2Zvcl90aGF0X21hcmtldHBsYWNlX3RoZW5faXRfaXNfdHJpZWRfYWdhaW4odGllcnMpOgogICAgY2xvY2sgPSB0aWVycwogICAgX2ZhaWxlZCgiREUiLCAiZ2F0ZXdheSIpCiAgICBhc3NlcnQgX2V4aXRfb2YoIkRFIikgPT0gKCJnYXRld2F5IiwgImdhdGV3YXkiKSAgICAgICAgICAgICAgICAgICAgICAgICAjIG9uZSBmYWlsdXJlIGlzIG5vdCBhIHBhdHRlcm4KICAgIGNsb2NrWzBdICs9IGZldGNoLmNvbmZpZy5BTUFaT05fR0FURVdBWV9XSU5ET1cgKyAxCiAgICBfZmFpbGVkKCJERSIsICJnYXRld2F5IikgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgdGhlIGZpcnN0IG9uZSBpcyBvdXQgb2YgdGhlIHdpbmRvdwogICAgYXNzZXJ0IF9leGl0X29mKCJERSIpID09ICgiZ2F0ZXdheSIsICJnYXRld2F5IikKICAgIGNsb2NrWzBdICs9IDUKICAgIF9mYWlsZWQoIkRFIiwgImdhdGV3YXkiKQogICAgYXNzZXJ0IF9leGl0X29mKCJERSIpID09ICgiaHR0cDovL2RjIiwgImRhdGFjZW50ZXIiKSAgICAgICAgICAgICMgdHdvIGluc2lkZSB0aGUgd2luZG93OiBkYXRhY2VudGVyIGV4aXRzCiAgICBhc3NlcnQgX2V4aXRfb2YoIlVTIikgPT0gKCJnYXRld2F5IiwgImdhdGV3YXkiKSAgICAgICAgICAgICAgICAgICAgICAgICAjIHBlciBtYXJrZXRwbGFjZQogICAgYXNzZXJ0IGZldGNoLl9kY19mYWlsdXJlcyA9PSB7fSBhbmQgbm90IGZldGNoLl9yZXNpZGVudGlhbCAgICAgIyBnYXRld2F5IGZhaWx1cmVzIG5ldmVyIGNvdW50IHRvd2FyZHMgcmVzaWRlbnRpYWwKICAgIF9mYWlsZWQoIkRFIiwgImRhdGFjZW50ZXIiKQogICAgX2ZhaWxlZCgiREUiLCAiZGF0YWNlbnRlciIpCiAgICBhc3NlcnQgX2V4aXRfb2YoIkRFIikgPT0gKCJodHRwOi8vcmVzLWRlIiwgInJlc2lkZW50aWFsIikgICAgICAgIyB0aGUgZGF0YWNlbnRlciB0aWVyIGVzY2FsYXRlcyBhcyBiZWZvcmUKICAgIGZldGNoLl9yZXNpZGVudGlhbC5jbGVhcigpCiAgICBjbG9ja1swXSArPSBmZXRjaC5jb25maWcuQU1BWk9OX0dBVEVXQVlfUEFVU0UgKyAxCiAgICBhc3NlcnQgX2V4aXRfb2YoIkRFIikgPT0gKCJnYXRld2F5IiwgImdhdGV3YXkiKSAgICAgICAgICAgICAgICAgICAgICAgICAjIHRoZSBwYXVzZSBpcyBvdmVyCgoKQGhvc3RlZF9vbmx5CmRlZiB0ZXN0X2dhdGV3YXlfc2Vzc2lvbl9rZWVwc19jb29raWVzX2luX3RoZV9nYXRld2F5c19vd25famFyKCk6CiAgICAiIiJBIHNlc3Npb24gb24gImdhdGV3YXkiIGhvbGRzIGFuIGV4aXRfZ2F0ZXdheS5TZXNzaW9uIChubyBjdXJsIGphcik6IHRoZQogICAgc2VlZGVkIGNvb2tpZXMsIHRoZSBsb2NhbGUgcmUtYXNzZXJ0IGFuZCB0aGUgc25hcHNob3QgaGFuZGVkIHRvIHRoZSBkYXRhCiAgICBob3N0J3Mgc2Vzc2lvbiBhbGwgZ28gdGhyb3VnaCBjb29raWVfbGlzdCAvIHNldF9jb29raWUuIiIiCiAgICBzZXNzID0gZmV0Y2guX1Nlc3Npb24oc2l0ZXMuc2l0ZSgiREUiKSwgImdhdGV3YXkiLCBlZ3Jlc3M9ImdhdGV3YXkiKQogICAgdHJ5OgogICAgICAgIGFzc2VydCBzZXNzLmdhdGV3YXkgYW5kIGdldGF0dHIoc2Vzcy5jdXJsLCAidmlhX2V4aXRfZ2F0ZXdheSIsIEZhbHNlKQogICAgICAgIGFzc2VydCAoImkxOG4tcHJlZnMiLCAiRVVSIiwgIi5hbWF6b24uZGUiLCAiLyIpIGluIHNlc3MuY29va2llX2xpc3QoKQogICAgICAgIGFzc2VydCAoImxjLWFjYmRlIiwgImRlX0RFIiwgIi5hbWF6b24uZGUiLCAiLyIpIGluIHNlc3MuY29va2llX2xpc3QoKQogICAgICAgICMgQW1hem9uIHJld3JpdGVzIHRoZSBsb2NhbGUgb24gdGhlIGRvdC1kb21haW4gYW5kIHNldHMgYSBob3N0LW9ubHkgY29weQogICAgICAgIHNlc3MuY3VybC5jb29raWVzLnNldCgibGMtYWNiZGUiLCAiZW5fR0IiLCAiLmFtYXpvbi5kZSIpCiAgICAgICAgc2Vzcy5jdXJsLmNvb2tpZXMuc2V0KCJsYy1hY2JkZSIsICJlbl9HQiIsICJ3d3cuYW1hem9uLmRlIikKICAgICAgICBzZXNzLmN1cmwuY29va2llcy5zZXQoInNlc3Npb24taWQiLCAiU0lEIiwgIi5hbWF6b24uZGUiKQogICAgICAgIHNlc3Mua2VlcF9sYW5ndWFnZSgpCiAgICAgICAgYXNzZXJ0IHt2YWx1ZSBmb3IgbmFtZSwgdmFsdWUsIF8sIF8gaW4gc2Vzcy5jb29raWVfbGlzdCgpIGlmIG5hbWUgPT0gImxjLWFjYmRlIn0gPT0geyJkZV9ERSJ9CiAgICAgICAgYXNzZXJ0IHNlc3MuY3VybC5jb29raWVzLmhlYWRlcl9mb3IoInd3dy5hbWF6b24uZGUiKS5jb3VudCgibGMtYWNiZGU9ZGVfREUiKSA9PSAyCiAgICAgICAgIyB0aGUgc25hcHNob3QncyBkb3QtZG9tYWluIGNvb2tpZXMgcmVhY2ggZGF0YS5hbWF6b24uZGUgb24gYW5vdGhlciBnYXRld2F5IHNlc3Npb24KICAgICAgICBkYXRhID0gZmV0Y2guX1Nlc3Npb24oc2l0ZXMuc2l0ZSgiREUiKSwgImdhdGV3YXkiLCBodHRwMT1UcnVlLCBlZ3Jlc3M9ImdhdGV3YXkiKQogICAgICAgIGZvciBuYW1lLCB2YWx1ZSwgZG9tYWluLCBwYXRoIGluIHNlc3Muc25hcHNob3RfY29va2llcygpOgogICAgICAgICAgICBkYXRhLnNldF9jb29raWUobmFtZSwgdmFsdWUsIGRvbWFpbiwgcGF0aCkKICAgICAgICBhc3NlcnQgInNlc3Npb24taWQ9U0lEIiBpbiBkYXRhLmN1cmwuY29va2llcy5oZWFkZXJfZm9yKCJkYXRhLmFtYXpvbi5kZSIpCiAgICAgICAgYXNzZXJ0ICJsYy1hY2JkZT1kZV9ERSIgaW4gZGF0YS5jdXJsLmNvb2tpZXMuaGVhZGVyX2ZvcigiZGF0YS5hbWF6b24uZGUiKQogICAgICAgIGRhdGEuY2xvc2UoKQogICAgICAgIGFzc2VydCBub3QgZmV0Y2guaXNfZmFsbGJhY2tfcmVuZGVyKHNlc3MsIFJlc3AodGV4dD0iPGh0bWw+IiArICJ4IiAqIDYwXzAwMCkpICAgICMgc2Vzc2lvbi1pZCBpcyBpbiB0aGUgamFyCiAgICAgICAgc2Vzcy5jdXJsLmNvb2tpZXMuY2xlYXIoKQogICAgICAgIGFzc2VydCBmZXRjaC5pc19mYWxsYmFja19yZW5kZXIoc2VzcywgUmVzcCh0ZXh0PSI8aHRtbD4iICsgIngiICogNjBfMDAwKSkKICAgIGZpbmFsbHk6CiAgICAgICAgc2Vzcy5jbG9zZSgpCg==
+"""amazon/fetch.py on the pooled sessions: no network (a fake curl session
+inside a real fetch._Session; the pool's mint is faked). The tricks that
+touch the session (warm-up, delivery location, drop_session, page_cookies)
+are exercised through the public surfaces.
+
+    python -m pytest amazon/test_fetch.py -q
+"""
+import os
+import sys
+import threading
+from types import SimpleNamespace
+
+import pytest
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from amazon import fetch, sites  # noqa: E402
+from scraper_utils.testing import hosted_only
+
+CAPTCHA = "<html>Enter the characters you see below<form action='/errors/validateCaptcha'></form></html>"
+GLOW_PAGE = '<html>... "anti-csrftoken-a2z":"GLOW" ...</html>'
+MODAL = 'CSRF_TOKEN : "MODAL"'
+
+
+class Resp:
+    def __init__(self, status=200, text="<html>page</html>", url="https://www.amazon.com/x", payload=None,
+                 headers=None):
+        self.status_code, self.text, self.url, self._payload = status, text, url, payload
+        self.headers = headers or {}
+
+    def json(self):
+        if self._payload is None:
+            raise ValueError("not json")
+        return self._payload
+
+
+class FakeCookies:
+    def __init__(self):
+        self.jar = []
+
+    def set(self, name, value, domain=None, path="/"):
+        self.jar.append(SimpleNamespace(name=name, value=value, domain=domain, path=path))
+
+
+class FakeCurl:
+    """Scripted responses for get / post / request alike; every call recorded."""
+
+    def __init__(self, responses):
+        self.responses = list(responses)
+        self.calls = []
+        self.cookies = FakeCookies()
+        self.closed = False
+
+    def _answer(self, method, url):
+        self.calls.append((method, url))
+        return self.responses.pop(0)
+
+    def request(self, method, url, **kw):
+        return self._answer(method, url)
+
+    def get(self, url, **kw):
+        return self._answer("GET", url)
+
+    def post(self, url, **kw):
+        return self._answer("POST", url)
+
+    def close(self):
+        self.closed = True
+
+
+@pytest.fixture
+def pool(monkeypatch):
+    monkeypatch.setattr(fetch, "BLOCK_RETRIES", 1)
+    monkeypatch.setattr(fetch, "RETRIES", 0)
+    monkeypatch.setattr(fetch, "_note_failure", lambda sess, reason: None)   # keep the egress ledger out of it
+    monkeypatch.setattr(fetch.time, "sleep", lambda s: None)
+    queue, minted = [], []
+
+    def fake_mint(key, hint=None):
+        country, purpose, language = key
+        sess = fetch._Session(sites.site(country), None, http1=(purpose == "aapi"), language=language)
+        sess.curl.close()
+        sess.curl = FakeCurl(queue.pop(0) if queue else [])
+        minted.append(sess)
+        return sess
+
+    p = fetch._sessions
+    p.clear()
+    p._mint_fn = fake_mint
+    p.minted = minted
+    p.script = lambda *per_session: queue.extend(list(r) for r in per_session)
+    fetch._local.last = None
+    yield p
+    p.clear()
+    p._mint_fn = fetch._mint
+    fetch._local.last = None
+
+
+def test_three_threads_share_one_warmed_session_and_a_block_retires_it(pool):
+    """Three sequential page calls on three different threads ride ONE pooled
+    session of (US, page, en_US): the homepage warm-up happens once (before:
+    once per thread). A captcha then retires it (closed, nothing idle)."""
+    pool.script([Resp(text="<html>home</html>")] + [Resp(text="<html>page %d</html>" % i) for i in (1, 2, 3)]
+                + [Resp(text=CAPTCHA)])
+    results = []
+    for _ in range(3):
+        t = threading.Thread(target=lambda: results.append(fetch.page("US", "/dp/B000", locate=False)))
+        t.start()
+        t.join()
+    assert results == ["<html>page 1</html>", "<html>page 2</html>", "<html>page 3</html>"]
+    assert len(pool.minted) == 1
+    sess = pool.minted[0]
+    assert sess.key == ("US", "page", "en_US") and sess.warmed
+    assert sess.curl.calls[0] == ("GET", "https://www.amazon.com/") and len(sess.curl.calls) == 4
+    assert pool.stats(sess.key)["idle"] == 1 and not sess.closed
+    with pytest.raises(fetch.AmazonBlocked):
+        fetch.page("US", "/dp/B000", locate=False)
+    assert sess.dead and sess.closed and pool.stats(sess.key)["idle"] == 0
+
+
+def test_offers_xhr_locates_the_borrowed_session_first_on_the_same_session(pool):
+    """ajax(locate=True): the delivery-location change (bestsellers page for
+    the glow token, modal, address POST) and the XHR all ride ONE borrowed
+    session; the next XHR skips it (the session is located)."""
+    pool.script([Resp(text="<html>home</html>"), Resp(text=GLOW_PAGE), Resp(text=MODAL),
+                 Resp(text='{"isAddressUpdated": 1}', payload={"isAddressUpdated": 1}),
+                 Resp(text="offers-1"), Resp(text="offers-2")])
+    assert fetch.ajax("US", "/gp/aod/ajax", {"asin": "B000"}, locate=True, postal_code="10001") == "offers-1"
+    sess = pool.minted[0]
+    assert sess.located == "10001" and sess.glow_token == "GLOW"
+    assert [u.split("amazon.com", 1)[1].split("?")[0] for _, u in sess.curl.calls] == [
+        "/", "/gp/bestsellers/", "/portal-migration/hz/glow/get-rendered-address-selections",
+        "/portal-migration/hz/glow/address-change", "/gp/aod/ajax"]
+    assert fetch.ajax("US", "/gp/aod/ajax", {"asin": "B000"}, locate=True, postal_code="10001") == "offers-2"
+    assert len(pool.minted) == 1 and len(sess.curl.calls) == 6
+
+
+def test_page_locate_renders_again_on_the_same_session(pool):
+    pool.script([Resp(text="<html>home</html>"), Resp(text=GLOW_PAGE), Resp(text=MODAL),
+                 Resp(text="{}", payload={"isAddressUpdated": 1}), Resp(text="<html>local page</html>")])
+    assert fetch.page("US", "/dp/B000", postal_code="10001") == "<html>local page</html>"
+    sess = pool.minted[0]
+    assert sess.located == "10001" and len(pool.minted) == 1
+    assert [u for _, u in sess.curl.calls].count("https://www.amazon.com/dp/B000") == 2
+
+
+def test_drop_session_retires_the_session_this_thread_last_rode(pool):
+    pool.script([Resp(text="<html>home</html>"), Resp(text="<html>no title</html>")], [Resp(text="<html>home</html>")])
+    fetch.page("US", "/dp/B000", locate=False)
+    first = pool.minted[0]
+    fetch.drop_session("US", "page")
+    assert first.closed and pool.stats(first.key)["idle"] == 0
+    fetch.drop_session("US", "page")                 # nothing to drop: a no-op
+    fetch.drop_session("DE", "page")
+    assert len(pool.minted) == 1
+
+
+def test_page_cookies_are_the_last_page_sessions_and_reach_the_aapi_session(pool):
+    pool.script([Resp(text="<html>home</html>"), Resp(text="<html>deals</html>")],
+                [Resp(text='{"entity": {}}', payload={"entity": {}})])
+    fetch.page("US", "/deals", locate=False)
+    page_sess = pool.minted[0]
+    page_sess.curl.cookies.set("session-id", "SID", domain=".amazon.com")
+    page_sess.snapshot_cookies()
+    cookies = fetch.page_cookies("US")
+    assert ("session-id", "SID", ".amazon.com", "/") in cookies
+    body = fetch.aapi("US", "/api/marketplaces/X/products/B000", accept="a", csrf_token="t", cookies=cookies)
+    assert body == {"entity": {}}
+    data_sess = pool.minted[1]
+    assert data_sess.key == ("US", "aapi", "en_US")
+    assert [(c.name, c.value) for c in data_sess.curl.cookies.jar if c.name == "session-id"] == [("session-id", "SID")]
+
+
+def test_sessions_are_keyed_by_marketplace_purpose_and_language(pool):
+    pool.script([Resp(text="<html>home</html>"), Resp(text="us")], [Resp(text="<html>home</html>"), Resp(text="de")],
+                [Resp(text="<html>home</html>"), Resp(text="de-en")])
+    assert fetch.page("US", "/x", locate=False) == "us"
+    assert fetch.page("DE", "/x", locate=False) == "de"
+    assert fetch.page("DE", "/x", locate=False, language="en_GB") == "de-en"
+    assert [s.key for s in pool.minted] == [("US", "page", "en_US"), ("DE", "page", "de_DE"), ("DE", "page", "en_GB")]
+    assert pool.left(pool.minted[0]) == fetch.config.AMAZON_SESSION_USES - 1
+
+
+# ---- the gateway exit (config.AMAZON_EGRESS = "gateway") --------------------------------------------
+
+_note_failure = fetch._note_failure          # the real one (the `pool` fixture stubs it)
+
+
+@pytest.fixture
+def tiers(monkeypatch):
+    """_proxy_for / _note_failure with fake exits and a clean ledger."""
+    clock = [1000.0]
+    monkeypatch.setattr(fetch.time, "monotonic", lambda: clock[0])
+    monkeypatch.setattr(fetch.config, "AMAZON_EGRESS", "gateway")
+    monkeypatch.setattr(fetch.config, "AMAZON_GATEWAY_EXITS", {"US": "gateway", "DE": "gateway"})
+    monkeypatch.setattr(fetch.config, "AMAZON_PROXY_COUNTRY", None)
+    monkeypatch.setattr(fetch.config, "amazon_datacenter_proxy", lambda: "http://dc")
+    monkeypatch.setattr(fetch.config, "amazon_fallback_proxy", lambda country: f"http://res-{country.lower()}")
+    monkeypatch.setattr(fetch.config, "amazon_country_proxy", lambda country: f"http://pin-{country.lower()}")
+    for ledger in ("_dc_failures", "_gateway_failures", "_gateway_paused"):
+        monkeypatch.setattr(fetch, ledger, {})
+    monkeypatch.setattr(fetch, "_residential", set())
+    return clock
+
+
+def _exit_of(country):
+    return fetch._proxy_for(sites.site(country))
+
+
+def _failed(country, egress):
+    _note_failure(SimpleNamespace(site=sites.site(country), egress=egress), "captcha")
+
+
+@hosted_only
+def test_gateway_egress_rides_each_listed_marketplaces_own_gateway_exit(tiers):
+    assert _exit_of("US") == ("gateway", "gateway") and _exit_of("DE") == ("gateway", "gateway")
+    assert _exit_of("FR") == ("http://dc", "datacenter")            # not listed: the datacenter tier as before
+    assert _exit_of("JP") == ("http://pin-jp", "residential")       # a pinned storefront that is not listed
+    fetch.config.AMAZON_GATEWAY_EXITS = {"US": "gateway", "FR": "gateway:fr", "JP": "gateway:jp", "NL": "gateway:de"}
+    assert _exit_of("FR") == ("gateway:fr", "gateway")                      # its own country's gateway
+    assert _exit_of("NL") == ("gateway:de", "gateway")                      # a neighbour's
+    assert _exit_of("JP") == ("gateway:jp", "gateway")                      # a pinned storefront rides it when listed
+    _failed("JP", "gateway")
+    _failed("JP", "gateway")
+    assert _exit_of("JP") == ("http://pin-jp", "residential")       # ... and falls back to its pinned exit
+    fetch.config.AMAZON_PROXY_COUNTRY = "de"                        # the emergency override beats the gateway
+    assert _exit_of("US") == ("http://pin-de", "residential")
+    fetch.config.AMAZON_PROXY_COUNTRY = None
+    fetch.config.AMAZON_EGRESS = "datacenter"                       # the old knob value: nothing changed
+    assert _exit_of("US") == ("http://dc", "datacenter") and _exit_of("JP") == ("http://pin-jp", "residential")
+
+
+@hosted_only
+def test_gateway_failures_pause_it_for_that_marketplace_then_it_is_tried_again(tiers):
+    clock = tiers
+    _failed("DE", "gateway")
+    assert _exit_of("DE") == ("gateway", "gateway")                         # one failure is not a pattern
+    clock[0] += fetch.config.AMAZON_GATEWAY_WINDOW + 1
+    _failed("DE", "gateway")                                            # the first one is out of the window
+    assert _exit_of("DE") == ("gateway", "gateway")
+    clock[0] += 5
+    _failed("DE", "gateway")
+    assert _exit_of("DE") == ("http://dc", "datacenter")            # two inside the window: datacenter exits
+    assert _exit_of("US") == ("gateway", "gateway")                         # per marketplace
+    assert fetch._dc_failures == {} and not fetch._residential     # gateway failures never count towards residential
+    _failed("DE", "datacenter")
+    _failed("DE", "datacenter")
+    assert _exit_of("DE") == ("http://res-de", "residential")       # the datacenter tier escalates as before
+    fetch._residential.clear()
+    clock[0] += fetch.config.AMAZON_GATEWAY_PAUSE + 1
+    assert _exit_of("DE") == ("gateway", "gateway")                         # the pause is over
+
+
+@hosted_only
+def test_gateway_session_keeps_cookies_in_the_gateways_own_jar():
+    """A session on "gateway" holds an exit_gateway.Session (no curl jar): the
+    seeded cookies, the locale re-assert and the snapshot handed to the data
+    host's session all go through cookie_list / set_cookie."""
+    sess = fetch._Session(sites.site("DE"), "gateway", egress="gateway")
+    try:
+        assert sess.gateway and getattr(sess.curl, "via_exit_gateway", False)
+        assert ("i18n-prefs", "EUR", ".amazon.de", "/") in sess.cookie_list()
+        assert ("lc-acbde", "de_DE", ".amazon.de", "/") in sess.cookie_list()
+        # Amazon rewrites the locale on the dot-domain and sets a host-only copy
+        sess.curl.cookies.set("lc-acbde", "en_GB", ".amazon.de")
+        sess.curl.cookies.set("lc-acbde", "en_GB", "www.amazon.de")
+        sess.curl.cookies.set("session-id", "SID", ".amazon.de")
+        sess.keep_language()
+        assert {value for name, value, _, _ in sess.cookie_list() if name == "lc-acbde"} == {"de_DE"}
+        assert sess.curl.cookies.header_for("www.amazon.de").count("lc-acbde=de_DE") == 2
+        # the snapshot's dot-domain cookies reach data.amazon.de on another gateway session
+        data = fetch._Session(sites.site("DE"), "gateway", http1=True, egress="gateway")
+        for name, value, domain, path in sess.snapshot_cookies():
+            data.set_cookie(name, value, domain, path)
+        assert "session-id=SID" in data.curl.cookies.header_for("data.amazon.de")
+        assert "lc-acbde=de_DE" in data.curl.cookies.header_for("data.amazon.de")
+        data.close()
+        assert not fetch.is_fallback_render(sess, Resp(text="<html>" + "x" * 60_000))    # session-id is in the jar
+        sess.curl.cookies.clear()
+        assert fetch.is_fallback_render(sess, Resp(text="<html>" + "x" * 60_000))
+    finally:
+        sess.close()

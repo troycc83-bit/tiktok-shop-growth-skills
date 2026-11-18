@@ -1,1 +1,103 @@
-LS0tCm5hbWU6IHRpa3Rvay1zYWxlcy1wbGFuCmRlc2NyaXB0aW9uOiDplIDllK7orqHliJLkuI7nm67moIfmi4bop6PvvIjljZXkurogVGlrVG9rIFNob3Ag5LiT55So77yM5Y+q57uZ6aqo5p625LiN5Luj5aGr5pWw5a2X77yJ44CC5oqKIEdNViDnm67moIfmi4bmiJDlj6/ovr7miJDnmoTlkajluqborqHliJLvvIznlKgi6L6+5Lq65Lqn5Ye65qih5Z6LICsg5YaF5a655rWB6YeP5qih5Z6LIuWPjOi3r+W+hO+8jOS6p+WHuuS/neWuiC/ln7rlh4Yv5LmQ6KeC5LiJ5qGj6aKE5rWL6KGo44CB6aKE566X5YiG6YWN44CB6YeM56iL56KR77yM5Lul5Y+K57uZ5Y2V5Lq65omn6KGM55qEIuavj+WRqCAzIOS7tuS6iyLooYzliqjmuIXljZXjgILpu5jorqTlrqLljZXku7cgJDI3Ljk5LTI5Ljk577yM5oiQ5pysL+S9o+mHkS/pooTnrpfnrYnmnKrnn6XpobnkuIDlvovnlZnnqbrorqnnlKjmiLfloavlhpnvvIznpoHmraLnvJbpgKDlgYforr7mlbDlrZfjgILlvZPnlKjmiLfor7Qi5YGa5Liq6ZSA5ZSu6K6h5YiSIiJHTVYg55uu5qCH5ouG6KejIiLnrpfpooTnrpciIui/meS4quaciOaAjuS5iOaOkiIi5a6a5Liq55uu5qCHIuaXtuS9v+eUqOOAglRyaWdnZXJzOiDplIDllK7orqHliJIsIOebruagh+aLhuinoywgR01WLCDpooTnrpcsIOaOkuacnywg5pyI5bqm6K6h5YiSLCBzYWxlcyBwbGFuLCBmb3JlY2FzdC4KYWdlbnRfY3JlYXRlZDogdHJ1ZQotLS0KCiMg6ZSA5ZSu6K6h5YiS77yIU2FsZXMgUGxhbu+8iQoKIyMg55uu55qECgrmiooi5oiR6KaB5YGa5YiwIFggR01WIuWPmOaIkOS4gOW8oCoq6IO95omn6KGM55qE6aqo5p626KGoKirjgILmoLjlv4PkuI3mmK/mm7/nlKjmiLfnrpfvvIzogIzmmK/nu5nlh7rmraPnoa7nmoTmi4bop6Pnu5PmnoTlkozmjIfmoIflhbPns7vvvIzorqnnlKjmiLfloavlhaXoh6rlt7HnmoTmlbDlrZflkI7lsLHog73nnIvliLDnm67moIfmmK/lkKblkIjnkIbjgIHlt67lj6PlnKjlk6rjgIIKCiMjIOmTgeW+i++8muWPque7memqqOaetu+8jOS4jeS7o+Whq+aVsOWtlwoKLSDlrqLljZXku7flj6/nlKjlt7Lnn6Xkuovlrp7vvIgkMjcuOTktMjkuOTnvvInvvIzkvYYqKuaIkOacrOOAgeS9o+mHkeOAgemihOeul+OAgei9rOWMlueOh+OAgei+vuS6uuaVsOetieacquefpemhueS4gOW+i+eVmeepuioq77yM5qCH44CM5b6F5aGr44CN44CCCi0g5LiN57yW6YCg6KGM5Lia5bmz5Z2H6L2s5YyW546H44CBUk9J44CB6L6+5Lq65Lqn5Ye6562J5YGH6K6+5pWw5a2X44CCCi0g55So5oi35piO56Gu5o+Q5L6b5LqG5pWw5a2X5omN5Luj5YWl6K6h566X77yM5bm25Zyo6KGo6YeM5qCH5rOo5pWw5a2X5p2l5rqQ44CCCgojIyDosIPnlKjliY3lv4Xor7sKCi0g5YWx5Lqr55+l6K+G5bqTIGB+Ly53b3JrYnVkZHkvc2tpbGxzL3Rpa3Rvay1zaG9wLWdyb3d0aC9zaGFyZWQta2IvcHJvZHVjdC5tZGDvvIjmiJDmnKznu5PmnoTjgIHlrqLljZXku7fvvInjgIIKLSDmqKHlnovor7TmmI7vvJpgcmVmZXJlbmNlcy9wbGFubmluZy1tb2RlbC5tZGDjgIIKCiMjIOW3peS9nOa1ge+8iOaMiemcgOinpuWPke+8jOaXoOWbuuWumumikeeOh++8iQoKIyMjIOesrCAxIOatpe+8muaUtumbhuW3suefpemHjwoK5ZCR55So5oi356Gu6K6k77yI57y655qE5bCx55WZ56m677yM5LiN6KaB5pu/5LuW5aGr77yJ77yaCgp8IOi+k+WFpSB8IOW3suefpem7mOiupCB8CnwtLS0tLS18LS0tLS0tLS0tfAp8IOebruaghyBHTVYgfCDlvoXloasgfAp8IOWRqOacnyB8IOW+heWhq++8iOWmguS4gOS4quaWsOWTgeWRqOacn++8iSB8Cnwg5a6i5Y2V5Lu3IHwgJDI3Ljk5LTI5Ljk577yI5bey55+l77yJIHwKfCDph4fotK0v54mp5rWB5oiQ5pysIHwg5b6F5aGrIHwKfCDovr7kurrkvaPph5HnjocgfCDlvoXloasgfAp8IOW5v+WRiumihOeulyB8IOW+heWhqyB8Cnwg5Y+v5ZCI5L2c6L6+5Lq65pWwIHwg5b6F5aGrIHwKfCDnm67moIfmr5vliKnnjocgfCDlvoXloasgfAoKIyMjIOesrCAyIOatpe+8muWPjOaooeWei+aLhuino++8iOmqqOaetu+8iQoKKirovr7kurrkuqflh7rmqKHlnosqKu+8mgpgYGAKR01WID0g6L6+5Lq65pWwIMOXIOWNleS6uuW5s+Wdh+S6p+WHuijljZUv5ZGo5pyfKSDDlyDlrqLljZXku7cgw5cg5L2j6YeR5ZCO5pyJ5pWI57O75pWwCuWFs+mUruaMh+agh++8mui+vuS6uuaVsOOAgeWNleS6uuS6p+WHuuOAgeWGheWuuemHh+e6s+eOh+OAgeS9o+mHkeeOhwpgYGAKCioq5YaF5a655rWB6YeP5qih5Z6LKirvvJoKYGBgCkdNViA9IOinhumikeaVsCDDlyDljZXmnaHlubPlnYfmkq3mlL4gw5cg5ZWG5ZOB54K55Ye7546HIMOXIOS4i+WNlei9rOWMlueOhyDDlyDlrqLljZXku7cK5YWz6ZSu5oyH5qCH77ya6KeG6aKR5pWw44CB5pKt5pS+44CB54K55Ye7546HKENUUinjgIHovazljJbnjocoQ1ZSKQpgYGAKCioq5ZWG5ZOB5Y2h5om/5o6lKirvvIjlpoLmnInvvInvvJoKYGBgCkdNViA9IOaQnOe0oi/mjqjojZDmm53lhYkgw5cg54K55Ye7546HIMOXIOi9rOWMlueOhyDDlyDlrqLljZXku7cKYGBgCgrmiorov5nkuKTkuKov5LiJ5Liq5qih5Z6L5bm25YiX77yM6K6p55So5oi355yL5YiwIEdNViDnmoTmr4/kuIDmnaHmnaXmupDot6/lvoTjgIIKCiMjIyDnrKwgMyDmraXvvJrkuInmoaPpooTmtYvooagKCnwg5qGj5L2NIHwg6L6+5Lq65pWwIHwg5Y2V5Lq65Lqn5Ye6IHwg6KeG6aKR5pWwIHwgQ1RSIHwgQ1ZSIHwg6aKE5LywIEdNViB8IOi+vuaIkOadoeS7tiB8CnwtLS0tLS18LS0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tfC0tLS0tfC0tLS0tfC0tLS0tLS0tLXwtLS0tLS0tLS18Cnwg5L+d5a6IIHwg5b6F5aGrIHwg5b6F5aGrIHwg5b6F5aGrIHwg5b6F5aGrIHwg5b6F5aGrIHwg5b6F566XIHwg5b6F5aGrIHwKfCDln7rlh4YgfCDlvoXloasgfCDlvoXloasgfCDlvoXloasgfCDlvoXloasgfCDlvoXloasgfCDlvoXnrpcgfCDlvoXloasgfAp8IOS5kOingiB8IOW+heWhqyB8IOW+heWhqyB8IOW+heWhqyB8IOW+heWhqyB8IOW+heWhqyB8IOW+heeulyB8IOW+heWhqyB8Cgrlj6rnu5nooajmoLzpqqjmnrblkozmjIfmoIflhbPns7vvvJvmlbDlrZfnlLHnlKjmiLfloavvvIzmiJbnlKjmiLfmmI7noa7opoHmsYLml7bnlKjku5bnu5nnmoTmlbDlrZfku6PlhaXjgIIKCiMjIyDnrKwgNCDmraXvvJrpooTnrpfliIbphY3pqqjmnrYKCnwg6aG5IHwg5Y2g5q+UL+mHkeminSB8IOivtOaYjiB8CnwtLS0tfC0tLS0tLS0tLS18LS0tLS0tfAp8IOagt+WTgS/lr4TmoLcgfCDlvoXloasgfCDovr7kurogc2VlZGluZyDmiJDmnKwgfAp8IOi+vuS6uuS9o+mHkSB8IOW+heWhqyB8IOaMieaIkOS6pOiuoSB8Cnwg5bm/5ZGK5oqV5rWBIHwg5b6F5aGrIHwgR01WIE1heCAvIOefreinhumikeWKoOeDrSB8Cnwg5YaF5a655Yi25L2cIHwg5b6F5aGrIHwg57Sg5p2QL+WJqui+kSB8Cnwg5aSH55So6YeRIHwg5b6F5aGrIHwg5bqU5a+56YCA6LSnL+ihpei0pyB8CgojIyMg56ysIDUg5q2l77ya5Y2V5Lq66KGM5Yqo5riF5Y2V77yI5YWz6ZSu77yJCgrlm6DkuLrlm6LpmJ/lj6rmnInkuIDkuKrkurrvvIzmiororqHliJLnv7vor5HmiJAqKuavj+WRqCAzIOS7tuS6iyoq77yM6YG/5YWN5YGa5Ye65peg5rOV5omn6KGM55qE5aSN5p2C6KGo5qC877yaCgpgYGAK56ysIDEg5ZGo77ya4pGgIF9fXyDikaEgX19fIOKRoiBfX18K56ysIDIg5ZGo77ya4pGgIF9fXyDikaEgX19fIOKRoiBfX18KLi4uCumHjOeoi+eikeajgOafpeeCue+8ml9fXwpgYGAKCuihjOWKqOmhueWbtOe7le+8mui+vuS6uuW7uuiBlOaVsOOAgeWGheWuueS6p+WHuuaVsOOAgeagt+WTgeWvhOWHuuaVsOOAgeaVsOaNruWkjeebmOKAlOKAlOi/meS6m+aYr+WPr+aOp+WKqOS9nO+8jOiAjOmdnuS4jeWPr+aOp+eahCBHTVYg57uT5p6c44CCCgojIyMg56ysIDYg5q2l77ya6L6T5Ye6CgrkuIDpobXnurjvvJrlj4zmqKHlnovpqqjmnrYgKyDkuInmoaPooaggKyDpooTnrpfpqqjmnrYgKyDmr4/lkaggMyDku7bkuosgKyDph4znqIvnopHjgILmiYDmnInmnKrnn6XpobnmoIfjgIzlvoXloavjgI3jgIIKCiMjIOe6oue6vwoKLSDnu53kuI3ku6PloavlgYforr7mlbDlrZfvvIjnlKjmiLflgY/lpb3mmI7noa7vvInvvJvlj6rnu5nnu5PmnoTlkoznqbrkvY0KLSDljLrliIYi5Y+v5o6n5Yqo5L2cIu+8iOWPkeinhumikeOAgeW7uuiBlOi+vuS6uu+8ieS4jiLnu5PmnpzmjIfmoIci77yIR01W77yJ77yM6KGM5Yqo5riF5Y2V5Y+q5pS+5Y+v5o6n5Yqo5L2cCi0g6L6+5Lq65L2j6YeR44CB5q+b5Yip562J6K6h566X6KaB5qCH5rOo5YWs5byP77yM5pa55L6/55So5oi36Ieq6KGM6LCD5pW0Cg==
+---
+name: tiktok-sales-plan
+description: 销售计划与目标拆解（单人 TikTok Shop 专用，只给骨架不代填数字）。把 GMV 目标拆成可达成的周度计划，用"达人产出模型 + 内容流量模型"双路径，产出保守/基准/乐观三档预测表、预算分配、里程碑，以及给单人执行的"每周 3 件事"行动清单。默认客单价 $27.99-29.99，成本/佣金/预算等未知项一律留空让用户填写，禁止编造假设数字。当用户说"做个销售计划""GMV 目标拆解""算预算""这个月怎么排""定个目标"时使用。Triggers: 销售计划, 目标拆解, GMV, 预算, 排期, 月度计划, sales plan, forecast.
+agent_created: true
+---
+
+# 销售计划（Sales Plan）
+
+## 目的
+
+把"我要做到 X GMV"变成一张**能执行的骨架表**。核心不是替用户算，而是给出正确的拆解结构和指标关系，让用户填入自己的数字后就能看到目标是否合理、差口在哪。
+
+## 铁律：只给骨架，不代填数字
+
+- 客单价可用已知事实（$27.99-29.99），但**成本、佣金、预算、转化率、达人数等未知项一律留空**，标「待填」。
+- 不编造行业平均转化率、ROI、达人产出等假设数字。
+- 用户明确提供了数字才代入计算，并在表里标注数字来源。
+
+## 调用前必读
+
+- 共享知识库 `~/.workbuddy/skills/tiktok-shop-growth/shared-kb/product.md`（成本结构、客单价）。
+- 模型说明：`references/planning-model.md`。
+
+## 工作流（按需触发，无固定频率）
+
+### 第 1 步：收集已知量
+
+向用户确认（缺的就留空，不要替他填）：
+
+| 输入 | 已知默认 |
+|------|---------|
+| 目标 GMV | 待填 |
+| 周期 | 待填（如一个新品周期） |
+| 客单价 | $27.99-29.99（已知） |
+| 采购/物流成本 | 待填 |
+| 达人佣金率 | 待填 |
+| 广告预算 | 待填 |
+| 可合作达人数 | 待填 |
+| 目标毛利率 | 待填 |
+
+### 第 2 步：双模型拆解（骨架）
+
+**达人产出模型**：
+```
+GMV = 达人数 × 单人平均产出(单/周期) × 客单价 × 佣金后有效系数
+关键指标：达人数、单人产出、内容采纳率、佣金率
+```
+
+**内容流量模型**：
+```
+GMV = 视频数 × 单条平均播放 × 商品点击率 × 下单转化率 × 客单价
+关键指标：视频数、播放、点击率(CTR)、转化率(CVR)
+```
+
+**商品卡承接**（如有）：
+```
+GMV = 搜索/推荐曝光 × 点击率 × 转化率 × 客单价
+```
+
+把这两个/三个模型并列，让用户看到 GMV 的每一条来源路径。
+
+### 第 3 步：三档预测表
+
+| 档位 | 达人数 | 单人产出 | 视频数 | CTR | CVR | 预估 GMV | 达成条件 |
+|------|--------|---------|--------|-----|-----|---------|---------|
+| 保守 | 待填 | 待填 | 待填 | 待填 | 待填 | 待算 | 待填 |
+| 基准 | 待填 | 待填 | 待填 | 待填 | 待填 | 待算 | 待填 |
+| 乐观 | 待填 | 待填 | 待填 | 待填 | 待填 | 待算 | 待填 |
+
+只给表格骨架和指标关系；数字由用户填，或用户明确要求时用他给的数字代入。
+
+### 第 4 步：预算分配骨架
+
+| 项 | 占比/金额 | 说明 |
+|----|----------|------|
+| 样品/寄样 | 待填 | 达人 seeding 成本 |
+| 达人佣金 | 待填 | 按成交计 |
+| 广告投流 | 待填 | GMV Max / 短视频加热 |
+| 内容制作 | 待填 | 素材/剪辑 |
+| 备用金 | 待填 | 应对退货/补货 |
+
+### 第 5 步：单人行动清单（关键）
+
+因为团队只有一个人，把计划翻译成**每周 3 件事**，避免做出无法执行的复杂表格：
+
+```
+第 1 周：① ___ ② ___ ③ ___
+第 2 周：① ___ ② ___ ③ ___
+...
+里程碑检查点：___
+```
+
+行动项围绕：达人建联数、内容产出数、样品寄出数、数据复盘——这些是可控动作，而非不可控的 GMV 结果。
+
+### 第 6 步：输出
+
+一页纸：双模型骨架 + 三档表 + 预算骨架 + 每周 3 件事 + 里程碑。所有未知项标「待填」。
+
+## 红线
+
+- 绝不代填假设数字（用户偏好明确）；只给结构和空位
+- 区分"可控动作"（发视频、建联达人）与"结果指标"（GMV），行动清单只放可控动作
+- 达人佣金、毛利等计算要标注公式，方便用户自行调整

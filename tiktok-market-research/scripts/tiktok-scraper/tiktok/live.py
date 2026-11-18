@@ -1,1 +1,37 @@
-IiIiTGl2ZSBlbmRwb2ludDogb25lIGFjY291bnQncyBsaXZlIHJvb20uCgpVcHN0cmVhbSAodW5zaWduZWQsIHByb2JlZCAyMDI2LTEwLTA1KToKICAqIC9hcGktbGl2ZS91c2VyL3Jvb20vP3VuaXF1ZUlkPTx1c2VybmFtZT4mc291cmNlVHlwZT01NAogICAgICAtPiB7dXNlciAocm9vbUlkLCBzdGF0dXMgMiA9IGxpdmUgLyA0ID0gb2ZmbGluZSksIHN0YXRzLCBsaXZlUm9vbQogICAgICAodGl0bGUsIHN0YXJ0VGltZSwgdmlld2VyIGNvdW50cywgc3RyZWFtIGxpbmtzKX0uIFN0YXR1cyAxOTg4MTAwNyBpcwogICAgICB0aGUgYW5zd2VyIGZvciBhbiBhY2NvdW50IHRoYXQgZG9lcyBub3QgZXhpc3Qgb3IgaGFzIG5ldmVyIGdvbmUgbGl2ZS4KICAqIGh0dHBzOi8vd2ViY2FzdC50aWt0b2suY29tL3dlYmNhc3Qvcm9vbS9pbmZvLz9haWQ9MTk4OCZyb29tX2lkPTxpZD4KICAgICAgYWRkcyB3aGF0IHRoZSBmaXJzdCBjYWxsIGxhY2tzIHdoaWxlIHRoZSByb29tIGlzIGxpdmU6IGxpa2UgY291bnQsCiAgICAgIGNhdGVnb3J5LCBnYW1lLCBzaG9wcGluZyAvIGFnZS1yZXN0cmljdGlvbiBmbGFncy4KIiIiCmZyb20gLiBpbXBvcnQgcGFyc2VycyBhcyBQCmZyb20gLmZldGNoIGltcG9ydCBXRUJDQVNULCBUaWtUb2tOb3RGb3VuZCwgVGlrVG9rVXBzdHJlYW1FcnJvciwgYXBpCgpOT19MSVZFX1JPT00gPSAxOTg4MTAwNwoKCmRlZiBnZXRfcm9vbSh1c2VyKToKICAgICIiIldoZXRoZXIgdGhlIGFjY291bnQgaXMgbGl2ZSByaWdodCBub3csIGFuZCBpdHMgcm9vbTogdGl0bGUsIHZpZXdlcnMsCiAgICBjYXRlZ29yeSBhbmQgc3RyZWFtIGxpbmtzLiIiIgogICAgdXNlcm5hbWUgPSB1c2VyLmdldCgidXNlcm5hbWUiKQogICAgaWYgbm90IHVzZXJuYW1lOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoImxpdmUgcm9vbXMgYXJlIGxvb2tlZCB1cCBieSB1c2VybmFtZSBvciBwcm9maWxlIGxpbmssIG5vdCBieSBzZWNVaWQiKQogICAgcGF5bG9hZCA9IGFwaSgiL2FwaS1saXZlL3VzZXIvcm9vbS8iLCB7InVuaXF1ZUlkIjogdXNlcm5hbWUsICJzb3VyY2VUeXBlIjogNTR9LCBzaWduZWQ9RmFsc2UsCiAgICAgICAgICAgICAgICAgIG9rPSgwLCBOT19MSVZFX1JPT00pLCBsYWJlbD1mImxpdmUgcm9vbSBvZiBAe3VzZXJuYW1lfSIpCiAgICBkYXRhID0gcGF5bG9hZC5nZXQoImRhdGEiKQogICAgaWYgcGF5bG9hZC5nZXQoInN0YXR1c0NvZGUiKSA9PSBOT19MSVZFX1JPT00gb3Igbm90IGlzaW5zdGFuY2UoZGF0YSwgZGljdCkgb3Igbm90IGRhdGEuZ2V0KCJ1c2VyIik6CiAgICAgICAgcmFpc2UgVGlrVG9rTm90Rm91bmQoZiJAe3VzZXJuYW1lfSBoYXMgbm8gbGl2ZSByb29tICh0aGUgYWNjb3VudCBkb2VzIG5vdCBleGlzdCBvciBoYXMgbmV2ZXIgZ29uZSBsaXZlKSIpCiAgICByb29tX2luZm8gPSBOb25lCiAgICByb29tX2lkID0gKGRhdGEuZ2V0KCJ1c2VyIikgb3Ige30pLmdldCgicm9vbUlkIikKICAgIGlmIHJvb21faWQgYW5kIChkYXRhLmdldCgibGl2ZVJvb20iKSBvciB7fSkuZ2V0KCJzdGF0dXMiKSA9PSAyOgogICAgICAgIHRyeToKICAgICAgICAgICAgcm9vbV9pbmZvID0gYXBpKCIvd2ViY2FzdC9yb29tL2luZm8vIiwgeyJhaWQiOiAxOTg4LCAicm9vbV9pZCI6IHJvb21faWR9LCBzaWduZWQ9RmFsc2UsIGJhc2U9RmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3N0PVdFQkNBU1QsIGxhYmVsPWYibGl2ZSByb29tIHtyb29tX2lkfSIpLmdldCgiZGF0YSIpCiAgICAgICAgZXhjZXB0IFRpa1Rva1Vwc3RyZWFtRXJyb3I6CiAgICAgICAgICAgIHJvb21faW5mbyA9IE5vbmUgICAgICAgICMgdGhlIHJvb20gcGFnZSBkYXRhIGFib3ZlIGlzIGVub3VnaCBvbiBpdHMgb3duCiAgICByZXR1cm4gUC5saXZlX3Jvb20oZGF0YSwgcm9vbV9pbmZvKQo=
+"""Live endpoint: one account's live room.
+
+Upstream (unsigned, probed 2026-10-05):
+  * /api-live/user/room/?uniqueId=<username>&sourceType=54
+      -> {user (roomId, status 2 = live / 4 = offline), stats, liveRoom
+      (title, startTime, viewer counts, stream links)}. Status 19881007 is
+      the answer for an account that does not exist or has never gone live.
+  * https://webcast.tiktok.com/webcast/room/info/?aid=1988&room_id=<id>
+      adds what the first call lacks while the room is live: like count,
+      category, game, shopping / age-restriction flags.
+"""
+from . import parsers as P
+from .fetch import WEBCAST, TikTokNotFound, TikTokUpstreamError, api
+
+NO_LIVE_ROOM = 19881007
+
+
+def get_room(user):
+    """Whether the account is live right now, and its room: title, viewers,
+    category and stream links."""
+    username = user.get("username")
+    if not username:
+        raise ValueError("live rooms are looked up by username or profile link, not by secUid")
+    payload = api("/api-live/user/room/", {"uniqueId": username, "sourceType": 54}, signed=False,
+                  ok=(0, NO_LIVE_ROOM), label=f"live room of @{username}")
+    data = payload.get("data")
+    if payload.get("statusCode") == NO_LIVE_ROOM or not isinstance(data, dict) or not data.get("user"):
+        raise TikTokNotFound(f"@{username} has no live room (the account does not exist or has never gone live)")
+    room_info = None
+    room_id = (data.get("user") or {}).get("roomId")
+    if room_id and (data.get("liveRoom") or {}).get("status") == 2:
+        try:
+            room_info = api("/webcast/room/info/", {"aid": 1988, "room_id": room_id}, signed=False, base=False,
+                            host=WEBCAST, label=f"live room {room_id}").get("data")
+        except TikTokUpstreamError:
+            room_info = None        # the room page data above is enough on its own
+    return P.live_room(data, room_info)

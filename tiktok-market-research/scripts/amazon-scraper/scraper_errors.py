@@ -1,1 +1,42 @@
-IiIiU2hhcmVkIGZhaWx1cmUgdGF4b25vbXkgZm9yIGV2ZXJ5IHNjcmFwZXIgcGFja2FnZS4KCkVhY2ggc2NyYXBlcidzIHRyYW5zcG9ydCAoYDxzaXRlPi9mZXRjaC5weWApIHJhaXNlcyB0aGUgc2FtZSBmb3VyIGtpbmRzIG9mCmVycm9yOyBzdWJjbGFzc2luZyB0aGVzZSBiYXNlcyBsZXRzIE9ORSByb3V0ZSBsYXllciAocm91dGVfZ2x1ZS5weSkgbWFwCnRoZW0gdG8gSFRUUCBmb3IgZXZlcnkgc2l0ZToKCiAgICBVcHN0cmVhbUVycm9yICAgdHJhbnNwb3J0IGZhaWx1cmUgLyA1eHggICAgICAgICAgICAtPiA1MDIsIHJldHJ5YWJsZQogICAgQmxvY2tlZCAgICAgICAgIGFudGktYm90IGNoYWxsZW5nZSAvIDQwMyAvIDQyOSAgICAgLT4gNTAyLCByZXRyeWFibGUgb24gYSBuZXcgZXhpdC9pZGVudGl0eQogICAgQmFkUmVxdWVzdCAgICAgIHVwc3RyZWFtIHJlamVjdGVkIHRoZSBwYXJhbXMgICAgICAgIC0+IDQwMCwgbmV2ZXIgcmV0cmllZAogICAgTm90Rm91bmQgICAgICAgIGVudGl0eSAvIHBhZ2UgZG9lcyBub3QgZXhpc3QgICAgICAgIC0+IDQwNCwgbmV2ZXIgcmV0cmllZAoKQSBzaXRlIGtlZXBzIGl0cyBvd24gbmFtZXMgZm9yIHJlYWRhYmlsaXR5IGFuZCBmb3IgYGV4Y2VwdGAgY2xhdXNlcyBpbnNpZGUKaXRzIHBhY2thZ2U6CgogICAgY2xhc3MgQWxpYmFiYVVwc3RyZWFtRXJyb3IoVXBzdHJlYW1FcnJvcik6IC4uLgogICAgY2xhc3MgQWxpYmFiYUJsb2NrZWQoQWxpYmFiYVVwc3RyZWFtRXJyb3IsIEJsb2NrZWQpOiAuLi4KICAgIGNsYXNzIEFsaWJhYmFCYWRSZXF1ZXN0KEJhZFJlcXVlc3QpOiAuLi4KICAgIGNsYXNzIEFsaWJhYmFOb3RGb3VuZChOb3RGb3VuZCk6IC4uLgoiIiIKCgpjbGFzcyBVcHN0cmVhbUVycm9yKEV4Y2VwdGlvbik6CiAgICAiIiJUcmFuc3BvcnQgZmFpbHVyZSBvciA1eHgg4oCUIHJldHJ5YWJsZS4iIiIKCgpjbGFzcyBCbG9ja2VkKFVwc3RyZWFtRXJyb3IpOgogICAgIiIiQW50aS1ib3QgY2hhbGxlbmdlIC8gNDAzIC8gNDI5IOKAlCByZXRyeWFibGUgYWZ0ZXIgYSBmcmVzaCBleGl0IG9yIGlkZW50aXR5LiIiIgoKCmNsYXNzIFVuYXZhaWxhYmxlKFVwc3RyZWFtRXJyb3IpOgogICAgIiIiVGhlIHNpdGUgaXMgcmVmdXNpbmcgdXMgcmlnaHQgbm93IGFuZCB0aGUgc2NyYXBlciBoYXMgU1RPUFBFRCBjYWxsaW5nCiAgICBpdCAoYSBicmVha2VyIG9yIGEgcGF1c2UpOiBub3RoaW5nIHdhcyBhdHRlbXB0ZWQgZm9yIHRoaXMgcmVxdWVzdC4gVGhlCiAgICByb3V0ZXMgYW5zd2VyIDUwMyB3aXRoIFJldHJ5LUFmdGVyIOKAlCByZXRyeSBpbiBtaW51dGVzLCBub3Qgc2Vjb25kcy4iIiIKICAgIHJldHJ5X2FmdGVyID0gMTIwCgoKY2xhc3MgQmFkUmVxdWVzdChFeGNlcHRpb24pOgogICAgIiIiVXBzdHJlYW0gcmVqZWN0ZWQgdGhlIHBhcmFtcyDigJQgbmV2ZXIgcmV0cmllZC4iIiIKCgpjbGFzcyBOb3RGb3VuZChFeGNlcHRpb24pOgogICAgIiIiRW50aXR5IC8gcGFnZSBkb2VzIG5vdCBleGlzdCDigJQgbmV2ZXIgcmV0cmllZC4iIiIK
+"""Shared failure taxonomy for every scraper package.
+
+Each scraper's transport (`<site>/fetch.py`) raises the same four kinds of
+error; subclassing these bases lets ONE route layer (route_glue.py) map
+them to HTTP for every site:
+
+    UpstreamError   transport failure / 5xx            -> 502, retryable
+    Blocked         anti-bot challenge / 403 / 429     -> 502, retryable on a new exit/identity
+    BadRequest      upstream rejected the params        -> 400, never retried
+    NotFound        entity / page does not exist        -> 404, never retried
+
+A site keeps its own names for readability and for `except` clauses inside
+its package:
+
+    class AlibabaUpstreamError(UpstreamError): ...
+    class AlibabaBlocked(AlibabaUpstreamError, Blocked): ...
+    class AlibabaBadRequest(BadRequest): ...
+    class AlibabaNotFound(NotFound): ...
+"""
+
+
+class UpstreamError(Exception):
+    """Transport failure or 5xx — retryable."""
+
+
+class Blocked(UpstreamError):
+    """Anti-bot challenge / 403 / 429 — retryable after a fresh exit or identity."""
+
+
+class Unavailable(UpstreamError):
+    """The site is refusing us right now and the scraper has STOPPED calling
+    it (a breaker or a pause): nothing was attempted for this request. The
+    routes answer 503 with Retry-After — retry in minutes, not seconds."""
+    retry_after = 120
+
+
+class BadRequest(Exception):
+    """Upstream rejected the params — never retried."""
+
+
+class NotFound(Exception):
+    """Entity / page does not exist — never retried."""

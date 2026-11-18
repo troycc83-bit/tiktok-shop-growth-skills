@@ -1,1 +1,33 @@
-IiIiVXNlIHRoZSBzY3JhcGVyIHN0cmFpZ2h0IGZyb20gUHl0aG9uIOKAlCBubyBzZXJ2ZXIgbmVlZGVkLgoKICAgIHB5dGhvbiBtYWluLnB5CgpFdmVyeSBmdW5jdGlvbiByZXR1cm5zIHRoZSBzYW1lIEpTT04gdGhlIEFQSSBkb2VzOyByZXN1bHRzIGFyZSB3cml0dGVuIHRvCm91dHB1dC8qLmpzb24uCiIiIgppbXBvcnQganNvbgppbXBvcnQgb3MKCmZyb20gYW1hem9uLnByb2R1Y3RzIGltcG9ydCBkZXRhaWxzCmZyb20gYW1hem9uLnJhbmtpbmdzIGltcG9ydCBiZXN0c2VsbGVycwpmcm9tIGFtYXpvbi5zZWFyY2ggaW1wb3J0IHNlYXJjaAoKb3MubWFrZWRpcnMoIm91dHB1dCIsIGV4aXN0X29rPVRydWUpCgoKZGVmIHNhdmUobmFtZSwgZGF0YSk6CiAgICBwYXRoID0gb3MucGF0aC5qb2luKCJvdXRwdXQiLCBuYW1lKQogICAgd2l0aCBvcGVuKHBhdGgsICJ3IikgYXMgZjoKICAgICAgICBqc29uLmR1bXAoZGF0YSwgZiwgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MikKICAgIHByaW50KGYic2F2ZWQge3BhdGh9IikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgIyBhbiBBU0lOIG9yIGFueSBhbWF6b24uPHRsZD4gcHJvZHVjdCBsaW5rOyBjb3VudHJ5IHBpY2tzIHRoZSBtYXJrZXRwbGFjZQogICAgc2F2ZSgicHJvZHVjdF9CMDdRU0ZIVDI3Lmpzb24iLCBkZXRhaWxzKCJCMDdRU0ZIVDI3IiwgY291bnRyeT0iVVMiKSkKCiAgICAjIHNvcnQsIHByaWNlLCBicmFuZCwgUHJpbWUsIHJhdGluZyBhbmQgZGVhbCBmaWx0ZXJzCiAgICBzYXZlKCJzZWFyY2hfcmFzcGJlcnJ5X3BpLmpzb24iLCBzZWFyY2goInJhc3BiZXJyeSBwaSIsIGNvdW50cnk9IlVTIiwgc29ydD0iYmVzdF9zZWxsZXJzIikpCgogICAgIyB0b3AgNTAgb2YgYSBiZXN0IHNlbGxlcnMgbGlzdCAocGFnZT0yIGZvciA1MS0xMDApCiAgICBzYXZlKCJiZXN0X3NlbGxlcnNfZWxlY3Ryb25pY3MuanNvbiIsIGJlc3RzZWxsZXJzKCJlbGVjdHJvbmljcyIsIGNvdW50cnk9IlVTIikpCg==
+"""Use the scraper straight from Python — no server needed.
+
+    python main.py
+
+Every function returns the same JSON the API does; results are written to
+output/*.json.
+"""
+import json
+import os
+
+from amazon.products import details
+from amazon.rankings import bestsellers
+from amazon.search import search
+
+os.makedirs("output", exist_ok=True)
+
+
+def save(name, data):
+    path = os.path.join("output", name)
+    with open(path, "w") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"saved {path}")
+
+
+if __name__ == "__main__":
+    # an ASIN or any amazon.<tld> product link; country picks the marketplace
+    save("product_B07QSFHT27.json", details("B07QSFHT27", country="US"))
+
+    # sort, price, brand, Prime, rating and deal filters
+    save("search_raspberry_pi.json", search("raspberry pi", country="US", sort="best_sellers"))
+
+    # top 50 of a best sellers list (page=2 for 51-100)
+    save("best_sellers_electronics.json", bestsellers("electronics", country="US"))

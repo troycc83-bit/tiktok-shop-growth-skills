@@ -1,1 +1,80 @@
-IiIiUGVyLXRocmVhZCBIVFRQIHNlc3Npb25zOiB3aGVyZSBhIHNpdGUga2VlcHMgdGhlbSBhbmQgaG93IGl0IGRyb3BzIHRoZW0uCgpUaGUgc3RvcmUgaXRzZWxmIHN0YXlzIGluIHRoZSBzaXRlIG1vZHVsZSAoYF9sb2NhbCA9IHRocmVhZGluZy5sb2NhbCgpYCBpbiBpdHMKZmV0Y2gucHkpIGFuZCBpcyBwYXNzZWQgaW4gb24gZXZlcnkgY2FsbCwgc28gdGhlIHNpdGUncyB0ZXN0cyBjYW4gc3RpbGwgcmVhZCwKcmVwbGFjZSBhbmQgcmVzZXQgaXQuIiIiCmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IE9yZGVyZWREaWN0CgoKZGVmIGNsb3NlX3F1aWV0bHkoc2Vzcyk6CiAgICAiIiJDbG9zZSBhIHNlc3Npb247IGEgc2Vzc2lvbiB0aGF0IGZhaWxzIHRvIGNsb3NlIGlzIHNpbXBseSBsZXQgZ28uIiIiCiAgICBpZiBzZXNzIGlzIG5vdCBOb25lOgogICAgICAgIHRyeToKICAgICAgICAgICAgc2Vzcy5jbG9zZSgpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwoKCmRlZiBkcm9wKGxvY2FsKToKICAgICIiIkNsb3NlIHRoZSB0aHJlYWQncyBzZXNzaW9uIHNvIGEgcG9pc29uZWQgY29ubmVjdGlvbiAob3IgZXhpdCkgZGllcy4iIiIKICAgIHNlc3MgPSBnZXRhdHRyKGxvY2FsLCAic2Vzc2lvbiIsIE5vbmUpCiAgICBsb2NhbC5zZXNzaW9uID0gTm9uZQogICAgY2xvc2VfcXVpZXRseShzZXNzKQoKCmRlZiB0aHJlYWRfc3RvcmUobG9jYWwpOgogICAgIiIiVGhlIHRocmVhZCdzIHtrZXk6IHNlc3Npb259IHN0b3JlLCBjcmVhdGVkIG9uIGZpcnN0IHVzZS4iIiIKICAgIHN0b3JlID0gZ2V0YXR0cihsb2NhbCwgInNlc3Npb25zIiwgTm9uZSkKICAgIGlmIHN0b3JlIGlzIE5vbmU6CiAgICAgICAgc3RvcmUgPSBsb2NhbC5zZXNzaW9ucyA9IE9yZGVyZWREaWN0KCkKICAgIHJldHVybiBzdG9yZQoKCmRlZiBkcm9wX2tleWVkKHN0b3JlLCBrZXkpOgogICAgIiIiQ2xvc2UgYW5kIGZvcmdldCB0aGUgc2Vzc2lvbiBrZXB0IHVuZGVyIGBrZXlgLiIiIgogICAgY2xvc2VfcXVpZXRseShzdG9yZS5wb3Aoa2V5LCBOb25lKSkKCgpkZWYga2V5ZWQoc3RvcmUsIGtleSwgYnVpbGQsIGNhcCk6CiAgICAiIiJUaGUgc2Vzc2lvbiBrZXB0IHVuZGVyIGBrZXlgLCBidWlsdCBvbiBmaXJzdCB1c2UuIFRoZSBzdG9yZSBob2xkcyB0aGUKICAgIGBjYXBgIG1vc3QgcmVjZW50bHkgdXNlZCBzZXNzaW9uczsgb2xkZXIgb25lcyBhcmUgY2xvc2VkLiIiIgogICAgc2VzcyA9IHN0b3JlLmdldChrZXkpCiAgICBpZiBzZXNzIGlzIE5vbmU6CiAgICAgICAgc2VzcyA9IGJ1aWxkKCkKICAgICAgICBzdG9yZVtrZXldID0gc2VzcwogICAgICAgIHdoaWxlIGxlbihzdG9yZSkgPiBjYXA6CiAgICAgICAgICAgIF8sIG9sZCA9IHN0b3JlLnBvcGl0ZW0obGFzdD1GYWxzZSkKICAgICAgICAgICAgY2xvc2VfcXVpZXRseShvbGQpCiAgICBlbHNlOgogICAgICAgIHN0b3JlLm1vdmVfdG9fZW5kKGtleSkKICAgIHJldHVybiBzZXNzCgoKZGVmIGN1cmxfc2Vzc2lvbihpbXBlcnNvbmF0ZSwgcHJveHk9Tm9uZSwgcHJveHlfZm49Tm9uZSwgYWNjZXB0X2xhbmd1YWdlPU5vbmUpOgogICAgIiIiQSBuZXcgY3VybF9jZmZpIHNlc3Npb24uIGBwcm94eWAgaXMgYSBVUkwgdGhlIGNhbGxlciBhbHJlYWR5IGhhczsKICAgIGBwcm94eV9mbmAgaXMgYXNrZWQgZm9yIG9uZSBhZnRlciB0aGUgc2Vzc2lvbiBleGlzdHMgKHRoZSBvcmRlciBzb21lIHNpdGVzCiAgICBjb3VudCBvbikuIGBhY2NlcHRfbGFuZ3VhZ2UocHJveHkpYCBuYW1lcyB0aGUgbGFuZ3VhZ2UgdGhlIHNlc3Npb24gc2VuZHMuIiIiCiAgICBmcm9tIGN1cmxfY2ZmaSBpbXBvcnQgcmVxdWVzdHMgYXMgY3VybF9yZXF1ZXN0cwogICAgc2VzcyA9IGN1cmxfcmVxdWVzdHMuU2Vzc2lvbihpbXBlcnNvbmF0ZT1pbXBlcnNvbmF0ZSkKICAgIGlmIHByb3h5X2ZuIGlzIG5vdCBOb25lOgogICAgICAgIHByb3h5ID0gcHJveHlfZm4oKQogICAgaWYgcHJveHk6CiAgICAgICAgc2Vzcy5wcm94aWVzID0geyJodHRwIjogcHJveHksICJodHRwcyI6IHByb3h5fQogICAgaWYgYWNjZXB0X2xhbmd1YWdlIGlzIG5vdCBOb25lOgogICAgICAgIHNlc3MuaGVhZGVyc1siYWNjZXB0LWxhbmd1YWdlIl0gPSBhY2NlcHRfbGFuZ3VhZ2UocHJveHkpCiAgICByZXR1cm4gc2VzcwoKCmRlZiBzcGVha2luZyhzZXNzLCBsYW5ndWFnZSk6CiAgICAiIiJUaGUgc2Vzc2lvbiwgYW5ub3VuY2luZyBgbGFuZ3VhZ2VgIGFzIGl0cyBBY2NlcHQtTGFuZ3VhZ2UuIiIiCiAgICBzZXNzLmhlYWRlcnNbImFjY2VwdC1sYW5ndWFnZSJdID0gbGFuZ3VhZ2UKICAgIHJldHVybiBzZXNzCgoKZGVmIHRocmVhZF9zZXNzaW9uKGxvY2FsLCBidWlsZCk6CiAgICAiIiJUaGUgdGhyZWFkJ3Mgc2Vzc2lvbiwgYnVpbHQgb24gZmlyc3QgdXNlLiIiIgogICAgc2VzcyA9IGdldGF0dHIobG9jYWwsICJzZXNzaW9uIiwgTm9uZSkKICAgIGlmIHNlc3MgaXMgTm9uZToKICAgICAgICBzZXNzID0gYnVpbGQoKQogICAgICAgIGxvY2FsLnNlc3Npb24gPSBzZXNzCiAgICByZXR1cm4gc2Vzcwo=
+"""Per-thread HTTP sessions: where a site keeps them and how it drops them.
+
+The store itself stays in the site module (`_local = threading.local()` in its
+fetch.py) and is passed in on every call, so the site's tests can still read,
+replace and reset it."""
+from collections import OrderedDict
+
+
+def close_quietly(sess):
+    """Close a session; a session that fails to close is simply let go."""
+    if sess is not None:
+        try:
+            sess.close()
+        except Exception:
+            pass
+
+
+def drop(local):
+    """Close the thread's session so a poisoned connection (or exit) dies."""
+    sess = getattr(local, "session", None)
+    local.session = None
+    close_quietly(sess)
+
+
+def thread_store(local):
+    """The thread's {key: session} store, created on first use."""
+    store = getattr(local, "sessions", None)
+    if store is None:
+        store = local.sessions = OrderedDict()
+    return store
+
+
+def drop_keyed(store, key):
+    """Close and forget the session kept under `key`."""
+    close_quietly(store.pop(key, None))
+
+
+def keyed(store, key, build, cap):
+    """The session kept under `key`, built on first use. The store holds the
+    `cap` most recently used sessions; older ones are closed."""
+    sess = store.get(key)
+    if sess is None:
+        sess = build()
+        store[key] = sess
+        while len(store) > cap:
+            _, old = store.popitem(last=False)
+            close_quietly(old)
+    else:
+        store.move_to_end(key)
+    return sess
+
+
+def curl_session(impersonate, proxy=None, proxy_fn=None, accept_language=None):
+    """A new curl_cffi session. `proxy` is a URL the caller already has;
+    `proxy_fn` is asked for one after the session exists (the order some sites
+    count on). `accept_language(proxy)` names the language the session sends."""
+    from curl_cffi import requests as curl_requests
+    sess = curl_requests.Session(impersonate=impersonate)
+    if proxy_fn is not None:
+        proxy = proxy_fn()
+    if proxy:
+        sess.proxies = {"http": proxy, "https": proxy}
+    if accept_language is not None:
+        sess.headers["accept-language"] = accept_language(proxy)
+    return sess
+
+
+def speaking(sess, language):
+    """The session, announcing `language` as its Accept-Language."""
+    sess.headers["accept-language"] = language
+    return sess
+
+
+def thread_session(local, build):
+    """The thread's session, built on first use."""
+    sess = getattr(local, "session", None)
+    if sess is None:
+        sess = build()
+        local.session = sess
+    return sess
